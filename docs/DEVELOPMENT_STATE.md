@@ -36,3 +36,8 @@
 
 ## 注意(2026-10-22)
 リポジトリ minkohno-hub/spice-herb-master は **public** と確認。全文(data/source/)は private 化が確認できるまで作成・pushしない。
+
+## 補足資料(2026-10-22)
+Googleドライブのフォルダ「スパイスハーブ検定」に同種のスクリーンショットがある(PNG、IMG_xxxx.PNG形式。全枚数は未集計)。
+扱い: 補足資料。不足・判読不能があるときのみ参照する(D-007)。
+GitHub 保存済み: data/source/images/ に147枚(リポジトリは private 確認済み)。
