@@ -3,5 +3,3 @@ dist/
 public/data/
 *.log
 
-# 全文の原文層。リポジトリがprivateになるまでpushしない(docs/DECISIONS.md D-001a)
-data/source/
