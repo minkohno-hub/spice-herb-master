@@ -1,0 +1,2162 @@
+[
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sav-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 sav-1 から生成"
+   }
+  ],
+  "id": "q4-sav-1",
+  "format": "single-choice",
+  "prompt": "「豆のハーブ」とも呼ばれるハーブは?",
+  "choices": [
+   "サボリー",
+   "ホーリーバジル",
+   "ジュニパーベリー",
+   "5〜9年"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "タイムに似るがより鮮烈な香りで、豆との相性がよく「豆のハーブ」と呼ばれる。エルブドプロバンスやブーケガルニにも使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "jun-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 jun-1 から生成"
+   }
+  ],
+  "id": "q1-jun-1",
+  "format": "one-answer",
+  "prompt": "蒸留酒ジンの香りづけのスパイスとして有名なのは?",
+  "acceptedAnswers": [
+   "ジュニパーベリー"
+  ],
+  "explanation": "ウッディーでスパイシーな香りで、ジビエ料理の臭み消しや蒸留酒ジンの香りづけに使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "jun-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 jun-1 から生成"
+   }
+  ],
+  "id": "q4-jun-1",
+  "format": "single-choice",
+  "prompt": "蒸留酒ジンの香りづけのスパイスとして有名なのは?",
+  "choices": [
+   "アリシン",
+   "十薬",
+   "サボリー",
+   "ジュニパーベリー"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ウッディーでスパイシーな香りで、ジビエ料理の臭み消しや蒸留酒ジンの香りづけに使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sum-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sum-1 から生成"
+   }
+  ],
+  "id": "q1-sum-1",
+  "format": "one-answer",
+  "prompt": "ミックススパイス「ザーター」の原料で、酸味と渋みのある赤いスパイスは?",
+  "acceptedAnswers": [
+   "スマック"
+  ],
+  "explanation": "酸味と渋みのある赤いスパイスで、中近東で酸味づけに使う。赤じそふりかけを思わせる色と味で、ザーターの原料。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sum-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sum-1 から生成"
+   }
+  ],
+  "id": "q4-sum-1",
+  "format": "single-choice",
+  "prompt": "ミックススパイス「ザーター」の原料で、酸味と渋みのある赤いスパイスは?",
+  "choices": [
+   "スモーリッジ",
+   "スマック",
+   "アサフェティダ",
+   "ソレル"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "酸味と渋みのある赤いスパイスで、中近東で酸味づけに使う。赤じそふりかけを思わせる色と味で、ザーターの原料。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cel-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 cel-1 から生成"
+   }
+  ],
+  "id": "q1-cel-1",
+  "format": "one-answer",
+  "prompt": "スパイスとして用いられるセロリーの種子は何という種のもの?",
+  "acceptedAnswers": [
+   "スモーリッジ"
+  ],
+  "explanation": "強い爽やかな香りとほろ苦さがあり、野菜の青臭さを抑える。スパイスに使うのは野生種スモーリッジの種子。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cel-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 cel-1 から生成"
+   }
+  ],
+  "id": "q4-cel-1",
+  "format": "single-choice",
+  "prompt": "スパイスとして用いられるセロリーの種子は何という種のもの?",
+  "choices": [
+   "スモーリッジ",
+   "フェネグリーク",
+   "ソレル",
+   "スマック"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "強い爽やかな香りとほろ苦さがあり、野菜の青臭さを抑える。スパイスに使うのは野生種スモーリッジの種子。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sor-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sor-1 から生成"
+   }
+  ],
+  "id": "q1-sor-1",
+  "format": "one-answer",
+  "prompt": "フランス名をオゼイユという、強い酸味を持つタデ科のハーブは?",
+  "acceptedAnswers": [
+   "ソレル"
+  ],
+  "explanation": "爽やかで強い酸味とほろ苦さがあり、フランス料理でピューレやソースに使われる。白い斑点のあるフレンチソレル(バックラーリーフソレル)もある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sor-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sor-1 から生成"
+   }
+  ],
+  "id": "q4-sor-1",
+  "format": "single-choice",
+  "prompt": "フランス名をオゼイユという、強い酸味を持つタデ科のハーブは?",
+  "choices": [
+   "ソレル",
+   "蕾",
+   "スモーリッジ",
+   "スマック"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "爽やかで強い酸味とほろ苦さがあり、フランス料理でピューレやソースに使われる。白い斑点のあるフレンチソレル(バックラーリーフソレル)もある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tad-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tad-1 から生成"
+   }
+  ],
+  "id": "q1-tad-1",
+  "format": "one-answer",
+  "prompt": "鮎料理に欠かせない薬味として有名な、たでの葉を使った酢は?",
+  "acceptedAnswers": [
+   "たで酢"
+  ],
+  "explanation": "食用は主にやなぎたでとその変種(紅たで・青たで)。青たでは「鮎たで」とも呼ばれ、たで酢は鮎料理に欠かせない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tad-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tad-1 から生成"
+   }
+  ],
+  "id": "q4-tad-1",
+  "format": "single-choice",
+  "prompt": "鮎料理に欠かせない薬味として有名な、たでの葉を使った酢は?",
+  "choices": [
+   "タマリンド",
+   "十薬",
+   "たで酢",
+   "12〜15度"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "食用は主にやなぎたでとその変種(紅たで・青たで)。青たでは「鮎たで」とも呼ばれ、たで酢は鮎料理に欠かせない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tam-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tam-1 から生成"
+   }
+  ],
+  "id": "q1-tam-1",
+  "format": "one-answer",
+  "prompt": "さやの中の果肉を酸味づけに使うマメ科のスパイスは?",
+  "acceptedAnswers": [
+   "タマリンド"
+  ],
+  "explanation": "さやの中の果肉を使い、フルーツのような酸味で南インドや東南アジアの料理に甘酸っぱさを加える。チャツネやソースの原料にもなる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tam-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tam-1 から生成"
+   }
+  ],
+  "id": "q4-tam-1",
+  "format": "single-choice",
+  "prompt": "さやの中の果肉を酸味づけに使うマメ科のスパイスは?",
+  "choices": [
+   "マーシュ",
+   "たで酢",
+   "タマリンド",
+   "十薬"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "さやの中の果肉を使い、フルーツのような酸味で南インドや東南アジアの料理に甘酸っぱさを加える。チャツネやソースの原料にもなる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "dok-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dok-1 から生成"
+   }
+  ],
+  "id": "q1-dok-1",
+  "format": "one-answer",
+  "prompt": "生薬としてのどくだみの名前は?",
+  "acceptedAnswers": [
+   "十薬"
+  ],
+  "explanation": "強い香りを持ち、ベトナム料理に使われ、日本では乾燥葉をお茶にする。生薬としては十薬と呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "dok-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dok-1 から生成"
+   }
+  ],
+  "id": "q4-dok-1",
+  "format": "single-choice",
+  "prompt": "生薬としてのどくだみの名前は?",
+  "choices": [
+   "ラセラヌー",
+   "たで酢",
+   "十薬",
+   "タマリンド"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "強い香りを持ち、ベトナム料理に使われ、日本では乾燥葉をお茶にする。生薬としては十薬と呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "pan-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 pan-1 から生成"
+   }
+  ],
+  "id": "q1-pan-1",
+  "format": "one-answer",
+  "prompt": "炊きたてごはんのような香りを持つ、タコノキ科の葉は?",
+  "acceptedAnswers": [
+   "パンダンリーフ"
+  ],
+  "explanation": "炊きたてごはんのような甘く強い香りで、東南アジアの米料理やデザートに使う。スリランカではランペ、タイではバイトーイと呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "pan-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 pan-1 から生成"
+   }
+  ],
+  "id": "q4-pan-1",
+  "format": "single-choice",
+  "prompt": "炊きたてごはんのような香りを持つ、タコノキ科の葉は?",
+  "choices": [
+   "3〜10種類",
+   "ターメリック",
+   "パンダンリーフ",
+   "フェネグリーク"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "炊きたてごはんのような甘く強い香りで、東南アジアの米料理やデザートに使う。スリランカではランペ、タイではバイトーイと呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "fen-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fen-1 から生成"
+   }
+  ],
+  "id": "q1-fen-1",
+  "format": "one-answer",
+  "prompt": "メイプルシロップに似た香りを持つマメ科の種子は?",
+  "acceptedAnswers": [
+   "フェネグリーク"
+  ],
+  "explanation": "種子はメイプルシロップに似た甘い香りと強い苦みを持ち、スタータースパイスとして使う。苦みがあるので量は控えめに。葉はカスリメティと呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "fen-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fen-1 から生成"
+   }
+  ],
+  "id": "q4-fen-1",
+  "format": "single-choice",
+  "prompt": "メイプルシロップに似た香りを持つマメ科の種子は?",
+  "choices": [
+   "パンダンリーフ",
+   "フェネグリーク",
+   "ラセラヌー",
+   "カルダモン"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "種子はメイプルシロップに似た甘い香りと強い苦みを持ち、スタータースパイスとして使う。苦みがあるので量は控えめに。葉はカスリメティと呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "mac-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mac-1 から生成"
+   }
+  ],
+  "id": "q1-mac-1",
+  "format": "one-answer",
+  "prompt": "英名を「コーンサラダ」というハーブは?",
+  "acceptedAnswers": [
+   "マーシュ"
+  ],
+  "explanation": "丸い卵形の葉とクセのない風味。英名コーンサラダはトウモロコシ畑近くに自生したことに由来する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "mac-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mac-1 から生成"
+   }
+  ],
+  "id": "q4-mac-1",
+  "format": "single-choice",
+  "prompt": "英名を「コーンサラダ」というハーブは?",
+  "choices": [
+   "マンゴーパウダー",
+   "グリチルリチン",
+   "みつばち",
+   "マーシュ"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "丸い卵形の葉とクセのない風味。英名コーンサラダはトウモロコシ畑近くに自生したことに由来する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "amc-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amc-1 から生成"
+   }
+  ],
+  "id": "q1-amc-1",
+  "format": "one-answer",
+  "prompt": "チャートマサラの基本となるスパイスは?",
+  "acceptedAnswers": [
+   "マンゴーパウダー"
+  ],
+  "explanation": "未熟なマンゴーを乾燥・粉末にしたもので、レモンのような強い酸味。チャートマサラの原料。インド名アムチュール。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "amc-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amc-1 から生成"
+   }
+  ],
+  "id": "q4-amc-1",
+  "format": "single-choice",
+  "prompt": "チャートマサラの基本となるスパイスは?",
+  "choices": [
+   "みつばち",
+   "マンゴーパウダー",
+   "釘",
+   "マーシュ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "未熟なマンゴーを乾燥・粉末にしたもので、レモンのような強い酸味。チャートマサラの原料。インド名アムチュール。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "lb-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 lb-1 から生成"
+   }
+  ],
+  "id": "q1-lb-1",
+  "format": "one-answer",
+  "prompt": "レモンバームの別名「メリッサ」の意味は?",
+  "acceptedAnswers": [
+   "みつばち"
+  ],
+  "explanation": "おだやかなレモンのような香り。学名でもあるメリッサは「みつばち」の意味で、みつばちを集める植物として栽培された。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "lb-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 lb-1 から生成"
+   }
+  ],
+  "id": "q4-lb-1",
+  "format": "single-choice",
+  "prompt": "レモンバームの別名「メリッサ」の意味は?",
+  "choices": [
+   "みつばち",
+   "マンゴーパウダー",
+   "マーシュ",
+   "イギリス"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "おだやかなレモンのような香り。学名でもあるメリッサは「みつばち」の意味で、みつばちを集める植物として栽培された。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "lp-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 lp-1 から生成"
+   }
+  ],
+  "id": "q1-lp-1",
+  "format": "one-answer",
+  "prompt": "沖縄で「島こしょう」とも呼ばれるコショウ科のスパイスは?",
+  "acceptedAnswers": [
+   "ロングペッパー"
+  ],
+  "explanation": "細長い棒状の果実をつけるこしょうの近縁種。沖縄では島こしょう・ヒバーチと呼ばれ、沖縄そばの薬味に使う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "lp-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 lp-1 から生成"
+   }
+  ],
+  "id": "q4-lp-1",
+  "format": "single-choice",
+  "prompt": "沖縄で「島こしょう」とも呼ばれるコショウ科のスパイスは?",
+  "choices": [
+   "ソレル",
+   "カトルエピス",
+   "ロングペッパー",
+   "バニリン"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "細長い棒状の果実をつけるこしょうの近縁種。沖縄では島こしょう・ヒバーチと呼ばれ、沖縄そばの薬味に使う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "qe-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 qe-1 から生成"
+   }
+  ],
+  "id": "q1-qe-1",
+  "format": "one-answer",
+  "prompt": "4つのスパイスを混ぜる、フランス料理の伝統的なミックススパイスは?",
+  "acceptedAnswers": [
+   "カトルエピス"
+  ],
+  "explanation": "古典的なフランス料理で肉料理やパテ・テリーヌに使うミックススパイスで、ナツメッグ・クローブ・シナモン・ブラックペッパー・ジンジャーなどから4つを混ぜる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "qe-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 qe-1 から生成"
+   }
+  ],
+  "id": "q4-qe-1",
+  "format": "single-choice",
+  "prompt": "4つのスパイスを混ぜる、フランス料理の伝統的なミックススパイスは?",
+  "choices": [
+   "バニリン",
+   "ロングペッパー",
+   "インディアンベイリーフ",
+   "カトルエピス"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "古典的なフランス料理で肉料理やパテ・テリーヌに使うミックススパイスで、ナツメッグ・クローブ・シナモン・ブラックペッパー・ジンジャーなどから4つを混ぜる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "pp-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 pp-1 から生成"
+   }
+  ],
+  "id": "q1-pp-1",
+  "format": "one-answer",
+  "prompt": "5種類のスパイスをホールで混ぜる、ベンガル地方のミックススパイスは?",
+  "acceptedAnswers": [
+   "パンチフォロン"
+  ],
+  "explanation": "クミン・ニゲラ・フェネグリーク・マスタードシード・フェンネルシードの5種をホールのまま混ぜた、インド東部ベンガル地方の代表的ミックススパイス。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "pp-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 pp-1 から生成"
+   }
+  ],
+  "id": "q4-pp-1",
+  "format": "single-choice",
+  "prompt": "5種類のスパイスをホールで混ぜる、ベンガル地方のミックススパイスは?",
+  "choices": [
+   "ラセラヌー",
+   "パンチフォロン",
+   "ミンテ",
+   "スペアミント"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "クミン・ニゲラ・フェネグリーク・マスタードシード・フェンネルシードの5種をホールのまま混ぜた、インド東部ベンガル地方の代表的ミックススパイス。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "rh-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 rh-1 から生成"
+   }
+  ],
+  "id": "q1-rh-1",
+  "format": "one-answer",
+  "prompt": "「店の一番」の意味とされる、モロッコのミックススパイスは?",
+  "acceptedAnswers": [
+   "ラセラヌー"
+  ],
+  "explanation": "20種類以上のスパイスやハーブを混ぜたモロッコのミックススパイスで、名前は「店の一番」の意味とされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "rh-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 rh-1 から生成"
+   }
+  ],
+  "id": "q4-rh-1",
+  "format": "single-choice",
+  "prompt": "「店の一番」の意味とされる、モロッコのミックススパイスは?",
+  "choices": [
+   "ラセラヌー",
+   "17世紀初頭",
+   "エルブドプロバンス",
+   "パンチフォロン"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "20種類以上のスパイスやハーブを混ぜたモロッコのミックススパイスで、名前は「店の一番」の意味とされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "anise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   }
+  ],
+  "id": "qfb-family-anise-profile",
+  "format": "fill-blank",
+  "prompt": "アニスの科名は（　）である。",
+  "acceptedAnswers": [
+   "セリ科"
+  ],
+  "explanation": "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "anise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   }
+  ],
+  "id": "qfb-level-anise-profile",
+  "format": "fill-blank",
+  "prompt": "アニスは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2"
+  ],
+  "explanation": "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "anise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   }
+  ],
+  "id": "qsc-part-anise-profile",
+  "format": "single-choice",
+  "prompt": "アニスの利用部位はどれか。",
+  "choices": [
+   "花の雌しべ",
+   "葉",
+   "根",
+   "種子(植物学上は果実)"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "anise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-anise-profile",
+  "format": "single-choice",
+  "prompt": "アニスの原産地はどれか。",
+  "choices": [
+   "ヨーロッパ、西アジアといわれる",
+   "地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)",
+   "地中海東部沿岸、エジプト",
+   "熱帯アメリカ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "anise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   }
+  ],
+  "id": "qti-alias-anise-profile",
+  "format": "term-input",
+  "prompt": "アニスの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "茴芹(ういきん)",
+   "茴芹"
+  ],
+  "explanation": "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "anise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   }
+  ],
+  "id": "qti-rev-anise-profile",
+  "format": "term-input",
+  "prompt": "別名「茴芹」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "アニス"
+  ],
+  "explanation": "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-allspice",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "allspice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   }
+  ],
+  "id": "qfb-family-allspice-profile",
+  "format": "fill-blank",
+  "prompt": "オールスパイスの科名は（　）である。",
+  "acceptedAnswers": [
+   "フトモモ科"
+  ],
+  "explanation": "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-allspice",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "allspice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   }
+  ],
+  "id": "qfb-level-allspice-profile",
+  "format": "fill-blank",
+  "prompt": "オールスパイスは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2"
+  ],
+  "explanation": "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-allspice",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "allspice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   }
+  ],
+  "id": "qsc-part-allspice-profile",
+  "format": "single-choice",
+  "prompt": "オールスパイスの利用部位はどれか。",
+  "choices": [
+   "種子、葉",
+   "未熟な果実",
+   "蕾",
+   "葉"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-allspice",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "allspice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-allspice-profile",
+  "format": "single-choice",
+  "prompt": "オールスパイスの原産地はどれか。",
+  "choices": [
+   "中央アジア、温帯地域",
+   "地中海沿岸、西アジア",
+   "アンティル諸島(西インド諸島)、中央アメリカ",
+   "地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-allspice",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "allspice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   }
+  ],
+  "id": "qti-alias-allspice-profile",
+  "format": "term-input",
+  "prompt": "オールスパイスの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "百味こしょう",
+   "三香子(さんこうし)",
+   "三香子",
+   "ジャマイカンペッパー",
+   "ピメント"
+  ],
+  "explanation": "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-allspice",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "allspice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   }
+  ],
+  "id": "qti-rev-allspice-profile",
+  "format": "term-input",
+  "prompt": "別名「百味こしょう」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "オールスパイス"
+  ],
+  "explanation": "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-oregano",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "oregano-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-profile から生成"
+   }
+  ],
+  "id": "qfb-family-oregano-profile",
+  "format": "fill-blank",
+  "prompt": "オレガノの科名は（　）である。",
+  "acceptedAnswers": [
+   "シソ科"
+  ],
+  "explanation": "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-oregano",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "oregano-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-profile から生成"
+   }
+  ],
+  "id": "qfb-level-oregano-profile",
+  "format": "fill-blank",
+  "prompt": "オレガノは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2・3"
+  ],
+  "explanation": "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-oregano",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "oregano-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-profile から生成"
+   }
+  ],
+  "id": "qsc-part-oregano-profile",
+  "format": "single-choice",
+  "prompt": "オレガノの利用部位はどれか。",
+  "choices": [
+   "根",
+   "葉、茎、種子(植物学上は果実)、根",
+   "種子(植物学上は果実)、葉、茎",
+   "葉および花穂"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-oregano",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "oregano-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-oregano-profile",
+  "format": "single-choice",
+  "prompt": "オレガノの原産地はどれか。",
+  "choices": [
+   "インド、熱帯アジア",
+   "諸説あるが東ヨーロッパ説が有力",
+   "地中海沿岸",
+   "中央アジア"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-oregano",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "oregano-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-profile から生成"
+   }
+  ],
+  "id": "qti-alias-oregano-profile",
+  "format": "term-input",
+  "prompt": "オレガノの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "花薄荷(はなはっか)",
+   "花薄荷",
+   "ワイルドマジョラム"
+  ],
+  "explanation": "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-oregano",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "oregano-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-profile から生成"
+   }
+  ],
+  "id": "qti-rev-oregano-profile",
+  "format": "term-input",
+  "prompt": "別名「ワイルドマジョラム」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "オレガノ"
+  ],
+  "explanation": "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-garlic",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "garlic-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   }
+  ],
+  "id": "qfb-family-garlic-profile",
+  "format": "fill-blank",
+  "prompt": "ガーリックの科名は（　）である。",
+  "acceptedAnswers": [
+   "ヒガンバナ科"
+  ],
+  "explanation": "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-garlic",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "garlic-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   }
+  ],
+  "id": "qfb-level-garlic-profile",
+  "format": "fill-blank",
+  "prompt": "ガーリックは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2・3"
+  ],
+  "explanation": "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-garlic",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "garlic-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   }
+  ],
+  "id": "qsc-part-garlic-profile",
+  "format": "single-choice",
+  "prompt": "ガーリックの利用部位はどれか。",
+  "choices": [
+   "鱗茎",
+   "果実(種子を除いた果肉部)",
+   "根茎",
+   "葉および花穂、種子"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-garlic",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "garlic-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-garlic-profile",
+  "format": "single-choice",
+  "prompt": "ガーリックの原産地はどれか。",
+  "choices": [
+   "中国、日本、朝鮮半島",
+   "中央アジア",
+   "地中海東部沿岸、エジプト",
+   "インド、熱帯アジア"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-garlic",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "garlic-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   }
+  ],
+  "id": "qti-alias-garlic-profile",
+  "format": "term-input",
+  "prompt": "ガーリックの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "にんにく",
+   "大蒜(おおひる)",
+   "大蒜"
+  ],
+  "explanation": "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-garlic",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "garlic-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   }
+  ],
+  "id": "qti-rev-garlic-profile",
+  "format": "term-input",
+  "prompt": "別名「にんにく」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "ガーリック"
+  ],
+  "explanation": "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "cardamom-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   }
+  ],
+  "id": "qfb-family-cardamom-profile",
+  "format": "fill-blank",
+  "prompt": "カルダモンの科名は（　）である。",
+  "acceptedAnswers": [
+   "ショウガ科"
+  ],
+  "explanation": "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "cardamom-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   }
+  ],
+  "id": "qfb-level-cardamom-profile",
+  "format": "fill-blank",
+  "prompt": "カルダモンは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2"
+  ],
+  "explanation": "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "cardamom-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   }
+  ],
+  "id": "qsc-part-cardamom-profile",
+  "format": "single-choice",
+  "prompt": "カルダモンの利用部位はどれか。",
+  "choices": [
+   "葉および花穂",
+   "蕾",
+   "葉",
+   "果実"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "cardamom-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-cardamom-profile",
+  "format": "single-choice",
+  "prompt": "カルダモンの原産地はどれか。",
+  "choices": [
+   "南ヨーロッパ、西アジア",
+   "インド",
+   "ロシア南部、西アジア",
+   "地中海東部沿岸、エジプト"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "cardamom-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   }
+  ],
+  "id": "qti-alias-cardamom-profile",
+  "format": "term-input",
+  "prompt": "カルダモンの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "小豆蔲(しょうずく)",
+   "小豆蔲",
+   "グリーンカルダモン"
+  ],
+  "explanation": "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cardamom-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   }
+  ],
+  "id": "qti-rev-cardamom-profile",
+  "format": "term-input",
+  "prompt": "別名「小豆蔲」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "カルダモン"
+  ],
+  "explanation": "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-caraway",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "caraway-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   }
+  ],
+  "id": "qfb-family-caraway-profile",
+  "format": "fill-blank",
+  "prompt": "キャラウェイの科名は（　）である。",
+  "acceptedAnswers": [
+   "セリ科"
+  ],
+  "explanation": "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-caraway",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "caraway-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   }
+  ],
+  "id": "qfb-level-caraway-profile",
+  "format": "fill-blank",
+  "prompt": "キャラウェイは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2"
+  ],
+  "explanation": "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-caraway",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "caraway-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   }
+  ],
+  "id": "qsc-part-caraway-profile",
+  "format": "single-choice",
+  "prompt": "キャラウェイの利用部位はどれか。",
+  "choices": [
+   "蕾",
+   "葉および花穂",
+   "種子(植物学上は果実)",
+   "果実(さや)"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-caraway",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "caraway-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-caraway-profile",
+  "format": "single-choice",
+  "prompt": "キャラウェイの原産地はどれか。",
+  "choices": [
+   "諸説あるが東ヨーロッパ説が有力",
+   "地中海東部沿岸、エジプト",
+   "ヨーロッパ、西アジアといわれる",
+   "インド(マラバル地方)"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-caraway",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "caraway-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   }
+  ],
+  "id": "qti-alias-caraway-profile",
+  "format": "term-input",
+  "prompt": "キャラウェイの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "姫茴香(ひめういきょう)",
+   "姫茴香",
+   "キュンメル",
+   "カルワイシード"
+  ],
+  "explanation": "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-caraway",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "caraway-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   }
+  ],
+  "id": "qti-rev-caraway-profile",
+  "format": "term-input",
+  "prompt": "別名「姫茴香」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "キャラウェイ"
+  ],
+  "explanation": "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-kuchinashi",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "gardenia-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-profile から生成"
+   }
+  ],
+  "id": "qfb-family-gardenia-profile",
+  "format": "fill-blank",
+  "prompt": "くちなしの科名は（　）である。",
+  "acceptedAnswers": [
+   "アカネ科"
+  ],
+  "explanation": "くちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-kuchinashi",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "gardenia-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-profile から生成"
+   }
+  ],
+  "id": "qfb-level-gardenia-profile",
+  "format": "fill-blank",
+  "prompt": "くちなしは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2"
+  ],
+  "explanation": "くちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-kuchinashi",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "gardenia-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-profile から生成"
+   }
+  ],
+  "id": "qsc-part-gardenia-profile",
+  "format": "single-choice",
+  "prompt": "くちなしの利用部位はどれか。",
+  "choices": [
+   "種子",
+   "蕾",
+   "果実",
+   "葉、茎"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "くちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-kuchinashi",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "gardenia-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-gardenia-profile",
+  "format": "single-choice",
+  "prompt": "くちなしの原産地はどれか。",
+  "choices": [
+   "インド",
+   "地中海東部沿岸",
+   "中国、日本、台湾",
+   "エジプト"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "くちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-kuchinashi",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "gardenia-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-profile から生成"
+   }
+  ],
+  "id": "qti-alias-gardenia-profile",
+  "format": "term-input",
+  "prompt": "くちなしの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "山梔子(さんしし)",
+   "山梔子"
+  ],
+  "explanation": "くちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-kuchinashi",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "gardenia-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-profile から生成"
+   }
+  ],
+  "id": "qti-rev-gardenia-profile",
+  "format": "term-input",
+  "prompt": "別名「山梔子」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "くちなし"
+  ],
+  "explanation": "くちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cumin-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   }
+  ],
+  "id": "qfb-family-cumin-profile",
+  "format": "fill-blank",
+  "prompt": "クミンの科名は（　）である。",
+  "acceptedAnswers": [
+   "セリ科"
+  ],
+  "explanation": "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cumin-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   }
+  ],
+  "id": "qfb-level-cumin-profile",
+  "format": "fill-blank",
+  "prompt": "クミンは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2・3"
+  ],
+  "explanation": "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cumin-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   }
+  ],
+  "id": "qsc-part-cumin-profile",
+  "format": "single-choice",
+  "prompt": "クミンの利用部位はどれか。",
+  "choices": [
+   "地上部",
+   "葉、果皮",
+   "花の雌しべ",
+   "種子(植物学上は果実)"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cumin-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-cumin-profile",
+  "format": "single-choice",
+  "prompt": "クミンの原産地はどれか。",
+  "choices": [
+   "インドネシア(マルク諸島)",
+   "熱帯アジア",
+   "エジプト",
+   "西アジア、ヨーロッパ南部"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cumin-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   }
+  ],
+  "id": "qti-alias-cumin-profile",
+  "format": "term-input",
+  "prompt": "クミンの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "馬芹(うまぜり/ばきん)",
+   "馬芹",
+   "ジーラ(ジェーラ)",
+   "ジーラ"
+  ],
+  "explanation": "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "cumin-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   }
+  ],
+  "id": "qti-rev-cumin-profile",
+  "format": "term-input",
+  "prompt": "別名「馬芹」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "クミン"
+  ],
+  "explanation": "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+ }
+]

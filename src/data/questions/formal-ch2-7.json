@@ -1,0 +1,1948 @@
+[
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "chaatmasala-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 chaatmasala-profile から生成"
+   }
+  ],
+  "id": "qfb-level-chaatmasala-profile",
+  "format": "fill-blank",
+  "prompt": "チャートマサラは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "チャートマサラ: ミックススパイス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "panchphoron-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 panchphoron-profile から生成"
+   }
+  ],
+  "id": "qfb-level-panchphoron-profile",
+  "format": "fill-blank",
+  "prompt": "パンチフォロンは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "パンチフォロン: ミックススパイス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "rasalhanout-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 rasalhanout-profile から生成"
+   }
+  ],
+  "id": "qfb-level-rasalhanout-profile",
+  "format": "fill-blank",
+  "prompt": "ラセラヌーは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "ラセラヌー: ミックススパイス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "anise-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-1 について、転記本文 p.52 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 特に地中海沿岸諸国では、アニスを用いたリキュールが多い。"
+   }
+  ],
+  "id": "q1q3-anise-1",
+  "format": "one-answer",
+  "prompt": "アニスを用いたリキュールが多いのは、どの地域の諸国か。",
+  "acceptedAnswers": [
+   "地中海沿岸諸国"
+  ],
+  "explanation": "甘みのある独特の香りで、菓子・パン・スープの風味づけや、地中海沿岸のリキュールによく使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "anise-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-3 について、転記本文 p.52 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 古代エジプトでは、ミイラの防腐・保存剤としてクミンとともに使用されていた（シナモンが輸入されるようになるまで）。"
+   }
+  ],
+  "id": "q1q3-anise-3",
+  "format": "one-answer",
+  "prompt": "古代エジプトで、アニスはクミンとともに何として使用されていたか。",
+  "acceptedAnswers": [
+   "ミイラの防腐・保存剤"
+  ],
+  "explanation": "古代エジプトではクミンとともにミイラの防腐・保存剤として使われた(シナモンが輸入されるまで)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-allspice",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "allspice-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-2 について、転記本文 p.53 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 原産地の中央アメリカで文明社会を築いていた古代マヤ人は、紀元前2世紀頃から王の遺体に防腐剤として用いたり、調味料として使っていたといわれている。"
+   }
+  ],
+  "id": "q1q3-allspice-2",
+  "format": "one-answer",
+  "prompt": "オールスパイスを紀元前2世紀頃から王の遺体の防腐剤や調味料として使っていたのは、どの人々か。",
+  "acceptedAnswers": [
+   "古代マヤ人"
+  ],
+  "explanation": "古代マヤ人は紀元前2世紀頃から王の遺体の防腐剤や調味料として使っていたとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-oregano",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "oregano-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-1 について、転記本文 p.54 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: シソ科の植物が持つ清涼感のある香りが人気で、また肉や魚などの素材の臭みを和らげるとして重宝されているほか、イタリアのトマト料理に欠かせないハーブのひとつ。"
+   }
+  ],
+  "id": "q1q3-oregano-1",
+  "format": "one-answer",
+  "prompt": "オレガノは、イタリアのどのような料理に欠かせないハーブのひとつか。",
+  "acceptedAnswers": [
+   "トマト料理"
+  ],
+  "explanation": "清涼感のある香りでイタリアのトマト料理に欠かせず、チリパウダーにも不可欠。きのことの相性もよい。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "cardamom-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-2 について、転記本文 p.56 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 北欧ではバイキングが8～10世紀頃に持ち帰ったとされ、特に多用、そのほかインド、アラブ諸国、エジプトなどでも欠かせないスパイス。"
+   }
+  ],
+  "id": "q1q3-cardamom-2",
+  "format": "one-answer",
+  "prompt": "カルダモンを北欧に持ち帰ったとされるのは、8～10世紀頃のどの人々か。",
+  "acceptedAnswers": [
+   "バイキング"
+  ],
+  "explanation": "北欧ではバイキングが8〜10世紀頃に持ち帰ったとされ、特に多用される。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "cardamom-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-3 について、転記本文 p.56 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 殻の中の黒い種子の部分に特に強い香りがあるため、ホールタイプを使う場合は、殻の部分に切り込みを入れて用いたり、殻をむいて種子そのものを取り出して、そのまま（または挽いて）用いたりすると、より効果的に香りをつけることができる。"
+   }
+  ],
+  "id": "q1q3-cardamom-3",
+  "format": "one-answer",
+  "prompt": "カルダモンで特に強い香りがあるのは、どの部分か。",
+  "acceptedAnswers": [
+   "殻の中の黒い種子の部分"
+  ],
+  "explanation": "殻の中の黒い種子に強い香りがあり、ホールは殻に切り込みを入れたり種子を取り出したりして使う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-caraway",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "caraway-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-3 について、転記本文 p.57 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: キャラウェイには、人やモノを引き止めておく力があるというおもしろい言い伝えがある。"
+   }
+  ],
+  "id": "q1q3-caraway-3",
+  "format": "one-answer",
+  "prompt": "キャラウェイには、どのような力があるという言い伝えがあるか。",
+  "acceptedAnswers": [
+   "人やモノを引き止めておく力"
+  ],
+  "explanation": "人やモノを引き止める力があるという言い伝えがあり、惚れ薬の材料とされた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-kuchinashi",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "gardenia-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-2 について、転記本文 p.58 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 果実が熟したあとも裂けないことから、口が開かない、口がないとの意味だといわれている。"
+   }
+  ],
+  "id": "q1q3-gardenia-2",
+  "format": "one-answer",
+  "prompt": "「くちなし」という名は、果実が熟したあとも裂けないことから、どのような意味だといわれているか。",
+  "acceptedAnswers": [
+   "口が開かない"
+  ],
+  "explanation": "熟しても実が裂けない(口が開かない)ことが名前の由来とされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cumin-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-1 について、転記本文 p.59 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: インド料理ではスタータースパイス（p.19）として使われることが多い。"
+   }
+  ],
+  "id": "q1q3-cumin-1",
+  "format": "one-answer",
+  "prompt": "クミンはインド料理で、どのようなスパイスとして使われることが多いか。",
+  "acceptedAnswers": [
+   "スタータースパイス"
+  ],
+  "explanation": "カレーを思わせるエスニックな芳香で、カレー粉やチリパウダーに欠かせない。インド料理ではスタータースパイスとして使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cumin-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-2 について、転記本文 p.59 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 古代エジプト時代には王などの遺体をミイラ化して保存するための防腐剤として、アニスなどほかのスパイスといっしょに用いられた。"
+   }
+  ],
+  "id": "q1q3-cumin-2",
+  "format": "one-answer",
+  "prompt": "古代エジプト時代、クミンは王などの遺体をミイラ化して保存するために何として用いられたか。",
+  "acceptedAnswers": [
+   "防腐剤"
+  ],
+  "explanation": "古代エジプトでは遺体をミイラにする際の防腐剤に使われた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-clove",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "clove-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9635",
+    "bookPage": 60,
+    "locationNote": "本書 p.60（原本画像 IMG_9635.PNG）。原文照合 batch19 で照合済みの知識単位 clove-1 について、転記本文 p.60 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: スパイスとして利用する蕾は、開花直前（淡いピンクを帯び始める頃）に最も香りが強くなる。"
+   }
+  ],
+  "id": "q1q3-clove-1",
+  "format": "one-answer",
+  "prompt": "クローブの蕾は、いつ最も香りが強くなるか。",
+  "acceptedAnswers": [
+   "開花直前",
+   "淡いピンクを帯び始める頃"
+  ],
+  "explanation": "蕾は開花直前に最も香りが強くなる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-clove",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "clove-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9635",
+    "bookPage": 60,
+    "locationNote": "本書 p.60（原本画像 IMG_9635.PNG）。原文照合 batch19 で照合済みの知識単位 clove-2 について、転記本文 p.60 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 西洋ではフルーツポマンダー（p.120）の材料に。"
+   }
+  ],
+  "id": "q1q3-clove-2",
+  "format": "one-answer",
+  "prompt": "クローブは西洋で、何の材料にもなるか。",
+  "acceptedAnswers": [
+   "フルーツポマンダー"
+  ],
+  "explanation": "甘く濃厚な風味で肉料理と相性がよく、フルーツポマンダーの材料にもなる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-pepper",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "pepper-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9636",
+    "bookPage": 61,
+    "locationNote": "本書 p.61（原本画像 IMG_9636.PNG）。原文照合 batch19 で照合済みの知識単位 pepper-1 について、転記本文 p.61 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 果実の収穫時期と製法によって、ブラックペッパー、ホワイトペッパー、グリーンペッパーの3種類のこしょうができる。"
+   }
+  ],
+  "id": "q1q3-pepper-1",
+  "format": "one-answer",
+  "prompt": "ブラックペッパー、ホワイトペッパー、グリーンペッパーの3種類のこしょうは、果実の何の違いによってできるか。",
+  "acceptedAnswers": [
+   "収穫時期と製法"
+  ],
+  "explanation": "つる性の植物で、収穫時期と製法によりブラック・ホワイト・グリーンの3種類ができる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-pepper",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "pepper-7"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9636",
+    "bookPage": 61,
+    "locationNote": "本書 p.61（原本画像 IMG_9636.PNG）。原文照合 batch19 で照合済みの知識単位 pepper-7 について、転記本文 p.62 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 薬としてシナモン、クローブ、にんじん、かんぞう、じゃ香などとともにこしょうが含まれており、遅くとも西暦749年には日本に伝来していたようである。"
+   }
+  ],
+  "id": "q1q3-pepper-7",
+  "format": "one-answer",
+  "prompt": "こしょうは、遅くとも西暦何年には日本に伝来していたとされるか。",
+  "acceptedAnswers": [
+   "西暦749年"
+  ],
+  "explanation": "正倉院に残るものが日本で最も古いとされ、遅くとも749年には伝来していた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-coriander",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "coriander-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9638",
+    "bookPage": 63,
+    "locationNote": "本書 p.63（原本画像 IMG_9638.PNG）。原文照合 batch19 で照合済みの知識単位 coriander-1 について、転記本文 p.63 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: スパイスとして利用される完熟した種子の部分と、ハーブとして利用される葉と茎の部分ではまったく異なる香りを持つ。"
+   }
+  ],
+  "id": "q1q3-coriander-1",
+  "format": "one-answer",
+  "prompt": "コリアンダーの完熟した種子の香りは、葉と茎の香りと比べてどうか。",
+  "acceptedAnswers": [
+   "まったく異なる香り"
+  ],
+  "explanation": "完熟した種子と葉・茎ではまったく異なる香りを持つ。種子は甘く爽やかで、カレー粉に欠かせない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-saffron",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "saffron-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9639",
+    "bookPage": 64,
+    "locationNote": "本書 p.64（原本画像 IMG_9639.PNG）。原文照合 batch20 で照合済みの知識単位 saffron-1 について、転記本文 p.64 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 水につけると溶け出してくる黄色は「クロシン」という色素成分。"
+   }
+  ],
+  "id": "q1q3-saffron-1",
+  "format": "one-answer",
+  "prompt": "サフランを水につけると溶け出してくる黄色は、何という色素成分か。",
+  "acceptedAnswers": [
+   "クロシン"
+  ],
+  "explanation": "水に溶け出す黄色の色素成分はクロシンで、水分に20分以上つけて色出ししてから使うのが基本。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-sansho",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "sansho-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9640",
+    "bookPage": 65,
+    "locationNote": "本書 p.65（原本画像 IMG_9640.PNG）。原文照合 batch20 で照合済みの知識単位 sansho-2 について、転記本文 p.65 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 乾燥した果皮を粉末にした粉山椒は、うなぎの蒲焼きの薬味として知られる。"
+   }
+  ],
+  "id": "q1q3-sansho-2",
+  "format": "one-answer",
+  "prompt": "粉山椒は、何の薬味として知られるか。",
+  "acceptedAnswers": [
+   "うなぎの蒲焼き"
+  ],
+  "explanation": "粉山椒(乾燥果皮の粉末)はうなぎの蒲焼きの薬味として知られ、七味唐辛子の原料にも欠かせない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-sansho",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "sansho-5"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9641",
+    "bookPage": 66,
+    "locationNote": "本書 p.66（原本画像 IMG_9641.PNG）。原文照合 batch20 で照合済みの知識単位 sansho-5 について、転記本文 p.66 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 花椒と塩をミックスした花椒塩は、揚げものや焼きものにつけるシーズニングスパイスとして活用される。"
+   }
+  ],
+  "id": "q1q3-sansho-5",
+  "format": "one-answer",
+  "prompt": "花椒と塩をミックスしたシーズニングスパイスを何というか。",
+  "acceptedAnswers": [
+   "花椒塩"
+  ],
+  "explanation": "花椒と塩を混ぜた花椒塩は揚げものなどのシーズニングに使われ、花椒は五香粉の原料に欠かせない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-sansho",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "sansho-9"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9641",
+    "bookPage": 66,
+    "locationNote": "本書 p.66（原本画像 IMG_9641.PNG）。原文照合 batch20 で照合済みの知識単位 sansho-9 について、転記本文 p.66 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 山椒の木の幹はかたく締まって強いため、ステッキやすりこ木に加工されることがある。"
+   }
+  ],
+  "id": "q1q3-sansho-9",
+  "format": "one-answer",
+  "prompt": "山椒の木の幹はかたく締まって強いため、ステッキのほかに何に加工されることがあるか。",
+  "acceptedAnswers": [
+   "すりこ木"
+  ],
+  "explanation": "山椒の木の幹はかたいため、すりこ木やステッキに加工される。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cinnamon",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cinnamon-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9642",
+    "bookPage": 67,
+    "locationNote": "本書 p.67（原本画像 IMG_9642.PNG）。原文照合 batch20 で照合済みの知識単位 cinnamon-2 について、転記本文 p.67 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: シナモン、カシアともに甘くエキゾチックな香りを持つが、シナモンは柑橘系の爽やかで上品な香り、カシアは甘く濃厚な香りに特徴がある。"
+   }
+  ],
+  "id": "q1q3-cinnamon-2",
+  "format": "one-answer",
+  "prompt": "シナモンは柑橘系の爽やかで上品な香りが特徴だが、カシアの香りはどのような特徴があるか。",
+  "acceptedAnswers": [
+   "甘く濃厚な香り"
+  ],
+  "explanation": "シナモンは柑橘系の爽やかで上品な香り、カシアは甘く濃厚な香りが特徴。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cinnamon",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cinnamon-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9642",
+    "bookPage": 67,
+    "locationNote": "本書 p.67（原本画像 IMG_9642.PNG）。原文照合 batch20 で照合済みの知識単位 cinnamon-3 について、転記本文 p.67 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 古代エジプトでは、シナモン（カシア）が入手できるようになってから、ミイラの保存のためにそれまで使われてきたアニスやクミンといったスパイスの代わりに、主要な薬剤（防腐剤）となった。"
+   }
+  ],
+  "id": "q1q3-cinnamon-3",
+  "format": "one-answer",
+  "prompt": "古代エジプトで、入手できるようになってからミイラ保存の主要な薬剤（防腐剤）となったスパイスは何か。",
+  "acceptedAnswers": [
+   "シナモン（カシア）"
+  ],
+  "explanation": "古代エジプトでは、シナモン(カシア)が入手できるようになると、アニスやクミンに代わってミイラ保存の主な防腐剤になった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-ginger",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "ginger-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9643",
+    "bookPage": 68,
+    "locationNote": "本書 p.68（原本画像 IMG_9643.PNG）。原文照合 batch21 で照合済みの知識単位 ginger-3 について、転記本文 p.68 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: その後、新たな交易ルートが開拓されると、その人気は次第に高まり、14世紀にはこしょうに次ぐ重要なスパイスとなった。"
+   }
+  ],
+  "id": "q1q3-ginger-3",
+  "format": "one-answer",
+  "prompt": "しょうがは14世紀には、どのスパイスに次ぐ重要なスパイスとなったか。",
+  "acceptedAnswers": [
+   "こしょう"
+  ],
+  "explanation": "14世紀にはこしょうに次ぐ重要なスパイスとなり、ジンジャーブレッドもこの頃ヨーロッパに広まったとみられる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-staranise",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "staranise-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9644",
+    "bookPage": 69,
+    "locationNote": "本書 p.69（原本画像 IMG_9644.PNG）。原文照合 batch21 で照合済みの知識単位 staranise-1 について、転記本文 p.69 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 果実は星のような形で、8つくらいの角がある。"
+   }
+  ],
+  "id": "q1q3-staranise-1",
+  "format": "one-answer",
+  "prompt": "スターアニスの果実は星のような形をしているが、角はおよそいくつあるか。",
+  "acceptedAnswers": [
+   "8つくらい"
+  ],
+  "explanation": "果実は星形で8つくらいの角があり、これが名前の由来。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-staranise",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "staranise-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9644",
+    "bookPage": 69,
+    "locationNote": "本書 p.69（原本画像 IMG_9644.PNG）。原文照合 batch21 で照合済みの知識単位 staranise-2 について、転記本文 p.69 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 中国料理によく使われ、特に豚肉料理や鴨料理などの香りづけに多用される。"
+   }
+  ],
+  "id": "q1q3-staranise-2",
+  "format": "one-answer",
+  "prompt": "スターアニスが中国料理で特に香りづけに多用されるのは、どのような肉料理か。2つ答えよ。",
+  "acceptedAnswers": [
+   "豚肉料理や鴨料理"
+  ],
+  "explanation": "豚肉や鴨料理に多用され、杏仁豆腐などのデザートや五香粉の材料にも使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-staranise",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "staranise-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9644",
+    "bookPage": 69,
+    "locationNote": "本書 p.69（原本画像 IMG_9644.PNG）。原文照合 batch21 で照合済みの知識単位 staranise-4 について、転記本文 p.69 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 16世紀末にイギリスの船員によってヨーロッパに伝えられ、当時非常に高価だったアニスの代用品として使われた。"
+   }
+  ],
+  "id": "q1q3-staranise-4",
+  "format": "one-answer",
+  "prompt": "スターアニスがヨーロッパに伝えられたのは、いつ、誰によってか。",
+  "acceptedAnswers": [
+   "16世紀末にイギリスの船員"
+  ],
+  "explanation": "16世紀末にイギリスの船員によりヨーロッパに伝わり、高価なアニスの代用品とされた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-sage-turmeric",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "sage-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 sage-1 について、転記本文 p.70 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: セージをきかせた代表的な一品としては、イタリア・ローマの名物郷土料理サルティンボッカがある。"
+   }
+  ],
+  "id": "q1q3-sage-1",
+  "format": "one-answer",
+  "prompt": "セージをきかせた代表的な一品で、イタリア・ローマの名物郷土料理は何か。",
+  "acceptedAnswers": [
+   "サルティンボッカ"
+  ],
+  "explanation": "比較的香りの強いハーブで、肉や魚の脂っこい料理やソーセージに使われる。代表料理はローマのサルティンボッカ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-sage-turmeric",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "turmeric-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 turmeric-1 について、転記本文 p.70 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 独特のやや土臭いような風味は、加熱することで弱まる。"
+   }
+  ],
+  "id": "q1q3-turmeric-1",
+  "format": "one-answer",
+  "prompt": "ターメリックの独特のやや土臭いような風味は、どうすることで弱まるか。",
+  "acceptedAnswers": [
+   "加熱すること"
+  ],
+  "explanation": "カレーやたくあんの色づけに使われ、カレー粉の主原料の一つ。加熱で土臭さが弱まる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-sage-turmeric",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "turmeric-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 turmeric-4 について、転記本文 p.70 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: ※通称で「うこん」と名がつくものにはほかに「春うこん」「紫うこん」があり、同じショウガ科ウコン属に属するが、別の植物である。"
+   }
+  ],
+  "id": "q1q3-turmeric-4",
+  "format": "one-answer",
+  "prompt": "「春うこん」「紫うこん」は、ターメリック（秋うこん）と同じショウガ科ウコン属に属するが、どのような関係か。",
+  "acceptedAnswers": [
+   "別の植物"
+  ],
+  "explanation": "春うこん・紫うこんは同じショウガ科ウコン属だが別の植物である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-thyme",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "thyme-5"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9646",
+    "bookPage": 71,
+    "locationNote": "本書 p.71（原本画像 IMG_9646.PNG）。原文照合 batch1 で照合済みの知識単位 thyme-5 について、転記本文 p.71 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: たくさんの品種があることで知られているが、なかでも料理や園芸で人気なものとしては、最も一般的な「コモンタイム」、爽やかな香りの「レモンタイム」、地面を這うように成長し、芝生の代わりに庭に植えるハーブとして知られる「クリーピングタイム」などが挙げられる。"
+   }
+  ],
+  "id": "q1q3-thyme-5",
+  "format": "one-answer",
+  "prompt": "タイムの品種のうち、地面を這うように成長し、芝生の代わりに庭に植えるハーブとして知られるものは何か。",
+  "acceptedAnswers": [
+   "クリーピングタイム"
+  ],
+  "explanation": "人気品種にコモンタイム・レモンタイム・クリーピングタイム(地面を這い、芝生の代わりになる)がある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-tarragon",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "tarragon-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9648",
+    "bookPage": 72,
+    "locationNote": "本書 p.72（原本画像 IMG_9648.PNG）。原文照合 batch1 で照合済みの知識単位 tarragon-2 について、転記本文 p.72 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: また数種類の生ハーブをみじん切りにして合わせるミックスハーブ「フィーヌゼルブ」（p.49）の材料として、チャイブ、チャービル、パセリなどとともに使われる。"
+   }
+  ],
+  "id": "q1q3-tarragon-2",
+  "format": "one-answer",
+  "prompt": "タラゴンがチャイブ、チャービル、パセリなどとともに材料になる、数種類の生ハーブをみじん切りにして合わせるミックスハーブを何というか。",
+  "acceptedAnswers": [
+   "フィーヌゼルブ"
+  ],
+  "explanation": "アニスに似た甘さがあり、卵・鶏肉・白身魚・ビネガーと相性がよい。フランス料理に多く、フィーヌゼルブの材料。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-tarragon",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "tarragon-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9648",
+    "bookPage": 72,
+    "locationNote": "本書 p.72（原本画像 IMG_9648.PNG）。原文照合 batch1 で照合済みの知識単位 tarragon-4 について、転記本文 p.72 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: その特徴のある芳香を生かす、フレッシュのタラゴンを漬けたタラゴンビネガーは、ハーブビネガーの定番といわれている。"
+   }
+  ],
+  "id": "q1q3-tarragon-4",
+  "format": "one-answer",
+  "prompt": "フレッシュのタラゴンを漬けたタラゴンビネガーは、何の定番といわれているか。",
+  "acceptedAnswers": [
+   "ハーブビネガー"
+  ],
+  "explanation": "タラゴンビネガーはハーブビネガーの定番とされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chervil",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "chervil-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9649",
+    "bookPage": 73,
+    "locationNote": "本書 p.73（原本画像 IMG_9649.PNG）。原文照合 batch1 で照合済みの知識単位 chervil-2 について、転記本文 p.73 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 判別の一番のポイントは、やはり香りの違いである。"
+   }
+  ],
+  "id": "q1q3-chervil-2",
+  "format": "one-answer",
+  "prompt": "チャービル、パセリ、パクチーは形が似通っているが、判別の一番のポイントは何か。",
+  "acceptedAnswers": [
+   "香りの違い"
+  ],
+  "explanation": "チャービル・パセリ・パクチーはいずれもセリ科で形が似ており、判別の一番のポイントは香り。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chive",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "chives-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9650",
+    "bookPage": 74,
+    "locationNote": "本書 p.74（原本画像 IMG_9650.PNG）。原文照合 batch2 で照合済みの知識単位 chives-2 について、転記本文 p.74 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: チャイブはねぎの仲間の中でも、最も細くて小さな種類。"
+   }
+  ],
+  "id": "q1q3-chives-2",
+  "format": "one-answer",
+  "prompt": "チャイブは、ねぎの仲間の中ではどのような種類か。",
+  "acceptedAnswers": [
+   "最も細くて小さな種類"
+  ],
+  "explanation": "ねぎの仲間で最も細く小さく、球形の紫がかったピンクの花をつける。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-dill",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "dill-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9651",
+    "bookPage": 75,
+    "locationNote": "本書 p.75（原本画像 IMG_9651.PNG）。原文照合 batch2 で照合済みの知識単位 dill-1 について、転記本文 p.75 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: タイム、フェンネルと並んで「魚のハーブ」と呼ばれるほど魚介類と好相性。"
+   }
+  ],
+  "id": "q1q3-dill-1",
+  "format": "one-answer",
+  "prompt": "ディルの葉は、タイム、フェンネルと並んで何と呼ばれるほど魚介類と相性がよいか。",
+  "acceptedAnswers": [
+   "魚のハーブ"
+  ],
+  "explanation": "種子はキャラウェイに似た爽やかな香りでピクルスなどに使い、羽状のやわらかい葉はタイム・フェンネルと並ぶ「魚のハーブ」とされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-dill",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "dill-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9651",
+    "bookPage": 75,
+    "locationNote": "本書 p.75（原本画像 IMG_9651.PNG）。原文照合 batch2 で照合済みの知識単位 dill-3 について、転記本文 p.75 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 古代ギリシア・ローマの時代に栽培地域が広がり、中世ヨーロッパにおいては魔術師や魔女のまじないの材料として、また媚薬や医薬用として多用されていた。"
+   }
+  ],
+  "id": "q1q3-dill-3",
+  "format": "one-answer",
+  "prompt": "中世ヨーロッパで、ディルは魔術師や魔女のまじないの材料のほかに、どのような用途で多用されていたか。",
+  "acceptedAnswers": [
+   "媚薬や医薬用"
+  ],
+  "explanation": "中世ヨーロッパでは魔術師や魔女のまじないの材料、媚薬・医薬用として多用された。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chili",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "chili-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9652",
+    "bookPage": 76,
+    "locationNote": "本書 p.76（原本画像 IMG_9652.PNG）。原文照合 batch2 で照合済みの知識単位 chili-3 について、転記本文 p.76 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 紀元前はアメリカ大陸固有のもので、世界中に広がるきっかけは、15世紀末のコロンブスのアメリカ大陸到達とされる。"
+   }
+  ],
+  "id": "q1q3-chili-3",
+  "format": "one-answer",
+  "prompt": "唐辛子が世界中に広がるきっかけとなったのは、15世紀末の何とされるか。",
+  "acceptedAnswers": [
+   "コロンブスのアメリカ大陸到達"
+  ],
+  "explanation": "世界に広がるきっかけは15世紀末のコロンブスのアメリカ大陸到達とされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chili",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "chili-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9652",
+    "bookPage": 76,
+    "locationNote": "本書 p.76（原本画像 IMG_9652.PNG）。原文照合 batch2 で照合済みの知識単位 chili-4 について、転記本文 p.76 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 日本への伝来は、16世紀末の豊臣秀吉の朝鮮半島出兵の際に加藤清正が持ち帰ったとする説、16世紀半ばに種子島に漂着したポルトガル船が鉄砲と共にもたらしたとする説、17世紀初めにタバコとともにポルトガルから伝わったとする説などがある。"
+   }
+  ],
+  "id": "q1q3-chili-4",
+  "format": "one-answer",
+  "prompt": "唐辛子の日本への伝来について、16世紀末の豊臣秀吉の朝鮮半島出兵の際に持ち帰ったとされる人物は誰か。",
+  "acceptedAnswers": [
+   "加藤清正"
+  ],
+  "explanation": "日本への伝来には、豊臣秀吉の朝鮮出兵で加藤清正が持ち帰った説、ポルトガル船が種子島にもたらした説、17世紀初めにタバコとともに伝わった説などがある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chili",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "paste-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9653",
+    "bookPage": 77,
+    "locationNote": "本書 p.77（原本画像 IMG_9653.PNG）。原文照合 batch2 で照合済みの知識単位 paste-2 について、転記本文 p.77 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 生の大根に箸などで穴をあけ、唐辛子（ホール）を差し込んでいっしょにすりおろしたもの。"
+   }
+  ],
+  "id": "q1q3-paste-2",
+  "format": "one-answer",
+  "prompt": "もみじおろしは、生の大根に穴をあけて何を差し込み、いっしょにすりおろしたものか。",
+  "acceptedAnswers": [
+   "唐辛子（ホール）",
+   "唐辛子"
+  ],
+  "explanation": "もみじおろしは大根に穴をあけて唐辛子を差し込み、いっしょにすりおろしたもの。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chili",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "paste-6"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9653",
+    "bookPage": 77,
+    "locationNote": "本書 p.77（原本画像 IMG_9653.PNG）。原文照合 batch2 で照合済みの知識単位 paste-6 について、転記本文 p.77 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 米国マキルヘニー社のタバスコペッパーソース®が有名。"
+   }
+  ],
+  "id": "q1q3-paste-6",
+  "format": "one-answer",
+  "prompt": "中南米のホットソースで有名な、米国マキルヘニー社の製品は何か。",
+  "acceptedAnswers": [
+   "タバスコペッパーソース"
+  ],
+  "explanation": "ホットソースは唐辛子・ビネガー・塩を熟成させた中南米のソースで、タバスコペッパーソースが有名。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chili",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "paste-8"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9653",
+    "bookPage": 77,
+    "locationNote": "本書 p.77（原本画像 IMG_9653.PNG）。原文照合 batch2 で照合済みの知識単位 paste-8 について、転記本文 p.77 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: トマト、唐辛子、パクチーなどを細かく刻んでミックスしたソース。配合はさまざま。"
+   }
+  ],
+  "id": "q1q3-paste-8",
+  "format": "one-answer",
+  "prompt": "サルサは、トマト、唐辛子と何などを細かく刻んでミックスしたソースか。",
+  "acceptedAnswers": [
+   "パクチー"
+  ],
+  "explanation": "サルサはメキシコほかのソースで、トマト・唐辛子・パクチーなどを刻んで合わせる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-nutmeg",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "nutmeg-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9654",
+    "bookPage": 78,
+    "locationNote": "本書 p.78（原本画像 IMG_9654.PNG）。原文照合 batch3 で照合済みの知識単位 nutmeg-3 について、転記本文 p.78 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: メースはナツメッグと似た使い方をするが、より繊細で甘い風味がするため、どちらかというと肉料理などよりも、菓子類やジャムなど甘いものの風味づけに使われることが多い。"
+   }
+  ],
+  "id": "q1q3-nutmeg-3",
+  "format": "one-answer",
+  "prompt": "メースは、より繊細で甘い風味がするため、肉料理よりもどのようなものの風味づけに使われることが多いか。",
+  "acceptedAnswers": [
+   "菓子類やジャムなど甘いもの"
+  ],
+  "explanation": "ひき肉料理や乳製品、焼き菓子と相性がよく、メースはより繊細で甘く菓子やジャムに使われることが多い。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-nutmeg",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "nutmeg-5"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9654",
+    "bookPage": 78,
+    "locationNote": "本書 p.78（原本画像 IMG_9654.PNG）。原文照合 batch3 で照合済みの知識単位 nutmeg-5 について、転記本文 p.78 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 昔のヨーロッパでは非常に高価なスパイスだったため、13世紀末のイギリスでは1ポンド（454g）のナツメッグで羊3頭、14世紀末のドイツでは1ポンドのナツメッグで7頭の牝牛を手に入れることができたとか。"
+   }
+  ],
+  "id": "q1q3-nutmeg-5",
+  "format": "one-answer",
+  "prompt": "13世紀末のイギリスでは、1ポンド（454g）のナツメッグで何が何頭分に相当したといわれるか。",
+  "acceptedAnswers": [
+   "羊3頭"
+  ],
+  "explanation": "13世紀末のイギリスでは1ポンドのナツメッグで羊3頭、14世紀末のドイツでは牝牛7頭が手に入ったという。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-basil",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "basil-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9655",
+    "bookPage": 79,
+    "locationNote": "本書 p.79（原本画像 IMG_9655.PNG）。原文照合 batch3 で照合済みの知識単位 basil-1 について、転記本文 p.79 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 単にバジルという場合はスィートバジル（写真）をさすのが一般的。"
+   }
+  ],
+  "id": "q1q3-basil-1",
+  "format": "one-answer",
+  "prompt": "単に「バジル」という場合は、一般にどのバジルをさすか。",
+  "acceptedAnswers": [
+   "スィートバジル"
+  ],
+  "explanation": "単にバジルといえば一般にスィートバジルをさし、トマトとの相性が特によい。非耐寒性。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-basil",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "basil-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9655",
+    "bookPage": 79,
+    "locationNote": "本書 p.79（原本画像 IMG_9655.PNG）。原文照合 batch3 で照合済みの知識単位 basil-2 について、転記本文 p.79 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: バジルの種子（バジルシード）は水分を含むとぷるんとしたゼリー状になるところから、ココナッツミルクなどと合わせてデザートに利用される。"
+   }
+  ],
+  "id": "q1q3-basil-2",
+  "format": "one-answer",
+  "prompt": "バジルの種子（バジルシード）は、水分を含むとどのようになるか。",
+  "acceptedAnswers": [
+   "ぷるんとしたゼリー状"
+  ],
+  "explanation": "バジルシードは水分を含むとゼリー状になり、デザートに使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-parsley",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "parsley-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9656",
+    "bookPage": 80,
+    "locationNote": "本書 p.80（原本画像 IMG_9656.PNG）。原文照合 batch3 で照合済みの知識単位 parsley-2 について、転記本文 p.80 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: パセリの茎は「ブーケガルニ」（p.71）の材料としてもよく使われる。"
+   }
+  ],
+  "id": "q1q3-parsley-2",
+  "format": "one-answer",
+  "prompt": "パセリの茎は、何の材料としてもよく使われるか。",
+  "acceptedAnswers": [
+   "ブーケガルニ"
+  ],
+  "explanation": "パセリの茎はブーケガルニの材料によく使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-parsley",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "parsley-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9656",
+    "bookPage": 80,
+    "locationNote": "本書 p.80（原本画像 IMG_9656.PNG）。原文照合 batch3 で照合済みの知識単位 parsley-3 について、転記本文 p.80 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 料理のつけ合わせとして添えられているパセリには特有の爽やかな香りがあり、この香りは口臭予防に効果的といわれている。"
+   }
+  ],
+  "id": "q1q3-parsley-3",
+  "format": "one-answer",
+  "prompt": "料理のつけ合わせに添えられるパセリの特有の爽やかな香りは、何に効果的といわれているか。",
+  "acceptedAnswers": [
+   "口臭予防"
+  ],
+  "explanation": "爽やかな香りは口臭予防に効果的とされ、葉にはビタミンCが多い。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-parsley",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "parsley-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9656",
+    "bookPage": 80,
+    "locationNote": "本書 p.80（原本画像 IMG_9656.PNG）。原文照合 batch3 で照合済みの知識単位 parsley-4 について、転記本文 p.80 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 古代ギリシア・ローマ時代にはすでに食用として利用されていたが、儀式のときなど華やかな席では、出席者が新鮮なパセリの束を花輪のように首にかけて楽しんだという。"
+   }
+  ],
+  "id": "q1q3-parsley-4",
+  "format": "one-answer",
+  "prompt": "古代ギリシア・ローマ時代、華やかな席では出席者は新鮮なパセリの束をどのようにして楽しんだというか。",
+  "acceptedAnswers": [
+   "花輪のように首にかけて"
+  ],
+  "explanation": "古代ギリシア・ローマでは華やかな席でパセリの束を花輪のように首にかけた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-vanilla",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "vanilla-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9657",
+    "bookPage": 81,
+    "locationNote": "本書 p.81（原本画像 IMG_9657.PNG）。原文照合 batch3 で照合済みの知識単位 vanilla-3 について、転記本文 p.81 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: さやを縦に切り開いたら、包丁の先を使ってしごくようにして種を取り出す。"
+   }
+  ],
+  "id": "q1q3-vanilla-3",
+  "format": "one-answer",
+  "prompt": "バニラのさやを縦に切り開いたら、種をどのように取り出すか。",
+  "acceptedAnswers": [
+   "包丁の先を使ってしごくようにして種を取り出す"
+  ],
+  "explanation": "使うときはさやを縦に切り開き、包丁の先でしごいて種を取り出す。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-paprika",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "paprika-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-1 について、転記本文 p.82 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: パプリカに含まれる赤い色の色素成分は、油によく溶けるので、油といっしょに調理するとなじみやすく、きれいに色づけすることができる。"
+   }
+  ],
+  "id": "q1q3-paprika-1",
+  "format": "one-answer",
+  "prompt": "パプリカの赤い色の色素成分は、どのような性質のため、油といっしょに調理するときれいに色づけできるか。",
+  "acceptedAnswers": [
+   "油によく溶ける"
+  ],
+  "explanation": "赤い色素成分は油によく溶けるので、油と調理するときれいに色づく。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-paprika",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "paprika-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-3 について、転記本文 p.82 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: スパイスの原料となるパプリカは果肉が薄くて鮮やかに赤く色づき、乾燥しやすい品種のもの。"
+   }
+  ],
+  "id": "q1q3-paprika-3",
+  "format": "one-answer",
+  "prompt": "スパイスの原料となるパプリカは、どのような品種のものか。",
+  "acceptedAnswers": [
+   "乾燥しやすい品種"
+  ],
+  "explanation": "スパイス用のパプリカは、野菜売り場の肉厚なものとは品種が異なり、果肉が薄く乾燥しやすい。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-paprika",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "paprika-5"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-5 について、転記本文 p.82 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: パプリカを使った料理で特に有名なのが「ハンガリアングラーシュ」という煮込み料理。"
+   }
+  ],
+  "id": "q1q3-paprika-5",
+  "format": "one-answer",
+  "prompt": "パプリカを使った料理で特に有名な、ハンガリーの煮込み料理は何か。",
+  "acceptedAnswers": [
+   "ハンガリアングラーシュ"
+  ],
+  "explanation": "パプリカを使う代表的なハンガリー料理はハンガリアングラーシュという煮込み。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-fennel",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "fennel-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9659",
+    "bookPage": 83,
+    "locationNote": "本書 p.83（原本画像 IMG_9659.PNG）。原文照合 batch4 で照合済みの知識単位 fennel-1 について、転記本文 p.83 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: ディル、タイムとともに「魚のハーブ」と呼ばれ、葉、種子ともに魚料理のソース、生魚を使った料理など幅広く魚料理に使われる。"
+   }
+  ],
+  "id": "q1q3-fennel-1",
+  "format": "one-answer",
+  "prompt": "フェンネルは、ディル、タイムとともに何と呼ばれるか。",
+  "acceptedAnswers": [
+   "魚のハーブ"
+  ],
+  "explanation": "ディル・タイムとともに「魚のハーブ」と呼ばれ、種子は五香粉やカレー粉の原料にもなる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-fennel",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "fennel-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9659",
+    "bookPage": 83,
+    "locationNote": "本書 p.83（原本画像 IMG_9659.PNG）。原文照合 batch4 で照合済みの知識単位 fennel-2 について、転記本文 p.83 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: フェンネルの種子には消化を助け、口臭を消す効果があるとして、インドでは食後に口直しとして噛む習慣がある。"
+   }
+  ],
+  "id": "q1q3-fennel-2",
+  "format": "one-answer",
+  "prompt": "インドでフェンネルの種子を食後に口直しとして噛む習慣があるのは、種子にどのような効果があるとされるためか。",
+  "acceptedAnswers": [
+   "消化を助け、口臭を消す効果"
+  ],
+  "explanation": "インドでは消化を助け口臭を消すとして、食後に種子を噛む習慣がある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-horseradish",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "horseradish-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9660",
+    "bookPage": 84,
+    "locationNote": "本書 p.84（原本画像 IMG_9660.PNG）。原文照合 batch4 で照合済みの知識単位 horseradish-1 について、転記本文 p.84 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 日本ではチューブ入りわさびや粉わさびといった製品の原料にも利用されている。"
+   }
+  ],
+  "id": "q1q3-horseradish-1",
+  "format": "one-answer",
+  "prompt": "ホースラディッシュは日本で、どのような製品の原料にも利用されているか。",
+  "acceptedAnswers": [
+   "チューブ入りわさびや粉わさび"
+  ],
+  "explanation": "ツーンと鼻に抜ける辛みで、ローストビーフに欠かせない。チューブわさびや粉わさびの原料にも使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-marjoram-mustard",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "marjoram-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 marjoram-2 について、転記本文 p.85 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 古代ギリシア・ローマ時代、幸福のシンボルとして、幸せな新婚夫婦にかぶせる冠として用いられた。"
+   }
+  ],
+  "id": "q1q3-marjoram-2",
+  "format": "one-answer",
+  "prompt": "古代ギリシア・ローマ時代、マジョラムは幸福のシンボルとして、幸せな新婚夫婦に対してどのように用いられたか。",
+  "acceptedAnswers": [
+   "新婚夫婦にかぶせる冠"
+  ],
+  "explanation": "古代ギリシア・ローマでは幸福のシンボルとして新婚夫婦の冠に使われた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-marjoram-mustard",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "mustard-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 mustard-4 について、転記本文 p.86 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 水と油などの2つの分離する液体を細かく分散させた形で混ぜ合わせる「乳化」を助ける働きがあるため、ドレッシングを作るときに加えると分離しにくくなり、風味もよくなる。"
+   }
+  ],
+  "id": "q1q3-mustard-4",
+  "format": "one-answer",
+  "prompt": "マスタードには、水と油などの分離する液体を混ぜ合わせる何という働きを助ける作用があるため、ドレッシングに加えると分離しにくくなるか。",
+  "acceptedAnswers": [
+   "乳化"
+  ],
+  "explanation": "乳化を助ける働きがあるので、ドレッシングに加えると分離しにくくなる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-marjoram-mustard",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "mustard-5"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 mustard-5 について、転記本文 p.86 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: ※日本のからし製品は「和風ねりからし」「ねりからし」「マスタード」の3タイプに大別される。"
+   }
+  ],
+  "id": "q1q3-mustard-5",
+  "format": "one-answer",
+  "prompt": "日本のからし製品は、「和風ねりからし」「ねりからし」と何の3タイプに大別されるか。",
+  "acceptedAnswers": [
+   "マスタード"
+  ],
+  "explanation": "日本のからし製品は和風ねりからし・ねりからし・マスタードの3タイプに大別される。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "lemongrass-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-2 について、転記本文 p.89 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 葉に傷をつけて初めて爽やかなレモンのような香りを強く漂わせる。"
+   }
+  ],
+  "id": "q1q3-lemongrass-2",
+  "format": "one-answer",
+  "prompt": "レモングラスの葉は、傷をつけて初めて何を強く漂わせるか。",
+  "acceptedAnswers": [
+   "爽やかなレモンのような香り"
+  ],
+  "explanation": "葉に傷をつけて初めて香りが強く漂うので、刻んだりもんだりして使う。東南アジアではかたい茎も使う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-rosemary",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "rosemary-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-1 について、転記本文 p.90 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: スキッとした独特の強い香りを持つローズマリーは、ラム（子羊）、豚肉、青魚などクセの強い食材の臭み消しとして利用される一方で、鶏肉、白身魚、じゃがいもなど淡泊な素材の風味づけにも用いられる。"
+   }
+  ],
+  "id": "q1q3-rosemary-1",
+  "format": "one-answer",
+  "prompt": "ローズマリーは、ラム（子羊）、豚肉、青魚などクセの強い食材に対して、どのような目的で利用されるか。",
+  "acceptedAnswers": [
+   "臭み消し"
+  ],
+  "explanation": "ラム・豚肉・青魚などクセの強い食材の臭み消しや、フォカッチャなどの風味づけに使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-rosemary",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "rosemary-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-2 について、転記本文 p.90 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 古代ギリシアではローズマリーの香りは頭脳を明晰にするとされ、学生たちは勉強する際に、記憶定着のためにローズマリーを身につけたといわれる。"
+   }
+  ],
+  "id": "q1q3-rosemary-2",
+  "format": "one-answer",
+  "prompt": "古代ギリシアで、学生たちが勉強する際にローズマリーを身につけたのは、何のためとされるか。",
+  "acceptedAnswers": [
+   "記憶定着"
+  ],
+  "explanation": "古代ギリシアでは頭脳を明晰にするとされ、学生が記憶定着のために身につけたという。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-laurel",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "laurel-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-2 について、転記本文 p.91 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 対してアメリカ産は細長い葉ですがすがしさが強く、苦みが多少きいているので、強い香りをつけたい場合や、加熱しないマリネなどに適する。"
+   }
+  ],
+  "id": "q1q3-laurel-2",
+  "format": "one-answer",
+  "prompt": "ローレルのアメリカ産は、ヨーロッパ産と比べて葉がどのような形か。",
+  "acceptedAnswers": [
+   "細長い葉"
+  ],
+  "explanation": "ヨーロッパ産は葉が丸みを帯び煮込み向き、アメリカ産は細長くすがすがしさが強くマリネなどに向く。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-laurel",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "laurel-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-4 について、転記本文 p.91 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 古代ローマの時代から英雄に与えられる冠の材料に使われ、栄光のシンボルとされていた。"
+   }
+  ],
+  "id": "q1q3-laurel-4",
+  "format": "one-answer",
+  "prompt": "ローレルは、古代ローマの時代から英雄に与えられる冠の材料に使われ、何のシンボルとされていたか。",
+  "acceptedAnswers": [
+   "栄光のシンボル"
+  ],
+  "explanation": "古代ローマから英雄の冠に使われた栄光のシンボルで、スポーツの勝者にも与えられる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-wasabi",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "wasabi-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-4 について、転記本文 p.92 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: アリル芥子油には抗菌作用があるため、食中毒防止に有効とされており、この成分だけを取り出して、お弁当用の抗菌シートやエアコンの抗菌に使用される例もある。"
+   }
+  ],
+  "id": "q1q3-wasabi-4",
+  "format": "one-answer",
+  "prompt": "わさびの辛み成分アリル芥子油は、抗菌作用があるため、この成分だけを取り出してどのようなものに使用される例があるか。",
+  "acceptedAnswers": [
+   "お弁当用の抗菌シートやエアコンの抗菌"
+  ],
+  "explanation": "アリル芥子油には抗菌作用があり、お弁当用抗菌シートなどに使われる例もある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "hdp-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9669",
+    "bookPage": 93,
+    "locationNote": "本書 p.93（原本画像 IMG_9669.PNG）。原文照合 batch6 で照合済みの知識単位 hdp-1 について、転記本文 p.93 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 特にブイヤベースなど魚介類のスープや、肉・魚のロースト、バーベキューの下味など、じっくりと時間をかけて加熱する料理に使われることが多い。"
+   }
+  ],
+  "id": "q1q3-hdp-1",
+  "format": "one-answer",
+  "prompt": "エルブドプロバンスは、特にどのような料理に使われることが多いか。",
+  "acceptedAnswers": [
+   "じっくりと時間をかけて加熱する料理"
+  ],
+  "explanation": "南フランス地方のハーブ数種(ローズマリー・タイム・オレガノなど)をミックスしたもので、ブイヤベースなど時間をかけて加熱する料理に使われることが多い。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cp-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9671",
+    "bookPage": 95,
+    "locationNote": "本書 p.95（原本画像 IMG_9671.PNG）。原文照合 batch7 で照合済みの知識単位 cp-2 について、転記本文 p.95 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: これら何百種類もの辛くてスパイシーな料理を、欧米や日本では総称してカレーと呼んでいるのである。"
+   }
+  ],
+  "id": "q1q3-cp-2",
+  "format": "one-answer",
+  "prompt": "インドの何百種類もの辛くてスパイシーな料理を、欧米や日本では総称して何と呼んでいるか。",
+  "acceptedAnswers": [
+   "カレー"
+  ],
+  "explanation": "インドには「カレー」と称する料理はなく、欧米や日本で総称してカレーと呼んでいる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "cp-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9671",
+    "bookPage": 95,
+    "locationNote": "本書 p.95（原本画像 IMG_9671.PNG）。原文照合 batch7 で照合済みの知識単位 cp-4 について、転記本文 p.95 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 決まりごとはないが、カレー粉によく使われる代表的なスパイスやハーブ12種類と、そのレシピを紹介。"
+   }
+  ],
+  "id": "q1q3-cp-4",
+  "format": "one-answer",
+  "prompt": "本書で紹介するオリジナルのカレー粉は、カレー粉によく使われる代表的なスパイスやハーブ何種類を使って作るか。",
+  "acceptedAnswers": [
+   "12種類"
+  ],
+  "explanation": "本書のオリジナルカレー粉は12種類のパウダースパイスをフライパンで弱火で煎って作る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "shichimi-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9672",
+    "bookPage": 96,
+    "locationNote": "本書 p.96（原本画像 IMG_9672.PNG）。原文照合 batch7 で照合済みの知識単位 shichimi-3 について、転記本文 p.96 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 共通するのは唐辛子、山椒、ごま、麻の実くらいで、そのほかは、けしの実、青のり、陳皮、しょうがの粉、しその実など、各地の料理の特色や風土に合わせて配合されている。"
+   }
+  ],
+  "id": "q1q3-shichimi-3",
+  "format": "one-answer",
+  "prompt": "七味唐辛子の原料は各地で多様だが、共通するのは唐辛子、山椒、ごまと何くらいか。",
+  "acceptedAnswers": [
+   "麻の実"
+  ],
+  "explanation": "各地で配合は多様だが、共通するのは唐辛子・山椒・ごま・麻の実くらい。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "shichimi-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9672",
+    "bookPage": 96,
+    "locationNote": "本書 p.96（原本画像 IMG_9672.PNG）。原文照合 batch7 で照合済みの知識単位 shichimi-4 について、転記本文 p.96 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: アサ科の麻の種子を利用したスパイス。カリッとした食感を楽しめ、いなり寿司やけんちん汁などにも使われる。"
+   }
+  ],
+  "id": "q1q3-shichimi-4",
+  "format": "one-answer",
+  "prompt": "七味唐辛子の原料のひとつ「麻の実」は、何科の麻の種子を利用したスパイスか。",
+  "acceptedAnswers": [
+   "アサ科"
+  ],
+  "explanation": "麻の実はアサ科の麻の種子で、いなり寿司やけんちん汁にも使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "chp-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9673",
+    "bookPage": 97,
+    "locationNote": "本書 p.97（原本画像 IMG_9673.PNG）。原文照合 batch7 で照合済みの知識単位 chp-1 について、転記本文 p.97 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: アメリカにおいてメキシコ風の料理「テクス・メクス料理」を作るのに用いられる。"
+   }
+  ],
+  "id": "q1q3-chp-1",
+  "format": "one-answer",
+  "prompt": "チリパウダーは、アメリカにおいてメキシコ風の何という料理を作るのに用いられるか。",
+  "acceptedAnswers": [
+   "テクス・メクス料理"
+  ],
+  "explanation": "唐辛子にオレガノ・クミン・ガーリック・パプリカなどを配合したミックススパイスで、テクス・メクス料理に使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "asa-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asa-2 について、転記本文 p.98 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: ※特有の香りがかなり強いため、保存の際は必ず密閉できる容器を使用する。"
+   }
+  ],
+  "id": "q1q3-asa-2",
+  "format": "one-answer",
+  "prompt": "アサフェティダは特有の香りがかなり強いため、保存の際はどのような容器を使用しなければならないか。",
+  "acceptedAnswers": [
+   "密閉できる容器"
+  ],
+  "explanation": "根茎に切り込みを入れてにじむ乳白色の汁を固めて粉にしたもの。においが強いので密閉容器で保存する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "kaf-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaf-2 について、転記本文 p.98 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 葉をさす場合は「バイマックルー」という。"
+   }
+  ],
+  "id": "q1q3-kaf-2",
+  "format": "one-answer",
+  "prompt": "カフェライムの葉をさす場合、タイでは何というか。",
+  "acceptedAnswers": [
+   "バイマックルー"
+  ],
+  "explanation": "タイ語で葉をさす場合は「バイマックルー」という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "shi-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shi-1 について、転記本文 p.102 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 赤じそは、漬けものやふりかけなどの加工品に用いられることが多い。"
+   }
+  ],
+  "id": "q1q3-shi-1",
+  "format": "one-answer",
+  "prompt": "しその赤じそは、どのようなものに用いられることが多いか。",
+  "acceptedAnswers": [
+   "漬けものやふりかけなどの加工品"
+  ],
+  "explanation": "青じそは薬味に、赤じそは漬けものやふりかけに使われることが多い。乾燥した種子が七味唐辛子に配合されることもある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tad-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tad-2 について、転記本文 p.104 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 「蓼食う虫も好き好き」ということわざは、たでが独特の辛みを持つことに由来。"
+   }
+  ],
+  "id": "q1q3-tad-2",
+  "format": "one-answer",
+  "prompt": "ことわざ「蓼食う虫も好き好き」は、たでのどのような特徴を持つことに由来するか。",
+  "acceptedAnswers": [
+   "独特の辛み"
+  ],
+  "explanation": "ことわざ「蓼食う虫も好き好き」は、たで独特の辛みに由来する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "nig-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 nig-1 について、転記本文 p.105 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: インド名は「カロンジ」。"
+   }
+  ],
+  "id": "q1q3-nig-1",
+  "format": "one-answer",
+  "prompt": "ニゲラのインド名は何か。",
+  "acceptedAnswers": [
+   "カロンジ"
+  ],
+  "explanation": "小さな黒い粒でインドや中近東で使われ、パンチフォロンやラセラヌーに配合される。インド名カロンジ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "mit-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mit-1 について、転記本文 p.106 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 東アジアに広く自生している。"
+   }
+  ],
+  "id": "q1q3-mit-1",
+  "format": "one-answer",
+  "prompt": "みつばは、どの地域に広く自生しているか。",
+  "acceptedAnswers": [
+   "東アジア"
+  ],
+  "explanation": "みずみずしく爽やかな香りで、日本料理の汁ものの薬味やおひたしに使われる。東アジアに広く自生。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "lp-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 lp-2 について、転記本文 p.107 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: こしょうの語源とされる「ピッパリー」は、ロングペッパーをさすとされる。"
+   }
+  ],
+  "id": "q1q3-lp-2",
+  "format": "one-answer",
+  "prompt": "こしょうの語源とされる「ピッパリー」は、何をさすとされるか。",
+  "acceptedAnswers": [
+   "ロングペッパー"
+  ],
+  "explanation": "こしょうの語源とされる「ピッパリー」はロングペッパーをさすとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "za-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 za-1 について、転記本文 p.107 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 一般に白ごま、オレガノ、スマックを基本にミックスされる。"
+   }
+  ],
+  "id": "q1q3-za-1",
+  "format": "one-answer",
+  "prompt": "ザーターは一般に、白ごま、オレガノと何を基本にミックスされるか。",
+  "acceptedAnswers": [
+   "スマック"
+  ],
+  "explanation": "白ごま・オレガノ・スマックを基本にした、北アフリカ〜中近東のミックススパイス。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "duk-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 duk-1 について、転記本文 p.108 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: ごまやクミン、コリアンダーといった種子を利用するスパイス、ナッツ類など数種と塩を粗く砕いて混ぜ合わせたもの。"
+   }
+  ],
+  "id": "q1q3-duk-1",
+  "format": "one-answer",
+  "prompt": "ダッカ（デュカ）は、種子を利用するスパイスやナッツ類など数種と何を粗く砕いて混ぜ合わせたものか。",
+  "acceptedAnswers": [
+   "塩"
+  ],
+  "explanation": "ごま・クミン・コリアンダーなどの種子系スパイスとナッツ類、塩を粗く砕いて混ぜた、北アフリカ〜中東のシーズニング。"
+ }
+]
