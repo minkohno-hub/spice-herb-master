@@ -1,0 +1,836 @@
+[
+ {
+  "id": "u-3roles",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "3つの働き",
+  "category": "term",
+  "content": "料理におけるスパイスやハーブの3つの働きは、香りづけ・辛みづけ・色づけである。",
+  "source": {
+   "page": 18,
+   "sourceUnitId": "u-3roles",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "料理におけるスパイスやハーブの3つの働きは?",
+   "a": "香りづけ・辛みづけ・色づけ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-aroma-main",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "3つの働き",
+  "category": "term",
+  "content": "3つの働きのうち、ほとんどのスパイスやハーブが持つのは香りづけで、香りがスパイスの一番の特徴である。",
+  "source": {
+   "page": 18,
+   "sourceUnitId": "u-aroma-main",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "3つの働きのうち、ほとんどのスパイスやハーブが持つ働きは?",
+   "a": "香りづけ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-aroma-source",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "香り",
+  "category": "term",
+  "content": "香りの正体は揮発性の香気成分で、植物の組織や細胞に蓄えられ、それが壊れたときに強い芳香を放つ。",
+  "source": {
+   "page": 19,
+   "sourceUnitId": "u-aroma-source",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイスの香りの正体は何という成分?",
+   "a": "揮発性の香気成分",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-aroma-whole",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "香り",
+  "category": "method",
+  "content": "ホールのスパイスは、ミルで挽く・びん底などでつぶす/砕く・加熱することで香りを引き出す。",
+  "source": {
+   "page": 19,
+   "sourceUnitId": "u-aroma-whole",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ホールスパイスの香りを引き出す方法を2つ挙げよ。",
+   "a": "挽く・加熱する",
+   "alt": [
+    "つぶす",
+    "砕く"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "u-aroma-herb",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "香り",
+  "category": "method",
+  "content": "ハーブ(ホール・フレッシュ)は、ちぎる・刻む・切り込みを入れる・もむ・砕く・たたくことで香りを引き出す。",
+  "source": {
+   "page": 19,
+   "sourceUnitId": "u-aroma-herb",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フレッシュハーブの香りを引き出す方法を1つ挙げよ。",
+   "a": "ちぎる",
+   "alt": [
+    "刻む",
+    "もむ",
+    "たたく",
+    "砕く",
+    "切り込みを入れる"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "u-aroma-powder",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "香り",
+  "category": "misc",
+  "content": "パウダーはあらかじめ組織が挽かれて香りが立ちやすいが、香りの消失も早い。",
+  "source": {
+   "page": 19,
+   "sourceUnitId": "u-aroma-powder",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "パウダースパイスの短所は?",
+   "a": "香りの消失が早い",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-starter",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "香り",
+  "category": "term",
+  "content": "インドでは調理の最初にホールスパイスを油で炒めて香りを移すことが多く、このスパイスをスタータースパイスと呼ぶ。代表はクミンやマスタード(シード)。",
+  "source": {
+   "page": 19,
+   "sourceUnitId": "u-starter",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "調理の最初に油で炒めて香りを移すスパイスを何と呼ぶ?",
+   "a": "スタータースパイス",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-starter-ex",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "香り",
+  "category": "spice",
+  "content": "スタータースパイスの代表はクミンやマスタード(シード)である。",
+  "source": {
+   "page": 19,
+   "sourceUnitId": "u-starter-ex",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スタータースパイスの代表例を1つ挙げよ。",
+   "a": "クミン",
+   "alt": [
+    "マスタード",
+    "マスタードシード"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "u-heat",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "辛み",
+  "category": "misc",
+  "content": "辛みは料理にメリハリを与えるが、分量を誤ると台無しになるため少量ずつ味をみながら加える。辛みには舌が焼ける辛み・ピリッとした辛み・鼻に抜けるツンとした辛みなどの個性がある。",
+  "source": {
+   "page": 20,
+   "sourceUnitId": "u-heat",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "辛みのあるスパイスを加える際の基本的な注意は?",
+   "a": "少量ずつ味をみながら加える",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-color",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "色",
+  "category": "spice",
+  "content": "色づけに使うスパイスの例はターメリック、パプリカ、サフラン、くちなしなど。",
+  "source": {
+   "page": 20,
+   "sourceUnitId": "u-color",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "色づけの目的で使われるスパイスを1つ挙げよ(例:ターメリック以外)。",
+   "a": "パプリカ",
+   "alt": [
+    "サフラン",
+    "くちなし"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "u-timing-prep",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "タイミング",
+  "category": "timing",
+  "content": "下ごしらえ(調理前)の目的は、臭みとり・香りをしっかりつける・色を出しておくこと。まぶす・漬け込む・下ゆでに使う。",
+  "source": {
+   "page": 21,
+   "sourceUnitId": "u-timing-prep",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "素材の臭みとりや香りづけを目的にスパイスを使うタイミングは?",
+   "a": "下ごしらえ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-timing-prep-form",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "タイミング",
+  "category": "term",
+  "content": "下ごしらえでまんべんなくまぶすには粒度の小さいパウダーが向き、マリネなど液体とともに漬け込む場合はホールなど粒度の大きいものが向く。",
+  "source": {
+   "page": 21,
+   "sourceUnitId": "u-timing-prep-form",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "下ごしらえで素材にまんべんなくまぶすのに適した形状は?",
+   "a": "パウダー",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-timing-cook",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "タイミング",
+  "category": "term",
+  "content": "調理中(初めや途中)は香り・辛み・色をじっくり引き出す目的で、加熱で徐々に引き出すため粒度の大きいホールが適する。",
+  "source": {
+   "page": 21,
+   "sourceUnitId": "u-timing-cook",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "調理中にスパイスを使う場合、適した形状は?",
+   "a": "ホール",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-timing-cook-herb",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "タイミング",
+  "category": "spice",
+  "content": "調理中に使うフレッシュハーブは、ローズマリー・タイム・セージ・オレガノなど香りの強いものがおすすめ。",
+  "source": {
+   "page": 21,
+   "sourceUnitId": "u-timing-cook-herb",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "調理中に使うフレッシュハーブとして、香りの強いものの例は?",
+   "a": "ローズマリー",
+   "alt": [
+    "タイム",
+    "セージ",
+    "オレガノ"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "u-timing-finish",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "タイミング",
+  "category": "term",
+  "content": "仕上げ(調理の最後や食卓)は香り・辛み・色を瞬時に加え、彩りや形で華やかに演出する目的。粒度の小さいパウダーが多く使われる。",
+  "source": {
+   "page": 22,
+   "sourceUnitId": "u-timing-finish",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "仕上げにスパイスを使う場合、多く使われる形状は?",
+   "a": "パウダー",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-timing-finish-herb",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "タイミング",
+  "category": "misc",
+  "content": "仕上げに使うフレッシュハーブは、ディル・チャービル・チャイブ・パセリなど葉がやわらかく香りがマイルドなものがおすすめ。",
+  "source": {
+   "page": 22,
+   "sourceUnitId": "u-timing-finish-herb",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "料理の仕上げに向くフレッシュハーブの特徴は?",
+   "a": "葉がやわらかく香りがマイルド",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-overspice",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "使う量",
+  "category": "term",
+  "content": "スパイス料理のよくある失敗は量を加えすぎること(オーバースパイス)で、少量から始める。",
+  "source": {
+   "page": 22,
+   "sourceUnitId": "u-overspice",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイスを加えすぎるよくある失敗を何という?",
+   "a": "オーバースパイス",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-fresh-3x",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "使う量",
+  "category": "count",
+  "content": "同じレシピなら、フレッシュハーブの使用量はドライハーブの3倍が目安(ドライはフレッシュの体積の3分の1程度で十分)。",
+  "source": {
+   "page": 22,
+   "sourceUnitId": "u-fresh-3x",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "同じレシピでフレッシュハーブを使う場合、ドライハーブの何倍が目安?",
+   "a": "3倍",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-dry-third",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "使う量",
+  "category": "count",
+  "content": "フレッシュハーブをドライに置き換える場合、量はおよそ3分の1でよい。",
+  "source": {
+   "page": 22,
+   "sourceUnitId": "u-dry-third",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フレッシュハーブ大さじ1をドライに置き換える場合の量は?",
+   "a": "1/3量",
+   "alt": [
+    "3分の1"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "u-rosemary-same",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "使う量",
+  "category": "spice",
+  "content": "ローズマリーやタイムなど乾燥でも体積があまり変わらないハーブは、ドライとほぼ同量か少し多いくらいでよい。",
+  "source": {
+   "page": 22,
+   "sourceUnitId": "u-rosemary-same",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "乾燥でも体積があまり変化しないため、ドライとほぼ同量でよいハーブの例は?",
+   "a": "ローズマリー",
+   "alt": [
+    "タイム"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "u-wash",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "フレッシュの注意",
+  "category": "misc",
+  "content": "フレッシュハーブは洗わずに販売されていることがほとんどなので調理前に水洗いし、水けをしっかりきる。使う分だけ洗う。",
+  "source": {
+   "page": 23,
+   "sourceUnitId": "u-wash",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フレッシュハーブは調理前に水洗いが必要か?",
+   "a": "必要",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-knife",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "フレッシュの注意",
+  "category": "misc",
+  "content": "鉄製など金けのある包丁はハーブを変色させることがあるため、手でちぎるかステンレスやセラミック製の包丁を使う。",
+  "source": {
+   "page": 23,
+   "sourceUnitId": "u-knife",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハーブの変色を防ぐために使うとよい包丁の材質は?",
+   "a": "ステンレスやセラミック",
+   "alt": [
+    "ステンレス",
+    "セラミック"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "u-pairing",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "相性",
+  "category": "misc",
+  "content": "相性は料理メニューとではなく、各素材との相性で覚えるのがポイント。",
+  "source": {
+   "page": 23,
+   "sourceUnitId": "u-pairing",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイスの相性はメニューと素材のどちらとの相性で覚えるのがよい?",
+   "a": "素材",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-pair-beef",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "相性",
+  "category": "food",
+  "content": "牛肉と相性のよい例:ブーケガルニ、クローブ、オレガノ、ブラックペッパー、ガーリックなど。",
+  "source": {
+   "page": 23,
+   "sourceUnitId": "u-pair-beef",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ブーケガルニ・クローブ・オレガノなどと相性がよいとされる素材は?",
+   "a": "牛肉",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-pair-pork",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "相性",
+  "category": "food",
+  "content": "豚肉と相性のよい例:ジンジャー、ナツメッグ、スターアニス、山椒、五香粉など。",
+  "source": {
+   "page": 23,
+   "sourceUnitId": "u-pair-pork",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ジンジャー・ナツメッグ・スターアニス・五香粉などと相性がよいとされる素材は?",
+   "a": "豚肉",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-pair-redfish",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "相性",
+  "category": "food",
+  "content": "赤身魚と相性のよい例:ジンジャー、チリペッパー、タイム、フェンネル、ディル、ガーリックなど。",
+  "source": {
+   "page": 23,
+   "sourceUnitId": "u-pair-redfish",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "チリペッパー・ディル・ガーリックなどと相性がよいとされる魚は(赤身魚・白身魚)?",
+   "a": "赤身魚",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "u-pair-whitefish",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "相性",
+  "category": "food",
+  "content": "白身魚と相性のよい例:タイム、フェンネル、タラゴン、バジル、ディル、チリペッパー、ジンジャーなど。",
+  "source": {
+   "page": 23,
+   "sourceUnitId": "u-pair-whitefish",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "タラゴンやバジルなどと相性がよいとされる魚は(赤身魚・白身魚)?",
+   "a": "白身魚",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-africa",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "アフリカでは先住民の食文化にヨーロッパやイスラム圏の影響が加わり、クミン・コリアンダー(シード)・唐辛子がよく使われる。",
+  "source": {
+   "page": 25,
+   "sourceUnitId": "w-africa",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "アフリカの料理でよく使われるスパイスを1つ挙げよ。",
+   "a": "クミン",
+   "alt": [
+    "コリアンダー",
+    "唐辛子"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "w-couscous",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "dish",
+  "content": "北アフリカ(チュニジア、モロッコ)のクスクスは小粒のパスタに煮込みのスープをかける料理で、決め手はクミンなど。唐辛子ペーストのハリッサが添えられることが多い。",
+  "source": {
+   "page": 25,
+   "sourceUnitId": "w-couscous",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "クスクスに添えられることが多い唐辛子ペーストの名は?",
+   "a": "ハリッサ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-middleeast",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "food",
+  "content": "中近東ではオリーブオイル・ヨーグルト・トマト・豆類・羊肉がよく使われ、唐辛子・クミン・コリアンダー・ミント・ごま油を使う。",
+  "source": {
+   "page": 25,
+   "sourceUnitId": "w-middleeast",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "中近東の料理でよく使われる肉は?",
+   "a": "羊肉",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-tabbouleh",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "レバノンのタッブーレは刻んだパセリをオリーブオイルやレモン汁であえたサラダで、決め手はパセリ。",
+  "source": {
+   "page": 25,
+   "sourceUnitId": "w-tabbouleh",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "レバノンのサラダ「タッブーレ」の決め手のハーブは?",
+   "a": "パセリ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-dukkah",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "dish",
+  "content": "中東地域のデュカ(ダッカ)はごま・種子系スパイス・ナッツ類を合わせたシーズニングで、オリーブオイルにひたしたパンにつけて食べる。",
+  "source": {
+   "page": 25,
+   "sourceUnitId": "w-dukkah",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ごま・スパイス・ナッツ類を合わせ、オリーブオイルにひたしたパンにつけて食べるシーズニングは?",
+   "a": "デュカ",
+   "alt": [
+    "ダッカ"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "w-europe",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "ヨーロッパ・ロシアでは肉類と加工品が中心で、ナツメッグ・オールスパイス・マスタード・ローズマリー・セージが多用される。地中海沿岸では魚と相性のよいサフラン・タイム・フェンネルが使われる。",
+  "source": {
+   "page": 26,
+   "sourceUnitId": "w-europe",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "地中海沿岸地域で魚と相性がよくよく使われるスパイスを1つ挙げよ。",
+   "a": "サフラン",
+   "alt": [
+    "タイム",
+    "フェンネル"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "w-caprese",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "イタリア・カプリ島のカプレーゼは、トマト・バジル・チーズのサラダで決め手はバジル。",
+  "source": {
+   "page": 26,
+   "sourceUnitId": "w-caprese",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "カプレーゼの決め手のハーブは?",
+   "a": "バジル",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-milanese",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "リゾット・アッラ・ミラネーゼ(ミラノ風リゾット)は黄金色のリゾットで決め手はサフラン。",
+  "source": {
+   "page": 26,
+   "sourceUnitId": "w-milanese",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ミラノ風リゾットの決め手のスパイスは?",
+   "a": "サフラン",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-saltimbocca",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "イタリアのサルティンボッカは仔牛肉に生ハムとセージをのせてソテーした料理で、名前は「口に飛び込む」の意味。決め手はセージ。",
+  "source": {
+   "page": 26,
+   "sourceUnitId": "w-saltimbocca",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "サルティンボッカの決め手のハーブは?",
+   "a": "セージ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-saltimbocca-mean",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "misc",
+  "content": "「サルティンボッカ」はイタリア語で「口に飛び込む」という意味である。",
+  "source": {
+   "page": 26,
+   "sourceUnitId": "w-saltimbocca-mean",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「サルティンボッカ」の意味は?",
+   "a": "口に飛び込む",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-genovese",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "ジェノベーゼはイタリア・ジェノバ地方のバジルを使ったペースト状ソースで、決め手はバジル。",
+  "source": {
+   "page": 26,
+   "sourceUnitId": "w-genovese",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ジェノベーゼソースの決め手のハーブは?",
+   "a": "バジル",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-carbonara",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "ローマ発祥のカルボナーラは仕上げのブラックペッパーが欠かせない。",
+  "source": {
+   "page": 26,
+   "sourceUnitId": "w-carbonara",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "カルボナーラの仕上げに欠かせないスパイスは?",
+   "a": "ブラックペッパー",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-bouillabaisse",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "country",
+  "content": "ブイヤベースはフランスの郷土料理で、魚介をトマトやサフランで色と香りをつけて煮込んだスープ。",
+  "source": {
+   "page": 26,
+   "sourceUnitId": "w-bouillabaisse",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "サフランを使った魚介のスープ「ブイヤベース」はどこの国の料理?",
+   "a": "フランス",
+   "alt": []
+  },
+  "spice": null
+ }
+]
