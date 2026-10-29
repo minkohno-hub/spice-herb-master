@@ -2,7 +2,7 @@
  {
   "id": "w-paella",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -17,12 +17,17 @@
    "a": "サフラン",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "スペインのパエリア（スペイン・バレンシア地方発祥の料理。バレンシア語で「フライパン」の意味。専用の鍋で炊き上げる、肉や魚介、野菜がたっぷり入った米料理。色づけにサフランが使われる。決め手=サフラン）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-paella-mean",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "misc",
@@ -37,12 +42,17 @@
    "a": "フライパン",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "パエリアの説明文「バレンシア語で「フライパン」の意味」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-goulash",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -57,12 +67,17 @@
    "a": "パプリカ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "ハンガリーのハンガリアングラーシュ（牛肉と野菜をじっくり煮込んだスープ料理。ハンガリー特有のパプリカがふんだんに使われる。決め手=パプリカ）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-borscht",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -77,12 +92,17 @@
    "a": "ディル",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "ウクライナのボルシチ（ウクライナ発祥の料理で、ロシアをはじめ広く東ヨーロッパで食べられる。主に牛肉とビーツなどの野菜を煮込んだ料理。ディルの香りとサワークリームの酸味が特徴。決め手=ディル）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-borscht-origin",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "country",
@@ -97,12 +117,17 @@
    "a": "ウクライナ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "ボルシチの国・地域欄「ウクライナ」および説明文「ウクライナ発祥の料理」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-asia",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "term",
@@ -117,12 +142,17 @@
    "a": "発酵調味料",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "[アジア・オセアニア] 導入文（味つけは東アジア、東南アジアにおいて大豆から作られるみそやしょうゆ、魚介が原料の魚醤など、発酵調味料が広く用いられているのが特徴。東南アジア、東アジアはスパイスやハーブの重要な産地であり、それらをふんだんに使った独自の食文化が発達している）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-dongpo",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -139,12 +169,17 @@
     "八角"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "中国のトンポーロウ（豚の角煮）（豚のかたまり肉をじっくりと煮込んだ中国・浙江省の料理。風味づけにスターアニスが欠かせない。決め手=スターアニス（八角））と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-dongpo-country",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "country",
@@ -159,12 +194,17 @@
    "a": "中国",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "トンポーロウの国・地域欄「中国」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-tomyum",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "country",
@@ -179,12 +219,17 @@
    "a": "タイ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "タイのトムヤムクン（唐辛子の辛み、ライムの酸味、レモングラス、カフェライムリーフなどの爽やかな香りが特徴のスープ料理。具材にはえびが使われ、仕上げにはパクチーが加えられる）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-banhxeo",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -199,12 +244,17 @@
    "a": "ターメリック",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "ベトナムのバインセオ（ターメリックを混ぜ込んだ米粉の生地を薄く焼き、もやし、えび、豚肉などの具材をはさんだ、ベトナム風お好み焼きといわれる料理。決め手=ターメリック）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-america",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "term",
@@ -219,12 +269,17 @@
    "a": "フュージョン料理",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "[アメリカ] 導入文「また移民大国ならではの、フュージョン料理と呼ぶべき新たな食文化も生み出してきた」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-chiliconcarne",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "dish",
@@ -239,12 +294,17 @@
    "a": "テクス・メクス",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "アメリカのチリコンカン（テクス・メクス（テキサス生まれのメキシコ風アメリカ料理）の代表的なメニューのひとつ。スパイスやハーブをきかせた豆と肉の煮込み料理。決め手=チリパウダー、クミン、オレガノ）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-guacamole",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -259,12 +319,17 @@
    "a": "パクチー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "メキシコのワカモーレ（メキシコ特産のアボカドで作るディップで、パクチーなどのハーブの風味が特徴。決め手=パクチー、唐辛子）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "d-moroccan-tea",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界のドリンク",
   "category": "drink",
@@ -281,12 +346,17 @@
     "モロカンティー"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "モロッコのモロッコティー（モロカンティー）（ガンパウダーと呼ばれる中国緑茶とミント、たっぷりの角砂糖をポットに入れ、熱湯を注いでいれるお茶。決め手=ミント）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "d-gahwa",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界のドリンク",
   "category": "spice",
@@ -301,12 +371,17 @@
    "a": "カルダモン",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "サウジアラビアのガーワ（アラビアンコーヒー）（真鍮製のコーヒーポットの口に、割ったカルダモンを数粒詰めてコーヒーを注ぐ、カルダモンコーヒー。決め手=カルダモン）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "d-eggnog",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界のドリンク",
   "category": "spice",
@@ -321,12 +396,17 @@
    "a": "ナツメッグ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "アメリカのエッグノッグ（牛乳と卵で作られる濃厚な冬の定番ドリンク。風味づけにナツメッグなどのスパイスが使われる。決め手=ナツメッグ）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "d-cafe-olla",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界のドリンク",
   "category": "spice",
@@ -341,12 +421,17 @@
    "a": "シナモン",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "メキシコのカフェ・デ・オーヤ（鍋で煮出して作るコーヒーで、風味づけにシナモンが使われる。決め手=シナモン）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "d-mojito",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界のドリンク",
   "category": "person",
@@ -361,12 +446,17 @@
    "a": "ヘミングウェイ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "キューバのモヒート（作家のヘミングウェイがこよなく愛したドリンクとして有名。ベースのラム酒にミントとライムで風味づけされる。決め手=ミント）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "d-mojito-herb",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界のドリンク",
   "category": "spice",
@@ -381,6 +471,11 @@
    "a": "ミント",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "モヒートの決め手欄「ミント」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  }
 ]

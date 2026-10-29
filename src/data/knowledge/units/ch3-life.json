@@ -2,7 +2,7 @@
  {
   "id": "t-def",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブティー",
   "category": "term",
@@ -17,12 +17,17 @@
    "a": "ブレンドハーブティー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "注記「1種類だけのハーブでいれたお茶は『シングルハーブティー』、複数のハーブを用いたものは『ブレンドハーブティー』と呼ばれる」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-caution",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブティー",
   "category": "misc",
@@ -33,12 +38,17 @@
    "origin": "claude/build-learning-app"
   },
   "draftQa": null,
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "「ハーブティーを楽しむ際の注意事項」の前段（妊娠中の人や幼児、高齢者、通院中の人、アレルギーや高血圧など特別な疾患がある場合には適さない種類があるので、安全性を確認してから楽しむこと）の忠実な要約で意味一致。軽微な表現差として修正不要で昇格",
+   "needsReview": false
+  }
  },
  {
   "id": "t-cup",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "いれ方",
   "category": "count",
@@ -53,12 +63,17 @@
    "a": "150〜180ml",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "手順1「準備」（ティーカップ（1杯分150〜180mℓ）を用意する。カップはあらかじめ温めておく）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-amount",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "いれ方",
   "category": "count",
@@ -73,12 +88,17 @@
    "a": "3杯",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "手順2（ドライハーブはティーカップ1杯分でティースプーン山盛り1杯程度。フレッシュハーブは山盛り3杯程度。ドライの3倍程度が目安）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-lid",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "いれ方",
   "category": "method",
@@ -93,12 +113,17 @@
    "a": "揮発性の香りを逃がさないため",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "手順3の注記（熱湯にするのは、香りを出しやすくするため。蓋をするのは、蓋なしでは揮発性である香りがどんどん逃げてしまうため）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-time",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "いれ方",
   "category": "count",
@@ -113,12 +138,17 @@
    "a": "7〜10分",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "手順4（フレッシュハーブティーで3分程度、ドライハーブティー（葉や花）で3〜5分。かたい種皮を持つ果実や種子などは7〜10分）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-summer",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "季節のブレンド",
   "category": "misc",
@@ -129,12 +159,17 @@
    "origin": "claude/build-learning-app"
   },
   "draftQa": null,
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "「夏」節の「濃いめに抽出したハーブティーを、氷の入ったグラスに注ぐアイスハーブティーがおすすめ。爽やかな酸味と美しい赤い色が特徴のハイビスカスやローズヒップ、爽やかな香りのレモングラスやミントなどがぴったり」と一致",
+   "needsReview": false
+  }
  },
  {
   "id": "t-chamomile",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブリスト",
   "category": "spice",
@@ -149,12 +184,17 @@
    "a": "ジャーマンカモミール",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ジャーマンカモミール項の「「大地のりんご」と呼ばれるように、りんごに似た甘い香りがする」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-stevia",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブリスト",
   "category": "count",
@@ -169,12 +209,17 @@
    "a": "200〜300倍",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ステビア項の「利用した甘味料は、砂糖の200〜300倍ほどの甘さがあるといわれている」と一致（数値含む）。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-hibiscus",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブリスト",
   "category": "spice",
@@ -189,12 +234,17 @@
    "a": "ローゼル",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ハイビスカス項の「爽やかな酸味と美しい赤い色が特徴。クエン酸を多く含む」「別名「ローゼル」」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-mallow",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブリスト",
   "category": "spice",
@@ -212,12 +262,17 @@
     "マロウ/マロー"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "マロウ/マロー項の「ティーは美しい青色…酸性のレモン汁や乳酸飲料などを加えるとピンクに変化…色の変化から「夜明けのハーブティー」との愛称」と一致。q/a（alt のマローは見出し表記と一致）も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-raspberry",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブリスト",
   "category": "spice",
@@ -232,12 +287,17 @@
    "a": "ラズベリーリーフ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ラズベリーリーフ項の「ヨーロッパでは古くから「安産のハーブティー」として親しまれ」「※妊娠中の飲用については、かかりつけ医に相談すること」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-elder",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブリスト",
   "category": "spice",
@@ -252,12 +312,17 @@
    "a": "エルダーフラワー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "エルダーフラワー項の「マスカットに似た甘くてフルーティな香り」「欧米では古くから万病薬的な存在として親しまれており」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-lavender",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブリスト",
   "category": "spice",
@@ -272,12 +337,17 @@
    "a": "ラベンダー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ラベンダー項の「甘くフローラルな強い香りで「ハーブの女王」とも呼ばれる」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-verbena",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブリスト",
   "category": "spice",
@@ -292,12 +362,17 @@
    "a": "ベルベーヌ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "レモンバーベナ項の「別名「ベルベーヌ」」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-rosehip",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハーブリスト",
   "category": "spice",
@@ -312,12 +387,17 @@
    "a": "ドッグローズ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ローズヒップ項の「ドッグローズというバラ科の植物の実で…ビタミンCが豊富に含まれており」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "t-coffee",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "代替コーヒー",
   "category": "spice",
@@ -332,12 +412,17 @@
    "a": "ダンデリオン",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "コラム「人気の代替コーヒー（ハーブコーヒー）」の「ハーブの根をローストしたもの」「カフェインは含まれていない」「代表的なものにダンデリオン（セイヨウタンポポ）の根を利用したものや、チコリの根を利用したもの」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-bath",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ヘルス&ビューティー",
   "category": "count",
@@ -352,12 +437,17 @@
    "a": "約20g",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ハーブバス使用量の「ドライハーブの場合…約20g（大さじ山盛り5杯程度）」「フレッシュハーブの場合…ひとつかみ程度」と一致（数値含む）。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-youth",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ヘルス&ビューティー",
   "category": "spice",
@@ -372,12 +462,17 @@
    "a": "ローズマリー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "「ローズマリーは「若返りのハーブ」といわれ、美肌作用が期待されている」と一致。原文の留保表現をそのまま保持し、効能の断定への強化なし。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-skin",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ヘルス&ビューティー",
   "category": "spice",
@@ -394,12 +489,17 @@
     "ジュニパーベリー"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "化粧水の肌タイプ別ハーブ選び表（乾燥肌〜普通肌=ラベンダー、ジャーマンカモミール／普通肌〜脂性肌=ゼラニウム／脂性肌=ローズマリー、ジュニパーベリー）と全行一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-lotion",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ヘルス&ビューティー",
   "category": "count",
@@ -414,12 +514,17 @@
    "a": "4〜5日",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "手作り化粧水のレシピ注記「作った化粧水は自家用のみで使い、冷蔵室で保管し、4〜5日で使い切る」と一致（数値含む）。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-hungarian",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ヘルス&ビューティー",
   "category": "term",
@@ -434,12 +539,17 @@
    "a": "ハンガリアンウォーター",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "コラム「若返りのハーブ!?『ハンガリアンウォーター』」の逸話（14世紀頃、ハンガリー王妃にローズマリーなどで作られた化粧水が献上され、健康が回復し若々しい肌がよみがえった）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-gargle",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ヘルス&ビューティー",
   "category": "spice",
@@ -454,12 +564,17 @@
    "a": "タイム",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「自家製うがい液もハーブで」の「濃いめに煮出したハーブティーをそのまま冷まして使います」「うがい液はその日のうちに使い切る」、おすすめのタイム（抗菌作用が強いといわれる成分「チモール」を含む）・ミントと一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-aromabath",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハウスキーピング",
   "category": "term",
@@ -474,12 +589,17 @@
    "a": "芳香浴",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「芳香浴 精油を利用」の「精油を使って香りを空間に漂わせて楽しむことを芳香浴といいます」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-spray",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハウスキーピング",
   "category": "food",
@@ -494,12 +614,17 @@
    "a": "無水エタノール",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「ルームフレッシュナー（ルームスプレー）」の手順（無水エタノール5mℓに好みの精油20滴以下をたらして混ぜ、精製水45mℓを加える）と一致（数値含む）。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-oil",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "精油",
   "category": "term",
@@ -516,12 +641,17 @@
     "芳香療法"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "コラム「精油（エッセンシャルオイル）について」の定義（植物から抽出した芳香成分を高濃度に含有した天然素材）と「これを生かしたものが『アロマテラピー』。芳香療法と訳され」、注意事項（絶対に口に入れない／肌に直接使用しない／火気に注意）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-rice",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "暮らしの知恵",
   "category": "spice",
@@ -538,12 +668,17 @@
     "ローレル"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「食品保存に」の「米びつに唐辛子（2〜3本）やローレル（3〜4枚）を入れておくと虫がつかないとされます」と一致（数値・留保表現含む）。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-closet",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "暮らしの知恵",
   "category": "misc",
@@ -554,12 +689,17 @@
    "origin": "claude/build-learning-app"
   },
   "draftQa": null,
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「食器棚やクローゼットに」の「クローゼットにラベンダー、シナモン、ローレル、セージなどを入れておくと…防虫効果が期待できます」と一致（品目・留保表現含む）",
+   "needsReview": false
+  }
  },
  {
   "id": "l-sachet",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハンドメイド",
   "category": "term",
@@ -574,12 +714,17 @@
    "a": "サシェ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「Handmade 1 サシェ」の「フランス語で『香り袋』のこと」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-sachet-deodor",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハンドメイド",
   "category": "spice",
@@ -597,12 +742,17 @@
     "ジャーマンカモミール"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「サシェにおすすめのスパイス＆ハーブ」の用途別3区分（消臭=ペパーミント・クローブ・タイム／リフレッシュ=ローズマリー・レモングラス・山椒／リラックス=ラベンダー・ローズ・ジャーマンカモミール）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-pomander",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハンドメイド",
   "category": "spice",
@@ -617,12 +767,17 @@
    "a": "クローブ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「フルーツポマンダー」: ポマンダーは「香り玉」の意味、オレンジなど柑橘系の果物にクローブを刺しパウダースパイス（シナモン）をまぶす、注意「高温多湿の夏場に作ると乾燥中にカビやすいので、秋から春の製作がおすすめ」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-pomander-mean",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハンドメイド",
   "category": "term",
@@ -637,12 +792,17 @@
    "a": "香り玉",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「ポマンダーとは『香り玉』の意味」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "l-tussie",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "ハンドメイド",
   "category": "term",
@@ -657,12 +817,17 @@
    "a": "タッジーマッジー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "コラム「タッジーマッジーってどんなもの？」: イギリス伝統のハーブの入った小さな花束、19世紀のビクトリア朝時代に花言葉とともに流行し「語るブーケ」「言葉の花束」と呼ばれた、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-timing",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "timing",
@@ -677,12 +842,17 @@
    "a": "春",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「定植の時期」: 春（遅霜の心配がなくなる4月下旬以降）・秋（9月下旬〜10月上旬）が目安、バジルなどの一年草で耐寒性のないハーブは春の定植が基本、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-annual",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "term",
@@ -697,12 +867,17 @@
    "a": "常緑植物",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "一年草（発芽してから開花、結実、枯死するまでのサイクルが1年未満の植物）・多年草（毎年、茎や葉を伸ばすもの）・常緑植物（一年中、地上部が枯れない植物）の定義と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-seedling",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "misc",
@@ -713,12 +888,17 @@
    "origin": "claude/build-learning-app"
   },
   "draftQa": null,
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「苗を選ぶポイント」3点（葉や茎につやがあるもの／葉や茎が間延びしていないもの／根づまりや根腐れを起こしていないもの）と一致（draftQa なし）",
+   "needsReview": false
+  }
  },
  {
   "id": "g-soil",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "term",
@@ -733,12 +913,17 @@
    "a": "弱アルカリ性",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「培養土」: 一般的にハーブの培養には「弱アルカリ性」「通気性がある」「排水性と保水性をあわせ持つ」特徴の土が適している、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-soil-blend",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "term",
@@ -753,12 +938,17 @@
    "a": "ピートモス",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「ブレンドする土」: ベース=赤玉土（水はけ・通気性）・腐葉土（養分・通気性）、プラス=バーミキュライト（軽量化・水はけ）・ピートモス（保水性、ただし酸性なので酸度が調整されているものを用いる）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-pot",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "term",
@@ -773,12 +963,17 @@
    "a": "素焼き",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「容器」: 素焼き製=通気性（水はけ）はよいが夏は乾燥しやすい／プラスチック製=軽いが通気性が悪くて蒸れやすい、と植えつけ手順「苗の根元が鉢の縁から2cm程度下がったところにくるように調整する」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-temp",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "temp",
@@ -793,12 +988,17 @@
    "a": "15〜25度",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「温度」=ハーブによって適温に差はあるが、だいたい15〜25度／「肥料やり」=定植後ハーブが育ち始めてからは、2〜3週間に一度を目安に肥料を与える、と一致（数値2点含む）。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-water",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "timing",
@@ -813,12 +1013,17 @@
    "a": "午前中",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「水やり」の基本3点（土の表面が乾いてから与える／鉢底から水が流れ出すほどたっぷりと／午前中に）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-dry",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "term",
@@ -833,12 +1038,17 @@
    "a": "湿潤",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「ハーブの個性に合わせて」: 乾燥を好むハーブ（ローズマリー、タイムなど／ローズマリー、セージなど）と湿潤を好むハーブ（バジルなど／チャービル、パセリなど）の分類と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-pinch",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "term",
@@ -853,12 +1063,17 @@
    "a": "摘芯",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「剪定・摘芯」: 剪定=枝や茎の一部を取り除くこと、摘芯=枝先の中心を切り取り、その脇から新芽を出させること、の定義2点と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-harvest-dry",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "timing",
@@ -873,12 +1088,17 @@
    "a": "開花直前",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「ハーブを収穫する［時期］」=ドライにする場合は、最も香りが強くなる開花直前（花が咲き始める頃）の収穫がおすすめ、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-harvest-lam",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "method",
@@ -889,12 +1109,17 @@
    "origin": "claude/build-learning-app"
   },
   "draftQa": null,
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「［収穫方法］」=シソ科に属するハーブのうち、草本性のハーブ（バジル、オレガノ、ミント、セージ、レモンバームなど）は脇芽のある節の上でカットして収穫、と一致（単位は例示を3種に絞った要約）。draftQa はなし",
+   "needsReview": false
+  }
  },
  {
   "id": "g-harvest-woody",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "term",
@@ -909,12 +1134,17 @@
    "a": "木本性",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "シソ科の木本性のハーブ（茎が木質化するローズマリー、ラベンダー、タイムなど）は使用する分だけ枝を間引くように収穫する、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-harvest-api",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "method",
@@ -929,12 +1159,17 @@
    "a": "外側",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "セリ科に属する大部分のハーブは内側から新芽が出るので、中心部は残して外側の葉から収穫する、と一致（単位は例示を省略した要約）。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "g-propagate",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "栽培",
   "category": "method",
@@ -949,12 +1184,17 @@
    "a": "挿し木",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「ハーブをふやす（増殖）」の3つの方法（種をまく／株分けする／挿し木）と挿し木「1ヵ月ほどで根づく」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "m-holistic",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "健康",
   "category": "term",
@@ -969,12 +1209,17 @@
    "a": "ホリスティック",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "「伝統医学とスパイス＆ハーブ」: 「ホリスティックな視点――人を『全体』としてとらえる考え方――に基づいています」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "m-ayurveda",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "健康",
   "category": "term",
@@ -989,12 +1234,17 @@
    "a": "ドーシャ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "「インドの伝統医学『アーユルヴェーダ』」: 「人間の体の機能を『ヴァータ』『ピッタ』『カパ』の3要素（ドーシャ）でとらえ」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "m-ayur-3",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "健康",
   "category": "term",
@@ -1009,12 +1259,17 @@
    "a": "カパ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "ドーシャの3要素はヴァータ・ピッタ・カパで、p.128 本文と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "m-tulsi",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "健康",
   "category": "spice",
@@ -1031,12 +1286,17 @@
     "トゥルシー"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "表「アーユルヴェーダでよく使われるスパイスやハーブの一例」: ホーリーバジルの別名（インド現地名）は「トゥラシー、トゥルシー」で一致。q/a（a=トゥラシー、alt=トゥルシー）も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "m-haldi",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "健康",
   "category": "spice",
@@ -1051,12 +1311,17 @@
    "a": "ハルディ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "同表: コリアンダー（シード）=ダニヤー、クミン=ジーラ、ターメリック=ハルディの3対応が一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "m-china",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "健康",
   "category": "book",
@@ -1071,16 +1336,21 @@
    "a": "神農本草経",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "「中国の伝統医学」: 陰陽五行説に基づいて体系化、韓国では「韓医学」、日本では「漢方」として定着、中医学の古典薬草書『神農本草経』と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "m-nikuzuku",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "健康",
   "category": "spice",
-  "content": "漢方名で、ナツメッグは肉豆蔻、シナモンは桂皮、ペパーミントは薄荷。",
+  "content": "漢方名で、ナツメッグは肉豆蔲、シナモンは桂皮、ペパーミントは薄荷。",
   "source": {
    "page": 129,
    "sourceUnitId": "m-nikuzuku",
@@ -1088,18 +1358,23 @@
   },
   "draftQa": {
    "q": "ナツメッグの漢方名は?",
-   "a": "肉豆蔻",
+   "a": "肉豆蔲",
    "alt": [
-    "肉豆蔲",
+    "肉豆蔻",
     "にくずく"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "誤りを修正して昇格: 漢方名の漢字が原文と異なっていた（修正前 content「肉豆蔻」/ a「肉豆蔻」→ 原文 p.129 の表「漢方でよく使われるスパイスやハーブの一例」の表記「肉豆蔲（にくずく）」に修正。拡大読解で確認。修正前の表記は許容回答として alt に保持）。シナモン=桂皮、ペパーミント=薄荷の対応は原文どおり",
+   "needsReview": false
+  }
  },
  {
   "id": "m-yakkiho",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch3",
   "sectionTitle": "健康",
   "category": "term",
@@ -1114,6 +1389,11 @@
    "a": "薬機法",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "p.129 脚注: 「食品としてのスパイス・ハーブと、漢方薬のそれらは薬機法（『医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律』）により明確に区別されています」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  }
 ]

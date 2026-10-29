@@ -1,0 +1,1256 @@
+[
+ {
+  "id": "card-m-greek",
+  "front": "ギリシア発祥の伝統医学が通じているとされる現在の西洋ハーブ医学は?",
+  "back": "メディカルハーブ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-greek"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-greek から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-wanames",
+  "front": "セントジョーンズワートの和名は?",
+  "back": "西洋オトギリソウ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-wanames"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-wanames から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-kamitsure",
+  "front": "ジャーマンカモミールの和名は?",
+  "back": "カミツレ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-kamitsure"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-kamitsure から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-commissione",
+  "front": "ハーブ先進国ドイツの専門機関で、ハーブの効果と安全性のモノグラフを作成したのは?",
+  "back": "コミッションE",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-commissione"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-commissione から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-3func",
+  "front": "食品の3つの機能は、栄養機能・嗜好機能と何?",
+  "back": "生体調節機能",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-3func"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9707",
+    "bookPage": 131,
+    "locationNote": "本書 p.131（原本画像 IMG_9707.PNG）。原文照合 batch15 で照合済みの知識単位 m-3func から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-func-ex",
+  "front": "本書の表で「血流増加」の作用が挙げられているスパイスは?",
+  "back": "ロングペッパー",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-func-ex"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9707",
+    "bookPage": 131,
+    "locationNote": "本書 p.131（原本画像 IMG_9707.PNG）。原文照合 batch15 で照合済みの知識単位 m-func-ex から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-salt",
+  "front": "「日本人の食事摂取基準(2025年版)」で推奨される成人男性の1日の食塩摂取量は?",
+  "back": "7.5g未満",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-salt"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-salt から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-salt-f",
+  "front": "「日本人の食事摂取基準(2025年版)」で推奨される成人女性の1日の食塩摂取量は?",
+  "back": "6.5g未満",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-salt-f"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-salt-f から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-tekien",
+  "front": "健康のために適切な量の食塩を摂ることを何という?",
+  "back": "適塩",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-tekien"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-tekien から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-kijun",
+  "front": "「日本人の食事摂取基準」は何年ごとに改定される?",
+  "back": "5年",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-kijun"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-kijun から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-menu",
+  "front": "本書の減塩メニュー例で、減塩みそ汁に加えるスパイスは?",
+  "back": "七味唐辛子",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-menu"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9709",
+    "bookPage": 133,
+    "locationNote": "本書 p.133（原本画像 IMG_9709.PNG）。原文照合 batch16 で照合済みの知識単位 m-menu から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-shokukeiken",
+  "front": "人類が長年食べ続けてきた経験で、食品の安全性の裏づけとなるものを何という?",
+  "back": "食経験",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-shokukeiken"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9710",
+    "bookPage": 134,
+    "locationNote": "本書 p.134（原本画像 IMG_9710.PNG）。原文照合 batch16 で照合済みの知識単位 m-shokukeiken から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-hokenkinou",
+  "front": "保健機能食品は、特定保健用食品・栄養機能食品と何の3つ?",
+  "back": "機能性表示食品",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-hokenkinou"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9710",
+    "bookPage": 134,
+    "locationNote": "本書 p.134（原本画像 IMG_9710.PNG）。原文照合 batch16 で照合済みの知識単位 m-hokenkinou から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-faddism",
+  "front": "食べ物の健康への影響を過大に信じたり評価したりする傾向を何という?",
+  "back": "フードファディズム",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-faddism"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9711",
+    "bookPage": 135,
+    "locationNote": "本書 p.135（原本画像 IMG_9711.PNG）。原文照合 batch16 で照合済みの知識単位 m-faddism から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-hfnet",
+  "front": "医薬基盤・健康・栄養研究所が運営する健康食品の情報サイトの略称は?",
+  "back": "HFNet",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-hfnet"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9711",
+    "bookPage": 135,
+    "locationNote": "本書 p.135（原本画像 IMG_9711.PNG）。原文照合 batch16 で照合済みの知識単位 m-hfnet から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-def",
+  "front": "複数のハーブを用いたハーブティーを何と呼ぶ?",
+  "back": "ブレンドハーブティー",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-def"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9686",
+    "bookPage": 110,
+    "locationNote": "本書 p.110（原本画像 IMG_9686.PNG）。原文照合 batch10 で照合済みの知識単位 t-def から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-cup",
+  "front": "ハーブティーのティーカップ1杯分の目安量は?",
+  "back": "150〜180ml",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-cup"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-cup から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-amount",
+  "front": "ハーブティー1杯分のフレッシュハーブの目安は、ティースプーン山盛り何杯?",
+  "back": "3杯",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-amount"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-amount から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-lid",
+  "front": "ハーブティーをいれるとき、ポットに蓋をする理由は?",
+  "back": "揮発性の香りを逃がさないため",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-lid"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-lid から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-time",
+  "front": "かたい種皮を持つ果実や種子のハーブティーの抽出時間の目安は?",
+  "back": "7〜10分",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-time"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-time から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-chamomile",
+  "front": "「大地のりんご」と呼ばれるハーブは?",
+  "back": "ジャーマンカモミール",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-chamomile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-chamomile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-stevia",
+  "front": "ステビアを利用した甘味料は、砂糖の何倍ほどの甘さといわれる?",
+  "back": "200〜300倍",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-stevia"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-stevia から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-hibiscus",
+  "front": "ハイビスカスの別名は?",
+  "back": "ローゼル",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-hibiscus"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-hibiscus から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-mallow",
+  "front": "色の変化から「夜明けのハーブティー」と呼ばれるハーブは?",
+  "back": "マロウ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-mallow"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-mallow から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-raspberry",
+  "front": "ヨーロッパで「安産のハーブティー」として親しまれてきたのは?",
+  "back": "ラズベリーリーフ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-raspberry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-raspberry から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-elder",
+  "front": "マスカットに似た香りを持ち、欧米で万病薬的存在とされたハーブは?",
+  "back": "エルダーフラワー",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-elder"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-elder から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-lavender",
+  "front": "「ハーブの女王」とも呼ばれるハーブは?",
+  "back": "ラベンダー",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-lavender"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-lavender から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-verbena",
+  "front": "レモンバーベナの別名は?",
+  "back": "ベルベーヌ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-verbena"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-verbena から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-rosehip",
+  "front": "ローズヒップは何という植物の実?",
+  "back": "ドッグローズ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-rosehip"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-rosehip から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-t-coffee",
+  "front": "代替コーヒーの原料として代表的な、セイヨウタンポポの英名は?",
+  "back": "ダンデリオン",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "t-coffee"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-coffee から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-bath",
+  "front": "ハーブバスに使うドライハーブの量の目安は?",
+  "back": "約20g",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-bath"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9691",
+    "bookPage": 115,
+    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-bath から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-youth",
+  "front": "「若返りのハーブ」といわれるハーブは?",
+  "back": "ローズマリー",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-youth"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9691",
+    "bookPage": 115,
+    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-youth から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-skin",
+  "front": "脂性肌向けの化粧水に向くハーブの例を1つ挙げよ。",
+  "back": "ローズマリー",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-skin"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9691",
+    "bookPage": 115,
+    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-skin から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-lotion",
+  "front": "手作り化粧水は冷蔵保管で何日で使い切る?",
+  "back": "4〜5日",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-lotion"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-lotion から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-hungarian",
+  "front": "ハンガリー王妃の逸話で知られる、ローズマリーなどで作った化粧水の名は?",
+  "back": "ハンガリアンウォーター",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-hungarian"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-hungarian から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-gargle",
+  "front": "抗菌作用が強いといわれる成分チモールを含み、うがい液に向くハーブは?",
+  "back": "タイム",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-gargle"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-gargle から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-aromabath",
+  "front": "精油の香りを空間に漂わせて楽しむことを何という?",
+  "back": "芳香浴",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-aromabath"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9693",
+    "bookPage": 117,
+    "locationNote": "本書 p.117（原本画像 IMG_9693.PNG）。原文照合 batch12 で照合済みの知識単位 l-aromabath から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-spray",
+  "front": "ルームスプレーで、精油を最初に混ぜる液体は?",
+  "back": "無水エタノール",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-spray"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9693",
+    "bookPage": 117,
+    "locationNote": "本書 p.117（原本画像 IMG_9693.PNG）。原文照合 batch12 で照合済みの知識単位 l-spray から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-oil",
+  "front": "精油の香りと作用を生かしたものを何という?",
+  "back": "アロマテラピー",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-oil"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9694",
+    "bookPage": 118,
+    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-oil から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-rice",
+  "front": "米びつに入れて虫よけにするとされるスパイス・ハーブを1つ挙げよ。",
+  "back": "唐辛子",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-rice"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9694",
+    "bookPage": 118,
+    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-rice から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-sachet",
+  "front": "フランス語で「香り袋」を意味する言葉は?",
+  "back": "サシェ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-sachet"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9695",
+    "bookPage": 119,
+    "locationNote": "本書 p.119（原本画像 IMG_9695.PNG）。原文照合 batch12 で照合済みの知識単位 l-sachet から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-sachet-deodor",
+  "front": "リラックス用のサシェに向くハーブを1つ挙げよ。",
+  "back": "ラベンダー",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-sachet-deodor"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9696",
+    "bookPage": 120,
+    "locationNote": "本書 p.120（原本画像 IMG_9696.PNG）。原文照合 batch13 で照合済みの知識単位 l-sachet-deodor から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-pomander",
+  "front": "フルーツポマンダーで、オレンジに刺すスパイスは?",
+  "back": "クローブ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-pomander"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9696",
+    "bookPage": 120,
+    "locationNote": "本書 p.120（原本画像 IMG_9696.PNG）。原文照合 batch13 で照合済みの知識単位 l-pomander から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-pomander-mean",
+  "front": "「ポマンダー」の意味は?",
+  "back": "香り玉",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-pomander-mean"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9696",
+    "bookPage": 120,
+    "locationNote": "本書 p.120（原本画像 IMG_9696.PNG）。原文照合 batch13 で照合済みの知識単位 l-pomander-mean から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-l-tussie",
+  "front": "ビクトリア朝時代に流行した、「語るブーケ」とも呼ばれるハーブ入りの花束は?",
+  "back": "タッジーマッジー",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "l-tussie"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9697",
+    "bookPage": 121,
+    "locationNote": "本書 p.121（原本画像 IMG_9697.PNG）。原文照合 batch13 で照合済みの知識単位 l-tussie から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-timing",
+  "front": "バジルなど耐寒性のない一年草のハーブの定植は、春と秋のどちらが基本?",
+  "back": "春",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-timing"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9698",
+    "bookPage": 122,
+    "locationNote": "本書 p.122（原本画像 IMG_9698.PNG）。原文照合 batch13 で照合済みの知識単位 g-timing から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-annual",
+  "front": "一年中、地上部が枯れない植物を何という?",
+  "back": "常緑植物",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-annual"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9698",
+    "bookPage": 122,
+    "locationNote": "本書 p.122（原本画像 IMG_9698.PNG）。原文照合 batch13 で照合済みの知識単位 g-annual から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-soil",
+  "front": "一般的にハーブの培養土に適するとされる酸度は?",
+  "back": "弱アルカリ性",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-soil"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9699",
+    "bookPage": 123,
+    "locationNote": "本書 p.123（原本画像 IMG_9699.PNG）。原文照合 batch13 で照合済みの知識単位 g-soil から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-soil-blend",
+  "front": "保水性をよくするが酸性のため、酸度調整済みのものを使う土は?",
+  "back": "ピートモス",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-soil-blend"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9699",
+    "bookPage": 123,
+    "locationNote": "本書 p.123（原本画像 IMG_9699.PNG）。原文照合 batch13 で照合済みの知識単位 g-soil-blend から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-pot",
+  "front": "通気性はよいが夏は乾燥しやすい鉢の素材は?",
+  "back": "素焼き",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-pot"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9700",
+    "bookPage": 124,
+    "locationNote": "本書 p.124（原本画像 IMG_9700.PNG）。原文照合 batch14 で照合済みの知識単位 g-pot から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-temp",
+  "front": "多くのハーブの適温は?",
+  "back": "15〜25度",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-temp"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9701",
+    "bookPage": 125,
+    "locationNote": "本書 p.125（原本画像 IMG_9701.PNG）。原文照合 batch14 で照合済みの知識単位 g-temp から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-water",
+  "front": "ハーブの水やりは1日のいつ行うのが基本?",
+  "back": "午前中",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-water"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9701",
+    "bookPage": 125,
+    "locationNote": "本書 p.125（原本画像 IMG_9701.PNG）。原文照合 batch14 で照合済みの知識単位 g-water から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-dry",
+  "front": "乾燥と湿潤のうち、バジルが好むのは?",
+  "back": "湿潤",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-dry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9701",
+    "bookPage": 125,
+    "locationNote": "本書 p.125（原本画像 IMG_9701.PNG）。原文照合 batch14 で照合済みの知識単位 g-dry から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-pinch",
+  "front": "枝先の中心を切り取って脇から新芽を出させることを何という?",
+  "back": "摘芯",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-pinch"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9702",
+    "bookPage": 126,
+    "locationNote": "本書 p.126（原本画像 IMG_9702.PNG）。原文照合 batch14 で照合済みの知識単位 g-pinch から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-harvest-dry",
+  "front": "ドライにするハーブの収穫に適した時期は?",
+  "back": "開花直前",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-harvest-dry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9702",
+    "bookPage": 126,
+    "locationNote": "本書 p.126（原本画像 IMG_9702.PNG）。原文照合 batch14 で照合済みの知識単位 g-harvest-dry から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-harvest-woody",
+  "front": "ローズマリーやラベンダーのように茎が木質化するハーブを何性という?",
+  "back": "木本性",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-harvest-woody"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9703",
+    "bookPage": 127,
+    "locationNote": "本書 p.127（原本画像 IMG_9703.PNG）。原文照合 batch14 で照合済みの知識単位 g-harvest-woody から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-harvest-api",
+  "front": "セリ科ハーブの葉は、内側と外側のどちらから収穫する?",
+  "back": "外側",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-harvest-api"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9703",
+    "bookPage": 127,
+    "locationNote": "本書 p.127（原本画像 IMG_9703.PNG）。原文照合 batch14 で照合済みの知識単位 g-harvest-api から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-g-propagate",
+  "front": "ハーブをふやす3つの方法は、種まき・株分けと何?",
+  "back": "挿し木",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "g-propagate"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9703",
+    "bookPage": 127,
+    "locationNote": "本書 p.127（原本画像 IMG_9703.PNG）。原文照合 batch14 で照合済みの知識単位 g-propagate から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-holistic",
+  "front": "人を「全体」としてとらえる考え方を何という?",
+  "back": "ホリスティック",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-holistic"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-holistic から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-ayurveda",
+  "front": "アーユルヴェーダで体の機能をとらえる3要素を総称して何という?",
+  "back": "ドーシャ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-ayurveda"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-ayurveda から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-ayur-3",
+  "front": "ドーシャの3要素は、ヴァータ・ピッタと何?",
+  "back": "カパ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-ayur-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-ayur-3 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-tulsi",
+  "front": "ホーリーバジルのインド現地名は?",
+  "back": "トゥラシー",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-tulsi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-tulsi から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-haldi",
+  "front": "ターメリックのインド現地名は?",
+  "back": "ハルディ",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-haldi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-haldi から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-china",
+  "front": "中医学の古典薬草書の名は?",
+  "back": "神農本草経",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-china"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9705",
+    "bookPage": 129,
+    "locationNote": "本書 p.129（原本画像 IMG_9705.PNG）。原文照合 batch15 で照合済みの知識単位 m-china から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-nikuzuku",
+  "front": "ナツメッグの漢方名は?",
+  "back": "肉豆蔲",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-nikuzuku"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9705",
+    "bookPage": 129,
+    "locationNote": "本書 p.129（原本画像 IMG_9705.PNG）。原文照合 batch15 で照合済みの知識単位 m-nikuzuku から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-m-yakkiho",
+  "front": "食品としてのスパイスと漢方薬を区別している法律の略称は?",
+  "back": "薬機法",
+  "reverseOf": null,
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "m-yakkiho"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9705",
+    "bookPage": 129,
+    "locationNote": "本書 p.129（原本画像 IMG_9705.PNG）。原文照合 batch15 で照合済みの知識単位 m-yakkiho から生成"
+   }
+  ]
+ }
+]

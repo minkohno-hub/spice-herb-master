@@ -1,0 +1,212 @@
+[
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "appendix",
+  "sectionId": "exam-about",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "e-org"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9712",
+    "bookPage": 136,
+    "locationNote": "本書 p.136（原本画像 IMG_9712.PNG）。原文照合 batch30 で照合済みの知識単位 e-org から生成"
+   }
+  ],
+  "id": "q1-e-org",
+  "format": "one-answer",
+  "prompt": "スパイス&ハーブ検定を主催する団体は?",
+  "acceptedAnswers": [
+   "山崎香辛料振興財団"
+  ],
+  "explanation": "スパイス&ハーブ検定は公益財団法人 山崎香辛料振興財団が主催し、2009年にスタートした。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "appendix",
+  "sectionId": "exam-about",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "e-org"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9712",
+    "bookPage": 136,
+    "locationNote": "本書 p.136（原本画像 IMG_9712.PNG）。原文照合 batch30 で照合済みの知識単位 e-org から生成"
+   }
+  ],
+  "id": "q4-e-org",
+  "format": "single-choice",
+  "prompt": "スパイス&ハーブ検定を主催する団体は?",
+  "choices": [
+   "素焼き",
+   "山崎香辛料振興財団",
+   "150〜180ml",
+   "80種"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "スパイス&ハーブ検定は公益財団法人 山崎香辛料振興財団が主催し、2009年にスタートした。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "appendix",
+  "sectionId": "exam-about",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "e-start"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9712",
+    "bookPage": 136,
+    "locationNote": "本書 p.136（原本画像 IMG_9712.PNG）。原文照合 batch30 で照合済みの知識単位 e-start から生成"
+   }
+  ],
+  "id": "q1-e-start",
+  "format": "one-answer",
+  "prompt": "スパイス&ハーブ検定がスタートした年は?",
+  "acceptedAnswers": [
+   "2009年"
+  ],
+  "explanation": "スパイス&ハーブ検定は2009年にスタートした。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "appendix",
+  "sectionId": "exam-about",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "e-start"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9712",
+    "bookPage": 136,
+    "locationNote": "本書 p.136（原本画像 IMG_9712.PNG）。原文照合 batch30 で照合済みの知識単位 e-start から生成"
+   }
+  ],
+  "id": "q4-e-start",
+  "format": "single-choice",
+  "prompt": "スパイス&ハーブ検定がスタートした年は?",
+  "choices": [
+   "80種",
+   "2009年",
+   "トゥラシー",
+   "山崎香辛料振興財団"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "スパイス&ハーブ検定は2009年にスタートした。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "appendix",
+  "sectionId": "exam-outline",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "e-scope"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9713",
+    "bookPage": 137,
+    "locationNote": "本書 p.137（原本画像 IMG_9713.PNG）。原文照合 batch30 で照合済みの知識単位 e-scope から生成"
+   }
+  ],
+  "id": "q1-e-scope",
+  "format": "one-answer",
+  "prompt": "1級の単品知識で対象となるスパイス・ハーブは全部で何種?",
+  "acceptedAnswers": [
+   "80種"
+  ],
+  "explanation": "単品知識は3級25種、2級は追加20種(計45種)、1級は追加35種(計80種)。1級の追加分は本書p.98〜108のプロ級が該当する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "appendix",
+  "sectionId": "exam-outline",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "e-scope"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9713",
+    "bookPage": 137,
+    "locationNote": "本書 p.137（原本画像 IMG_9713.PNG）。原文照合 batch30 で照合済みの知識単位 e-scope から生成"
+   }
+  ],
+  "id": "q4-e-scope",
+  "format": "single-choice",
+  "prompt": "1級の単品知識で対象となるスパイス・ハーブは全部で何種?",
+  "choices": [
+   "3杯",
+   "4〜5日",
+   "200〜300倍",
+   "80種"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "単品知識は3級25種、2級は追加20種(計45種)、1級は追加35種(計80種)。1級の追加分は本書p.98〜108のプロ級が該当する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "appendix",
+  "sectionId": "exam-outline",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "e-level1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9713",
+    "bookPage": 137,
+    "locationNote": "本書 p.137（原本画像 IMG_9713.PNG）。原文照合 batch30 で照合済みの知識単位 e-level1 について、転記本文 p.137 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: スパイス＆ハーブに関する幅広い知識を持ち、周囲の人にもわかりやすくアドバイスできる"
+   }
+  ],
+  "id": "q1q3-e-level1",
+  "format": "one-answer",
+  "prompt": "スパイス＆ハーブ検定の1級が目指すレベルは、幅広い知識を持ち、周囲の人に対してどうできることか。",
+  "acceptedAnswers": [
+   "周囲の人にもわかりやすくアドバイスできる"
+  ],
+  "explanation": "1級は、幅広い知識を持ち、周囲の人にもわかりやすくアドバイスできるレベルを目指す。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "appendix",
+  "sectionId": "exam-outline",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "e-scope1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9713",
+    "bookPage": 137,
+    "locationNote": "本書 p.137（原本画像 IMG_9713.PNG）。原文照合 batch30 で照合済みの知識単位 e-scope1 について、転記本文 p.137 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: ［単品知識（35種）］"
+   }
+  ],
+  "id": "q1q3-e-scope1",
+  "format": "one-answer",
+  "prompt": "検定1級の出題範囲に含まれる単品知識は、何種か。",
+  "acceptedAnswers": [
+   "35種"
+  ],
+  "explanation": "1級の出題範囲は2級全範囲に加え、手作り調味料(ペースト・ドレッシング・オイル・ビネガーなど)と単品知識35種。"
+ }
+]

@@ -1,9 +1,14 @@
 
 import type { Question, Flashcard } from "../domain/types";
+import { FORMAL_QUESTIONS, FORMAL_CARDS } from "./formal-questions";
 /**
- * 正式問題は 0 問。本文ページが未転記のため、教科書知識を問う問題はまだ作らない（指令書6.1）。
- * 以下はすべて status:"sample" のエンジン検証用サンプル。題材は「このアプリの利用ルール」であり
- * 教科書の知識ではない。通常出題（verified のみ）からは validate.ts の selectForPractice で除外される。
+ * 正式問題は src/data/formal-questions.ts（生成物）から供給される。生成元は原文照合済み
+ * （verified）知識単位のみで、生成・検証は scripts/generate-questions.mjs が担う
+ * （docs/DECISIONS.md #13 / #15 / #18 / #19 / #21: draftQa の直接変換、プロフィール構造化属性からの生成、転記支持文つき人手作成、機械検証できる追加7形式の生成）。
+ * 教科書外の知識で作った問題は含まない（指令書6.1）。
+ * 以下の SAMPLE_QUESTIONS はすべて status:"sample" のエンジン検証用サンプル。題材は
+ * 「このアプリの利用ルール」であり教科書の知識ではない。通常出題（verified のみ）からは
+ * validate.ts の selectForPractice で除外される。
  */
 const base = { version: 1, status: "sample" as const, chapterId: "appendix", sectionId: "exam-about", difficulty: 1 as const, knowledgeUnitIds: [] as string[], sourceRefs: [] as Question["sourceRefs"], explanation: "サンプル解説: これはエンジン検証用であり、教科書の解説ではありません。" };
 export const SAMPLE_QUESTIONS: Question[] = [
@@ -25,10 +30,10 @@ export const SAMPLE_QUESTIONS: Question[] = [
  { ...base, id:"sample-composite", format:"composite", prompt:"[サンプル] 複合: 品質管理画面で確認できる項目を2つ要点で挙げよ。", modelAnswer:"（サンプル模範）未検証問題と出典不明問題。", rubric:[{id:"r1",label:"未検証",keywords:["未検証"],required:true,points:1},{id:"r2",label:"出典",keywords:["出典"],required:true,points:1}] },
  { ...base, id:"sample-flash", format:"flashcard", prompt:"[サンプル] カード形式サンプル: 「verified」の意味として正しいものはどれか。", choices:["検証済み","未処理","欠落"], correctChoiceIndexes:[0] },
 ];
-export const QUESTIONS: Question[] = []; // 正式問題 0問（本文未転記のため）
-export const KNOWLEDGE_UNITS: import("../domain/types").KnowledgeUnit[] = []; // 知識単位 0件（本文未転記のため抽出未実施）
+export const QUESTIONS: Question[] = [...FORMAL_QUESTIONS]; // 正式問題（生成・検証済み。scripts/generate-questions.mjs）
+export const KNOWLEDGE_UNITS: import("../domain/types").KnowledgeUnit[] = []; // 本文転記ベースの知識単位は 0件（未転記）。正式問題が参照する知識単位は取り込み済み知識単位（src/data/knowledge.ts）側
 export const SAMPLE_CARDS: Flashcard[] = [
  { id:"card-sample-1", front:"[サンプルカード] 正式問題に必須のものは？", back:"教科書原文への出典参照（知識単位経由）", chapterId:"appendix", sectionId:"exam-about", status:"sample", knowledgeUnitIds:[], sourceRefs:[] },
  { id:"card-sample-2", front:"[サンプルカード] 自動判定と分離して保存される評価は？", back:"自己採点", chapterId:"appendix", sectionId:"exam-about", status:"sample", knowledgeUnitIds:[], sourceRefs:[] },
 ];
-export const CARDS: Flashcard[] = []; // 正式カード 0件
+export const CARDS: Flashcard[] = [...FORMAL_CARDS]; // 正式カード（生成・検証済み。scripts/generate-questions.mjs）

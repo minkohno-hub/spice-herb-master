@@ -2,7 +2,7 @@
  {
   "id": "u-3roles",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "3つの働き",
   "category": "term",
@@ -17,12 +17,17 @@
    "a": "香りづけ・辛みづけ・色づけ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「料理に利用するとき、スパイスやハーブには3つの働きがあります。それは「香りづけ」「辛みづけ」「色づけ」です」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-aroma-main",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "3つの働き",
   "category": "term",
@@ -37,12 +42,17 @@
    "a": "香りづけ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「なかでも「香りづけ」は、ほとんどのスパイスやハーブが持つ働きです。一番の特徴はこの香りである」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-aroma-source",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "香り",
   "category": "term",
@@ -57,12 +67,17 @@
    "a": "揮発性の香気成分",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "本文「香りの正体は、揮発性の香気成分です。これらの成分は、植物中の組織や細胞に蓄えられており、それが破壊されたときに鮮烈な芳香を放ちます」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-aroma-whole",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "香り",
   "category": "method",
@@ -80,12 +95,17 @@
     "砕く"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "「香りを引き出す3つのポイント」1「スパイス（ホールの場合）」=ミルなどで挽く／びん底などでつぶす、砕く／加熱する（スタータースパイスなど）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-aroma-herb",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "香り",
   "category": "method",
@@ -106,12 +126,17 @@
     "切り込みを入れる"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "同2「ハーブ（ホール、フレッシュの場合）」=ちぎる、刻む、切り込みを入れる／もむ、砕く、たたくと一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-aroma-powder",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "香り",
   "category": "misc",
@@ -126,12 +151,17 @@
    "a": "香りの消失が早い",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "同3「パウダーの場合」=あらかじめ組織・細胞を挽いて瞬時に香りが立つようにしています。香り立ちがよい半面、香りの消失も早い、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-starter",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "香り",
   "category": "term",
@@ -146,12 +176,17 @@
    "a": "スタータースパイス",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "Column「スタータースパイスって何？」=インドでは調理の最初に、ホールスパイスを油で炒め、油に香りを移してから具材を炒めることが多い。このように調理の最初の段階で使用されるスパイスを「スタータースパイス」と呼ぶ、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-starter-ex",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "香り",
   "category": "spice",
@@ -169,12 +204,17 @@
     "マスタードシード"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "同Column「クミンやマスタード（シード）などがその代表」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-heat",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "辛み",
   "category": "misc",
@@ -189,12 +229,17 @@
    "a": "少量ずつ味をみながら加える",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "その2「辛み」を生かす=辛みを持つスパイスやハーブは、料理にメリハリを与え、風味を際立たせます。ただし分量を誤ると料理を台無しにしてしまいますので、少量ずつ味をみながら加えるといいでしょう。舌が焼けるような辛み、ピリッとシャープな辛み、鼻に抜けるツンとした辛みなどさまざまな個性があります、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-color",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "色",
   "category": "spice",
@@ -212,12 +257,17 @@
     "くちなし"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "その3「色」（彩り）を生かす=スパイスやハーブでの色づけ（ターメリック、パプリカ、サフラン、くちなしなど）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-timing-prep",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "タイミング",
   "category": "timing",
@@ -232,12 +282,17 @@
    "a": "下ごしらえ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "「下ごしらえ（調理前の段階で）」目的=素材の臭みとり・香りをしっかりつける・色を出しておく、使い方例=素材にまぶす・素材とともに漬け込む・下ゆでに使う、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-timing-prep-form",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "タイミング",
   "category": "term",
@@ -252,12 +307,17 @@
    "a": "パウダー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "同「おすすめの形態など」=まんべんなくまぶすには粒度の小さいパウダータイプを。マリネなど、香りを媒介してくれる液状のものといっしょに漬け込んで素材の臭みをとるような場合は、ホールなど粒度の大きいものがおすすめ、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-timing-cook",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "タイミング",
   "category": "term",
@@ -272,12 +332,17 @@
    "a": "ホール",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "「調理中（調理の初めや途中で）」目的=香り、辛み、色をじっくり引き出して料理に加える、おすすめの形態など=加熱する中で徐々に香りや辛みを引き出すので、粒度の大きいホールタイプが適している、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-timing-cook-herb",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "タイミング",
   "category": "spice",
@@ -296,12 +361,17 @@
     "オレガノ"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "同「フレッシュハーブでは、ローズマリー、タイム、セージ、オレガノなど香りの強いものがおすすめ」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-timing-finish",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "タイミング",
   "category": "term",
@@ -316,12 +386,17 @@
    "a": "パウダー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "「仕上げ（調理の最後や食卓で）」目的=香り、辛み、色を瞬時に加える・スパイスやハーブの彩り、形で華やかな演出をする、おすすめの形態など=瞬時に香りが広がるように、粒度の小さいパウダータイプを使用することが多い、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-timing-finish-herb",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "タイミング",
   "category": "misc",
@@ -336,12 +411,17 @@
    "a": "葉がやわらかく香りがマイルド",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "同「フレッシュハーブでは、ディル、チャービル、チャイブ、パセリなど葉がやわらかく、香りがマイルドなものがおすすめ」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-overspice",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "使う量",
   "category": "term",
@@ -356,12 +436,17 @@
    "a": "オーバースパイス",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "「2 使う量」=料理によって異なりますが、まずは少量から始めることが大切。スパイスやハーブを使った料理でのよくある失敗は、量を加えすぎること（オーバースパイス）です、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-fresh-3x",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "使う量",
   "category": "count",
@@ -376,12 +461,17 @@
    "a": "3倍",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "同=なお、同じレシピであれば、フレッシュハーブの使用量はドライハーブの3倍が目安です。水分が抜けたことでかさが減ったドライハーブは、フレッシュハーブの体積量の3分の1程度で十分だからです、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-dry-third",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "使う量",
   "category": "count",
@@ -398,12 +488,17 @@
     "3分の1"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "同=ドライハーブは、フレッシュハーブの体積量の3分の1程度で十分だからです、と一致（q の「大さじ1」は割合を具体化した単位側の換算例で、割合3分の1自体は原文どおり）。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-rosemary-same",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "使う量",
   "category": "spice",
@@ -420,12 +515,17 @@
     "タイム"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch25",
+   "reason": "同=ただし乾燥によっても体積があまり変化しないハーブ（ローズマリーやタイムなど）は、ドライの場合とほぼ同量か、少し多いくらいの量でよいでしょう、と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-wash",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "フレッシュの注意",
   "category": "misc",
@@ -440,12 +540,17 @@
    "a": "必要",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "Column【下準備では】の「鮮度を保つために洗わずに販売されていることがほとんどなので、調理前に水洗いが必要」「洗ったあとは水けをしっかりきる」「使う分だけ洗う」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-knife",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "フレッシュの注意",
   "category": "misc",
@@ -463,12 +568,17 @@
     "セラミック"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "Column【刻むときには】の「鉄製など金けのある包丁を使うと、ハーブが変色してしまうことがある。手でちぎったり、ステンレスやセラミック製の包丁を使用すること」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-pairing",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "相性",
   "category": "misc",
@@ -483,12 +593,17 @@
    "a": "素材",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "「3 素材との相性を知る」の「ポイントは料理メニューとの相性ではなく、各素材との相性で覚えることです」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-pair-beef",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "相性",
   "category": "food",
@@ -503,12 +618,17 @@
    "a": "牛肉",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "相性の例・牛肉（ブーケガルニ、クローブ、オレガノ、ブラックペッパー、ガーリックなど）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-pair-pork",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "相性",
   "category": "food",
@@ -523,12 +643,17 @@
    "a": "豚肉",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "相性の例・豚肉（ジンジャー、ナツメッグ、スターアニス、山椒、五香粉など）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-pair-redfish",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "相性",
   "category": "food",
@@ -543,12 +668,17 @@
    "a": "赤身魚",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "相性の例・赤身魚（ジンジャー、チリペッパー、タイム、フェンネル、ディル、ガーリックなど）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "u-pair-whitefish",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "相性",
   "category": "food",
@@ -563,12 +693,17 @@
    "a": "白身魚",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "相性の例・白身魚（タイム、フェンネル、タラゴン、バジル、ディル、チリペッパー、ジンジャーなど）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-africa",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -586,12 +721,17 @@
     "唐辛子"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "［アフリカ］本文の「先住民の伝統的な食文化に、植民地時代に入ってきたヨーロッパ諸国や、インド洋を通じて伝わってきたイスラム圏の食文化の影響が加わり」「クミンやコリアンダー（シード）、唐辛子といったスパイスが…よく使われる」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-couscous",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "dish",
@@ -606,12 +746,17 @@
    "a": "ハリッサ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "北アフリカ（チュニジア、モロッコ）のクスクス（クスクスという小粒のパスタに、肉や野菜を煮込んだスープをかけて食べる料理。食べるときにハリッサと呼ばれる唐辛子ペーストが添えられることが多い。決め手=クミンなど）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-middleeast",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "food",
@@ -626,12 +771,17 @@
    "a": "羊肉",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "［中近東］本文の「食材ではオリーブオイル、ヨーグルト、トマト、豆類、羊肉がよく使われ、スパイスやハーブとしては唐辛子、クミン、コリアンダー、ミント、ごま油を使用する」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-tabbouleh",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -646,12 +796,17 @@
    "a": "パセリ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "レバノンのタッブーレ（パセリを刻んだものを、オリーブオイル、レモン汁などで あえたサラダ。決め手=パセリ）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-dukkah",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "dish",
@@ -668,12 +823,17 @@
     "ダッカ"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "中東地域（エジプトなどを含む北アフリカ）のデュカ（ダッカ）（ごまや、種子を利用したスパイス、ナッツ類を合わせたシーズニングスパイスで、オリーブオイルにひたしたパンにつけて食べる）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-europe",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -691,12 +851,17 @@
     "フェンネル"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "［ヨーロッパ・ロシア］本文の「ほとんどの国で肉類とその加工品をメイン食材とする料理が多い」「特に肉料理と相性のよいナツメッグ、オールスパイス、マスタード、ローズマリー、セージといったスパイスやハーブが多用されている」「地中海沿岸地域では…魚と相性のよいサフランやタイム、フェンネルなどがよく使われる」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-caprese",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -711,12 +876,17 @@
    "a": "バジル",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "イタリアのカプレーゼ（青の洞窟で有名なイタリア・カプリ島の料理。トマト、バジルの葉、チーズで作るカラフルなサラダ。決め手=バジル）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-milanese",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -731,12 +901,17 @@
    "a": "サフラン",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "イタリアのリゾット・アッラ・ミラネーゼ（ミラノ風リゾット）（サフランやパルメザンチーズなどを使った、美しい黄金色のリゾット。決め手=サフラン）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-saltimbocca",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -751,12 +926,17 @@
    "a": "セージ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "イタリアのサルティンボッカ（仔牛肉の薄切りに生ハム、セージをのせてバターでソテーしたもの。決め手=セージ）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-saltimbocca-mean",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "misc",
@@ -771,12 +951,17 @@
    "a": "口に飛び込む",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "サルティンボッカの説明文「『サルティンボッカ』はイタリア語で『口に飛び込む』の意味」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-genovese",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -791,12 +976,17 @@
    "a": "バジル",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "イタリアのジェノベーゼ（バジルにパルメザンチーズ、にんにく、オリーブオイルなどを加えてペースト状にした、イタリア・ジェノバ地方のソース。決め手=バジル）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-carbonara",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "spice",
@@ -811,12 +1001,17 @@
    "a": "ブラックペッパー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "イタリアのカルボナーラ（ローマ発祥の、ベーコンと卵を使ったパスタ。仕上げのブラックペッパーが欠かせない。決め手=ブラックペッパー）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "w-bouillabaisse",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch1",
   "sectionTitle": "世界の料理",
   "category": "country",
@@ -831,6 +1026,11 @@
    "a": "フランス",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch26",
+   "reason": "フランスのブイヤベース（白身魚、かに、えび、貝などの魚介類を煮込み、トマトやサフランで色と香りをつけたスープ料理。フランスの郷土料理として有名。決め手=サフラン）と一致。q/a も照合済み",
+   "needsReview": false
+  }
  }
 ]
