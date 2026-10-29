@@ -1,0 +1,2082 @@
+[
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-greek"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-greek から生成"
+   }
+  ],
+  "id": "q1-m-greek",
+  "format": "one-answer",
+  "prompt": "ギリシア発祥の伝統医学が通じているとされる現在の西洋ハーブ医学は?",
+  "acceptedAnswers": [
+   "メディカルハーブ"
+  ],
+  "explanation": "ギリシア発祥の伝統医学は時代とともに発展し、現在の西洋ハーブ医学(メディカルハーブ)にも通じている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-greek"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-greek から生成"
+   }
+  ],
+  "id": "q4-m-greek",
+  "format": "single-choice",
+  "prompt": "ギリシア発祥の伝統医学が通じているとされる現在の西洋ハーブ医学は?",
+  "choices": [
+   "薬機法",
+   "ドーシャ",
+   "コミッションE",
+   "メディカルハーブ"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ギリシア発祥の伝統医学は時代とともに発展し、現在の西洋ハーブ医学(メディカルハーブ)にも通じている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-wanames"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-wanames から生成"
+   }
+  ],
+  "id": "q1-m-wanames",
+  "format": "one-answer",
+  "prompt": "セントジョーンズワートの和名は?",
+  "acceptedAnswers": [
+   "西洋オトギリソウ"
+  ],
+  "explanation": "和名の例:エルダーフラワーは西洋ニワトコ、ジャーマンカモミールはカミツレ、セントジョーンズワートは西洋オトギリソウ、エキナセアはムラサキバレンギク。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-wanames"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-wanames から生成"
+   }
+  ],
+  "id": "q4-m-wanames",
+  "format": "single-choice",
+  "prompt": "セントジョーンズワートの和名は?",
+  "choices": [
+   "肉豆蔲",
+   "トゥラシー",
+   "ハルディ",
+   "西洋オトギリソウ"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "和名の例:エルダーフラワーは西洋ニワトコ、ジャーマンカモミールはカミツレ、セントジョーンズワートは西洋オトギリソウ、エキナセアはムラサキバレンギク。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-kamitsure"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-kamitsure から生成"
+   }
+  ],
+  "id": "q1-m-kamitsure",
+  "format": "one-answer",
+  "prompt": "ジャーマンカモミールの和名は?",
+  "acceptedAnswers": [
+   "カミツレ"
+  ],
+  "explanation": "ジャーマンカモミールの和名はカミツレ(カモマイル)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-kamitsure"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-kamitsure から生成"
+   }
+  ],
+  "id": "q4-m-kamitsure",
+  "format": "single-choice",
+  "prompt": "ジャーマンカモミールの和名は?",
+  "choices": [
+   "トゥラシー",
+   "西洋オトギリソウ",
+   "肉豆蔲",
+   "カミツレ"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ジャーマンカモミールの和名はカミツレ(カモマイル)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-commissione"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-commissione から生成"
+   }
+  ],
+  "id": "q1-m-commissione",
+  "format": "one-answer",
+  "prompt": "ハーブ先進国ドイツの専門機関で、ハーブの効果と安全性のモノグラフを作成したのは?",
+  "acceptedAnswers": [
+   "コミッションE"
+  ],
+  "explanation": "ハーブ先進国ドイツの専門機関コミッションEが作成した『コミッションEモノグラフ』は、ハーブと植物性薬品の効果と安全性に関する正確な情報として評価されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-commissione"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-commissione から生成"
+   }
+  ],
+  "id": "q4-m-commissione",
+  "format": "single-choice",
+  "prompt": "ハーブ先進国ドイツの専門機関で、ハーブの効果と安全性のモノグラフを作成したのは?",
+  "choices": [
+   "コミッションE",
+   "メディカルハーブ",
+   "カパ",
+   "薬機法"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "ハーブ先進国ドイツの専門機関コミッションEが作成した『コミッションEモノグラフ』は、ハーブと植物性薬品の効果と安全性に関する正確な情報として評価されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-3func"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9707",
+    "bookPage": 131,
+    "locationNote": "本書 p.131（原本画像 IMG_9707.PNG）。原文照合 batch15 で照合済みの知識単位 m-3func から生成"
+   }
+  ],
+  "id": "q1-m-3func",
+  "format": "one-answer",
+  "prompt": "食品の3つの機能は、栄養機能・嗜好機能と何?",
+  "acceptedAnswers": [
+   "生体調節機能"
+  ],
+  "explanation": "食品の3つの機能は栄養機能・嗜好機能・生体調節機能で、スパイスやハーブは特に嗜好機能と生体調節機能に優れた食材として注目されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-3func"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9707",
+    "bookPage": 131,
+    "locationNote": "本書 p.131（原本画像 IMG_9707.PNG）。原文照合 batch15 で照合済みの知識単位 m-3func から生成"
+   }
+  ],
+  "id": "q4-m-3func",
+  "format": "single-choice",
+  "prompt": "食品の3つの機能は、栄養機能・嗜好機能と何?",
+  "choices": [
+   "弱アルカリ性",
+   "メディカルハーブ",
+   "生体調節機能",
+   "摘芯"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "食品の3つの機能は栄養機能・嗜好機能・生体調節機能で、スパイスやハーブは特に嗜好機能と生体調節機能に優れた食材として注目されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-func-ex"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9707",
+    "bookPage": 131,
+    "locationNote": "本書 p.131（原本画像 IMG_9707.PNG）。原文照合 batch15 で照合済みの知識単位 m-func-ex から生成"
+   }
+  ],
+  "id": "q1-m-func-ex",
+  "format": "one-answer",
+  "prompt": "本書の表で「血流増加」の作用が挙げられているスパイスは?",
+  "acceptedAnswers": [
+   "ロングペッパー"
+  ],
+  "explanation": "成分による作用の例:わさびは抗菌、ロングペッパーは血流増加、パセリは利尿・口臭予防、ターメリックは抗酸化・抗炎症・利胆(本書は参考情報であり食品としての効果・効能ではないと注記)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-func-ex"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9707",
+    "bookPage": 131,
+    "locationNote": "本書 p.131（原本画像 IMG_9707.PNG）。原文照合 batch15 で照合済みの知識単位 m-func-ex から生成"
+   }
+  ],
+  "id": "q4-m-func-ex",
+  "format": "single-choice",
+  "prompt": "本書の表で「血流増加」の作用が挙げられているスパイスは?",
+  "choices": [
+   "ラベンダー",
+   "ローゼル",
+   "ロングペッパー",
+   "ローズマリー"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "成分による作用の例:わさびは抗菌、ロングペッパーは血流増加、パセリは利尿・口臭予防、ターメリックは抗酸化・抗炎症・利胆(本書は参考情報であり食品としての効果・効能ではないと注記)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-salt"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-salt から生成"
+   }
+  ],
+  "id": "q1-m-salt",
+  "format": "one-answer",
+  "prompt": "「日本人の食事摂取基準(2025年版)」で推奨される成人男性の1日の食塩摂取量は?",
+  "acceptedAnswers": [
+   "7.5g未満"
+  ],
+  "explanation": "厚生労働省「日本人の食事摂取基準(2025年版)」では、1日の食塩摂取量を男性7.5g未満、女性6.5g未満に抑えることが推奨されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-salt"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-salt から生成"
+   }
+  ],
+  "id": "q4-m-salt",
+  "format": "single-choice",
+  "prompt": "「日本人の食事摂取基準(2025年版)」で推奨される成人男性の1日の食塩摂取量は?",
+  "choices": [
+   "7〜10分",
+   "200〜300倍",
+   "7.5g未満",
+   "80種"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "厚生労働省「日本人の食事摂取基準(2025年版)」では、1日の食塩摂取量を男性7.5g未満、女性6.5g未満に抑えることが推奨されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-salt-f"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-salt-f から生成"
+   }
+  ],
+  "id": "q1-m-salt-f",
+  "format": "one-answer",
+  "prompt": "「日本人の食事摂取基準(2025年版)」で推奨される成人女性の1日の食塩摂取量は?",
+  "acceptedAnswers": [
+   "6.5g未満"
+  ],
+  "explanation": "同基準で女性の1日の食塩摂取量の目標は6.5g未満。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-salt-f"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-salt-f から生成"
+   }
+  ],
+  "id": "q4-m-salt-f",
+  "format": "single-choice",
+  "prompt": "「日本人の食事摂取基準(2025年版)」で推奨される成人女性の1日の食塩摂取量は?",
+  "choices": [
+   "7.5g未満",
+   "3杯",
+   "6.5g未満",
+   "5年"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "同基準で女性の1日の食塩摂取量の目標は6.5g未満。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-tekien"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-tekien から生成"
+   }
+  ],
+  "id": "q1-m-tekien",
+  "format": "one-answer",
+  "prompt": "健康のために適切な量の食塩を摂ることを何という?",
+  "acceptedAnswers": [
+   "適塩"
+  ],
+  "explanation": "健康的な生活のための適切な量の食塩を摂ることやその量を「適塩」という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-tekien"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-tekien から生成"
+   }
+  ],
+  "id": "q4-m-tekien",
+  "format": "single-choice",
+  "prompt": "健康のために適切な量の食塩を摂ることを何という?",
+  "choices": [
+   "適塩",
+   "常緑植物",
+   "湿潤",
+   "食経験"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "健康的な生活のための適切な量の食塩を摂ることやその量を「適塩」という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-kijun"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-kijun から生成"
+   }
+  ],
+  "id": "q1-m-kijun",
+  "format": "one-answer",
+  "prompt": "「日本人の食事摂取基準」は何年ごとに改定される?",
+  "acceptedAnswers": [
+   "5年"
+  ],
+  "explanation": "「日本人の食事摂取基準」は厚生労働省が策定し、5年ごとに改定される。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-kijun"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-kijun から生成"
+   }
+  ],
+  "id": "q4-m-kijun",
+  "format": "single-choice",
+  "prompt": "「日本人の食事摂取基準」は何年ごとに改定される?",
+  "choices": [
+   "200〜300倍",
+   "7.5g未満",
+   "5年",
+   "6.5g未満"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "「日本人の食事摂取基準」は厚生労働省が策定し、5年ごとに改定される。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-menu"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9709",
+    "bookPage": 133,
+    "locationNote": "本書 p.133（原本画像 IMG_9709.PNG）。原文照合 batch16 で照合済みの知識単位 m-menu から生成"
+   }
+  ],
+  "id": "q1-m-menu",
+  "format": "one-answer",
+  "prompt": "本書の減塩メニュー例で、減塩みそ汁に加えるスパイスは?",
+  "acceptedAnswers": [
+   "七味唐辛子"
+  ],
+  "explanation": "減塩メニュー例:みそ汁に七味唐辛子、煮ものにカレー粉、炒めものにこしょうを加えて物足りなさを補う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-menu"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9709",
+    "bookPage": 133,
+    "locationNote": "本書 p.133（原本画像 IMG_9709.PNG）。原文照合 batch16 で照合済みの知識単位 m-menu から生成"
+   }
+  ],
+  "id": "q4-m-menu",
+  "format": "single-choice",
+  "prompt": "本書の減塩メニュー例で、減塩みそ汁に加えるスパイスは?",
+  "choices": [
+   "七味唐辛子",
+   "西洋オトギリソウ",
+   "ダンデリオン",
+   "ジャーマンカモミール"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "減塩メニュー例:みそ汁に七味唐辛子、煮ものにカレー粉、炒めものにこしょうを加えて物足りなさを補う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-shokukeiken"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9710",
+    "bookPage": 134,
+    "locationNote": "本書 p.134（原本画像 IMG_9710.PNG）。原文照合 batch16 で照合済みの知識単位 m-shokukeiken から生成"
+   }
+  ],
+  "id": "q1-m-shokukeiken",
+  "format": "one-answer",
+  "prompt": "人類が長年食べ続けてきた経験で、食品の安全性の裏づけとなるものを何という?",
+  "acceptedAnswers": [
+   "食経験"
+  ],
+  "explanation": "人類が年月をかけて継続的に食べ続けてきた経験(食経験)が、日常の食品の安全性の裏づけになっている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-shokukeiken"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9710",
+    "bookPage": 134,
+    "locationNote": "本書 p.134（原本画像 IMG_9710.PNG）。原文照合 batch16 で照合済みの知識単位 m-shokukeiken から生成"
+   }
+  ],
+  "id": "q4-m-shokukeiken",
+  "format": "single-choice",
+  "prompt": "人類が長年食べ続けてきた経験で、食品の安全性の裏づけとなるものを何という?",
+  "choices": [
+   "フードファディズム",
+   "食経験",
+   "機能性表示食品",
+   "HFNet"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "人類が年月をかけて継続的に食べ続けてきた経験(食経験)が、日常の食品の安全性の裏づけになっている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-hokenkinou"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9710",
+    "bookPage": 134,
+    "locationNote": "本書 p.134（原本画像 IMG_9710.PNG）。原文照合 batch16 で照合済みの知識単位 m-hokenkinou から生成"
+   }
+  ],
+  "id": "q1-m-hokenkinou",
+  "format": "one-answer",
+  "prompt": "保健機能食品は、特定保健用食品・栄養機能食品と何の3つ?",
+  "acceptedAnswers": [
+   "機能性表示食品"
+  ],
+  "explanation": "保健機能食品とは、特定保健用食品・栄養機能食品・機能性表示食品のこと。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-hokenkinou"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9710",
+    "bookPage": 134,
+    "locationNote": "本書 p.134（原本画像 IMG_9710.PNG）。原文照合 batch16 で照合済みの知識単位 m-hokenkinou から生成"
+   }
+  ],
+  "id": "q4-m-hokenkinou",
+  "format": "single-choice",
+  "prompt": "保健機能食品は、特定保健用食品・栄養機能食品と何の3つ?",
+  "choices": [
+   "HFNet",
+   "フードファディズム",
+   "食経験",
+   "機能性表示食品"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "保健機能食品とは、特定保健用食品・栄養機能食品・機能性表示食品のこと。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-faddism"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9711",
+    "bookPage": 135,
+    "locationNote": "本書 p.135（原本画像 IMG_9711.PNG）。原文照合 batch16 で照合済みの知識単位 m-faddism から生成"
+   }
+  ],
+  "id": "q1-m-faddism",
+  "format": "one-answer",
+  "prompt": "食べ物の健康への影響を過大に信じたり評価したりする傾向を何という?",
+  "acceptedAnswers": [
+   "フードファディズム"
+  ],
+  "explanation": "食べ物や栄養が健康や病気に与える影響を過大に信じたり評価したりする傾向をフードファディズムといい、1950年代のアメリカで問題提起された。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-faddism"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9711",
+    "bookPage": 135,
+    "locationNote": "本書 p.135（原本画像 IMG_9711.PNG）。原文照合 batch16 で照合済みの知識単位 m-faddism から生成"
+   }
+  ],
+  "id": "q4-m-faddism",
+  "format": "single-choice",
+  "prompt": "食べ物の健康への影響を過大に信じたり評価したりする傾向を何という?",
+  "choices": [
+   "食経験",
+   "機能性表示食品",
+   "HFNet",
+   "フードファディズム"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "食べ物や栄養が健康や病気に与える影響を過大に信じたり評価したりする傾向をフードファディズムといい、1950年代のアメリカで問題提起された。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-hfnet"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9711",
+    "bookPage": 135,
+    "locationNote": "本書 p.135（原本画像 IMG_9711.PNG）。原文照合 batch16 で照合済みの知識単位 m-hfnet から生成"
+   }
+  ],
+  "id": "q1-m-hfnet",
+  "format": "one-answer",
+  "prompt": "医薬基盤・健康・栄養研究所が運営する健康食品の情報サイトの略称は?",
+  "acceptedAnswers": [
+   "HFNet"
+  ],
+  "explanation": "公的な情報源の例として、医薬基盤・健康・栄養研究所が運営する「『健康食品』の安全性・有効性情報(HFNet)」がある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-hfnet"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9711",
+    "bookPage": 135,
+    "locationNote": "本書 p.135（原本画像 IMG_9711.PNG）。原文照合 batch16 で照合済みの知識単位 m-hfnet から生成"
+   }
+  ],
+  "id": "q4-m-hfnet",
+  "format": "single-choice",
+  "prompt": "医薬基盤・健康・栄養研究所が運営する健康食品の情報サイトの略称は?",
+  "choices": [
+   "機能性表示食品",
+   "HFNet",
+   "食経験",
+   "フードファディズム"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "公的な情報源の例として、医薬基盤・健康・栄養研究所が運営する「『健康食品』の安全性・有効性情報(HFNet)」がある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-def"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9686",
+    "bookPage": 110,
+    "locationNote": "本書 p.110（原本画像 IMG_9686.PNG）。原文照合 batch10 で照合済みの知識単位 t-def から生成"
+   }
+  ],
+  "id": "q1-t-def",
+  "format": "one-answer",
+  "prompt": "複数のハーブを用いたハーブティーを何と呼ぶ?",
+  "acceptedAnswers": [
+   "ブレンドハーブティー"
+  ],
+  "explanation": "1種類のハーブでいれたものをシングルハーブティー、複数のハーブを使ったものをブレンドハーブティーと呼ぶ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-def"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9686",
+    "bookPage": 110,
+    "locationNote": "本書 p.110（原本画像 IMG_9686.PNG）。原文照合 batch10 で照合済みの知識単位 t-def から生成"
+   }
+  ],
+  "id": "q4-t-def",
+  "format": "single-choice",
+  "prompt": "複数のハーブを用いたハーブティーを何と呼ぶ?",
+  "choices": [
+   "ブレンドハーブティー",
+   "機能性表示食品",
+   "フードファディズム",
+   "カパ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "1種類のハーブでいれたものをシングルハーブティー、複数のハーブを使ったものをブレンドハーブティーと呼ぶ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-cup"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-cup から生成"
+   }
+  ],
+  "id": "q1-t-cup",
+  "format": "one-answer",
+  "prompt": "ハーブティーのティーカップ1杯分の目安量は?",
+  "acceptedAnswers": [
+   "150〜180ml"
+  ],
+  "explanation": "ティーカップ1杯分は150〜180mlが目安で、カップはあらかじめ温めておく。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-cup"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-cup から生成"
+   }
+  ],
+  "id": "q4-t-cup",
+  "format": "single-choice",
+  "prompt": "ハーブティーのティーカップ1杯分の目安量は?",
+  "choices": [
+   "150〜180ml",
+   "200〜300倍",
+   "3杯",
+   "7〜10分"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "ティーカップ1杯分は150〜180mlが目安で、カップはあらかじめ温めておく。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-amount"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-amount から生成"
+   }
+  ],
+  "id": "q1-t-amount",
+  "format": "one-answer",
+  "prompt": "ハーブティー1杯分のフレッシュハーブの目安は、ティースプーン山盛り何杯?",
+  "acceptedAnswers": [
+   "3杯"
+  ],
+  "explanation": "1杯分の目安はドライハーブがティースプーン山盛り1杯、フレッシュハーブは山盛り3杯程度(ドライの3倍)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-amount"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-amount から生成"
+   }
+  ],
+  "id": "q4-t-amount",
+  "format": "single-choice",
+  "prompt": "ハーブティー1杯分のフレッシュハーブの目安は、ティースプーン山盛り何杯?",
+  "choices": [
+   "7〜10分",
+   "150〜180ml",
+   "3杯",
+   "約20g"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "1杯分の目安はドライハーブがティースプーン山盛り1杯、フレッシュハーブは山盛り3杯程度(ドライの3倍)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-lid"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-lid から生成"
+   }
+  ],
+  "id": "q1-t-lid",
+  "format": "one-answer",
+  "prompt": "ハーブティーをいれるとき、ポットに蓋をする理由は?",
+  "acceptedAnswers": [
+   "揮発性の香りを逃がさないため"
+  ],
+  "explanation": "沸騰したての熱湯を使うのは香りを出しやすくするため、蓋をするのは揮発性の香りを逃がさないため。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-lid"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-lid から生成"
+   }
+  ],
+  "id": "q4-t-lid",
+  "format": "single-choice",
+  "prompt": "ハーブティーをいれるとき、ポットに蓋をする理由は?",
+  "choices": [
+   "7〜10分",
+   "挿し木",
+   "外側",
+   "揮発性の香りを逃がさないため"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "沸騰したての熱湯を使うのは香りを出しやすくするため、蓋をするのは揮発性の香りを逃がさないため。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-time"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-time から生成"
+   }
+  ],
+  "id": "q1-t-time",
+  "format": "one-answer",
+  "prompt": "かたい種皮を持つ果実や種子のハーブティーの抽出時間の目安は?",
+  "acceptedAnswers": [
+   "7〜10分"
+  ],
+  "explanation": "抽出時間はフレッシュで3分程度、ドライ(葉や花)で3〜5分、かたい果実や種子は7〜10分が目安。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-time"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-time から生成"
+   }
+  ],
+  "id": "q4-t-time",
+  "format": "single-choice",
+  "prompt": "かたい種皮を持つ果実や種子のハーブティーの抽出時間の目安は?",
+  "choices": [
+   "3杯",
+   "150〜180ml",
+   "5年",
+   "7〜10分"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "抽出時間はフレッシュで3分程度、ドライ(葉や花)で3〜5分、かたい果実や種子は7〜10分が目安。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-chamomile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-chamomile から生成"
+   }
+  ],
+  "id": "q1-t-chamomile",
+  "format": "one-answer",
+  "prompt": "「大地のりんご」と呼ばれるハーブは?",
+  "acceptedAnswers": [
+   "ジャーマンカモミール"
+  ],
+  "explanation": "ジャーマンカモミールは、りんごに似た甘い香りから「大地のりんご」と呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-chamomile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-chamomile から生成"
+   }
+  ],
+  "id": "q4-t-chamomile",
+  "format": "single-choice",
+  "prompt": "「大地のりんご」と呼ばれるハーブは?",
+  "choices": [
+   "エルダーフラワー",
+   "ジャーマンカモミール",
+   "ラズベリーリーフ",
+   "ローゼル"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ジャーマンカモミールは、りんごに似た甘い香りから「大地のりんご」と呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-stevia"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-stevia から生成"
+   }
+  ],
+  "id": "q1-t-stevia",
+  "format": "one-answer",
+  "prompt": "ステビアを利用した甘味料は、砂糖の何倍ほどの甘さといわれる?",
+  "acceptedAnswers": [
+   "200〜300倍"
+  ],
+  "explanation": "ステビアを利用した甘味料は砂糖の200〜300倍ほどの甘さがあるといわれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-stevia"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-stevia から生成"
+   }
+  ],
+  "id": "q4-t-stevia",
+  "format": "single-choice",
+  "prompt": "ステビアを利用した甘味料は、砂糖の何倍ほどの甘さといわれる?",
+  "choices": [
+   "約20g",
+   "200〜300倍",
+   "7〜10分",
+   "5年"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ステビアを利用した甘味料は砂糖の200〜300倍ほどの甘さがあるといわれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-hibiscus"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-hibiscus から生成"
+   }
+  ],
+  "id": "q1-t-hibiscus",
+  "format": "one-answer",
+  "prompt": "ハイビスカスの別名は?",
+  "acceptedAnswers": [
+   "ローゼル"
+  ],
+  "explanation": "ハイビスカスは酸味と赤い色が特徴でクエン酸を多く含み、別名ローゼル。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-hibiscus"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-hibiscus から生成"
+   }
+  ],
+  "id": "q4-t-hibiscus",
+  "format": "single-choice",
+  "prompt": "ハイビスカスの別名は?",
+  "choices": [
+   "ローゼル",
+   "マロウ",
+   "エルダーフラワー",
+   "ラズベリーリーフ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "ハイビスカスは酸味と赤い色が特徴でクエン酸を多く含み、別名ローゼル。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-mallow"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-mallow から生成"
+   }
+  ],
+  "id": "q1-t-mallow",
+  "format": "one-answer",
+  "prompt": "色の変化から「夜明けのハーブティー」と呼ばれるハーブは?",
+  "acceptedAnswers": [
+   "マロウ",
+   "マロー",
+   "マロウ/マロー"
+  ],
+  "explanation": "マロウのティーは青色で、レモン汁など酸性のものを加えるとピンクに変わることから「夜明けのハーブティー」と呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-mallow"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-mallow から生成"
+   }
+  ],
+  "id": "q4-t-mallow",
+  "format": "single-choice",
+  "prompt": "色の変化から「夜明けのハーブティー」と呼ばれるハーブは?",
+  "choices": [
+   "マロウ",
+   "ラズベリーリーフ",
+   "エルダーフラワー",
+   "ローゼル"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "マロウのティーは青色で、レモン汁など酸性のものを加えるとピンクに変わることから「夜明けのハーブティー」と呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-raspberry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-raspberry から生成"
+   }
+  ],
+  "id": "q1-t-raspberry",
+  "format": "one-answer",
+  "prompt": "ヨーロッパで「安産のハーブティー」として親しまれてきたのは?",
+  "acceptedAnswers": [
+   "ラズベリーリーフ"
+  ],
+  "explanation": "ラズベリーリーフはヨーロッパで「安産のハーブティー」として親しまれてきた(妊娠中の飲用はかかりつけ医に相談)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-raspberry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-raspberry から生成"
+   }
+  ],
+  "id": "q4-t-raspberry",
+  "format": "single-choice",
+  "prompt": "ヨーロッパで「安産のハーブティー」として親しまれてきたのは?",
+  "choices": [
+   "ローゼル",
+   "エルダーフラワー",
+   "ジャーマンカモミール",
+   "ラズベリーリーフ"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ラズベリーリーフはヨーロッパで「安産のハーブティー」として親しまれてきた(妊娠中の飲用はかかりつけ医に相談)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-elder"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-elder から生成"
+   }
+  ],
+  "id": "q1-t-elder",
+  "format": "one-answer",
+  "prompt": "マスカットに似た香りを持ち、欧米で万病薬的存在とされたハーブは?",
+  "acceptedAnswers": [
+   "エルダーフラワー"
+  ],
+  "explanation": "エルダーフラワーはマスカットに似た甘い香りで、欧米では万病薬的存在とされてきた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-elder"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9689",
+    "bookPage": 113,
+    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-elder から生成"
+   }
+  ],
+  "id": "q4-t-elder",
+  "format": "single-choice",
+  "prompt": "マスカットに似た香りを持ち、欧米で万病薬的存在とされたハーブは?",
+  "choices": [
+   "マロウ",
+   "ジャーマンカモミール",
+   "エルダーフラワー",
+   "ラズベリーリーフ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "エルダーフラワーはマスカットに似た甘い香りで、欧米では万病薬的存在とされてきた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-lavender"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-lavender から生成"
+   }
+  ],
+  "id": "q1-t-lavender",
+  "format": "one-answer",
+  "prompt": "「ハーブの女王」とも呼ばれるハーブは?",
+  "acceptedAnswers": [
+   "ラベンダー"
+  ],
+  "explanation": "ラベンダーは甘くフローラルな強い香りで「ハーブの女王」とも呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-lavender"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-lavender から生成"
+   }
+  ],
+  "id": "q4-t-lavender",
+  "format": "single-choice",
+  "prompt": "「ハーブの女王」とも呼ばれるハーブは?",
+  "choices": [
+   "ドッグローズ",
+   "ダンデリオン",
+   "ラベンダー",
+   "ベルベーヌ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ラベンダーは甘くフローラルな強い香りで「ハーブの女王」とも呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-verbena"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-verbena から生成"
+   }
+  ],
+  "id": "q1-t-verbena",
+  "format": "one-answer",
+  "prompt": "レモンバーベナの別名は?",
+  "acceptedAnswers": [
+   "ベルベーヌ"
+  ],
+  "explanation": "レモンバーベナの別名はベルベーヌ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-verbena"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-verbena から生成"
+   }
+  ],
+  "id": "q4-t-verbena",
+  "format": "single-choice",
+  "prompt": "レモンバーベナの別名は?",
+  "choices": [
+   "ベルベーヌ",
+   "ダンデリオン",
+   "ラベンダー",
+   "ドッグローズ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "レモンバーベナの別名はベルベーヌ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-rosehip"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-rosehip から生成"
+   }
+  ],
+  "id": "q1-t-rosehip",
+  "format": "one-answer",
+  "prompt": "ローズヒップは何という植物の実?",
+  "acceptedAnswers": [
+   "ドッグローズ"
+  ],
+  "explanation": "ローズヒップはドッグローズというバラ科植物の実で、ビタミンCが豊富。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-rosehip"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-rosehip から生成"
+   }
+  ],
+  "id": "q4-t-rosehip",
+  "format": "single-choice",
+  "prompt": "ローズヒップは何という植物の実?",
+  "choices": [
+   "ベルベーヌ",
+   "ラベンダー",
+   "ドッグローズ",
+   "ダンデリオン"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ローズヒップはドッグローズというバラ科植物の実で、ビタミンCが豊富。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-coffee"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-coffee から生成"
+   }
+  ],
+  "id": "q1-t-coffee",
+  "format": "one-answer",
+  "prompt": "代替コーヒーの原料として代表的な、セイヨウタンポポの英名は?",
+  "acceptedAnswers": [
+   "ダンデリオン"
+  ],
+  "explanation": "ハーブの根をローストした代替コーヒー(ハーブコーヒー)にはカフェインが含まれず、ダンデリオン(セイヨウタンポポ)やチコリの根を使ったものが代表的。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-coffee"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9690",
+    "bookPage": 114,
+    "locationNote": "本書 p.114（原本画像 IMG_9690.PNG）。原文照合 batch11 で照合済みの知識単位 t-coffee から生成"
+   }
+  ],
+  "id": "q4-t-coffee",
+  "format": "single-choice",
+  "prompt": "代替コーヒーの原料として代表的な、セイヨウタンポポの英名は?",
+  "choices": [
+   "ダンデリオン",
+   "ラベンダー",
+   "ドッグローズ",
+   "ベルベーヌ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "ハーブの根をローストした代替コーヒー(ハーブコーヒー)にはカフェインが含まれず、ダンデリオン(セイヨウタンポポ)やチコリの根を使ったものが代表的。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-bath"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9691",
+    "bookPage": 115,
+    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-bath から生成"
+   }
+  ],
+  "id": "q1-l-bath",
+  "format": "one-answer",
+  "prompt": "ハーブバスに使うドライハーブの量の目安は?",
+  "acceptedAnswers": [
+   "約20g"
+  ],
+  "explanation": "ハーブバスの使用量はドライハーブで約20g(大さじ山盛り5杯程度)、フレッシュはひとつかみ程度。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-bath"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9691",
+    "bookPage": 115,
+    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-bath から生成"
+   }
+  ],
+  "id": "q4-l-bath",
+  "format": "single-choice",
+  "prompt": "ハーブバスに使うドライハーブの量の目安は?",
+  "choices": [
+   "4〜5日",
+   "80種",
+   "5年",
+   "約20g"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ハーブバスの使用量はドライハーブで約20g(大さじ山盛り5杯程度)、フレッシュはひとつかみ程度。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-youth"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9691",
+    "bookPage": 115,
+    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-youth から生成"
+   }
+  ],
+  "id": "q1-l-youth",
+  "format": "one-answer",
+  "prompt": "「若返りのハーブ」といわれるハーブは?",
+  "acceptedAnswers": [
+   "ローズマリー"
+  ],
+  "explanation": "ローズマリーは「若返りのハーブ」といわれ、美肌作用が期待されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-youth"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9691",
+    "bookPage": 115,
+    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-youth から生成"
+   }
+  ],
+  "id": "q4-l-youth",
+  "format": "single-choice",
+  "prompt": "「若返りのハーブ」といわれるハーブは?",
+  "choices": [
+   "七味唐辛子",
+   "ローズマリー",
+   "タイム",
+   "クローブ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ローズマリーは「若返りのハーブ」といわれ、美肌作用が期待されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-skin"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9691",
+    "bookPage": 115,
+    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-skin から生成"
+   }
+  ],
+  "id": "q1-l-skin",
+  "format": "one-answer",
+  "prompt": "脂性肌向けの化粧水に向くハーブの例を1つ挙げよ。",
+  "acceptedAnswers": [
+   "ローズマリー",
+   "ジュニパーベリー"
+  ],
+  "explanation": "化粧水のハーブ選びの例:乾燥肌〜普通肌はラベンダーやジャーマンカモミール、普通肌〜脂性肌はゼラニウム、脂性肌はローズマリーやジュニパーベリー。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-skin"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9691",
+    "bookPage": 115,
+    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-skin から生成"
+   }
+  ],
+  "id": "q4-l-skin",
+  "format": "single-choice",
+  "prompt": "脂性肌向けの化粧水に向くハーブの例を1つ挙げよ。",
+  "choices": [
+   "ローズマリー",
+   "タイム",
+   "クローブ",
+   "マロウ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "化粧水のハーブ選びの例:乾燥肌〜普通肌はラベンダーやジャーマンカモミール、普通肌〜脂性肌はゼラニウム、脂性肌はローズマリーやジュニパーベリー。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-lotion"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-lotion から生成"
+   }
+  ],
+  "id": "q1-l-lotion",
+  "format": "one-answer",
+  "prompt": "手作り化粧水は冷蔵保管で何日で使い切る?",
+  "acceptedAnswers": [
+   "4〜5日"
+  ],
+  "explanation": "手作り化粧水は自家用のみとし、冷蔵室で保管して4〜5日で使い切る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-lotion"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-lotion から生成"
+   }
+  ],
+  "id": "q4-l-lotion",
+  "format": "single-choice",
+  "prompt": "手作り化粧水は冷蔵保管で何日で使い切る?",
+  "choices": [
+   "200〜300倍",
+   "3杯",
+   "約20g",
+   "4〜5日"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "手作り化粧水は自家用のみとし、冷蔵室で保管して4〜5日で使い切る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-hungarian"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-hungarian から生成"
+   }
+  ],
+  "id": "q1-l-hungarian",
+  "format": "one-answer",
+  "prompt": "ハンガリー王妃の逸話で知られる、ローズマリーなどで作った化粧水の名は?",
+  "acceptedAnswers": [
+   "ハンガリアンウォーター"
+  ],
+  "explanation": "14世紀頃、ハンガリー王妃にローズマリーなどで作った化粧水が献上され、健康と若々しさを取り戻したという逸話から「ハンガリアンウォーター」と呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-hungarian"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-hungarian から生成"
+   }
+  ],
+  "id": "q4-l-hungarian",
+  "format": "single-choice",
+  "prompt": "ハンガリー王妃の逸話で知られる、ローズマリーなどで作った化粧水の名は?",
+  "choices": [
+   "サシェ",
+   "タッジーマッジー",
+   "香り玉",
+   "ハンガリアンウォーター"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "14世紀頃、ハンガリー王妃にローズマリーなどで作った化粧水が献上され、健康と若々しさを取り戻したという逸話から「ハンガリアンウォーター」と呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-gargle"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-gargle から生成"
+   }
+  ],
+  "id": "q1-l-gargle",
+  "format": "one-answer",
+  "prompt": "抗菌作用が強いといわれる成分チモールを含み、うがい液に向くハーブは?",
+  "acceptedAnswers": [
+   "タイム"
+  ],
+  "explanation": "うがい液にはチモールを含むタイムやミントがおすすめで、濃いめのハーブティーを冷まして使い、その日のうちに使い切る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-gargle"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-gargle から生成"
+   }
+  ],
+  "id": "q4-l-gargle",
+  "format": "single-choice",
+  "prompt": "抗菌作用が強いといわれる成分チモールを含み、うがい液に向くハーブは?",
+  "choices": [
+   "タイム",
+   "ローズマリー",
+   "七味唐辛子",
+   "ジャーマンカモミール"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "うがい液にはチモールを含むタイムやミントがおすすめで、濃いめのハーブティーを冷まして使い、その日のうちに使い切る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-aromabath"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9693",
+    "bookPage": 117,
+    "locationNote": "本書 p.117（原本画像 IMG_9693.PNG）。原文照合 batch12 で照合済みの知識単位 l-aromabath から生成"
+   }
+  ],
+  "id": "q1-l-aromabath",
+  "format": "one-answer",
+  "prompt": "精油の香りを空間に漂わせて楽しむことを何という?",
+  "acceptedAnswers": [
+   "芳香浴"
+  ],
+  "explanation": "精油を使って香りを空間に漂わせて楽しむことを芳香浴という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-aromabath"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9693",
+    "bookPage": 117,
+    "locationNote": "本書 p.117（原本画像 IMG_9693.PNG）。原文照合 batch12 で照合済みの知識単位 l-aromabath から生成"
+   }
+  ],
+  "id": "q4-l-aromabath",
+  "format": "single-choice",
+  "prompt": "精油の香りを空間に漂わせて楽しむことを何という?",
+  "choices": [
+   "ドーシャ",
+   "ピートモス",
+   "食経験",
+   "芳香浴"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "精油を使って香りを空間に漂わせて楽しむことを芳香浴という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-spray"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9693",
+    "bookPage": 117,
+    "locationNote": "本書 p.117（原本画像 IMG_9693.PNG）。原文照合 batch12 で照合済みの知識単位 l-spray から生成"
+   }
+  ],
+  "id": "q1-l-spray",
+  "format": "one-answer",
+  "prompt": "ルームスプレーで、精油を最初に混ぜる液体は?",
+  "acceptedAnswers": [
+   "無水エタノール"
+  ],
+  "explanation": "ルームスプレーは無水エタノール5mlに精油20滴以下を混ぜ、精製水45mlを加えて作る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-spray"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9693",
+    "bookPage": 117,
+    "locationNote": "本書 p.117（原本画像 IMG_9693.PNG）。原文照合 batch12 で照合済みの知識単位 l-spray から生成"
+   }
+  ],
+  "id": "q4-l-spray",
+  "format": "single-choice",
+  "prompt": "ルームスプレーで、精油を最初に混ぜる液体は?",
+  "choices": [
+   "200〜300倍",
+   "ピートモス",
+   "芳香浴",
+   "無水エタノール"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ルームスプレーは無水エタノール5mlに精油20滴以下を混ぜ、精製水45mlを加えて作る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-oil"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9694",
+    "bookPage": 118,
+    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-oil から生成"
+   }
+  ],
+  "id": "q1-l-oil",
+  "format": "one-answer",
+  "prompt": "精油の香りと作用を生かしたものを何という?",
+  "acceptedAnswers": [
+   "アロマテラピー",
+   "芳香療法"
+  ],
+  "explanation": "精油(エッセンシャルオイル)は植物から抽出した芳香成分を高濃度に含む天然素材で、それを生かしたものがアロマテラピー(芳香療法)。口に入れない、肌に直接使わない、火気に注意する。"
+ }
+]

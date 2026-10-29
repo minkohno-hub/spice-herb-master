@@ -1,0 +1,2515 @@
+[
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-def"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9587",
+    "bookPage": 12,
+    "locationNote": "本書 p.12（原本画像 IMG_9587.PNG）。原文照合 batch23 で照合済みの知識単位 b-def から生成"
+   }
+  ],
+  "id": "q1-b-def",
+  "format": "one-answer",
+  "prompt": "スパイス&ハーブの定義の一例で、両者は何という植物の一部とされる?",
+  "acceptedAnswers": [
+   "芳香性植物"
+  ],
+  "explanation": "定義の一例として、スパイスとハーブは芳香性植物の一部で、料理・園芸・クラフトなど生活の分野で有益な役割を果たすものとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-def"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9587",
+    "bookPage": 12,
+    "locationNote": "本書 p.12（原本画像 IMG_9587.PNG）。原文照合 batch23 で照合済みの知識単位 b-def から生成"
+   }
+  ],
+  "id": "q4-b-def",
+  "format": "single-choice",
+  "prompt": "スパイス&ハーブの定義の一例で、両者は何という植物の一部とされる?",
+  "choices": [
+   "芳香性植物",
+   "低温・適度な湿気・傷めない",
+   "利用する部位",
+   "結露"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "定義の一例として、スパイスとハーブは芳香性植物の一部で、料理・園芸・クラフトなど生活の分野で有益な役割を果たすものとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-def-split"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9587",
+    "bookPage": 12,
+    "locationNote": "本書 p.12（原本画像 IMG_9587.PNG）。原文照合 batch23 で照合済みの知識単位 b-def-split から生成"
+   }
+  ],
+  "id": "q1-b-def-split",
+  "format": "one-answer",
+  "prompt": "スパイスとハーブを区分する一般的な基準は?",
+  "acceptedAnswers": [
+   "利用する部位"
+  ],
+  "explanation": "スパイスとハーブの区分は、利用する部位(種子・根・果実・葉・花など)で大別するのが一般的である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-def-split"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9587",
+    "bookPage": 12,
+    "locationNote": "本書 p.12（原本画像 IMG_9587.PNG）。原文照合 batch23 で照合済みの知識単位 b-def-split から生成"
+   }
+  ],
+  "id": "q4-b-def-split",
+  "format": "single-choice",
+  "prompt": "スパイスとハーブを区分する一般的な基準は?",
+  "choices": [
+   "単品",
+   "芳香性植物",
+   "利用する部位",
+   "ホール"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "スパイスとハーブの区分は、利用する部位(種子・根・果実・葉・花など)で大別するのが一般的である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-fresh"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-fresh から生成"
+   }
+  ],
+  "id": "q1-b-fresh",
+  "format": "one-answer",
+  "prompt": "生で使用するスパイスやハーブの形態を何という?",
+  "acceptedAnswers": [
+   "フレッシュ"
+  ],
+  "explanation": "フレッシュとは生で使うスパイスやハーブのことで、日本ではしその葉・木の芽などが古くから使われている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-fresh"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-fresh から生成"
+   }
+  ],
+  "id": "q4-b-fresh",
+  "format": "single-choice",
+  "prompt": "生で使用するスパイスやハーブの形態を何という?",
+  "choices": [
+   "フレッシュ",
+   "パウダー",
+   "マスキング効果",
+   "あらびき"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "フレッシュとは生で使うスパイスやハーブのことで、日本ではしその葉・木の芽などが古くから使われている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-kinome"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-kinome から生成"
+   }
+  ],
+  "id": "q1-b-kinome",
+  "format": "one-answer",
+  "prompt": "「木の芽」とは何の若葉?",
+  "acceptedAnswers": [
+   "山椒"
+  ],
+  "explanation": "木の芽は山椒の若葉のことである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-kinome"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-kinome から生成"
+   }
+  ],
+  "id": "q4-b-kinome",
+  "format": "single-choice",
+  "prompt": "「木の芽」とは何の若葉?",
+  "choices": [
+   "唐辛子",
+   "ごま",
+   "山椒",
+   "コリアンダー"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "木の芽は山椒の若葉のことである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-dry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-dry から生成"
+   }
+  ],
+  "id": "q1-b-dry",
+  "format": "one-answer",
+  "prompt": "乾燥させ、保存がきくスパイスやハーブの形態を何という?",
+  "acceptedAnswers": [
+   "ドライ"
+  ],
+  "explanation": "ドライとは乾燥させたスパイスやハーブで保存がきき、粉砕の程度や混合の有無でさらに分類される。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-dry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-dry から生成"
+   }
+  ],
+  "id": "q4-b-dry",
+  "format": "single-choice",
+  "prompt": "乾燥させ、保存がきくスパイスやハーブの形態を何という?",
+  "choices": [
+   "マスキング効果",
+   "ドライ",
+   "フレッシュ",
+   "パウダー"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ドライとは乾燥させたスパイスやハーブで保存がきき、粉砕の程度や混合の有無でさらに分類される。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-single"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-single から生成"
+   }
+  ],
+  "id": "q1-b-single",
+  "format": "one-answer",
+  "prompt": "混合されていない1種類のスパイスまたはハーブを何という?",
+  "acceptedAnswers": [
+   "単品"
+  ],
+  "explanation": "単品とは、ほかのスパイスや調味料と混合されていない1種類のスパイスまたはハーブで、粒度で分類できる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-single"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-single から生成"
+   }
+  ],
+  "id": "q4-b-single",
+  "format": "single-choice",
+  "prompt": "混合されていない1種類のスパイスまたはハーブを何という?",
+  "choices": [
+   "ドライ",
+   "マスキング効果",
+   "単品",
+   "ホール"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "単品とは、ほかのスパイスや調味料と混合されていない1種類のスパイスまたはハーブで、粒度で分類できる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-whole"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-whole から生成"
+   }
+  ],
+  "id": "q1-b-whole",
+  "format": "one-answer",
+  "prompt": "原形のまま乾燥させた、香りがとびにくい形状を何という?",
+  "acceptedAnswers": [
+   "ホール"
+  ],
+  "explanation": "ホールは果実・蕾・樹皮・葉などをほぼ原形のまま乾燥させたもので、粒が大きく香りがとびにくい。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-whole"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-whole から生成"
+   }
+  ],
+  "id": "q4-b-whole",
+  "format": "single-choice",
+  "prompt": "原形のまま乾燥させた、香りがとびにくい形状を何という?",
+  "choices": [
+   "ドライ",
+   "ホール",
+   "フレッシュ",
+   "単品"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ホールは果実・蕾・樹皮・葉などをほぼ原形のまま乾燥させたもので、粒が大きく香りがとびにくい。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-coarse"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-coarse から生成"
+   }
+  ],
+  "id": "q1-b-coarse",
+  "format": "one-answer",
+  "prompt": "ホールを粗めに粉砕し粒子を整えた形状を何という?",
+  "acceptedAnswers": [
+   "あらびき"
+  ],
+  "explanation": "あらびきはホールを粗めに粉砕して粒子を整えたものである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-coarse"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-coarse から生成"
+   }
+  ],
+  "id": "q4-b-coarse",
+  "format": "single-choice",
+  "prompt": "ホールを粗めに粉砕し粒子を整えた形状を何という?",
+  "choices": [
+   "単品",
+   "ミックス",
+   "あらびき",
+   "フレッシュ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "あらびきはホールを粗めに粉砕して粒子を整えたものである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-powder"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-powder から生成"
+   }
+  ],
+  "id": "q1-b-powder",
+  "format": "one-answer",
+  "prompt": "ホール・あらびき・パウダーのうち、最も香りがとびやすいのは?",
+  "acceptedAnswers": [
+   "パウダー"
+  ],
+  "explanation": "パウダーはホールを細かく粉砕したもので、粒が細かく香りがとびやすい。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-powder"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-powder から生成"
+   }
+  ],
+  "id": "q4-b-powder",
+  "format": "single-choice",
+  "prompt": "ホール・あらびき・パウダーのうち、最も香りがとびやすいのは?",
+  "choices": [
+   "マスキング効果",
+   "パウダー",
+   "ドライ",
+   "ミックス"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "パウダーはホールを細かく粉砕したもので、粒が細かく香りがとびやすい。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-mix"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-mix から生成"
+   }
+  ],
+  "id": "q1-b-mix",
+  "format": "one-answer",
+  "prompt": "複数のスパイスやハーブを混ぜたものを何という?",
+  "acceptedAnswers": [
+   "ミックス"
+  ],
+  "explanation": "ミックスは複数のスパイスやハーブを混ぜたもので、カレー粉・ガラムマサラ・エルブドプロバンスが代表的。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-mix"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-mix から生成"
+   }
+  ],
+  "id": "q4-b-mix",
+  "format": "single-choice",
+  "prompt": "複数のスパイスやハーブを混ぜたものを何という?",
+  "choices": [
+   "パウダー",
+   "シナジー効果",
+   "マスキング効果",
+   "ミックス"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ミックスは複数のスパイスやハーブを混ぜたもので、カレー粉・ガラムマサラ・エルブドプロバンスが代表的。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-synergy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-synergy から生成"
+   }
+  ],
+  "id": "q1-b-synergy",
+  "format": "one-answer",
+  "prompt": "スパイスを混ぜて香りの幅・厚み・深みが生まれる効果を何という?",
+  "acceptedAnswers": [
+   "シナジー効果"
+  ],
+  "explanation": "ミックスにより香りの幅・厚み・深みが生まれることをシナジー効果という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-synergy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-synergy から生成"
+   }
+  ],
+  "id": "q4-b-synergy",
+  "format": "single-choice",
+  "prompt": "スパイスを混ぜて香りの幅・厚み・深みが生まれる効果を何という?",
+  "choices": [
+   "単品",
+   "シナジー効果",
+   "あらびき",
+   "ホール"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ミックスにより香りの幅・厚み・深みが生まれることをシナジー効果という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-masking"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-masking から生成"
+   }
+  ],
+  "id": "q1-b-masking",
+  "format": "one-answer",
+  "prompt": "混ぜたスパイスが互いのとがった香りを消し合い丸みのある香りになる効果を何という?",
+  "acceptedAnswers": [
+   "マスキング効果"
+  ],
+  "explanation": "混ぜたスパイスが互いのとがった香りを消し合い、丸みのあるふくよかな香りになる効果をマスキング効果という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-masking"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-masking から生成"
+   }
+  ],
+  "id": "q4-b-masking",
+  "format": "single-choice",
+  "prompt": "混ぜたスパイスが互いのとがった香りを消し合い丸みのある香りになる効果を何という?",
+  "choices": [
+   "あらびき",
+   "パウダー",
+   "ミックス",
+   "マスキング効果"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "混ぜたスパイスが互いのとがった香りを消し合い、丸みのあるふくよかな香りになる効果をマスキング効果という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-rare"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-rare から生成"
+   }
+  ],
+  "id": "q1-b-part-rare",
+  "format": "one-answer",
+  "prompt": "サフランが利用する部位は?",
+  "acceptedAnswers": [
+   "雌しべ"
+  ],
+  "explanation": "サフランは雌しべ、クローブは蕾を利用する珍しい例である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-rare"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-rare から生成"
+   }
+  ],
+  "id": "q4-b-part-rare",
+  "format": "single-choice",
+  "prompt": "サフランが利用する部位は?",
+  "choices": [
+   "樹皮",
+   "雌しべ",
+   "根・根茎",
+   "鱗茎"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "サフランは雌しべ、クローブは蕾を利用する珍しい例である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-clove"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-clove から生成"
+   }
+  ],
+  "id": "q1-b-part-clove",
+  "format": "one-answer",
+  "prompt": "クローブが利用する部位は?",
+  "acceptedAnswers": [
+   "蕾"
+  ],
+  "explanation": "クローブは花の蕾を利用する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-clove"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-clove から生成"
+   }
+  ],
+  "id": "q4-b-part-clove",
+  "format": "single-choice",
+  "prompt": "クローブが利用する部位は?",
+  "choices": [
+   "種子",
+   "樹皮",
+   "蕾",
+   "鱗茎"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "クローブは花の蕾を利用する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-coriander"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-coriander から生成"
+   }
+  ],
+  "id": "q1-b-part-coriander",
+  "format": "one-answer",
+  "prompt": "1つの植物で種子と葉の両方を使う例として挙げられるスパイスは?",
+  "acceptedAnswers": [
+   "コリアンダー"
+  ],
+  "explanation": "コリアンダーは1つの植物で種子と葉の両方を使う例である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-coriander"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-coriander から生成"
+   }
+  ],
+  "id": "q4-b-part-coriander",
+  "format": "single-choice",
+  "prompt": "1つの植物で種子と葉の両方を使う例として挙げられるスパイスは?",
+  "choices": [
+   "ねぎ",
+   "シナモン",
+   "山椒",
+   "コリアンダー"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "コリアンダーは1つの植物で種子と葉の両方を使う例である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-leaf"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-leaf から生成"
+   }
+  ],
+  "id": "q1-b-part-leaf",
+  "format": "one-answer",
+  "prompt": "利用部位「葉」に分類されるものはどれ? (例:タイム)",
+  "acceptedAnswers": [
+   "葉"
+  ],
+  "explanation": "葉を利用する例:タイム、ローレル、パクチー、セージ、バジルなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-leaf"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-leaf から生成"
+   }
+  ],
+  "id": "q4-b-part-leaf",
+  "format": "single-choice",
+  "prompt": "利用部位「葉」に分類されるものはどれ? (例:タイム)",
+  "choices": [
+   "鱗茎",
+   "果実",
+   "樹皮",
+   "葉"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "葉を利用する例:タイム、ローレル、パクチー、セージ、バジルなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-seed"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-seed から生成"
+   }
+  ],
+  "id": "q1-b-part-seed",
+  "format": "one-answer",
+  "prompt": "コリアンダー、フェンネル、アニス、クミンが分類される利用部位は?",
+  "acceptedAnswers": [
+   "種子"
+  ],
+  "explanation": "種子を利用する例:コリアンダー、フェンネル、アニス、クミンなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-seed"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-seed から生成"
+   }
+  ],
+  "id": "q4-b-part-seed",
+  "format": "single-choice",
+  "prompt": "コリアンダー、フェンネル、アニス、クミンが分類される利用部位は?",
+  "choices": [
+   "雌しべ",
+   "果実",
+   "蕾",
+   "種子"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "種子を利用する例:コリアンダー、フェンネル、アニス、クミンなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-fruit"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-fruit から生成"
+   }
+  ],
+  "id": "q1-b-part-fruit",
+  "format": "one-answer",
+  "prompt": "こしょう、唐辛子、オールスパイスが分類される利用部位は?",
+  "acceptedAnswers": [
+   "果実"
+  ],
+  "explanation": "果実を利用する例:こしょう、唐辛子、オールスパイスなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-fruit"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-fruit から生成"
+   }
+  ],
+  "id": "q4-b-part-fruit",
+  "format": "single-choice",
+  "prompt": "こしょう、唐辛子、オールスパイスが分類される利用部位は?",
+  "choices": [
+   "果実",
+   "蕾",
+   "種子",
+   "葉"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "果実を利用する例:こしょう、唐辛子、オールスパイスなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-root"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-root から生成"
+   }
+  ],
+  "id": "q1-b-part-root",
+  "format": "one-answer",
+  "prompt": "ジンジャー、わさび、ターメリックが分類される利用部位は?",
+  "acceptedAnswers": [
+   "根・根茎"
+  ],
+  "explanation": "根・根茎を利用する例:ジンジャー、ガーリック、わさび、ターメリックなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-root"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-root から生成"
+   }
+  ],
+  "id": "q4-b-part-root",
+  "format": "single-choice",
+  "prompt": "ジンジャー、わさび、ターメリックが分類される利用部位は?",
+  "choices": [
+   "鱗茎",
+   "果実",
+   "根・根茎",
+   "雌しべ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "根・根茎を利用する例:ジンジャー、ガーリック、わさび、ターメリックなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-bark"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-bark から生成"
+   }
+  ],
+  "id": "q1-b-part-bark",
+  "format": "one-answer",
+  "prompt": "シナモンが分類される利用部位は?",
+  "acceptedAnswers": [
+   "樹皮"
+  ],
+  "explanation": "樹皮を利用する例はシナモンなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-part-bark"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-bark から生成"
+   }
+  ],
+  "id": "q4-b-part-bark",
+  "format": "single-choice",
+  "prompt": "シナモンが分類される利用部位は?",
+  "choices": [
+   "樹皮",
+   "果実",
+   "葉",
+   "蕾"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "樹皮を利用する例はシナモンなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-seed-fruit"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-seed-fruit から生成"
+   }
+  ],
+  "id": "q1-b-seed-fruit",
+  "format": "one-answer",
+  "prompt": "種子グループに入るコリアンダーやクミンは、植物学上は何にあたる?",
+  "acceptedAnswers": [
+   "果実"
+  ],
+  "explanation": "コリアンダー・フェンネル・クミンなどは外観から種子グループに入るが、植物学上は果実である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-seed-fruit"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-seed-fruit から生成"
+   }
+  ],
+  "id": "q4-b-seed-fruit",
+  "format": "single-choice",
+  "prompt": "種子グループに入るコリアンダーやクミンは、植物学上は何にあたる?",
+  "choices": [
+   "果実",
+   "樹皮",
+   "鱗茎",
+   "雌しべ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "コリアンダー・フェンネル・クミンなどは外観から種子グループに入るが、植物学上は果実である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-garlic-bulb"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-garlic-bulb から生成"
+   }
+  ],
+  "id": "q1-b-garlic-bulb",
+  "format": "one-answer",
+  "prompt": "ガーリックの利用部位は植物学的には何と呼ばれる?",
+  "acceptedAnswers": [
+   "鱗茎"
+  ],
+  "explanation": "ガーリックは根・根茎グループに入るが、実際は葉や茎が肥大した鱗茎という部分である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-garlic-bulb"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-garlic-bulb から生成"
+   }
+  ],
+  "id": "q4-b-garlic-bulb",
+  "format": "single-choice",
+  "prompt": "ガーリックの利用部位は植物学的には何と呼ばれる?",
+  "choices": [
+   "樹皮",
+   "蕾",
+   "鱗茎",
+   "雌しべ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ガーリックは根・根茎グループに入るが、実際は葉や茎が肥大した鱗茎という部分である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-taxonomy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-taxonomy から生成"
+   }
+  ],
+  "id": "q1-b-taxonomy",
+  "format": "one-answer",
+  "prompt": "植物学の分類単位を大きい順に並べると「界・門・綱・目・?・属・種」の?に入るのは?",
+  "acceptedAnswers": [
+   "科"
+  ],
+  "explanation": "植物学では大きい順に「界・門・綱・目・科・属・種」の単位で分類する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-taxonomy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-taxonomy から生成"
+   }
+  ],
+  "id": "q4-b-taxonomy",
+  "format": "single-choice",
+  "prompt": "植物学の分類単位を大きい順に並べると「界・門・綱・目・?・属・種」の?に入るのは?",
+  "choices": [
+   "単品",
+   "シナジー効果",
+   "科",
+   "あらびき"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "植物学では大きい順に「界・門・綱・目・科・属・種」の単位で分類する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-family-meaning"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-family-meaning から生成"
+   }
+  ],
+  "id": "q1-b-family-meaning",
+  "format": "one-answer",
+  "prompt": "スパイスの種類を特定できる分類単位は(科、属・種のどれ)?",
+  "acceptedAnswers": [
+   "属・種"
+  ],
+  "explanation": "科がわかればある程度の特徴が推測でき、属・種までわかれば種類を特定できる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-family-meaning"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-family-meaning から生成"
+   }
+  ],
+  "id": "q4-b-family-meaning",
+  "format": "single-choice",
+  "prompt": "スパイスの種類を特定できる分類単位は(科、属・種のどれ)?",
+  "choices": [
+   "パウダー",
+   "ミックス",
+   "属・種",
+   "ドライ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "科がわかればある程度の特徴が推測でき、属・種までわかれば種類を特定できる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-lamiaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-lamiaceae から生成"
+   }
+  ],
+  "id": "q1-b-lamiaceae",
+  "format": "one-answer",
+  "prompt": "葉が対生し爽やかな香りを持つものが多く、バジルやミントが属する科は?",
+  "acceptedAnswers": [
+   "シソ科"
+  ],
+  "explanation": "シソ科(バジル、ミントなど)は葉が対生し、爽やかな香りのものが多い。収穫は新芽のすぐ上でカットする。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-lamiaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-lamiaceae から生成"
+   }
+  ],
+  "id": "q4-b-lamiaceae",
+  "format": "single-choice",
+  "prompt": "葉が対生し爽やかな香りを持つものが多く、バジルやミントが属する科は?",
+  "choices": [
+   "セリ科",
+   "シソ科",
+   "ショウガ科",
+   "アブラナ科"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "シソ科(バジル、ミントなど)は葉が対生し、爽やかな香りのものが多い。収穫は新芽のすぐ上でカットする。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-apiaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-apiaceae から生成"
+   }
+  ],
+  "id": "q1-b-apiaceae",
+  "format": "one-answer",
+  "prompt": "移植を嫌うものが多く、収穫は外側の葉からとされる科は?",
+  "acceptedAnswers": [
+   "セリ科"
+  ],
+  "explanation": "セリ科(クミン、コリアンダーなど)は葉も種子も食用になるものが多く、移植を嫌うものが多い。収穫は外側の葉から。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-apiaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-apiaceae から生成"
+   }
+  ],
+  "id": "q4-b-apiaceae",
+  "format": "single-choice",
+  "prompt": "移植を嫌うものが多く、収穫は外側の葉からとされる科は?",
+  "choices": [
+   "アブラナ科",
+   "セリ科",
+   "シソ科",
+   "ショウガ科"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "セリ科(クミン、コリアンダーなど)は葉も種子も食用になるものが多く、移植を嫌うものが多い。収穫は外側の葉から。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-zingiberaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-zingiberaceae から生成"
+   }
+  ],
+  "id": "q1-b-zingiberaceae",
+  "format": "one-answer",
+  "prompt": "ジンジャーやターメリックが属し、スーッとする香りのものが多い科は?",
+  "acceptedAnswers": [
+   "ショウガ科"
+  ],
+  "explanation": "ショウガ科(ジンジャー、ターメリックなど)はスーッとする香りのものが多い。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-zingiberaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-zingiberaceae から生成"
+   }
+  ],
+  "id": "q4-b-zingiberaceae",
+  "format": "single-choice",
+  "prompt": "ジンジャーやターメリックが属し、スーッとする香りのものが多い科は?",
+  "choices": [
+   "アブラナ科",
+   "シソ科",
+   "セリ科",
+   "ショウガ科"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ショウガ科(ジンジャー、ターメリックなど)はスーッとする香りのものが多い。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-brassicaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-brassicaceae から生成"
+   }
+  ],
+  "id": "q1-b-brassicaceae",
+  "format": "one-answer",
+  "prompt": "わさびやマスタードが属し、辛みを持つものが多い科は?",
+  "acceptedAnswers": [
+   "アブラナ科"
+  ],
+  "explanation": "アブラナ科(わさび、マスタードなど)は辛みを持つものが多い。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-brassicaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-brassicaceae から生成"
+   }
+  ],
+  "id": "q4-b-brassicaceae",
+  "format": "single-choice",
+  "prompt": "わさびやマスタードが属し、辛みを持つものが多い科は?",
+  "choices": [
+   "シソ科",
+   "セリ科",
+   "アブラナ科",
+   "ショウガ科"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "アブラナ科(わさび、マスタードなど)は辛みを持つものが多い。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-fresh-keep"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-fresh-keep から生成"
+   }
+  ],
+  "id": "q1-b-fresh-keep",
+  "format": "one-answer",
+  "prompt": "フレッシュハーブを保存する場所として適しているのは?",
+  "acceptedAnswers": [
+   "冷蔵庫の野菜室"
+  ],
+  "explanation": "フレッシュハーブは野菜と同じ食品と考え、「低温」「適度な湿気」「傷めない」をポイントに、密封袋に入れて冷蔵庫の野菜室で保存する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-fresh-keep"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-fresh-keep から生成"
+   }
+  ],
+  "id": "q4-b-fresh-keep",
+  "format": "single-choice",
+  "prompt": "フレッシュハーブを保存する場所として適しているのは?",
+  "choices": [
+   "東大寺",
+   "モルッカ諸島",
+   "ペナン島",
+   "冷蔵庫の野菜室"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "フレッシュハーブは野菜と同じ食品と考え、「低温」「適度な湿気」「傷めない」をポイントに、密封袋に入れて冷蔵庫の野菜室で保存する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-fresh-points"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-fresh-points から生成"
+   }
+  ],
+  "id": "q1-b-fresh-points",
+  "format": "one-answer",
+  "prompt": "フレッシュハーブ保存の3つのポイントは?",
+  "acceptedAnswers": [
+   "低温・適度な湿気・傷めない"
+  ],
+  "explanation": "フレッシュハーブ保存の3つのポイントは低温・適度な湿気・傷めないことである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-fresh-points"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-fresh-points から生成"
+   }
+  ],
+  "id": "q4-b-fresh-points",
+  "format": "single-choice",
+  "prompt": "フレッシュハーブ保存の3つのポイントは?",
+  "choices": [
+   "光・熱・湿気",
+   "低温・適度な湿気・傷めない",
+   "香りと色",
+   "結露"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "フレッシュハーブ保存の3つのポイントは低温・適度な湿気・傷めないことである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-fresh-stand"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-fresh-stand から生成"
+   }
+  ],
+  "id": "q1-b-fresh-stand",
+  "format": "one-answer",
+  "prompt": "フレッシュハーブを野菜室で保存する理想的な置き方は?",
+  "acceptedAnswers": [
+   "立てて保存する"
+  ],
+  "explanation": "茎の切り口に湿らせたペーパーを巻くとある程度もち、野菜室で立てて保存するのが理想。冷風を受けない位置に置く。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-fresh-stand"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-fresh-stand から生成"
+   }
+  ],
+  "id": "q4-b-fresh-stand",
+  "format": "single-choice",
+  "prompt": "フレッシュハーブを野菜室で保存する理想的な置き方は?",
+  "choices": [
+   "新鮮な食材が手に入りやすかったため",
+   "漢方薬の配合",
+   "立てて保存する",
+   "しない"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "茎の切り口に湿らせたペーパーを巻くとある程度もち、野菜室で立てて保存するのが理想。冷風を受けない位置に置く。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-basil-temp"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-basil-temp から生成"
+   }
+  ],
+  "id": "q1-b-basil-temp",
+  "format": "one-answer",
+  "prompt": "バジルの保存温度の目安は?",
+  "acceptedAnswers": [
+   "10〜15度"
+  ],
+  "explanation": "バジルは低温で長く保存すると黒く変色するなど品質が落ちるため、冷蔵庫に入れず10〜15度くらいの涼しい場所で保存するのが望ましい。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-basil-temp"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-basil-temp から生成"
+   }
+  ],
+  "id": "q4-b-basil-temp",
+  "format": "single-choice",
+  "prompt": "バジルの保存温度の目安は?",
+  "choices": [
+   "5〜7度",
+   "10〜15度",
+   "7〜10度",
+   "低温・適度な湿気・傷めない"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "バジルは低温で長く保存すると黒く変色するなど品質が落ちるため、冷蔵庫に入れず10〜15度くらいの涼しい場所で保存するのが望ましい。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-temp-5-7"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-temp-5-7 から生成"
+   }
+  ],
+  "id": "q1-b-temp-5-7",
+  "format": "one-answer",
+  "prompt": "オレガノやディルなど多くのフレッシュハーブの保存温度の目安は?",
+  "acceptedAnswers": [
+   "5〜7度"
+  ],
+  "explanation": "保存温度5〜7度の目安:オレガノ、スペアミント、ペパーミント、セージ、レモンバーム、チャービル、タラゴン、イタリアンパセリ、ルッコラ、ディル、パクチー、フェンネル、チャイブ、マーシュなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-temp-5-7"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-temp-5-7 から生成"
+   }
+  ],
+  "id": "q4-b-temp-5-7",
+  "format": "single-choice",
+  "prompt": "オレガノやディルなど多くのフレッシュハーブの保存温度の目安は?",
+  "choices": [
+   "7〜10度",
+   "結露",
+   "5〜7度",
+   "10〜15度"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "保存温度5〜7度の目安:オレガノ、スペアミント、ペパーミント、セージ、レモンバーム、チャービル、タラゴン、イタリアンパセリ、ルッコラ、ディル、パクチー、フェンネル、チャイブ、マーシュなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-temp-7-10"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-temp-7-10 から生成"
+   }
+  ],
+  "id": "q1-b-temp-7-10",
+  "format": "one-answer",
+  "prompt": "タイム、レモングラス、ローズマリーの保存温度の目安は?",
+  "acceptedAnswers": [
+   "7〜10度"
+  ],
+  "explanation": "保存温度7〜10度の目安:タイム、レモングラス、ローズマリー。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-temp-7-10"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-temp-7-10 から生成"
+   }
+  ],
+  "id": "q4-b-temp-7-10",
+  "format": "single-choice",
+  "prompt": "タイム、レモングラス、ローズマリーの保存温度の目安は?",
+  "choices": [
+   "10〜15度",
+   "光・熱・湿気",
+   "5〜7度",
+   "7〜10度"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "保存温度7〜10度の目安:タイム、レモングラス、ローズマリー。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-dry-enemy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-dry-enemy から生成"
+   }
+  ],
+  "id": "q1-b-dry-enemy",
+  "format": "one-answer",
+  "prompt": "ドライスパイスの保存における3つの大敵は?",
+  "acceptedAnswers": [
+   "光・熱・湿気"
+  ],
+  "explanation": "ドライのスパイスやハーブの生命は香りと色で、大敵は「光」「熱」「湿気」。蓋をしっかり閉めて冷暗所で保存する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-dry-enemy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-dry-enemy から生成"
+   }
+  ],
+  "id": "q4-b-dry-enemy",
+  "format": "single-choice",
+  "prompt": "ドライスパイスの保存における3つの大敵は?",
+  "choices": [
+   "結露",
+   "マスキング効果",
+   "光・熱・湿気",
+   "低温・適度な湿気・傷めない"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ドライのスパイスやハーブの生命は香りと色で、大敵は「光」「熱」「湿気」。蓋をしっかり閉めて冷暗所で保存する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-dry-life"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-dry-life から生成"
+   }
+  ],
+  "id": "q1-b-dry-life",
+  "format": "one-answer",
+  "prompt": "ドライスパイスの「生命」とされる2つの要素は?",
+  "acceptedAnswers": [
+   "香りと色"
+  ],
+  "explanation": "ドライのスパイスやハーブの生命は香りと色である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-dry-life"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-dry-life から生成"
+   }
+  ],
+  "id": "q4-b-dry-life",
+  "format": "single-choice",
+  "prompt": "ドライスパイスの「生命」とされる2つの要素は?",
+  "choices": [
+   "光・熱・湿気",
+   "結露",
+   "香りと色",
+   "低温・適度な湿気・傷めない"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ドライのスパイスやハーブの生命は香りと色である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-condensation"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-condensation から生成"
+   }
+  ],
+  "id": "q1-b-condensation",
+  "format": "one-answer",
+  "prompt": "冷蔵室から出したスパイスびんの蓋を開けたままにすると起こる恐れがあることは?",
+  "acceptedAnswers": [
+   "結露"
+  ],
+  "explanation": "冷蔵・冷凍保管した容器は冷えているため、蓋を開けたままにすると内側に結露する恐れがあり、使ったらすぐ蓋を閉めて戻す。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-condensation"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-condensation から生成"
+   }
+  ],
+  "id": "q4-b-condensation",
+  "format": "single-choice",
+  "prompt": "冷蔵室から出したスパイスびんの蓋を開けたままにすると起こる恐れがあることは?",
+  "choices": [
+   "香りと色",
+   "結露",
+   "低温・適度な湿気・傷めない",
+   "光・熱・湿気"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "冷蔵・冷凍保管した容器は冷えているため、蓋を開けたままにすると内側に結露する恐れがあり、使ったらすぐ蓋を閉めて戻す。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-cooking-care"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-cooking-care から生成"
+   }
+  ],
+  "id": "q1-b-cooking-care",
+  "format": "one-answer",
+  "prompt": "調理中、スパイスの容器から鍋の上で直接振りかけてよいか?",
+  "acceptedAnswers": [
+   "しない",
+   "いけない",
+   "だめ"
+  ],
+  "explanation": "調理中は火のそばに置かず、小皿に必要量を出して使い、鍋の上で直接振りかけない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "b-cooking-care"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-cooking-care から生成"
+   }
+  ],
+  "id": "q4-b-cooking-care",
+  "format": "single-choice",
+  "prompt": "調理中、スパイスの容器から鍋の上で直接振りかけてよいか?",
+  "choices": [
+   "盗木",
+   "立てて保存する",
+   "しない",
+   "新鮮な食材が手に入りやすかったため"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "調理中は火のそばに置かず、小皿に必要量を出して使い、鍋の上で直接振りかけない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-egypt-mummy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-egypt-mummy から生成"
+   }
+  ],
+  "id": "q1-h-egypt-mummy",
+  "format": "one-answer",
+  "prompt": "古代エジプトのミイラ作りで、防腐作用を期待して遺体に詰められたスパイスの代表例は?",
+  "acceptedAnswers": [
+   "シナモン"
+  ],
+  "explanation": "古代エジプトでは、王族などのミイラ作りで、防腐作用の強いシナモンなどのスパイスが遺体に詰められた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-egypt-mummy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-egypt-mummy から生成"
+   }
+  ],
+  "id": "q4-h-egypt-mummy",
+  "format": "single-choice",
+  "prompt": "古代エジプトのミイラ作りで、防腐作用を期待して遺体に詰められたスパイスの代表例は?",
+  "choices": [
+   "シナモン",
+   "クローブ",
+   "ガーリック",
+   "唐辛子"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "古代エジプトでは、王族などのミイラ作りで、防腐作用の強いシナモンなどのスパイスが遺体に詰められた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-egypt-pyramid"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-egypt-pyramid から生成"
+   }
+  ],
+  "id": "q1-h-egypt-pyramid",
+  "format": "one-answer",
+  "prompt": "ピラミッド建設の労働者に体力をつけるため大量に使われたとされるスパイスは?",
+  "acceptedAnswers": [
+   "ガーリック",
+   "にんにく"
+  ],
+  "explanation": "ピラミッド建設では、労働者の体力づくり(強壮剤のような目的)のために大量のガーリックが使われたと伝えられる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-egypt-pyramid"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-egypt-pyramid から生成"
+   }
+  ],
+  "id": "q4-h-egypt-pyramid",
+  "format": "single-choice",
+  "prompt": "ピラミッド建設の労働者に体力をつけるため大量に使われたとされるスパイスは?",
+  "choices": [
+   "クローブ",
+   "ガーリック",
+   "シナモン",
+   "唐辛子"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ピラミッド建設では、労働者の体力づくり(強壮剤のような目的)のために大量のガーリックが使われたと伝えられる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-china-2500bc"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-china-2500bc から生成"
+   }
+  ],
+  "id": "q1-h-china-2500bc",
+  "format": "one-answer",
+  "prompt": "スパイスを加えた香酒や香飯が神に供えられていたのは、紀元前何年頃の中国?",
+  "acceptedAnswers": [
+   "紀元前2500年頃"
+  ],
+  "explanation": "紀元前2500年頃の中国では、スパイス入りの香酒や香飯が神に供えられ、宗教的にも重要な役割を担った。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-china-2500bc"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-china-2500bc から生成"
+   }
+  ],
+  "id": "q4-h-china-2500bc",
+  "format": "single-choice",
+  "prompt": "スパイスを加えた香酒や香飯が神に供えられていたのは、紀元前何年頃の中国?",
+  "choices": [
+   "1602年",
+   "19世紀中頃",
+   "紀元前2500年頃",
+   "1600年"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "紀元前2500年頃の中国では、スパイス入りの香酒や香飯が神に供えられ、宗教的にも重要な役割を担った。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-han-clove"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-han-clove から生成"
+   }
+  ],
+  "id": "q1-h-han-clove",
+  "format": "one-answer",
+  "prompt": "漢の時代、官吏が天子に奏上する際に口臭消しとして口に含んだスパイスは?",
+  "acceptedAnswers": [
+   "クローブ",
+   "丁子",
+   "丁香"
+  ],
+  "explanation": "漢の時代の中国では、官吏が天子に政事を奏上するとき、1本のクローブを口に含んで口臭を消した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-han-clove"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-han-clove から生成"
+   }
+  ],
+  "id": "q4-h-han-clove",
+  "format": "single-choice",
+  "prompt": "漢の時代、官吏が天子に奏上する際に口臭消しとして口に含んだスパイスは?",
+  "choices": [
+   "クローブ",
+   "シナモン",
+   "ガーリック",
+   "唐辛子"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "漢の時代の中国では、官吏が天子に政事を奏上するとき、1本のクローブを口に含んで口臭を消した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-incense"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-incense から生成"
+   }
+  ],
+  "id": "q1-h-incense",
+  "format": "one-answer",
+  "prompt": "山椒・クローブ・シナモンなどが寺院や教会で火にくべられた目的は?",
+  "acceptedAnswers": [
+   "空気を清める香煙"
+  ],
+  "explanation": "各国で山椒・クローブ・シナモンなどが寺院や教会で焚かれ、空気を清める香煙として使われたとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-incense"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-incense から生成"
+   }
+  ],
+  "id": "q4-h-incense",
+  "format": "single-choice",
+  "prompt": "山椒・クローブ・シナモンなどが寺院や教会で火にくべられた目的は?",
+  "choices": [
+   "空気を清める香煙",
+   "祭事・媚薬・保存剤",
+   "肉の保存",
+   "紀元前2500年頃"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "各国で山椒・クローブ・シナモンなどが寺院や教会で焚かれ、空気を清める香煙として使われたとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-hippocrates"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-hippocrates から生成"
+   }
+  ],
+  "id": "q1-h-hippocrates",
+  "format": "one-answer",
+  "prompt": "紀元前400年頃に400種のハーブ処方をまとめ「医学の父」と呼ばれる人物は?",
+  "acceptedAnswers": [
+   "ヒポクラテス"
+  ],
+  "explanation": "古代ギリシャの医師ヒポクラテスは、紀元前400年頃に400種ものハーブの処方をまとめたとされ、病気を科学的にとらえたことから「医学の父」と呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-hippocrates"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-hippocrates から生成"
+   }
+  ],
+  "id": "q4-h-hippocrates",
+  "format": "single-choice",
+  "prompt": "紀元前400年頃に400種のハーブ処方をまとめ「医学の父」と呼ばれる人物は?",
+  "choices": [
+   "ヒポクラテス",
+   "イサベル女王",
+   "ディオスコリデス",
+   "バスコ・ダ・ガマ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "古代ギリシャの医師ヒポクラテスは、紀元前400年頃に400種ものハーブの処方をまとめたとされ、病気を科学的にとらえたことから「医学の父」と呼ばれる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-dioscorides"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-dioscorides から生成"
+   }
+  ],
+  "id": "q1-h-dioscorides",
+  "format": "one-answer",
+  "prompt": "『マテリア・メディカ(薬物誌)』を著したローマ時代の医師は?",
+  "acceptedAnswers": [
+   "ディオスコリデス"
+  ],
+  "explanation": "紀元50〜70年頃のローマ時代の医師ディオスコリデスは、植物・動物・鉱物を薬理機能で分類した『マテリア・メディカ(薬物誌)』を著した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-dioscorides"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-dioscorides から生成"
+   }
+  ],
+  "id": "q4-h-dioscorides",
+  "format": "single-choice",
+  "prompt": "『マテリア・メディカ(薬物誌)』を著したローマ時代の医師は?",
+  "choices": [
+   "バスコ・ダ・ガマ",
+   "ディオスコリデス",
+   "イサベル女王",
+   "ヒポクラテス"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "紀元50〜70年頃のローマ時代の医師ディオスコリデスは、植物・動物・鉱物を薬理機能で分類した『マテリア・メディカ(薬物誌)』を著した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-materia-600"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-materia-600 から生成"
+   }
+  ],
+  "id": "q1-h-materia-600",
+  "format": "one-answer",
+  "prompt": "『マテリア・メディカ』に掲載された植物は何種に及ぶ?",
+  "acceptedAnswers": [
+   "600種"
+  ],
+  "explanation": "『マテリア・メディカ』に掲載された植物は600種に及ぶ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-materia-600"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-materia-600 から生成"
+   }
+  ],
+  "id": "q4-h-materia-600",
+  "format": "single-choice",
+  "prompt": "『マテリア・メディカ』に掲載された植物は何種に及ぶ?",
+  "choices": [
+   "4回",
+   "1割未満",
+   "4カ国",
+   "600種"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "『マテリア・メディカ』に掲載された植物は600種に及ぶ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-ancient-uses"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-ancient-uses から生成"
+   }
+  ],
+  "id": "q1-h-ancient-uses",
+  "format": "one-answer",
+  "prompt": "古代のスパイスやハーブの用途として挙げられるものを答えよ(薬事以外に3つ)。",
+  "acceptedAnswers": [
+   "祭事・媚薬・保存剤"
+  ],
+  "explanation": "スパイスやハーブは古代から薬事・祭事・媚薬・保存剤などの目的で使われ、貴重品とされた。"
+ }
+]

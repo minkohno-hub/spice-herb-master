@@ -1,0 +1,2593 @@
+[
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-oil"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9694",
+    "bookPage": 118,
+    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-oil から生成"
+   }
+  ],
+  "id": "q4-l-oil",
+  "format": "single-choice",
+  "prompt": "精油の香りと作用を生かしたものを何という?",
+  "choices": [
+   "湿潤",
+   "ピートモス",
+   "木本性",
+   "アロマテラピー"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "精油(エッセンシャルオイル)は植物から抽出した芳香成分を高濃度に含む天然素材で、それを生かしたものがアロマテラピー(芳香療法)。口に入れない、肌に直接使わない、火気に注意する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-rice"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9694",
+    "bookPage": 118,
+    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-rice から生成"
+   }
+  ],
+  "id": "q1-l-rice",
+  "format": "one-answer",
+  "prompt": "米びつに入れて虫よけにするとされるスパイス・ハーブを1つ挙げよ。",
+  "acceptedAnswers": [
+   "唐辛子",
+   "ローレル"
+  ],
+  "explanation": "米びつに唐辛子(2〜3本)やローレル(3〜4枚)を入れておくと虫がつかないとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-rice"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9694",
+    "bookPage": 118,
+    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-rice から生成"
+   }
+  ],
+  "id": "q4-l-rice",
+  "format": "single-choice",
+  "prompt": "米びつに入れて虫よけにするとされるスパイス・ハーブを1つ挙げよ。",
+  "choices": [
+   "ロングペッパー",
+   "ハルディ",
+   "トゥラシー",
+   "唐辛子"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "米びつに唐辛子(2〜3本)やローレル(3〜4枚)を入れておくと虫がつかないとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-sachet"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9695",
+    "bookPage": 119,
+    "locationNote": "本書 p.119（原本画像 IMG_9695.PNG）。原文照合 batch12 で照合済みの知識単位 l-sachet から生成"
+   }
+  ],
+  "id": "q1-l-sachet",
+  "format": "one-answer",
+  "prompt": "フランス語で「香り袋」を意味する言葉は?",
+  "acceptedAnswers": [
+   "サシェ"
+  ],
+  "explanation": "サシェはフランス語で「香り袋」のこと。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-sachet"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9695",
+    "bookPage": 119,
+    "locationNote": "本書 p.119（原本画像 IMG_9695.PNG）。原文照合 batch12 で照合済みの知識単位 l-sachet から生成"
+   }
+  ],
+  "id": "q4-l-sachet",
+  "format": "single-choice",
+  "prompt": "フランス語で「香り袋」を意味する言葉は?",
+  "choices": [
+   "サシェ",
+   "ホリスティック",
+   "タッジーマッジー",
+   "香り玉"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "サシェはフランス語で「香り袋」のこと。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-sachet-deodor"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9696",
+    "bookPage": 120,
+    "locationNote": "本書 p.120（原本画像 IMG_9696.PNG）。原文照合 batch13 で照合済みの知識単位 l-sachet-deodor から生成"
+   }
+  ],
+  "id": "q1-l-sachet-deodor",
+  "format": "one-answer",
+  "prompt": "リラックス用のサシェに向くハーブを1つ挙げよ。",
+  "acceptedAnswers": [
+   "ラベンダー",
+   "ローズ",
+   "ジャーマンカモミール"
+  ],
+  "explanation": "消臭用サシェにはペパーミント・クローブ・タイム、リフレッシュ用にはローズマリー・レモングラス・山椒、リラックス用にはラベンダー・ローズ・ジャーマンカモミールが向く。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-sachet-deodor"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9696",
+    "bookPage": 120,
+    "locationNote": "本書 p.120（原本画像 IMG_9696.PNG）。原文照合 batch13 で照合済みの知識単位 l-sachet-deodor から生成"
+   }
+  ],
+  "id": "q4-l-sachet-deodor",
+  "format": "single-choice",
+  "prompt": "リラックス用のサシェに向くハーブを1つ挙げよ。",
+  "choices": [
+   "マロウ",
+   "ドッグローズ",
+   "ラベンダー",
+   "ベルベーヌ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "消臭用サシェにはペパーミント・クローブ・タイム、リフレッシュ用にはローズマリー・レモングラス・山椒、リラックス用にはラベンダー・ローズ・ジャーマンカモミールが向く。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-pomander"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9696",
+    "bookPage": 120,
+    "locationNote": "本書 p.120（原本画像 IMG_9696.PNG）。原文照合 batch13 で照合済みの知識単位 l-pomander から生成"
+   }
+  ],
+  "id": "q1-l-pomander",
+  "format": "one-answer",
+  "prompt": "フルーツポマンダーで、オレンジに刺すスパイスは?",
+  "acceptedAnswers": [
+   "クローブ"
+  ],
+  "explanation": "ポマンダーは「香り玉」の意味。フルーツポマンダーは柑橘にクローブを刺し、シナモンパウダーをまぶして作る。高温多湿の夏はカビやすいので秋〜春に作る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-pomander"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9696",
+    "bookPage": 120,
+    "locationNote": "本書 p.120（原本画像 IMG_9696.PNG）。原文照合 batch13 で照合済みの知識単位 l-pomander から生成"
+   }
+  ],
+  "id": "q4-l-pomander",
+  "format": "single-choice",
+  "prompt": "フルーツポマンダーで、オレンジに刺すスパイスは?",
+  "choices": [
+   "ローゼル",
+   "マロウ",
+   "ジャーマンカモミール",
+   "クローブ"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ポマンダーは「香り玉」の意味。フルーツポマンダーは柑橘にクローブを刺し、シナモンパウダーをまぶして作る。高温多湿の夏はカビやすいので秋〜春に作る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-pomander-mean"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9696",
+    "bookPage": 120,
+    "locationNote": "本書 p.120（原本画像 IMG_9696.PNG）。原文照合 batch13 で照合済みの知識単位 l-pomander-mean から生成"
+   }
+  ],
+  "id": "q1-l-pomander-mean",
+  "format": "one-answer",
+  "prompt": "「ポマンダー」の意味は?",
+  "acceptedAnswers": [
+   "香り玉"
+  ],
+  "explanation": "ポマンダーは「香り玉」を意味する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-pomander-mean"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9696",
+    "bookPage": 120,
+    "locationNote": "本書 p.120（原本画像 IMG_9696.PNG）。原文照合 batch13 で照合済みの知識単位 l-pomander-mean から生成"
+   }
+  ],
+  "id": "q4-l-pomander-mean",
+  "format": "single-choice",
+  "prompt": "「ポマンダー」の意味は?",
+  "choices": [
+   "タッジーマッジー",
+   "サシェ",
+   "香り玉",
+   "適塩"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ポマンダーは「香り玉」を意味する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-tussie"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9697",
+    "bookPage": 121,
+    "locationNote": "本書 p.121（原本画像 IMG_9697.PNG）。原文照合 batch13 で照合済みの知識単位 l-tussie から生成"
+   }
+  ],
+  "id": "q1-l-tussie",
+  "format": "one-answer",
+  "prompt": "ビクトリア朝時代に流行した、「語るブーケ」とも呼ばれるハーブ入りの花束は?",
+  "acceptedAnswers": [
+   "タッジーマッジー"
+  ],
+  "explanation": "タッジーマッジーはイギリス伝統のハーブ入りの小さな花束で、19世紀ビクトリア朝時代に花言葉とともに流行し、「語るブーケ」「言葉の花束」と呼ばれた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-tussie"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9697",
+    "bookPage": 121,
+    "locationNote": "本書 p.121（原本画像 IMG_9697.PNG）。原文照合 batch13 で照合済みの知識単位 l-tussie から生成"
+   }
+  ],
+  "id": "q4-l-tussie",
+  "format": "single-choice",
+  "prompt": "ビクトリア朝時代に流行した、「語るブーケ」とも呼ばれるハーブ入りの花束は?",
+  "choices": [
+   "香り玉",
+   "タッジーマッジー",
+   "サシェ",
+   "メディカルハーブ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "タッジーマッジーはイギリス伝統のハーブ入りの小さな花束で、19世紀ビクトリア朝時代に花言葉とともに流行し、「語るブーケ」「言葉の花束」と呼ばれた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-timing"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9698",
+    "bookPage": 122,
+    "locationNote": "本書 p.122（原本画像 IMG_9698.PNG）。原文照合 batch13 で照合済みの知識単位 g-timing から生成"
+   }
+  ],
+  "id": "q1-g-timing",
+  "format": "one-answer",
+  "prompt": "バジルなど耐寒性のない一年草のハーブの定植は、春と秋のどちらが基本?",
+  "acceptedAnswers": [
+   "春"
+  ],
+  "explanation": "定植の時期は春(4月下旬以降)か秋(9月下旬〜10月上旬)が適する。耐寒性のない一年草(バジルなど)は春植えが基本。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-timing"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9698",
+    "bookPage": 122,
+    "locationNote": "本書 p.122（原本画像 IMG_9698.PNG）。原文照合 batch13 で照合済みの知識単位 g-timing から生成"
+   }
+  ],
+  "id": "q4-g-timing",
+  "format": "single-choice",
+  "prompt": "バジルなど耐寒性のない一年草のハーブの定植は、春と秋のどちらが基本?",
+  "choices": [
+   "常緑植物",
+   "午前中",
+   "春",
+   "開花直前"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "定植の時期は春(4月下旬以降)か秋(9月下旬〜10月上旬)が適する。耐寒性のない一年草(バジルなど)は春植えが基本。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-annual"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9698",
+    "bookPage": 122,
+    "locationNote": "本書 p.122（原本画像 IMG_9698.PNG）。原文照合 batch13 で照合済みの知識単位 g-annual から生成"
+   }
+  ],
+  "id": "q1-g-annual",
+  "format": "one-answer",
+  "prompt": "一年中、地上部が枯れない植物を何という?",
+  "acceptedAnswers": [
+   "常緑植物"
+  ],
+  "explanation": "発芽から開花・結実・枯死までが1年未満の植物を一年草、毎年茎や葉を伸ばすものを多年草、一年中地上部が枯れないものを常緑植物という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-annual"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9698",
+    "bookPage": 122,
+    "locationNote": "本書 p.122（原本画像 IMG_9698.PNG）。原文照合 batch13 で照合済みの知識単位 g-annual から生成"
+   }
+  ],
+  "id": "q4-g-annual",
+  "format": "single-choice",
+  "prompt": "一年中、地上部が枯れない植物を何という?",
+  "choices": [
+   "弱アルカリ性",
+   "常緑植物",
+   "ピートモス",
+   "湿潤"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "発芽から開花・結実・枯死までが1年未満の植物を一年草、毎年茎や葉を伸ばすものを多年草、一年中地上部が枯れないものを常緑植物という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-soil"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9699",
+    "bookPage": 123,
+    "locationNote": "本書 p.123（原本画像 IMG_9699.PNG）。原文照合 batch13 で照合済みの知識単位 g-soil から生成"
+   }
+  ],
+  "id": "q1-g-soil",
+  "format": "one-answer",
+  "prompt": "一般的にハーブの培養土に適するとされる酸度は?",
+  "acceptedAnswers": [
+   "弱アルカリ性"
+  ],
+  "explanation": "ハーブ栽培には弱アルカリ性・通気性がある・排水性と保水性をあわせ持つ土が適するとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-soil"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9699",
+    "bookPage": 123,
+    "locationNote": "本書 p.123（原本画像 IMG_9699.PNG）。原文照合 batch13 で照合済みの知識単位 g-soil から生成"
+   }
+  ],
+  "id": "q4-g-soil",
+  "format": "single-choice",
+  "prompt": "一般的にハーブの培養土に適するとされる酸度は?",
+  "choices": [
+   "ピートモス",
+   "弱アルカリ性",
+   "常緑植物",
+   "木本性"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ハーブ栽培には弱アルカリ性・通気性がある・排水性と保水性をあわせ持つ土が適するとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-soil-blend"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9699",
+    "bookPage": 123,
+    "locationNote": "本書 p.123（原本画像 IMG_9699.PNG）。原文照合 batch13 で照合済みの知識単位 g-soil-blend から生成"
+   }
+  ],
+  "id": "q1-g-soil-blend",
+  "format": "one-answer",
+  "prompt": "保水性をよくするが酸性のため、酸度調整済みのものを使う土は?",
+  "acceptedAnswers": [
+   "ピートモス"
+  ],
+  "explanation": "ベースの土は赤玉土(水はけ・通気性)と腐葉土(養分・通気性)。プラスする土はバーミキュライト(軽量化・水はけ)とピートモス(保水性、ただし酸性なので酸度調整済みのもの)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-soil-blend"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9699",
+    "bookPage": 123,
+    "locationNote": "本書 p.123（原本画像 IMG_9699.PNG）。原文照合 batch13 で照合済みの知識単位 g-soil-blend から生成"
+   }
+  ],
+  "id": "q4-g-soil-blend",
+  "format": "single-choice",
+  "prompt": "保水性をよくするが酸性のため、酸度調整済みのものを使う土は?",
+  "choices": [
+   "弱アルカリ性",
+   "木本性",
+   "湿潤",
+   "ピートモス"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ベースの土は赤玉土(水はけ・通気性)と腐葉土(養分・通気性)。プラスする土はバーミキュライト(軽量化・水はけ)とピートモス(保水性、ただし酸性なので酸度調整済みのもの)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-pot"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9700",
+    "bookPage": 124,
+    "locationNote": "本書 p.124（原本画像 IMG_9700.PNG）。原文照合 batch14 で照合済みの知識単位 g-pot から生成"
+   }
+  ],
+  "id": "q1-g-pot",
+  "format": "one-answer",
+  "prompt": "通気性はよいが夏は乾燥しやすい鉢の素材は?",
+  "acceptedAnswers": [
+   "素焼き"
+  ],
+  "explanation": "素焼き鉢は通気性がよいが夏は乾燥しやすく、プラスチック鉢は軽いが蒸れやすい。苗の根元が鉢の縁から2cm程度下になるよう植える。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-pot"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9700",
+    "bookPage": 124,
+    "locationNote": "本書 p.124（原本画像 IMG_9700.PNG）。原文照合 batch14 で照合済みの知識単位 g-pot から生成"
+   }
+  ],
+  "id": "q4-g-pot",
+  "format": "single-choice",
+  "prompt": "通気性はよいが夏は乾燥しやすい鉢の素材は?",
+  "choices": [
+   "木本性",
+   "弱アルカリ性",
+   "摘芯",
+   "素焼き"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "素焼き鉢は通気性がよいが夏は乾燥しやすく、プラスチック鉢は軽いが蒸れやすい。苗の根元が鉢の縁から2cm程度下になるよう植える。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-temp"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9701",
+    "bookPage": 125,
+    "locationNote": "本書 p.125（原本画像 IMG_9701.PNG）。原文照合 batch14 で照合済みの知識単位 g-temp から生成"
+   }
+  ],
+  "id": "q1-g-temp",
+  "format": "one-answer",
+  "prompt": "多くのハーブの適温は?",
+  "acceptedAnswers": [
+   "15〜25度"
+  ],
+  "explanation": "ハーブの適温はだいたい15〜25度。肥料は定植後、育ち始めてから2〜3週間に一度が目安。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-temp"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9701",
+    "bookPage": 125,
+    "locationNote": "本書 p.125（原本画像 IMG_9701.PNG）。原文照合 batch14 で照合済みの知識単位 g-temp から生成"
+   }
+  ],
+  "id": "q4-g-temp",
+  "format": "single-choice",
+  "prompt": "多くのハーブの適温は?",
+  "choices": [
+   "15〜25度",
+   "摘芯",
+   "湿潤",
+   "午前中"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "ハーブの適温はだいたい15〜25度。肥料は定植後、育ち始めてから2〜3週間に一度が目安。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-water"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9701",
+    "bookPage": 125,
+    "locationNote": "本書 p.125（原本画像 IMG_9701.PNG）。原文照合 batch14 で照合済みの知識単位 g-water から生成"
+   }
+  ],
+  "id": "q1-g-water",
+  "format": "one-answer",
+  "prompt": "ハーブの水やりは1日のいつ行うのが基本?",
+  "acceptedAnswers": [
+   "午前中"
+  ],
+  "explanation": "水やりは土の表面が乾いてから、鉢底から流れ出すほどたっぷりと、午前中に与えるのが基本。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-water"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9701",
+    "bookPage": 125,
+    "locationNote": "本書 p.125（原本画像 IMG_9701.PNG）。原文照合 batch14 で照合済みの知識単位 g-water から生成"
+   }
+  ],
+  "id": "q4-g-water",
+  "format": "single-choice",
+  "prompt": "ハーブの水やりは1日のいつ行うのが基本?",
+  "choices": [
+   "春",
+   "15〜25度",
+   "午前中",
+   "開花直前"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "水やりは土の表面が乾いてから、鉢底から流れ出すほどたっぷりと、午前中に与えるのが基本。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-dry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9701",
+    "bookPage": 125,
+    "locationNote": "本書 p.125（原本画像 IMG_9701.PNG）。原文照合 batch14 で照合済みの知識単位 g-dry から生成"
+   }
+  ],
+  "id": "q1-g-dry",
+  "format": "one-answer",
+  "prompt": "乾燥と湿潤のうち、バジルが好むのは?",
+  "acceptedAnswers": [
+   "湿潤"
+  ],
+  "explanation": "乾燥を好むのはローズマリー・タイム・セージなど、湿潤を好むのはバジル・チャービル・パセリなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-dry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9701",
+    "bookPage": 125,
+    "locationNote": "本書 p.125（原本画像 IMG_9701.PNG）。原文照合 batch14 で照合済みの知識単位 g-dry から生成"
+   }
+  ],
+  "id": "q4-g-dry",
+  "format": "single-choice",
+  "prompt": "乾燥と湿潤のうち、バジルが好むのは?",
+  "choices": [
+   "弱アルカリ性",
+   "摘芯",
+   "木本性",
+   "湿潤"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "乾燥を好むのはローズマリー・タイム・セージなど、湿潤を好むのはバジル・チャービル・パセリなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-pinch"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9702",
+    "bookPage": 126,
+    "locationNote": "本書 p.126（原本画像 IMG_9702.PNG）。原文照合 batch14 で照合済みの知識単位 g-pinch から生成"
+   }
+  ],
+  "id": "q1-g-pinch",
+  "format": "one-answer",
+  "prompt": "枝先の中心を切り取って脇から新芽を出させることを何という?",
+  "acceptedAnswers": [
+   "摘芯"
+  ],
+  "explanation": "剪定は枝や茎の一部を取り除くこと、摘芯は枝先の中心を切り取って脇から新芽を出させること。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-pinch"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9702",
+    "bookPage": 126,
+    "locationNote": "本書 p.126（原本画像 IMG_9702.PNG）。原文照合 batch14 で照合済みの知識単位 g-pinch から生成"
+   }
+  ],
+  "id": "q4-g-pinch",
+  "format": "single-choice",
+  "prompt": "枝先の中心を切り取って脇から新芽を出させることを何という?",
+  "choices": [
+   "木本性",
+   "摘芯",
+   "ピートモス",
+   "弱アルカリ性"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "剪定は枝や茎の一部を取り除くこと、摘芯は枝先の中心を切り取って脇から新芽を出させること。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-harvest-dry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9702",
+    "bookPage": 126,
+    "locationNote": "本書 p.126（原本画像 IMG_9702.PNG）。原文照合 batch14 で照合済みの知識単位 g-harvest-dry から生成"
+   }
+  ],
+  "id": "q1-g-harvest-dry",
+  "format": "one-answer",
+  "prompt": "ドライにするハーブの収穫に適した時期は?",
+  "acceptedAnswers": [
+   "開花直前"
+  ],
+  "explanation": "ドライにする場合は、最も香りが強くなる開花直前の収穫がおすすめ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-harvest-dry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9702",
+    "bookPage": 126,
+    "locationNote": "本書 p.126（原本画像 IMG_9702.PNG）。原文照合 batch14 で照合済みの知識単位 g-harvest-dry から生成"
+   }
+  ],
+  "id": "q4-g-harvest-dry",
+  "format": "single-choice",
+  "prompt": "ドライにするハーブの収穫に適した時期は?",
+  "choices": [
+   "春",
+   "開花直前",
+   "摘芯",
+   "午前中"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ドライにする場合は、最も香りが強くなる開花直前の収穫がおすすめ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-harvest-woody"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9703",
+    "bookPage": 127,
+    "locationNote": "本書 p.127（原本画像 IMG_9703.PNG）。原文照合 batch14 で照合済みの知識単位 g-harvest-woody から生成"
+   }
+  ],
+  "id": "q1-g-harvest-woody",
+  "format": "one-answer",
+  "prompt": "ローズマリーやラベンダーのように茎が木質化するハーブを何性という?",
+  "acceptedAnswers": [
+   "木本性"
+  ],
+  "explanation": "シソ科の木本性ハーブ(ローズマリー・ラベンダー・タイムなど)は枝を間引くように収穫する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-harvest-woody"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9703",
+    "bookPage": 127,
+    "locationNote": "本書 p.127（原本画像 IMG_9703.PNG）。原文照合 batch14 で照合済みの知識単位 g-harvest-woody から生成"
+   }
+  ],
+  "id": "q4-g-harvest-woody",
+  "format": "single-choice",
+  "prompt": "ローズマリーやラベンダーのように茎が木質化するハーブを何性という?",
+  "choices": [
+   "素焼き",
+   "弱アルカリ性",
+   "木本性",
+   "常緑植物"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "シソ科の木本性ハーブ(ローズマリー・ラベンダー・タイムなど)は枝を間引くように収穫する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-harvest-api"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9703",
+    "bookPage": 127,
+    "locationNote": "本書 p.127（原本画像 IMG_9703.PNG）。原文照合 batch14 で照合済みの知識単位 g-harvest-api から生成"
+   }
+  ],
+  "id": "q1-g-harvest-api",
+  "format": "one-answer",
+  "prompt": "セリ科ハーブの葉は、内側と外側のどちらから収穫する?",
+  "acceptedAnswers": [
+   "外側"
+  ],
+  "explanation": "セリ科の大部分のハーブは内側から新芽が出るので、中心部を残して外側の葉から収穫する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-harvest-api"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9703",
+    "bookPage": 127,
+    "locationNote": "本書 p.127（原本画像 IMG_9703.PNG）。原文照合 batch14 で照合済みの知識単位 g-harvest-api から生成"
+   }
+  ],
+  "id": "q4-g-harvest-api",
+  "format": "single-choice",
+  "prompt": "セリ科ハーブの葉は、内側と外側のどちらから収穫する?",
+  "choices": [
+   "木本性",
+   "揮発性の香りを逃がさないため",
+   "外側",
+   "挿し木"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "セリ科の大部分のハーブは内側から新芽が出るので、中心部を残して外側の葉から収穫する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-propagate"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9703",
+    "bookPage": 127,
+    "locationNote": "本書 p.127（原本画像 IMG_9703.PNG）。原文照合 batch14 で照合済みの知識単位 g-propagate から生成"
+   }
+  ],
+  "id": "q1-g-propagate",
+  "format": "one-answer",
+  "prompt": "ハーブをふやす3つの方法は、種まき・株分けと何?",
+  "acceptedAnswers": [
+   "挿し木"
+  ],
+  "explanation": "ハーブをふやす方法は、種をまく・株分け・挿し木の3つ。挿し木は1カ月ほどで根づく。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-propagate"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9703",
+    "bookPage": 127,
+    "locationNote": "本書 p.127（原本画像 IMG_9703.PNG）。原文照合 batch14 で照合済みの知識単位 g-propagate から生成"
+   }
+  ],
+  "id": "q4-g-propagate",
+  "format": "single-choice",
+  "prompt": "ハーブをふやす3つの方法は、種まき・株分けと何?",
+  "choices": [
+   "揮発性の香りを逃がさないため",
+   "挿し木",
+   "木本性",
+   "外側"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ハーブをふやす方法は、種をまく・株分け・挿し木の3つ。挿し木は1カ月ほどで根づく。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-holistic"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-holistic から生成"
+   }
+  ],
+  "id": "q1-m-holistic",
+  "format": "one-answer",
+  "prompt": "人を「全体」としてとらえる考え方を何という?",
+  "acceptedAnswers": [
+   "ホリスティック"
+  ],
+  "explanation": "多くの伝統医学は人を「全体」としてとらえるホリスティックな視点に基づく。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-holistic"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-holistic から生成"
+   }
+  ],
+  "id": "q4-m-holistic",
+  "format": "single-choice",
+  "prompt": "人を「全体」としてとらえる考え方を何という?",
+  "choices": [
+   "ホリスティック",
+   "薬機法",
+   "ドーシャ",
+   "カパ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "多くの伝統医学は人を「全体」としてとらえるホリスティックな視点に基づく。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-ayurveda"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-ayurveda から生成"
+   }
+  ],
+  "id": "q1-m-ayurveda",
+  "format": "one-answer",
+  "prompt": "アーユルヴェーダで体の機能をとらえる3要素を総称して何という?",
+  "acceptedAnswers": [
+   "ドーシャ"
+  ],
+  "explanation": "インドの伝統医学アーユルヴェーダは、体の機能をヴァータ・ピッタ・カパの3要素(ドーシャ)でとらえる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-ayurveda"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-ayurveda から生成"
+   }
+  ],
+  "id": "q4-m-ayurveda",
+  "format": "single-choice",
+  "prompt": "アーユルヴェーダで体の機能をとらえる3要素を総称して何という?",
+  "choices": [
+   "ドーシャ",
+   "メディカルハーブ",
+   "ホリスティック",
+   "コミッションE"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "インドの伝統医学アーユルヴェーダは、体の機能をヴァータ・ピッタ・カパの3要素(ドーシャ)でとらえる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-ayur-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-ayur-3 から生成"
+   }
+  ],
+  "id": "q1-m-ayur-3",
+  "format": "one-answer",
+  "prompt": "ドーシャの3要素は、ヴァータ・ピッタと何?",
+  "acceptedAnswers": [
+   "カパ"
+  ],
+  "explanation": "ドーシャの3要素はヴァータ・ピッタ・カパである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-ayur-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-ayur-3 から生成"
+   }
+  ],
+  "id": "q4-m-ayur-3",
+  "format": "single-choice",
+  "prompt": "ドーシャの3要素は、ヴァータ・ピッタと何?",
+  "choices": [
+   "薬機法",
+   "ホリスティック",
+   "カパ",
+   "メディカルハーブ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ドーシャの3要素はヴァータ・ピッタ・カパである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-tulsi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-tulsi から生成"
+   }
+  ],
+  "id": "q1-m-tulsi",
+  "format": "one-answer",
+  "prompt": "ホーリーバジルのインド現地名は?",
+  "acceptedAnswers": [
+   "トゥラシー",
+   "トゥルシー"
+  ],
+  "explanation": "アーユルヴェーダでホーリーバジルのインド現地名はトゥラシー(トゥルシー)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-tulsi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-tulsi から生成"
+   }
+  ],
+  "id": "q4-m-tulsi",
+  "format": "single-choice",
+  "prompt": "ホーリーバジルのインド現地名は?",
+  "choices": [
+   "トゥラシー",
+   "ハルディ",
+   "肉豆蔲",
+   "西洋オトギリソウ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "アーユルヴェーダでホーリーバジルのインド現地名はトゥラシー(トゥルシー)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-haldi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-haldi から生成"
+   }
+  ],
+  "id": "q1-m-haldi",
+  "format": "one-answer",
+  "prompt": "ターメリックのインド現地名は?",
+  "acceptedAnswers": [
+   "ハルディ"
+  ],
+  "explanation": "インド現地名で、コリアンダーシードはダニヤー、クミンはジーラ、ターメリックはハルディ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-haldi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-haldi から生成"
+   }
+  ],
+  "id": "q4-m-haldi",
+  "format": "single-choice",
+  "prompt": "ターメリックのインド現地名は?",
+  "choices": [
+   "西洋オトギリソウ",
+   "トゥラシー",
+   "ハルディ",
+   "肉豆蔲"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "インド現地名で、コリアンダーシードはダニヤー、クミンはジーラ、ターメリックはハルディ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-china"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9705",
+    "bookPage": 129,
+    "locationNote": "本書 p.129（原本画像 IMG_9705.PNG）。原文照合 batch15 で照合済みの知識単位 m-china から生成"
+   }
+  ],
+  "id": "q1-m-china",
+  "format": "one-answer",
+  "prompt": "中医学の古典薬草書の名は?",
+  "acceptedAnswers": [
+   "神農本草経"
+  ],
+  "explanation": "中国医学は陰陽五行説に基づき、韓国では韓医学、日本では漢方として定着した。古典薬草書は『神農本草経』。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-china"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9705",
+    "bookPage": 129,
+    "locationNote": "本書 p.129（原本画像 IMG_9705.PNG）。原文照合 batch15 で照合済みの知識単位 m-china から生成"
+   }
+  ],
+  "id": "q4-m-china",
+  "format": "single-choice",
+  "prompt": "中医学の古典薬草書の名は?",
+  "choices": [
+   "肉豆蔲",
+   "コミッションE",
+   "神農本草経",
+   "薬機法"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "中国医学は陰陽五行説に基づき、韓国では韓医学、日本では漢方として定着した。古典薬草書は『神農本草経』。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-nikuzuku"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9705",
+    "bookPage": 129,
+    "locationNote": "本書 p.129（原本画像 IMG_9705.PNG）。原文照合 batch15 で照合済みの知識単位 m-nikuzuku から生成"
+   }
+  ],
+  "id": "q1-m-nikuzuku",
+  "format": "one-answer",
+  "prompt": "ナツメッグの漢方名は?",
+  "acceptedAnswers": [
+   "肉豆蔲",
+   "肉豆蔻",
+   "にくずく"
+  ],
+  "explanation": "漢方名で、ナツメッグは肉豆蔲、シナモンは桂皮、ペパーミントは薄荷。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-nikuzuku"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9705",
+    "bookPage": 129,
+    "locationNote": "本書 p.129（原本画像 IMG_9705.PNG）。原文照合 batch15 で照合済みの知識単位 m-nikuzuku から生成"
+   }
+  ],
+  "id": "q4-m-nikuzuku",
+  "format": "single-choice",
+  "prompt": "ナツメッグの漢方名は?",
+  "choices": [
+   "肉豆蔲",
+   "ハルディ",
+   "西洋オトギリソウ",
+   "カミツレ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "漢方名で、ナツメッグは肉豆蔲、シナモンは桂皮、ペパーミントは薄荷。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-yakkiho"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9705",
+    "bookPage": 129,
+    "locationNote": "本書 p.129（原本画像 IMG_9705.PNG）。原文照合 batch15 で照合済みの知識単位 m-yakkiho から生成"
+   }
+  ],
+  "id": "q1-m-yakkiho",
+  "format": "one-answer",
+  "prompt": "食品としてのスパイスと漢方薬を区別している法律の略称は?",
+  "acceptedAnswers": [
+   "薬機法"
+  ],
+  "explanation": "食品としてのスパイス・ハーブと漢方薬は薬機法により明確に区別されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "m-yakkiho"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9705",
+    "bookPage": 129,
+    "locationNote": "本書 p.129（原本画像 IMG_9705.PNG）。原文照合 batch15 で照合済みの知識単位 m-yakkiho から生成"
+   }
+  ],
+  "id": "q4-m-yakkiho",
+  "format": "single-choice",
+  "prompt": "食品としてのスパイスと漢方薬を区別している法律の略称は?",
+  "choices": [
+   "薬機法",
+   "コミッションE",
+   "メディカルハーブ",
+   "カパ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "食品としてのスパイス・ハーブと漢方薬は薬機法により明確に区別されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-caution"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9686",
+    "bookPage": 110,
+    "locationNote": "本書 p.110（原本画像 IMG_9686.PNG）。原文照合 batch10 で照合済みの知識単位 t-caution について、転記本文 p.110 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: ハーブの中には、妊娠中の人や幼児、高齢者、通院中の人、アレルギーや高血圧など特別な疾患がある場合には適さない種類があるので、ティーにする場合には、安全性を確認してから楽しむこと。"
+   }
+  ],
+  "id": "q1q3-t-caution",
+  "format": "one-answer",
+  "prompt": "ハーブティーにする場合、適さない種類もあるため、事前に何を確認してから楽しむべきか。",
+  "acceptedAnswers": [
+   "安全性"
+  ],
+  "explanation": "妊娠中の人、幼児、高齢者、通院中の人、アレルギーや高血圧などの疾患がある人には適さないハーブもあるため、安全性を確認してから楽しむ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "t-summer"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9688",
+    "bookPage": 112,
+    "locationNote": "本書 p.112（原本画像 IMG_9688.PNG）。原文照合 batch11 で照合済みの知識単位 t-summer について、転記本文 p.112 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: 濃いめに抽出したハーブティーを、氷の入ったグラスに注ぐアイスハーブティーがおすすめ。"
+   }
+  ],
+  "id": "q1q3-t-summer",
+  "format": "one-answer",
+  "prompt": "夏は、濃いめに抽出して氷の入ったグラスに注ぐ何がおすすめか。",
+  "acceptedAnswers": [
+   "アイスハーブティー"
+  ],
+  "explanation": "夏は濃いめに抽出して氷に注ぐアイスハーブティーがおすすめで、ハイビスカスやローズヒップ、レモングラスやミントが向く。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-closet"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9694",
+    "bookPage": 118,
+    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-closet について、転記本文 p.118 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: クローゼットにラベンダー、シナモン、ローレル、セージなどを入れておくと、香りを衣類にまとわせるとともに防虫効果が期待できます。"
+   }
+  ],
+  "id": "q1q3-l-closet",
+  "format": "one-answer",
+  "prompt": "クローゼットにラベンダー、シナモン、ローレル、セージなどを入れておくと、香りを衣類にまとわせるとともに、どのような効果が期待できるか。",
+  "acceptedAnswers": [
+   "防虫効果"
+  ],
+  "explanation": "クローゼットにラベンダー・シナモン・ローレル・セージなどを入れると防虫効果が期待できる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-seedling"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9699",
+    "bookPage": 123,
+    "locationNote": "本書 p.123（原本画像 IMG_9699.PNG）。原文照合 batch13 で照合済みの知識単位 g-seedling について、転記本文 p.123 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: ポイント1 葉や茎につやがあるもの"
+   }
+  ],
+  "id": "q1q3-g-seedling",
+  "format": "one-answer",
+  "prompt": "健全な苗を選ぶポイントの1つとして、葉や茎がどのような状態のものを選ぶか。",
+  "acceptedAnswers": [
+   "つやがある"
+  ],
+  "explanation": "健全な苗の選び方:葉や茎につやがある、間延びしていない、根づまりや根腐れを起こしていない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "g-harvest-lam"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9702",
+    "bookPage": 126,
+    "locationNote": "本書 p.126（原本画像 IMG_9702.PNG）。原文照合 batch14 で照合済みの知識単位 g-harvest-lam について、転記本文 p.126 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: ●シソ科に属するハーブのうち、草本性のハーブ（茎枝が木質化しないバジル、オレガノ、ミント、セージ、レモンバームなど）は、脇芽のある節の上でカットして収穫（右写真）。"
+   }
+  ],
+  "id": "q1q3-g-harvest-lam",
+  "format": "one-answer",
+  "prompt": "シソ科の草本性のハーブ（バジル、オレガノ、ミントなど）は、収穫するときどこでカットするか。",
+  "acceptedAnswers": [
+   "脇芽のある節の上"
+  ],
+  "explanation": "シソ科の草本性ハーブ(バジル・オレガノ・ミントなど)は脇芽のある節の上でカットして収穫する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "t-cup",
+   "t-amount",
+   "t-lid",
+   "t-time"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-cup について、転記本文 p.111 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 準備 2 ハーブを計量し、ティーポットに入れる 3 熱湯を注いで蓋をする 4 蒸らして抽出する"
+   },
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-amount について、転記本文 p.111 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 準備 2 ハーブを計量し、ティーポットに入れる 3 熱湯を注いで蓋をする 4 蒸らして抽出する"
+   },
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-lid について、転記本文 p.111 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 準備 2 ハーブを計量し、ティーポットに入れる 3 熱湯を注いで蓋をする 4 蒸らして抽出する"
+   },
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-time について、転記本文 p.111 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 準備 2 ハーブを計量し、ティーポットに入れる 3 熱湯を注いで蓋をする 4 蒸らして抽出する"
+   }
+  ],
+  "id": "qord-tea",
+  "format": "ordering",
+  "prompt": "「ハーブティーのいれ方」の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "蒸らして抽出する",
+   "準備",
+   "ハーブを計量し、ティーポットに入れる",
+   "熱湯を注いで蓋をする"
+  ],
+  "correctOrder": [
+   "準備",
+   "ハーブを計量し、ティーポットに入れる",
+   "熱湯を注いで蓋をする",
+   "蒸らして抽出する"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.111 の転記本文に番号付きで示された手順どおり）。1 準備 2 ハーブを計量し、ティーポットに入れる 3 熱湯を注いで蓋をする 4 蒸らして抽出する"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "l-lotion"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-lotion について、転記本文 p.116 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 小鍋にハーブを入れ、精製水を加えて弱火にかけ、ときどき混ぜながら沸騰させる。 2 火を止めて蓋をし、そのまま10分ほどおく。 3 はちみつを加え、軽く温めて溶かす。コーヒーフィルターなどでこして、消毒した容器に移せば完成。"
+   }
+  ],
+  "id": "qord-lotion",
+  "format": "ordering",
+  "prompt": "「手作り化粧水」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "はちみつを加え、軽く温めて溶かす。コーヒーフィルターなどでこして、消毒した容器に移せば完成。",
+   "火を止めて蓋をし、そのまま10分ほどおく。",
+   "小鍋にハーブを入れ、精製水を加えて弱火にかけ、ときどき混ぜながら沸騰させる。"
+  ],
+  "correctOrder": [
+   "小鍋にハーブを入れ、精製水を加えて弱火にかけ、ときどき混ぜながら沸騰させる。",
+   "火を止めて蓋をし、そのまま10分ほどおく。",
+   "はちみつを加え、軽く温めて溶かす。コーヒーフィルターなどでこして、消毒した容器に移せば完成。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.116 の転記本文に番号付きで示された手順どおり）。1 小鍋にハーブを入れ、精製水を加えて弱火にかけ、ときどき混ぜながら沸騰させる。 2 火を止めて蓋をし、そのまま10分ほどおく。 3 はちみつを加え、軽く温めて溶かす。コーヒーフィルターなどでこして、消毒した容器に移せば完成。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-handmade",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "l-pomander"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9696",
+    "bookPage": 120,
+    "locationNote": "本書 p.120（原本画像 IMG_9696.PNG）。原文照合 batch13 で照合済みの知識単位 l-pomander について、転記本文 p.121 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 新鮮なオレンジを用意し、十字字にセロハンテープを巻く。 2 テープを巻いていない部分に竹串で穴をあけ、そこにクローブ（粒が揃ったもの）を2〜3mm間隔で刺す。 3 全体にクローブを刺したらテープをはがし、ポリ袋にオレンジを入れて、シナモン大さじ2を振りかける。袋を揺すってまんべんなくシナモンをまぶしつけ、袋から取り出す。オレンジから水分が出るので、ときどきシナモンをまぶす。余分についたシナモンは竹串で除いておく。これを3日ほど繰り返すと、水分が出なくなる。 4 ネット袋に入れて1カ月ほど風通しのいい場所に吊るし、乾燥させる。仕上げにリボンを結ぶ。"
+   }
+  ],
+  "id": "qord-pomander",
+  "format": "ordering",
+  "prompt": "「フルーツポマンダー」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "テープを巻いていない部分に竹串で穴をあけ、そこにクローブ（粒が揃ったもの）を2〜3mm間隔で刺す。",
+   "ネット袋に入れて1カ月ほど風通しのいい場所に吊るし、乾燥させる。仕上げにリボンを結ぶ。",
+   "新鮮なオレンジを用意し、十字字にセロハンテープを巻く。",
+   "全体にクローブを刺したらテープをはがし、ポリ袋にオレンジを入れて、シナモン大さじ2を振りかける。袋を揺すってまんべんなくシナモンをまぶしつけ、袋から取り出す。オレンジから水分が出るので、ときどきシナモンをまぶす。余分についたシナモンは竹串で除いておく。これを3日ほど繰り返すと、水分が出なくなる。"
+  ],
+  "correctOrder": [
+   "新鮮なオレンジを用意し、十字字にセロハンテープを巻く。",
+   "テープを巻いていない部分に竹串で穴をあけ、そこにクローブ（粒が揃ったもの）を2〜3mm間隔で刺す。",
+   "全体にクローブを刺したらテープをはがし、ポリ袋にオレンジを入れて、シナモン大さじ2を振りかける。袋を揺すってまんべんなくシナモンをまぶしつけ、袋から取り出す。オレンジから水分が出るので、ときどきシナモンをまぶす。余分についたシナモンは竹串で除いておく。これを3日ほど繰り返すと、水分が出なくなる。",
+   "ネット袋に入れて1カ月ほど風通しのいい場所に吊るし、乾燥させる。仕上げにリボンを結ぶ。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.121 の転記本文に番号付きで示された手順どおり）。1 新鮮なオレンジを用意し、十字字にセロハンテープを巻く。 2 テープを巻いていない部分に竹串で穴をあけ、そこにクローブ（粒が揃ったもの）を2〜3mm間隔で刺す。 3 全体にクローブを刺したらテープをはがし、ポリ袋にオレンジを入れて、シナモン大さじ2を振りかける。袋を揺すってまんべんなくシナモンをまぶしつけ、袋から取り出す。オレンジから水分が出るので、ときどきシナモンをまぶす。余分についたシナモンは竹串で除いておく。これを3日ほど繰り返すと、水分が出なくなる。 4 ネット袋に入れて1カ月ほど風通しのいい場所に吊るし、乾燥させる。仕上げにリボンを結ぶ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "g-pot"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9700",
+    "bookPage": 124,
+    "locationNote": "本書 p.124（原本画像 IMG_9700.PNG）。原文照合 batch14 で照合済みの知識単位 g-pot について、転記本文 p.124 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 鉢底に鉢底ネットを敷いて鉢底土を入れる。その上に適当な高さまで培養土を入れる。苗を置いたときに、その根元が鉢の縁から2cm程度下がったところにくるように調整する。 2 苗をポットから慎重に取り出し、鉢の中心になるように置く。苗が数種類のときはバランスよく配置を。 3 周りに培養土を入れ、鉢を軽く揺すって土をならす。 4 鉢の縁から2cm程度下まで土を入れる。植えつけ完了。鉢底から流れ出すぐらい、たっぷりと水をやる。"
+   }
+  ],
+  "id": "qord-planting",
+  "format": "ordering",
+  "prompt": "「ハーブ苗の植えつけ」の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "苗をポットから慎重に取り出し、鉢の中心になるように置く。苗が数種類のときはバランスよく配置を。",
+   "鉢の縁から2cm程度下まで土を入れる。植えつけ完了。鉢底から流れ出すぐらい、たっぷりと水をやる。",
+   "鉢底に鉢底ネットを敷いて鉢底土を入れる。その上に適当な高さまで培養土を入れる。苗を置いたときに、その根元が鉢の縁から2cm程度下がったところにくるように調整する。",
+   "周りに培養土を入れ、鉢を軽く揺すって土をならす。"
+  ],
+  "correctOrder": [
+   "鉢底に鉢底ネットを敷いて鉢底土を入れる。その上に適当な高さまで培養土を入れる。苗を置いたときに、その根元が鉢の縁から2cm程度下がったところにくるように調整する。",
+   "苗をポットから慎重に取り出し、鉢の中心になるように置く。苗が数種類のときはバランスよく配置を。",
+   "周りに培養土を入れ、鉢を軽く揺すって土をならす。",
+   "鉢の縁から2cm程度下まで土を入れる。植えつけ完了。鉢底から流れ出すぐらい、たっぷりと水をやる。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.124 の転記本文に番号付きで示された手順どおり）。1 鉢底に鉢底ネットを敷いて鉢底土を入れる。その上に適当な高さまで培養土を入れる。苗を置いたときに、その根元が鉢の縁から2cm程度下がったところにくるように調整する。 2 苗をポットから慎重に取り出し、鉢の中心になるように置く。苗が数種類のときはバランスよく配置を。 3 周りに培養土を入れ、鉢を軽く揺すって土をならす。 4 鉢の縁から2cm程度下まで土を入れる。植えつけ完了。鉢底から流れ出すぐらい、たっぷりと水をやる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "l-spray"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9693",
+    "bookPage": 117,
+    "locationNote": "本書 p.117（原本画像 IMG_9693.PNG）。原文照合 batch12 で照合済みの知識単位 l-spray について、転記本文 p.117 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: スプレー容器（ガラス製で耐油・耐アルコール性を持つもの）に無水エタノール5mℓを入れ、好みの精油20滴以下をたらし、よく振って混ぜます。精製水45mℓを加え、さらによく振って全体を混ぜます。リフレッシュしたいときなどに空間やファブリックにスプレーして使います。肌にはつけないよう注意。"
+   }
+  ],
+  "id": "qse-room-spray",
+  "format": "short-essay",
+  "prompt": "ルームフレッシュナー（ルームスプレー）の作り方を、材料と分量を挙げて短く述べよ。",
+  "modelAnswer": "スプレー容器（ガラス製で耐油・耐アルコール性を持つもの）に無水エタノール5mℓを入れ、好みの精油20滴以下をたらし、よく振って混ぜます。精製水45mℓを加え、さらによく振って全体を混ぜます。リフレッシュしたいときなどに空間やファブリックにスプレーして使います。肌にはつけないよう注意。",
+  "rubric": [
+   {
+    "id": "ethanol",
+    "label": "無水エタノール5mℓを挙げる",
+    "keywords": [
+     "無水エタノール5mℓ"
+    ],
+    "keywordGroups": [
+     [
+      "無水エタノール",
+      "5mℓ"
+     ]
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "oil",
+    "label": "精油20滴以下を挙げる",
+    "keywords": [
+     "精油20滴以下"
+    ],
+    "keywordGroups": [
+     [
+      "精油",
+      "20滴以下"
+     ]
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "water",
+    "label": "精製水45mℓを挙げる",
+    "keywords": [
+     "精製水45mℓ"
+    ],
+    "keywordGroups": [
+     [
+      "精製水",
+      "45mℓ"
+     ]
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "ルームスプレーは無水エタノール5mlに精油20滴以下を混ぜ、精製水45mlを加えて作る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "m-3func"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9707",
+    "bookPage": 131,
+    "locationNote": "本書 p.131（原本画像 IMG_9707.PNG）。原文照合 batch15 で照合済みの知識単位 m-3func について、転記本文 p.131 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: こうした成分を含むスパイスやハーブを摂取することは、食事をおいしく楽しいものにするだけではなく、自律神経系や内分泌系、免疫系に作用して、健康の維持・増進につながるという研究結果が数多く発表されています。料理においては比較的少量で使用されるスパイスやハーブは、いわゆる食品の3つの機能（栄養機能、嗜好機能、生体調節機能）の中でも、とりわけ、嗜好機能と生体調節機能に優れた食材として、注目が集まっています。"
+   }
+  ],
+  "id": "qse-food-functions",
+  "format": "short-essay",
+  "prompt": "食品の3つの機能を挙げ、スパイスやハーブがとりわけ優れている機能にも触れて短く述べよ。",
+  "modelAnswer": "こうした成分を含むスパイスやハーブを摂取することは、食事をおいしく楽しいものにするだけではなく、自律神経系や内分泌系、免疫系に作用して、健康の維持・増進につながるという研究結果が数多く発表されています。料理においては比較的少量で使用されるスパイスやハーブは、いわゆる食品の3つの機能（栄養機能、嗜好機能、生体調節機能）の中でも、とりわけ、嗜好機能と生体調節機能に優れた食材として、注目が集まっています。",
+  "rubric": [
+   {
+    "id": "nutrition",
+    "label": "機能「栄養機能」を挙げる",
+    "keywords": [
+     "栄養機能"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "taste",
+    "label": "機能「嗜好機能」を挙げる",
+    "keywords": [
+     "嗜好機能"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "regulation",
+    "label": "機能「生体調節機能」を挙げる",
+    "keywords": [
+     "生体調節機能"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "superior",
+    "label": "スパイスやハーブはとりわけ嗜好機能と生体調節機能に優れていることに触れる",
+    "keywords": [
+     "嗜好機能と生体調節機能に優れた"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "食品の3つの機能は栄養機能・嗜好機能・生体調節機能で、スパイスやハーブは特に嗜好機能と生体調節機能に優れた食材として注目されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "g-propagate"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9703",
+    "bookPage": 127,
+    "locationNote": "本書 p.127（原本画像 IMG_9703.PNG）。原文照合 batch14 で照合済みの知識単位 g-propagate について、転記本文 p.127 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: 母枝の枝の部分を一部切り取り、土（または水）に挿して個体数をふやす方法。枝を長さ10〜15cmに切って葉を下から半分ほど落として挿し穂を準備し、赤玉土の小粒を鉢に入れ、水で十分に湿らせたら割り箸などで穴をあけて、挿し穂を差し込み、土をしっかり押さえておく。1カ月ほどで根づく。"
+   }
+  ],
+  "id": "qse-cuttings",
+  "format": "short-essay",
+  "prompt": "ハーブを挿し木でふやす方法を短く述べよ。",
+  "modelAnswer": "母枝の枝の部分を一部切り取り、土（または水）に挿して個体数をふやす方法。枝を長さ10〜15cmに切って葉を下から半分ほど落として挿し穂を準備し、赤玉土の小粒を鉢に入れ、水で十分に湿らせたら割り箸などで穴をあけて、挿し穂を差し込み、土をしっかり押さえておく。1カ月ほどで根づく。",
+  "rubric": [
+   {
+    "id": "length",
+    "label": "枝を長さ10〜15cmに切ることに触れる",
+    "keywords": [
+     "10〜15cm"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "leaves",
+    "label": "葉を下から半分ほど落として挿し穂を準備することに触れる",
+    "keywords": [
+     "下から半分ほど落として"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "rooting",
+    "label": "1カ月ほどで根づくことに触れる",
+    "keywords": [
+     "1カ月ほどで根づく"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "ハーブをふやす方法は、種をまく・株分け・挿し木の3つ。挿し木は1カ月ほどで根づく。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "g-timing"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9698",
+    "bookPage": 122,
+    "locationNote": "本書 p.122（原本画像 IMG_9698.PNG）。原文照合 batch13 で照合済みの知識単位 g-timing について、転記本文 p.122 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: 遅霜の心配がなくなる4月下旬以降が定植時期の目安。バジルなどの一年草（発芽してから開花、結実し、枯死するまでのサイクルが1年未満の植物）で耐寒性のないハーブは、春の定植が基本。"
+   }
+  ],
+  "id": "qse-planting-spring",
+  "format": "short-essay",
+  "prompt": "ハーブの春の定植時期について、その目安と理由を短く述べよ。",
+  "modelAnswer": "遅霜の心配がなくなる4月下旬以降が定植時期の目安。バジルなどの一年草（発芽してから開花、結実し、枯死するまでのサイクルが1年未満の植物）で耐寒性のないハーブは、春の定植が基本。",
+  "rubric": [
+   {
+    "id": "timing",
+    "label": "4月下旬以降が目安であることを挙げる",
+    "keywords": [
+     "4月下旬以降"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "frost",
+    "label": "遅霜の心配がなくなる時期であることに触れる",
+    "keywords": [
+     "遅霜の心配がなくなる"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "定植の時期は春(4月下旬以降)か秋(9月下旬〜10月上旬)が適する。耐寒性のない一年草(バジルなど)は春植えが基本。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "g-timing"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9698",
+    "bookPage": 122,
+    "locationNote": "本書 p.122（原本画像 IMG_9698.PNG）。原文照合 batch13 で照合済みの知識単位 g-timing について、転記本文 p.122 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: 9月下旬〜10月上旬が定植時期の目安。ラベンダーやローズマリーなど耐寒性のあるハーブは、この時期に植えつけると冬の間にしっかりと根が張り、春からの成長も良好になる。また一年草の苗であっても、コリアンダー、チャービル、ディルなど耐寒性のあるものは、秋植えでも比較的長く楽しめる。"
+   }
+  ],
+  "id": "qse-planting-autumn",
+  "format": "short-essay",
+  "prompt": "ハーブの秋の定植時期について、その目安と秋植えの利点を短く述べよ。",
+  "modelAnswer": "9月下旬〜10月上旬が定植時期の目安。ラベンダーやローズマリーなど耐寒性のあるハーブは、この時期に植えつけると冬の間にしっかりと根が張り、春からの成長も良好になる。また一年草の苗であっても、コリアンダー、チャービル、ディルなど耐寒性のあるものは、秋植えでも比較的長く楽しめる。",
+  "rubric": [
+   {
+    "id": "timing",
+    "label": "9月下旬〜10月上旬が目安であることを挙げる",
+    "keywords": [
+     "9月下旬〜10月上旬"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "roots",
+    "label": "冬の間にしっかりと根が張ることに触れる",
+    "keywords": [
+     "冬の間にしっかりと根が張り"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "定植の時期は春(4月下旬以降)か秋(9月下旬〜10月上旬)が適する。耐寒性のない一年草(バジルなど)は春植えが基本。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-tea",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "t-amount"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9687",
+    "bookPage": 111,
+    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-amount について、転記本文 p.111 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: ハーブ使用量の目安は、ティーカップ1杯分でティースプーン山盛り3杯程度。ドライの3倍程度が目安。計量後、水でやさしく洗い、水けをキッチンペーパーなどで拭き、大きめの葉は適当な大きさにちぎりながらティーポットに入れる。"
+   }
+  ],
+  "id": "qse-fresh-tea-amount",
+  "format": "short-essay",
+  "prompt": "フレッシュハーブでハーブティーをいれる場合の、ハーブ使用量の目安を短く述べよ。",
+  "modelAnswer": "ハーブ使用量の目安は、ティーカップ1杯分でティースプーン山盛り3杯程度。ドライの3倍程度が目安。計量後、水でやさしく洗い、水けをキッチンペーパーなどで拭き、大きめの葉は適当な大きさにちぎりながらティーポットに入れる。",
+  "rubric": [
+   {
+    "id": "amount",
+    "label": "ティースプーン山盛り3杯程度であることを挙げる",
+    "keywords": [
+     "ティースプーン山盛り3杯程度"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "ratio",
+    "label": "ドライの3倍程度が目安であることに触れる",
+    "keywords": [
+     "ドライの3倍程度"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "1杯分の目安はドライハーブがティースプーン山盛り1杯、フレッシュハーブは山盛り3杯程度(ドライの3倍)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "l-lotion"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9692",
+    "bookPage": 116,
+    "locationNote": "本書 p.116（原本画像 IMG_9692.PNG）。原文照合 batch12 で照合済みの知識単位 l-lotion について、転記本文 p.116 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: 作った化粧水は自家用のみで使い、冷蔵室で保管し、4〜5日で使い切る。"
+   }
+  ],
+  "id": "qse-lotion-care",
+  "format": "short-essay",
+  "prompt": "手作り化粧水の使い方と保管の注意を短く述べよ。",
+  "modelAnswer": "作った化粧水は自家用のみで使い、冷蔵室で保管し、4〜5日で使い切る。",
+  "rubric": [
+   {
+    "id": "own-use",
+    "label": "自家用のみで使うことに触れる",
+    "keywords": [
+     "自家用のみ"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "fridge",
+    "label": "冷蔵室で保管することに触れる",
+    "keywords": [
+     "冷蔵室で保管"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "days",
+    "label": "4〜5日で使い切ることに触れる",
+    "keywords": [
+     "4〜5日で使い切る"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "手作り化粧水は自家用のみとし、冷蔵室で保管して4〜5日で使い切る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-beauty",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "l-bath"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9691",
+    "bookPage": 115,
+    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-bath について、転記本文 p.115 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: 使用量 ドライハーブの場合…約20g（大さじ山盛り5杯程度） フレッシュハーブの場合…ひとつかみ程度 作り方 ドライハーブは、あらかじめ鍋で煮出した濃いめのハーブ液にして湯船に入れる。フレッシュハーブは、だし袋などに入れてから湯船に入れる。"
+   }
+  ],
+  "id": "qse-herb-bath",
+  "format": "short-essay",
+  "prompt": "ハーブバスの使用量と作り方を短く述べよ。",
+  "modelAnswer": "使用量 ドライハーブの場合…約20g（大さじ山盛り5杯程度） フレッシュハーブの場合…ひとつかみ程度 作り方 ドライハーブは、あらかじめ鍋で煮出した濃いめのハーブ液にして湯船に入れる。フレッシュハーブは、だし袋などに入れてから湯船に入れる。",
+  "rubric": [
+   {
+    "id": "dry-amount",
+    "label": "ドライハーブの使用量（約20g）を挙げる",
+    "keywords": [
+     "約20g"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "fresh-amount",
+    "label": "フレッシュハーブの使用量（ひとつかみ程度）を挙げる",
+    "keywords": [
+     "ひとつかみ程度"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "bag",
+    "label": "フレッシュハーブはだし袋などに入れて湯船に入れることに触れる",
+    "keywords": [
+     "だし袋"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "dry-method",
+    "label": "ドライハーブはあらかじめ鍋で煮出した濃いめのハーブ液にして湯船に入れることに触れる",
+    "keywords": [
+     "煮出した濃いめのハーブ液"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "ハーブバスの使用量はドライハーブで約20g(大さじ山盛り5杯程度)、フレッシュはひとつかみ程度。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "g-soil"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9699",
+    "bookPage": 123,
+    "locationNote": "本書 p.123（原本画像 IMG_9699.PNG）。原文照合 batch13 で照合済みの知識単位 g-soil について、転記本文 p.123 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: 一般的にハーブの培養には「弱アルカリ性」「通気性がある」「排水性と保水性をあわせ持つ」といった特徴の土が適しているといわれる。この条件を満たすために、いくつかの種類の土をブレンドする。"
+   }
+  ],
+  "id": "qse-soil",
+  "format": "short-essay",
+  "prompt": "ハーブの培養に適した土の特徴を挙げて短く述べよ。",
+  "modelAnswer": "一般的にハーブの培養には「弱アルカリ性」「通気性がある」「排水性と保水性をあわせ持つ」といった特徴の土が適しているといわれる。この条件を満たすために、いくつかの種類の土をブレンドする。",
+  "rubric": [
+   {
+    "id": "alkaline",
+    "label": "特徴「弱アルカリ性」を挙げる",
+    "keywords": [
+     "弱アルカリ性"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "air",
+    "label": "特徴「通気性がある」を挙げる",
+    "keywords": [
+     "通気性がある"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "water",
+    "label": "特徴「排水性と保水性をあわせ持つ」を挙げる",
+    "keywords": [
+     "排水性と保水性をあわせ持つ"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "ハーブ栽培には弱アルカリ性・通気性がある・排水性と保水性をあわせ持つ土が適するとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "m-holistic",
+   "m-ayurveda",
+   "m-china",
+   "m-greek",
+   "m-commissione"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-holistic について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.128: 世界各地の伝統医学は、互いに影響を受け合いながら、地域ごと独自に体系化されてきました。多くの伝統医学には、体と心の両面に働きかけ、自然治癒力を引き出すという特徴があります。これは、ホリスティックな視点――人を「全体」としてとらえる考え方――に基づいています。西洋医学が主流である現代においても、こうした伝統医学の価値は見直され、注目されています。その代表例として、インド・中国・ギリシアの伝統医学が挙げられますが、これらの医学には共通して、スパイスやハーブが薬用として取り入れられています。 / p.128: インドで成立し、ほかの地域の伝統医学の体系化、発展にも大きく影響を与えたとされます。人間の体の機能を「ヴァータ」「ピッタ」「カパ」の3要素（ドーシャ）でとらえ、人それぞれが独自の組み合わせでドーシャを持ち、それによって体質が決まります。そのバランスがくずれると病気になるという考え方で、不調に合わせた調整にスパイスやハーブの働きも利用しています。 / p.129: 陰陽五行説に基づいて生薬や鍼灸、気功、マッサージなどを体系化。広くアジア地域に影響を与え、韓国では「韓医学」、日本では「漢方」として定着しました。中医学の古典薬草書『神農本草経（しんのうほんぞうきょう）』には、生薬として数多くのスパイスやハーブが収録されています。 / p.130: 古代ギリシア時代のヒポクラテスは400種ものハーブの処方を残したといわれています。病気を科学的にとらえるヒポクラテスの考え方は、現代の医学や薬学の礎になったとされます。ギリシア発祥のこの伝統医学は時代とともに発展し、現在の西洋ハーブ医学（メディカルハーブ）にも通じています。 / p.130: 伝統医学の中で広く使用されてきたスパイスやハーブは「メディカルハーブ」として国際標準となる指針作りとリスト化が進められています。これはスパイスやハーブの正しい理解と使用法を一般化するためで、科学的な評価・検討に基づいています。とりわけハーブ先進国ドイツの専門機関コミッションE（KommissionE）が作成した『コミッションEモノグラフ』は、ハーブと植物性薬品の効果と安全性について、正確な情報として評価されています。"
+   },
+   {
+    "manifestImageId": "IMG_9704",
+    "bookPage": 128,
+    "locationNote": "本書 p.128（原本画像 IMG_9704.PNG）。原文照合 batch15 で照合済みの知識単位 m-ayurveda について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.128: 世界各地の伝統医学は、互いに影響を受け合いながら、地域ごと独自に体系化されてきました。多くの伝統医学には、体と心の両面に働きかけ、自然治癒力を引き出すという特徴があります。これは、ホリスティックな視点――人を「全体」としてとらえる考え方――に基づいています。西洋医学が主流である現代においても、こうした伝統医学の価値は見直され、注目されています。その代表例として、インド・中国・ギリシアの伝統医学が挙げられますが、これらの医学には共通して、スパイスやハーブが薬用として取り入れられています。 / p.128: インドで成立し、ほかの地域の伝統医学の体系化、発展にも大きく影響を与えたとされます。人間の体の機能を「ヴァータ」「ピッタ」「カパ」の3要素（ドーシャ）でとらえ、人それぞれが独自の組み合わせでドーシャを持ち、それによって体質が決まります。そのバランスがくずれると病気になるという考え方で、不調に合わせた調整にスパイスやハーブの働きも利用しています。 / p.129: 陰陽五行説に基づいて生薬や鍼灸、気功、マッサージなどを体系化。広くアジア地域に影響を与え、韓国では「韓医学」、日本では「漢方」として定着しました。中医学の古典薬草書『神農本草経（しんのうほんぞうきょう）』には、生薬として数多くのスパイスやハーブが収録されています。 / p.130: 古代ギリシア時代のヒポクラテスは400種ものハーブの処方を残したといわれています。病気を科学的にとらえるヒポクラテスの考え方は、現代の医学や薬学の礎になったとされます。ギリシア発祥のこの伝統医学は時代とともに発展し、現在の西洋ハーブ医学（メディカルハーブ）にも通じています。 / p.130: 伝統医学の中で広く使用されてきたスパイスやハーブは「メディカルハーブ」として国際標準となる指針作りとリスト化が進められています。これはスパイスやハーブの正しい理解と使用法を一般化するためで、科学的な評価・検討に基づいています。とりわけハーブ先進国ドイツの専門機関コミッションE（KommissionE）が作成した『コミッションEモノグラフ』は、ハーブと植物性薬品の効果と安全性について、正確な情報として評価されています。"
+   },
+   {
+    "manifestImageId": "IMG_9705",
+    "bookPage": 129,
+    "locationNote": "本書 p.129（原本画像 IMG_9705.PNG）。原文照合 batch15 で照合済みの知識単位 m-china について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.128: 世界各地の伝統医学は、互いに影響を受け合いながら、地域ごと独自に体系化されてきました。多くの伝統医学には、体と心の両面に働きかけ、自然治癒力を引き出すという特徴があります。これは、ホリスティックな視点――人を「全体」としてとらえる考え方――に基づいています。西洋医学が主流である現代においても、こうした伝統医学の価値は見直され、注目されています。その代表例として、インド・中国・ギリシアの伝統医学が挙げられますが、これらの医学には共通して、スパイスやハーブが薬用として取り入れられています。 / p.128: インドで成立し、ほかの地域の伝統医学の体系化、発展にも大きく影響を与えたとされます。人間の体の機能を「ヴァータ」「ピッタ」「カパ」の3要素（ドーシャ）でとらえ、人それぞれが独自の組み合わせでドーシャを持ち、それによって体質が決まります。そのバランスがくずれると病気になるという考え方で、不調に合わせた調整にスパイスやハーブの働きも利用しています。 / p.129: 陰陽五行説に基づいて生薬や鍼灸、気功、マッサージなどを体系化。広くアジア地域に影響を与え、韓国では「韓医学」、日本では「漢方」として定着しました。中医学の古典薬草書『神農本草経（しんのうほんぞうきょう）』には、生薬として数多くのスパイスやハーブが収録されています。 / p.130: 古代ギリシア時代のヒポクラテスは400種ものハーブの処方を残したといわれています。病気を科学的にとらえるヒポクラテスの考え方は、現代の医学や薬学の礎になったとされます。ギリシア発祥のこの伝統医学は時代とともに発展し、現在の西洋ハーブ医学（メディカルハーブ）にも通じています。 / p.130: 伝統医学の中で広く使用されてきたスパイスやハーブは「メディカルハーブ」として国際標準となる指針作りとリスト化が進められています。これはスパイスやハーブの正しい理解と使用法を一般化するためで、科学的な評価・検討に基づいています。とりわけハーブ先進国ドイツの専門機関コミッションE（KommissionE）が作成した『コミッションEモノグラフ』は、ハーブと植物性薬品の効果と安全性について、正確な情報として評価されています。"
+   },
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-greek について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.128: 世界各地の伝統医学は、互いに影響を受け合いながら、地域ごと独自に体系化されてきました。多くの伝統医学には、体と心の両面に働きかけ、自然治癒力を引き出すという特徴があります。これは、ホリスティックな視点――人を「全体」としてとらえる考え方――に基づいています。西洋医学が主流である現代においても、こうした伝統医学の価値は見直され、注目されています。その代表例として、インド・中国・ギリシアの伝統医学が挙げられますが、これらの医学には共通して、スパイスやハーブが薬用として取り入れられています。 / p.128: インドで成立し、ほかの地域の伝統医学の体系化、発展にも大きく影響を与えたとされます。人間の体の機能を「ヴァータ」「ピッタ」「カパ」の3要素（ドーシャ）でとらえ、人それぞれが独自の組み合わせでドーシャを持ち、それによって体質が決まります。そのバランスがくずれると病気になるという考え方で、不調に合わせた調整にスパイスやハーブの働きも利用しています。 / p.129: 陰陽五行説に基づいて生薬や鍼灸、気功、マッサージなどを体系化。広くアジア地域に影響を与え、韓国では「韓医学」、日本では「漢方」として定着しました。中医学の古典薬草書『神農本草経（しんのうほんぞうきょう）』には、生薬として数多くのスパイスやハーブが収録されています。 / p.130: 古代ギリシア時代のヒポクラテスは400種ものハーブの処方を残したといわれています。病気を科学的にとらえるヒポクラテスの考え方は、現代の医学や薬学の礎になったとされます。ギリシア発祥のこの伝統医学は時代とともに発展し、現在の西洋ハーブ医学（メディカルハーブ）にも通じています。 / p.130: 伝統医学の中で広く使用されてきたスパイスやハーブは「メディカルハーブ」として国際標準となる指針作りとリスト化が進められています。これはスパイスやハーブの正しい理解と使用法を一般化するためで、科学的な評価・検討に基づいています。とりわけハーブ先進国ドイツの専門機関コミッションE（KommissionE）が作成した『コミッションEモノグラフ』は、ハーブと植物性薬品の効果と安全性について、正確な情報として評価されています。"
+   },
+   {
+    "manifestImageId": "IMG_9706",
+    "bookPage": 130,
+    "locationNote": "本書 p.130（原本画像 IMG_9706.PNG）。原文照合 batch15 で照合済みの知識単位 m-commissione について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.128: 世界各地の伝統医学は、互いに影響を受け合いながら、地域ごと独自に体系化されてきました。多くの伝統医学には、体と心の両面に働きかけ、自然治癒力を引き出すという特徴があります。これは、ホリスティックな視点――人を「全体」としてとらえる考え方――に基づいています。西洋医学が主流である現代においても、こうした伝統医学の価値は見直され、注目されています。その代表例として、インド・中国・ギリシアの伝統医学が挙げられますが、これらの医学には共通して、スパイスやハーブが薬用として取り入れられています。 / p.128: インドで成立し、ほかの地域の伝統医学の体系化、発展にも大きく影響を与えたとされます。人間の体の機能を「ヴァータ」「ピッタ」「カパ」の3要素（ドーシャ）でとらえ、人それぞれが独自の組み合わせでドーシャを持ち、それによって体質が決まります。そのバランスがくずれると病気になるという考え方で、不調に合わせた調整にスパイスやハーブの働きも利用しています。 / p.129: 陰陽五行説に基づいて生薬や鍼灸、気功、マッサージなどを体系化。広くアジア地域に影響を与え、韓国では「韓医学」、日本では「漢方」として定着しました。中医学の古典薬草書『神農本草経（しんのうほんぞうきょう）』には、生薬として数多くのスパイスやハーブが収録されています。 / p.130: 古代ギリシア時代のヒポクラテスは400種ものハーブの処方を残したといわれています。病気を科学的にとらえるヒポクラテスの考え方は、現代の医学や薬学の礎になったとされます。ギリシア発祥のこの伝統医学は時代とともに発展し、現在の西洋ハーブ医学（メディカルハーブ）にも通じています。 / p.130: 伝統医学の中で広く使用されてきたスパイスやハーブは「メディカルハーブ」として国際標準となる指針作りとリスト化が進められています。これはスパイスやハーブの正しい理解と使用法を一般化するためで、科学的な評価・検討に基づいています。とりわけハーブ先進国ドイツの専門機関コミッションE（KommissionE）が作成した『コミッションEモノグラフ』は、ハーブと植物性薬品の効果と安全性について、正確な情報として評価されています。"
+   }
+  ],
+  "id": "qle-traditional-medicine",
+  "format": "long-essay",
+  "prompt": "世界各地の伝統医学について、共通する特徴と、インド・中国・ギリシアの各伝統医学の特徴、さらにメディカルハーブの標準化の動きを、長文で述べよ。",
+  "modelAnswer": "世界各地の伝統医学は、互いに影響を受け合いながら、地域ごと独自に体系化されてきました。多くの伝統医学には、体と心の両面に働きかけ、自然治癒力を引き出すという特徴があります。これは、ホリスティックな視点――人を「全体」としてとらえる考え方――に基づいています。西洋医学が主流である現代においても、こうした伝統医学の価値は見直され、注目されています。その代表例として、インド・中国・ギリシアの伝統医学が挙げられますが、これらの医学には共通して、スパイスやハーブが薬用として取り入れられています。\nインドで成立し、ほかの地域の伝統医学の体系化、発展にも大きく影響を与えたとされます。人間の体の機能を「ヴァータ」「ピッタ」「カパ」の3要素（ドーシャ）でとらえ、人それぞれが独自の組み合わせでドーシャを持ち、それによって体質が決まります。そのバランスがくずれると病気になるという考え方で、不調に合わせた調整にスパイスやハーブの働きも利用しています。\n陰陽五行説に基づいて生薬や鍼灸、気功、マッサージなどを体系化。広くアジア地域に影響を与え、韓国では「韓医学」、日本では「漢方」として定着しました。中医学の古典薬草書『神農本草経（しんのうほんぞうきょう）』には、生薬として数多くのスパイスやハーブが収録されています。\n古代ギリシア時代のヒポクラテスは400種ものハーブの処方を残したといわれています。病気を科学的にとらえるヒポクラテスの考え方は、現代の医学や薬学の礎になったとされます。ギリシア発祥のこの伝統医学は時代とともに発展し、現在の西洋ハーブ医学（メディカルハーブ）にも通じています。\n伝統医学の中で広く使用されてきたスパイスやハーブは「メディカルハーブ」として国際標準となる指針作りとリスト化が進められています。これはスパイスやハーブの正しい理解と使用法を一般化するためで、科学的な評価・検討に基づいています。とりわけハーブ先進国ドイツの専門機関コミッションE（KommissionE）が作成した『コミッションEモノグラフ』は、ハーブと植物性薬品の効果と安全性について、正確な情報として評価されています。",
+  "rubric": [
+   {
+    "id": "holistic",
+    "label": "多くの伝統医学がホリスティックな視点に基づくことに触れる",
+    "keywords": [
+     "ホリスティックな視点"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "healing",
+    "label": "体と心の両面に働きかけ自然治癒力を引き出す特徴に触れる",
+    "keywords": [
+     "自然治癒力を引き出す"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "dosha",
+    "label": "アーユルヴェーダが体の機能をドーシャの3要素でとらえることに触れる",
+    "keywords": [
+     "「ヴァータ」「ピッタ」「カパ」の3要素"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "china",
+    "label": "中国医学が陰陽五行説に基づいて体系化されたことに触れる",
+    "keywords": [
+     "陰陽五行説に基づいて"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "greek",
+    "label": "ギリシア発祥の伝統医学が現在の西洋ハーブ医学（メディカルハーブ）にも通じることに触れる",
+    "keywords": [
+     "西洋ハーブ医学（メディカルハーブ）にも通じ"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "commissione",
+    "label": "コミッションE（KommissionE）のモノグラフが正確な情報として評価されていることに触れる",
+    "keywords": [
+     "コミッションE（KommissionE）",
+     "コミッションE"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "多くの伝統医学は人を「全体」としてとらえるホリスティックな視点に基づく。\nインドの伝統医学アーユルヴェーダは、体の機能をヴァータ・ピッタ・カパの3要素(ドーシャ)でとらえる。\n中国医学は陰陽五行説に基づき、韓国では韓医学、日本では漢方として定着した。古典薬草書は『神農本草経』。\nギリシア発祥の伝統医学は時代とともに発展し、現在の西洋ハーブ医学(メディカルハーブ)にも通じている。\nハーブ先進国ドイツの専門機関コミッションEが作成した『コミッションEモノグラフ』は、ハーブと植物性薬品の効果と安全性に関する正確な情報として評価されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "m-shokukeiken",
+   "m-hokenkinou",
+   "m-faddism"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9710",
+    "bookPage": 134,
+    "locationNote": "本書 p.134（原本画像 IMG_9710.PNG）。原文照合 batch16 で照合済みの知識単位 m-shokukeiken について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.134: 安全性は、科学的な根拠（エビデンス）に基づいて論じることが基本です。しかし、私たちが日常的に食べているものすべてが、厳密な検証を受けているわけではありません。それでも危険を感じることなく食事を摂り、健康を維持できているのは、人類が年月をかけて継続的に食べ続けてきた経験、すなわち「食経験」が、安全性の裏づけとなっているからです。 / p.134: 一方、「食経験」に支えられた食品とは異なる「健康食品」と呼ばれるものが、20世紀後半より広く普及するようになりました。国内では、国が定めた機能性や安全性の基準に従い、エビデンスに基づいた機能を表示して販売される「保健機能食品」（「特定保健用食品」「栄養機能食品」「機能性表示食品」のこと）がありますが、これら以外の製品には制度化された基準はなく、機能（効果）に関する表示をして販売することもできません。しかしながら、実証のない効果を期待させるような虚偽・誇大な表示や、効果を得るために違法に医薬品成分を含むサプリメントなども見受けられ、実際に健康被害が報告されるケースもあります。 / p.135: 特定の食品が病気を予防したり、心身の不調を改善したりするという情報が、販売者の意図の有無にかかわらず急速に広まり、「食べるだけで健康になれる」といった印象を与えることがあります。こうした「食べ物や栄養」が「健康や病気」に与える影響を過大に信じたり評価したりする傾向は、「フードファディズム（food faddism）」と呼ばれます。1950年代のアメリカで問題提起された概念ですが、現代でもSNSや動画サイトなどで個人の見解や経験が瞬く間に拡散され、誰もが注意すべき問題といえるでしょう。 / p.135: 情報があふれる現代において、「食」と「健康」に関する話題は、冷静に受け止める姿勢が求められます。受け手としては、情報の出どころや科学的根拠の有無を確認する習慣を持つことが大切です。また、発信する側にも配慮が必要です。体験談やおすすめの食材を紹介する際には、それが個人の感想であることを明示したり、根拠のある情報かどうかを確認したうえで伝えるなど、誤解を招かないよう心がけたいものです。情報が広がるスピードが速い今だからこそ、発信の責任についてもぜひ意識しましょう。"
+   },
+   {
+    "manifestImageId": "IMG_9710",
+    "bookPage": 134,
+    "locationNote": "本書 p.134（原本画像 IMG_9710.PNG）。原文照合 batch16 で照合済みの知識単位 m-hokenkinou について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.134: 安全性は、科学的な根拠（エビデンス）に基づいて論じることが基本です。しかし、私たちが日常的に食べているものすべてが、厳密な検証を受けているわけではありません。それでも危険を感じることなく食事を摂り、健康を維持できているのは、人類が年月をかけて継続的に食べ続けてきた経験、すなわち「食経験」が、安全性の裏づけとなっているからです。 / p.134: 一方、「食経験」に支えられた食品とは異なる「健康食品」と呼ばれるものが、20世紀後半より広く普及するようになりました。国内では、国が定めた機能性や安全性の基準に従い、エビデンスに基づいた機能を表示して販売される「保健機能食品」（「特定保健用食品」「栄養機能食品」「機能性表示食品」のこと）がありますが、これら以外の製品には制度化された基準はなく、機能（効果）に関する表示をして販売することもできません。しかしながら、実証のない効果を期待させるような虚偽・誇大な表示や、効果を得るために違法に医薬品成分を含むサプリメントなども見受けられ、実際に健康被害が報告されるケースもあります。 / p.135: 特定の食品が病気を予防したり、心身の不調を改善したりするという情報が、販売者の意図の有無にかかわらず急速に広まり、「食べるだけで健康になれる」といった印象を与えることがあります。こうした「食べ物や栄養」が「健康や病気」に与える影響を過大に信じたり評価したりする傾向は、「フードファディズム（food faddism）」と呼ばれます。1950年代のアメリカで問題提起された概念ですが、現代でもSNSや動画サイトなどで個人の見解や経験が瞬く間に拡散され、誰もが注意すべき問題といえるでしょう。 / p.135: 情報があふれる現代において、「食」と「健康」に関する話題は、冷静に受け止める姿勢が求められます。受け手としては、情報の出どころや科学的根拠の有無を確認する習慣を持つことが大切です。また、発信する側にも配慮が必要です。体験談やおすすめの食材を紹介する際には、それが個人の感想であることを明示したり、根拠のある情報かどうかを確認したうえで伝えるなど、誤解を招かないよう心がけたいものです。情報が広がるスピードが速い今だからこそ、発信の責任についてもぜひ意識しましょう。"
+   },
+   {
+    "manifestImageId": "IMG_9711",
+    "bookPage": 135,
+    "locationNote": "本書 p.135（原本画像 IMG_9711.PNG）。原文照合 batch16 で照合済みの知識単位 m-faddism について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.134: 安全性は、科学的な根拠（エビデンス）に基づいて論じることが基本です。しかし、私たちが日常的に食べているものすべてが、厳密な検証を受けているわけではありません。それでも危険を感じることなく食事を摂り、健康を維持できているのは、人類が年月をかけて継続的に食べ続けてきた経験、すなわち「食経験」が、安全性の裏づけとなっているからです。 / p.134: 一方、「食経験」に支えられた食品とは異なる「健康食品」と呼ばれるものが、20世紀後半より広く普及するようになりました。国内では、国が定めた機能性や安全性の基準に従い、エビデンスに基づいた機能を表示して販売される「保健機能食品」（「特定保健用食品」「栄養機能食品」「機能性表示食品」のこと）がありますが、これら以外の製品には制度化された基準はなく、機能（効果）に関する表示をして販売することもできません。しかしながら、実証のない効果を期待させるような虚偽・誇大な表示や、効果を得るために違法に医薬品成分を含むサプリメントなども見受けられ、実際に健康被害が報告されるケースもあります。 / p.135: 特定の食品が病気を予防したり、心身の不調を改善したりするという情報が、販売者の意図の有無にかかわらず急速に広まり、「食べるだけで健康になれる」といった印象を与えることがあります。こうした「食べ物や栄養」が「健康や病気」に与える影響を過大に信じたり評価したりする傾向は、「フードファディズム（food faddism）」と呼ばれます。1950年代のアメリカで問題提起された概念ですが、現代でもSNSや動画サイトなどで個人の見解や経験が瞬く間に拡散され、誰もが注意すべき問題といえるでしょう。 / p.135: 情報があふれる現代において、「食」と「健康」に関する話題は、冷静に受け止める姿勢が求められます。受け手としては、情報の出どころや科学的根拠の有無を確認する習慣を持つことが大切です。また、発信する側にも配慮が必要です。体験談やおすすめの食材を紹介する際には、それが個人の感想であることを明示したり、根拠のある情報かどうかを確認したうえで伝えるなど、誤解を招かないよう心がけたいものです。情報が広がるスピードが速い今だからこそ、発信の責任についてもぜひ意識しましょう。"
+   }
+  ],
+  "id": "qle-food-safety",
+  "format": "long-essay",
+  "prompt": "「食の安全」と健康情報について、食経験による安全性の裏づけ、保健機能食品の制度、フードファディズム、情報との付き合い方を挙げて、長文で述べよ。",
+  "modelAnswer": "安全性は、科学的な根拠（エビデンス）に基づいて論じることが基本です。しかし、私たちが日常的に食べているものすべてが、厳密な検証を受けているわけではありません。それでも危険を感じることなく食事を摂り、健康を維持できているのは、人類が年月をかけて継続的に食べ続けてきた経験、すなわち「食経験」が、安全性の裏づけとなっているからです。\n一方、「食経験」に支えられた食品とは異なる「健康食品」と呼ばれるものが、20世紀後半より広く普及するようになりました。国内では、国が定めた機能性や安全性の基準に従い、エビデンスに基づいた機能を表示して販売される「保健機能食品」（「特定保健用食品」「栄養機能食品」「機能性表示食品」のこと）がありますが、これら以外の製品には制度化された基準はなく、機能（効果）に関する表示をして販売することもできません。しかしながら、実証のない効果を期待させるような虚偽・誇大な表示や、効果を得るために違法に医薬品成分を含むサプリメントなども見受けられ、実際に健康被害が報告されるケースもあります。\n特定の食品が病気を予防したり、心身の不調を改善したりするという情報が、販売者の意図の有無にかかわらず急速に広まり、「食べるだけで健康になれる」といった印象を与えることがあります。こうした「食べ物や栄養」が「健康や病気」に与える影響を過大に信じたり評価したりする傾向は、「フードファディズム（food faddism）」と呼ばれます。1950年代のアメリカで問題提起された概念ですが、現代でもSNSや動画サイトなどで個人の見解や経験が瞬く間に拡散され、誰もが注意すべき問題といえるでしょう。\n情報があふれる現代において、「食」と「健康」に関する話題は、冷静に受け止める姿勢が求められます。受け手としては、情報の出どころや科学的根拠の有無を確認する習慣を持つことが大切です。また、発信する側にも配慮が必要です。体験談やおすすめの食材を紹介する際には、それが個人の感想であることを明示したり、根拠のある情報かどうかを確認したうえで伝えるなど、誤解を招かないよう心がけたいものです。情報が広がるスピードが速い今だからこそ、発信の責任についてもぜひ意識しましょう。",
+  "rubric": [
+   {
+    "id": "evidence",
+    "label": "安全性は科学的な根拠（エビデンス）に基づいて論じることが基本であることに触れる",
+    "keywords": [
+     "科学的な根拠（エビデンス）に基づいて",
+     "科学的な根拠",
+     "（エビデンス）に基づいて"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "experience",
+    "label": "継続的に食べ続けてきた経験（食経験）が安全性の裏づけになっていることに触れる",
+    "keywords": [
+     "「食経験」が、安全性の裏づけ"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "hoken",
+    "label": "保健機能食品が特定保健用食品・栄養機能食品・機能性表示食品であることに触れる",
+    "keywords": [
+     "「特定保健用食品」「栄養機能食品」「機能性表示食品」"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "no-display",
+    "label": "制度化された基準のない製品は機能（効果）に関する表示をして販売できないことに触れる",
+    "keywords": [
+     "機能（効果）に関する表示をして販売することもできません"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "faddism",
+    "label": "食べ物や栄養の影響を過大に信じる傾向がフードファディズムと呼ばれることに触れる",
+    "keywords": [
+     "「フードファディズム（food faddism）」と呼ばれ",
+     "フードファディズム"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "literacy",
+    "label": "受け手は情報の出どころや科学的根拠の有無を確認する習慣が大切であることに触れる",
+    "keywords": [
+     "情報の出どころや科学的根拠の有無を確認する"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "人類が年月をかけて継続的に食べ続けてきた経験(食経験)が、日常の食品の安全性の裏づけになっている。\n保健機能食品とは、特定保健用食品・栄養機能食品・機能性表示食品のこと。\n食べ物や栄養が健康や病気に与える影響を過大に信じたり評価したりする傾向をフードファディズムといい、1950年代のアメリカで問題提起された。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-health",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "m-salt",
+   "m-tekien"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-salt について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.132: 塩分は、人間の体にとって欠かせない栄養素ですが、摂りすぎると高血圧や心血管疾患などのリスクを高めることが知られています。厚生労働省が定める「日本人の食事摂取基準（2025年版）」では、1日当たりの食塩摂取量を男性7.5g未満、女性6.5g未満に抑えることが推奨されています。しかし、日本の食文化では、しょうゆやみそなどの調味料が多く使われることもあり、他国と比べて塩分が高くなりやすい傾向があります。このため、これまでの味つけから塩分を減らす「減塩」を心がけることが求められています。また近年では、健康的な生活を送るための適切な量の食塩を摂ることやその量を意味する「適塩」という考え方も広まりつつあり、高い関心を集めています。 / p.132: とはいえ、実際に塩分を控えると、「味が物足りない」「長く続けられない」などという悩みもよく聞かれます。そんなときに役立つのが、スパイスやハーブです。これらが持つ香りや辛みは、料理の味を引き締めたり、素材の風味を引き立てたりすることで、薄味の物足りなさを補ってくれます。スパイスとハーブは、減塩や適塩に寄り添い、健康的な食事を「おいしく」「楽しく」続けるための心強い味方といえるでしょう。"
+   },
+   {
+    "manifestImageId": "IMG_9708",
+    "bookPage": 132,
+    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-tekien について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.132: 塩分は、人間の体にとって欠かせない栄養素ですが、摂りすぎると高血圧や心血管疾患などのリスクを高めることが知られています。厚生労働省が定める「日本人の食事摂取基準（2025年版）」では、1日当たりの食塩摂取量を男性7.5g未満、女性6.5g未満に抑えることが推奨されています。しかし、日本の食文化では、しょうゆやみそなどの調味料が多く使われることもあり、他国と比べて塩分が高くなりやすい傾向があります。このため、これまでの味つけから塩分を減らす「減塩」を心がけることが求められています。また近年では、健康的な生活を送るための適切な量の食塩を摂ることやその量を意味する「適塩」という考え方も広まりつつあり、高い関心を集めています。 / p.132: とはいえ、実際に塩分を控えると、「味が物足りない」「長く続けられない」などという悩みもよく聞かれます。そんなときに役立つのが、スパイスやハーブです。これらが持つ香りや辛みは、料理の味を引き締めたり、素材の風味を引き立てたりすることで、薄味の物足りなさを補ってくれます。スパイスとハーブは、減塩や適塩に寄り添い、健康的な食事を「おいしく」「楽しく」続けるための心強い味方といえるでしょう。"
+   }
+  ],
+  "id": "qle-salt-reduction",
+  "format": "long-essay",
+  "prompt": "減塩・適塩について、食塩摂取量の基準と日本食の課題、「適塩」の考え方、スパイスやハーブの役割を挙げて、長文で述べよ。",
+  "modelAnswer": "塩分は、人間の体にとって欠かせない栄養素ですが、摂りすぎると高血圧や心血管疾患などのリスクを高めることが知られています。厚生労働省が定める「日本人の食事摂取基準（2025年版）」では、1日当たりの食塩摂取量を男性7.5g未満、女性6.5g未満に抑えることが推奨されています。しかし、日本の食文化では、しょうゆやみそなどの調味料が多く使われることもあり、他国と比べて塩分が高くなりやすい傾向があります。このため、これまでの味つけから塩分を減らす「減塩」を心がけることが求められています。また近年では、健康的な生活を送るための適切な量の食塩を摂ることやその量を意味する「適塩」という考え方も広まりつつあり、高い関心を集めています。\nとはいえ、実際に塩分を控えると、「味が物足りない」「長く続けられない」などという悩みもよく聞かれます。そんなときに役立つのが、スパイスやハーブです。これらが持つ香りや辛みは、料理の味を引き締めたり、素材の風味を引き立てたりすることで、薄味の物足りなさを補ってくれます。スパイスとハーブは、減塩や適塩に寄り添い、健康的な食事を「おいしく」「楽しく」続けるための心強い味方といえるでしょう。",
+  "rubric": [
+   {
+    "id": "risk",
+    "label": "塩分の摂りすぎが高血圧や心血管疾患などのリスクを高めることに触れる",
+    "keywords": [
+     "高血圧や心血管疾患などのリスクを高める"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "male",
+    "label": "食塩摂取量の目安が男性7.5g未満であることに触れる",
+    "keywords": [
+     "男性7.5g未満"
+    ],
+    "keywordGroups": [
+     [
+      "男性",
+      "7.5g未満"
+     ]
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "female",
+    "label": "食塩摂取量の目安が女性6.5g未満であることに触れる",
+    "keywords": [
+     "女性6.5g未満"
+    ],
+    "keywordGroups": [
+     [
+      "女性",
+      "6.5g未満"
+     ]
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "jp-challenge",
+    "label": "日本の食文化ではしょうゆやみそなどの調味料が多く使われ、他国と比べて塩分が高くなりやすい傾向があることに触れる",
+    "keywords": [
+     "他国と比べて塩分が高くなりやすい傾向"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "tekien",
+    "label": "適切な量の食塩を摂る「適塩」という考え方が広まりつつあることに触れる",
+    "keywords": [
+     "「適塩」という考え方"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "spice-role",
+    "label": "スパイスやハーブの香りや辛みが薄味の物足りなさを補うことに触れる",
+    "keywords": [
+     "薄味の物足りなさを補って"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "厚生労働省「日本人の食事摂取基準(2025年版)」では、1日の食塩摂取量を男性7.5g未満、女性6.5g未満に抑えることが推奨されている。\n健康的な生活のための適切な量の食塩を摂ることやその量を「適塩」という。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-grow",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "g-pot"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9700",
+    "bookPage": 124,
+    "locationNote": "本書 p.124（原本画像 IMG_9700.PNG）。原文照合 batch14 で照合済みの知識単位 g-pot について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.124: 素焼き製 通気性（水はけ）はよいが、夏は乾燥しやすいので、こまめな水やりが必要。プラスチック製より重い。 / p.124: プラスチック製 軽いという長所があるが、通気性が悪くて蒸れやすい点もあるので、土づくりのときに用土の排水性をよくする。"
+   }
+  ],
+  "id": "qce-pots",
+  "format": "compare-essay",
+  "prompt": "素焼き製の鉢とプラスチック製の鉢について、通気性・乾きやすさ（蒸れやすさ）・重さを比較して述べよ。",
+  "modelAnswer": "素焼き製 通気性（水はけ）はよいが、夏は乾燥しやすいので、こまめな水やりが必要。プラスチック製より重い。\nプラスチック製 軽いという長所があるが、通気性が悪くて蒸れやすい点もあるので、土づくりのときに用土の排水性をよくする。",
+  "rubric": [
+   {
+    "id": "unglazed-air",
+    "label": "素焼き製は通気性（水はけ）がよいことに触れる",
+    "keywords": [
+     "素焼き製 通気性（水はけ）はよい"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "unglazed-dry",
+    "label": "素焼き製は夏は乾燥しやすいことに触れる",
+    "keywords": [
+     "夏は乾燥しやすい"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "unglazed-weight",
+    "label": "素焼き製はプラスチック製より重いことに触れる",
+    "keywords": [
+     "プラスチック製より重い"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "plastic-light",
+    "label": "プラスチック製は軽いという長所があることに触れる",
+    "keywords": [
+     "プラスチック製 軽いという長所"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "plastic-humid",
+    "label": "プラスチック製は通気性が悪くて蒸れやすいことに触れる",
+    "keywords": [
+     "通気性が悪くて蒸れやすい"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "素焼き鉢は通気性がよいが夏は乾燥しやすく、プラスチック鉢は軽いが蒸れやすい。苗の根元が鉢の縁から2cm程度下になるよう植える。"
+ }
+]
