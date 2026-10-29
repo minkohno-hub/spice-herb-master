@@ -1,0 +1,4 @@
+
+import { describe, it, expect } from "vitest";
+import { initSrs, reviewSrs, isDue } from "../src/domain/srs";
+describe("SM-2",()=>{ it("初回正解で1日後",()=>{ const s=reviewSrs(initSrs("x",new Date("2026-01-01")),5,new Date("2026-01-01")); expect(s.intervalDays).toBe(1); expect(s.repetitions).toBe(1); }); it("2回目で6日",()=>{ let s=reviewSrs(initSrs("x",new Date("2026-01-01")),5,new Date("2026-01-01")); s=reviewSrs(s,5,new Date("2026-01-02")); expect(s.intervalDays).toBe(6); }); it("不正解でリセット",()=>{ let s=reviewSrs(initSrs("x"),5); s=reviewSrs(s,1); expect(s.repetitions).toBe(0); expect(s.intervalDays).toBe(1); }); it("ease下限1.3",()=>{ let s=initSrs("x"); for(let i=0;i<10;i++) s=reviewSrs(s,0); expect(s.easeFactor).toBeGreaterThanOrEqual(1.3); }); it("due判定",()=>{ expect(isDue(initSrs("x",new Date("2020-01-01")), new Date("2026-01-01"))).toBe(true); }); });
