@@ -1,0 +1,1918 @@
+[
+ {
+  "id": "sansho-5",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "山椒/花椒(続き)",
+  "category": "spice-fact",
+  "content": "花椒と塩を混ぜた花椒塩は揚げものなどのシーズニングに使われ、花椒は五香粉の原料に欠かせない。",
+  "source": {
+   "page": 66,
+   "sourceUnitId": "sansho-5",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "sansho-extra",
+   "name": "山椒/花椒(続き)",
+   "en": "Japanese pepper / Chinese pepper"
+  }
+ },
+ {
+  "id": "sansho-6",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "山椒/花椒(続き)",
+  "category": "spice-fact",
+  "content": "お正月のお屠蘇の風味づけに山椒が使われるのは、中国で病除けに山椒酒を飲んだ名残とされる。",
+  "source": {
+   "page": 66,
+   "sourceUnitId": "sansho-6",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "お屠蘇の風味づけに使われ、中国で病除けの酒に入れられたスパイスは?",
+   "a": "山椒",
+   "alt": []
+  },
+  "spice": {
+   "id": "sansho-extra",
+   "name": "山椒/花椒(続き)",
+   "en": "Japanese pepper / Chinese pepper"
+  }
+ },
+ {
+  "id": "sansho-7",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "山椒/花椒(続き)",
+  "category": "spice-fact",
+  "content": "3世紀頃の中国の歴史書『魏志倭人伝』に、日本の山野に山椒が自生していたことが記されている。",
+  "source": {
+   "page": 66,
+   "sourceUnitId": "sansho-7",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "日本の山野に山椒が自生していたことを記した3世紀頃の中国の歴史書は?",
+   "a": "魏志倭人伝",
+   "alt": []
+  },
+  "spice": {
+   "id": "sansho-extra",
+   "name": "山椒/花椒(続き)",
+   "en": "Japanese pepper / Chinese pepper"
+  }
+ },
+ {
+  "id": "sansho-8",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "山椒/花椒(続き)",
+  "category": "spice-fact",
+  "content": "前漢時代、皇后の部屋は壁土に花椒を塗り込んだことから「椒房」と呼ばれたとされる。",
+  "source": {
+   "page": 66,
+   "sourceUnitId": "sansho-8",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "前漢時代、壁土に花椒を塗り込んだ皇后の部屋の呼び名は?",
+   "a": "椒房",
+   "alt": []
+  },
+  "spice": {
+   "id": "sansho-extra",
+   "name": "山椒/花椒(続き)",
+   "en": "Japanese pepper / Chinese pepper"
+  }
+ },
+ {
+  "id": "sansho-9",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "山椒/花椒(続き)",
+  "category": "spice-fact",
+  "content": "山椒の木の幹はかたいため、すりこ木やステッキに加工される。",
+  "source": {
+   "page": 66,
+   "sourceUnitId": "sansho-9",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "sansho-extra",
+   "name": "山椒/花椒(続き)",
+   "en": "Japanese pepper / Chinese pepper"
+  }
+ },
+ {
+  "id": "cinnamon-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "シナモン/カシア",
+  "category": "profile",
+  "content": "シナモン/カシア: 科名はクスノキ科。原産地はスリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)。利用部位は樹皮。別名は肉桂(にっけい)、桂皮(けいひ)。検定1・2・3級の対象。",
+  "source": {
+   "page": 67,
+   "sourceUnitId": "cinnamon-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cinnamon",
+   "name": "シナモン/カシア",
+   "en": "Cinnamon / Cassia"
+  }
+ },
+ {
+  "id": "cinnamon-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "シナモン/カシア",
+  "category": "spice-fact",
+  "content": "狭義のシナモン(セイロンシナモン)は主にスリランカ産で樹皮が薄く、カシアは主にベトナム・中国産で樹皮が厚い。",
+  "source": {
+   "page": 67,
+   "sourceUnitId": "cinnamon-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "シナモンとカシアのうち、樹皮が厚いのはどちら?",
+   "a": "カシア",
+   "alt": []
+  },
+  "spice": {
+   "id": "cinnamon",
+   "name": "シナモン/カシア",
+   "en": "Cinnamon / Cassia"
+  }
+ },
+ {
+  "id": "cinnamon-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "シナモン/カシア",
+  "category": "spice-fact",
+  "content": "シナモンは柑橘系の爽やかで上品な香り、カシアは甘く濃厚な香りが特徴。",
+  "source": {
+   "page": 67,
+   "sourceUnitId": "cinnamon-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cinnamon",
+   "name": "シナモン/カシア",
+   "en": "Cinnamon / Cassia"
+  }
+ },
+ {
+  "id": "cinnamon-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "シナモン/カシア",
+  "category": "spice-fact",
+  "content": "古代エジプトでは、シナモン(カシア)が入手できるようになると、アニスやクミンに代わってミイラ保存の主な防腐剤になった。",
+  "source": {
+   "page": 67,
+   "sourceUnitId": "cinnamon-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cinnamon",
+   "name": "シナモン/カシア",
+   "en": "Cinnamon / Cassia"
+  }
+ },
+ {
+  "id": "cinnamon-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "シナモン/カシア",
+  "category": "spice-fact",
+  "content": "シナモンの葉は、インドで煮込み料理に使われることから「インディアンベイリーフ」とも呼ばれる。シナモンとローレルは同じクスノキ科。",
+  "source": {
+   "page": 67,
+   "sourceUnitId": "cinnamon-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "インドで煮込み料理に使われるシナモンの葉の別名は?",
+   "a": "インディアンベイリーフ",
+   "alt": []
+  },
+  "spice": {
+   "id": "cinnamon",
+   "name": "シナモン/カシア",
+   "en": "Cinnamon / Cassia"
+  }
+ },
+ {
+  "id": "ginger-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "しょうが",
+  "category": "profile",
+  "content": "しょうが: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。",
+  "source": {
+   "page": 68,
+   "sourceUnitId": "ginger-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "ginger",
+   "name": "しょうが",
+   "en": "Ginger"
+  }
+ },
+ {
+  "id": "ginger-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "しょうが",
+  "category": "spice-fact",
+  "content": "新しょうがは収穫したての根茎でやわらかく辛みが穏やか。老成(ひね)しょうがは貯蔵後に出回るかたく辛みの強いもので、日本の流通品のほとんど。",
+  "source": {
+   "page": 68,
+   "sourceUnitId": "ginger-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "収穫後に貯蔵して翌年に出回る、辛みの強いしょうがは?",
+   "a": "老成しょうが",
+   "alt": [
+    "ひねしょうが"
+   ]
+  },
+  "spice": {
+   "id": "ginger",
+   "name": "しょうが",
+   "en": "Ginger"
+  }
+ },
+ {
+  "id": "ginger-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "しょうが",
+  "category": "spice-fact",
+  "content": "葉しょうがのうち、ごく若く細いものは筆しょうが(はじかみ)と呼ばれ、甘酢漬けで焼き魚に添える。",
+  "source": {
+   "page": 68,
+   "sourceUnitId": "ginger-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ごく若く細い葉しょうがの呼び名は?",
+   "a": "筆しょうが",
+   "alt": [
+    "はじかみ"
+   ]
+  },
+  "spice": {
+   "id": "ginger",
+   "name": "しょうが",
+   "en": "Ginger"
+  }
+ },
+ {
+  "id": "ginger-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "しょうが",
+  "category": "spice-fact",
+  "content": "14世紀にはこしょうに次ぐ重要なスパイスとなり、ジンジャーブレッドもこの頃ヨーロッパに広まったとみられる。",
+  "source": {
+   "page": 68,
+   "sourceUnitId": "ginger-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "ginger",
+   "name": "しょうが",
+   "en": "Ginger"
+  }
+ },
+ {
+  "id": "ginger-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "しょうが",
+  "category": "spice-fact",
+  "content": "ジンジャーの語源はサンスクリット語の「シンガベラ」(角の形をしたもの)で、根茎が鹿の角に似ていることに由来する。",
+  "source": {
+   "page": 68,
+   "sourceUnitId": "ginger-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ジンジャーの語源とされるサンスクリット語は?",
+   "a": "シンガベラ",
+   "alt": []
+  },
+  "spice": {
+   "id": "ginger",
+   "name": "しょうが",
+   "en": "Ginger"
+  }
+ },
+ {
+  "id": "ginger-5",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "しょうが",
+  "category": "spice-fact",
+  "content": "生のしょうがを「生薑(しょうきょう)」、干したものを「干薑(かんきょう)」と呼んで区別した。",
+  "source": {
+   "page": 68,
+   "sourceUnitId": "ginger-5",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "干したしょうがを何と呼んで区別した?",
+   "a": "干薑",
+   "alt": [
+    "かんきょう"
+   ]
+  },
+  "spice": {
+   "id": "ginger",
+   "name": "しょうが",
+   "en": "Ginger"
+  }
+ },
+ {
+  "id": "staranise-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "スターアニス",
+  "category": "profile",
+  "content": "スターアニス: 科名はマツブサ科。原産地は中国、ベトナム。利用部位は果実。別名は八角(はっかく)、大茴香(だいういきょう)、パージャオ、ボイカッ、チャイニーズアニス、トウシキミ。検定1・2級の対象。",
+  "source": {
+   "page": 69,
+   "sourceUnitId": "staranise-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "staranise",
+   "name": "スターアニス",
+   "en": "Star anise"
+  }
+ },
+ {
+  "id": "staranise-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "スターアニス",
+  "category": "spice-fact",
+  "content": "果実は星形で8つくらいの角があり、これが名前の由来。",
+  "source": {
+   "page": 69,
+   "sourceUnitId": "staranise-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "staranise",
+   "name": "スターアニス",
+   "en": "Star anise"
+  }
+ },
+ {
+  "id": "staranise-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "スターアニス",
+  "category": "spice-fact",
+  "content": "豚肉や鴨料理に多用され、杏仁豆腐などのデザートや五香粉の材料にも使われる。",
+  "source": {
+   "page": 69,
+   "sourceUnitId": "staranise-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "staranise",
+   "name": "スターアニス",
+   "en": "Star anise"
+  }
+ },
+ {
+  "id": "staranise-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "スターアニス",
+  "category": "spice-fact",
+  "content": "甘い香りの主成分アネトールはアニス・フェンネルと共通で、3つのうち最もスパイシー感が強いのがスターアニス。",
+  "source": {
+   "page": 69,
+   "sourceUnitId": "staranise-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スターアニス・アニス・フェンネルに共通する甘い香りの主成分は?",
+   "a": "アネトール",
+   "alt": []
+  },
+  "spice": {
+   "id": "staranise",
+   "name": "スターアニス",
+   "en": "Star anise"
+  }
+ },
+ {
+  "id": "staranise-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "スターアニス",
+  "category": "spice-fact",
+  "content": "16世紀末にイギリスの船員によりヨーロッパに伝わり、高価なアニスの代用品とされた。",
+  "source": {
+   "page": 69,
+   "sourceUnitId": "staranise-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "staranise",
+   "name": "スターアニス",
+   "en": "Star anise"
+  }
+ },
+ {
+  "id": "sage-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "セージ",
+  "category": "profile",
+  "content": "セージ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はサルビア、薬用サルビア。検定1・2・3級の対象。",
+  "source": {
+   "page": 70,
+   "sourceUnitId": "sage-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "sage",
+   "name": "セージ",
+   "en": "Sage"
+  }
+ },
+ {
+  "id": "sage-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "セージ",
+  "category": "spice-fact",
+  "content": "比較的香りの強いハーブで、肉や魚の脂っこい料理やソーセージに使われる。代表料理はローマのサルティンボッカ。",
+  "source": {
+   "page": 70,
+   "sourceUnitId": "sage-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "sage",
+   "name": "セージ",
+   "en": "Sage"
+  }
+ },
+ {
+  "id": "sage-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "セージ",
+  "category": "spice-fact",
+  "content": "英語のSow(雌豚)とSageの合成語が「ソーセージ」の語源という説がある。",
+  "source": {
+   "page": 70,
+   "sourceUnitId": "sage-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「ソーセージ」の語源になったともいわれるハーブは?",
+   "a": "セージ",
+   "alt": []
+  },
+  "spice": {
+   "id": "sage",
+   "name": "セージ",
+   "en": "Sage"
+  }
+ },
+ {
+  "id": "turmeric-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ターメリック",
+  "category": "profile",
+  "content": "ターメリック: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はうこん、秋うこん、インディアンサフラン。検定1・2・3級の対象。",
+  "source": {
+   "page": 70,
+   "sourceUnitId": "turmeric-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "turmeric",
+   "name": "ターメリック",
+   "en": "Turmeric"
+  }
+ },
+ {
+  "id": "turmeric-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ターメリック",
+  "category": "spice-fact",
+  "content": "カレーやたくあんの色づけに使われ、カレー粉の主原料の一つ。加熱で土臭さが弱まる。",
+  "source": {
+   "page": 70,
+   "sourceUnitId": "turmeric-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "turmeric",
+   "name": "ターメリック",
+   "en": "Turmeric"
+  }
+ },
+ {
+  "id": "turmeric-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ターメリック",
+  "category": "spice-fact",
+  "content": "黄色い色素成分はクルクミンで油溶性。紫外線で分解されるため、衣服のシミは洗って日光に当てるとよい。",
+  "source": {
+   "page": 70,
+   "sourceUnitId": "turmeric-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ターメリックの黄色い色素成分は?",
+   "a": "クルクミン",
+   "alt": []
+  },
+  "spice": {
+   "id": "turmeric",
+   "name": "ターメリック",
+   "en": "Turmeric"
+  }
+ },
+ {
+  "id": "turmeric-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ターメリック",
+  "category": "spice-fact",
+  "content": "クルクミンは油溶性なので、油といっしょに使うときれいに色づく。",
+  "source": {
+   "page": 70,
+   "sourceUnitId": "turmeric-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ターメリックの色素クルクミンは水溶性と油溶性のどちら?",
+   "a": "油溶性",
+   "alt": []
+  },
+  "spice": {
+   "id": "turmeric",
+   "name": "ターメリック",
+   "en": "Turmeric"
+  }
+ },
+ {
+  "id": "turmeric-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ターメリック",
+  "category": "spice-fact",
+  "content": "春うこん・紫うこんは同じショウガ科ウコン属だが別の植物である。",
+  "source": {
+   "page": 70,
+   "sourceUnitId": "turmeric-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "turmeric",
+   "name": "ターメリック",
+   "en": "Turmeric"
+  }
+ },
+ {
+  "id": "thyme-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タイム",
+  "category": "profile",
+  "content": "タイム: 科名はシソ科。原産地は南ヨーロッパ。利用部位は葉および花穂。別名は立麝香草(たちじゃこうそう)。検定1・2・3級の対象。",
+  "source": {
+   "page": 71,
+   "sourceUnitId": "thyme-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "thyme",
+   "name": "タイム",
+   "en": "Thyme"
+  }
+ },
+ {
+  "id": "thyme-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タイム",
+  "category": "spice-fact",
+  "content": "魚介類とよく合うことから「魚のハーブ」と呼ばれる。",
+  "source": {
+   "page": 71,
+   "sourceUnitId": "thyme-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "魚介類とよく合うことから「魚のハーブ」と呼ばれるハーブの代表は?",
+   "a": "タイム",
+   "alt": []
+  },
+  "spice": {
+   "id": "thyme",
+   "name": "タイム",
+   "en": "Thyme"
+  }
+ },
+ {
+  "id": "thyme-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タイム",
+  "category": "spice-fact",
+  "content": "ローレル・パセリとともにハーブの束「ブーケガルニ」に欠かせない。",
+  "source": {
+   "page": 71,
+   "sourceUnitId": "thyme-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "タイム・ローレル・パセリなどで作る、煮込みに使うハーブの束は?",
+   "a": "ブーケガルニ",
+   "alt": []
+  },
+  "spice": {
+   "id": "thyme",
+   "name": "タイム",
+   "en": "Thyme"
+  }
+ },
+ {
+  "id": "thyme-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タイム",
+  "category": "spice-fact",
+  "content": "香りの主成分チモールは抗菌・防腐作用が強い。",
+  "source": {
+   "page": 71,
+   "sourceUnitId": "thyme-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "タイムの香りの主成分は?",
+   "a": "チモール",
+   "alt": []
+  },
+  "spice": {
+   "id": "thyme",
+   "name": "タイム",
+   "en": "Thyme"
+  }
+ },
+ {
+  "id": "thyme-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タイム",
+  "category": "spice-fact",
+  "content": "名前は古代ギリシア語で「勇気」などを意味する「チモス」に由来するとされる。",
+  "source": {
+   "page": 71,
+   "sourceUnitId": "thyme-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "タイムの語源とされるギリシア語「チモス」の意味は?",
+   "a": "勇気",
+   "alt": [
+    "情熱"
+   ]
+  },
+  "spice": {
+   "id": "thyme",
+   "name": "タイム",
+   "en": "Thyme"
+  }
+ },
+ {
+  "id": "thyme-5",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タイム",
+  "category": "spice-fact",
+  "content": "人気品種にコモンタイム・レモンタイム・クリーピングタイム(地面を這い、芝生の代わりになる)がある。",
+  "source": {
+   "page": 71,
+   "sourceUnitId": "thyme-5",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "thyme",
+   "name": "タイム",
+   "en": "Thyme"
+  }
+ },
+ {
+  "id": "tarragon-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タラゴン",
+  "category": "profile",
+  "content": "タラゴン: 科名はキク科。原産地はロシア南部、西アジア。利用部位は葉。別名はエストラゴン。検定1・2級の対象。",
+  "source": {
+   "page": 72,
+   "sourceUnitId": "tarragon-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "tarragon",
+   "name": "タラゴン",
+   "en": "Tarragon"
+  }
+ },
+ {
+  "id": "tarragon-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タラゴン",
+  "category": "spice-fact",
+  "content": "フレンチタラゴンとロシアンタラゴンがあり、料理には風味のよいフレンチタラゴンが使われる。",
+  "source": {
+   "page": 72,
+   "sourceUnitId": "tarragon-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "料理に一般的に使われるタラゴンの種類は?",
+   "a": "フレンチタラゴン",
+   "alt": []
+  },
+  "spice": {
+   "id": "tarragon",
+   "name": "タラゴン",
+   "en": "Tarragon"
+  }
+ },
+ {
+  "id": "tarragon-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タラゴン",
+  "category": "spice-fact",
+  "content": "アニスに似た甘さがあり、卵・鶏肉・白身魚・ビネガーと相性がよい。フランス料理に多く、フィーヌゼルブの材料。",
+  "source": {
+   "page": 72,
+   "sourceUnitId": "tarragon-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "tarragon",
+   "name": "タラゴン",
+   "en": "Tarragon"
+  }
+ },
+ {
+  "id": "tarragon-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タラゴン",
+  "category": "spice-fact",
+  "content": "フランス名エストラゴンは「小さな竜」の意味。",
+  "source": {
+   "page": 72,
+   "sourceUnitId": "tarragon-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "タラゴンのフランス名「エストラゴン」の意味は?",
+   "a": "小さな竜",
+   "alt": []
+  },
+  "spice": {
+   "id": "tarragon",
+   "name": "タラゴン",
+   "en": "Tarragon"
+  }
+ },
+ {
+  "id": "tarragon-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "タラゴン",
+  "category": "spice-fact",
+  "content": "タラゴンビネガーはハーブビネガーの定番とされる。",
+  "source": {
+   "page": 72,
+   "sourceUnitId": "tarragon-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "tarragon",
+   "name": "タラゴン",
+   "en": "Tarragon"
+  }
+ },
+ {
+  "id": "chervil-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "チャービル",
+  "category": "profile",
+  "content": "チャービル: 科名はセリ科。原産地はヨーロッパ、西アジア。利用部位は葉、茎。別名はセルフィーユ、茴香芹(ういきょうぜり)。検定1・2級の対象。",
+  "source": {
+   "page": 73,
+   "sourceUnitId": "chervil-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chervil",
+   "name": "チャービル",
+   "en": "Chervil"
+  }
+ },
+ {
+  "id": "chervil-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "チャービル",
+  "category": "spice-fact",
+  "content": "マイルドでほんのり甘い香りで、熱に弱いため仕上げに使うことが多い。フランスでは「美食家のパセリ」と呼ばれる。",
+  "source": {
+   "page": 73,
+   "sourceUnitId": "chervil-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フランスで「美食家のパセリ」と呼ばれるハーブは?",
+   "a": "チャービル",
+   "alt": []
+  },
+  "spice": {
+   "id": "chervil",
+   "name": "チャービル",
+   "en": "Chervil"
+  }
+ },
+ {
+  "id": "chervil-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "チャービル",
+  "category": "spice-fact",
+  "content": "チャービル・パセリ・パクチーはいずれもセリ科で形が似ており、判別の一番のポイントは香り。",
+  "source": {
+   "page": 73,
+   "sourceUnitId": "chervil-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chervil",
+   "name": "チャービル",
+   "en": "Chervil"
+  }
+ },
+ {
+  "id": "chives-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "チャイブ",
+  "category": "profile",
+  "content": "チャイブ: 科名はヒガンバナ科。原産地は中央アジア、温帯地域。利用部位は花、葉。別名はシブレット、西洋あさつき、えぞねぎ。検定1・2級の対象。",
+  "source": {
+   "page": 74,
+   "sourceUnitId": "chives-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chives",
+   "name": "チャイブ",
+   "en": "Chives"
+  }
+ },
+ {
+  "id": "chives-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "チャイブ",
+  "category": "spice-fact",
+  "content": "繊細でマイルドな香りで、日本のあさつきに似た使い方をする。加熱しすぎないこと。",
+  "source": {
+   "page": 74,
+   "sourceUnitId": "chives-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "チャイブは日本の何に似た使い方をする?",
+   "a": "あさつき",
+   "alt": []
+  },
+  "spice": {
+   "id": "chives",
+   "name": "チャイブ",
+   "en": "Chives"
+  }
+ },
+ {
+  "id": "chives-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "チャイブ",
+  "category": "spice-fact",
+  "content": "ねぎの仲間で最も細く小さく、球形の紫がかったピンクの花をつける。",
+  "source": {
+   "page": 74,
+   "sourceUnitId": "chives-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chives",
+   "name": "チャイブ",
+   "en": "Chives"
+  }
+ },
+ {
+  "id": "chives-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "チャイブ",
+  "category": "spice-fact",
+  "content": "ガーリックチャイブは葉が平らでにんにくに似た香りを持ち、日本の「にら」のこと。西欧ではチャイニーズチャイブとも呼ぶ。",
+  "source": {
+   "page": 74,
+   "sourceUnitId": "chives-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「ガーリックチャイブ」とは日本でいう何?",
+   "a": "にら",
+   "alt": []
+  },
+  "spice": {
+   "id": "chives",
+   "name": "チャイブ",
+   "en": "Chives"
+  }
+ },
+ {
+  "id": "dill-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ディル",
+  "category": "profile",
+  "content": "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。",
+  "source": {
+   "page": 75,
+   "sourceUnitId": "dill-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "dill",
+   "name": "ディル",
+   "en": "Dill"
+  }
+ },
+ {
+  "id": "dill-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ディル",
+  "category": "spice-fact",
+  "content": "種子はキャラウェイに似た爽やかな香りでピクルスなどに使い、羽状のやわらかい葉はタイム・フェンネルと並ぶ「魚のハーブ」とされる。",
+  "source": {
+   "page": 75,
+   "sourceUnitId": "dill-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "dill",
+   "name": "ディル",
+   "en": "Dill"
+  }
+ },
+ {
+  "id": "dill-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ディル",
+  "category": "spice-fact",
+  "content": "英語名は古代ノルウェー語の「ジーラ(なだめる・あやす)」に由来し、種子の煎じ汁で赤ん坊を寝かしつけたとされる。",
+  "source": {
+   "page": 75,
+   "sourceUnitId": "dill-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ディルの名前の由来である古代ノルウェー語「Dilla」の意味は?",
+   "a": "なだめる",
+   "alt": [
+    "あやす"
+   ]
+  },
+  "spice": {
+   "id": "dill",
+   "name": "ディル",
+   "en": "Dill"
+  }
+ },
+ {
+  "id": "dill-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ディル",
+  "category": "spice-fact",
+  "content": "中世ヨーロッパでは魔術師や魔女のまじないの材料、媚薬・医薬用として多用された。",
+  "source": {
+   "page": 75,
+   "sourceUnitId": "dill-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "dill",
+   "name": "ディル",
+   "en": "Dill"
+  }
+ },
+ {
+  "id": "chili-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "唐辛子",
+  "category": "profile",
+  "content": "唐辛子: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実、葉。別名はチリペッパー、チリ、カイエンペッパー(品種の一部)、鷹の爪(品種の一部)。検定1・2・3級の対象。",
+  "source": {
+   "page": 76,
+   "sourceUnitId": "chili-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chili",
+   "name": "唐辛子",
+   "en": "Chili pepper"
+  }
+ },
+ {
+  "id": "chili-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "唐辛子",
+  "category": "spice-fact",
+  "content": "品種は3000種類に及ぶともいわれる。",
+  "source": {
+   "page": 76,
+   "sourceUnitId": "chili-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "唐辛子の品種数はどのくらいに及ぶといわれる?",
+   "a": "3000種類",
+   "alt": [
+    "3000"
+   ]
+  },
+  "spice": {
+   "id": "chili",
+   "name": "唐辛子",
+   "en": "Chili pepper"
+  }
+ },
+ {
+  "id": "chili-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "唐辛子",
+  "category": "spice-fact",
+  "content": "辛み成分はカプサイシンで、含有量は品種や産地で大きく異なる。",
+  "source": {
+   "page": 76,
+   "sourceUnitId": "chili-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "唐辛子の辛み成分は?",
+   "a": "カプサイシン",
+   "alt": []
+  },
+  "spice": {
+   "id": "chili",
+   "name": "唐辛子",
+   "en": "Chili pepper"
+  }
+ },
+ {
+  "id": "chili-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "唐辛子",
+  "category": "spice-fact",
+  "content": "世界に広がるきっかけは15世紀末のコロンブスのアメリカ大陸到達とされる。",
+  "source": {
+   "page": 76,
+   "sourceUnitId": "chili-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chili",
+   "name": "唐辛子",
+   "en": "Chili pepper"
+  }
+ },
+ {
+  "id": "chili-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "唐辛子",
+  "category": "spice-fact",
+  "content": "日本への伝来には、豊臣秀吉の朝鮮出兵で加藤清正が持ち帰った説、ポルトガル船が種子島にもたらした説、17世紀初めにタバコとともに伝わった説などがある。",
+  "source": {
+   "page": 76,
+   "sourceUnitId": "chili-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chili",
+   "name": "唐辛子",
+   "en": "Chili pepper"
+  }
+ },
+ {
+  "id": "chili-5",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "唐辛子",
+  "category": "spice-fact",
+  "content": "天鷹唐辛子は約5cmの小ぶりで辛みが強い。韓国産唐辛子は辛みが少なく甘みと酸味があり、あらびきや粉末はコチュカルと呼ばれる。",
+  "source": {
+   "page": 76,
+   "sourceUnitId": "chili-5",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "韓国で、あらびきや粉末状の唐辛子は何と呼ばれる?",
+   "a": "コチュカル",
+   "alt": []
+  },
+  "spice": {
+   "id": "chili",
+   "name": "唐辛子",
+   "en": "Chili pepper"
+  }
+ },
+ {
+  "id": "chili-6",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "唐辛子",
+  "category": "spice-fact",
+  "content": "ハラペーニョはメキシコを代表するグリーンチリ、ハバネロはベル形でフルーティな激辛種、プリッキーヌはトムヤムクンやグリーンカレーに使われる。",
+  "source": {
+   "page": 76,
+   "sourceUnitId": "chili-6",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "メキシコを代表するグリーンチリ(青唐辛子)は?",
+   "a": "ハラペーニョ",
+   "alt": []
+  },
+  "spice": {
+   "id": "chili",
+   "name": "唐辛子",
+   "en": "Chili pepper"
+  }
+ },
+ {
+  "id": "chili-7",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "唐辛子",
+  "category": "spice-fact",
+  "content": "ベル形でフルーティな風味を持つ激辛の唐辛子はハバネロである。",
+  "source": {
+   "page": 76,
+   "sourceUnitId": "chili-7",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ベル形でフルーティな風味を持つ激辛の唐辛子は?",
+   "a": "ハバネロ",
+   "alt": []
+  },
+  "spice": {
+   "id": "chili",
+   "name": "唐辛子",
+   "en": "Chili pepper"
+  }
+ },
+ {
+  "id": "paste-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "世界の唐辛子ペースト",
+  "category": "spice-fact",
+  "content": "柚子こしょうは柚子と生の青唐辛子に食塩を加えた九州地方特産の調味料。",
+  "source": {
+   "page": 77,
+   "sourceUnitId": "paste-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "柚子と生の青唐辛子をすりつぶして作る、九州地方特産の調味料は?",
+   "a": "柚子こしょう",
+   "alt": []
+  },
+  "spice": {
+   "id": "chili-paste",
+   "name": "世界の唐辛子ペースト",
+   "en": "Chili pastes"
+  }
+ },
+ {
+  "id": "paste-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "世界の唐辛子ペースト",
+  "category": "spice-fact",
+  "content": "もみじおろしは大根に穴をあけて唐辛子を差し込み、いっしょにすりおろしたもの。",
+  "source": {
+   "page": 77,
+   "sourceUnitId": "paste-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chili-paste",
+   "name": "世界の唐辛子ペースト",
+   "en": "Chili pastes"
+  }
+ },
+ {
+  "id": "paste-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "世界の唐辛子ペースト",
+  "category": "spice-fact",
+  "content": "コチュジャンは唐辛子・そら豆ペースト・もち米などを熟成させた韓国の調味料。",
+  "source": {
+   "page": 77,
+   "sourceUnitId": "paste-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "唐辛子・もち米などを熟成させた韓国の調味料は?",
+   "a": "コチュジャン",
+   "alt": []
+  },
+  "spice": {
+   "id": "chili-paste",
+   "name": "世界の唐辛子ペースト",
+   "en": "Chili pastes"
+  }
+ },
+ {
+  "id": "paste-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "世界の唐辛子ペースト",
+  "category": "spice-fact",
+  "content": "豆板醤はそら豆が原料の中国の発酵調味料で、唐辛子とともに発酵させるのが一般的。",
+  "source": {
+   "page": 77,
+   "sourceUnitId": "paste-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "そら豆が原料で、唐辛子とともに発酵させる中国の調味料は?",
+   "a": "豆板醤",
+   "alt": []
+  },
+  "spice": {
+   "id": "chili-paste",
+   "name": "世界の唐辛子ペースト",
+   "en": "Chili pastes"
+  }
+ },
+ {
+  "id": "paste-5",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "世界の唐辛子ペースト",
+  "category": "spice-fact",
+  "content": "サンバルはインドネシアの調味料で、唐辛子・ガーリック・カピ(小えびの塩辛)などをペーストにしたもの。",
+  "source": {
+   "page": 77,
+   "sourceUnitId": "paste-5",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "カピ(小えびの塩辛)などを使うインドネシアの唐辛子調味料は?",
+   "a": "サンバル",
+   "alt": []
+  },
+  "spice": {
+   "id": "chili-paste",
+   "name": "世界の唐辛子ペースト",
+   "en": "Chili pastes"
+  }
+ },
+ {
+  "id": "paste-6",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "世界の唐辛子ペースト",
+  "category": "spice-fact",
+  "content": "ホットソースは唐辛子・ビネガー・塩を熟成させた中南米のソースで、タバスコペッパーソースが有名。",
+  "source": {
+   "page": 77,
+   "sourceUnitId": "paste-6",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chili-paste",
+   "name": "世界の唐辛子ペースト",
+   "en": "Chili pastes"
+  }
+ },
+ {
+  "id": "paste-7",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "世界の唐辛子ペースト",
+  "category": "spice-fact",
+  "content": "ハリッサ(アリッサ)は北アフリカのペーストで、唐辛子・ガーリック・クミン・キャラウェイ・コリアンダーにオリーブオイルを加える。",
+  "source": {
+   "page": 77,
+   "sourceUnitId": "paste-7",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハリッサはどの地域の唐辛子ペースト?",
+   "a": "北アフリカ",
+   "alt": []
+  },
+  "spice": {
+   "id": "chili-paste",
+   "name": "世界の唐辛子ペースト",
+   "en": "Chili pastes"
+  }
+ },
+ {
+  "id": "paste-8",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "世界の唐辛子ペースト",
+  "category": "spice-fact",
+  "content": "サルサはメキシコほかのソースで、トマト・唐辛子・パクチーなどを刻んで合わせる。",
+  "source": {
+   "page": 77,
+   "sourceUnitId": "paste-8",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chili-paste",
+   "name": "世界の唐辛子ペースト",
+   "en": "Chili pastes"
+  }
+ },
+ {
+  "id": "nutmeg-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ナツメッグ/メース",
+  "category": "profile",
+  "content": "ナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。",
+  "source": {
+   "page": 78,
+   "sourceUnitId": "nutmeg-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "nutmeg",
+   "name": "ナツメッグ/メース",
+   "en": "Nutmeg / Mace"
+  }
+ },
+ {
+  "id": "nutmeg-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ナツメッグ/メース",
+  "category": "spice-fact",
+  "content": "ナツメッグは種子の殻を除いた仁、メースは種子を包む仮種皮を乾燥させたもの。",
+  "source": {
+   "page": 78,
+   "sourceUnitId": "nutmeg-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "メースはナツメッグの実のどの部分?",
+   "a": "仮種皮",
+   "alt": []
+  },
+  "spice": {
+   "id": "nutmeg",
+   "name": "ナツメッグ/メース",
+   "en": "Nutmeg / Mace"
+  }
+ },
+ {
+  "id": "nutmeg-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ナツメッグ/メース",
+  "category": "spice-fact",
+  "content": "植えてから5〜9年でようやく結実する常緑樹。",
+  "source": {
+   "page": 78,
+   "sourceUnitId": "nutmeg-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ナツメッグの木は植えてから何年ほどで結実する?",
+   "a": "5〜9年",
+   "alt": []
+  },
+  "spice": {
+   "id": "nutmeg",
+   "name": "ナツメッグ/メース",
+   "en": "Nutmeg / Mace"
+  }
+ },
+ {
+  "id": "nutmeg-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ナツメッグ/メース",
+  "category": "spice-fact",
+  "content": "ひき肉料理や乳製品、焼き菓子と相性がよく、メースはより繊細で甘く菓子やジャムに使われることが多い。",
+  "source": {
+   "page": 78,
+   "sourceUnitId": "nutmeg-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "nutmeg",
+   "name": "ナツメッグ/メース",
+   "en": "Nutmeg / Mace"
+  }
+ },
+ {
+  "id": "nutmeg-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ナツメッグ/メース",
+  "category": "spice-fact",
+  "content": "こしょう・クローブ・シナモンとともに「世界4大スパイス」と呼ばれる。",
+  "source": {
+   "page": 78,
+   "sourceUnitId": "nutmeg-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「世界4大スパイス」は、こしょう・クローブ・シナモンと何?",
+   "a": "ナツメッグ",
+   "alt": []
+  },
+  "spice": {
+   "id": "nutmeg",
+   "name": "ナツメッグ/メース",
+   "en": "Nutmeg / Mace"
+  }
+ },
+ {
+  "id": "nutmeg-5",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ナツメッグ/メース",
+  "category": "spice-fact",
+  "content": "13世紀末のイギリスでは1ポンドのナツメッグで羊3頭、14世紀末のドイツでは牝牛7頭が手に入ったという。",
+  "source": {
+   "page": 78,
+   "sourceUnitId": "nutmeg-5",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "nutmeg",
+   "name": "ナツメッグ/メース",
+   "en": "Nutmeg / Mace"
+  }
+ },
+ {
+  "id": "basil-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "バジル",
+  "category": "profile",
+  "content": "バジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。",
+  "source": {
+   "page": 79,
+   "sourceUnitId": "basil-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "basil",
+   "name": "バジル",
+   "en": "Basil"
+  }
+ },
+ {
+  "id": "basil-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "バジル",
+  "category": "spice-fact",
+  "content": "単にバジルといえば一般にスィートバジルをさし、トマトとの相性が特によい。非耐寒性。",
+  "source": {
+   "page": 79,
+   "sourceUnitId": "basil-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "basil",
+   "name": "バジル",
+   "en": "Basil"
+  }
+ },
+ {
+  "id": "basil-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "バジル",
+  "category": "spice-fact",
+  "content": "バジルシードは水分を含むとゼリー状になり、デザートに使われる。",
+  "source": {
+   "page": 79,
+   "sourceUnitId": "basil-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "basil",
+   "name": "バジル",
+   "en": "Basil"
+  }
+ },
+ {
+  "id": "basil-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "バジル",
+  "category": "spice-fact",
+  "content": "和名「めぼうき」は、ゼリー状になった種で目のごみをとったことに由来する。",
+  "source": {
+   "page": 79,
+   "sourceUnitId": "basil-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "バジルの和名は?",
+   "a": "めぼうき",
+   "alt": []
+  },
+  "spice": {
+   "id": "basil",
+   "name": "バジル",
+   "en": "Basil"
+  }
+ },
+ {
+  "id": "basil-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "バジル",
+  "category": "spice-fact",
+  "content": "ホーリーバジルは苦みとアクがありタイ料理に欠かせない。シナモンバジルはメキシコ生まれでシナモンの香りがする。",
+  "source": {
+   "page": 79,
+   "sourceUnitId": "basil-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "タイ料理に欠かせない、苦みとアクのあるバジルは?",
+   "a": "ホーリーバジル",
+   "alt": []
+  },
+  "spice": {
+   "id": "basil",
+   "name": "バジル",
+   "en": "Basil"
+  }
+ },
+ {
+  "id": "parsley-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "パセリ",
+  "category": "profile",
+  "content": "パセリ: 科名はセリ科。原産地は地中海沿岸。利用部位は葉、茎。別名はオランダ芹(モスカールド種をさすことが多い)。検定1・2・3級の対象。",
+  "source": {
+   "page": 80,
+   "sourceUnitId": "parsley-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "parsley",
+   "name": "パセリ",
+   "en": "Parsley"
+  }
+ },
+ {
+  "id": "parsley-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "パセリ",
+  "category": "spice-fact",
+  "content": "葉が縮れた「カールリーフ」(代表:モスカールドパセリ)と、葉が平らな「フラットリーフ」(代表:イタリアンパセリ)の2種類がある。",
+  "source": {
+   "page": 80,
+   "sourceUnitId": "parsley-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "葉が平らな「フラットリーフ」パセリの代表は?",
+   "a": "イタリアンパセリ",
+   "alt": []
+  },
+  "spice": {
+   "id": "parsley",
+   "name": "パセリ",
+   "en": "Parsley"
+  }
+ },
+ {
+  "id": "parsley-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "パセリ",
+  "category": "spice-fact",
+  "content": "パセリの茎はブーケガルニの材料によく使われる。",
+  "source": {
+   "page": 80,
+   "sourceUnitId": "parsley-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "parsley",
+   "name": "パセリ",
+   "en": "Parsley"
+  }
+ },
+ {
+  "id": "parsley-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "パセリ",
+  "category": "spice-fact",
+  "content": "爽やかな香りは口臭予防に効果的とされ、葉にはビタミンCが多い。",
+  "source": {
+   "page": 80,
+   "sourceUnitId": "parsley-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "parsley",
+   "name": "パセリ",
+   "en": "Parsley"
+  }
+ },
+ {
+  "id": "parsley-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "パセリ",
+  "category": "spice-fact",
+  "content": "古代ギリシア・ローマでは華やかな席でパセリの束を花輪のように首にかけた。",
+  "source": {
+   "page": 80,
+   "sourceUnitId": "parsley-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "parsley",
+   "name": "パセリ",
+   "en": "Parsley"
+  }
+ },
+ {
+  "id": "vanilla-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "バニラ",
+  "category": "profile",
+  "content": "バニラ: 科名はラン科。原産地は中央アメリカ。利用部位は果実(さや)。別名はワニラ。検定1・2級の対象。",
+  "source": {
+   "page": 81,
+   "sourceUnitId": "vanilla-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "vanilla",
+   "name": "バニラ",
+   "en": "Vanilla"
+  }
+ },
+ {
+  "id": "vanilla-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "バニラ",
+  "category": "spice-fact",
+  "content": "未熟なさやを採り、発酵と乾燥を繰り返すキュアリングで黒い光沢と甘い香りが出る。",
+  "source": {
+   "page": 81,
+   "sourceUnitId": "vanilla-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "バニラのさやを発酵と乾燥を繰り返して仕上げる工程を何という?",
+   "a": "キュアリング",
+   "alt": []
+  },
+  "spice": {
+   "id": "vanilla",
+   "name": "バニラ",
+   "en": "Vanilla"
+  }
+ },
+ {
+  "id": "vanilla-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "バニラ",
+  "category": "spice-fact",
+  "content": "香りの主成分はバニリンで、冷凍・冷蔵したさやの表面の白い粉はバニリンが凝固したもの。",
+  "source": {
+   "page": 81,
+   "sourceUnitId": "vanilla-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "バニラの香りの主成分は?",
+   "a": "バニリン",
+   "alt": []
+  },
+  "spice": {
+   "id": "vanilla",
+   "name": "バニラ",
+   "en": "Vanilla"
+  }
+ },
+ {
+  "id": "vanilla-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "バニラ",
+  "category": "spice-fact",
+  "content": "使うときはさやを縦に切り開き、包丁の先でしごいて種を取り出す。",
+  "source": {
+   "page": 81,
+   "sourceUnitId": "vanilla-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "vanilla",
+   "name": "バニラ",
+   "en": "Vanilla"
+  }
+ }
+]
