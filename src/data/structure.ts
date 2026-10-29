@@ -10,36 +10,36 @@ export const CHAPTERS: Chapter[] = [
     "id": "history-world",
     "title": "世界における歴史",
     "bookPage": 6,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9581.PNG〜IMG_9584.PNG（p.6〜9）から全文転記済み（転記バッチT1、転記データ src/data/transcripts/preface.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "history-japan",
     "title": "日本における歴史",
     "bookPage": 10,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9585.PNG〜IMG_9586.PNG（p.10〜11）から全文転記済み（転記バッチT2、転記データ src/data/transcripts/preface.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "definition",
     "title": "スパイス＆ハーブの定義",
     "bookPage": 12,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9587.PNG（p.12）から全文転記済み（転記バッチT2、同ページのレコードには分類の見出し・導入文も含む、転記データ src/data/transcripts/preface.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "classification",
     "title": "スパイス＆ハーブの3つの分類",
     "bookPage": 12,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9588.PNG〜IMG_9590.PNG（p.13〜15）から全文転記済み（転記バッチT2、見出しと導入文は p.12 の定義節レコードに含む、転記データ src/data/transcripts/preface.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "preservation",
     "title": "スパイス＆ハーブの保存",
     "bookPage": 16,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9591.PNG（p.16）から全文転記済み（転記バッチT2、転記データ src/data/transcripts/preface.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    }
   ]
  },
@@ -52,183 +52,183 @@ export const CHAPTERS: Chapter[] = [
     "id": "basic-aroma",
     "title": "香り、色、辛みの3つの働きを生かす",
     "bookPage": 18,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9593.PNG〜IMG_9595.PNG（p.18〜20）から全文転記済み（転記バッチT3、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "basic-timing",
     "title": "使うタイミングと使用量を覚える",
     "bookPage": 21,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9596.PNG〜IMG_9597.PNG（p.21〜22）から全文転記済み（転記バッチT3、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "basic-compat",
     "title": "素材との相性を知る",
     "bookPage": 23,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9598.PNG〜IMG_9599.PNG（p.23〜24）から全文転記済み（転記バッチT3、p.24 は「世界のスパイス＆ハーブ料理とドリンク」の扉ページで本節のレコードに含む、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "world-africa",
     "title": "世界の料理・アフリカ、中近東",
     "bookPage": 25,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9600.PNG（p.25）から全文転記済み（転記バッチT3、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "world-europe",
     "title": "世界の料理・ヨーロッパ・ロシア",
     "bookPage": 26,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9601.PNG〜IMG_9602.PNG（p.26〜27）から全文転記済み（転記バッチT4、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "world-asia",
     "title": "世界の料理・アジア・オセアニア",
     "bookPage": 28,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9603.PNG（p.28）から全文転記済み（転記バッチT4、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "world-america",
     "title": "世界の料理・アメリカ",
     "bookPage": 29,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9604.PNG（p.29）から全文転記済み（転記バッチT4、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）。同ページで始まる「世界のドリンク」の全文も本節のレコードに含む"
    },
    {
     "id": "world-drink",
     "title": "世界のドリンク",
     "bookPage": 29,
     "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は p.29 で始まり、同ページの world-america の転記レコード内に全文転記済み（転記バッチT4、転記データ src/data/transcripts/ch1.json）。転記データは1ページ1レコードのため自節のレコードを持たず、本ステータスは「未処理」のまま（リーダーでは world-america の p.29 に表示される。docs/TRANSCRIPTION.md に記録）"
    },
    {
     "id": "dish-curry",
     "title": "チキンカレー",
     "bookPage": 30,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9605.PNG〜IMG_9606.PNG（p.30〜31）から全文転記済み（転記バッチT4、p.30 は「おうちで作れるスパイス＆ハーブの定番料理」パートの扉ページ、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-genovese",
     "title": "パスタジェノベーゼ",
     "bookPage": 32,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9608.PNG（p.33）から全文転記済み（転記バッチT4、p.32 は料理写真のみでテキストがないため転記レコードなし、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-paella",
     "title": "パエリア",
     "bookPage": 34,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9610.PNG（p.35）から全文転記済み（転記バッチT5、p.34 は料理写真のみでテキストがないため転記レコードなし、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-chili",
     "title": "チリコンカン",
     "bookPage": 36,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9611.PNG（p.36）から全文転記済み（転記バッチT5、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-kakuni",
     "title": "豚の角煮",
     "bookPage": 37,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9612.PNG（p.37）から全文転記済み（転記バッチT5、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-ceviche",
     "title": "セビーチェ",
     "bookPage": 38,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9613.PNG（p.38）から全文転記済み（転記バッチT5、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-hummus",
     "title": "フムス",
     "bookPage": 39,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9614.PNG（p.39）から全文転記済み（転記バッチT5、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-lamb",
     "title": "ラムの煮込みとクスクス",
     "bookPage": 40,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9615.PNG〜IMG_9616.PNG（p.40〜41）から全文転記済み（転記バッチT5、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-currywurst",
     "title": "カリーヴルスト",
     "bookPage": 42,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9617.PNG（p.42）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-cumin-potato",
     "title": "クミンポテト",
     "bookPage": 43,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9618.PNG（p.43）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-chai",
     "title": "チャイ",
     "bookPage": 44,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9619.PNG（p.44）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "dish-apple",
     "title": "焼きりんご",
     "bookPage": 45,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9620.PNG（p.45）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "season-oil",
     "title": "フレーバーオイル",
     "bookPage": 46,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9621.PNG（p.46）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）。同ページのパートタイトル「自分だけの味を楽しむスパイス＆ハーブで手作り調味料」と帯見出し「1 漬け込むだけのラクラク調味料」も本節のレコードに含む"
    },
    {
     "id": "season-vinegar",
     "title": "フレーバービネガー",
     "bookPage": 47,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9622.PNG（p.47）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）。同ページで始まる「フレーバーしょうゆ」の全文も本節のレコードに含む"
    },
    {
     "id": "season-soy",
     "title": "フレーバーしょうゆ",
     "bookPage": 47,
     "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は p.47 で始まり、同ページの season-vinegar の転記レコード内に全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json）。転記データは1ページ1レコードのため自節のレコードを持たず、本ステータスは「未処理」のまま（リーダーでは season-vinegar の p.47 に表示される。docs/TRANSCRIPTION.md に記録）"
    },
    {
     "id": "season-paste",
     "title": "手作りハーブペースト",
     "bookPage": 48,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9623.PNG（p.48）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）。同ページの帯見出し「2 ひと手間かけて作るおいしい調味料」とその導入文も本節のレコードに含む"
    },
    {
     "id": "season-dressing",
     "title": "手作りドレッシング",
     "bookPage": 49,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9624.PNG（p.49）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "season-plus",
     "title": "ケチャップ、みそ、マヨネーズにプラス",
     "bookPage": 50,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9625.PNG（p.50）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）。同ページの帯見出し「3 市販品にプラスするだけの簡単調味料」とその導入文も本節のレコードに含む"
    }
   ]
  },
@@ -241,274 +241,274 @@ export const CHAPTERS: Chapter[] = [
     "id": "item-anise",
     "title": "アニス",
     "bookPage": 52,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9627.PNG（p.52）から全文転記済み（転記バッチT7、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。図鑑ページの書式（プロフィール表・キャッチコピー・植物／特徴・用途・□小見出し）で転記した。ルビ（茴芹=ういきん）は本文に含めない"
    },
    {
     "id": "item-allspice",
     "title": "オールスパイス",
     "bookPage": 53,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9628.PNG（p.53）から全文転記済み（転記バッチT7、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。「特徴・用途」は右カラム配置のため読み順として「植物」の後に転記した。ルビ（三香子=さんこうし）は本文に含めない"
    },
    {
     "id": "item-oregano",
     "title": "オレガノ",
     "bookPage": 54,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9629.PNG（p.54）から全文転記済み（転記バッチT7、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。ルビ（花薄荷=はなはっか）は本文に含めない"
    },
    {
     "id": "item-garlic",
     "title": "ガーリック",
     "bookPage": 55,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9630.PNG（p.55）から全文転記済み（転記バッチT7、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。枠内の保存法は note ブロックとし、「無臭成分が変化して特有の香りに」の段落は左カラム下部から右カラム上部へ続くため1段落に連結した。ルビ（大蒜=おおひる、鱗茎=りんけい）は本文に含めない"
    },
    {
     "id": "item-cardamom",
     "title": "カルダモン",
     "bookPage": 56,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9631.PNG（p.56）から全文転記済み（転記バッチT7、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。コラム「ブラックカルダモンって何？」を column ブロックとし、コラム内の写真ラベル2件を caption ブロックとした。ルビ（小豆蔲=しょうずく）は本文に含めない"
    },
    {
     "id": "item-caraway",
     "title": "キャラウェイ",
     "bookPage": 57,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9632.PNG（p.57）から全文転記済み（転記バッチT7、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。ルビ（姫茴香=ひめういきょう）は本文に含めない"
    },
    {
     "id": "item-kuchinashi",
     "title": "くちなし",
     "bookPage": 58,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9633.PNG（p.58）から全文転記済み（転記バッチT7、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。「特徴・用途」は左カラム下部のため読み順として「植物」の後に転記した。ルビ（山梔子=さんしし）は本文に含めない"
    },
    {
     "id": "item-cumin",
     "title": "クミン",
     "bookPage": 59,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9634.PNG（p.59）から全文転記済み（転記バッチT7、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。「使い方のコツ」は左カラム下部のため読み順として「特徴・用途」の後に転記し、コラム「ブラッククミンって何？」を column ブロックとした。ルビ（馬芹=うまぜり）は本文に含めない"
    },
    {
     "id": "item-clove",
     "title": "クローブ",
     "bookPage": 60,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9635.PNG（p.60）から全文転記済み（転記バッチT8、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "item-pepper",
     "title": "こしょう",
     "bookPage": 61,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9636.PNG（p.61）・IMG_9637.PNG（p.62）から全文転記済み（転記バッチT8、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。2ページ品目で、文のページまたぎ（グリーンペッパーの段落）は両ページに印刷どおり転記した。写真ラベルは caption ブロック、「Column」囲みは column ブロックとした"
    },
    {
     "id": "item-coriander",
     "title": "コリアンダー",
     "bookPage": 63,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9638.PNG（p.63）から全文転記済み（転記バッチT8、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "item-saffron",
     "title": "サフラン",
     "bookPage": 64,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9639.PNG（p.64）から全文転記済み（転記バッチT8、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "item-sansho",
     "title": "山椒／花椒",
     "bookPage": 65,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9640.PNG（p.65）・IMG_9641.PNG（p.66）から全文転記済み（転記バッチT8、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。2ページ品目で、文のページまたぎ（【花椒】の段落）は両ページに印刷どおり転記した。写真ラベルは caption ブロック、※書きの囲みは note ブロック、「Column」囲みは column ブロックとした"
    },
    {
     "id": "item-cinnamon",
     "title": "シナモン／カシア",
     "bookPage": 67,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9642.PNG（p.67）から全文転記済み（転記バッチT8、転記データ src/data/transcripts/ch2-1.json、ルールと進捗は docs/TRANSCRIPTION.md）。※書きの囲みは note ブロックとし、写真ラベルは caption ブロックとした"
    },
    {
     "id": "item-ginger",
     "title": "しょうが",
     "bookPage": 68,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9643.PNG（p.68）から全文転記済み（転記バッチT9、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。「しょうがの分類」の【老成（ひね）しょうが】の段落はカラムをまたぐため連結して転記した。本文中の括弧書きの読み（「老成（ひね）」等）は原文どおり転記した"
    },
    {
     "id": "item-staranise",
     "title": "スターアニス",
     "bookPage": 69,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9644.PNG（p.69）から全文転記済み（転記バッチT9、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。「Column」囲みは column ブロックとし、コラム内の写真ラベル3件（スターアニス／アニス／フェンネル）を caption ブロックとした。ルビ（八角=はっかく、大茴香=だいういきょう）は本文に含めない"
    },
    {
     "id": "item-sage-turmeric",
     "title": "セージ、ターメリック",
     "bookPage": 70,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9645.PNG（p.70）から全文転記済み（転記バッチT9、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。1ページに2品目（セージ／ターメリック）が掲載されているため、1レコードに両品目を転記した。※書きの囲みは note ブロックとした"
    },
    {
     "id": "item-thyme",
     "title": "タイム",
     "bookPage": 71,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9646.PNG（p.71）から全文転記済み（転記バッチT9、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。ルビ（立麝香草=たちじゃこうそう）は本文に含めない"
    },
    {
     "id": "item-tarragon",
     "title": "タラゴン",
     "bookPage": 72,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9648.PNG（p.72）から全文転記済み（転記バッチT9、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。※書きの囲み（タラゴンの種類について）は note ブロックとした。「特徴・用途」の段落はカラムをまたぐため連結して転記した"
    },
    {
     "id": "item-chervil",
     "title": "チャービル",
     "bookPage": 73,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9649.PNG（p.73）から全文転記済み（転記バッチT9、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。ルビ（茴香芹=ういきょうぜり）は本文に含めない"
    },
    {
     "id": "item-chive",
     "title": "チャイブ",
     "bookPage": 74,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9650.PNG（p.74）から全文転記済み（転記バッチT9、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。「特徴・用途」の段落はカラムをまたぐため連結して転記した"
    },
    {
     "id": "item-dill",
     "title": "ディル",
     "bookPage": 75,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9651.PNG（p.75）から全文転記済み（転記バッチT9、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。「特徴・用途」の【葉の部分】の段落はカラムをまたぐため連結して転記した"
    },
    {
     "id": "item-chili",
     "title": "唐辛子",
     "bookPage": 76,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9652.PNG（p.76）・IMG_9653.PNG（p.77）から全文転記済み（転記バッチT10、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。p.77 はプロフィール表のない2ページ目で、世界の唐辛子ペースト8種を転記した。コラム「唐辛子の種類」の品種見出しは column ブロックの text に連結して保持した"
    },
    {
     "id": "item-nutmeg",
     "title": "ナツメッグ／メース",
     "bookPage": 78,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9654.PNG（p.78）から全文転記済み（転記バッチT10、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。写真ラベル4件は caption ブロック、※書きの囲みは note ブロックとした。特徴・用途の段落はカラムをまたぐため連結して転記した"
    },
    {
     "id": "item-basil",
     "title": "バジル",
     "bookPage": 79,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9655.PNG（p.79）から全文転記済み（転記バッチT10、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。特徴・用途の段落はカラムをまたぐため連結して転記し、コラム「そのほかのバジル」の品種見出しは column ブロックの text に連結して保持した"
    },
    {
     "id": "item-parsley",
     "title": "パセリ",
     "bookPage": 80,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9656.PNG（p.80）から全文転記済み（転記バッチT10、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。特徴・用途の段落はカラムをまたぐため連結して転記し、写真ラベル2件は caption ブロックとした。ルビ（オランダ芹=オランダぜり）は本文に含めない"
    },
    {
     "id": "item-vanilla",
     "title": "バニラ",
     "bookPage": 81,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9657.PNG（p.81）から全文転記済み（転記バッチT10、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。写真に付いた囲み文は caption ブロックとして転記した"
    },
    {
     "id": "item-paprika",
     "title": "パプリカ",
     "bookPage": 82,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9658.PNG（p.82）から全文転記済み（転記バッチT10、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。「名前の由来」の段落はカラムをまたぐため連結して転記した"
    },
    {
     "id": "item-fennel",
     "title": "フェンネル",
     "bookPage": 83,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9659.PNG（p.83）から全文転記済み（転記バッチT10、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。ルビ（茴香=ういきょう、小茴香=しょうういきょう）は本文に含めない"
    },
    {
     "id": "item-horseradish",
     "title": "ホースラディッシュ",
     "bookPage": 84,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9660.PNG（p.84）から全文転記済み（転記バッチT11、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。「特徴・用途」の段落はカラムをまたぐため連結して転記した"
    },
    {
     "id": "item-marjoram-mustard",
     "title": "マジョラム、マスタード",
     "bookPage": 85,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9661.PNG（p.85）・IMG_9662.PNG（p.86）から全文転記済み（転記バッチT11、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。p.85 は2品目が同居するため1レコードに両品目を転記し、マスタードは p.86 まで続く2ページ品目"
    },
    {
     "id": "item-mint",
     "title": "ミント",
     "bookPage": 87,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9663.PNG（p.87）から全文転記済み（転記バッチT11、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。「特徴・用途」の段落はカラムをまたぐため連結して転記した。ルビ（薄荷=はっか）は本文に含めない"
    },
    {
     "id": "item-rucola",
     "title": "ルッコラ",
     "bookPage": 88,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9664.PNG（p.88）から全文転記済み（転記バッチT11、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "item-lemongrass",
     "title": "レモングラス",
     "bookPage": 89,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9665.PNG（p.89）から全文転記済み（転記バッチT11、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）"
    },
    {
     "id": "item-rosemary",
     "title": "ローズマリー",
     "bookPage": 90,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9666.PNG（p.90）から全文転記済み（転記バッチT11、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。「マリア様のバラ」の段落はカラムをまたぐため連結して転記した"
    },
    {
     "id": "item-laurel",
     "title": "ローレル",
     "bookPage": 91,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9667.PNG（p.91）から全文転記済み（転記バッチT11、転記データ src/data/transcripts/ch2-2.json、ルールと進捗は docs/TRANSCRIPTION.md）。ヘッダーの言語表示は「英」「西」の2つでいずれも Laurel"
    },
    {
     "id": "item-wasabi",
     "title": "わさび",
     "bookPage": 92,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9668.PNG（p.92）から全文転記済み（転記バッチT12、転記データ src/data/transcripts/ch2-3.json、ルールと進捗は docs/TRANSCRIPTION.md）。ルビ（山葵=わさび）は転記本文に含めず転記データの note に記録"
    },
    {
     "id": "item-mix",
     "title": "ミックススパイス・ハーブ",
     "bookPage": 93,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9669.PNG〜IMG_9673.PNG（p.93〜97）から全文転記済み（転記バッチT12、転記データ src/data/transcripts/ch2-3.json、ルールと進捗は docs/TRANSCRIPTION.md）。ミックス類の各品目にはプロフィール表がなく、言語名と検定対象級のみを転記データの table ブロックに保持。七味唐辛子の英名は原文で「−」と印刷されているためそのまま転記"
    },
    {
     "id": "item-others",
     "title": "その他のプロ級スパイス＆ハーブ",
     "bookPage": 98,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は転記バッチT12・T13で p.98〜108 の全範囲を全文転記済み（原本画像 IMG_9674.PNG〜IMG_9684.PNG。プロ級スパイス＆ハーブ29品目: アサフェティダ／アジョワン／カフェライム／ガランガル／カレーリーフ／かんぞう（甘草）／クベバ／グレインズオブパラダイス／クレソン／ケイパー／けしの実／サフラワー／サボリー／しそ（紫蘇）／ジュニパーベリー／スマック／セロリー／ソレル／たで（蓼）／タマリンド／どくだみ／ニゲラ／パンダンリーフ／フェネグリーク／マーシュ／マンゴーパウダー／みつば／レモンバーム／ロングペッパー、および p.107〜108 の「その他のミックススパイス」6品目: カトルエピス／ザーター／ダッカ（デュカ）／チャートマサラ（チャットマサラ）／パンチフォロン／ラセラヌー。転記データ src/data/transcripts/ch2-3.json、ルールと進捗は docs/TRANSCRIPTION.md）。本節の転記は完了"
    }
   ]
  },
@@ -521,43 +521,43 @@ export const CHAPTERS: Chapter[] = [
     "id": "life-tea",
     "title": "好みで楽しむハーブティー",
     "bookPage": 110,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9686.PNG〜IMG_9690.PNG（p.110〜114）から全文転記済み（転記バッチT14、転記データ src/data/transcripts/ch3.json、ルールと進捗は docs/TRANSCRIPTION.md）。ハーブティーによく使われるハーブリスト（p.113〜114、全20品目）は品目名と説明文の table ブロックで保持。本節の転記は完了"
    },
    {
     "id": "life-beauty",
     "title": "ヘルス＆ビューティーに生かすスパイス＆ハーブ",
     "bookPage": 115,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9691.PNG〜IMG_9692.PNG（p.115〜116）から全文転記済み（転記バッチT14、転記データ src/data/transcripts/ch3.json、ルールと進捗は docs/TRANSCRIPTION.md）。効能に関する表現は原文どおりに転記。本節の転記は完了"
    },
    {
     "id": "life-house",
     "title": "ハウスキーピングに役立つスパイス＆ハーブ",
     "bookPage": 117,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は転記バッチT14・T15で p.117〜118 の全範囲を全文転記済み（原本画像 IMG_9693.PNG〜IMG_9694.PNG、転記データ src/data/transcripts/ch3.json、ルールと進捗は docs/TRANSCRIPTION.md）。精油コラムと注意事項も原文どおりに転記。本節の転記は完了"
    },
    {
     "id": "life-handmade",
     "title": "ハンドメイドで楽しむスパイス＆ハーブ",
     "bookPage": 119,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は転記バッチT15で p.119〜121 の全範囲を全文転記済み（原本画像 IMG_9695.PNG〜IMG_9697.PNG、転記データ src/data/transcripts/ch3.json、ルールと進捗は docs/TRANSCRIPTION.md）。サシェにおすすめのスパイス＆ハーブ（3区分・9品目）は table ブロックで保持。本節の転記は完了"
    },
    {
     "id": "life-grow",
     "title": "手軽に育てる ハーブの栽培",
     "bookPage": 122,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は転記バッチT15・T16で p.122〜127 の全範囲を全文転記済み（原本画像 IMG_9698.PNG〜IMG_9703.PNG、転記データ src/data/transcripts/ch3.json、ルールと進捗は docs/TRANSCRIPTION.md）。本節の転記は完了"
    },
    {
     "id": "life-health",
     "title": "スパイス＆ハーブと健康",
     "bookPage": 128,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は転記バッチT16で p.128〜135 の全範囲を全文転記済み（原本画像 IMG_9704.PNG〜IMG_9711.PNG、転記データ src/data/transcripts/ch3.json、ルールと進捗は docs/TRANSCRIPTION.md）。伝統医学の表（アーユルヴェーダ／漢方／メディカルハーブ）と成分による生体調節機能の表、減塩メニュー例は table ブロックで保持。効能に関する表現は原文どおりに転記。本節の転記は完了"
    }
   ]
  },
@@ -570,36 +570,36 @@ export const CHAPTERS: Chapter[] = [
     "id": "exam-about",
     "title": "スパイス＆ハーブ検定について",
     "bookPage": 136,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は転記バッチT17で p.136 の全範囲を全文転記済み（原本画像 IMG_9712.PNG、転記データ src/data/transcripts/exam.json、ルールと進捗は docs/TRANSCRIPTION.md）。英語の小見出し「about Spice & herb test」は note ブロックとして保持。本節の転記は完了"
    },
    {
     "id": "exam-outline",
     "title": "試験概要",
     "bookPage": 137,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は転記バッチT17で p.137 の全範囲を全文転記済み（原本画像 IMG_9713.PNG、転記データ src/data/transcripts/exam.json、ルールと進捗は docs/TRANSCRIPTION.md）。各級が目指すレベルと各級の出題内容は table ブロックで保持し、出題内容の※書きは同じセル内に含めた。1級のラベルは原文で「出題形式」と印刷されているためそのまま転記。本節の転記は完了"
    },
    {
     "id": "exam-target",
     "title": "スパイス＆ハーブ検定 対象スパイス＆ハーブ",
     "bookPage": 138,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は転記バッチT17で p.138 の全範囲を全文転記済み（原本画像 IMG_9714.PNG、転記データ src/data/transcripts/exam.json、ルールと進捗は docs/TRANSCRIPTION.md）。対象一覧表（全80品目）は左右2カラムを読み順に1つの table ブロックへ保持し、該当する級は原文の「●」、該当しない級は原文では空白のためデータ表現上「−」とした。級別の該当数は実測で見出しどおり（3級25件・2級45件・1級80件）。なお原文の見出しは「対象スパイス・ハーブ」（中黒入り）。本節の転記は完了"
    },
    {
     "id": "exam-sample",
     "title": "スパイス＆ハーブ検定 予想問題",
     "bookPage": 139,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は転記バッチT17で p.139〜140 を転記済み（原本画像 IMG_9715.PNG・IMG_9716.PNG、転記データ src/data/transcripts/exam.json、ルールと進捗は docs/TRANSCRIPTION.md）。転記したのは教科書（本書）に掲載された「教科書の予想問題」の3級用 Q01〜Q20 とその解答であり、アプリの正式問題とは別物。2級用・1級用の予想問題は p.141 以降にあるとみられるが、Drive の原本画像は p.140 までしか存在しないため未転記であり、本節は部分転記"
    },
    {
     "id": "index",
     "title": "主なスパイス＆ハーブの索引",
     "bookPage": 145,
     "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）"
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページのみ。本文は未転記）。Drive の原本画像は p.140（IMG_9716.PNG）までしか存在せず、本節（p.145〜）の原本画像がないため転記できない（転記バッチT17で最終状態として確定）"
    }
   ]
  }
