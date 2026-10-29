@@ -2,7 +2,7 @@
  {
   "id": "paprika-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "パプリカ",
   "category": "profile",
@@ -17,12 +17,17 @@
    "id": "paprika",
    "name": "パプリカ",
    "en": "Paprika"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "プロフィール表（別名・科名・原産地・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "paprika-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "パプリカ",
   "category": "spice-fact",
@@ -37,12 +42,17 @@
    "id": "paprika",
    "name": "パプリカ",
    "en": "Paprika"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "特徴・用途欄の赤い色の色素成分は油によく溶けるので油といっしょに調理するときれいに色づけできる、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "paprika-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "パプリカ",
   "category": "spice-fact",
@@ -61,12 +71,17 @@
    "id": "paprika",
    "name": "パプリカ",
    "en": "Paprika"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "コラム「名前の由来」の「パプリカ」とは唐辛子全般をさすハンガリー語・ハンガリーでは必ずしも甘唐辛子を指すわけではない、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "paprika-3",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "パプリカ",
   "category": "spice-fact",
@@ -81,39 +96,48 @@
    "id": "paprika",
    "name": "パプリカ",
    "en": "Paprika"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "コラム「野菜のパプリカと同じもの？」の野菜売り場の肉厚なパプリカとは品種が異なり、果肉が薄く乾燥しやすい、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "paprika-4",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "パプリカ",
   "category": "spice-fact",
-  "content": "ハンガリーのセント・ジェルジ博士がパプリカに柑橘類より多いビタミンCを発見・分離し、1937年にノーベル賞を受賞したことが消費拡大のきっかけ。",
+  "content": "ハンガリーのスザント・ゲオルギー博士がパプリカに柑橘類より多いビタミンCを発見・分離し、1937年にノーベル賞を受賞したことが消費拡大のきっかけ。",
   "source": {
    "page": 82,
    "sourceUnitId": "paprika-4",
    "origin": "claude/build-learning-app"
   },
   "draftQa": {
-   "q": "パプリカのビタミンCの研究でノーベル賞を受賞したハンガリー人は?",
-   "a": "セント・ジェルジ",
+   "a": "スザント・ゲオルギー",
    "alt": [
-    "セント・ジェルジ博士",
-    "スザント・ゲオルギー"
-   ]
+    "スザント・ゲオルギー博士"
+   ],
+   "q": "パプリカのビタミンCの研究でノーベル賞を受賞したハンガリー人は?"
   },
   "spice": {
    "id": "paprika",
    "name": "パプリカ",
    "en": "Paprika"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "誤りを修正して昇格: 人名のカナ表記が原文と異なっていた（修正前 content「セント・ジェルジ博士」/ a「セント・ジェルジ」→ 原文コラム「世界中で消費量がふえたきっかけは？」の表記「スザント・ゲオルギー博士」に修正。拡大読解で確認）。ビタミンC発見・分離、1937年ノーベル賞、消費拡大のきっかけの事実関係は原文と一致",
+   "needsReview": false
   }
  },
  {
   "id": "paprika-5",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "パプリカ",
   "category": "spice-fact",
@@ -128,12 +152,17 @@
    "id": "paprika",
    "name": "パプリカ",
    "en": "Paprika"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "コラムの「パプリカを使った料理で特に有名なのが『ハンガリアングラーシュ』という煮込み料理」と一致",
+   "needsReview": false
   }
  },
  {
   "id": "fennel-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "フェンネル",
   "category": "profile",
@@ -148,12 +177,17 @@
    "id": "fennel",
    "name": "フェンネル",
    "en": "Fennel"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "プロフィール表（別名・科名・原産地・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "fennel-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "フェンネル",
   "category": "spice-fact",
@@ -168,12 +202,17 @@
    "id": "fennel",
    "name": "フェンネル",
    "en": "Fennel"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "特徴・用途欄のディル、タイムとともに「魚のハーブ」・種子は中国のミックススパイスの五香粉やカレー粉の原料、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "fennel-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "フェンネル",
   "category": "spice-fact",
@@ -188,12 +227,17 @@
    "id": "fennel",
    "name": "フェンネル",
    "en": "Fennel"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "コラム「インドでは口臭消しに」の消化を助け口臭を消す効果・食後に口直しとして噛む習慣と一致",
+   "needsReview": false
   }
  },
  {
   "id": "fennel-3",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "フェンネル",
   "category": "spice-fact",
@@ -212,12 +256,17 @@
    "id": "fennel",
    "name": "フェンネル",
    "en": "Fennel"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "コラム「名前の由来」のラテン語フェヌム（Foenum＝枯れ草）・スターアニス=大茴香に対して小茴香、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "fennel-4",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "フェンネル",
   "category": "spice-fact",
@@ -236,12 +285,17 @@
    "id": "fennel",
    "name": "フェンネル",
    "en": "Fennel"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "Column「株のまま売られているフェンネル」のフローレンスフェンネル（主に食用の種類・肥大した株元を野菜感覚で利用）と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "horseradish-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ホースラディッシュ",
   "category": "profile",
@@ -256,12 +310,17 @@
    "id": "horseradish",
    "name": "ホースラディッシュ",
    "en": "Horseradish"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "プロフィール表（別名・科名・原産地・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "horseradish-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ホースラディッシュ",
   "category": "spice-fact",
@@ -276,12 +335,17 @@
    "id": "horseradish",
    "name": "ホースラディッシュ",
    "en": "Horseradish"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "見出しのローストビーフに欠かせない・ツーンと鼻に抜ける辛み、特徴・用途欄の日本ではチューブ入りわさびや粉わさびの原料、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "horseradish-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ホースラディッシュ",
   "category": "spice-fact",
@@ -300,12 +364,17 @@
    "id": "horseradish",
    "name": "ホースラディッシュ",
    "en": "Horseradish"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "コラム「北海道に自生」のアメリカから伝来・北海道で野生化・「アイヌわさび」と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "horseradish-3",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ホースラディッシュ",
   "category": "spice-fact",
@@ -324,12 +393,17 @@
    "id": "horseradish",
    "name": "ホースラディッシュ",
    "en": "Horseradish"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "コラム「中世までは薬として」の中世のドイツで盛んにスパイスとして使われ、フランスでは「ドイツ人のからし」と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "marjoram-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "マジョラム",
   "category": "profile",
@@ -344,12 +418,17 @@
    "id": "marjoram",
    "name": "マジョラム",
    "en": "Marjoram"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "プロフィール表（別名・科名・原産地・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "marjoram-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "マジョラム",
   "category": "spice-fact",
@@ -368,12 +447,17 @@
    "id": "marjoram",
    "name": "マジョラム",
    "en": "Marjoram"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "特徴・用途欄のオレガノと似ているが、より甘く繊細な香り、右欄の羊肉、魚、レバーなどの臭み消しに下ごしらえの段階で用いられる、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "marjoram-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "マジョラム",
   "category": "spice-fact",
@@ -388,12 +472,17 @@
    "id": "marjoram",
    "name": "マジョラム",
    "en": "Marjoram"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "コラム「幸福のシンボル」の古代ギリシア・ローマ時代に幸福のシンボルとして幸せな新婚夫婦にかぶせる冠、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "mustard-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "マスタード",
   "category": "profile",
@@ -408,12 +497,17 @@
    "id": "mustard",
    "name": "マスタード",
    "en": "Mustard"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "プロフィール表（別名・科名・原産地［種類別の内訳を含む］・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "mustard-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "マスタード",
   "category": "spice-fact",
@@ -432,12 +526,17 @@
    "id": "mustard",
    "name": "マスタード",
    "en": "Mustard"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "p.85枠内注記※の白からし、和がらし、黒からしの3種類・それぞれ形状、辛み成分は異なる、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "mustard-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "マスタード",
   "category": "spice-fact",
@@ -456,12 +555,17 @@
    "id": "mustard",
    "name": "マスタード",
    "en": "Mustard"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "根拠は記事の続き p.86 コラム「種類別の辛みの違い」: 和がらし・黒からしの成分アリル芥子油（揮発性のあるツーンとする辛み）、白からしの成分ベンジル芥子油（揮発性が弱くマイルド）。source.page=85（記事開始ページ）のまま、文章の根拠ページは86であることを COLLATION_BATCH4 に記録。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "mustard-3",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "マスタード",
   "category": "spice-fact",
@@ -480,12 +584,17 @@
    "id": "mustard",
    "name": "マスタード",
    "en": "Mustard"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "根拠は p.86 コラム「粉からしを溶くときはぬるま湯で」: 酵素（ミロシナーゼ）が40度前後で最も活性化。source.page の扱いは mustard-2 と同じ。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "mustard-4",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "マスタード",
   "category": "spice-fact",
@@ -500,12 +609,17 @@
    "id": "mustard",
    "name": "マスタード",
    "en": "Mustard"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "根拠は p.86 コラム「ドレッシングに加えるのは？」: 乳化を助ける働きがありドレッシングに加えると分離しにくくなる、と一致。source.page の扱いは mustard-2 と同じ",
+   "needsReview": false
   }
  },
  {
   "id": "mustard-5",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "マスタード",
   "category": "spice-fact",
@@ -520,12 +634,17 @@
    "id": "mustard",
    "name": "マスタード",
    "en": "Mustard"
+  },
+  "collation": {
+   "batch": "batch4",
+   "reason": "根拠は p.86 枠内注記※: 日本のからし製品は「和風ねりからし」「ねりからし」「マスタード」の3タイプに大別、と一致。source.page の扱いは mustard-2 と同じ",
+   "needsReview": false
   }
  },
  {
   "id": "mint-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ミント",
   "category": "profile",
@@ -540,12 +659,17 @@
    "id": "mint",
    "name": "ミント",
    "en": "Mint"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "プロフィール表（別名・科名・原産地・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "mint-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ミント",
   "category": "spice-fact",
@@ -564,12 +688,17 @@
    "id": "mint",
    "name": "ミント",
    "en": "Mint"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "枠内注記※の交雑しやすく数多くの種類が存在・ペパーミントはウォーターミントとスペアミントの交配種でメントールを主とするクールな香り・スペアミントは穏やかで清涼感の中に甘みのある風味、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "mint-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ミント",
   "category": "spice-fact",
@@ -588,12 +717,17 @@
    "id": "mint",
    "name": "ミント",
    "en": "Mint"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "コラム「名前の由来」のギリシア神話の美しい妖精ミンテにちなみ、その美しさから冥界の王ハデスの心をとらえ、嫉妬した王の妻ペルセポネによって草に姿を変えられた、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "rucola-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ルッコラ",
   "category": "profile",
@@ -608,12 +742,17 @@
    "id": "rucola",
    "name": "ルッコラ",
    "en": "Rocket"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "プロフィール表（別名・科名・原産地・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "rucola-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ルッコラ",
   "category": "spice-fact",
@@ -632,12 +771,17 @@
    "id": "rucola",
    "name": "ルッコラ",
    "en": "Rocket"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "見出しのイタリア料理の定番ハーブ、特徴・用途欄の葉は噛むとごまに似た香り・クレソンのような若干の辛み・イタリア料理で多用、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "rucola-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ルッコラ",
   "category": "spice-fact",
@@ -656,12 +800,17 @@
    "id": "rucola",
    "name": "ルッコラ",
    "en": "Rocket"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "コラム「ルッコラセルバチカ（セルバチコ）って何？」のルッコラの原種といわれる品種・通常より葉の切り込みが大きく辛みや香りがより強い、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "lemongrass-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "レモングラス",
   "category": "profile",
@@ -676,12 +825,17 @@
    "id": "lemongrass",
    "name": "レモングラス",
    "en": "Lemongrass"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "プロフィール表（別名・科名・原産地・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "lemongrass-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "レモングラス",
   "category": "spice-fact",
@@ -700,12 +854,17 @@
    "id": "lemongrass",
    "name": "レモングラス",
    "en": "Lemongrass"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "特徴・用途欄の爽やかなレモンのような香り・東南アジアで広く利用・代表料理はタイのトムヤムクン、植物欄の熱帯植物のため冬の寒さに弱い、と一致。q/a（イネ科）は同ページのプロフィール表で照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "lemongrass-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "レモングラス",
   "category": "spice-fact",
@@ -720,12 +879,17 @@
    "id": "lemongrass",
    "name": "レモングラス",
    "en": "Lemongrass"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "コラム「使い方のコツ」の葉に傷をつけて初めて香りを強く漂わせる・刻んだりもんだりして使う、コラム「茎まで楽しむ」の東南アジア諸国ではかたく締まった茎部分も利用、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "rosemary-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ローズマリー",
   "category": "profile",
@@ -740,12 +904,17 @@
    "id": "rosemary",
    "name": "ローズマリー",
    "en": "Rosemary"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "プロフィール表（別名・科名・原産地・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "rosemary-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ローズマリー",
   "category": "spice-fact",
@@ -760,12 +929,17 @@
    "id": "rosemary",
    "name": "ローズマリー",
    "en": "Rosemary"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "特徴・用途欄のラム（子羊）、豚肉、青魚などクセの強い食材の臭み消しとして利用・フォカッチャなどの風味づけに広く活躍、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "rosemary-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ローズマリー",
   "category": "spice-fact",
@@ -780,12 +954,17 @@
    "id": "rosemary",
    "name": "ローズマリー",
    "en": "Rosemary"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "コラム「頭脳を明晰に！？」の古代ギリシアでは香りは頭脳を明晰にするとされ、学生たちは記憶定着のために身につけた、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "rosemary-3",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ローズマリー",
   "category": "spice-fact",
@@ -804,12 +983,17 @@
    "id": "rosemary",
    "name": "ローズマリー",
    "en": "Rosemary"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "コラム「マリア様のバラ」の聖母マリアが青いマントをハーブの茂みにかぶせ白い花が青に変わった伝説が英名の由来とする俗説・マリアを象徴する花がバラであることから「ローズ・オブ・マリー（マリア様のバラ）」、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "rosemary-4",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ローズマリー",
   "category": "spice-fact",
@@ -828,12 +1012,17 @@
    "id": "rosemary",
    "name": "ローズマリー",
    "en": "Rosemary"
+  },
+  "collation": {
+   "batch": "batch5",
+   "reason": "Column「ローズマリーの種類」の育ち方で立性・ほふく性・半立性の3種類に分けられ、半立性は3種類の中で一番香りがよく料理に向いている、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "laurel-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ローレル",
   "category": "profile",
@@ -848,12 +1037,17 @@
    "id": "laurel",
    "name": "ローレル",
    "en": "Laurel"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "プロフィール表（別名・科名・原産地・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "laurel-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ローレル",
   "category": "spice-fact",
@@ -872,12 +1066,17 @@
    "id": "laurel",
    "name": "ローレル",
    "en": "Laurel"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "枠内注記※「ローレルの種類について」の月桂樹（和名）・ベイリーブス（英名）・ローリエ（仏名）は一般的にはどれも同じものをさす・商業的にはアメリカ産をベイリーブス、地中海産をローレル（ローリエ）として区分することも、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "laurel-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ローレル",
   "category": "spice-fact",
@@ -892,12 +1091,17 @@
    "id": "laurel",
    "name": "ローレル",
    "en": "Laurel"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "植物欄の地中海沿岸、ヨーロッパ産は葉が丸みを帯びて煮込み料理に合う・アメリカ産は細長い葉ですがすがしさが強く加熱しないマリネなどに適する、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "laurel-3",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ローレル",
   "category": "spice-fact",
@@ -916,12 +1120,17 @@
    "id": "laurel",
    "name": "ローレル",
    "en": "Laurel"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "コラム「使い方のコツ」の長時間煮込むと苦みが出てくるので、1時間ほどで取り出すとよい、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "laurel-4",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ローレル",
   "category": "spice-fact",
@@ -936,12 +1145,17 @@
    "id": "laurel",
    "name": "ローレル",
    "en": "Laurel"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "コラム「栄光のシンボル」の古代ローマの時代から英雄に与えられる冠の材料に使われ、今でも各種スポーツの勝者に与えられる、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "wasabi-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "わさび",
   "category": "profile",
@@ -956,12 +1170,17 @@
    "id": "wasabi",
    "name": "わさび",
    "en": "Wasabi"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "プロフィール表（別名・科名・原産地・利用部位）と検定対象級が一致",
+   "needsReview": false
   }
  },
  {
   "id": "wasabi-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "わさび",
   "category": "spice-fact",
@@ -980,12 +1199,17 @@
    "id": "wasabi",
    "name": "わさび",
    "en": "Wasabi"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "植物欄の環境に敏感で栽培が難しい・年間の平均気温が12〜15度前後の地域が栽培に適する、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "wasabi-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "わさび",
   "category": "spice-fact",
@@ -1004,12 +1228,17 @@
    "id": "wasabi",
    "name": "わさび",
    "en": "Wasabi"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "コラム「辛みの正体は？」の揮発性のアリル芥子油・細胞中の辛みのもと「シニグリン」に水と酵素「ミロシナーゼ」が作用して生み出される、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "wasabi-3",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "わさび",
   "category": "spice-fact",
@@ -1028,12 +1257,17 @@
    "id": "wasabi",
    "name": "わさび",
    "en": "Wasabi"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "同コラムのすりおろして1〜3分で香り、辛みのピークに達する、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "wasabi-4",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "わさび",
   "category": "spice-fact",
@@ -1048,12 +1282,17 @@
    "id": "wasabi",
    "name": "わさび",
    "en": "Wasabi"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "コラム「わさびの抗菌作用」のアリル芥子油には抗菌作用があり、この成分だけを取り出してお弁当用の抗菌シートやエアコンの抗菌に使用される例もある、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "gokoufun-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "五香粉",
   "category": "profile",
@@ -1068,12 +1307,17 @@
    "id": "gokoufun",
    "name": "五香粉",
    "en": "Chinese five spices"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "見出し文「中国料理によく使われる代表的なミックススパイス」と検定対象級（1・2級）が一致",
+   "needsReview": false
   }
  },
  {
   "id": "gokoufun-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "五香粉",
   "category": "spice-fact",
@@ -1092,12 +1336,17 @@
    "id": "gokoufun",
    "name": "五香粉",
    "en": "Chinese five spices"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "特徴・用途欄の中国を代表するミックススパイス・配合は一般的に山椒（花椒）、クローブ、シナモン（またはカシア）の3種類と、スターアニス、フェンネル、陳皮のうちの2種類、計5種類の粉末が混合されることが多い、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "gokoufun-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "五香粉",
   "category": "spice-fact",
@@ -1116,12 +1365,17 @@
    "id": "gokoufun",
    "name": "五香粉",
    "en": "Chinese five spices"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "同欄の陳皮（みかんの皮を乾燥させたもの）と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "herbesdeprovence-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "エルブドプロバンス",
   "category": "profile",
@@ -1136,12 +1390,17 @@
    "id": "herbesdeprovence",
    "name": "エルブドプロバンス",
    "en": "Herbes de Provence"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "見出し（仏 Herbes de Provence）と検定対象級（1・2級）が一致",
+   "needsReview": false
   }
  },
  {
   "id": "hdp-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "エルブドプロバンス",
   "category": "spice-fact",
@@ -1156,12 +1415,17 @@
    "id": "herbesdeprovence",
    "name": "エルブドプロバンス",
    "en": "Herbes de Provence"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "特徴・用途欄の南フランス地方でとれるハーブ数種類をミックスしたもので、ローズマリーやタイム、オレガノなど香りに特徴のあるハーブを組み合わせている、右欄の特にブイヤベースなど魚介類のスープやローストなどじっくりと時間をかけて加熱する料理に使われることが多い、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "hdp-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "エルブドプロバンス",
   "category": "spice-fact",
@@ -1180,12 +1444,17 @@
    "id": "herbesdeprovence",
    "name": "エルブドプロバンス",
    "en": "Herbes de Provence"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "コラム「名前の由来」のフランス語で「プロバンス地方（南仏）のハーブ」という意味、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "garammasala-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ガラムマサラ",
   "category": "profile",
@@ -1200,12 +1469,17 @@
    "id": "garammasala",
    "name": "ガラムマサラ",
    "en": "Garam masala"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "見出し文「インドの家庭料理に欠かせないミックススパイス」と検定対象級（1・2・3級）が一致",
+   "needsReview": false
   }
  },
  {
   "id": "gm-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ガラムマサラ",
   "category": "spice-fact",
@@ -1224,12 +1498,17 @@
    "id": "garammasala",
    "name": "ガラムマサラ",
    "en": "Garam masala"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "特徴・用途欄のインドを代表するミックススパイス・通常3〜10種類のスパイスを配合・インドでは料理の仕上げに香りや辛みを高める目的で使うのが一般的、コラム「インドの家庭の常備品」の何日分かを作りおいて常備するのが一般的、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "gm-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ガラムマサラ",
   "category": "spice-fact",
@@ -1251,12 +1530,17 @@
    "id": "garammasala",
    "name": "ガラムマサラ",
    "en": "Garam masala"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "コラム「ガラムマサラの意味は？」のヒンディー語でガラム（garam）は「温かい、熱い」、マサラ（masala）は「（混合）スパイス」という意味、と一致。q/a・alt も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "gm-3",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "ガラムマサラ",
   "category": "spice-fact",
@@ -1275,12 +1559,17 @@
    "id": "garammasala",
    "name": "ガラムマサラ",
    "en": "Garam masala"
+  },
+  "collation": {
+   "batch": "batch6",
+   "reason": "コラム「カレー粉との違いは？」のガラムマサラがインド発祥、カレー粉はイギリス発祥・色づけのためカレー粉にはターメリックが使われるが、ガラムマサラには入らないことが多い、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "currypowder-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "カレー粉",
   "category": "profile",
@@ -1295,12 +1584,17 @@
    "id": "currypowder",
    "name": "カレー粉",
    "en": "Curry powder"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "見出し（英 Curry powder）と検定対象級（1・2・3級）が一致",
+   "needsReview": false
   }
  },
  {
   "id": "cp-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "カレー粉",
   "category": "spice-fact",
@@ -1319,12 +1613,17 @@
    "id": "currypowder",
    "name": "カレー粉",
    "en": "Curry powder"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "特徴・用途欄の日本で市販されているカレー粉には通常20〜30種類のスパイスが使われている、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "cp-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "カレー粉",
   "category": "spice-fact",
@@ -1339,12 +1638,17 @@
    "id": "currypowder",
    "name": "カレー粉",
    "en": "Curry powder"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "コラム「インドにカレー粉はない!?」の「カレー」と称する料理はなく、欧米や日本では総称してカレーと呼んでいる、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "cp-3",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "カレー粉",
   "category": "spice-fact",
@@ -1363,12 +1667,17 @@
    "id": "currypowder",
    "name": "カレー粉",
    "en": "Curry powder"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "コラム「西洋文化との融合で誕生したカレー粉」の発祥はイギリス・18世紀後半にインド赴任のイギリス人がカレー料理をもたらした、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "cp-4",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "カレー粉",
   "category": "spice-fact",
@@ -1383,12 +1692,17 @@
    "id": "currypowder",
    "name": "カレー粉",
    "en": "Curry powder"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "Column「オリジナルのカレー粉を作ろう！」の代表的なスパイスやハーブ12種類・材料はすべてパウダー・作り方のフライパンで弱火で煎る、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "shichimi-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "七味唐辛子",
   "category": "profile",
@@ -1403,12 +1717,17 @@
    "id": "shichimi",
    "name": "七味唐辛子",
    "en": "—"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "見出し（英名なし）と検定対象級（1・2・3級）が一致",
+   "needsReview": false
   }
  },
  {
   "id": "shichimi-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "七味唐辛子",
   "category": "spice-fact",
@@ -1427,12 +1746,17 @@
    "id": "shichimi",
    "name": "七味唐辛子",
    "en": "—"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "コラム「七味の配合の基本」の「二辛五香」は辛さに特徴のあるもの2種類、香りを重視したもの5種類という意味、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "shichimi-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "七味唐辛子",
   "category": "spice-fact",
@@ -1451,12 +1775,17 @@
    "id": "shichimi",
    "name": "七味唐辛子",
    "en": "—"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "コラム「七味唐辛子の発祥は？」の寛永2年・1625年にからしや徳右衛門が江戸の薬研堀（現在の東日本橋）に店を構えて売り出したのが最初とされる、と一致。q/a も照合済み",
+   "needsReview": false
   }
  },
  {
   "id": "shichimi-3",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "七味唐辛子",
   "category": "spice-fact",
@@ -1471,12 +1800,17 @@
    "id": "shichimi",
    "name": "七味唐辛子",
    "en": "—"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "コラム「原料は全国共通？」の共通するのは唐辛子、山椒、ごま、麻の実くらい、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "shichimi-4",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "七味唐辛子",
   "category": "spice-fact",
@@ -1491,12 +1825,17 @@
    "id": "shichimi",
    "name": "七味唐辛子",
    "en": "—"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "Column「『麻の実』って？」のアサ科の麻の種子・いなり寿司やけんちん汁にも使われる、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "chilipowder-profile",
   "kind": "spice-profile",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "チリパウダー",
   "category": "profile",
@@ -1511,12 +1850,17 @@
    "id": "chilipowder",
    "name": "チリパウダー",
    "en": "Chili powder"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "見出し（英 Chili powder）と検定対象級（1・2級）が一致",
+   "needsReview": false
   }
  },
  {
   "id": "chp-1",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "チリパウダー",
   "category": "spice-fact",
@@ -1531,12 +1875,17 @@
    "id": "chilipowder",
    "name": "チリパウダー",
    "en": "Chili powder"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "特徴・用途欄の唐辛子と、オレガノ、クミン、ガーリック、パプリカなどを数種類配合・アメリカでメキシコ風の料理「テクス・メクス料理」に用いられる、と一致",
+   "needsReview": false
   }
  },
  {
   "id": "chp-2",
   "kind": "spice-fact",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch2",
   "sectionTitle": "チリパウダー",
   "category": "spice-fact",
@@ -1555,6 +1904,11 @@
    "id": "chilipowder",
    "name": "チリパウダー",
    "en": "Chili powder"
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "コラム「チリペッパーとは違うの？」のチリパウダーはミックススパイス、チリペッパーは唐辛子単体のことをさす、と一致。q/a も照合済み",
+   "needsReview": false
   }
  }
 ]

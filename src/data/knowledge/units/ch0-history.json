@@ -2,7 +2,7 @@
  {
   "id": "h-egypt-mummy",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "spice",
@@ -17,12 +17,17 @@
    "a": "シナモン",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "「古代から効能が知られ祭事にも使われたスパイス」=「王族など高貴な人々のミイラ作りでは、強力な防腐作用を持つシナモンなどのスパイスが、遥か遠い国から取り寄せられて遺体に詰められた」と一致。q/a（a「シナモン」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-egypt-pyramid",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "spice",
@@ -39,12 +44,17 @@
     "にんにく"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「王族の墓所であるピラミッド建設の際に、多くの労働者たちに体力をつける強壮剤のような目的で、大量のガーリックが使われていたことも伝えられています」と一致。q/a（a「ガーリック」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-china-2500bc",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "year",
@@ -59,12 +69,17 @@
    "a": "紀元前2500年頃",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「紀元前2500年頃の中国ではスパイスを加えた香酒や香飯が神に供えられるなど、宗教的にも重要な役割を担っていました」と一致。年号（紀元前2500年頃）もページ記載と一致。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-han-clove",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "spice",
@@ -82,12 +97,17 @@
     "丁香"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「紀元前後の中国の漢時代には、宮廷の官吏が天子に政事（まつりごと）を奏上するときに、1本のクローブを口に含んで口臭を消し、吐息を清めるなど香薬として重用していたようです」と一致。q/a（a「クローブ」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-incense",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "purpose",
@@ -102,12 +122,17 @@
    "a": "空気を清める香煙",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「このほか各国で山椒、クローブ、シナモンなどが寺院や教会で火にくべられ、空気を清める香煙として使われたとされます」と一致。q/a（a「空気を清める香煙」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-hippocrates",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "person",
@@ -122,12 +147,17 @@
    "a": "ヒポクラテス",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "「医学、薬学、植物学の誕生にもハーブは深くかかわる」=「古代ギリシャ時代の医師ヒポクラテスは、紀元前400年頃に400種ものハーブの処方をまとめたと伝えられています」（p.6）と、続きページ p.7 冒頭の「病気を科学的にとらえたことから、現代医学の基礎を築いたとされ、『医学の父』とも呼ばれています」と一致。根拠は p.6〜7 の連続記事にある（バッチ4・19の前例どおり根拠ページを明記して昇格。source.page は記事開始ページ6のまま）。数値（紀元前400年頃・400種）もページ記載と一致。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-dioscorides",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "person",
@@ -142,12 +172,17 @@
    "a": "ディオスコリデス",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項（p.6からの続き）=「紀元50〜70年頃に活躍したローマ時代の医師ディオスコリデスは、植物、動物、鉱物などを利用し、鎮痛や消炎、利尿、下剤などの薬理機能によって分類した『マテリア・メディカ（薬物誌）』を著しました」と一致。年号・書名もページ記載と一致。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-materia-600",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "count",
@@ -162,12 +197,17 @@
    "a": "600種",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「掲載されている植物は600種にも及びます」と一致。数値（600種）も原文どおり。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-ancient-uses",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "purpose",
@@ -182,12 +222,17 @@
    "a": "祭事・媚薬・保存剤",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "「スパイスがもたらした東西交易と東洋への憧れ」=「古代より薬事、祭事、媚薬、保存剤などの目的で使われ、貴重品とされてきたスパイスやハーブ」と一致。q/a（a「祭事・媚薬・保存剤」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-medieval-price",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "misc",
@@ -202,12 +247,17 @@
    "a": "金銀",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「中世にかけて、スパイスは産地である東洋からヨーロッパへ陸路や海路で運ばれていました。盗賊の襲撃や自然災害などの危険に加え、輸送時間も長かったため、価格は高騰。ヨーロッパでは金銀に匹敵する価値を持つようになりました」と一致（単位の「盗賊や災害」は「盗賊の襲撃や自然災害」の要約）。q/a（a「金銀」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-constantinople",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "place",
@@ -222,12 +272,17 @@
    "a": "イスタンブール",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「交易の中継地となったアラビア半島の港町や市場町を中心に、アラブ商人が洋の東西を行き交い、コンスタンティノープル（現・イスタンブール）などの都市が繁栄を極めました」と一致。q/a（a「イスタンブール」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-venice",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "purpose",
@@ -242,12 +297,17 @@
    "a": "肉の保存",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「中世ヨーロッパで肉の保存用としての需要が高まってくると、スパイスはますます重要な交易品となります。ヴェネツィアなどの地中海沿岸の都市は、東方からの物資の中継地として繁栄し」と一致。q/a（a「肉の保存」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-marco-polo",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "book",
@@ -264,12 +324,17 @@
     "東方見聞録"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「1299年に、マルコ・ポーロが東洋で目にした事柄をまとめた旅行記『世界の記述』（『東方見聞録』）が発表されると、そこに記された美しい絹織物、香料諸島とも呼ばれるモルッカ諸島（マルク諸島）や中国のスパイス、そしてジパング（日本）の黄金の宮殿などは、ヨーロッパの人々に強烈な印象を与えました」と一致。年号（1299年）・書名もページ記載と一致。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-marco-polo-year",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "year",
@@ -284,12 +349,17 @@
    "a": "1299年",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項の「1299年に、マルコ・ポーロが東洋で目にした事柄をまとめた旅行記『世界の記述』（『東方見聞録』）が発表されると」と一致。年号も原文どおり。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-moluccas",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "place",
@@ -306,12 +376,17 @@
     "マルク諸島"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「香料諸島とも呼ばれるモルッカ諸島（マルク諸島）」と一致。q/a（a「モルッカ諸島」、alt「マルク諸島」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-age-discovery",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "misc",
@@ -326,12 +401,17 @@
    "a": "大航海時代",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「この書物が人々の東洋への好奇心をかきたて、200年以上にわたる『大航海時代』の幕開けを促すきっかけとなったのです」と一致。数値（200年以上）も原文どおり。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-columbus",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "spice",
@@ -346,12 +426,17 @@
    "a": "唐辛子",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "「大航海時代に得たスパイスがヨーロッパに富をもたらす」=「1492年、イタリアのコロンブスはスペインのイサベル女王の支援を得て、1504年までの間に4回も大西洋を渡り…到達はかなわなかったものの、アメリカ大陸固有のスパイスだった唐辛子を発見し、その後の世界の食文化に大きな影響を与えました」と一致。年号（1492年）もページ記載と一致。q/a（a「唐辛子」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-columbus-queen",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "person",
@@ -366,12 +451,17 @@
    "a": "イサベル女王",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「スペインのイサベル女王の支援を得て」と一致。q/a（a「イサベル女王」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-columbus-4",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "count",
@@ -386,12 +476,17 @@
    "a": "4回",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「1504年までの間に4回も大西洋を渡り」と一致。数値（1504年まで・4回）も原文どおり。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-gama",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "person",
@@ -406,12 +501,17 @@
    "a": "バスコ・ダ・ガマ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「ポルトガルではバスコ・ダ・ガマが、1498年にインド西海岸（マラバル海岸）のカリカット（現・コーリコード）までの航海に成功。商人の手を経て非常に高価になっていたこしょうやシナモンを、安価で手に入れる道を開き」と一致。年号（1498年）・地名もページ記載と一致。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-calicut",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "place",
@@ -426,12 +526,17 @@
    "a": "コーリコード",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「カリカット（現・コーリコード）」と一致。q/a（a「コーリコード」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-magellan",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "place",
@@ -446,12 +551,17 @@
    "a": "フィリピン",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「1520年に、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し、その後太平洋の横断に成功。マゼランはフィリピンで戦死しましたが、船団は苦難の末にモルッカ諸島（香料諸島）に到達し」と一致。年号・人名もページ記載と一致。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-magellan-year",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "year",
@@ -466,12 +576,17 @@
    "a": "1520年",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項の「1520年に、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し」と一致。年号も原文どおり。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-magellan-spices",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "country",
@@ -486,12 +601,17 @@
    "a": "スペイン",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「彼らが持ち帰ったクローブ、ナツメッグ、シナモン、メースなどのスパイスは、スペインに莫大な利益をもたらしました」と一致。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-decline",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "place",
@@ -509,12 +629,17 @@
     "ペルシア"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「一方で、スパイスの交易でにぎわったアラビア半島やヴェネツィア、ペルシアの街は衰退の一途をたどることになります」と一致。q/a（a「ヴェネツィア」、alt「アラビア半島」「ペルシア」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-spice-war-cause",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "misc",
@@ -529,12 +654,17 @@
    "a": "スパイス戦争",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "「スパイスは食生活を劇的に変え、各国はスパイスをめぐる争奪戦へ」=「ヨーロッパの気候では栽培が困難なこしょう、クローブ、ナツメッグには争奪戦が激化、東南アジアにおける『スパイス戦争』に発展します」と一致。q/a（a「スパイス戦争」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-british-eic",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "year",
@@ -549,12 +679,17 @@
    "a": "1600年",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "「ポルトガルに続いてスペイン、イギリス、そしてオランダが参戦」=「16世紀後半には、イギリスがスペインやポルトガルの領海へ進出し、1600年にはイギリス東インド会社を設立」と一致。年号（1600年）もページ記載と一致。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-dutch-eic",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "year",
@@ -569,12 +704,17 @@
    "a": "1602年",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「1602年のオランダ東インド会社の設立後、ポルトガルが主導していたクローブ貿易の支配権を奪いました」と一致。年号（1602年）も原文どおり。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-spice-war-4",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "count",
@@ -589,12 +729,17 @@
    "a": "4カ国",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「さらに、そこにイギリスが参戦し、4カ国による植民地の争奪をかけた乱戦状態となりました。これを『スパイス戦争』と呼んでいます」と一致。4カ国の内訳（ポルトガル・スペイン・イギリス・オランダ）は同ページの参戦経緯の記述から特定できる。q/a（a「4カ国」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-dutch-rule",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "country",
@@ -609,12 +754,17 @@
    "a": "オランダ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「結局、モルッカ諸島は一部を除きオランダの統制下に入り、18世紀までの2世紀近くオランダが繁栄をほしいままにしました」と一致。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-france-theft",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "place",
@@ -629,12 +779,17 @@
    "a": "マダガスカル島",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "「栽培地の広がりによる戦争の終焉」=「1770年頃、クローブやナツメッグなどの利益を生む苗木をオランダ官憲の監視の隙を突いて持ち出し、フランス支配下のフランス島（マダガスカル島）に移植することに成功したのです」と一致。年号（1770年頃）・地名もページ記載と一致。q/aとも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-france-method",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "misc",
@@ -649,12 +804,17 @@
    "a": "盗木",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「それも真正面から戦いを挑まず、スパイスから得られる利益を追求したのです。その方法とは、盗木でした」と一致。q/a（a「盗木」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-penang",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "place",
@@ -669,12 +829,17 @@
    "a": "ペナン島",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "同項=「イギリスもまたクローブやナツメッグをペナン島に移植しており」と一致。q/a（a「ペナン島」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "h-war-end",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "世界の歴史",
   "category": "year",
@@ -689,12 +854,17 @@
    "a": "19世紀中頃",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch22",
+   "reason": "軽微な表現差（修正不要）: 同項=「こうした栽培地の広がりとともに、ヨーロッパ各国によるモルッカ諸島の領土化植民地政策は次第に意味を失い、19世紀中頃には原産地より移植地での生産量が増え、スパイス戦争は自然消滅的に終焉を迎えることとなりました」。単位は「原産地より移植地での生産量が増え」を「移植地での生産量が原産地を上回り」と言い換えているが、比較の意味は一致するため修正不要として昇格。q/a（a「19世紀中頃」）はページ記載と一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-yakumi",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "misc",
@@ -709,12 +879,17 @@
    "a": "新鮮な食材が手に入りやすかったため",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「日本の食文化とスパイス＆ハーブ」=「一方、日本では新鮮な海山の幸を容易に入手しやすかったため、防腐や強い香りづけを目的にスパイスを使う必要がありませんでした」と一致。q/a とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-fish",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "spice",
@@ -729,12 +904,17 @@
    "a": "ねぎ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「スパイスやハーブも魚介に使用するものが多く、その代表はわさび、山椒、しょうが、ねぎなど。使用法も食材の持ち味を損ねない程度に、隠し味や薬味として少量を添えるものでした」と一致。q/a（a「ねぎ」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-hot-ratio",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "count",
@@ -751,12 +931,17 @@
     "1割もない"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「じつは世界各国で使われるスパイスのうち、辛みを持つものは1割もありません」と一致。q/a（a「1割未満」、alt「1割もない」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-kojiki",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "book",
@@ -771,12 +956,17 @@
    "a": "古事記",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「スパイスが渡来したのは奈良時代（8世紀）」=「奈良時代の712年に編纂された歴史書『古事記』には、はじかみ（しょうが、もしくは山椒をさす）や、にんにくが登場します」と一致。q/a とも一致。年号（712年）もページ記載と一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-hajikami",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "spice",
@@ -794,12 +984,17 @@
     "山椒"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「はじかみ（しょうが、もしくは山椒をさす）」と一致。q/a（a「しょうが、もしくは山椒」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-shosoin-doc",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "spice",
@@ -814,12 +1009,17 @@
    "a": "ごま",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「また『正倉院文書』（734年頃）には胡麻子（ごま）」と一致。q/a（a「ごま」）とも一致。年号（734年頃）もページ記載と一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-engishiki",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "book",
@@ -834,12 +1034,17 @@
    "a": "延喜式",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「その後の平安初期の法律書『延喜式』（927年）には、にんにくの栽培法が記されています」と一致。q/a とも一致。年号（927年）・書名もページ記載と一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-shomu",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "person",
@@ -854,12 +1059,17 @@
    "a": "聖武天皇",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「こしょうなどの熱帯地方原産のスパイスは、聖武天皇の時代（724〜749年）にすでに日本に上陸していました」と一致。q/a とも一致。年号（724〜749年）もページ記載と一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-shosoin-treasure",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "spice",
@@ -874,12 +1084,17 @@
    "a": "シナモン",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「正倉院宝物の中にこしょうのほか、クローブ（丁香）、シナモン（桂心）がおさめられており、いずれも貴重な薬として日本に渡来していたようです」と一致。q/a（a「シナモン」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-shosoin-chouko",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "spice",
@@ -894,12 +1109,17 @@
    "a": "クローブ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「クローブ（丁香）」、および写真キャプション「正倉院宝物『丁香』（クローブ）」と一致。q/a（a「クローブ」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-todaiji",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "place",
@@ -914,12 +1134,17 @@
    "a": "東大寺",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "写真キャプション=「正倉院のある奈良・東大寺（745年建立）」と一致。q/a（a「東大寺」）とも一致。年号（745年）もページ記載と一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-nara",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "era",
@@ -934,12 +1159,17 @@
    "a": "奈良時代",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "見出し=「スパイスが渡来したのは奈良時代（8世紀）」と一致。q/a とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-shichimi",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "year",
@@ -956,12 +1186,17 @@
     "寛永2年"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「唐辛子を日本流にアレンジ」=「江戸時代後期には薬味として全国に広がっていきました。この薬味とは七味唐辛子のことで、江戸時代初期の寛永2年（1625年）に、江戸で売り出されたのが最初といわれています」と一致。q/a（a「1625年」、alt「寛永2年」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-shichimi-origin",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "misc",
@@ -976,12 +1211,17 @@
    "a": "漢方薬の配合",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「もともとは漢方薬の配合がヒントになったといわれており、唐辛子、山椒、陳皮、青のり、ごま、麻の実、けしの実など主に7種のスパイスを混ぜ合わせて作られる、日本独自のミックススパイスといえます」と一致。q/a（a「漢方薬の配合」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-curry-1872",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "book",
@@ -998,12 +1238,17 @@
     "西洋料理通"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「カレー料理は文明開化から」=「開国まもない明治5年（1872年）に刊行された『西洋料理指南』や『西洋料理通』の中に、初めてカレーの作り方が発表されました」と一致。q/a（a「西洋料理指南」、alt「西洋料理通」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-curry-year",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "year",
@@ -1020,12 +1265,17 @@
     "明治5年"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項の「明治5年（1872年）に…初めてカレーの作り方が発表されました」と一致。q/a（a「1872年」、alt「明治5年」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-curry-route",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "country",
@@ -1040,12 +1290,17 @@
    "a": "イギリス",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「もともとインド料理であるカレーは、イギリスに高級インド料理として伝えられ、次には西洋料理として日本に紹介されました。そして…『カレーライス』という独自のメニューが広まったのです」と一致。q/a（a「イギリス」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-prewar",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "misc",
@@ -1060,12 +1315,17 @@
    "a": "ウスターソース",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「クローブやナツメッグ、クミン、ターメリックなどはカレー粉として、その一部はウスターソースとして、戦前から日本の食卓で消費されていました」と一致。q/a（a「ウスターソース」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "j-1990s",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "日本の歴史",
   "category": "year",
@@ -1080,6 +1340,11 @@
    "a": "1990年代",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「その後、1990年代以降のイタリアン、エスニック、激辛ブームなどの食の流行や、海外旅行普及など…家庭におけるスパイスやハーブの存在もすっかりポピュラーなものになりました」と一致。q/a（a「1990年代」）とも一致",
+   "needsReview": false
+  }
  }
 ]

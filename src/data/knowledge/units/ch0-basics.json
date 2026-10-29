@@ -2,7 +2,7 @@
  {
   "id": "b-def",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "定義",
   "category": "term",
@@ -17,12 +17,17 @@
    "a": "芳香性植物",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「1 スパイス＆ハーブの定義」=「そのひとつは『芳香性植物の一部で、料理、園芸、クラフトなど、人間の生活の中の何らかの分野で有益な役割を果たすものであり、スパイスとハーブに大別される』です」と一致。q/a（a「芳香性植物」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-def-split",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "定義",
   "category": "term",
@@ -37,12 +42,17 @@
    "a": "利用する部位",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「利用する部位（種子、根、果実、葉、花など）によって大別するのが一般的です」と一致。q/a（a「利用する部位」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-fresh",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -57,12 +67,17 @@
    "a": "フレッシュ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「フレッシュ」=「生で使用するスパイスやハーブのこと。日本で古くから使われているものに、しその葉、木の芽（山椒の若葉）などがある」と一致。q/a とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-kinome",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "spice",
@@ -77,12 +92,17 @@
    "a": "山椒",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「木の芽（山椒の若葉）」と一致。q/a（a「山椒」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-dry",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -97,12 +117,17 @@
    "a": "ドライ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「ドライ」=「乾燥させたスパイスやハーブで、保存がきくので手軽に使うことができる」、およびページ冒頭「ドライのものは、その粉砕の程度や混合の有無によりさらに詳細に分類されます」と一致。q/a とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-single",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -117,12 +142,17 @@
    "a": "単品",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「単品」=「ほかのスパイスや調味料などと混合されていない1種類のスパイスまたはハーブ。これらは粒度によって分類することができる」と一致。q/a とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-whole",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -137,12 +167,17 @@
    "a": "ホール",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「ホール」=「果実や蕾、樹皮や葉の形をほぼ原形のままの状態で乾燥させたもの」、および粒度の図「粒が大きく香りがとびにくい」と一致。q/a とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-coarse",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -157,12 +192,17 @@
    "a": "あらびき",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「あらびき」=「ホールを粗めに粉砕し、粒子を整えたもの」と一致。q/a とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-powder",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -177,12 +217,17 @@
    "a": "パウダー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「パウダー」=「ホールを細かく粉砕したもの」、および粒度の図「粒が細かく香りがとびやすい」と一致。q/a（a「パウダー」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-mix",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -197,12 +242,17 @@
    "a": "ミックス",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「ミックス」=「複数のスパイスやハーブをミックスしたもの。カレー粉、ガラムマサラ、エルブドプロバンスなどが代表的」と一致。q/a とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-synergy",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -217,12 +267,17 @@
    "a": "シナジー効果",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「※スパイスやハーブをミックスすることの利点」=「ミックスすることで、香りの幅、厚み、深みが生み出されたり（＝シナジー効果）」と一致。q/a（a「シナジー効果」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-masking",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -237,12 +292,17 @@
    "a": "マスキング効果",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「ミックスしたスパイスがお互いのとがった香りを消し合い、丸みのあるふくよかな香りとなったり（＝マスキング効果）する」と一致。q/a（a「マスキング効果」）とも一致",
+   "needsReview": false
+  }
  },
  {
   "id": "b-part-rare",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "part",
@@ -257,12 +317,17 @@
    "a": "雌しべ",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "本文「サフランやクローブのように雌しべ、蕾を利用する珍しいものもあります」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-part-clove",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "part",
@@ -277,12 +342,17 @@
    "a": "蕾",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「花」=「サフラン（雌しべ）、クローブ（蕾）など」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-part-coriander",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "spice",
@@ -297,12 +367,17 @@
    "a": "コリアンダー",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "本文「コリアンダーのようにひとつの植物で種子、葉を使うという例もあります」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-part-leaf",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "part",
@@ -317,12 +392,17 @@
    "a": "葉",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「葉」=「タイム、ローレル、パクチー（コリアンダー）、セージ、バジルなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-part-seed",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "part",
@@ -337,12 +417,17 @@
    "a": "種子",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「種子」=「コリアンダー、フェンネル、アニス、クミンなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-part-fruit",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "part",
@@ -357,12 +442,17 @@
    "a": "果実",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「果実」=「こしょう、唐辛子、オールスパイスなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-part-root",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "part",
@@ -377,12 +467,17 @@
    "a": "根・根茎",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「根・根茎」=「ジンジャー、ガーリック、わさび、ターメリックなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-part-bark",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "part",
@@ -397,12 +492,17 @@
    "a": "樹皮",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「樹皮」=「シナモンなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-seed-fruit",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "part",
@@ -417,12 +517,17 @@
    "a": "果実",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "表下の注記「コリアンダー、フェンネル、クミンなどは外観から種子を利用するグループに入っているが、植物学上は果実」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-garlic-bulb",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "part",
@@ -437,12 +542,17 @@
    "a": "鱗茎",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "表下の注記「ガーリックは根・根茎のグループに入っているが、鱗茎と呼ばれる葉や茎が肥大した部分」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-taxonomy",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -457,12 +567,17 @@
    "a": "科",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「大きな分類から順に「界、門、綱、目、科、属、種」という単位で詳細に分けられます」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-family-meaning",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "term",
@@ -477,12 +592,17 @@
    "a": "属・種",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「科がわかれば、ある程度の特徴が推測でき、属、種までわかればスパイスやハーブの種類を特定できます」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-lamiaceae",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "family",
@@ -497,12 +617,17 @@
    "a": "シソ科",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "例表「シソ科」=「バジル、ミントなど。葉は対生し、爽やかな香りを持つものが多い。収穫するときは新芽の出ているすぐ上でカットする」と一致（単位の「新芽のすぐ上」は要約）。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-apiaceae",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "family",
@@ -517,12 +642,17 @@
    "a": "セリ科",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "例表「セリ科」=「クミン、コリアンダーなど。葉も種子も食用になるものが多い。移植を嫌うものが多い。収穫するときは外側の葉から」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-zingiberaceae",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "family",
@@ -537,12 +667,17 @@
    "a": "ショウガ科",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "例表「ショウガ科」=「ジンジャー、ターメリックなど。スーッとする香りを持つものが多い」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-brassicaceae",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "分類",
   "category": "family",
@@ -557,12 +692,17 @@
    "a": "アブラナ科",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "例表「アブラナ科」=「わさび、マスタードなど。辛みを持つものが多い」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-fresh-keep",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "保存",
   "category": "place",
@@ -577,12 +717,17 @@
    "a": "冷蔵庫の野菜室",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「フレッシュハーブは野菜と同じ食品と考えて保存します。「低温」「適度な湿気」「傷めない」をポイントに。密封できる袋に入れて冷蔵庫の野菜室で保存しましょう」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-fresh-points",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "保存",
   "category": "term",
@@ -597,12 +742,17 @@
    "a": "低温・適度な湿気・傷めない",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "保存のポイント「低温」「適度な湿気」「傷めない」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-fresh-stand",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "保存",
   "category": "misc",
@@ -617,12 +767,17 @@
    "a": "立てて保存する",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "※注記「茎の切り口に湿らせたペーパーを巻きつけるとある程度もつ。野菜室で立てて保存できると理想的。冷風を受けない位置に置く」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-basil-temp",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "保存",
   "category": "temp",
@@ -637,12 +792,17 @@
    "a": "10〜15度",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "※注意「バジルは低温で長期間保存すると品質が落ちる（黒く変色するなど）ので、冷蔵庫に入れず、10〜15度くらいの涼しい場所で保存するのが望ましい」および保存温度表「10〜15度＝バジル」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-temp-5-7",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "保存",
   "category": "temp",
@@ -657,12 +817,17 @@
    "a": "5〜7度",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "保存温度表「5〜7度」=「オレガノ、スペアミント、ペパーミント、セージ、レモンバーム、チャービル、タラゴン、イタリアンパセリ、ルッコラ、ディル、パクチー、フェンネル、チャイブ、マーシュなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-temp-7-10",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "保存",
   "category": "temp",
@@ -677,12 +842,17 @@
    "a": "7〜10度",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "保存温度表「7〜10度」=「タイム、レモングラス、ローズマリー」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-dry-enemy",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "保存",
   "category": "term",
@@ -697,12 +867,17 @@
    "a": "光・熱・湿気",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「ドライのスパイスやハーブの生命は香りと色です。その大敵は「光」「熱」「湿気」。容器の蓋をしっかり閉めて冷暗所で保存」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-dry-life",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "保存",
   "category": "term",
@@ -717,12 +892,17 @@
    "a": "香りと色",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「ドライのスパイスやハーブの生命は香りと色です」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-condensation",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "保存",
   "category": "term",
@@ -737,12 +917,17 @@
    "a": "結露",
    "alt": []
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "※注記「容器（びん）は冷えているため、蓋を開けたままにしておくと、びんの内側に水滴がつく（結露する）恐れがある。使ったあとはしっかり蓋を閉めて、すぐに冷蔵室、冷凍室に戻す」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  },
  {
   "id": "b-cooking-care",
   "kind": "unit",
-  "status": "unverified",
+  "status": "verified",
   "chapterId": "ch0",
   "sectionTitle": "保存",
   "category": "misc",
@@ -760,6 +945,11 @@
     "だめ"
    ]
   },
-  "spice": null
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "※注記「調理中の注意として、火のそばに置かず、容器の蓋を開けたら小皿に必要な量を振り出して使い、鍋などの上で直接振りかけることはしないこと」と一致。q/a も照合済み",
+   "needsReview": false
+  }
  }
 ]
