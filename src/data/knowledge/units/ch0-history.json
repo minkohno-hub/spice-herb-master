@@ -1,0 +1,1085 @@
+[
+ {
+  "id": "h-egypt-mummy",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "spice",
+  "content": "古代エジプトでは、王族などのミイラ作りで、防腐作用の強いシナモンなどのスパイスが遺体に詰められた。",
+  "source": {
+   "page": 6,
+   "sourceUnitId": "h-egypt-mummy",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "古代エジプトのミイラ作りで、防腐作用を期待して遺体に詰められたスパイスの代表例は?",
+   "a": "シナモン",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-egypt-pyramid",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "spice",
+  "content": "ピラミッド建設では、労働者の体力づくり(強壮剤のような目的)のために大量のガーリックが使われたと伝えられる。",
+  "source": {
+   "page": 6,
+   "sourceUnitId": "h-egypt-pyramid",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ピラミッド建設の労働者に体力をつけるため大量に使われたとされるスパイスは?",
+   "a": "ガーリック",
+   "alt": [
+    "にんにく"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "h-china-2500bc",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "year",
+  "content": "紀元前2500年頃の中国では、スパイス入りの香酒や香飯が神に供えられ、宗教的にも重要な役割を担った。",
+  "source": {
+   "page": 6,
+   "sourceUnitId": "h-china-2500bc",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイスを加えた香酒や香飯が神に供えられていたのは、紀元前何年頃の中国?",
+   "a": "紀元前2500年頃",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-han-clove",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "spice",
+  "content": "漢の時代の中国では、官吏が天子に政事を奏上するとき、1本のクローブを口に含んで口臭を消した。",
+  "source": {
+   "page": 6,
+   "sourceUnitId": "h-han-clove",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "漢の時代、官吏が天子に奏上する際に口臭消しとして口に含んだスパイスは?",
+   "a": "クローブ",
+   "alt": [
+    "丁子",
+    "丁香"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "h-incense",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "purpose",
+  "content": "各国で山椒・クローブ・シナモンなどが寺院や教会で焚かれ、空気を清める香煙として使われたとされる。",
+  "source": {
+   "page": 6,
+   "sourceUnitId": "h-incense",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "山椒・クローブ・シナモンなどが寺院や教会で火にくべられた目的は?",
+   "a": "空気を清める香煙",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-hippocrates",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "person",
+  "content": "古代ギリシャの医師ヒポクラテスは、紀元前400年頃に400種ものハーブの処方をまとめたとされ、病気を科学的にとらえたことから「医学の父」と呼ばれる。",
+  "source": {
+   "page": 6,
+   "sourceUnitId": "h-hippocrates",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "紀元前400年頃に400種のハーブ処方をまとめ「医学の父」と呼ばれる人物は?",
+   "a": "ヒポクラテス",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-dioscorides",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "person",
+  "content": "紀元50〜70年頃のローマ時代の医師ディオスコリデスは、植物・動物・鉱物を薬理機能で分類した『マテリア・メディカ(薬物誌)』を著した。",
+  "source": {
+   "page": 7,
+   "sourceUnitId": "h-dioscorides",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "『マテリア・メディカ(薬物誌)』を著したローマ時代の医師は?",
+   "a": "ディオスコリデス",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-materia-600",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "count",
+  "content": "『マテリア・メディカ』に掲載された植物は600種に及ぶ。",
+  "source": {
+   "page": 7,
+   "sourceUnitId": "h-materia-600",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "『マテリア・メディカ』に掲載された植物は何種に及ぶ?",
+   "a": "600種",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-ancient-uses",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "purpose",
+  "content": "スパイスやハーブは古代から薬事・祭事・媚薬・保存剤などの目的で使われ、貴重品とされた。",
+  "source": {
+   "page": 7,
+   "sourceUnitId": "h-ancient-uses",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "古代のスパイスやハーブの用途として挙げられるものを答えよ(薬事以外に3つ)。",
+   "a": "祭事・媚薬・保存剤",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-medieval-price",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "misc",
+  "content": "中世、スパイスは東洋から陸路・海路で運ばれたが、盗賊や災害の危険と長い輸送時間のため高騰し、ヨーロッパでは金銀に匹敵する価値を持った。",
+  "source": {
+   "page": 7,
+   "sourceUnitId": "h-medieval-price",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "中世ヨーロッパでスパイスは何に匹敵する価値を持ったとされる?",
+   "a": "金銀",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-constantinople",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "place",
+  "content": "交易の中継地アラビア半島を中心にアラブ商人が往来し、コンスタンティノープル(現イスタンブール)などが繁栄した。",
+  "source": {
+   "page": 7,
+   "sourceUnitId": "h-constantinople",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイス交易で繁栄した都市コンスタンティノープルの現在の名称は?",
+   "a": "イスタンブール",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-venice",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "purpose",
+  "content": "中世ヨーロッパで肉の保存用の需要が高まり、ヴェネツィアなど地中海沿岸都市が東方物資の中継地として繁栄した。",
+  "source": {
+   "page": 7,
+   "sourceUnitId": "h-venice",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "中世ヨーロッパでスパイス需要が高まった主な用途は?",
+   "a": "肉の保存",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-marco-polo",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "book",
+  "content": "1299年、マルコ・ポーロの旅行記『世界の記述』(『東方見聞録』)が発表され、香料諸島やジパングの黄金の宮殿などがヨーロッパに強い印象を与えた。",
+  "source": {
+   "page": 7,
+   "sourceUnitId": "h-marco-polo",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "マルコ・ポーロが東洋で見聞したことをまとめた旅行記の名称は?",
+   "a": "世界の記述",
+   "alt": [
+    "東方見聞録"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "h-marco-polo-year",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "year",
+  "content": "『世界の記述』が発表されたのは1299年である。",
+  "source": {
+   "page": 7,
+   "sourceUnitId": "h-marco-polo-year",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "『世界の記述』(『東方見聞録』)が発表された年は?",
+   "a": "1299年",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-moluccas",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "place",
+  "content": "香料諸島とも呼ばれるのはモルッカ諸島(マルク諸島)である。",
+  "source": {
+   "page": 7,
+   "sourceUnitId": "h-moluccas",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「香料諸島」とも呼ばれる諸島は?",
+   "a": "モルッカ諸島",
+   "alt": [
+    "マルク諸島"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "h-age-discovery",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "misc",
+  "content": "『世界の記述』は東洋への好奇心をかきたて、200年以上にわたる大航海時代の幕開けを促すきっかけとなった。",
+  "source": {
+   "page": 7,
+   "sourceUnitId": "h-age-discovery",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "マルコ・ポーロの書物が幕開けを促したとされる時代は?",
+   "a": "大航海時代",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-columbus",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "spice",
+  "content": "1492年、コロンブスはスペインのイサベル女王の支援で大西洋を渡り、東洋には到達できなかったが、アメリカ大陸固有のスパイスである唐辛子を発見した。",
+  "source": {
+   "page": 8,
+   "sourceUnitId": "h-columbus",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "コロンブスが発見した、アメリカ大陸固有のスパイスは?",
+   "a": "唐辛子",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-columbus-queen",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "person",
+  "content": "コロンブスの航海を支援したのはスペインのイサベル女王である。",
+  "source": {
+   "page": 8,
+   "sourceUnitId": "h-columbus-queen",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "コロンブスの航海を支援したスペインの女王は?",
+   "a": "イサベル女王",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-columbus-4",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "count",
+  "content": "コロンブスは1504年までに4回大西洋を渡った。",
+  "source": {
+   "page": 8,
+   "sourceUnitId": "h-columbus-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "コロンブスは1504年までに何回大西洋を渡った?",
+   "a": "4回",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-gama",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "person",
+  "content": "1498年、ポルトガルのバスコ・ダ・ガマがインド西海岸(マラバル海岸)のカリカット(現コーリコード)への航海に成功し、こしょうやシナモンを安価に入手する道を開いた。",
+  "source": {
+   "page": 8,
+   "sourceUnitId": "h-gama",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "1498年にカリカットまでの航海に成功したポルトガル人は?",
+   "a": "バスコ・ダ・ガマ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-calicut",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "place",
+  "content": "バスコ・ダ・ガマが到達したカリカットの現在の名称はコーリコードである。",
+  "source": {
+   "page": 8,
+   "sourceUnitId": "h-calicut",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "カリカットの現在の名称は?",
+   "a": "コーリコード",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-magellan",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "place",
+  "content": "1520年、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し、太平洋横断に成功した。マゼランはフィリピンで戦死したが、船団はモルッカ諸島に到達した。",
+  "source": {
+   "page": 8,
+   "sourceUnitId": "h-magellan",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "マゼランが戦死した場所は?",
+   "a": "フィリピン",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-magellan-year",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "year",
+  "content": "マゼラン海峡が発見されたのは1520年である。",
+  "source": {
+   "page": 8,
+   "sourceUnitId": "h-magellan-year",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "マゼラン海峡が発見された年は?",
+   "a": "1520年",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-magellan-spices",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "country",
+  "content": "マゼランの船団が持ち帰ったクローブ・ナツメッグ・シナモン・メースなどは、スペインに莫大な利益をもたらした。",
+  "source": {
+   "page": 8,
+   "sourceUnitId": "h-magellan-spices",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "マゼラン船団がモルッカ諸島から持ち帰ったスパイスによって莫大な利益を得た国は?",
+   "a": "スペイン",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-decline",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "place",
+  "content": "海洋交易路の開拓により、スパイス交易でにぎわったアラビア半島・ヴェネツィア・ペルシアの街は衰退していった。",
+  "source": {
+   "page": 8,
+   "sourceUnitId": "h-decline",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "大航海時代以降、衰退した交易都市・地域を1つ挙げよ。",
+   "a": "ヴェネツィア",
+   "alt": [
+    "アラビア半島",
+    "ペルシア"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "h-spice-war-cause",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "misc",
+  "content": "ヨーロッパの気候では栽培が困難なこしょう・クローブ・ナツメッグをめぐる争奪戦が激化し、東南アジアでの「スパイス戦争」に発展した。",
+  "source": {
+   "page": 8,
+   "sourceUnitId": "h-spice-war-cause",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "こしょう・クローブ・ナツメッグの争奪戦が東南アジアで発展した争いを何と呼ぶ?",
+   "a": "スパイス戦争",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-british-eic",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "year",
+  "content": "16世紀後半にイギリスがスペイン・ポルトガルの領海へ進出し、1600年にイギリス東インド会社を設立した。",
+  "source": {
+   "page": 9,
+   "sourceUnitId": "h-british-eic",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "イギリス東インド会社が設立された年は?",
+   "a": "1600年",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-dutch-eic",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "year",
+  "content": "1602年にオランダ東インド会社が設立され、ポルトガルが主導していたクローブ貿易の支配権を奪った。",
+  "source": {
+   "page": 9,
+   "sourceUnitId": "h-dutch-eic",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "オランダ東インド会社が設立された年は?",
+   "a": "1602年",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-spice-war-4",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "count",
+  "content": "スパイス戦争は、ポルトガル・スペイン・オランダ・イギリスの4カ国による植民地争奪の乱戦である。",
+  "source": {
+   "page": 9,
+   "sourceUnitId": "h-spice-war-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイス戦争で植民地を争ったのは何カ国?",
+   "a": "4カ国",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-dutch-rule",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "country",
+  "content": "モルッカ諸島は一部を除きオランダの統制下に入り、18世紀までの2世紀近くオランダが繁栄した。",
+  "source": {
+   "page": 9,
+   "sourceUnitId": "h-dutch-rule",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイス戦争の結果、モルッカ諸島の大部分を統制下においた国は?",
+   "a": "オランダ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-france-theft",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "place",
+  "content": "1770年頃、フランスはオランダの監視の隙を突いてクローブやナツメッグの苗木を持ち出し(盗木)、フランス島(マダガスカル島)に移植した。",
+  "source": {
+   "page": 9,
+   "sourceUnitId": "h-france-theft",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "1770年頃、フランスがクローブなどの苗木を移植したフランス島の別名は?",
+   "a": "マダガスカル島",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-france-method",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "misc",
+  "content": "オランダの牙城を崩したフランスが用いた方法は、正面からの戦いではなく盗木であった。",
+  "source": {
+   "page": 9,
+   "sourceUnitId": "h-france-method",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "オランダの牙城を崩すためにフランスがとった方法は?",
+   "a": "盗木",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-penang",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "place",
+  "content": "イギリスはクローブやナツメッグをペナン島に移植した。",
+  "source": {
+   "page": 9,
+   "sourceUnitId": "h-penang",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "イギリスがクローブやナツメッグを移植した島は?",
+   "a": "ペナン島",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "h-war-end",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "世界の歴史",
+  "category": "year",
+  "content": "栽培地が広がり、19世紀中頃には移植地での生産量が原産地を上回り、スパイス戦争は自然消滅的に終焉した。",
+  "source": {
+   "page": 9,
+   "sourceUnitId": "h-war-end",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイス戦争が自然消滅的に終焉を迎えたのはいつ頃?",
+   "a": "19世紀中頃",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-yakumi",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "misc",
+  "content": "日本では新鮮な海山の幸を得やすかったため、防腐や強い香りづけのためにスパイスを使う必要がなかった。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-yakumi",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "日本でスパイスを大量に使う必要がなかった理由は?",
+   "a": "新鮮な食材が手に入りやすかったため",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-fish",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "spice",
+  "content": "日本では魚介に使うスパイスが多く、代表はわさび・山椒・しょうが・ねぎなどで、隠し味や薬味として少量を添えた。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-fish",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "日本で魚介に使われてきた代表的なスパイス(わさび、山椒、しょうが以外)は?",
+   "a": "ねぎ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-hot-ratio",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "count",
+  "content": "世界各国で使われるスパイスのうち、辛みを持つものは1割もない。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-hot-ratio",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "世界のスパイスのうち辛みを持つものの割合は?",
+   "a": "1割未満",
+   "alt": [
+    "1割もない"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "j-kojiki",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "book",
+  "content": "712年に編纂された『古事記』には、はじかみ(しょうが、または山椒)やにんにくが登場する。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-kojiki",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "712年に編纂され、「はじかみ」やにんにくが登場する歴史書は?",
+   "a": "古事記",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-hajikami",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "spice",
+  "content": "『古事記』に登場する「はじかみ」は、しょうが、もしくは山椒をさす。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-hajikami",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "『古事記』に登場する「はじかみ」がさすものは?",
+   "a": "しょうが、もしくは山椒",
+   "alt": [
+    "しょうが",
+    "山椒"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "j-shosoin-doc",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "spice",
+  "content": "『正倉院文書』(734年頃)には胡麻子(ごま)が記されている。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-shosoin-doc",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "『正倉院文書』に記された「胡麻子」とは何のこと?",
+   "a": "ごま",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-engishiki",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "book",
+  "content": "平安初期の法律書『延喜式』(927年)には、にんにくの栽培法が記されている。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-engishiki",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "にんにくの栽培法が記された平安初期の法律書は?",
+   "a": "延喜式",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-shomu",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "person",
+  "content": "こしょうなど熱帯原産のスパイスは、聖武天皇の時代(724〜749年)にはすでに日本に上陸していた。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-shomu",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "こしょうなど熱帯原産のスパイスが既に日本に上陸していたのは、どの天皇の時代?",
+   "a": "聖武天皇",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-shosoin-treasure",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "spice",
+  "content": "正倉院宝物には、こしょうのほか、クローブ(丁香)、シナモン(桂心)が納められ、貴重な薬として渡来した。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-shosoin-treasure",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "正倉院宝物の「桂心」とはどのスパイス?",
+   "a": "シナモン",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-shosoin-chouko",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "spice",
+  "content": "正倉院宝物の「丁香」はクローブである。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-shosoin-chouko",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "正倉院宝物の「丁香」とはどのスパイス?",
+   "a": "クローブ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-todaiji",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "place",
+  "content": "正倉院のある奈良・東大寺は745年建立である(写真キャプション)。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-todaiji",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "正倉院のある寺は?",
+   "a": "東大寺",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-nara",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "era",
+  "content": "スパイスが日本に渡来したのは奈良時代(8世紀)とされる。",
+  "source": {
+   "page": 10,
+   "sourceUnitId": "j-nara",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイスが日本に渡来したのは何時代?",
+   "a": "奈良時代",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-shichimi",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "year",
+  "content": "七味唐辛子は江戸時代初期の寛永2年(1625年)に江戸で売り出されたのが最初とされ、江戸時代後期には薬味として全国に広がった。",
+  "source": {
+   "page": 11,
+   "sourceUnitId": "j-shichimi",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "七味唐辛子が江戸で初めて売り出されたとされる年は?",
+   "a": "1625年",
+   "alt": [
+    "寛永2年"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "j-shichimi-origin",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "misc",
+  "content": "七味唐辛子は漢方薬の配合がヒントになったとされ、唐辛子・山椒・陳皮・青のり・ごま・麻の実・けしの実など主に7種を混ぜた日本独自のミックススパイスである。",
+  "source": {
+   "page": 11,
+   "sourceUnitId": "j-shichimi-origin",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "七味唐辛子のヒントになったといわれるものは?",
+   "a": "漢方薬の配合",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-curry-1872",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "book",
+  "content": "明治5年(1872年)刊行の『西洋料理指南』や『西洋料理通』で初めてカレーの作り方が発表された。",
+  "source": {
+   "page": 11,
+   "sourceUnitId": "j-curry-1872",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "日本で初めてカレーの作り方が紹介された料理書を1つ挙げよ。",
+   "a": "西洋料理指南",
+   "alt": [
+    "西洋料理通"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "j-curry-year",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "year",
+  "content": "日本で初めてカレーの作り方が料理書で紹介されたのは明治初期の1872年である。",
+  "source": {
+   "page": 11,
+   "sourceUnitId": "j-curry-year",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "日本で初めてカレーの作り方が料理書に載ったのは西暦何年?",
+   "a": "1872年",
+   "alt": [
+    "明治5年"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "j-curry-route",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "country",
+  "content": "インド料理のカレーはイギリスに高級インド料理として伝わり、西洋料理として日本に紹介され、ごはんにかける「カレーライス」が広まった。",
+  "source": {
+   "page": 11,
+   "sourceUnitId": "j-curry-route",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "カレーはどの国を経由して西洋料理として日本に紹介された?",
+   "a": "イギリス",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-prewar",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "misc",
+  "content": "クローブ・ナツメッグ・クミン・ターメリックなどは、カレー粉やウスターソースとして戦前から日本の食卓で消費されていた。",
+  "source": {
+   "page": 11,
+   "sourceUnitId": "j-prewar",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "戦前からカレー粉のほかにスパイスが使われ消費されていた調味料は?",
+   "a": "ウスターソース",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "j-1990s",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch0",
+  "sectionTitle": "日本の歴史",
+  "category": "year",
+  "content": "1990年代以降のイタリアン・エスニック・激辛ブームや海外旅行の普及などで、家庭のスパイスやハーブがポピュラーになった。",
+  "source": {
+   "page": 11,
+   "sourceUnitId": "j-1990s",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "家庭でスパイスやハーブがポピュラーになった食の流行が起きたのは何年代以降?",
+   "a": "1990年代",
+   "alt": []
+  },
+  "spice": null
+ }
+]
