@@ -1,0 +1,14 @@
+# DEVELOPMENT_STATE — 開発状態（再開用）
+
+- 現在の開発段階: **フェーズ2.1（知識データ分割）完了**。Claude版ブランチの構造化データを unverified として取り込み済み（フェーズ2）。フェーズ3 = 原文照合による verified 化と正式問題の生成が本体。
+- 完了した作業:
+  - フェーズ1: リポ調査／Driveインベントリ139件＋欠落1件の manifest 化／目次3画像の直接読解と81節の構造データ化／React19+TS+Vite+PWA 実装（8画面）／17形式の型・回答UI・採点／記述式要点採点／SM-2／リーダー・カード・模試・分析・検索・品質管理／ドキュメント整備。
+  - フェーズ2（統合）: Claude版ブランチ `claude/build-learning-app` の data/units/*.json（7ファイル）と data/spices/*.json（4ファイル）を、変換スクリプト `scripts/import-claude-data.mjs`（再実行可能）で `src/data/knowledge.ts` へ変換・取り込み。全件 status="unverified"、全件に出典 {page, sourceUnitId, origin: "claude/build-learning-app"} を付与。品質管理画面・学習分析・電子書籍リーダー・ホームに取り込み件数（未検証）を表示するよう接続。
+  - フェーズ2.1（知識データ分割）: 生成データの単一ファイル `src/data/knowledge.ts`（322,386 bytes）を、GitHubコネクタの1ファイルあたりサイズ制約と指令書第17章（章・節単位の分割）に合わせ、取り込み元ファイル単位の分割JSONへ移行。変換スクリプトを改修し、出力先を `src/data/knowledge/units/*.json`（7ファイル）と `src/data/knowledge/spices/*.json`（4ファイル）の計11ファイルに変更（各ファイル128KB=131,072 bytes未満をスクリプトが実測保証し、超過時は連番ファイルへ自動再分割）。`src/data/knowledge.ts` は当該JSONを import して従来と同じエクスポート（`KNOWLEDGE_IMPORT_META` / `IMPORTED_KNOWLEDGE_UNITS`）を提供する薄い集約モジュール（2,773 bytes）となり、アプリ側の import パス・APIは無変更。分割後の全データは旧単一ファイルと**順序を含む完全一致**を検証済み（545件）。分割JSONの実測（bytes / 件数）: units/ch0-basics 21,181 / 38、units/ch0-history 31,458 / 53、units/ch1-recipes 13,265 / 22、units/ch1-usage 24,303 / 40、units/ch1-world 10,667 / 19、units/ch3-health 11,447 / 20、units/ch3-life 31,589 / 56、spices/a 40,160 / 65、spices/b 51,780 / 87（最大）、spices/c 42,601 / 71、spices/d 43,030 / 74。合計 321,481 bytes / 545件。テストに分割構造の固定（11ファイル・全ファイル128KB未満・全件 unverified/出典付き・合計545件・ID順一致）を追加し、テスト用の型として devDependency に `@types/node` を追加。なお現時点では集約モジュールが全JSONを静的 import するため、バンドル（単一チャンク）には全データが含まれる。章単位の動的 import（遅延読み込み）への移行は今後の課題として残る。
+- **実測件数（フェーズ2）**: 知識単位 合計 **545件** = units由来 248 + 図鑑 facts 217 + 図鑑プロフィール単位 80。図鑑エントリ 82種（うち profileOf の続きページ2件。基礎の種としては80種）。q/a付き（一問一答ドラフト）**379件**（units 241 + facts 138）。Claude版自己申告「知識単位545」と**一致**（内訳は上記のとおり実測で再構成できた。なお Claude版の「図鑑80種」はプロフィール単位の対象数と一致し、エントリ総数82とは数え方が異なる）。
+- 未完了の作業: 本文転記（0/139ページ）、取り込み知識単位545件の原文照合（verified は **0件**）、正式問題・カード作成（正式問題は引き続き **0問**。Claude生成1185問は取り込んでいない）、E2E（Playwright）、実機検証、Pages公開判断、検索の複合フィルタ拡張、バンドルのコード分割（知識データはソース上は元ファイル単位に分割済みだが、バンドルは単一チャンク JS 660.85kB / gzip 154.78kB で全データを含む。章単位の動的 import 化が残課題）。
+- 最後に成功したテスト: typecheck 成功、Vitest **41 passed / 0 failed**（5ファイル: data 13、grading 13、knowledge 8、srs 5、stats 2）、build 成功（JS 660.85kB / gzip 154.78kB、2026-10-29 フェーズ2.1）。
+- 最後に確認したコミット: フェーズ2コミット（push は親担当。ハッシュは git log で確認）。
+- 未解決の問題: BLOCKERS.md の5件（特に Pages許可範囲と workflows 反映制限）。
+- 次に実行する具体的な作業: (1) 親が GitHub へ push（workflows は制限に注意）。(2) フェーズ3: manifest の若い番号から画像を読み取り、節単位で転記→取り込み知識単位と原文照合→照合済み単位を verified に昇格。(3) verified 単位から Muse側エンジンで正式問題を再生成し validate を通す（Claude生成1185問は直接使わない。DECISIONS #13）。
+- 注意: `.github/workflows/ci.yml` はローカルにのみ存在。Muse GitHub App は workflows を書けない既知制限（403）があるため、push 時に同ファイルが弾かれる場合はユーザーの手動配置が必要。
