@@ -1,0 +1,386 @@
+[
+ {
+  "id": "w-paella",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "パエリアはスペイン・バレンシア地方発祥の米料理で、名前はバレンシア語で「フライパン」の意味。色づけにサフランを使う。",
+  "source": {
+   "page": 27,
+   "sourceUnitId": "w-paella",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "パエリアの色づけに使われるスパイスは?",
+   "a": "サフラン",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-paella-mean",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "misc",
+  "content": "「パエリア」はバレンシア語で「フライパン」を意味する。",
+  "source": {
+   "page": 27,
+   "sourceUnitId": "w-paella-mean",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「パエリア」はバレンシア語で何を意味する?",
+   "a": "フライパン",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-goulash",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "ハンガリアングラーシュは牛肉と野菜を煮込んだハンガリーのスープ料理で、パプリカを多く使う。",
+  "source": {
+   "page": 27,
+   "sourceUnitId": "w-goulash",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハンガリアングラーシュの決め手のスパイスは?",
+   "a": "パプリカ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-borscht",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "ボルシチはウクライナ発祥で、牛肉とビーツなどを煮込み、ディルの香りとサワークリームの酸味が特徴。",
+  "source": {
+   "page": 27,
+   "sourceUnitId": "w-borscht",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ボルシチの決め手のハーブは?",
+   "a": "ディル",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-borscht-origin",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "country",
+  "content": "ボルシチの発祥国はウクライナである。",
+  "source": {
+   "page": 27,
+   "sourceUnitId": "w-borscht-origin",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ボルシチ発祥の国は?",
+   "a": "ウクライナ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-asia",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "term",
+  "content": "東アジア・東南アジアではみそ・しょうゆ・魚醤などの発酵調味料が広く用いられ、スパイスやハーブの重要な産地でもある。",
+  "source": {
+   "page": 28,
+   "sourceUnitId": "w-asia",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "東アジア・東南アジアの味つけで広く使われる調味料の種類は?",
+   "a": "発酵調味料",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-dongpo",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "トンポーロウ(豚の角煮)は中国・浙江省の料理で、スターアニス(八角)が欠かせない。",
+  "source": {
+   "page": 28,
+   "sourceUnitId": "w-dongpo",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "トンポーロウの決め手のスパイスは?",
+   "a": "スターアニス",
+   "alt": [
+    "八角"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "w-dongpo-country",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "country",
+  "content": "トンポーロウは中国の料理である。",
+  "source": {
+   "page": 28,
+   "sourceUnitId": "w-dongpo-country",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "トンポーロウはどこの国の料理?",
+   "a": "中国",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-tomyum",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "country",
+  "content": "タイのトムヤムクンは唐辛子・ライム・レモングラス・カフェライムリーフの香りが特徴のえび入りスープで、仕上げにパクチーを加える。",
+  "source": {
+   "page": 28,
+   "sourceUnitId": "w-tomyum",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "トムヤムクンはどこの国の料理?",
+   "a": "タイ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-banhxeo",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "ベトナムのバインセオは、ターメリック入りの米粉の生地で具材をはさんだお好み焼き風料理。",
+  "source": {
+   "page": 28,
+   "sourceUnitId": "w-banhxeo",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ベトナムの料理「バインセオ」の決め手のスパイスは?",
+   "a": "ターメリック",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-america",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "term",
+  "content": "アメリカでは移民大国ならではのフュージョン料理と呼ぶべき食文化も生まれた。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "w-america",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "多様な食文化が混ざり合って生まれる料理を何と呼ぶ?",
+   "a": "フュージョン料理",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-chiliconcarne",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "dish",
+  "content": "チリコンカンはテクス・メクス(テキサス生まれのメキシコ風アメリカ料理)の代表的な豆と肉の煮込みで、チリパウダー・クミン・オレガノが決め手。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "w-chiliconcarne",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "チリコンカンは何と呼ばれる料理ジャンルの代表的メニュー?",
+   "a": "テクス・メクス",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "w-guacamole",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "メキシコのワカモーレはアボカドのディップで、パクチーや唐辛子が決め手。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "w-guacamole",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "メキシコのアボカドディップ「ワカモーレ」の決め手のハーブは?",
+   "a": "パクチー",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "d-moroccan-tea",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "drink",
+  "content": "モロッコティー(モロカンティー)は、ガンパウダーと呼ばれる中国緑茶とミント、たっぷりの角砂糖で入れるお茶。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-moroccan-tea",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「ガンパウダー」と呼ばれる中国緑茶とミントで入れるお茶は?",
+   "a": "モロッコティー",
+   "alt": [
+    "モロカンティー"
+   ]
+  },
+  "spice": null
+ },
+ {
+  "id": "d-gahwa",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "spice",
+  "content": "サウジアラビアのガーワ(アラビアンコーヒー)は、カルダモンを詰めたポットから注ぐカルダモンコーヒー。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-gahwa",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ガーワ(アラビアンコーヒー)の決め手のスパイスは?",
+   "a": "カルダモン",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "d-eggnog",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "spice",
+  "content": "アメリカのエッグノッグは牛乳と卵で作る冬の定番ドリンクで、ナツメッグなどで風味づけする。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-eggnog",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "エッグノッグに使われるスパイスは?",
+   "a": "ナツメッグ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "d-cafe-olla",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "spice",
+  "content": "メキシコのカフェ・デ・オーヤは鍋で煮出すコーヒーで、シナモンで風味づけする。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-cafe-olla",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "メキシコのカフェ・デ・オーヤに使われるスパイスは?",
+   "a": "シナモン",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "d-mojito",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "person",
+  "content": "キューバのモヒートはラム酒にミントとライムで風味づけしたドリンクで、ヘミングウェイが愛したことで有名。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-mojito",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "モヒートを愛した作家として知られるのは?",
+   "a": "ヘミングウェイ",
+   "alt": []
+  },
+  "spice": null
+ },
+ {
+  "id": "d-mojito-herb",
+  "kind": "unit",
+  "status": "unverified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "spice",
+  "content": "モヒートの決め手のハーブはミントである。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-mojito-herb",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "モヒートの決め手のハーブは?",
+   "a": "ミント",
+   "alt": []
+  },
+  "spice": null
+ }
+]
