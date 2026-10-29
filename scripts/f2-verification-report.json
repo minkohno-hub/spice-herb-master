@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "verifiedBy": "scripts/verify-f2-questions.mjs",
+    "orderingEntries": 17,
+    "orderingOk": 17,
+    "shortEssayEntries": 12,
+    "shortEssayOk": 12,
+    "failures": 0,
+    "skipped": 11,
+    "existingFormalQuestionsNonF2": 1790
+  },
+  "ordering": [
+    {
+      "slug": "curry",
+      "page": 31,
+      "steps": 6,
+      "ok": true
+    },
+    {
+      "slug": "genovese",
+      "page": 33,
+      "steps": 4,
+      "ok": true
+    },
+    {
+      "slug": "paella",
+      "page": 35,
+      "steps": 7,
+      "ok": true
+    },
+    {
+      "slug": "chili",
+      "page": 36,
+      "steps": 3,
+      "ok": true
+    },
+    {
+      "slug": "kakuni",
+      "page": 37,
+      "steps": 4,
+      "ok": true
+    },
+    {
+      "slug": "hummus",
+      "page": 39,
+      "steps": 4,
+      "ok": true
+    },
+    {
+      "slug": "lamb",
+      "page": 41,
+      "steps": 4,
+      "ok": true
+    },
+    {
+      "slug": "currywurst",
+      "page": 42,
+      "steps": 4,
+      "ok": true
+    },
+    {
+      "slug": "cumin-potato",
+      "page": 43,
+      "steps": 3,
+      "ok": true
+    },
+    {
+      "slug": "chai",
+      "page": 44,
+      "steps": 4,
+      "ok": true
+    },
+    {
+      "slug": "bakedapple",
+      "page": 45,
+      "steps": 3,
+      "ok": true
+    },
+    {
+      "slug": "herb-paste",
+      "page": 48,
+      "steps": 3,
+      "ok": true
+    },
+    {
+      "slug": "tea",
+      "page": 111,
+      "steps": 4,
+      "ok": true
+    },
+    {
+      "slug": "lotion",
+      "page": 116,
+      "steps": 3,
+      "ok": true
+    },
+    {
+      "slug": "pomander",
+      "page": 121,
+      "steps": 4,
+      "ok": true
+    },
+    {
+      "slug": "planting",
+      "page": 124,
+      "steps": 4,
+      "ok": true
+    },
+    {
+      "slug": "curry-powder",
+      "page": 95,
+      "steps": 4,
+      "ok": true
+    }
+  ],
+  "shortEssay": [
+    {
+      "slug": "fresh-storage",
+      "unitId": "b-fresh-points",
+      "supportPage": 16,
+      "points": 3,
+      "ok": true
+    },
+    {
+      "slug": "dry-storage",
+      "unitId": "b-dry-enemy",
+      "supportPage": 16,
+      "points": 4,
+      "ok": true
+    },
+    {
+      "slug": "three-roles",
+      "unitId": "u-3roles",
+      "supportPage": 18,
+      "points": 3,
+      "ok": true
+    },
+    {
+      "slug": "room-spray",
+      "unitId": "l-spray",
+      "supportPage": 117,
+      "points": 3,
+      "ok": true
+    },
+    {
+      "slug": "food-functions",
+      "unitId": "m-3func",
+      "supportPage": 131,
+      "points": 4,
+      "ok": true
+    },
+    {
+      "slug": "cuttings",
+      "unitId": "g-propagate",
+      "supportPage": 127,
+      "points": 3,
+      "ok": true
+    },
+    {
+      "slug": "planting-spring",
+      "unitId": "g-timing",
+      "supportPage": 122,
+      "points": 2,
+      "ok": true
+    },
+    {
+      "slug": "planting-autumn",
+      "unitId": "g-timing",
+      "supportPage": 122,
+      "points": 2,
+      "ok": true
+    },
+    {
+      "slug": "fresh-tea-amount",
+      "unitId": "t-amount",
+      "supportPage": 111,
+      "points": 2,
+      "ok": true
+    },
+    {
+      "slug": "lotion-care",
+      "unitId": "l-lotion",
+      "supportPage": 116,
+      "points": 3,
+      "ok": true
+    },
+    {
+      "slug": "herb-bath",
+      "unitId": "l-bath",
+      "supportPage": 115,
+      "points": 4,
+      "ok": true
+    },
+    {
+      "slug": "soil",
+      "unitId": "g-soil",
+      "supportPage": 123,
+      "points": 3,
+      "ok": true
+    }
+  ],
+  "skipped": [
+    {
+      "target": "ジェノベーゼソースの作り方（本書 p.33）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "セビーチェの作り方（本書 p.38）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "フレーバーオイルの作り方（本書 p.46）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "フレーバービネガー／フレーバーしょうゆの作り方（本書 p.47）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "基本のドレッシングの作り方（本書 p.49）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "サシェの作り方（本書 p.119）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "ローズマリーのリースの作り方（本書 p.121）",
+      "reason": "対応する知識単位がなく（同ページの単位はタッジーマッジーについて）、出典・解説を単位に紐付けられないため作らない"
+    },
+    {
+      "target": "手作りハリッサ風ペースト（本書 p.41）・ハーブバス（本書 p.115）・シナモンのコースター（本書 p.119）等の作り方",
+      "reason": "番号が付いておらず、順序が原文に明示されていないため作らない"
+    },
+    {
+      "target": "歴史の出来事など年代の並べ替え",
+      "reason": "F1（DECISIONS #21）の評価どおり、年代が単一の数値として明示される単位は一部のみで概数・範囲・時代名が混在するため作らない"
+    },
+    {
+      "target": "上記12件以外の短文記述",
+      "reason": "転記支持文に2点以上の検証可能な要点（字句として切り出せる語句）を含む単位・節が他に確認できないため作らない（量より質を優先）"
+    },
+    {
+      "target": "水やりの基本（本書 p.125）",
+      "reason": "監査A3（DECISIONS #28）で、番号付き3項目が時間的工程ではなく並列の原則（与える条件・量・時刻）であり、提示順を入れ替えても原則として成立して正解が一意でないと判定したため、並べ替え問題としては生成しない（F2で生成した qord-watering を取り下げ）"
+    }
+  ],
+  "failures": []
+}
