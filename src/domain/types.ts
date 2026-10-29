@@ -6,7 +6,13 @@ export type VerificationStatus = "unprocessed"|"extracted"|"needs-check"|"collat
 export type QuestionStatus = "verified"|"unverified"|"sample"|"excluded";
 export interface SourceRef { manifestImageId: string; bookPage: number|null; locationNote: string; }
 export interface KnowledgeUnit { id: string; materialId: string; materialVersion: string; chapterId: string; sectionId: string; bookPage: number|null; sourceRefs: SourceRef[]; content: string; category: string; relatedTerms: string[]; relatedUnitIds: string[]; verificationStatus: VerificationStatus; questionIds: string[]; cardIds: string[]; }
-export interface RubricPoint { id: string; label: string; keywords: string[]; required: boolean; points: number; }
+export interface RubricPoint {
+  id: string; label: string; keywords: string[]; required: boolean; points: number;
+  /** G1（DECISIONS #29）: 近接AND結合キーワード群。各群は断片の配列で、全断片が順序どおり・近接（gradeEssayRubric の PROXIMITY_MAX_GAP 以内の間隔）して現れた場合に一致する。群同士は OR、keywords とも OR。助詞挿入で落ちる「材料名＋分量」「対象名＋値」の連結要点用。 */
+  keywordGroups?: string[][];
+  /** G1（DECISIONS #29）: 比較記述の対象名（主語）。同一ルーブリック内の subject の出現で回答を区間分割し、この要点は自対象の区間内でのみキーワード一致を判定する（回答に対象名が現れない場合は従来どおり全文判定へフォールバックする）。 */
+  subject?: string;
+}
 export interface Question {
   id: string; version: number; format: QuestionFormat; status: QuestionStatus;
   chapterId: string; sectionId: string; difficulty: 1|2|3|4|5;
@@ -18,14 +24,17 @@ export interface Question {
   explanation: string; knowledgeUnitIds: string[]; sourceRefs: SourceRef[];
 }
 export interface Flashcard { id: string; front: string; back: string; reverseOf?: string|null; chapterId: string; sectionId: string; status: QuestionStatus; knowledgeUnitIds: string[]; sourceRefs: SourceRef[]; }
-/** Claude版ブランチから取り込んだ知識単位（フェーズ2統合）。全件 unverified 固定: 内容の人手照合が済むまで verified にしない。 */
+/** Claude版ブランチから取り込んだ知識単位（フェーズ2統合）。原則 unverified: 原本画像との人手照合を終えた単位だけが、scripts/collation-overrides.json 経由で verified になる。 */
 export interface KnowledgeSource { page: number; sourceUnitId: string; origin: "claude/build-learning-app"; }
+/** 原文照合の記録（照合済み単位にのみ付く）。batch は scripts/collation-overrides.json のバッチID。 */
+export interface CollationRecord { batch: string|null; reason: string; needsReview: boolean; }
 export interface ImportedKnowledgeUnit {
-  id: string; kind: "unit"|"spice-fact"|"spice-profile"; status: "unverified";
+  id: string; kind: "unit"|"spice-fact"|"spice-profile"; status: "unverified"|"verified";
   chapterId: string; sectionTitle: string; category: string; content: string;
   source: KnowledgeSource;
   draftQa: { q: string; a: string; alt: string[] } | null;
   spice: { id: string; name: string; en: string|null } | null;
+  collation: CollationRecord | null;
 }
 export interface AnswerRecord { questionId: string; answeredAt: string; correct: boolean|null; scoreRatio: number|null; autoScoreRatio: number|null; selfScoreRatio: number|null; responseMs: number|null; selfEval?: "known"|"unsure"|"unknown"|null; mistakeCause?: string|null; }
 export interface SrsState { itemId: string; easeFactor: number; intervalDays: number; repetitions: number; dueAt: string; lastReviewedAt: string|null; }

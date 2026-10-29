@@ -1,8 +1,8 @@
 
-import type { Question, KnowledgeUnit, Flashcard } from "./types";
+import type { Question, Flashcard } from "./types";
 import { QUESTION_FORMATS } from "./types";
 export interface ValidationIssue { severity: "error"|"warning"; code: string; targetId: string; message: string; }
-export function validateQuestion(q: Question, units: KnowledgeUnit[]): ValidationIssue[] {
+export function validateQuestion(q: Question, units: readonly { id: string }[]): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
   if (!QUESTION_FORMATS.includes(q.format)) issues.push({severity:"error",code:"bad-format",targetId:q.id,message:"未知の問題形式"});
   if (q.status==="verified") {
