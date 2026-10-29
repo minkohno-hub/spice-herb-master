@@ -1,0 +1,1459 @@
+[
+ {
+  "id": "anise-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "アニス",
+  "category": "profile",
+  "content": "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。",
+  "source": {
+   "page": 52,
+   "sourceUnitId": "anise-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "anise",
+   "name": "アニス",
+   "en": "Anise"
+  }
+ },
+ {
+  "id": "anise-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "アニス",
+  "category": "spice-fact",
+  "content": "甘みのある独特の香りで、菓子・パン・スープの風味づけや、地中海沿岸のリキュールによく使われる。",
+  "source": {
+   "page": 52,
+   "sourceUnitId": "anise-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "anise",
+   "name": "アニス",
+   "en": "Anise"
+  }
+ },
+ {
+  "id": "anise-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "アニス",
+  "category": "spice-fact",
+  "content": "トルコのラクやギリシャのウゾはアニスで香りづけした無色の酒で、水で割ると成分のテルペンが反応して白く濁る。",
+  "source": {
+   "page": 52,
+   "sourceUnitId": "anise-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "アニスで香りづけされた酒が水で割ると白く濁るのは、何という成分が反応するため?",
+   "a": "テルペン",
+   "alt": []
+  },
+  "spice": {
+   "id": "anise",
+   "name": "アニス",
+   "en": "Anise"
+  }
+ },
+ {
+  "id": "anise-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "アニス",
+  "category": "spice-fact",
+  "content": "古代エジプトではクミンとともにミイラの防腐・保存剤として使われた(シナモンが輸入されるまで)。",
+  "source": {
+   "page": 52,
+   "sourceUnitId": "anise-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "anise",
+   "name": "アニス",
+   "en": "Anise"
+  }
+ },
+ {
+  "id": "anise-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "アニス",
+  "category": "spice-fact",
+  "content": "紀元前3世紀頃のローマで祝宴の最後に出されたアニス入りのワインケーキが、ウエディングケーキの由来とされる。",
+  "source": {
+   "page": 52,
+   "sourceUnitId": "anise-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ウエディングケーキの由来とされる、古代ローマで祝宴の最後に出されたケーキに使われたスパイスは?",
+   "a": "アニス",
+   "alt": []
+  },
+  "spice": {
+   "id": "anise",
+   "name": "アニス",
+   "en": "Anise"
+  }
+ },
+ {
+  "id": "allspice-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "オールスパイス",
+  "category": "profile",
+  "content": "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。",
+  "source": {
+   "page": 53,
+   "sourceUnitId": "allspice-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "allspice",
+   "name": "オールスパイス",
+   "en": "Allspice"
+  }
+ },
+ {
+  "id": "allspice-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "オールスパイス",
+  "category": "spice-fact",
+  "content": "クローブ・ナツメッグ・シナモンを合わせたような香りを持つ。",
+  "source": {
+   "page": 53,
+   "sourceUnitId": "allspice-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「クローブ・ナツメッグ・シナモンを合わせたような香り」と表現されるスパイスは?",
+   "a": "オールスパイス",
+   "alt": []
+  },
+  "spice": {
+   "id": "allspice",
+   "name": "オールスパイス",
+   "en": "Allspice"
+  }
+ },
+ {
+  "id": "allspice-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "オールスパイス",
+  "category": "spice-fact",
+  "content": "古代マヤ人は紀元前2世紀頃から王の遺体の防腐剤や調味料として使っていたとされる。",
+  "source": {
+   "page": 53,
+   "sourceUnitId": "allspice-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "allspice",
+   "name": "オールスパイス",
+   "en": "Allspice"
+  }
+ },
+ {
+  "id": "allspice-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "オールスパイス",
+  "category": "spice-fact",
+  "content": "一説ではスペインの探検家フランシスコ・フェルナンデスが1570年代にメキシコで発見し、ヨーロッパに伝わったのは17世紀初頭とされる比較的新しいスパイス。",
+  "source": {
+   "page": 53,
+   "sourceUnitId": "allspice-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "オールスパイスがヨーロッパにもたらされたのはいつ頃とされる?",
+   "a": "17世紀初頭",
+   "alt": []
+  },
+  "spice": {
+   "id": "allspice",
+   "name": "オールスパイス",
+   "en": "Allspice"
+  }
+ },
+ {
+  "id": "oregano-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "オレガノ",
+  "category": "profile",
+  "content": "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。",
+  "source": {
+   "page": 54,
+   "sourceUnitId": "oregano-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "oregano",
+   "name": "オレガノ",
+   "en": "Oregano"
+  }
+ },
+ {
+  "id": "oregano-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "オレガノ",
+  "category": "spice-fact",
+  "content": "清涼感のある香りでイタリアのトマト料理に欠かせず、チリパウダーにも不可欠。きのことの相性もよい。",
+  "source": {
+   "page": 54,
+   "sourceUnitId": "oregano-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "oregano",
+   "name": "オレガノ",
+   "en": "Oregano"
+  }
+ },
+ {
+  "id": "oregano-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "オレガノ",
+  "category": "spice-fact",
+  "content": "名は古代ギリシア語で「喜びの山」を意味する言葉が語源とされる。",
+  "source": {
+   "page": 54,
+   "sourceUnitId": "oregano-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "オレガノの名の語源とされる古代ギリシア語の意味は?",
+   "a": "喜びの山",
+   "alt": []
+  },
+  "spice": {
+   "id": "oregano",
+   "name": "オレガノ",
+   "en": "Oregano"
+  }
+ },
+ {
+  "id": "oregano-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "オレガノ",
+  "category": "spice-fact",
+  "content": "ローマ時代の美食家アピシウスがその香りを愛したとされる。",
+  "source": {
+   "page": 54,
+   "sourceUnitId": "oregano-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "オレガノの香りを愛したとされるローマ時代の美食家は?",
+   "a": "アピシウス",
+   "alt": []
+  },
+  "spice": {
+   "id": "oregano",
+   "name": "オレガノ",
+   "en": "Oregano"
+  }
+ },
+ {
+  "id": "garlic-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ガーリック",
+  "category": "profile",
+  "content": "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。",
+  "source": {
+   "page": 55,
+   "sourceUnitId": "garlic-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "garlic",
+   "name": "ガーリック",
+   "en": "Garlic"
+  }
+ },
+ {
+  "id": "garlic-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ガーリック",
+  "category": "spice-fact",
+  "content": "肉や魚の臭み消しの働きが強く、塩・こしょうに次ぐ「第三の調味料」ともいわれる。",
+  "source": {
+   "page": 55,
+   "sourceUnitId": "garlic-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "塩・こしょうに次ぐ「第三の調味料」ともいわれるスパイスは?",
+   "a": "ガーリック",
+   "alt": [
+    "にんにく"
+   ]
+  },
+  "spice": {
+   "id": "garlic",
+   "name": "ガーリック",
+   "en": "Garlic"
+  }
+ },
+ {
+  "id": "garlic-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ガーリック",
+  "category": "spice-fact",
+  "content": "生のガーリックの無臭成分アリインは、刻むなどすると酵素アリイナーゼの作用でアリシンに変わり、特有の香りになる。",
+  "source": {
+   "page": 55,
+   "sourceUnitId": "garlic-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ガーリックの無臭成分アリインが変化してできる香り成分は?",
+   "a": "アリシン",
+   "alt": []
+  },
+  "spice": {
+   "id": "garlic",
+   "name": "ガーリック",
+   "en": "Garlic"
+  }
+ },
+ {
+  "id": "garlic-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ガーリック",
+  "category": "spice-fact",
+  "content": "アリインをアリシンに変える酵素はアリイナーゼである。",
+  "source": {
+   "page": 55,
+   "sourceUnitId": "garlic-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ガーリックのアリインをアリシンに変える酵素は?",
+   "a": "アリイナーゼ",
+   "alt": []
+  },
+  "spice": {
+   "id": "garlic",
+   "name": "ガーリック",
+   "en": "Garlic"
+  }
+ },
+ {
+  "id": "garlic-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "ガーリック",
+  "category": "spice-fact",
+  "content": "『源氏物語』の「帚木」の巻に、乾燥にんにくを煎じた飲み物「極熱の草薬」が風邪薬として登場する。",
+  "source": {
+   "page": 55,
+   "sourceUnitId": "garlic-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "『源氏物語』で、乾燥にんにくを煎じた飲み物が登場する巻は?",
+   "a": "帚木",
+   "alt": [
+    "ははきぎ"
+   ]
+  },
+  "spice": {
+   "id": "garlic",
+   "name": "ガーリック",
+   "en": "Garlic"
+  }
+ },
+ {
+  "id": "cardamom-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "カルダモン",
+  "category": "profile",
+  "content": "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。",
+  "source": {
+   "page": 56,
+   "sourceUnitId": "cardamom-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cardamom",
+   "name": "カルダモン",
+   "en": "Cardamom"
+  }
+ },
+ {
+  "id": "cardamom-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "カルダモン",
+  "category": "spice-fact",
+  "content": "爽やかな強い刺激と柑橘系の香りで「香りの王様」と呼ばれ、日本のカレー粉の主原料でもある。",
+  "source": {
+   "page": 56,
+   "sourceUnitId": "cardamom-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「香りの王様」と呼ばれるスパイスは?",
+   "a": "カルダモン",
+   "alt": []
+  },
+  "spice": {
+   "id": "cardamom",
+   "name": "カルダモン",
+   "en": "Cardamom"
+  }
+ },
+ {
+  "id": "cardamom-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "カルダモン",
+  "category": "spice-fact",
+  "content": "北欧ではバイキングが8〜10世紀頃に持ち帰ったとされ、特に多用される。",
+  "source": {
+   "page": 56,
+   "sourceUnitId": "cardamom-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cardamom",
+   "name": "カルダモン",
+   "en": "Cardamom"
+  }
+ },
+ {
+  "id": "cardamom-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "カルダモン",
+  "category": "spice-fact",
+  "content": "殻の中の黒い種子に強い香りがあり、ホールは殻に切り込みを入れたり種子を取り出したりして使う。",
+  "source": {
+   "page": 56,
+   "sourceUnitId": "cardamom-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cardamom",
+   "name": "カルダモン",
+   "en": "Cardamom"
+  }
+ },
+ {
+  "id": "cardamom-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "カルダモン",
+  "category": "spice-fact",
+  "content": "紀元前8世紀末、バビロニア王国のバラダン2世の庭園で栽培されていたという。",
+  "source": {
+   "page": 56,
+   "sourceUnitId": "cardamom-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "カルダモンが栽培されていたとされる庭園の持ち主、バビロニア王国の王は?",
+   "a": "バラダン2世",
+   "alt": []
+  },
+  "spice": {
+   "id": "cardamom",
+   "name": "カルダモン",
+   "en": "Cardamom"
+  }
+ },
+ {
+  "id": "cardamom-5",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "カルダモン",
+  "category": "spice-fact",
+  "content": "ブラックカルダモン(ビッグカルダモン)はショウガ科の別植物の果実で、グリーンカルダモンよりかなり大きく、ガラムマサラの材料などに使われる。",
+  "source": {
+   "page": 56,
+   "sourceUnitId": "cardamom-5",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ガラムマサラの材料にも使われる、グリーンカルダモンより大きなショウガ科の果実は?",
+   "a": "ブラックカルダモン",
+   "alt": [
+    "ビッグカルダモン"
+   ]
+  },
+  "spice": {
+   "id": "cardamom",
+   "name": "カルダモン",
+   "en": "Cardamom"
+  }
+ },
+ {
+  "id": "caraway-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "キャラウェイ",
+  "category": "profile",
+  "content": "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。",
+  "source": {
+   "page": 57,
+   "sourceUnitId": "caraway-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "caraway",
+   "name": "キャラウェイ",
+   "en": "Caraway"
+  }
+ },
+ {
+  "id": "caraway-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "キャラウェイ",
+  "category": "spice-fact",
+  "content": "爽やかさとほのかな甘い香りが特徴で、ザワークラウトやライ麦パン、ドイツのキュンメル酒・オランダのジン・北欧のアクアビットの風味づけに使われる。",
+  "source": {
+   "page": 57,
+   "sourceUnitId": "caraway-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ドイツのキュンメル酒の風味づけに使われるスパイスは?",
+   "a": "キャラウェイ",
+   "alt": []
+  },
+  "spice": {
+   "id": "caraway",
+   "name": "キャラウェイ",
+   "en": "Caraway"
+  }
+ },
+ {
+  "id": "caraway-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "キャラウェイ",
+  "category": "spice-fact",
+  "content": "ジュリアス・シーザーの古代ローマ軍はキャラウェイを使った兵隊食を食べたとされ、使われたのは種ではなく肉厚の根だった。",
+  "source": {
+   "page": 57,
+   "sourceUnitId": "caraway-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "古代ローマ軍の兵隊食に使われたキャラウェイの部位は?",
+   "a": "根",
+   "alt": []
+  },
+  "spice": {
+   "id": "caraway",
+   "name": "キャラウェイ",
+   "en": "Caraway"
+  }
+ },
+ {
+  "id": "caraway-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "キャラウェイ",
+  "category": "spice-fact",
+  "content": "人やモノを引き止める力があるという言い伝えがあり、惚れ薬の材料とされた。",
+  "source": {
+   "page": 57,
+   "sourceUnitId": "caraway-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "caraway",
+   "name": "キャラウェイ",
+   "en": "Caraway"
+  }
+ },
+ {
+  "id": "gardenia-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "くちなし",
+  "category": "profile",
+  "content": "くちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。",
+  "source": {
+   "page": 58,
+   "sourceUnitId": "gardenia-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "gardenia",
+   "name": "くちなし",
+   "en": "Gardenia"
+  }
+ },
+ {
+  "id": "gardenia-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "くちなし",
+  "category": "spice-fact",
+  "content": "栗きんとん・たくあん漬けなどを黄色く色づける。黄色色素の主成分はクロシン(サフランと共通)で水溶性。",
+  "source": {
+   "page": 58,
+   "sourceUnitId": "gardenia-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "くちなしとサフランに共通する黄色色素の主成分は?",
+   "a": "クロシン",
+   "alt": []
+  },
+  "spice": {
+   "id": "gardenia",
+   "name": "くちなし",
+   "en": "Gardenia"
+  }
+ },
+ {
+  "id": "gardenia-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "くちなし",
+  "category": "spice-fact",
+  "content": "熟しても実が裂けない(口が開かない)ことが名前の由来とされる。",
+  "source": {
+   "page": 58,
+   "sourceUnitId": "gardenia-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "gardenia",
+   "name": "くちなし",
+   "en": "Gardenia"
+  }
+ },
+ {
+  "id": "gardenia-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "くちなし",
+  "category": "spice-fact",
+  "content": "大分県臼杵市の郷土料理「黄飯(おうはん)」はくちなしの実で黄色く炊いたごはん。",
+  "source": {
+   "page": 58,
+   "sourceUnitId": "gardenia-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "くちなしの実で黄色く炊き上げる大分県臼杵市の郷土料理は?",
+   "a": "黄飯",
+   "alt": [
+    "おうはん"
+   ]
+  },
+  "spice": {
+   "id": "gardenia",
+   "name": "くちなし",
+   "en": "Gardenia"
+  }
+ },
+ {
+  "id": "cumin-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "クミン",
+  "category": "profile",
+  "content": "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。",
+  "source": {
+   "page": 59,
+   "sourceUnitId": "cumin-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cumin",
+   "name": "クミン",
+   "en": "Cumin"
+  }
+ },
+ {
+  "id": "cumin-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "クミン",
+  "category": "spice-fact",
+  "content": "カレーを思わせるエスニックな芳香で、カレー粉やチリパウダーに欠かせない。インド料理ではスタータースパイスとして使われる。",
+  "source": {
+   "page": 59,
+   "sourceUnitId": "cumin-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cumin",
+   "name": "クミン",
+   "en": "Cumin"
+  }
+ },
+ {
+  "id": "cumin-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "クミン",
+  "category": "spice-fact",
+  "content": "古代エジプトでは遺体をミイラにする際の防腐剤に使われた。",
+  "source": {
+   "page": 59,
+   "sourceUnitId": "cumin-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cumin",
+   "name": "クミン",
+   "en": "Cumin"
+  }
+ },
+ {
+  "id": "cumin-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "クミン",
+  "category": "spice-fact",
+  "content": "中世ヨーロッパでは恋人の心変わりを防ぐとされ、結婚式にポケットに忍ばせる風習があった。",
+  "source": {
+   "page": 59,
+   "sourceUnitId": "cumin-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "中世ヨーロッパで、恋人の心変わりを防ぐとして結婚式にポケットに忍ばせたスパイスは?",
+   "a": "クミン",
+   "alt": []
+  },
+  "spice": {
+   "id": "cumin",
+   "name": "クミン",
+   "en": "Cumin"
+  }
+ },
+ {
+  "id": "cumin-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "クミン",
+  "category": "spice-fact",
+  "content": "「ブラッククミン」と呼ばれるのは一般にキンポウゲ科のニゲラの種子で、クミンの一種ではない。インドではカロンジとも呼ぶ。",
+  "source": {
+   "page": 59,
+   "sourceUnitId": "cumin-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「ブラッククミン」と呼ばれる黒い種子は、一般に何という植物のもの?",
+   "a": "ニゲラ",
+   "alt": []
+  },
+  "spice": {
+   "id": "cumin",
+   "name": "クミン",
+   "en": "Cumin"
+  }
+ },
+ {
+  "id": "clove-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "クローブ",
+  "category": "profile",
+  "content": "クローブ: 科名はフトモモ科。原産地はインドネシア(マルク諸島)。利用部位は蕾。別名は丁子(ちょうじ)、丁香(ちょうこう)、百里香(ひゃくりこう)。検定1・2・3級の対象。",
+  "source": {
+   "page": 60,
+   "sourceUnitId": "clove-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "clove",
+   "name": "クローブ",
+   "en": "Clove"
+  }
+ },
+ {
+  "id": "clove-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "クローブ",
+  "category": "spice-fact",
+  "content": "蕾は開花直前に最も香りが強くなる。",
+  "source": {
+   "page": 60,
+   "sourceUnitId": "clove-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "clove",
+   "name": "クローブ",
+   "en": "Clove"
+  }
+ },
+ {
+  "id": "clove-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "クローブ",
+  "category": "spice-fact",
+  "content": "甘く濃厚な風味で肉料理と相性がよく、フルーツポマンダーの材料にもなる。",
+  "source": {
+   "page": 60,
+   "sourceUnitId": "clove-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "clove",
+   "name": "クローブ",
+   "en": "Clove"
+  }
+ },
+ {
+  "id": "clove-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "クローブ",
+  "category": "spice-fact",
+  "content": "香りの代表的成分オイゲノールは、油脂の酸化防止作用や防腐作用を持つ。",
+  "source": {
+   "page": 60,
+   "sourceUnitId": "clove-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "クローブの香りの代表的な成分は?",
+   "a": "オイゲノール",
+   "alt": []
+  },
+  "spice": {
+   "id": "clove",
+   "name": "クローブ",
+   "en": "Clove"
+  }
+ },
+ {
+  "id": "clove-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "クローブ",
+  "category": "spice-fact",
+  "content": "フランス語で「釘」を意味するクルウ(clou)が名前の由来で、中国名の丁香も釘にちなむ。",
+  "source": {
+   "page": 60,
+   "sourceUnitId": "clove-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "クローブの名前の由来となったフランス語「clou」の意味は?",
+   "a": "釘",
+   "alt": []
+  },
+  "spice": {
+   "id": "clove",
+   "name": "クローブ",
+   "en": "Clove"
+  }
+ },
+ {
+  "id": "pepper-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "こしょう",
+  "category": "profile",
+  "content": "こしょう: 科名はコショウ科。原産地はインド(マラバル地方)。利用部位は果実。別名はペッパー。検定1・2・3級の対象。",
+  "source": {
+   "page": 61,
+   "sourceUnitId": "pepper-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "pepper",
+   "name": "こしょう",
+   "en": "Pepper"
+  }
+ },
+ {
+  "id": "pepper-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "こしょう",
+  "category": "spice-fact",
+  "content": "つる性の植物で、収穫時期と製法によりブラック・ホワイト・グリーンの3種類ができる。",
+  "source": {
+   "page": 61,
+   "sourceUnitId": "pepper-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "pepper",
+   "name": "こしょう",
+   "en": "Pepper"
+  }
+ },
+ {
+  "id": "pepper-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "こしょう",
+  "category": "spice-fact",
+  "content": "ブラックペッパーは未熟果を果皮ごと天日乾燥したもので、野性的な香りと強い辛み。",
+  "source": {
+   "page": 61,
+   "sourceUnitId": "pepper-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "こしょうの未熟果を果皮ごと天日乾燥させたものは?",
+   "a": "ブラックペッパー",
+   "alt": [
+    "黒こしょう"
+   ]
+  },
+  "spice": {
+   "id": "pepper",
+   "name": "こしょう",
+   "en": "Pepper"
+  }
+ },
+ {
+  "id": "pepper-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "こしょう",
+  "category": "spice-fact",
+  "content": "ホワイトペッパーは熟果を水に浸して果皮を除き、核の部分を乾燥させたもので、マイルドな香り。色の淡い料理に向く。",
+  "source": {
+   "page": 61,
+   "sourceUnitId": "pepper-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "こしょうの熟果の果皮を除いて乾燥させたものは?",
+   "a": "ホワイトペッパー",
+   "alt": [
+    "白こしょう"
+   ]
+  },
+  "spice": {
+   "id": "pepper",
+   "name": "こしょう",
+   "en": "Pepper"
+  }
+ },
+ {
+  "id": "pepper-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "こしょう",
+  "category": "spice-fact",
+  "content": "グリーンペッパーは未熟果を摘み取って機械乾燥(または塩漬け)したもので、美しい緑色が特徴。",
+  "source": {
+   "page": 61,
+   "sourceUnitId": "pepper-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "こしょうの未熟果を機械乾燥させ緑色を生かしたものは?",
+   "a": "グリーンペッパー",
+   "alt": []
+  },
+  "spice": {
+   "id": "pepper",
+   "name": "こしょう",
+   "en": "Pepper"
+  }
+ },
+ {
+  "id": "pepper-5",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "こしょう",
+  "category": "spice-fact",
+  "content": "辛み成分はピペリンである。",
+  "source": {
+   "page": 61,
+   "sourceUnitId": "pepper-5",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "こしょうの辛み成分は?",
+   "a": "ピペリン",
+   "alt": []
+  },
+  "spice": {
+   "id": "pepper",
+   "name": "こしょう",
+   "en": "Pepper"
+  }
+ },
+ {
+  "id": "pepper-6",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "こしょう",
+  "category": "spice-fact",
+  "content": "1つの料理で3度使われることもあり「スパイスの王様」と呼ばれる。中世ヨーロッパではひと握りが牛1頭と交換できるほど貴重だった。",
+  "source": {
+   "page": 61,
+   "sourceUnitId": "pepper-6",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「スパイスの王様」と呼ばれるスパイスは?",
+   "a": "こしょう",
+   "alt": []
+  },
+  "spice": {
+   "id": "pepper",
+   "name": "こしょう",
+   "en": "Pepper"
+  }
+ },
+ {
+  "id": "pepper-7",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "こしょう",
+  "category": "spice-fact",
+  "content": "正倉院に残るものが日本で最も古いとされ、遅くとも749年には伝来していた。",
+  "source": {
+   "page": 61,
+   "sourceUnitId": "pepper-7",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "pepper",
+   "name": "こしょう",
+   "en": "Pepper"
+  }
+ },
+ {
+  "id": "pepper-8",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "こしょう",
+  "category": "spice-fact",
+  "content": "ピンクペッパーは一般にウルシ科サンショウモドキ属の果実で、こしょうとは別の植物。辛みはなく彩りに使う。フランス語名はベ・ローゼ。",
+  "source": {
+   "page": 61,
+   "sourceUnitId": "pepper-8",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "一般にピンクペッパーと呼ばれるスパイスは何科の植物の果実?",
+   "a": "ウルシ科",
+   "alt": []
+  },
+  "spice": {
+   "id": "pepper",
+   "name": "こしょう",
+   "en": "Pepper"
+  }
+ },
+ {
+  "id": "coriander-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "コリアンダー",
+  "category": "profile",
+  "content": "コリアンダー: 科名はセリ科。原産地は地中海沿岸、西アジア。利用部位は葉、茎、種子(植物学上は果実)、根。別名はコエンドロ、シラントロ、香菜(シャンツァイ)、パクチー、カメムシソウ。検定1・2・3級の対象。",
+  "source": {
+   "page": 63,
+   "sourceUnitId": "coriander-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "coriander",
+   "name": "コリアンダー",
+   "en": "Coriander"
+  }
+ },
+ {
+  "id": "coriander-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "コリアンダー",
+  "category": "spice-fact",
+  "content": "完熟した種子と葉・茎ではまったく異なる香りを持つ。種子は甘く爽やかで、カレー粉に欠かせない。",
+  "source": {
+   "page": 63,
+   "sourceUnitId": "coriander-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "coriander",
+   "name": "コリアンダー",
+   "en": "Coriander"
+  }
+ },
+ {
+  "id": "coriander-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "コリアンダー",
+  "category": "spice-fact",
+  "content": "日本ではタイ語名「パクチー」で親しまれている。",
+  "source": {
+   "page": 63,
+   "sourceUnitId": "coriander-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "コリアンダーの葉をさす「パクチー」は何語の名前?",
+   "a": "タイ語",
+   "alt": []
+  },
+  "spice": {
+   "id": "coriander",
+   "name": "コリアンダー",
+   "en": "Coriander"
+  }
+ },
+ {
+  "id": "coriander-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "コリアンダー",
+  "category": "spice-fact",
+  "content": "英語名はギリシャ語で虫を意味する「コリス」が語源とする説があり、博物学者プリニーが「コリアンドラム」と命名したとされる。",
+  "source": {
+   "page": 63,
+   "sourceUnitId": "coriander-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "コリアンダーの語源とされるギリシャ語「コリス」の意味は?",
+   "a": "虫",
+   "alt": []
+  },
+  "spice": {
+   "id": "coriander",
+   "name": "コリアンダー",
+   "en": "Coriander"
+  }
+ },
+ {
+  "id": "coriander-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "コリアンダー",
+  "category": "spice-fact",
+  "content": "ノコギリコリアンダー(別名エリンギュウム)はベトナムやタイで使われ、コリアンダーをマイルドにしたような香りと少しの苦み。",
+  "source": {
+   "page": 63,
+   "sourceUnitId": "coriander-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ベトナムやタイで使われ、別名をエリンギュウムというハーブは?",
+   "a": "ノコギリコリアンダー",
+   "alt": []
+  },
+  "spice": {
+   "id": "coriander",
+   "name": "コリアンダー",
+   "en": "Coriander"
+  }
+ },
+ {
+  "id": "saffron-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "サフラン",
+  "category": "profile",
+  "content": "サフラン: 科名はアヤメ科。原産地は南ヨーロッパ、西アジア。利用部位は花の雌しべ。別名はサフランクロッカス、蕃紅花(ばんこうか)。検定1・2・3級の対象。",
+  "source": {
+   "page": 64,
+   "sourceUnitId": "saffron-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "saffron",
+   "name": "サフラン",
+   "en": "Saffron crocus"
+  }
+ },
+ {
+  "id": "saffron-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "サフラン",
+  "category": "spice-fact",
+  "content": "水に溶け出す黄色の色素成分はクロシンで、水分に20分以上つけて色出ししてから使うのが基本。",
+  "source": {
+   "page": 64,
+   "sourceUnitId": "saffron-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "saffron",
+   "name": "サフラン",
+   "en": "Saffron crocus"
+  }
+ },
+ {
+  "id": "saffron-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "サフラン",
+  "category": "spice-fact",
+  "content": "1つの花から雌しべの先が3本しかとれず、1kg(約50万本)とるのに17万個余りの花が必要なため高価。",
+  "source": {
+   "page": 64,
+   "sourceUnitId": "saffron-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "サフラン1kgをとるのに必要な花の数は約何個?",
+   "a": "17万個余り",
+   "alt": [
+    "17万個",
+    "17万"
+   ]
+  },
+  "spice": {
+   "id": "saffron",
+   "name": "サフラン",
+   "en": "Saffron crocus"
+  }
+ },
+ {
+  "id": "saffron-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "サフラン",
+  "category": "spice-fact",
+  "content": "代表的な料理にビリヤニ(インドの炊き込み米料理)、パエリア、ブイヤベース、ミラノ風リゾットがある。",
+  "source": {
+   "page": 64,
+   "sourceUnitId": "saffron-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイスと具材を炊き込んだインドの米料理で、サフランを使う代表料理は?",
+   "a": "ビリヤニ",
+   "alt": []
+  },
+  "spice": {
+   "id": "saffron",
+   "name": "サフラン",
+   "en": "Saffron crocus"
+  }
+ },
+ {
+  "id": "sansho-profile",
+  "kind": "spice-profile",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "山椒/花椒",
+  "category": "profile",
+  "content": "山椒/花椒: 科名はミカン科。原産地は中国、日本、朝鮮半島。利用部位は果実、果皮、葉。別名ははじかみ(山椒)、中国山椒、華北山椒、ファガラ、セシュアンペッパー(花椒)。検定1・2・3級の対象。",
+  "source": {
+   "page": 65,
+   "sourceUnitId": "sansho-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "sansho",
+   "name": "山椒/花椒",
+   "en": "Japanese pepper / Chinese pepper"
+  }
+ },
+ {
+  "id": "sansho-1",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "山椒/花椒",
+  "category": "spice-fact",
+  "content": "山椒と花椒は同じミカン科サンショウ属だが別種。どちらも舌がしびれる辛みを持ち、花椒のほうが辛みが強い。",
+  "source": {
+   "page": 65,
+   "sourceUnitId": "sansho-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "山椒と花椒のうち、辛みがより強いのは?",
+   "a": "花椒",
+   "alt": []
+  },
+  "spice": {
+   "id": "sansho",
+   "name": "山椒/花椒",
+   "en": "Japanese pepper / Chinese pepper"
+  }
+ },
+ {
+  "id": "sansho-2",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "山椒/花椒",
+  "category": "spice-fact",
+  "content": "粉山椒(乾燥果皮の粉末)はうなぎの蒲焼きの薬味として知られ、七味唐辛子の原料にも欠かせない。",
+  "source": {
+   "page": 65,
+   "sourceUnitId": "sansho-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "sansho",
+   "name": "山椒/花椒",
+   "en": "Japanese pepper / Chinese pepper"
+  }
+ },
+ {
+  "id": "sansho-3",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "山椒/花椒",
+  "category": "spice-fact",
+  "content": "山椒の若葉や新芽は「木の芽」、熟す前の若い実は「実山椒」「青山椒」と呼ばれる。",
+  "source": {
+   "page": 65,
+   "sourceUnitId": "sansho-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "熟す前の山椒の若い実は何と呼ばれる?",
+   "a": "実山椒",
+   "alt": [
+    "青山椒"
+   ]
+  },
+  "spice": {
+   "id": "sansho",
+   "name": "山椒/花椒",
+   "en": "Japanese pepper / Chinese pepper"
+  }
+ },
+ {
+  "id": "sansho-4",
+  "kind": "spice-fact",
+  "status": "unverified",
+  "chapterId": "ch2",
+  "sectionTitle": "山椒/花椒",
+  "category": "spice-fact",
+  "content": "花椒は中国四川料理で唐辛子と並ぶ欠かせないスパイスで、麻婆豆腐の味を決めるといわれる。",
+  "source": {
+   "page": 65,
+   "sourceUnitId": "sansho-4",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "麻婆豆腐の味を決めるといわれる四川料理のスパイスは?",
+   "a": "花椒",
+   "alt": []
+  },
+  "spice": {
+   "id": "sansho",
+   "name": "山椒/花椒",
+   "en": "Japanese pepper / Chinese pepper"
+  }
+ }
+]
