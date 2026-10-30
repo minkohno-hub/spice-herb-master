@@ -12,6 +12,7 @@ import Exam from "../src/screens/Exam";
 import Stats from "../src/screens/Stats";
 import SearchPage from "../src/screens/SearchPage";
 import QaPage from "../src/screens/QaPage";
+import Settings from "../src/screens/Settings";
 
 // バンドル分割バッチE1（docs/DECISIONS.md #23）: 画面を src/screens/ へ分割し
 // React.lazy 化した後も、8画面すべてが従来どおり描画できることを固定する。
@@ -20,7 +21,7 @@ const store: StoreData = structuredClone(defaultStore);
 const update = () => {};
 const render = (el: React.ReactElement) => renderToString(createElement(MemoryRouter, null, el));
 
-describe("画面スモーク（E1: 分割後の8画面）", () => {
+describe("画面スモーク（E1: 分割後の画面。UX2で設定を追加し9画面）", () => {
   it("ホーム: 件数表示が軽量サマリ経由で描画される", () => {
     const html = render(createElement(Home, { store, update }));
     expect(html).toContain("スパイス＆ハーブ検定1級 学習アプリ");
@@ -75,5 +76,13 @@ describe("画面スモーク（E1: 分割後の8画面）", () => {
     const html = render(createElement(QaPage));
     expect(html).toContain("品質管理（管理・監査）");
     expect(html).toContain("取り込み済み知識単位");
+  });
+  it("設定: ダークモード切替と分析・品質管理への導線が描画される（UX2）", () => {
+    const html = render(createElement(Settings, { store, update }));
+    expect(html).toContain("設定");
+    expect(html).toContain("ダークモード切替");
+    expect(html).toContain("学習分析を開く");
+    expect(html).toContain("品質管理を開く");
+    expect(html).toContain("学習記録をリセット");
   });
 });
