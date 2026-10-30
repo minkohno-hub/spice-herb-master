@@ -1,21 +1,23 @@
 # TRACEABILITY — 要件対応表（指令書→実装）
 
+（2026-10-30 独立品質監査の修正バッチ7で現行実態に更新）
+
 | 指令書 | 実装 | 状態 |
 |---|---|---|
-| 3章 調査・インベントリ | data/source-manifest.json（140エントリ） | 済（ページ照合は目次・アンカーのみ） |
-| 4章 教材化 | 工程を DATA_PIPELINE に定義 | 未実施（フェーズ2） |
-| 5章 データ設計 | domain/types.ts（知識単位・出典・安定ID） | 基盤済・データ0件 |
-| 6章 出題範囲ルール | validate.ts（verified は出典・知識単位必須） | 済 |
-| 7章 17形式 | types＋QuestionRunner＋サンプル17問 | 済（正式問題0） |
-| 8章 学習モード/SRS/誤答分析 | Practice/Stats、srs.ts（SM-2）、mistakeCause 型 | 基盤済 |
-| 9章 記述式採点 | grading.ts 要点チェック＋自己採点分離 | 済 |
-| 10章 電子書籍 | Reader画面（目次/検索/しおり等） | 仕組み済・本文未転記 |
-| 11章 フラッシュカード | Cards画面＋flashcard形式 | 仕組み済・正式0件 |
-| 12章 模擬試験 | Exam画面（時間/途中保存/一括採点枠） | 枠済・出題0 |
-| 13章 分析・網羅率5指標 | Stats画面＋stats.ts（算出不能は未測定表示） | 済 |
-| 14章 検索 | Search画面（横断・節/問題） | 基本済 |
+| 3章 調査・インベントリ | data/source-manifest.json（139エントリ＋欠落1件を記録） | 済（ファイル↔ページ対応を実測確定） |
+| 4章 教材化 | DATA_PIPELINE の工程で実施 | 済（転記133ページ・85,586文字、知識単位545件を原文照合し verified 545/545） |
+| 5章 データ設計 | domain/types.ts（知識単位・出典・安定ID） | 済 |
+| 6章 出題範囲ルール | validate.ts（verified は出典・知識単位必須） | 済（生成パイプライン側でも生成後検証を実施） |
+| 7章 17形式 | types＋QuestionRunner＋生成パイプライン | 済（正式問題1,804問・15形式。写真識別とフラッシュカード形式の2形式は未生成で、写真識別は DECISIONS #12 の判断待ち） |
+| 8章 学習モード/SRS/誤答分析 | Practice（絞り込み・フォーカス・問題数）/Stats、srs.ts（SM-2系） | 済（監査 C-01/C-02 で学習モードと問題数設定を実働化） |
+| 9章 記述式採点 | grading.ts 要点チェック＋自己採点分離 | 済（監査 AD-1: 自動採点は満点でも correct を断定せず自己採点で確定） |
+| 10章 電子書籍 | Reader画面（目次/検索/しおり等）＋転記本文 | 済（問題との双方向リンクは監査 C-14 で実装） |
+| 11章 フラッシュカード | Cards画面 | 済（正式カード602件・4種別） |
+| 12章 模擬試験 | Exam画面（制限時間・一括採点・結果のSRS反映） | 済（対象は記述系4形式を除く1,713問） |
+| 13章 分析・網羅率5指標 | Stats画面＋stats.ts | 済（問題化率の配線は監査 C-07 で是正） |
+| 14章 検索 | Search画面（横断・節/問題/カード、転記本文も対象） | 済（本文検索と抜粋表示は監査 C-15 で実装） |
 | 15章 品質管理 | QA画面（集計＋修正案JSON出力、GitHub直書きなし） | 済 |
-| 16章 UI/UX | styles.css デザインシステム | 済（実機検証未） |
-| 17章 性能/PWA | vite-plugin-pwa（シェルのみ precache） | 済 |
-| 19章 GitHub Actions | .github/workflows/ci.yml | ローカル用意（反映は要確認事項） |
-| 21章 テスト | Vitest 33件 | 単体済・E2E未 |
+| 16章 UI/UX | styles.css デザインシステム | 済（ダークテーマのコントラストAA化は監査 D-01、実機検証は未実施） |
+| 17章 性能/PWA | vite-plugin-pwa（autoUpdate、precache はシェル限定＋データは runtime caching） | 済（監査 E-06/E-07/AD-3 で是正） |
+| 19章 GitHub Actions | .github/workflows/ci.yml（改訂版: ubuntu-24.04固定・E2Eジョブ・npm audit） | ローカル用意済み（App権限の制限により Web UI 配置が別途必要。BLOCKERS #5） |
+| 21章 テスト | Vitest 約200件＋Playwright E2E 約30件 | 済（全件合格を維持） |

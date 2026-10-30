@@ -1,6 +1,7 @@
 [
  {
   "id": "card-m-greek",
+  "kind": "qa",
   "front": "ギリシア発祥の伝統医学が通じているとされる現在の西洋ハーブ医学は?",
   "back": "メディカルハーブ",
   "reverseOf": null,
@@ -20,6 +21,7 @@
  },
  {
   "id": "card-m-wanames",
+  "kind": "qa",
   "front": "セントジョーンズワートの和名は?",
   "back": "西洋オトギリソウ",
   "reverseOf": null,
@@ -39,6 +41,7 @@
  },
  {
   "id": "card-m-kamitsure",
+  "kind": "qa",
   "front": "ジャーマンカモミールの和名は?",
   "back": "カミツレ",
   "reverseOf": null,
@@ -58,6 +61,7 @@
  },
  {
   "id": "card-m-commissione",
+  "kind": "qa",
   "front": "ハーブ先進国ドイツの専門機関で、ハーブの効果と安全性のモノグラフを作成したのは?",
   "back": "コミッションE",
   "reverseOf": null,
@@ -77,6 +81,7 @@
  },
  {
   "id": "card-m-3func",
+  "kind": "qa",
   "front": "食品の3つの機能は、栄養機能・嗜好機能と何?",
   "back": "生体調節機能",
   "reverseOf": null,
@@ -96,6 +101,7 @@
  },
  {
   "id": "card-m-func-ex",
+  "kind": "qa",
   "front": "本書の表で「血流増加」の作用が挙げられているスパイスは?",
   "back": "ロングペッパー",
   "reverseOf": null,
@@ -115,6 +121,7 @@
  },
  {
   "id": "card-m-salt",
+  "kind": "qa",
   "front": "「日本人の食事摂取基準(2025年版)」で推奨される成人男性の1日の食塩摂取量は?",
   "back": "7.5g未満",
   "reverseOf": null,
@@ -134,6 +141,7 @@
  },
  {
   "id": "card-m-salt-f",
+  "kind": "qa",
   "front": "「日本人の食事摂取基準(2025年版)」で推奨される成人女性の1日の食塩摂取量は?",
   "back": "6.5g未満",
   "reverseOf": null,
@@ -153,6 +161,7 @@
  },
  {
   "id": "card-m-tekien",
+  "kind": "qa",
   "front": "健康のために適切な量の食塩を摂ることを何という?",
   "back": "適塩",
   "reverseOf": null,
@@ -172,6 +181,7 @@
  },
  {
   "id": "card-m-kijun",
+  "kind": "qa",
   "front": "「日本人の食事摂取基準」は何年ごとに改定される?",
   "back": "5年",
   "reverseOf": null,
@@ -191,6 +201,7 @@
  },
  {
   "id": "card-m-menu",
+  "kind": "qa",
   "front": "本書の減塩メニュー例で、減塩みそ汁に加えるスパイスは?",
   "back": "七味唐辛子",
   "reverseOf": null,
@@ -210,6 +221,7 @@
  },
  {
   "id": "card-m-shokukeiken",
+  "kind": "qa",
   "front": "人類が長年食べ続けてきた経験で、食品の安全性の裏づけとなるものを何という?",
   "back": "食経験",
   "reverseOf": null,
@@ -229,6 +241,7 @@
  },
  {
   "id": "card-m-hokenkinou",
+  "kind": "qa",
   "front": "保健機能食品は、特定保健用食品・栄養機能食品と何の3つ?",
   "back": "機能性表示食品",
   "reverseOf": null,
@@ -248,6 +261,7 @@
  },
  {
   "id": "card-m-faddism",
+  "kind": "qa",
   "front": "食べ物の健康への影響を過大に信じたり評価したりする傾向を何という?",
   "back": "フードファディズム",
   "reverseOf": null,
@@ -267,6 +281,7 @@
  },
  {
   "id": "card-m-hfnet",
+  "kind": "qa",
   "front": "医薬基盤・健康・栄養研究所が運営する健康食品の情報サイトの略称は?",
   "back": "HFNet",
   "reverseOf": null,
@@ -286,6 +301,7 @@
  },
  {
   "id": "card-t-def",
+  "kind": "qa",
   "front": "複数のハーブを用いたハーブティーを何と呼ぶ?",
   "back": "ブレンドハーブティー",
   "reverseOf": null,
@@ -305,6 +321,7 @@
  },
  {
   "id": "card-t-cup",
+  "kind": "qa",
   "front": "ハーブティーのティーカップ1杯分の目安量は?",
   "back": "150〜180ml",
   "reverseOf": null,
@@ -324,6 +341,7 @@
  },
  {
   "id": "card-t-amount",
+  "kind": "qa",
   "front": "ハーブティー1杯分のフレッシュハーブの目安は、ティースプーン山盛り何杯?",
   "back": "3杯",
   "reverseOf": null,
@@ -343,6 +361,7 @@
  },
  {
   "id": "card-t-lid",
+  "kind": "qa",
   "front": "ハーブティーをいれるとき、ポットに蓋をする理由は?",
   "back": "揮発性の香りを逃がさないため",
   "reverseOf": null,
@@ -362,6 +381,7 @@
  },
  {
   "id": "card-t-time",
+  "kind": "qa",
   "front": "かたい種皮を持つ果実や種子のハーブティーの抽出時間の目安は?",
   "back": "7〜10分",
   "reverseOf": null,
@@ -381,6 +401,7 @@
  },
  {
   "id": "card-t-chamomile",
+  "kind": "qa",
   "front": "「大地のりんご」と呼ばれるハーブは?",
   "back": "ジャーマンカモミール",
   "reverseOf": null,
@@ -400,6 +421,7 @@
  },
  {
   "id": "card-t-stevia",
+  "kind": "qa",
   "front": "ステビアを利用した甘味料は、砂糖の何倍ほどの甘さといわれる?",
   "back": "200〜300倍",
   "reverseOf": null,
@@ -419,6 +441,7 @@
  },
  {
   "id": "card-t-hibiscus",
+  "kind": "qa",
   "front": "ハイビスカスの別名は?",
   "back": "ローゼル",
   "reverseOf": null,
@@ -438,6 +461,7 @@
  },
  {
   "id": "card-t-mallow",
+  "kind": "qa",
   "front": "色の変化から「夜明けのハーブティー」と呼ばれるハーブは?",
   "back": "マロウ",
   "reverseOf": null,
@@ -457,6 +481,7 @@
  },
  {
   "id": "card-t-raspberry",
+  "kind": "qa",
   "front": "ヨーロッパで「安産のハーブティー」として親しまれてきたのは?",
   "back": "ラズベリーリーフ",
   "reverseOf": null,
@@ -476,6 +501,7 @@
  },
  {
   "id": "card-t-elder",
+  "kind": "qa",
   "front": "マスカットに似た香りを持ち、欧米で万病薬的存在とされたハーブは?",
   "back": "エルダーフラワー",
   "reverseOf": null,
@@ -495,6 +521,7 @@
  },
  {
   "id": "card-t-lavender",
+  "kind": "qa",
   "front": "「ハーブの女王」とも呼ばれるハーブは?",
   "back": "ラベンダー",
   "reverseOf": null,
@@ -514,6 +541,7 @@
  },
  {
   "id": "card-t-verbena",
+  "kind": "qa",
   "front": "レモンバーベナの別名は?",
   "back": "ベルベーヌ",
   "reverseOf": null,
@@ -533,6 +561,7 @@
  },
  {
   "id": "card-t-rosehip",
+  "kind": "qa",
   "front": "ローズヒップは何という植物の実?",
   "back": "ドッグローズ",
   "reverseOf": null,
@@ -552,6 +581,7 @@
  },
  {
   "id": "card-t-coffee",
+  "kind": "qa",
   "front": "代替コーヒーの原料として代表的な、セイヨウタンポポの英名は?",
   "back": "ダンデリオン",
   "reverseOf": null,
@@ -571,6 +601,7 @@
  },
  {
   "id": "card-l-bath",
+  "kind": "qa",
   "front": "ハーブバスに使うドライハーブの量の目安は?",
   "back": "約20g",
   "reverseOf": null,
@@ -590,6 +621,7 @@
  },
  {
   "id": "card-l-youth",
+  "kind": "qa",
   "front": "「若返りのハーブ」といわれるハーブは?",
   "back": "ローズマリー",
   "reverseOf": null,
@@ -609,6 +641,7 @@
  },
  {
   "id": "card-l-skin",
+  "kind": "qa",
   "front": "脂性肌向けの化粧水に向くハーブの例を1つ挙げよ。",
   "back": "ローズマリー",
   "reverseOf": null,
@@ -628,6 +661,7 @@
  },
  {
   "id": "card-l-lotion",
+  "kind": "qa",
   "front": "手作り化粧水は冷蔵保管で何日で使い切る?",
   "back": "4〜5日",
   "reverseOf": null,
@@ -647,6 +681,7 @@
  },
  {
   "id": "card-l-hungarian",
+  "kind": "qa",
   "front": "ハンガリー王妃の逸話で知られる、ローズマリーなどで作った化粧水の名は?",
   "back": "ハンガリアンウォーター",
   "reverseOf": null,
@@ -666,6 +701,7 @@
  },
  {
   "id": "card-l-gargle",
+  "kind": "qa",
   "front": "抗菌作用が強いといわれる成分チモールを含み、うがい液に向くハーブは?",
   "back": "タイム",
   "reverseOf": null,
@@ -685,6 +721,7 @@
  },
  {
   "id": "card-l-aromabath",
+  "kind": "qa",
   "front": "精油の香りを空間に漂わせて楽しむことを何という?",
   "back": "芳香浴",
   "reverseOf": null,
@@ -704,6 +741,7 @@
  },
  {
   "id": "card-l-spray",
+  "kind": "qa",
   "front": "ルームスプレーで、精油を最初に混ぜる液体は?",
   "back": "無水エタノール",
   "reverseOf": null,
@@ -723,6 +761,7 @@
  },
  {
   "id": "card-l-oil",
+  "kind": "qa",
   "front": "精油の香りと作用を生かしたものを何という?",
   "back": "アロマテラピー",
   "reverseOf": null,
@@ -742,6 +781,7 @@
  },
  {
   "id": "card-l-rice",
+  "kind": "qa",
   "front": "米びつに入れて虫よけにするとされるスパイス・ハーブを1つ挙げよ。",
   "back": "唐辛子",
   "reverseOf": null,
@@ -761,6 +801,7 @@
  },
  {
   "id": "card-l-sachet",
+  "kind": "qa",
   "front": "フランス語で「香り袋」を意味する言葉は?",
   "back": "サシェ",
   "reverseOf": null,
@@ -780,6 +821,7 @@
  },
  {
   "id": "card-l-sachet-deodor",
+  "kind": "qa",
   "front": "リラックス用のサシェに向くハーブを1つ挙げよ。",
   "back": "ラベンダー",
   "reverseOf": null,
@@ -799,6 +841,7 @@
  },
  {
   "id": "card-l-pomander",
+  "kind": "qa",
   "front": "フルーツポマンダーで、オレンジに刺すスパイスは?",
   "back": "クローブ",
   "reverseOf": null,
@@ -818,6 +861,7 @@
  },
  {
   "id": "card-l-pomander-mean",
+  "kind": "qa",
   "front": "「ポマンダー」の意味は?",
   "back": "香り玉",
   "reverseOf": null,
@@ -837,6 +881,7 @@
  },
  {
   "id": "card-l-tussie",
+  "kind": "qa",
   "front": "ビクトリア朝時代に流行した、「語るブーケ」とも呼ばれるハーブ入りの花束は?",
   "back": "タッジーマッジー",
   "reverseOf": null,
@@ -856,6 +901,7 @@
  },
  {
   "id": "card-g-timing",
+  "kind": "qa",
   "front": "バジルなど耐寒性のない一年草のハーブの定植は、春と秋のどちらが基本?",
   "back": "春",
   "reverseOf": null,
@@ -875,6 +921,7 @@
  },
  {
   "id": "card-g-annual",
+  "kind": "qa",
   "front": "一年中、地上部が枯れない植物を何という?",
   "back": "常緑植物",
   "reverseOf": null,
@@ -894,6 +941,7 @@
  },
  {
   "id": "card-g-soil",
+  "kind": "qa",
   "front": "一般的にハーブの培養土に適するとされる酸度は?",
   "back": "弱アルカリ性",
   "reverseOf": null,
@@ -913,6 +961,7 @@
  },
  {
   "id": "card-g-soil-blend",
+  "kind": "qa",
   "front": "保水性をよくするが酸性のため、酸度調整済みのものを使う土は?",
   "back": "ピートモス",
   "reverseOf": null,
@@ -932,6 +981,7 @@
  },
  {
   "id": "card-g-pot",
+  "kind": "qa",
   "front": "通気性はよいが夏は乾燥しやすい鉢の素材は?",
   "back": "素焼き",
   "reverseOf": null,
@@ -951,6 +1001,7 @@
  },
  {
   "id": "card-g-temp",
+  "kind": "qa",
   "front": "多くのハーブの適温は?",
   "back": "15〜25度",
   "reverseOf": null,
@@ -970,6 +1021,7 @@
  },
  {
   "id": "card-g-water",
+  "kind": "qa",
   "front": "ハーブの水やりは1日のいつ行うのが基本?",
   "back": "午前中",
   "reverseOf": null,
@@ -989,6 +1041,7 @@
  },
  {
   "id": "card-g-dry",
+  "kind": "qa",
   "front": "乾燥と湿潤のうち、バジルが好むのは?",
   "back": "湿潤",
   "reverseOf": null,
@@ -1008,6 +1061,7 @@
  },
  {
   "id": "card-g-pinch",
+  "kind": "qa",
   "front": "枝先の中心を切り取って脇から新芽を出させることを何という?",
   "back": "摘芯",
   "reverseOf": null,
@@ -1027,6 +1081,7 @@
  },
  {
   "id": "card-g-harvest-dry",
+  "kind": "qa",
   "front": "ドライにするハーブの収穫に適した時期は?",
   "back": "開花直前",
   "reverseOf": null,
@@ -1046,6 +1101,7 @@
  },
  {
   "id": "card-g-harvest-woody",
+  "kind": "qa",
   "front": "ローズマリーやラベンダーのように茎が木質化するハーブを何性という?",
   "back": "木本性",
   "reverseOf": null,
@@ -1065,6 +1121,7 @@
  },
  {
   "id": "card-g-harvest-api",
+  "kind": "qa",
   "front": "セリ科ハーブの葉は、内側と外側のどちらから収穫する?",
   "back": "外側",
   "reverseOf": null,
@@ -1084,6 +1141,7 @@
  },
  {
   "id": "card-g-propagate",
+  "kind": "qa",
   "front": "ハーブをふやす3つの方法は、種まき・株分けと何?",
   "back": "挿し木",
   "reverseOf": null,
@@ -1103,6 +1161,7 @@
  },
  {
   "id": "card-m-holistic",
+  "kind": "qa",
   "front": "人を「全体」としてとらえる考え方を何という?",
   "back": "ホリスティック",
   "reverseOf": null,
@@ -1122,6 +1181,7 @@
  },
  {
   "id": "card-m-ayurveda",
+  "kind": "qa",
   "front": "アーユルヴェーダで体の機能をとらえる3要素を総称して何という?",
   "back": "ドーシャ",
   "reverseOf": null,
@@ -1141,6 +1201,7 @@
  },
  {
   "id": "card-m-ayur-3",
+  "kind": "qa",
   "front": "ドーシャの3要素は、ヴァータ・ピッタと何?",
   "back": "カパ",
   "reverseOf": null,
@@ -1160,6 +1221,7 @@
  },
  {
   "id": "card-m-tulsi",
+  "kind": "qa",
   "front": "ホーリーバジルのインド現地名は?",
   "back": "トゥラシー",
   "reverseOf": null,
@@ -1179,6 +1241,7 @@
  },
  {
   "id": "card-m-haldi",
+  "kind": "qa",
   "front": "ターメリックのインド現地名は?",
   "back": "ハルディ",
   "reverseOf": null,
@@ -1198,6 +1261,7 @@
  },
  {
   "id": "card-m-china",
+  "kind": "qa",
   "front": "中医学の古典薬草書の名は?",
   "back": "神農本草経",
   "reverseOf": null,
@@ -1217,6 +1281,7 @@
  },
  {
   "id": "card-m-nikuzuku",
+  "kind": "qa",
   "front": "ナツメッグの漢方名は?",
   "back": "肉豆蔲",
   "reverseOf": null,
@@ -1236,6 +1301,7 @@
  },
  {
   "id": "card-m-yakkiho",
+  "kind": "qa",
   "front": "食品としてのスパイスと漢方薬を区別している法律の略称は?",
   "back": "薬機法",
   "reverseOf": null,
