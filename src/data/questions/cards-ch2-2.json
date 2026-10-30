@@ -1,0 +1,3980 @@
+[
+ {
+  "id": "card-profile-shichimi-profile",
+  "kind": "profile",
+  "front": "七味唐辛子のプロフィールは？",
+  "back": "七味唐辛子: ミックススパイス。検定1・2・3級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "shichimi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9672",
+    "bookPage": 96,
+    "locationNote": "本書 p.96（原本画像 IMG_9672.PNG）。原文照合 batch7 で照合済みの知識単位 shichimi-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-chilipowder-profile",
+  "kind": "profile",
+  "front": "チリパウダーのプロフィールは？",
+  "back": "チリパウダー: ミックススパイス。検定1・2級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chilipowder-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9673",
+    "bookPage": 97,
+    "locationNote": "本書 p.97（原本画像 IMG_9673.PNG）。原文照合 batch7 で照合済みの知識単位 chilipowder-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-asafoetida-profile",
+  "kind": "profile",
+  "front": "アサフェティダのプロフィールは？",
+  "back": "アサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "asafoetida-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-ajwain-profile",
+  "kind": "profile",
+  "front": "アジョワンのプロフィールは？",
+  "back": "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "ajwain-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 ajwain-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-kaffirlime-profile",
+  "kind": "profile",
+  "front": "カフェライムのプロフィールは？",
+  "back": "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "kaffirlime-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaffirlime-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-galangal-profile",
+  "kind": "profile",
+  "front": "ガランガルのプロフィールは？",
+  "back": "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "galangal-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 galangal-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-curryleaf-profile",
+  "kind": "profile",
+  "front": "カレーリーフのプロフィールは？",
+  "back": "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "curryleaf-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 curryleaf-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-licorice-profile",
+  "kind": "profile",
+  "front": "かんぞう(甘草)のプロフィールは？",
+  "back": "かんぞう(甘草): 科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "licorice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 licorice-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-cubeb-profile",
+  "kind": "profile",
+  "front": "クベバのプロフィールは？",
+  "back": "クベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "cubeb-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cubeb-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-grainsofparadise-profile",
+  "kind": "profile",
+  "front": "グレインズオブパラダイスのプロフィールは？",
+  "back": "グレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "grainsofparadise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 grainsofparadise-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-cresson-profile",
+  "kind": "profile",
+  "front": "クレソンのプロフィールは？",
+  "back": "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "cresson-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cresson-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-caper-profile",
+  "kind": "profile",
+  "front": "ケイパーのプロフィールは？",
+  "back": "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "caper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-poppyseed-profile",
+  "kind": "profile",
+  "front": "けしの実のプロフィールは？",
+  "back": "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "poppyseed-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 poppyseed-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-safflower-profile",
+  "kind": "profile",
+  "front": "サフラワーのプロフィールは？",
+  "back": "サフラワー: 科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "safflower-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 safflower-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-savory-profile",
+  "kind": "profile",
+  "front": "サボリーのプロフィールは？",
+  "back": "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "savory-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 savory-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-shiso-profile",
+  "kind": "profile",
+  "front": "しそ(紫蘇)のプロフィールは？",
+  "back": "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "shiso-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shiso-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-juniper-profile",
+  "kind": "profile",
+  "front": "ジュニパーベリーのプロフィールは？",
+  "back": "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "juniper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-sumac-profile",
+  "kind": "profile",
+  "front": "スマックのプロフィールは？",
+  "back": "スマック: 科名はウルシ科。利用部位は果実。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "sumac-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sumac-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-celery-profile",
+  "kind": "profile",
+  "front": "セロリーのプロフィールは？",
+  "back": "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "celery-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 celery-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-sorrel-profile",
+  "kind": "profile",
+  "front": "ソレルのプロフィールは？",
+  "back": "ソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "sorrel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sorrel-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-tade-profile",
+  "kind": "profile",
+  "front": "たで(蓼)のプロフィールは？",
+  "back": "たで(蓼): 科名はタデ科。利用部位は葉(芽)。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "tade-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tade-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-tamarind-profile",
+  "kind": "profile",
+  "front": "タマリンドのプロフィールは？",
+  "back": "タマリンド: 科名はマメ科。利用部位は果実。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "tamarind-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tamarind-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-dokudami-profile",
+  "kind": "profile",
+  "front": "どくだみのプロフィールは？",
+  "back": "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "dokudami-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dokudami-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-nigella-profile",
+  "kind": "profile",
+  "front": "ニゲラのプロフィールは？",
+  "back": "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "nigella-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 nigella-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-pandan-profile",
+  "kind": "profile",
+  "front": "パンダンリーフのプロフィールは？",
+  "back": "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "pandan-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 pandan-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-fenugreek-profile",
+  "kind": "profile",
+  "front": "フェネグリークのプロフィールは？",
+  "back": "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "fenugreek-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-mache-profile",
+  "kind": "profile",
+  "front": "マーシュのプロフィールは？",
+  "back": "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "mache-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mache-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-amchur-profile",
+  "kind": "profile",
+  "front": "マンゴーパウダーのプロフィールは？",
+  "back": "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "amchur-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amchur-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-mitsuba-profile",
+  "kind": "profile",
+  "front": "みつばのプロフィールは？",
+  "back": "みつば: 科名はセリ科。利用部位は葉、茎。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "mitsuba-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mitsuba-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-lemonbalm-profile",
+  "kind": "profile",
+  "front": "レモンバームのプロフィールは？",
+  "back": "レモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "lemonbalm-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 lemonbalm-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-longpepper-profile",
+  "kind": "profile",
+  "front": "ロングペッパーのプロフィールは？",
+  "back": "ロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "longpepper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 longpepper-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-quatreepices-profile",
+  "kind": "profile",
+  "front": "カトルエピスのプロフィールは？",
+  "back": "カトルエピス: ミックススパイス。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "quatreepices-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 quatreepices-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-zaatar-profile",
+  "kind": "profile",
+  "front": "ザーターのプロフィールは？",
+  "back": "ザーター: ミックススパイス。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "zaatar-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 zaatar-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-dukkah-profile",
+  "kind": "profile",
+  "front": "ダッカ(デュカ)のプロフィールは？",
+  "back": "ダッカ(デュカ): ミックススパイス。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "dukkah-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 dukkah-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-chaatmasala-profile",
+  "kind": "profile",
+  "front": "チャートマサラのプロフィールは？",
+  "back": "チャートマサラ: ミックススパイス。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chaatmasala-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 chaatmasala-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-panchphoron-profile",
+  "kind": "profile",
+  "front": "パンチフォロンのプロフィールは？",
+  "back": "パンチフォロン: ミックススパイス。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "panchphoron-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 panchphoron-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-profile-rasalhanout-profile",
+  "kind": "profile",
+  "front": "ラセラヌーのプロフィールは？",
+  "back": "ラセラヌー: ミックススパイス。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "rasalhanout-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 rasalhanout-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-anise-profile",
+  "kind": "term",
+  "front": "アニス",
+  "back": "科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。",
+  "reverseOf": "card-rev-anise-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "anise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-anise-profile",
+  "kind": "reverse",
+  "front": "甘みのある独特の香りで、菓子・パン・スープの風味づけや、地中海沿岸のリキュールによく使われる。",
+  "back": "アニス",
+  "reverseOf": "card-term-anise-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "anise-profile",
+   "anise-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-allspice-profile",
+  "kind": "term",
+  "front": "オールスパイス",
+  "back": "科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。",
+  "reverseOf": "card-rev-allspice-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-allspice",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "allspice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-allspice-profile",
+  "kind": "reverse",
+  "front": "クローブ・ナツメッグ・シナモンを合わせたような香りを持つ。",
+  "back": "オールスパイス",
+  "reverseOf": "card-term-allspice-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-allspice",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "allspice-profile",
+   "allspice-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-oregano-profile",
+  "kind": "term",
+  "front": "オレガノ",
+  "back": "科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-oregano-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-oregano",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "oregano-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-oregano-profile",
+  "kind": "reverse",
+  "front": "清涼感のある香りでイタリアのトマト料理に欠かせず、チリパウダーにも不可欠。きのことの相性もよい。",
+  "back": "オレガノ",
+  "reverseOf": "card-term-oregano-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-oregano",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "oregano-profile",
+   "oregano-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-garlic-profile",
+  "kind": "term",
+  "front": "ガーリック",
+  "back": "科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-garlic-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-garlic",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "garlic-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-garlic-profile",
+  "kind": "reverse",
+  "front": "肉や魚の臭み消しの働きが強く、塩・こしょうに次ぐ「第三の調味料」ともいわれる。",
+  "back": "ガーリック",
+  "reverseOf": "card-term-garlic-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-garlic",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "garlic-profile",
+   "garlic-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-cardamom-profile",
+  "kind": "term",
+  "front": "カルダモン",
+  "back": "科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。",
+  "reverseOf": "card-rev-cardamom-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "cardamom-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-cardamom-profile",
+  "kind": "reverse",
+  "front": "爽やかな強い刺激と柑橘系の香りで「香りの王様」と呼ばれ、日本のカレー粉の主原料でもある。",
+  "back": "カルダモン",
+  "reverseOf": "card-term-cardamom-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "cardamom-profile",
+   "cardamom-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-caraway-profile",
+  "kind": "term",
+  "front": "キャラウェイ",
+  "back": "科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。",
+  "reverseOf": "card-rev-caraway-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-caraway",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "caraway-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-caraway-profile",
+  "kind": "reverse",
+  "front": "人やモノを引き止める力があるという言い伝えがあり、惚れ薬の材料とされた。",
+  "back": "キャラウェイ",
+  "reverseOf": "card-term-caraway-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-caraway",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "caraway-profile",
+   "caraway-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-3 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-gardenia-profile",
+  "kind": "term",
+  "front": "くちなし",
+  "back": "科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。",
+  "reverseOf": "card-rev-gardenia-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-kuchinashi",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "gardenia-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-gardenia-profile",
+  "kind": "reverse",
+  "front": "栗きんとん・たくあん漬けなどを黄色く色づける。黄色色素の主成分はクロシン(サフランと共通)で水溶性。",
+  "back": "くちなし",
+  "reverseOf": "card-term-gardenia-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-kuchinashi",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "gardenia-profile",
+   "gardenia-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-cumin-profile",
+  "kind": "term",
+  "front": "クミン",
+  "back": "科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-cumin-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "cumin-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-cumin-profile",
+  "kind": "reverse",
+  "front": "カレーを思わせるエスニックな芳香で、カレー粉やチリパウダーに欠かせない。インド料理ではスタータースパイスとして使われる。",
+  "back": "クミン",
+  "reverseOf": "card-term-cumin-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "cumin-profile",
+   "cumin-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-clove-profile",
+  "kind": "term",
+  "front": "クローブ",
+  "back": "科名はフトモモ科。原産地はインドネシア(マルク諸島)。利用部位は蕾。別名は丁子(ちょうじ)、丁香(ちょうこう)、百里香(ひゃくりこう)。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-clove-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-clove",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "clove-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9635",
+    "bookPage": 60,
+    "locationNote": "本書 p.60（原本画像 IMG_9635.PNG）。原文照合 batch19 で照合済みの知識単位 clove-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-clove-profile",
+  "kind": "reverse",
+  "front": "蕾は開花直前に最も香りが強くなる。",
+  "back": "クローブ",
+  "reverseOf": "card-term-clove-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-clove",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "clove-profile",
+   "clove-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9635",
+    "bookPage": 60,
+    "locationNote": "本書 p.60（原本画像 IMG_9635.PNG）。原文照合 batch19 で照合済みの知識単位 clove-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9635",
+    "bookPage": 60,
+    "locationNote": "本書 p.60（原本画像 IMG_9635.PNG）。原文照合 batch19 で照合済みの知識単位 clove-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-pepper-profile",
+  "kind": "term",
+  "front": "こしょう",
+  "back": "科名はコショウ科。原産地はインド(マラバル地方)。利用部位は果実。別名はペッパー。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-pepper-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-pepper",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "pepper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9636",
+    "bookPage": 61,
+    "locationNote": "本書 p.61（原本画像 IMG_9636.PNG）。原文照合 batch19 で照合済みの知識単位 pepper-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-pepper-profile",
+  "kind": "reverse",
+  "front": "つる性の植物で、収穫時期と製法によりブラック・ホワイト・グリーンの3種類ができる。",
+  "back": "こしょう",
+  "reverseOf": "card-term-pepper-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-pepper",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "pepper-profile",
+   "pepper-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9636",
+    "bookPage": 61,
+    "locationNote": "本書 p.61（原本画像 IMG_9636.PNG）。原文照合 batch19 で照合済みの知識単位 pepper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9636",
+    "bookPage": 61,
+    "locationNote": "本書 p.61（原本画像 IMG_9636.PNG）。原文照合 batch19 で照合済みの知識単位 pepper-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-coriander-profile",
+  "kind": "term",
+  "front": "コリアンダー",
+  "back": "科名はセリ科。原産地は地中海沿岸、西アジア。利用部位は葉、茎、種子(植物学上は果実)、根。別名はコエンドロ、シラントロ、香菜(シャンツァイ)、パクチー、カメムシソウ。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-coriander-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-coriander",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "coriander-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9638",
+    "bookPage": 63,
+    "locationNote": "本書 p.63（原本画像 IMG_9638.PNG）。原文照合 batch19 で照合済みの知識単位 coriander-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-coriander-profile",
+  "kind": "reverse",
+  "front": "完熟した種子と葉・茎ではまったく異なる香りを持つ。種子は甘く爽やかで、カレー粉に欠かせない。",
+  "back": "コリアンダー",
+  "reverseOf": "card-term-coriander-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-coriander",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "coriander-profile",
+   "coriander-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9638",
+    "bookPage": 63,
+    "locationNote": "本書 p.63（原本画像 IMG_9638.PNG）。原文照合 batch19 で照合済みの知識単位 coriander-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9638",
+    "bookPage": 63,
+    "locationNote": "本書 p.63（原本画像 IMG_9638.PNG）。原文照合 batch19 で照合済みの知識単位 coriander-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-saffron-profile",
+  "kind": "term",
+  "front": "サフラン",
+  "back": "科名はアヤメ科。原産地は南ヨーロッパ、西アジア。利用部位は花の雌しべ。別名はサフランクロッカス、蕃紅花(ばんこうか)。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-saffron-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-saffron",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "saffron-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9639",
+    "bookPage": 64,
+    "locationNote": "本書 p.64（原本画像 IMG_9639.PNG）。原文照合 batch20 で照合済みの知識単位 saffron-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-saffron-profile",
+  "kind": "reverse",
+  "front": "水に溶け出す黄色の色素成分はクロシンで、水分に20分以上つけて色出ししてから使うのが基本。",
+  "back": "サフラン",
+  "reverseOf": "card-term-saffron-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-saffron",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "saffron-profile",
+   "saffron-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9639",
+    "bookPage": 64,
+    "locationNote": "本書 p.64（原本画像 IMG_9639.PNG）。原文照合 batch20 で照合済みの知識単位 saffron-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9639",
+    "bookPage": 64,
+    "locationNote": "本書 p.64（原本画像 IMG_9639.PNG）。原文照合 batch20 で照合済みの知識単位 saffron-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-sansho-profile",
+  "kind": "term",
+  "front": "山椒/花椒",
+  "back": "科名はミカン科。原産地は中国、日本、朝鮮半島。利用部位は果実、果皮、葉。別名ははじかみ(山椒)、中国山椒、華北山椒、ファガラ、セシュアンペッパー(花椒)。検定1・2・3級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-sansho",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "sansho-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9640",
+    "bookPage": 65,
+    "locationNote": "本書 p.65（原本画像 IMG_9640.PNG）。原文照合 batch20 で照合済みの知識単位 sansho-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-cinnamon-profile",
+  "kind": "term",
+  "front": "シナモン/カシア",
+  "back": "科名はクスノキ科。原産地はスリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)。利用部位は樹皮。別名は肉桂(にっけい)、桂皮(けいひ)。検定1・2・3級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-cinnamon",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "cinnamon-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9642",
+    "bookPage": 67,
+    "locationNote": "本書 p.67（原本画像 IMG_9642.PNG）。原文照合 batch20 で照合済みの知識単位 cinnamon-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-ginger-profile",
+  "kind": "term",
+  "front": "しょうが",
+  "back": "科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-ginger",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "ginger-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9643",
+    "bookPage": 68,
+    "locationNote": "本書 p.68（原本画像 IMG_9643.PNG）。原文照合 batch21 で照合済みの知識単位 ginger-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-staranise-profile",
+  "kind": "term",
+  "front": "スターアニス",
+  "back": "科名はマツブサ科。原産地は中国、ベトナム。利用部位は果実。別名は八角(はっかく)、大茴香(だいういきょう)、パージャオ、ポイカッ、チャイニーズアニス、トウシキミ。検定1・2級の対象。",
+  "reverseOf": "card-rev-staranise-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-staranise",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "staranise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9644",
+    "bookPage": 69,
+    "locationNote": "本書 p.69（原本画像 IMG_9644.PNG）。原文照合 batch21 で照合済みの知識単位 staranise-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-staranise-profile",
+  "kind": "reverse",
+  "front": "果実は星形で8つくらいの角があり、これが名前の由来。",
+  "back": "スターアニス",
+  "reverseOf": "card-term-staranise-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-staranise",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "staranise-profile",
+   "staranise-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9644",
+    "bookPage": 69,
+    "locationNote": "本書 p.69（原本画像 IMG_9644.PNG）。原文照合 batch21 で照合済みの知識単位 staranise-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9644",
+    "bookPage": 69,
+    "locationNote": "本書 p.69（原本画像 IMG_9644.PNG）。原文照合 batch21 で照合済みの知識単位 staranise-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-sage-profile",
+  "kind": "term",
+  "front": "セージ",
+  "back": "科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はサルビア、薬用サルビア。検定1・2・3級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-sage-turmeric",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "sage-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 sage-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-turmeric-profile",
+  "kind": "term",
+  "front": "ターメリック",
+  "back": "科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はうこん、秋うこん、インディアンサフラン。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-turmeric-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-sage-turmeric",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "turmeric-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 turmeric-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-turmeric-profile",
+  "kind": "reverse",
+  "front": "カレーやたくあんの色づけに使われ、カレー粉の主原料の一つ。加熱で土臭さが弱まる。",
+  "back": "ターメリック",
+  "reverseOf": "card-term-turmeric-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-sage-turmeric",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "turmeric-profile",
+   "turmeric-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 turmeric-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 turmeric-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-thyme-profile",
+  "kind": "term",
+  "front": "タイム",
+  "back": "科名はシソ科。原産地は南ヨーロッパ。利用部位は葉および花穂。別名は立麝香草(たちじゃこうそう)。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-thyme-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-thyme",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "thyme-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9646",
+    "bookPage": 71,
+    "locationNote": "本書 p.71（原本画像 IMG_9646.PNG）。原文照合 batch1 で照合済みの知識単位 thyme-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-thyme-profile",
+  "kind": "reverse",
+  "front": "魚介類とよく合うことから「魚のハーブ」と呼ばれる。",
+  "back": "タイム",
+  "reverseOf": "card-term-thyme-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-thyme",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "thyme-profile",
+   "thyme-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9646",
+    "bookPage": 71,
+    "locationNote": "本書 p.71（原本画像 IMG_9646.PNG）。原文照合 batch1 で照合済みの知識単位 thyme-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9646",
+    "bookPage": 71,
+    "locationNote": "本書 p.71（原本画像 IMG_9646.PNG）。原文照合 batch1 で照合済みの知識単位 thyme-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-tarragon-profile",
+  "kind": "term",
+  "front": "タラゴン",
+  "back": "科名はキク科。原産地はロシア南部、西アジア。利用部位は葉。別名はエストラゴン。検定1・2級の対象。",
+  "reverseOf": "card-rev-tarragon-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-tarragon",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "tarragon-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9648",
+    "bookPage": 72,
+    "locationNote": "本書 p.72（原本画像 IMG_9648.PNG）。原文照合 batch1 で照合済みの知識単位 tarragon-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-tarragon-profile",
+  "kind": "reverse",
+  "front": "アニスに似た甘さがあり、卵・鶏肉・白身魚・ビネガーと相性がよい。フランス料理に多く、フィーヌゼルブの材料。",
+  "back": "タラゴン",
+  "reverseOf": "card-term-tarragon-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-tarragon",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "tarragon-profile",
+   "tarragon-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9648",
+    "bookPage": 72,
+    "locationNote": "本書 p.72（原本画像 IMG_9648.PNG）。原文照合 batch1 で照合済みの知識単位 tarragon-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9648",
+    "bookPage": 72,
+    "locationNote": "本書 p.72（原本画像 IMG_9648.PNG）。原文照合 batch1 で照合済みの知識単位 tarragon-2 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-chervil-profile",
+  "kind": "term",
+  "front": "チャービル",
+  "back": "科名はセリ科。原産地はヨーロッパ、西アジア。利用部位は葉、茎。別名はセルフィーユ、茴香芹(ういきょうぜり)。検定1・2級の対象。",
+  "reverseOf": "card-rev-chervil-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-chervil",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chervil-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9649",
+    "bookPage": 73,
+    "locationNote": "本書 p.73（原本画像 IMG_9649.PNG）。原文照合 batch1 で照合済みの知識単位 chervil-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-chervil-profile",
+  "kind": "reverse",
+  "front": "マイルドでほんのり甘い香りで、熱に弱いため仕上げに使うことが多い。フランスでは「美食家のパセリ」と呼ばれる。",
+  "back": "チャービル",
+  "reverseOf": "card-term-chervil-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-chervil",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chervil-profile",
+   "chervil-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9649",
+    "bookPage": 73,
+    "locationNote": "本書 p.73（原本画像 IMG_9649.PNG）。原文照合 batch1 で照合済みの知識単位 chervil-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9649",
+    "bookPage": 73,
+    "locationNote": "本書 p.73（原本画像 IMG_9649.PNG）。原文照合 batch1 で照合済みの知識単位 chervil-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-chives-profile",
+  "kind": "term",
+  "front": "チャイブ",
+  "back": "科名はヒガンバナ科。原産地は中央アジア、温帯地域。利用部位は花、葉。別名はシブレット、西洋あさつき、えぞねぎ。検定1・2級の対象。",
+  "reverseOf": "card-rev-chives-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-chive",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chives-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9650",
+    "bookPage": 74,
+    "locationNote": "本書 p.74（原本画像 IMG_9650.PNG）。原文照合 batch2 で照合済みの知識単位 chives-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-chives-profile",
+  "kind": "reverse",
+  "front": "繊細でマイルドな香りで、日本のあさつきに似た使い方をする。加熱しすぎないこと。",
+  "back": "チャイブ",
+  "reverseOf": "card-term-chives-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-chive",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chives-profile",
+   "chives-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9650",
+    "bookPage": 74,
+    "locationNote": "本書 p.74（原本画像 IMG_9650.PNG）。原文照合 batch2 で照合済みの知識単位 chives-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9650",
+    "bookPage": 74,
+    "locationNote": "本書 p.74（原本画像 IMG_9650.PNG）。原文照合 batch2 で照合済みの知識単位 chives-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-dill-profile",
+  "kind": "term",
+  "front": "ディル",
+  "back": "科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。",
+  "reverseOf": "card-rev-dill-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-dill",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "dill-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9651",
+    "bookPage": 75,
+    "locationNote": "本書 p.75（原本画像 IMG_9651.PNG）。原文照合 batch2 で照合済みの知識単位 dill-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-dill-profile",
+  "kind": "reverse",
+  "front": "種子はキャラウェイに似た爽やかな香りでピクルスなどに使い、羽状のやわらかい葉はタイム・フェンネルと並ぶ「魚のハーブ」とされる。",
+  "back": "ディル",
+  "reverseOf": "card-term-dill-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-dill",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "dill-profile",
+   "dill-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9651",
+    "bookPage": 75,
+    "locationNote": "本書 p.75（原本画像 IMG_9651.PNG）。原文照合 batch2 で照合済みの知識単位 dill-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9651",
+    "bookPage": 75,
+    "locationNote": "本書 p.75（原本画像 IMG_9651.PNG）。原文照合 batch2 で照合済みの知識単位 dill-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-chili-profile",
+  "kind": "term",
+  "front": "唐辛子",
+  "back": "科名はナス科。原産地は熱帯アメリカ。利用部位は果実、葉。別名はチリペッパー、チリ、カイエンペッパー(品種の一部)、鷹の爪(品種の一部)。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-chili-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-chili",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chili-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9652",
+    "bookPage": 76,
+    "locationNote": "本書 p.76（原本画像 IMG_9652.PNG）。原文照合 batch2 で照合済みの知識単位 chili-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-chili-profile",
+  "kind": "reverse",
+  "front": "品種は3000種類に及ぶともいわれる。",
+  "back": "唐辛子",
+  "reverseOf": "card-term-chili-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-chili",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chili-profile",
+   "chili-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9652",
+    "bookPage": 76,
+    "locationNote": "本書 p.76（原本画像 IMG_9652.PNG）。原文照合 batch2 で照合済みの知識単位 chili-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9652",
+    "bookPage": 76,
+    "locationNote": "本書 p.76（原本画像 IMG_9652.PNG）。原文照合 batch2 で照合済みの知識単位 chili-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-nutmeg-profile",
+  "kind": "term",
+  "front": "ナツメッグ/メース",
+  "back": "科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-nutmeg-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-nutmeg",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "nutmeg-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9654",
+    "bookPage": 78,
+    "locationNote": "本書 p.78（原本画像 IMG_9654.PNG）。原文照合 batch3 で照合済みの知識単位 nutmeg-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-nutmeg-profile",
+  "kind": "reverse",
+  "front": "植えてから5〜9年でようやく結実する常緑樹。",
+  "back": "ナツメッグ/メース",
+  "reverseOf": "card-term-nutmeg-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-nutmeg",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "nutmeg-profile",
+   "nutmeg-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9654",
+    "bookPage": 78,
+    "locationNote": "本書 p.78（原本画像 IMG_9654.PNG）。原文照合 batch3 で照合済みの知識単位 nutmeg-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9654",
+    "bookPage": 78,
+    "locationNote": "本書 p.78（原本画像 IMG_9654.PNG）。原文照合 batch3 で照合済みの知識単位 nutmeg-2 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-basil-profile",
+  "kind": "term",
+  "front": "バジル",
+  "back": "科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-basil",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "basil-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9655",
+    "bookPage": 79,
+    "locationNote": "本書 p.79（原本画像 IMG_9655.PNG）。原文照合 batch3 で照合済みの知識単位 basil-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-parsley-profile",
+  "kind": "term",
+  "front": "パセリ",
+  "back": "科名はセリ科。原産地は地中海沿岸。利用部位は葉、茎。別名はオランダ芹(モスカールド種をさすことが多い)。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-parsley-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-parsley",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "parsley-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9656",
+    "bookPage": 80,
+    "locationNote": "本書 p.80（原本画像 IMG_9656.PNG）。原文照合 batch3 で照合済みの知識単位 parsley-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-parsley-profile",
+  "kind": "reverse",
+  "front": "爽やかな香りは口臭予防に効果的とされ、葉にはビタミンCが多い。",
+  "back": "パセリ",
+  "reverseOf": "card-term-parsley-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-parsley",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "parsley-profile",
+   "parsley-3"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9656",
+    "bookPage": 80,
+    "locationNote": "本書 p.80（原本画像 IMG_9656.PNG）。原文照合 batch3 で照合済みの知識単位 parsley-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9656",
+    "bookPage": 80,
+    "locationNote": "本書 p.80（原本画像 IMG_9656.PNG）。原文照合 batch3 で照合済みの知識単位 parsley-3 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-vanilla-profile",
+  "kind": "term",
+  "front": "バニラ",
+  "back": "科名はラン科。原産地は中央アメリカ。利用部位は果実(さや)。別名はワニラ。検定1・2級の対象。",
+  "reverseOf": "card-rev-vanilla-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-vanilla",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "vanilla-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9657",
+    "bookPage": 81,
+    "locationNote": "本書 p.81（原本画像 IMG_9657.PNG）。原文照合 batch3 で照合済みの知識単位 vanilla-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-vanilla-profile",
+  "kind": "reverse",
+  "front": "未熟なさやを採り、発酵と乾燥を繰り返すキュアリングで黒い光沢と甘い香りが出る。",
+  "back": "バニラ",
+  "reverseOf": "card-term-vanilla-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-vanilla",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "vanilla-profile",
+   "vanilla-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9657",
+    "bookPage": 81,
+    "locationNote": "本書 p.81（原本画像 IMG_9657.PNG）。原文照合 batch3 で照合済みの知識単位 vanilla-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9657",
+    "bookPage": 81,
+    "locationNote": "本書 p.81（原本画像 IMG_9657.PNG）。原文照合 batch3 で照合済みの知識単位 vanilla-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-paprika-profile",
+  "kind": "term",
+  "front": "パプリカ",
+  "back": "科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。",
+  "reverseOf": "card-rev-paprika-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-paprika",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "paprika-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-paprika-profile",
+  "kind": "reverse",
+  "front": "赤い色素成分は油によく溶けるので、油と調理するときれいに色づく。",
+  "back": "パプリカ",
+  "reverseOf": "card-term-paprika-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-paprika",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "paprika-profile",
+   "paprika-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-fennel-profile",
+  "kind": "term",
+  "front": "フェンネル",
+  "back": "科名はセリ科。原産地は地中海沿岸。利用部位は種子(植物学上は果実)、葉、茎。別名は茴香(ういきょう)、小茴香(しょういきょう)。検定1・2級の対象。",
+  "reverseOf": "card-rev-fennel-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-fennel",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "fennel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9659",
+    "bookPage": 83,
+    "locationNote": "本書 p.83（原本画像 IMG_9659.PNG）。原文照合 batch4 で照合済みの知識単位 fennel-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-fennel-profile",
+  "kind": "reverse",
+  "front": "ディル・タイムとともに「魚のハーブ」と呼ばれ、種子は五香粉やカレー粉の原料にもなる。",
+  "back": "フェンネル",
+  "reverseOf": "card-term-fennel-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-fennel",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "fennel-profile",
+   "fennel-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9659",
+    "bookPage": 83,
+    "locationNote": "本書 p.83（原本画像 IMG_9659.PNG）。原文照合 batch4 で照合済みの知識単位 fennel-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9659",
+    "bookPage": 83,
+    "locationNote": "本書 p.83（原本画像 IMG_9659.PNG）。原文照合 batch4 で照合済みの知識単位 fennel-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-horseradish-profile",
+  "kind": "term",
+  "front": "ホースラディッシュ",
+  "back": "科名はアブラナ科。原産地は諸説あるが東ヨーロッパ説が有力。利用部位は根。別名は西洋わさび、わさび大根、レホール。検定1・2級の対象。",
+  "reverseOf": "card-rev-horseradish-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-horseradish",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "horseradish-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9660",
+    "bookPage": 84,
+    "locationNote": "本書 p.84（原本画像 IMG_9660.PNG）。原文照合 batch4 で照合済みの知識単位 horseradish-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-horseradish-profile",
+  "kind": "reverse",
+  "front": "ツーンと鼻に抜ける辛みで、ローストビーフに欠かせない。チューブわさびや粉わさびの原料にも使われる。",
+  "back": "ホースラディッシュ",
+  "reverseOf": "card-term-horseradish-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-horseradish",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "horseradish-profile",
+   "horseradish-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9660",
+    "bookPage": 84,
+    "locationNote": "本書 p.84（原本画像 IMG_9660.PNG）。原文照合 batch4 で照合済みの知識単位 horseradish-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9660",
+    "bookPage": 84,
+    "locationNote": "本書 p.84（原本画像 IMG_9660.PNG）。原文照合 batch4 で照合済みの知識単位 horseradish-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-marjoram-profile",
+  "kind": "term",
+  "front": "マジョラム",
+  "back": "科名はシソ科。原産地は地中海東部沿岸。利用部位は葉および花穂。別名はマヨラナ、花薄荷(はなはっか)。検定1・2級の対象。",
+  "reverseOf": "card-rev-marjoram-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-marjoram-mustard",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "marjoram-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 marjoram-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-marjoram-profile",
+  "kind": "reverse",
+  "front": "オレガノに似るが、より甘く繊細な香り。羊肉や魚、レバーなどの臭み消しに下ごしらえで使われる。",
+  "back": "マジョラム",
+  "reverseOf": "card-term-marjoram-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-marjoram-mustard",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "marjoram-profile",
+   "marjoram-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 marjoram-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 marjoram-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-mustard-profile",
+  "kind": "term",
+  "front": "マスタード",
+  "back": "科名はアブラナ科。原産地は地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)。利用部位は種子、葉。別名はからし。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-mustard-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-marjoram-mustard",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "mustard-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 mustard-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-mustard-profile",
+  "kind": "reverse",
+  "front": "乳化を助ける働きがあるので、ドレッシングに加えると分離しにくくなる。",
+  "back": "マスタード",
+  "reverseOf": "card-term-mustard-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-marjoram-mustard",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "mustard-profile",
+   "mustard-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 mustard-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 mustard-4 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-mint-profile",
+  "kind": "term",
+  "front": "ミント",
+  "back": "科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-mint-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mint",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "mint-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9663",
+    "bookPage": 87,
+    "locationNote": "本書 p.87（原本画像 IMG_9663.PNG）。原文照合 batch5 で照合済みの知識単位 mint-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-mint-profile",
+  "kind": "reverse",
+  "front": "名前はギリシア神話の妖精ミンテにちなむ。冥界の王ハデスの心をとらえ、妻ペルセポネに草に姿を変えられたとされる。",
+  "back": "ミント",
+  "reverseOf": "card-term-mint-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mint",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "mint-profile",
+   "mint-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9663",
+    "bookPage": 87,
+    "locationNote": "本書 p.87（原本画像 IMG_9663.PNG）。原文照合 batch5 で照合済みの知識単位 mint-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9663",
+    "bookPage": 87,
+    "locationNote": "本書 p.87（原本画像 IMG_9663.PNG）。原文照合 batch5 で照合済みの知識単位 mint-2 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-rucola-profile",
+  "kind": "term",
+  "front": "ルッコラ",
+  "back": "科名はアブラナ科。原産地は地中海沿岸、西アジア。利用部位は地上部。別名はロケット、アルグラ、きばなすずしろ。検定1・2級の対象。",
+  "reverseOf": "card-rev-rucola-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-rucola",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "rucola-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9664",
+    "bookPage": 88,
+    "locationNote": "本書 p.88（原本画像 IMG_9664.PNG）。原文照合 batch5 で照合済みの知識単位 rucola-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-rucola-profile",
+  "kind": "reverse",
+  "front": "葉は噛むとごまに似た香りとクレソンのような辛みがあり、イタリア料理の定番。",
+  "back": "ルッコラ",
+  "reverseOf": "card-term-rucola-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-rucola",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "rucola-profile",
+   "rucola-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9664",
+    "bookPage": 88,
+    "locationNote": "本書 p.88（原本画像 IMG_9664.PNG）。原文照合 batch5 で照合済みの知識単位 rucola-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9664",
+    "bookPage": 88,
+    "locationNote": "本書 p.88（原本画像 IMG_9664.PNG）。原文照合 batch5 で照合済みの知識単位 rucola-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-lemongrass-profile",
+  "kind": "term",
+  "front": "レモングラス",
+  "back": "科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。",
+  "reverseOf": "card-rev-lemongrass-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-lemongrass-profile",
+  "kind": "reverse",
+  "front": "レモンのような香りで東南アジアで広く使われ、代表料理はトムヤムクン。寒さに弱い熱帯植物。",
+  "back": "レモングラス",
+  "reverseOf": "card-term-lemongrass-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "lemongrass-profile",
+   "lemongrass-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-rosemary-profile",
+  "kind": "term",
+  "front": "ローズマリー",
+  "back": "科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はまんねんろう。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-rosemary-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-rosemary",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "rosemary-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-rosemary-profile",
+  "kind": "reverse",
+  "front": "ラム・豚肉・青魚などクセの強い食材の臭み消しや、フォカッチャなどの風味づけに使われる。",
+  "back": "ローズマリー",
+  "reverseOf": "card-term-rosemary-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-rosemary",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "rosemary-profile",
+   "rosemary-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-laurel-profile",
+  "kind": "term",
+  "front": "ローレル",
+  "back": "科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-laurel-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-laurel",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "laurel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-laurel-profile",
+  "kind": "reverse",
+  "front": "ヨーロッパ産は葉が丸みを帯び煮込み向き、アメリカ産は細長くすがすがしさが強くマリネなどに向く。",
+  "back": "ローレル",
+  "reverseOf": "card-term-laurel-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-laurel",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "laurel-profile",
+   "laurel-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-2 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-wasabi-profile",
+  "kind": "term",
+  "front": "わさび",
+  "back": "科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-wasabi-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-wasabi",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "wasabi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-wasabi-profile",
+  "kind": "reverse",
+  "front": "栽培が難しく、年間平均気温12〜15度前後の地域が適する。",
+  "back": "わさび",
+  "reverseOf": "card-term-wasabi-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-wasabi",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "wasabi-profile",
+   "wasabi-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-gokoufun-profile",
+  "kind": "term",
+  "front": "五香粉",
+  "back": "ミックススパイス。検定1・2級の対象。",
+  "reverseOf": "card-rev-gokoufun-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "gokoufun-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9669",
+    "bookPage": 93,
+    "locationNote": "本書 p.93（原本画像 IMG_9669.PNG）。原文照合 batch6 で照合済みの知識単位 gokoufun-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-gokoufun-profile",
+  "kind": "reverse",
+  "front": "中国を代表するミックススパイス。一般に山椒(花椒)・クローブ・シナモン(カシア)の3種と、スターアニス・フェンネル・陳皮のうち2種、計5種を混合する。",
+  "back": "五香粉",
+  "reverseOf": "card-term-gokoufun-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "gokoufun-profile",
+   "gokoufun-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9669",
+    "bookPage": 93,
+    "locationNote": "本書 p.93（原本画像 IMG_9669.PNG）。原文照合 batch6 で照合済みの知識単位 gokoufun-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9669",
+    "bookPage": 93,
+    "locationNote": "本書 p.93（原本画像 IMG_9669.PNG）。原文照合 batch6 で照合済みの知識単位 gokoufun-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-herbesdeprovence-profile",
+  "kind": "term",
+  "front": "エルブドプロバンス",
+  "back": "ミックススパイス。検定1・2級の対象。",
+  "reverseOf": "card-rev-herbesdeprovence-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "herbesdeprovence-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9669",
+    "bookPage": 93,
+    "locationNote": "本書 p.93（原本画像 IMG_9669.PNG）。原文照合 batch6 で照合済みの知識単位 herbesdeprovence-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-herbesdeprovence-profile",
+  "kind": "reverse",
+  "front": "南フランス地方のハーブ数種(ローズマリー・タイム・オレガノなど)をミックスしたもので、ブイヤベースなど時間をかけて加熱する料理に使われることが多い。",
+  "back": "エルブドプロバンス",
+  "reverseOf": "card-term-herbesdeprovence-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "herbesdeprovence-profile",
+   "hdp-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9669",
+    "bookPage": 93,
+    "locationNote": "本書 p.93（原本画像 IMG_9669.PNG）。原文照合 batch6 で照合済みの知識単位 herbesdeprovence-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9669",
+    "bookPage": 93,
+    "locationNote": "本書 p.93（原本画像 IMG_9669.PNG）。原文照合 batch6 で照合済みの知識単位 hdp-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-garammasala-profile",
+  "kind": "term",
+  "front": "ガラムマサラ",
+  "back": "ミックススパイス。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-garammasala-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "garammasala-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9670",
+    "bookPage": 94,
+    "locationNote": "本書 p.94（原本画像 IMG_9670.PNG）。原文照合 batch6 で照合済みの知識単位 garammasala-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-garammasala-profile",
+  "kind": "reverse",
+  "front": "インドを代表するミックススパイスで、通常3〜10種を配合する。インドでは仕上げに香りや辛みを高めるのが一般的で、家庭ごとに作り置く。",
+  "back": "ガラムマサラ",
+  "reverseOf": "card-term-garammasala-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "garammasala-profile",
+   "gm-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9670",
+    "bookPage": 94,
+    "locationNote": "本書 p.94（原本画像 IMG_9670.PNG）。原文照合 batch6 で照合済みの知識単位 garammasala-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9670",
+    "bookPage": 94,
+    "locationNote": "本書 p.94（原本画像 IMG_9670.PNG）。原文照合 batch6 で照合済みの知識単位 gm-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-currypowder-profile",
+  "kind": "term",
+  "front": "カレー粉",
+  "back": "ミックススパイス。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-currypowder-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "currypowder-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9671",
+    "bookPage": 95,
+    "locationNote": "本書 p.95（原本画像 IMG_9671.PNG）。原文照合 batch7 で照合済みの知識単位 currypowder-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-currypowder-profile",
+  "kind": "reverse",
+  "front": "インドには「カレー」と称する料理はなく、欧米や日本で総称してカレーと呼んでいる。",
+  "back": "カレー粉",
+  "reverseOf": "card-term-currypowder-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "currypowder-profile",
+   "cp-2"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9671",
+    "bookPage": 95,
+    "locationNote": "本書 p.95（原本画像 IMG_9671.PNG）。原文照合 batch7 で照合済みの知識単位 currypowder-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9671",
+    "bookPage": 95,
+    "locationNote": "本書 p.95（原本画像 IMG_9671.PNG）。原文照合 batch7 で照合済みの知識単位 cp-2 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-shichimi-profile",
+  "kind": "term",
+  "front": "七味唐辛子",
+  "back": "ミックススパイス。検定1・2・3級の対象。",
+  "reverseOf": "card-rev-shichimi-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "shichimi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9672",
+    "bookPage": 96,
+    "locationNote": "本書 p.96（原本画像 IMG_9672.PNG）。原文照合 batch7 で照合済みの知識単位 shichimi-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-shichimi-profile",
+  "kind": "reverse",
+  "front": "配合の基本は「二辛五香(にしんごこう)」で、辛さに特徴のあるもの2種と香りを重視したもの5種という意味。",
+  "back": "七味唐辛子",
+  "reverseOf": "card-term-shichimi-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "shichimi-profile",
+   "shichimi-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9672",
+    "bookPage": 96,
+    "locationNote": "本書 p.96（原本画像 IMG_9672.PNG）。原文照合 batch7 で照合済みの知識単位 shichimi-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9672",
+    "bookPage": 96,
+    "locationNote": "本書 p.96（原本画像 IMG_9672.PNG）。原文照合 batch7 で照合済みの知識単位 shichimi-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-chilipowder-profile",
+  "kind": "term",
+  "front": "チリパウダー",
+  "back": "ミックススパイス。検定1・2級の対象。",
+  "reverseOf": "card-rev-chilipowder-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chilipowder-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9673",
+    "bookPage": 97,
+    "locationNote": "本書 p.97（原本画像 IMG_9673.PNG）。原文照合 batch7 で照合済みの知識単位 chilipowder-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-chilipowder-profile",
+  "kind": "reverse",
+  "front": "唐辛子にオレガノ・クミン・ガーリック・パプリカなどを配合したミックススパイスで、テクス・メクス料理に使われる。",
+  "back": "チリパウダー",
+  "reverseOf": "card-term-chilipowder-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chilipowder-profile",
+   "chp-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9673",
+    "bookPage": 97,
+    "locationNote": "本書 p.97（原本画像 IMG_9673.PNG）。原文照合 batch7 で照合済みの知識単位 chilipowder-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9673",
+    "bookPage": 97,
+    "locationNote": "本書 p.97（原本画像 IMG_9673.PNG）。原文照合 batch7 で照合済みの知識単位 chp-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-asafoetida-profile",
+  "kind": "term",
+  "front": "アサフェティダ",
+  "back": "科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。",
+  "reverseOf": "card-rev-asafoetida-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "asafoetida-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-asafoetida-profile",
+  "kind": "reverse",
+  "front": "強烈なにおいがあるが油で加熱すると気にならなくなり、インドでは豆や野菜料理に玉ねぎのようなコクを与えるスタータースパイスとして使う。",
+  "back": "アサフェティダ",
+  "reverseOf": "card-term-asafoetida-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "asafoetida-profile",
+   "asa-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asa-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-ajwain-profile",
+  "kind": "term",
+  "front": "アジョワン",
+  "back": "科名はセリ科。利用部位は種子。検定1級の対象。",
+  "reverseOf": "card-rev-ajwain-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "ajwain-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 ajwain-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-ajwain-profile",
+  "kind": "reverse",
+  "front": "タイムに似た香り(主成分は同じチモール)で、ナンやチャパティ、豆料理などインド料理に使われる。",
+  "back": "アジョワン",
+  "reverseOf": "card-term-ajwain-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "ajwain-profile",
+   "ajw-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 ajwain-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 ajw-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-kaffirlime-profile",
+  "kind": "term",
+  "front": "カフェライム",
+  "back": "科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。",
+  "reverseOf": "card-rev-kaffirlime-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "kaffirlime-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaffirlime-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-kaffirlime-profile",
+  "kind": "reverse",
+  "front": "爽やかな柑橘系の香りで、主に葉をタイやカンボジアの料理に使う。果皮もすりおろしてタイ風カレーなどに使う。",
+  "back": "カフェライム",
+  "reverseOf": "card-term-kaffirlime-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "kaffirlime-profile",
+   "kaf-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaffirlime-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaf-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-galangal-profile",
+  "kind": "term",
+  "front": "ガランガル",
+  "back": "科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "galangal-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 galangal-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-curryleaf-profile",
+  "kind": "term",
+  "front": "カレーリーフ",
+  "back": "科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "curryleaf-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 curryleaf-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-licorice-profile",
+  "kind": "term",
+  "front": "かんぞう(甘草)",
+  "back": "科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。",
+  "reverseOf": "card-rev-licorice-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "licorice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 licorice-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-licorice-profile",
+  "kind": "reverse",
+  "front": "甘み成分グリチルリチンを含み、砂糖の数十倍ともいわれる甘さ。菓子・ドリンクや漬けもの、佃煮の調味にも使われる。",
+  "back": "かんぞう(甘草)",
+  "reverseOf": "card-term-licorice-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "licorice-profile",
+   "lic-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 licorice-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 lic-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-cubeb-profile",
+  "kind": "term",
+  "front": "クベバ",
+  "back": "科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。",
+  "reverseOf": "card-rev-cubeb-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "cubeb-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cubeb-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-cubeb-profile",
+  "kind": "reverse",
+  "front": "しっぽのような短い茎がついた未熟果を天日乾燥したもので、刺激的な香りと辛み・苦みを持つ。中国では古くから薬用。",
+  "back": "クベバ",
+  "reverseOf": "card-term-cubeb-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "cubeb-profile",
+   "cub-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cubeb-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cub-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-grainsofparadise-profile",
+  "kind": "term",
+  "front": "グレインズオブパラダイス",
+  "back": "科名はショウガ科。利用部位は種子。検定1級の対象。",
+  "reverseOf": "card-rev-grainsofparadise-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "grainsofparadise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 grainsofparadise-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-grainsofparadise-profile",
+  "kind": "reverse",
+  "front": "カルダモンに似た香りとこしょうに似た辛みを持ち、西アフリカでラムやヤギ肉料理に多用される。ラセラヌーやカラダッカの原料。",
+  "back": "グレインズオブパラダイス",
+  "reverseOf": "card-term-grainsofparadise-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "grainsofparadise-profile",
+   "gop-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 grainsofparadise-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 gop-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-cresson-profile",
+  "kind": "term",
+  "front": "クレソン",
+  "back": "科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "cresson-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cresson-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-caper-profile",
+  "kind": "term",
+  "front": "ケイパー",
+  "back": "科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。",
+  "reverseOf": "card-rev-caper-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "caper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-caper-profile",
+  "kind": "reverse",
+  "front": "使うのは小さな蕾で、乾燥すると香りが悪くなるためすぐに酢漬けや塩漬けにする。スモークサーモンやタルタルソースに使われる。",
+  "back": "ケイパー",
+  "reverseOf": "card-term-caper-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "caper-profile",
+   "cap-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 cap-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-poppyseed-profile",
+  "kind": "term",
+  "front": "けしの実",
+  "back": "科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。",
+  "reverseOf": "card-rev-poppyseed-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "poppyseed-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 poppyseed-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-poppyseed-profile",
+  "kind": "reverse",
+  "front": "小さな丸い粒でナッツのような香ばしさ。あんパンやおせちの田作りに使われ、七味唐辛子の原料にもなる。",
+  "back": "けしの実",
+  "reverseOf": "card-term-poppyseed-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "poppyseed-profile",
+   "pop-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 poppyseed-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 pop-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-safflower-profile",
+  "kind": "term",
+  "front": "サフラワー",
+  "back": "科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "safflower-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 safflower-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-savory-profile",
+  "kind": "term",
+  "front": "サボリー",
+  "back": "科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。",
+  "reverseOf": "card-rev-savory-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "savory-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 savory-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-savory-profile",
+  "kind": "reverse",
+  "front": "タイムに似るがより鮮烈な香りで、豆との相性がよく「豆のハーブ」と呼ばれる。エルブドプロバンスやブーケガルニにも使われる。",
+  "back": "サボリー",
+  "reverseOf": "card-term-savory-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "savory-profile",
+   "sav-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 savory-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 sav-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-shiso-profile",
+  "kind": "term",
+  "front": "しそ(紫蘇)",
+  "back": "科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。",
+  "reverseOf": "card-rev-shiso-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "shiso-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shiso-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-shiso-profile",
+  "kind": "reverse",
+  "front": "青じそは薬味に、赤じそは漬けものやふりかけに使われることが多い。乾燥した種子が七味唐辛子に配合されることもある。",
+  "back": "しそ(紫蘇)",
+  "reverseOf": "card-term-shiso-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "shiso-profile",
+   "shi-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shiso-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shi-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-juniper-profile",
+  "kind": "term",
+  "front": "ジュニパーベリー",
+  "back": "科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。",
+  "reverseOf": "card-rev-juniper-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "juniper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-juniper-profile",
+  "kind": "reverse",
+  "front": "ウッディーでスパイシーな香りで、ジビエ料理の臭み消しや蒸留酒ジンの香りづけに使われる。",
+  "back": "ジュニパーベリー",
+  "reverseOf": "card-term-juniper-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "juniper-profile",
+   "jun-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 jun-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-sumac-profile",
+  "kind": "term",
+  "front": "スマック",
+  "back": "科名はウルシ科。利用部位は果実。検定1級の対象。",
+  "reverseOf": "card-rev-sumac-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "sumac-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sumac-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-sumac-profile",
+  "kind": "reverse",
+  "front": "酸味と渋みのある赤いスパイスで、中近東で酸味づけに使う。赤じそふりかけを思わせる色と味で、ザーターの原料。",
+  "back": "スマック",
+  "reverseOf": "card-term-sumac-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "sumac-profile",
+   "sum-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sumac-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sum-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-celery-profile",
+  "kind": "term",
+  "front": "セロリー",
+  "back": "科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。",
+  "reverseOf": "card-rev-celery-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "celery-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 celery-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-celery-profile",
+  "kind": "reverse",
+  "front": "強い爽やかな香りとほろ苦さがあり、野菜の青臭さを抑える。スパイスに使うのは野生種スモーリッジの種子。",
+  "back": "セロリー",
+  "reverseOf": "card-term-celery-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "celery-profile",
+   "cel-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 celery-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 cel-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-sorrel-profile",
+  "kind": "term",
+  "front": "ソレル",
+  "back": "科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "sorrel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sorrel-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-tade-profile",
+  "kind": "term",
+  "front": "たで(蓼)",
+  "back": "科名はタデ科。利用部位は葉(芽)。検定1級の対象。",
+  "reverseOf": "card-rev-tade-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "tade-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tade-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-tade-profile",
+  "kind": "reverse",
+  "front": "食用は主にやなぎたでとその変種(紅たで・青たで)。青たでは「鮎たで」とも呼ばれ、たで酢は鮎料理に欠かせない。",
+  "back": "たで(蓼)",
+  "reverseOf": "card-term-tade-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "tade-profile",
+   "tad-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tade-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tad-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-tamarind-profile",
+  "kind": "term",
+  "front": "タマリンド",
+  "back": "科名はマメ科。利用部位は果実。検定1級の対象。",
+  "reverseOf": "card-rev-tamarind-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "tamarind-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tamarind-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-tamarind-profile",
+  "kind": "reverse",
+  "front": "さやの中の果肉を使い、フルーツのような酸味で南インドや東南アジアの料理に甘酸っぱさを加える。チャツネやソースの原料にもなる。",
+  "back": "タマリンド",
+  "reverseOf": "card-term-tamarind-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "tamarind-profile",
+   "tam-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tamarind-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tam-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-dokudami-profile",
+  "kind": "term",
+  "front": "どくだみ",
+  "back": "科名はドクダミ科。利用部位は葉。検定1級の対象。",
+  "reverseOf": "card-rev-dokudami-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "dokudami-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dokudami-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-dokudami-profile",
+  "kind": "reverse",
+  "front": "強い香りを持ち、ベトナム料理に使われ、日本では乾燥葉をお茶にする。生薬としては十薬と呼ばれる。",
+  "back": "どくだみ",
+  "reverseOf": "card-term-dokudami-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "dokudami-profile",
+   "dok-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dokudami-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dok-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-nigella-profile",
+  "kind": "term",
+  "front": "ニゲラ",
+  "back": "科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "nigella-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 nigella-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-pandan-profile",
+  "kind": "term",
+  "front": "パンダンリーフ",
+  "back": "科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "pandan-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 pandan-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-fenugreek-profile",
+  "kind": "term",
+  "front": "フェネグリーク",
+  "back": "科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "fenugreek-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-mache-profile",
+  "kind": "term",
+  "front": "マーシュ",
+  "back": "科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "mache-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mache-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-amchur-profile",
+  "kind": "term",
+  "front": "マンゴーパウダー",
+  "back": "科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "amchur-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amchur-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-mitsuba-profile",
+  "kind": "term",
+  "front": "みつば",
+  "back": "科名はセリ科。利用部位は葉、茎。検定1級の対象。",
+  "reverseOf": "card-rev-mitsuba-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "mitsuba-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mitsuba-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-mitsuba-profile",
+  "kind": "reverse",
+  "front": "みずみずしく爽やかな香りで、日本料理の汁ものの薬味やおひたしに使われる。東アジアに広く自生。",
+  "back": "みつば",
+  "reverseOf": "card-term-mitsuba-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "mitsuba-profile",
+   "mit-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mitsuba-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mit-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-lemonbalm-profile",
+  "kind": "term",
+  "front": "レモンバーム",
+  "back": "科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "lemonbalm-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 lemonbalm-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-longpepper-profile",
+  "kind": "term",
+  "front": "ロングペッパー",
+  "back": "科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。",
+  "reverseOf": null,
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "longpepper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 longpepper-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-quatreepices-profile",
+  "kind": "term",
+  "front": "カトルエピス",
+  "back": "ミックススパイス。検定1級の対象。",
+  "reverseOf": "card-rev-quatreepices-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "quatreepices-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 quatreepices-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-quatreepices-profile",
+  "kind": "reverse",
+  "front": "古典的なフランス料理で肉料理やパテ・テリーヌに使うミックススパイスで、ナツメッグ・クローブ・シナモン・ブラックペッパー・ジンジャーなどから4つを混ぜる。",
+  "back": "カトルエピス",
+  "reverseOf": "card-term-quatreepices-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "quatreepices-profile",
+   "qe-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 quatreepices-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 qe-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-zaatar-profile",
+  "kind": "term",
+  "front": "ザーター",
+  "back": "ミックススパイス。検定1級の対象。",
+  "reverseOf": "card-rev-zaatar-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "zaatar-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 zaatar-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-zaatar-profile",
+  "kind": "reverse",
+  "front": "白ごま・オレガノ・スマックを基本にした、北アフリカ〜中近東のミックススパイス。",
+  "back": "ザーター",
+  "reverseOf": "card-term-zaatar-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "zaatar-profile",
+   "za-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 zaatar-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 za-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-dukkah-profile",
+  "kind": "term",
+  "front": "ダッカ(デュカ)",
+  "back": "ミックススパイス。検定1級の対象。",
+  "reverseOf": "card-rev-dukkah-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "dukkah-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 dukkah-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-dukkah-profile",
+  "kind": "reverse",
+  "front": "ごま・クミン・コリアンダーなどの種子系スパイスとナッツ類、塩を粗く砕いて混ぜた、北アフリカ〜中東のシーズニング。",
+  "back": "ダッカ(デュカ)",
+  "reverseOf": "card-term-dukkah-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "dukkah-profile",
+   "duk-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 dukkah-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 duk-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-chaatmasala-profile",
+  "kind": "term",
+  "front": "チャートマサラ",
+  "back": "ミックススパイス。検定1級の対象。",
+  "reverseOf": "card-rev-chaatmasala-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chaatmasala-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 chaatmasala-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-chaatmasala-profile",
+  "kind": "reverse",
+  "front": "マンゴーパウダーを基本に複数のスパイスと塩をミックスした、インドのシーズニングスパイス。生野菜や果物に振りかける。",
+  "back": "チャートマサラ",
+  "reverseOf": "card-term-chaatmasala-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "chaatmasala-profile",
+   "chm-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 chaatmasala-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 chm-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-panchphoron-profile",
+  "kind": "term",
+  "front": "パンチフォロン",
+  "back": "ミックススパイス。検定1級の対象。",
+  "reverseOf": "card-rev-panchphoron-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "panchphoron-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 panchphoron-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-panchphoron-profile",
+  "kind": "reverse",
+  "front": "クミン・ニゲラ・フェネグリーク・マスタードシード・フェンネルシードの5種をホールのまま混ぜた、インド東部ベンガル地方の代表的ミックススパイス。",
+  "back": "パンチフォロン",
+  "reverseOf": "card-term-panchphoron-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "panchphoron-profile",
+   "pp-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 panchphoron-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 pp-1 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-term-rasalhanout-profile",
+  "kind": "term",
+  "front": "ラセラヌー",
+  "back": "ミックススパイス。検定1級の対象。",
+  "reverseOf": "card-rev-rasalhanout-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "rasalhanout-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 rasalhanout-profile から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-rev-rasalhanout-profile",
+  "kind": "reverse",
+  "front": "20種類以上のスパイスやハーブを混ぜたモロッコのミックススパイスで、名前は「店の一番」の意味とされる。",
+  "back": "ラセラヌー",
+  "reverseOf": "card-term-rasalhanout-profile",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "rasalhanout-profile",
+   "rh-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 rasalhanout-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 rh-1 から生成"
+   }
+  ]
+ }
+]
