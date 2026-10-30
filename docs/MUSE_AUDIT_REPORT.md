@@ -72,6 +72,7 @@ BLOCKED: E-01（npm audit が当VMのレジストリプロキシ403で実施不�
 
 - テスト: Vitest 199件・E2E 29件が全合格（§4）。データ検証は生成パイプラインの生成後検証と併せて二重に実施。
 - CI: 監査時点では未稼働（E-08）。改訂版 ci.yml（ubuntu-24.04 固定、単体＋E2E の2ジョブ、npm audit ステップ追加）を用意し、App 権限の制限のため GitHub Web UI から監査ブランチへ配置して PR 上で稼働を確認する（AD-7）。npm audit の継続照合は CI 側で行う（AD-8）。
+- （2026-10-30 追記）PR #2 の初回 CI で、check ジョブは型・単体・データ検証・ビルドまで成功し、e2e ジョブも成功したが、npm audit が7件（low 4・moderate 1・critical 2）を検出して失敗した。critical は vitest 経由の tinypool（プロトタイプ汚染→RCE、開発時のみの依存）。対応として vitest を 3.2.7 から 4.1.12 へ更新し（tinypool への依存が消滅、@vitest/mocker の moderate も解消）、ローカルで Vitest 199件・E2E 29件・ビルドの全合格を再確認したうえで PR に反映した。残る deepmerge（vite-plugin-pwa 経由、low〜moderate）はゲート対象外として BLOCKERS に記録し、継続照合する。
 - 公開動作: GitHub Pages で公開中（https://minkohno-hub.github.io/spice-herb-master/ ）。FIX1 反映ビルドの表示（正式カード602件・正式問題1,819問）は 2026-10-30 にライブ確認済み。本監査の修正ビルドは PR マージ後に再デプロイして表示を確認する。
 
 ## 9. ブランチ・コミット・PR
@@ -86,7 +87,7 @@ BLOCKED: E-01（npm audit が当VMのレジストリプロキシ403で実施不�
 - IMG_9647 の内容確定: 番号なし扉ページと強く推察されるが未確認。実物の再アップロードまたは原本確認が必要。
 - 写真の収録: 現行方針（本文テキストと表データのみ、写真はキャプション文）を維持し、収録範囲を文書と UI に明示済み（AD-10）。収録の要否自体は出版社許諾の範囲（DECISIONS #12）の判断待ち。
 - 実機検証: iPhone Safari / PWA 実機・スクリーンリーダー検証は NOT TESTED。ユーザー端末での確認が必要な段階で依頼する。
-- npm audit: ローカルでは BLOCKED（プロキシ403）。CI の audit ステップで継続照合する。監査時点の代替確認では、全依存が宣言レンジ内の最新で、実行時依存は react・react-dom・react-router の3件のみ。
+- npm audit: ローカルでは BLOCKED（プロキシ403）。CI 初回で7件を検出し、critical 2件（tinypool）と moderate 1件（@vitest/mocker）は vitest 4.1.12 更新で解消済み（§8 追記）。残る low〜moderate（deepmerge 等）は CI で継続照合する。実行時依存は react・react-dom・react-router の3件のみで、いずれの脆弱性も含まれない。
 - P3 として記録のみの事項: 同一プロンプト・同一正解の形式違いツイン329組（意図的構成として保持、AD-9）、q4-u-knife／q4-u-wash の次元分類困難ペア、学習記録の保存件数に上限がないこと、章単位の動的 import 化（データチャンク約1.9MB の分割読み込み）は今後の改善候補。
 
 ## 11. 仮決定事項（AUDIT_DECISIONS.md 要約）
