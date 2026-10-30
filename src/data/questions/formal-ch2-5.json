@@ -4,62 +4,6 @@
   "status": "verified",
   "chapterId": "ch2",
   "sectionId": "item-chive",
-  "difficulty": 2,
-  "knowledgeUnitIds": [
-   "chives-profile"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9650",
-    "bookPage": 74,
-    "locationNote": "本書 p.74（原本画像 IMG_9650.PNG）。原文照合 batch2 で照合済みの知識単位 chives-profile から生成"
-   }
-  ],
-  "id": "qsc-origin-chives-profile",
-  "format": "single-choice",
-  "prompt": "チャイブの原産地はどれか。",
-  "choices": [
-   "インド、熱帯アジア",
-   "中央アジア、温帯地域",
-   "熱帯アジア",
-   "西アジア、ヨーロッパ南部"
-  ],
-  "correctChoiceIndexes": [
-   1
-  ],
-  "explanation": "チャイブ: 科名はヒガンバナ科。原産地は中央アジア、温帯地域。利用部位は花、葉。別名はシブレット、西洋あさつき、えぞねぎ。検定1・2級の対象。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch2",
-  "sectionId": "item-chive",
-  "difficulty": 2,
-  "knowledgeUnitIds": [
-   "chives-profile"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9650",
-    "bookPage": 74,
-    "locationNote": "本書 p.74（原本画像 IMG_9650.PNG）。原文照合 batch2 で照合済みの知識単位 chives-profile から生成"
-   }
-  ],
-  "id": "qti-alias-chives-profile",
-  "format": "term-input",
-  "prompt": "チャイブの別名を1つ答えよ。",
-  "acceptedAnswers": [
-   "シブレット",
-   "西洋あさつき",
-   "えぞねぎ"
-  ],
-  "explanation": "チャイブ: 科名はヒガンバナ科。原産地は中央アジア、温帯地域。利用部位は花、葉。別名はシブレット、西洋あさつき、えぞねぎ。検定1・2級の対象。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch2",
-  "sectionId": "item-chive",
   "difficulty": 3,
   "knowledgeUnitIds": [
    "chives-profile"
@@ -75,7 +19,10 @@
   "format": "term-input",
   "prompt": "別名「シブレット」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "チャイブ"
+   "チャイブ",
+   "シブレット",
+   "西洋あさつき",
+   "えぞねぎ"
   ],
   "explanation": "チャイブ: 科名はヒガンバナ科。原産地は中央アジア、温帯地域。利用部位は花、葉。別名はシブレット、西洋あさつき、えぞねぎ。検定1・2級の対象。"
  },
@@ -233,7 +180,10 @@
   "format": "term-input",
   "prompt": "別名「いのんど」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "ディル"
+   "ディル",
+   "いのんど",
+   "ジル",
+   "サワ"
   ],
   "explanation": "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。"
  },
@@ -394,7 +344,13 @@
   "format": "term-input",
   "prompt": "別名「チリペッパー」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "唐辛子"
+   "唐辛子",
+   "チリペッパー",
+   "チリ",
+   "カイエンペッパー(品種の一部)",
+   "カイエンペッパー",
+   "鷹の爪(品種の一部)",
+   "鷹の爪"
   ],
   "explanation": "唐辛子: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実、葉。別名はチリペッパー、チリ、カイエンペッパー(品種の一部)、鷹の爪(品種の一部)。検定1・2・3級の対象。"
  },
@@ -555,7 +511,11 @@
   "acceptedAnswers": [
    "ナツメッグ/メース",
    "ナツメッグ",
-   "メース"
+   "メース",
+   "にくずく(ナツメッグ)",
+   "にくずく",
+   "にくずくか(メース)",
+   "にくずくか"
   ],
   "explanation": "ナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。"
  },
@@ -712,7 +672,9 @@
   "format": "term-input",
   "prompt": "別名「めぼうき」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "バジル"
+   "バジル",
+   "めぼうき",
+   "バジリコ"
   ],
   "explanation": "バジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。"
  },
@@ -869,7 +831,9 @@
   "format": "term-input",
   "prompt": "別名「オランダ芹」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "パセリ"
+   "パセリ",
+   "オランダ芹(モスカールド種をさすことが多い)",
+   "オランダ芹"
   ],
   "explanation": "パセリ: 科名はセリ科。原産地は地中海沿岸。利用部位は葉、茎。別名はオランダ芹(モスカールド種をさすことが多い)。検定1・2・3級の対象。"
  },
@@ -1025,7 +989,8 @@
   "format": "term-input",
   "prompt": "別名「ワニラ」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "バニラ"
+   "バニラ",
+   "ワニラ"
   ],
   "explanation": "バニラ: 科名はラン科。原産地は中央アメリカ。利用部位は果実(さや)。別名はワニラ。検定1・2級の対象。"
  },
@@ -1184,7 +1149,11 @@
   "format": "term-input",
   "prompt": "別名「ハンガリアンペッパー」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "パプリカ"
+   "パプリカ",
+   "ハンガリアンペッパー",
+   "スパニッシュペッパー",
+   "ピメントン",
+   "甘唐辛子"
   ],
   "explanation": "パプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。"
  },
@@ -1343,7 +1312,11 @@
   "format": "term-input",
   "prompt": "別名「茴香」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "フェンネル"
+   "フェンネル",
+   "茴香(ういきょう)",
+   "茴香",
+   "小茴香(しょういきょう)",
+   "小茴香"
   ],
   "explanation": "フェンネル: 科名はセリ科。原産地は地中海沿岸。利用部位は種子(植物学上は果実)、葉、茎。別名は茴香(ういきょう)、小茴香(しょういきょう)。検定1・2級の対象。"
  },
@@ -1501,7 +1474,10 @@
   "format": "term-input",
   "prompt": "別名「西洋わさび」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "ホースラディッシュ"
+   "ホースラディッシュ",
+   "西洋わさび",
+   "わさび大根",
+   "レホール"
   ],
   "explanation": "ホースラディッシュ: 科名はアブラナ科。原産地は諸説あるが東ヨーロッパ説が有力。利用部位は根。別名は西洋わさび、わさび大根、レホール。検定1・2級の対象。"
  },
@@ -1659,7 +1635,10 @@
   "format": "term-input",
   "prompt": "別名「マヨラナ」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "マジョラム"
+   "マジョラム",
+   "マヨラナ",
+   "花薄荷(はなはっか)",
+   "花薄荷"
   ],
   "explanation": "マジョラム: 科名はシソ科。原産地は地中海東部沿岸。利用部位は葉および花穂。別名はマヨラナ、花薄荷(はなはっか)。検定1・2級の対象。"
  },
@@ -1815,7 +1794,8 @@
   "format": "term-input",
   "prompt": "別名「からし」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "マスタード"
+   "マスタード",
+   "からし"
   ],
   "explanation": "マスタード: 科名はアブラナ科。原産地は地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)。利用部位は種子、葉。別名はからし。検定1・2・3級の対象。"
  },
@@ -1972,7 +1952,9 @@
   "format": "term-input",
   "prompt": "別名「薄荷」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "ミント"
+   "ミント",
+   "薄荷(はっか)",
+   "薄荷"
   ],
   "explanation": "ミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。"
  },
@@ -2130,8 +2112,59 @@
   "format": "term-input",
   "prompt": "別名「ロケット」と呼ばれるスパイス＆ハーブの名称を答えよ。",
   "acceptedAnswers": [
-   "ルッコラ"
+   "ルッコラ",
+   "ロケット",
+   "アルグラ",
+   "きばなすずしろ"
   ],
   "explanation": "ルッコラ: 科名はアブラナ科。原産地は地中海沿岸、西アジア。利用部位は地上部。別名はロケット、アルグラ、きばなすずしろ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ],
+  "id": "qfb-family-lemongrass-profile",
+  "format": "fill-blank",
+  "prompt": "レモングラスの科名は（　）である。",
+  "acceptedAnswers": [
+   "イネ科"
+  ],
+  "explanation": "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ],
+  "id": "qfb-level-lemongrass-profile",
+  "format": "fill-blank",
+  "prompt": "レモングラスは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2"
+  ],
+  "explanation": "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
  }
 ]
