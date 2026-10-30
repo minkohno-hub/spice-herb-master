@@ -18,8 +18,8 @@ function pageChars(p: (typeof TRANSCRIPT_PAGES)[number]): number {
 }
 
 describe("transcripts (原文層・本文転記)", () => {
-  it("バッチT17までの対象は p.6〜16、p.18〜31、p.33、p.35〜50、p.52〜108、p.110〜140 の130ページ（重複なし・昇順。p.32・p.34 は写真のみでテキストがないため対象外。p.141 以降は Drive に原本画像が存在しないため対象外で、転記は Drive 実在範囲で完了）", () => {
-    expect(TRANSCRIPT_PAGES.map(p => p.bookPage)).toEqual([6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140]);
+  it("対象は p.6〜16、章扉 p.17、p.18〜31、p.33、p.35〜50、章扉 p.51、p.52〜108、章扉 p.109、p.110〜140 の133ページ（重複なし・昇順。p.32・p.34 は写真のみでテキストがないため対象外。p.141 以降は Drive に原本画像が存在しないため対象外で、転記は Drive 実在範囲で完了。章扉3葉は監査A-02で実物を確認して追加した）", () => {
+    expect(TRANSCRIPT_PAGES.map(p => p.bookPage)).toEqual([6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140]);
     expect(TRANSCRIPT_META.transcribedPages).toBe(TRANSCRIPT_PAGES.length);
     expect(TRANSCRIPT_BY_PAGE.size).toBe(TRANSCRIPT_PAGES.length);
   });
@@ -35,11 +35,14 @@ describe("transcripts (原文層・本文転記)", () => {
     for (const p of TRANSCRIPT_PAGES) expect(p.imageId).toBe(imageIdForBookPage(p.bookPage));
   });
   it("章・節の参照先が構造データに実在し、節の開始ページと矛盾しない", () => {
+    // 例外: 章扉3葉（p.17・p.51・p.109、監査A-02）は、その章の最初の節の
+    // 開始ページの1つ前に位置する（節IDは最初の節に付けてある）
+    const DOOR_PAGES = new Set([17, 51, 109]);
     for (const p of TRANSCRIPT_PAGES) {
       const sec = sectionById.get(p.sectionId);
       expect(sec, p.sectionId).toBeDefined();
       expect(sec!.chapterId).toBe(p.chapterId);
-      expect(p.bookPage).toBeGreaterThanOrEqual(sec!.bookPage);
+      expect(p.bookPage).toBeGreaterThanOrEqual(sec!.bookPage - (DOOR_PAGES.has(p.bookPage) ? 1 : 0));
     }
     // history-world は p.6 開始で次節（history-japan, p.10）の前まで
     expect(transcriptPagesForSection("history-world").map(p => p.bookPage)).toEqual([6, 7, 8, 9]);
@@ -49,7 +52,7 @@ describe("transcripts (原文層・本文転記)", () => {
     expect(transcriptPagesForSection("classification").map(p => p.bookPage)).toEqual([13, 14, 15]);
     expect(transcriptPagesForSection("preservation").map(p => p.bookPage)).toEqual([16]);
     // バッチT3: 第一章の4節（p.24 は世界の料理の扉ページで basic-compat のレコードに含む）
-    expect(transcriptPagesForSection("basic-aroma").map(p => p.bookPage)).toEqual([18, 19, 20]);
+    expect(transcriptPagesForSection("basic-aroma").map(p => p.bookPage)).toEqual([17, 18, 19, 20]); // p.17 は第一章の章扉
     expect(transcriptPagesForSection("basic-timing").map(p => p.bookPage)).toEqual([21, 22]);
     expect(transcriptPagesForSection("basic-compat").map(p => p.bookPage)).toEqual([23, 24]);
     expect(transcriptPagesForSection("world-africa").map(p => p.bookPage)).toEqual([25]);
@@ -81,7 +84,7 @@ describe("transcripts (原文層・本文転記)", () => {
     expect(transcriptPagesForSection("season-dressing").map(p => p.bookPage)).toEqual([49]);
     expect(transcriptPagesForSection("season-plus").map(p => p.bookPage)).toEqual([50]);
     // バッチT7: 第二章・図鑑の開始8品目（各1ページ。プロフィール表は table ブロックで構造を保持）
-    expect(transcriptPagesForSection("item-anise").map(p => p.bookPage)).toEqual([52]);
+    expect(transcriptPagesForSection("item-anise").map(p => p.bookPage)).toEqual([51, 52]); // p.51 は第二章の章扉
     expect(transcriptPagesForSection("item-allspice").map(p => p.bookPage)).toEqual([53]);
     expect(transcriptPagesForSection("item-oregano").map(p => p.bookPage)).toEqual([54]);
     expect(transcriptPagesForSection("item-garlic").map(p => p.bookPage)).toEqual([55]);
@@ -131,7 +134,7 @@ describe("transcripts (原文層・本文転記)", () => {
     expect(transcriptPagesForSection("item-others").map(p => p.bookPage)).toEqual([98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108]);
     // バッチT14: 第三章の開始3節（好みで楽しむハーブティー〈p.110〜114 で完了〉／ヘルス＆ビューティー〈p.115〜116 で完了〉／
     // ハウスキーピング〈p.117 のみで部分転記。第三章の転記ファイルとして ch3.json を新設した〉。全ページがファイル番号=ページ+9576 の範囲）
-    expect(transcriptPagesForSection("life-tea").map(p => p.bookPage)).toEqual([110, 111, 112, 113, 114]);
+    expect(transcriptPagesForSection("life-tea").map(p => p.bookPage)).toEqual([109, 110, 111, 112, 113, 114]); // p.109 は第三章の章扉
     expect(transcriptPagesForSection("life-beauty").map(p => p.bookPage)).toEqual([115, 116]);
     // バッチT15: 第三章の続き3節（ハウスキーピング〈p.118 で完了〉／ハンドメイド〈p.119〜121 で完了〉／
     // ハーブの栽培〈p.122〜125 のみで部分転記。節の範囲は p.122〜127〉。全ページがファイル番号=ページ+9576 の範囲）
@@ -154,13 +157,14 @@ describe("transcripts (原文層・本文転記)", () => {
       expect(p.status).toBe("転記済み");
       expect(p.blocks.length).toBeGreaterThan(0);
       // 下限は300文字: 節扉ページ（p.12）や表中心のページ（p.14）は本文量が少ないため。
-      // 例外: p.24（世界の料理の扉ページ、導入文と地図の地域名のみで実測225文字）は200文字、
+      // 例外: 章扉3葉（p.17 実測83文字・p.51 実測122文字・p.109 実測90文字。章タイトルと導入文のみ）は80/120/90文字、
+      // p.24（世界の料理の扉ページ、導入文と地図の地域名のみで実測225文字）は200文字、
       // p.30（定番料理パートの扉ページ、タイトルと導入文のみで実測96文字）は90文字、
       // p.44（チャイ、写真が大きくテキスト量が少ないレシピページで実測274文字）は270文字、
       // p.45（焼きりんご、同じく実測286文字）は280文字、
       // p.133（減塩メニュー例、写真とラベル中心のページで実測234文字）は230文字、
       // p.136（検定情報パートの開始ページ、タイトルと導入文のみで実測242文字）は240文字とする
-      const minChars = p.bookPage === 24 ? 200 : p.bookPage === 30 ? 90 : p.bookPage === 44 ? 270 : p.bookPage === 45 ? 280 : p.bookPage === 133 ? 230 : p.bookPage === 136 ? 240 : 300;
+      const minChars = p.bookPage === 17 ? 80 : p.bookPage === 51 ? 120 : p.bookPage === 109 ? 90 : p.bookPage === 24 ? 200 : p.bookPage === 30 ? 90 : p.bookPage === 44 ? 270 : p.bookPage === 45 ? 280 : p.bookPage === 133 ? 230 : p.bookPage === 136 ? 240 : 300;
       expect(pageChars(p)).toBeGreaterThanOrEqual(minChars);
       for (const b of p.blocks) {
         if (b.type === "table") {
@@ -172,8 +176,8 @@ describe("transcripts (原文層・本文転記)", () => {
       }
     }
   });
-  it("転記総文字数が実測どおり（バッチT1+T2+T3+T4+T5+T6+T7+T8+T9+T10+T11+T12+T13+T14+T15+T16+T17: 85,291文字）", () => {
-    expect(TRANSCRIPT_PAGES.reduce((acc, p) => acc + pageChars(p), 0)).toBe(85291);
+  it("転記総文字数が実測どおり（バッチT1〜T17＋監査A-02の章扉3葉: 85,586文字）", () => {
+    expect(TRANSCRIPT_PAGES.reduce((acc, p) => acc + pageChars(p), 0)).toBe(85586);
   });
   it("structure の転記ステータスと実データが一致する（転記済み節は序章の5節＋第一章の24節＋第二章の39節＋第三章の6節＋検定情報の4節）", () => {
     const withData = new Set(TRANSCRIPT_PAGES.map(p => p.sectionId));

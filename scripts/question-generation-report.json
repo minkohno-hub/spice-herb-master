@@ -46,10 +46,10 @@
       "profile-card": 80
     },
     "q2Questions": 375,
-    "formalQuestions": 1819,
+    "formalQuestions": 1804,
     "byFormat": {
       "one-answer": 465,
-      "single-choice": 486,
+      "single-choice": 471,
       "fill-blank": 148,
       "term-input": 120,
       "true-false": 272,
@@ -65,18 +65,18 @@
       "compare-essay": 7
     },
     "d1ByDifficulty": {
-      "1": 752,
-      "2": 482,
+      "1": 742,
+      "2": 477,
       "3": 415,
       "4": 170
     },
     "d1CalibratedByDifficulty": {
-      "1": 752,
-      "2": 474,
+      "1": 742,
+      "2": 469,
       "3": 415,
       "4": 170
     },
-    "d1CalibratedQuestions": 1811,
+    "d1CalibratedQuestions": 1796,
     "d1HeldQuestions": 8,
     "d1HeldIds": [
       "q1-e-org",
@@ -88,8 +88,15 @@
       "q1q3-e-level1",
       "q1q3-e-scope1"
     ],
-    "formalCards": 459,
-    "excludedItems": 105,
+    "formalCards": 602,
+    "aliasExpandedQuestions": 128,
+    "fix1ByKind": {
+      "term-card": 80,
+      "reverse-card": 63
+    },
+    "fix1Cards": 143,
+    "fix1SkippedItems": 17,
+    "excludedItems": 120,
     "excludedUnits": 0,
     "files": [
       "formal-preface-1.json",
@@ -116,7 +123,8 @@
       "formal-appendix.json",
       "cards-preface.json",
       "cards-ch1.json",
-      "cards-ch2.json",
+      "cards-ch2-1.json",
+      "cards-ch2-2.json",
       "cards-ch3.json",
       "cards-appendix.json"
     ]
@@ -124,7 +132,7 @@
   "attempted": {
     "one-answer": 465,
     "single-choice": 486,
-    "flashcard": 459,
+    "flashcard": 602,
     "fill-blank": 148,
     "term-input": 120,
     "true-false": 272,
@@ -141,8 +149,8 @@
   },
   "passed": {
     "one-answer": 465,
-    "single-choice": 486,
-    "flashcard": 459,
+    "single-choice": 471,
+    "flashcard": 602,
     "fill-blank": 148,
     "term-input": 120,
     "true-false": 272,
@@ -569,16 +577,1139 @@
     }
   ],
   "q3Questions": 86,
+  "fix1ByKind": {
+    "term-card": 80,
+    "reverse-card": 63
+  },
+  "fix1Skipped": [
+    {
+      "kind": "reverse-card",
+      "unitId": "sansho-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "cinnamon-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "ginger-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "sage-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "basil-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "galangal-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "curryleaf-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "cresson-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "safflower-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "sorrel-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "nigella-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "pandan-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "fenugreek-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "mache-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "amchur-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "lemonbalm-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    },
+    {
+      "kind": "reverse-card",
+      "unitId": "longpepper-profile",
+      "reason": "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）"
+    }
+  ],
+  "aliasExpansions": [
+    {
+      "questionId": "q1-anise-4",
+      "added": [
+        "茴芹(ういきん)",
+        "茴芹"
+      ]
+    },
+    {
+      "questionId": "q1-allspice-1",
+      "added": [
+        "百味こしょう",
+        "三香子(さんこうし)",
+        "三香子",
+        "ジャマイカンペッパー",
+        "ピメント"
+      ]
+    },
+    {
+      "questionId": "q1-garlic-1",
+      "added": [
+        "大蒜(おおひる)",
+        "大蒜"
+      ]
+    },
+    {
+      "questionId": "q1-cardamom-1",
+      "added": [
+        "小豆蔲(しょうずく)",
+        "小豆蔲",
+        "グリーンカルダモン"
+      ]
+    },
+    {
+      "questionId": "q1-caraway-1",
+      "added": [
+        "姫茴香(ひめういきょう)",
+        "姫茴香",
+        "キュンメル",
+        "カルワイシード"
+      ]
+    },
+    {
+      "questionId": "q1-cumin-3",
+      "added": [
+        "馬芹(うまぜり/ばきん)",
+        "馬芹",
+        "ジーラ(ジェーラ)",
+        "ジーラ"
+      ]
+    },
+    {
+      "questionId": "q1-cumin-4",
+      "added": [
+        "ブラッククミン",
+        "カロンジ"
+      ]
+    },
+    {
+      "questionId": "q1-pepper-6",
+      "added": [
+        "ペッパー"
+      ]
+    },
+    {
+      "questionId": "q1-sansho-1",
+      "added": [
+        "はじかみ(山椒)",
+        "はじかみ",
+        "中国山椒",
+        "華北山椒",
+        "ファガラ",
+        "セシュアンペッパー(花椒)",
+        "セシュアンペッパー"
+      ]
+    },
+    {
+      "questionId": "q1-sansho-4",
+      "added": [
+        "はじかみ(山椒)",
+        "はじかみ",
+        "中国山椒",
+        "華北山椒",
+        "ファガラ",
+        "セシュアンペッパー(花椒)",
+        "セシュアンペッパー"
+      ]
+    },
+    {
+      "questionId": "q1-sansho-6",
+      "added": [
+        "はじかみ(山椒)",
+        "はじかみ",
+        "中国山椒",
+        "華北山椒",
+        "ファガラ",
+        "セシュアンペッパー(花椒)",
+        "セシュアンペッパー"
+      ]
+    },
+    {
+      "questionId": "q1-cinnamon-1",
+      "added": [
+        "肉桂(にっけい)",
+        "肉桂",
+        "桂皮(けいひ)",
+        "桂皮"
+      ]
+    },
+    {
+      "questionId": "q1-sage-2",
+      "added": [
+        "サルビア",
+        "薬用サルビア"
+      ]
+    },
+    {
+      "questionId": "q1-thyme-1",
+      "added": [
+        "立麝香草(たちじゃこうそう)",
+        "立麝香草"
+      ]
+    },
+    {
+      "questionId": "q1-chervil-1",
+      "added": [
+        "セルフィーユ",
+        "茴香芹(ういきょうぜり)",
+        "茴香芹"
+      ]
+    },
+    {
+      "questionId": "q1-nutmeg-4",
+      "added": [
+        "にくずく(ナツメッグ)",
+        "にくずく",
+        "にくずくか(メース)",
+        "にくずくか"
+      ]
+    },
+    {
+      "questionId": "q1-marjoram-1",
+      "added": [
+        "マヨラナ",
+        "花薄荷(はなはっか)",
+        "花薄荷"
+      ]
+    },
+    {
+      "questionId": "q1-rucola-1",
+      "added": [
+        "ロケット",
+        "アルグラ",
+        "きばなすずしろ"
+      ]
+    },
+    {
+      "questionId": "q1-gm-3",
+      "added": [
+        "うこん",
+        "秋うこん",
+        "インディアンサフラン"
+      ]
+    },
+    {
+      "questionId": "q1-asa-1",
+      "added": [
+        "ヒング"
+      ]
+    },
+    {
+      "questionId": "q1-kaf-1",
+      "added": [
+        "マックルー",
+        "マクルットライム"
+      ]
+    },
+    {
+      "questionId": "q1-cub-1",
+      "added": [
+        "畢澄茄(ひっちょうか)",
+        "畢澄茄",
+        "キュベブ",
+        "テイルドペッパー"
+      ]
+    },
+    {
+      "questionId": "q1-pop-1",
+      "added": [
+        "ポピーシード"
+      ]
+    },
+    {
+      "questionId": "q1-sav-1",
+      "added": [
+        "セイボリー"
+      ]
+    },
+    {
+      "questionId": "q1-jun-1",
+      "added": [
+        "西洋ねず",
+        "杜松(としょう)",
+        "杜松"
+      ]
+    },
+    {
+      "questionId": "q1-sor-1",
+      "added": [
+        "オゼイユ"
+      ]
+    },
+    {
+      "questionId": "q1-pan-1",
+      "added": [
+        "ニオイタコノキ",
+        "ニオイアダン",
+        "ランペ"
+      ]
+    },
+    {
+      "questionId": "q1-fen-1",
+      "added": [
+        "メティ(メッチ)",
+        "メティ"
+      ]
+    },
+    {
+      "questionId": "q1-mac-1",
+      "added": [
+        "コーンサラダ"
+      ]
+    },
+    {
+      "questionId": "q1-amc-1",
+      "added": [
+        "アムチュール"
+      ]
+    },
+    {
+      "questionId": "q1-lp-1",
+      "added": [
+        "ヒハツ",
+        "ヒバーチ",
+        "ピパーチ"
+      ]
+    },
+    {
+      "questionId": "q1-b-kinome",
+      "added": [
+        "はじかみ(山椒)",
+        "はじかみ",
+        "中国山椒",
+        "華北山椒",
+        "ファガラ",
+        "セシュアンペッパー(花椒)",
+        "セシュアンペッパー"
+      ]
+    },
+    {
+      "questionId": "q1-b-part-coriander",
+      "added": [
+        "コエンドロ",
+        "シラントロ",
+        "香菜(シャンツァイ)",
+        "香菜",
+        "パクチー",
+        "カメムシソウ"
+      ]
+    },
+    {
+      "questionId": "q1-h-egypt-mummy",
+      "added": [
+        "肉桂(にっけい)",
+        "肉桂",
+        "桂皮(けいひ)",
+        "桂皮"
+      ]
+    },
+    {
+      "questionId": "q1-h-egypt-pyramid",
+      "added": [
+        "大蒜(おおひる)",
+        "大蒜"
+      ]
+    },
+    {
+      "questionId": "q1-h-han-clove",
+      "added": [
+        "丁子(ちょうじ)",
+        "丁香(ちょうこう)",
+        "百里香(ひゃくりこう)",
+        "百里香"
+      ]
+    },
+    {
+      "questionId": "q1-h-columbus",
+      "added": [
+        "チリペッパー",
+        "チリ",
+        "カイエンペッパー(品種の一部)",
+        "カイエンペッパー",
+        "鷹の爪(品種の一部)",
+        "鷹の爪"
+      ]
+    },
+    {
+      "questionId": "q1-j-shosoin-treasure",
+      "added": [
+        "肉桂(にっけい)",
+        "肉桂",
+        "桂皮(けいひ)",
+        "桂皮"
+      ]
+    },
+    {
+      "questionId": "q1-j-shosoin-chouko",
+      "added": [
+        "丁子(ちょうじ)",
+        "丁子",
+        "丁香(ちょうこう)",
+        "丁香",
+        "百里香(ひゃくりこう)",
+        "百里香"
+      ]
+    },
+    {
+      "questionId": "q1-r-curry",
+      "added": [
+        "うこん",
+        "秋うこん",
+        "インディアンサフラン"
+      ]
+    },
+    {
+      "questionId": "q1-r-kakuni",
+      "added": [
+        "八角(はっかく)",
+        "大茴香(だいういきょう)",
+        "大茴香",
+        "パージャオ",
+        "ポイカッ",
+        "チャイニーズアニス",
+        "トウシキミ"
+      ]
+    },
+    {
+      "questionId": "q1-r-harissa",
+      "added": [
+        "馬芹(うまぜり/ばきん)",
+        "馬芹",
+        "ジーラ(ジェーラ)",
+        "ジーラ"
+      ]
+    },
+    {
+      "questionId": "q1-u-starter-ex",
+      "added": [
+        "馬芹(うまぜり/ばきん)",
+        "馬芹",
+        "ジーラ(ジェーラ)",
+        "ジーラ"
+      ]
+    },
+    {
+      "questionId": "q1-u-color",
+      "added": [
+        "ハンガリアンペッパー",
+        "スパニッシュペッパー",
+        "ピメントン",
+        "甘唐辛子"
+      ]
+    },
+    {
+      "questionId": "q1-u-timing-cook-herb",
+      "added": [
+        "まんねんろう"
+      ]
+    },
+    {
+      "questionId": "q1-u-rosemary-same",
+      "added": [
+        "まんねんろう"
+      ]
+    },
+    {
+      "questionId": "q1-w-africa",
+      "added": [
+        "馬芹(うまぜり/ばきん)",
+        "馬芹",
+        "ジーラ(ジェーラ)",
+        "ジーラ"
+      ]
+    },
+    {
+      "questionId": "q1-w-tabbouleh",
+      "added": [
+        "オランダ芹(モスカールド種をさすことが多い)",
+        "オランダ芹"
+      ]
+    },
+    {
+      "questionId": "q1-w-europe",
+      "added": [
+        "サフランクロッカス",
+        "蕃紅花(ばんこうか)",
+        "蕃紅花"
+      ]
+    },
+    {
+      "questionId": "q1-w-caprese",
+      "added": [
+        "めぼうき",
+        "バジリコ"
+      ]
+    },
+    {
+      "questionId": "q1-w-milanese",
+      "added": [
+        "サフランクロッカス",
+        "蕃紅花(ばんこうか)",
+        "蕃紅花"
+      ]
+    },
+    {
+      "questionId": "q1-w-saltimbocca",
+      "added": [
+        "サルビア",
+        "薬用サルビア"
+      ]
+    },
+    {
+      "questionId": "q1-w-genovese",
+      "added": [
+        "めぼうき",
+        "バジリコ"
+      ]
+    },
+    {
+      "questionId": "q1-w-paella",
+      "added": [
+        "サフランクロッカス",
+        "蕃紅花(ばんこうか)",
+        "蕃紅花"
+      ]
+    },
+    {
+      "questionId": "q1-w-goulash",
+      "added": [
+        "ハンガリアンペッパー",
+        "スパニッシュペッパー",
+        "ピメントン",
+        "甘唐辛子"
+      ]
+    },
+    {
+      "questionId": "q1-w-borscht",
+      "added": [
+        "いのんど",
+        "ジル",
+        "サワ"
+      ]
+    },
+    {
+      "questionId": "q1-w-dongpo",
+      "added": [
+        "八角(はっかく)",
+        "大茴香(だいういきょう)",
+        "大茴香",
+        "パージャオ",
+        "ポイカッ",
+        "チャイニーズアニス",
+        "トウシキミ"
+      ]
+    },
+    {
+      "questionId": "q1-w-banhxeo",
+      "added": [
+        "うこん",
+        "秋うこん",
+        "インディアンサフラン"
+      ]
+    },
+    {
+      "questionId": "q1-d-gahwa",
+      "added": [
+        "小豆蔲(しょうずく)",
+        "小豆蔲",
+        "グリーンカルダモン"
+      ]
+    },
+    {
+      "questionId": "q1-d-eggnog",
+      "added": [
+        "にくずく(ナツメッグ)",
+        "にくずく",
+        "にくずくか(メース)",
+        "にくずくか"
+      ]
+    },
+    {
+      "questionId": "q1-d-cafe-olla",
+      "added": [
+        "肉桂(にっけい)",
+        "肉桂",
+        "桂皮(けいひ)",
+        "桂皮"
+      ]
+    },
+    {
+      "questionId": "q1-d-mojito-herb",
+      "added": [
+        "薄荷(はっか)",
+        "薄荷"
+      ]
+    },
+    {
+      "questionId": "q1-m-func-ex",
+      "added": [
+        "ヒハツ",
+        "ヒバーチ",
+        "ピパーチ"
+      ]
+    },
+    {
+      "questionId": "q1-l-youth",
+      "added": [
+        "まんねんろう"
+      ]
+    },
+    {
+      "questionId": "q1-l-skin",
+      "added": [
+        "まんねんろう"
+      ]
+    },
+    {
+      "questionId": "q1-l-gargle",
+      "added": [
+        "立麝香草(たちじゃこうそう)",
+        "立麝香草"
+      ]
+    },
+    {
+      "questionId": "q1-l-rice",
+      "added": [
+        "チリペッパー",
+        "チリ",
+        "カイエンペッパー(品種の一部)",
+        "カイエンペッパー",
+        "鷹の爪(品種の一部)",
+        "鷹の爪"
+      ]
+    },
+    {
+      "questionId": "q1-l-pomander",
+      "added": [
+        "丁子(ちょうじ)",
+        "丁子",
+        "丁香(ちょうこう)",
+        "丁香",
+        "百里香(ひゃくりこう)",
+        "百里香"
+      ]
+    },
+    {
+      "questionId": "qti-rev-anise-profile",
+      "added": [
+        "茴芹(ういきん)",
+        "茴芹"
+      ]
+    },
+    {
+      "questionId": "qti-rev-allspice-profile",
+      "added": [
+        "百味こしょう",
+        "三香子(さんこうし)",
+        "三香子",
+        "ジャマイカンペッパー",
+        "ピメント"
+      ]
+    },
+    {
+      "questionId": "qti-rev-oregano-profile",
+      "added": [
+        "花薄荷(はなはっか)",
+        "花薄荷",
+        "ワイルドマジョラム"
+      ]
+    },
+    {
+      "questionId": "qti-rev-garlic-profile",
+      "added": [
+        "にんにく",
+        "大蒜(おおひる)",
+        "大蒜"
+      ]
+    },
+    {
+      "questionId": "qti-rev-cardamom-profile",
+      "added": [
+        "小豆蔲(しょうずく)",
+        "小豆蔲",
+        "グリーンカルダモン"
+      ]
+    },
+    {
+      "questionId": "qti-rev-caraway-profile",
+      "added": [
+        "姫茴香(ひめういきょう)",
+        "姫茴香",
+        "キュンメル",
+        "カルワイシード"
+      ]
+    },
+    {
+      "questionId": "qti-rev-gardenia-profile",
+      "added": [
+        "山梔子(さんしし)",
+        "山梔子"
+      ]
+    },
+    {
+      "questionId": "qti-rev-cumin-profile",
+      "added": [
+        "馬芹(うまぜり/ばきん)",
+        "馬芹",
+        "ジーラ(ジェーラ)",
+        "ジーラ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-clove-profile",
+      "added": [
+        "丁子(ちょうじ)",
+        "丁子",
+        "丁香(ちょうこう)",
+        "丁香",
+        "百里香(ひゃくりこう)",
+        "百里香"
+      ]
+    },
+    {
+      "questionId": "qti-rev-pepper-profile",
+      "added": [
+        "ペッパー"
+      ]
+    },
+    {
+      "questionId": "qti-rev-coriander-profile",
+      "added": [
+        "コエンドロ",
+        "シラントロ",
+        "香菜(シャンツァイ)",
+        "香菜",
+        "パクチー",
+        "カメムシソウ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-saffron-profile",
+      "added": [
+        "サフランクロッカス",
+        "蕃紅花(ばんこうか)",
+        "蕃紅花"
+      ]
+    },
+    {
+      "questionId": "qti-rev-sansho-profile",
+      "added": [
+        "はじかみ(山椒)",
+        "はじかみ",
+        "中国山椒",
+        "華北山椒",
+        "ファガラ",
+        "セシュアンペッパー(花椒)",
+        "セシュアンペッパー"
+      ]
+    },
+    {
+      "questionId": "qti-rev-cinnamon-profile",
+      "added": [
+        "肉桂(にっけい)",
+        "肉桂",
+        "桂皮(けいひ)",
+        "桂皮"
+      ]
+    },
+    {
+      "questionId": "qti-rev-ginger-profile",
+      "added": [
+        "ジンジャー",
+        "はじかみ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-staranise-profile",
+      "added": [
+        "八角(はっかく)",
+        "八角",
+        "大茴香(だいういきょう)",
+        "大茴香",
+        "パージャオ",
+        "ポイカッ",
+        "チャイニーズアニス",
+        "トウシキミ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-sage-profile",
+      "added": [
+        "サルビア",
+        "薬用サルビア"
+      ]
+    },
+    {
+      "questionId": "qti-rev-turmeric-profile",
+      "added": [
+        "うこん",
+        "秋うこん",
+        "インディアンサフラン"
+      ]
+    },
+    {
+      "questionId": "qti-rev-thyme-profile",
+      "added": [
+        "立麝香草(たちじゃこうそう)",
+        "立麝香草"
+      ]
+    },
+    {
+      "questionId": "qti-rev-tarragon-profile",
+      "added": [
+        "エストラゴン"
+      ]
+    },
+    {
+      "questionId": "qti-rev-chervil-profile",
+      "added": [
+        "セルフィーユ",
+        "茴香芹(ういきょうぜり)",
+        "茴香芹"
+      ]
+    },
+    {
+      "questionId": "qti-rev-chives-profile",
+      "added": [
+        "シブレット",
+        "西洋あさつき",
+        "えぞねぎ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-dill-profile",
+      "added": [
+        "いのんど",
+        "ジル",
+        "サワ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-chili-profile",
+      "added": [
+        "チリペッパー",
+        "チリ",
+        "カイエンペッパー(品種の一部)",
+        "カイエンペッパー",
+        "鷹の爪(品種の一部)",
+        "鷹の爪"
+      ]
+    },
+    {
+      "questionId": "qti-rev-nutmeg-profile",
+      "added": [
+        "にくずく(ナツメッグ)",
+        "にくずく",
+        "にくずくか(メース)",
+        "にくずくか"
+      ]
+    },
+    {
+      "questionId": "qti-rev-basil-profile",
+      "added": [
+        "めぼうき",
+        "バジリコ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-parsley-profile",
+      "added": [
+        "オランダ芹(モスカールド種をさすことが多い)",
+        "オランダ芹"
+      ]
+    },
+    {
+      "questionId": "qti-rev-vanilla-profile",
+      "added": [
+        "ワニラ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-paprika-profile",
+      "added": [
+        "ハンガリアンペッパー",
+        "スパニッシュペッパー",
+        "ピメントン",
+        "甘唐辛子"
+      ]
+    },
+    {
+      "questionId": "qti-rev-fennel-profile",
+      "added": [
+        "茴香(ういきょう)",
+        "茴香",
+        "小茴香(しょういきょう)",
+        "小茴香"
+      ]
+    },
+    {
+      "questionId": "qti-rev-horseradish-profile",
+      "added": [
+        "西洋わさび",
+        "わさび大根",
+        "レホール"
+      ]
+    },
+    {
+      "questionId": "qti-rev-marjoram-profile",
+      "added": [
+        "マヨラナ",
+        "花薄荷(はなはっか)",
+        "花薄荷"
+      ]
+    },
+    {
+      "questionId": "qti-rev-mustard-profile",
+      "added": [
+        "からし"
+      ]
+    },
+    {
+      "questionId": "qti-rev-mint-profile",
+      "added": [
+        "薄荷(はっか)",
+        "薄荷"
+      ]
+    },
+    {
+      "questionId": "qti-rev-rucola-profile",
+      "added": [
+        "ロケット",
+        "アルグラ",
+        "きばなすずしろ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-lemongrass-profile",
+      "added": [
+        "レモンガヤ",
+        "レモンソウ",
+        "タクライ",
+        "セイラ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-rosemary-profile",
+      "added": [
+        "まんねんろう"
+      ]
+    },
+    {
+      "questionId": "qti-rev-laurel-profile",
+      "added": [
+        "月桂樹",
+        "ベイリーブス",
+        "ローリエ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-wasabi-profile",
+      "added": [
+        "山葵(わさび)",
+        "山葵",
+        "日本わさび",
+        "沢わさび"
+      ]
+    },
+    {
+      "questionId": "qti-rev-asafoetida-profile",
+      "added": [
+        "ヒング"
+      ]
+    },
+    {
+      "questionId": "qti-rev-kaffirlime-profile",
+      "added": [
+        "こぶみかん",
+        "マックルー",
+        "マクルットライム"
+      ]
+    },
+    {
+      "questionId": "qti-rev-galangal-profile",
+      "added": [
+        "カー"
+      ]
+    },
+    {
+      "questionId": "qti-rev-curryleaf-profile",
+      "added": [
+        "カリーパッタ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-licorice-profile",
+      "added": [
+        "リコリス",
+        "リカリス"
+      ]
+    },
+    {
+      "questionId": "qti-rev-cubeb-profile",
+      "added": [
+        "畢澄茄(ひっちょうか)",
+        "畢澄茄",
+        "キュベブ",
+        "テイルドペッパー"
+      ]
+    },
+    {
+      "questionId": "qti-rev-cresson-profile",
+      "added": [
+        "ウォータークレス"
+      ]
+    },
+    {
+      "questionId": "qti-rev-caper-profile",
+      "added": [
+        "風鳥木(ふうちょうぼく)",
+        "風鳥木",
+        "ケーパー",
+        "ケッパー"
+      ]
+    },
+    {
+      "questionId": "qti-rev-poppyseed-profile",
+      "added": [
+        "ポピーシード"
+      ]
+    },
+    {
+      "questionId": "qti-rev-safflower-profile",
+      "added": [
+        "べにばな"
+      ]
+    },
+    {
+      "questionId": "qti-rev-savory-profile",
+      "added": [
+        "セイボリー"
+      ]
+    },
+    {
+      "questionId": "qti-rev-shiso-profile",
+      "added": [
+        "大葉(青じその葉)",
+        "大葉"
+      ]
+    },
+    {
+      "questionId": "qti-rev-juniper-profile",
+      "added": [
+        "西洋ねず",
+        "杜松(としょう)",
+        "杜松"
+      ]
+    },
+    {
+      "questionId": "qti-rev-sorrel-profile",
+      "added": [
+        "オゼイユ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-nigella-profile",
+      "added": [
+        "ブラッククミン",
+        "カロンジ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-pandan-profile",
+      "added": [
+        "ニオイタコノキ",
+        "ニオイアダン",
+        "ランペ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-fenugreek-profile",
+      "added": [
+        "メティ(メッチ)",
+        "メティ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-mache-profile",
+      "added": [
+        "コーンサラダ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-amchur-profile",
+      "added": [
+        "アムチュール"
+      ]
+    },
+    {
+      "questionId": "qti-rev-lemonbalm-profile",
+      "added": [
+        "メリッサ"
+      ]
+    },
+    {
+      "questionId": "qti-rev-longpepper-profile",
+      "added": [
+        "ヒハツ",
+        "ヒバーチ",
+        "ピパーチ"
+      ]
+    }
+  ],
   "d1": {
     "byDifficulty": {
-      "1": 752,
-      "2": 482,
+      "1": 742,
+      "2": 477,
       "3": 415,
       "4": 170
     },
     "calibratedByDifficulty": {
-      "1": 752,
-      "2": 474,
+      "1": 742,
+      "2": 469,
       "3": 415,
       "4": 170
     },
@@ -594,6 +1725,81 @@
     ]
   },
   "excluded": [
+    {
+      "kind": "single-choice",
+      "unitId": "garlic-4",
+      "reason": "誤答候補が3つ確保できない（ガード通過 0 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "saffron-2",
+      "reason": "誤答候補が3つ確保できない（ガード通過 1 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "shichimi-2",
+      "reason": "誤答候補が3つ確保できない（ガード通過 2 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "h-incense",
+      "reason": "誤答候補が3つ確保できない（ガード通過 1 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "h-hippocrates",
+      "reason": "誤答候補が3つ確保できない（ガード通過 2 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "j-hot-ratio",
+      "reason": "誤答候補が3つ確保できない（ガード通過 2 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "j-todaiji",
+      "reason": "誤答候補が3つ確保できない（ガード通過 1 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "u-fresh-3x",
+      "reason": "誤答候補が3つ確保できない（ガード通過 2 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "d-mojito",
+      "reason": "誤答候補が3つ確保できない（ガード通過 2 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "m-salt",
+      "reason": "誤答候補が3つ確保できない（ガード通過 1 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "m-salt-f",
+      "reason": "誤答候補が3つ確保できない（ガード通過 2 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "t-cup",
+      "reason": "誤答候補が3つ確保できない（ガード通過 0 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "t-amount",
+      "reason": "誤答候補が3つ確保できない（ガード通過 1 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "t-stevia",
+      "reason": "誤答候補が3つ確保できない（ガード通過 2 件）"
+    },
+    {
+      "kind": "single-choice",
+      "unitId": "l-bath",
+      "reason": "誤答候補が3つ確保できない（ガード通過 2 件）"
+    },
     {
       "kind": "family-fill",
       "unitId": "gokoufun-profile",

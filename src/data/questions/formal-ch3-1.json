@@ -289,7 +289,10 @@
   "format": "one-answer",
   "prompt": "本書の表で「血流増加」の作用が挙げられているスパイスは?",
   "acceptedAnswers": [
-   "ロングペッパー"
+   "ロングペッパー",
+   "ヒハツ",
+   "ヒバーチ",
+   "ピパーチ"
   ],
   "explanation": "成分による作用の例:わさびは抗菌、ロングペッパーは血流増加、パセリは利尿・口臭予防、ターメリックは抗酸化・抗炎症・利胆(本書は参考情報であり食品としての効果・効能ではないと注記)。"
  },
@@ -313,8 +316,8 @@
   "format": "single-choice",
   "prompt": "本書の表で「血流増加」の作用が挙げられているスパイスは?",
   "choices": [
-   "ラベンダー",
-   "ローゼル",
+   "タイム",
+   "七味唐辛子",
    "ロングペッパー",
    "ローズマリー"
   ],
@@ -354,36 +357,6 @@
   "sectionId": "life-health",
   "difficulty": 2,
   "knowledgeUnitIds": [
-   "m-salt"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9708",
-    "bookPage": 132,
-    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-salt から生成"
-   }
-  ],
-  "id": "q4-m-salt",
-  "format": "single-choice",
-  "prompt": "「日本人の食事摂取基準(2025年版)」で推奨される成人男性の1日の食塩摂取量は?",
-  "choices": [
-   "7〜10分",
-   "200〜300倍",
-   "7.5g未満",
-   "80種"
-  ],
-  "correctChoiceIndexes": [
-   2
-  ],
-  "explanation": "厚生労働省「日本人の食事摂取基準(2025年版)」では、1日の食塩摂取量を男性7.5g未満、女性6.5g未満に抑えることが推奨されている。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch3",
-  "sectionId": "life-health",
-  "difficulty": 2,
-  "knowledgeUnitIds": [
    "m-salt-f"
   ],
   "sourceRefs": [
@@ -398,36 +371,6 @@
   "prompt": "「日本人の食事摂取基準(2025年版)」で推奨される成人女性の1日の食塩摂取量は?",
   "acceptedAnswers": [
    "6.5g未満"
-  ],
-  "explanation": "同基準で女性の1日の食塩摂取量の目標は6.5g未満。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch3",
-  "sectionId": "life-health",
-  "difficulty": 2,
-  "knowledgeUnitIds": [
-   "m-salt-f"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9708",
-    "bookPage": 132,
-    "locationNote": "本書 p.132（原本画像 IMG_9708.PNG）。原文照合 batch16 で照合済みの知識単位 m-salt-f から生成"
-   }
-  ],
-  "id": "q4-m-salt-f",
-  "format": "single-choice",
-  "prompt": "「日本人の食事摂取基準(2025年版)」で推奨される成人女性の1日の食塩摂取量は?",
-  "choices": [
-   "7.5g未満",
-   "3杯",
-   "6.5g未満",
-   "5年"
-  ],
-  "correctChoiceIndexes": [
-   2
   ],
   "explanation": "同基準で女性の1日の食塩摂取量の目標は6.5g未満。"
  },
@@ -529,13 +472,13 @@
   "format": "single-choice",
   "prompt": "「日本人の食事摂取基準」は何年ごとに改定される?",
   "choices": [
-   "200〜300倍",
-   "7.5g未満",
+   "2009年",
    "5年",
-   "6.5g未満"
+   "7〜10分",
+   "4〜5日"
   ],
   "correctChoiceIndexes": [
-   2
+   1
   ],
   "explanation": "「日本人の食事摂取基準」は厚生労働省が策定し、5年ごとに改定される。"
  },
@@ -584,9 +527,9 @@
   "prompt": "本書の減塩メニュー例で、減塩みそ汁に加えるスパイスは?",
   "choices": [
    "七味唐辛子",
-   "西洋オトギリソウ",
-   "ダンデリオン",
-   "ジャーマンカモミール"
+   "ロングペッパー",
+   "ローズマリー",
+   "タイム"
   ],
   "correctChoiceIndexes": [
    0
@@ -894,36 +837,6 @@
   "sectionId": "life-tea",
   "difficulty": 2,
   "knowledgeUnitIds": [
-   "t-cup"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9687",
-    "bookPage": 111,
-    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-cup から生成"
-   }
-  ],
-  "id": "q4-t-cup",
-  "format": "single-choice",
-  "prompt": "ハーブティーのティーカップ1杯分の目安量は?",
-  "choices": [
-   "150〜180ml",
-   "200〜300倍",
-   "3杯",
-   "7〜10分"
-  ],
-  "correctChoiceIndexes": [
-   0
-  ],
-  "explanation": "ティーカップ1杯分は150〜180mlが目安で、カップはあらかじめ温めておく。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch3",
-  "sectionId": "life-tea",
-  "difficulty": 2,
-  "knowledgeUnitIds": [
    "t-amount"
   ],
   "sourceRefs": [
@@ -938,36 +851,6 @@
   "prompt": "ハーブティー1杯分のフレッシュハーブの目安は、ティースプーン山盛り何杯?",
   "acceptedAnswers": [
    "3杯"
-  ],
-  "explanation": "1杯分の目安はドライハーブがティースプーン山盛り1杯、フレッシュハーブは山盛り3杯程度(ドライの3倍)。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch3",
-  "sectionId": "life-tea",
-  "difficulty": 2,
-  "knowledgeUnitIds": [
-   "t-amount"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9687",
-    "bookPage": 111,
-    "locationNote": "本書 p.111（原本画像 IMG_9687.PNG）。原文照合 batch10 で照合済みの知識単位 t-amount から生成"
-   }
-  ],
-  "id": "q4-t-amount",
-  "format": "single-choice",
-  "prompt": "ハーブティー1杯分のフレッシュハーブの目安は、ティースプーン山盛り何杯?",
-  "choices": [
-   "7〜10分",
-   "150〜180ml",
-   "3杯",
-   "約20g"
-  ],
-  "correctChoiceIndexes": [
-   2
   ],
   "explanation": "1杯分の目安はドライハーブがティースプーン山盛り1杯、フレッシュハーブは山盛り3杯程度(ドライの3倍)。"
  },
@@ -1015,7 +898,7 @@
   "format": "single-choice",
   "prompt": "ハーブティーをいれるとき、ポットに蓋をする理由は?",
   "choices": [
-   "7〜10分",
+   "湿潤",
    "挿し木",
    "外側",
    "揮発性の香りを逃がさないため"
@@ -1069,9 +952,9 @@
   "format": "single-choice",
   "prompt": "かたい種皮を持つ果実や種子のハーブティーの抽出時間の目安は?",
   "choices": [
-   "3杯",
-   "150〜180ml",
+   "2009年",
    "5年",
+   "4〜5日",
    "7〜10分"
   ],
   "correctChoiceIndexes": [
@@ -1154,36 +1037,6 @@
   "prompt": "ステビアを利用した甘味料は、砂糖の何倍ほどの甘さといわれる?",
   "acceptedAnswers": [
    "200〜300倍"
-  ],
-  "explanation": "ステビアを利用した甘味料は砂糖の200〜300倍ほどの甘さがあるといわれる。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch3",
-  "sectionId": "life-tea",
-  "difficulty": 2,
-  "knowledgeUnitIds": [
-   "t-stevia"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9689",
-    "bookPage": 113,
-    "locationNote": "本書 p.113（原本画像 IMG_9689.PNG）。原文照合 batch11 で照合済みの知識単位 t-stevia から生成"
-   }
-  ],
-  "id": "q4-t-stevia",
-  "format": "single-choice",
-  "prompt": "ステビアを利用した甘味料は、砂糖の何倍ほどの甘さといわれる?",
-  "choices": [
-   "約20g",
-   "200〜300倍",
-   "7〜10分",
-   "5年"
-  ],
-  "correctChoiceIndexes": [
-   1
   ],
   "explanation": "ステビアを利用した甘味料は砂糖の200〜300倍ほどの甘さがあるといわれる。"
  },
@@ -1652,36 +1505,6 @@
   "sectionId": "life-beauty",
   "difficulty": 1,
   "knowledgeUnitIds": [
-   "l-bath"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9691",
-    "bookPage": 115,
-    "locationNote": "本書 p.115（原本画像 IMG_9691.PNG）。原文照合 batch11 で照合済みの知識単位 l-bath から生成"
-   }
-  ],
-  "id": "q4-l-bath",
-  "format": "single-choice",
-  "prompt": "ハーブバスに使うドライハーブの量の目安は?",
-  "choices": [
-   "4〜5日",
-   "80種",
-   "5年",
-   "約20g"
-  ],
-  "correctChoiceIndexes": [
-   3
-  ],
-  "explanation": "ハーブバスの使用量はドライハーブで約20g(大さじ山盛り5杯程度)、フレッシュはひとつかみ程度。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch3",
-  "sectionId": "life-beauty",
-  "difficulty": 1,
-  "knowledgeUnitIds": [
    "l-youth"
   ],
   "sourceRefs": [
@@ -1695,7 +1518,8 @@
   "format": "one-answer",
   "prompt": "「若返りのハーブ」といわれるハーブは?",
   "acceptedAnswers": [
-   "ローズマリー"
+   "ローズマリー",
+   "まんねんろう"
   ],
   "explanation": "ローズマリーは「若返りのハーブ」といわれ、美肌作用が期待されている。"
  },
@@ -1750,7 +1574,8 @@
   "prompt": "脂性肌向けの化粧水に向くハーブの例を1つ挙げよ。",
   "acceptedAnswers": [
    "ローズマリー",
-   "ジュニパーベリー"
+   "ジュニパーベリー",
+   "まんねんろう"
   ],
   "explanation": "化粧水のハーブ選びの例:乾燥肌〜普通肌はラベンダーやジャーマンカモミール、普通肌〜脂性肌はゼラニウム、脂性肌はローズマリーやジュニパーベリー。"
  },
@@ -1774,13 +1599,13 @@
   "format": "single-choice",
   "prompt": "脂性肌向けの化粧水に向くハーブの例を1つ挙げよ。",
   "choices": [
+   "唐辛子",
    "ローズマリー",
    "タイム",
-   "クローブ",
-   "マロウ"
+   "クローブ"
   ],
   "correctChoiceIndexes": [
-   0
+   1
   ],
   "explanation": "化粧水のハーブ選びの例:乾燥肌〜普通肌はラベンダーやジャーマンカモミール、普通肌〜脂性肌はゼラニウム、脂性肌はローズマリーやジュニパーベリー。"
  },
@@ -1828,9 +1653,9 @@
   "format": "single-choice",
   "prompt": "手作り化粧水は冷蔵保管で何日で使い切る?",
   "choices": [
-   "200〜300倍",
-   "3杯",
-   "約20g",
+   "5年",
+   "2009年",
+   "7〜10分",
    "4〜5日"
   ],
   "correctChoiceIndexes": [
@@ -1912,7 +1737,9 @@
   "format": "one-answer",
   "prompt": "抗菌作用が強いといわれる成分チモールを含み、うがい液に向くハーブは?",
   "acceptedAnswers": [
-   "タイム"
+   "タイム",
+   "立麝香草(たちじゃこうそう)",
+   "立麝香草"
   ],
   "explanation": "うがい液にはチモールを含むタイムやミントがおすすめで、濃いめのハーブティーを冷まして使い、その日のうちに使い切る。"
  },
@@ -1937,9 +1764,9 @@
   "prompt": "抗菌作用が強いといわれる成分チモールを含み、うがい液に向くハーブは?",
   "choices": [
    "タイム",
+   "ロングペッパー",
    "ローズマリー",
-   "七味唐辛子",
-   "ジャーマンカモミール"
+   "七味唐辛子"
   ],
   "correctChoiceIndexes": [
    0
@@ -2044,7 +1871,7 @@
   "format": "single-choice",
   "prompt": "ルームスプレーで、精油を最初に混ぜる液体は?",
   "choices": [
-   "200〜300倍",
+   "ブレンドハーブティー",
    "ピートモス",
    "芳香浴",
    "無水エタノール"
@@ -2078,5 +1905,96 @@
    "芳香療法"
   ],
   "explanation": "精油(エッセンシャルオイル)は植物から抽出した芳香成分を高濃度に含む天然素材で、それを生かしたものがアロマテラピー(芳香療法)。口に入れない、肌に直接使わない、火気に注意する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-oil"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9694",
+    "bookPage": 118,
+    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-oil から生成"
+   }
+  ],
+  "id": "q4-l-oil",
+  "format": "single-choice",
+  "prompt": "精油の香りと作用を生かしたものを何という?",
+  "choices": [
+   "湿潤",
+   "ピートモス",
+   "木本性",
+   "アロマテラピー"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "精油(エッセンシャルオイル)は植物から抽出した芳香成分を高濃度に含む天然素材で、それを生かしたものがアロマテラピー(芳香療法)。口に入れない、肌に直接使わない、火気に注意する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-rice"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9694",
+    "bookPage": 118,
+    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-rice から生成"
+   }
+  ],
+  "id": "q1-l-rice",
+  "format": "one-answer",
+  "prompt": "米びつに入れて虫よけにするとされるスパイス・ハーブを1つ挙げよ。",
+  "acceptedAnswers": [
+   "唐辛子",
+   "ローレル",
+   "チリペッパー",
+   "チリ",
+   "カイエンペッパー(品種の一部)",
+   "カイエンペッパー",
+   "鷹の爪(品種の一部)",
+   "鷹の爪"
+  ],
+  "explanation": "米びつに唐辛子(2〜3本)やローレル(3〜4枚)を入れておくと虫がつかないとされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionId": "life-house",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "l-rice"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9694",
+    "bookPage": 118,
+    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-rice から生成"
+   }
+  ],
+  "id": "q4-l-rice",
+  "format": "single-choice",
+  "prompt": "米びつに入れて虫よけにするとされるスパイス・ハーブを1つ挙げよ。",
+  "choices": [
+   "ロングペッパー",
+   "タイム",
+   "唐辛子",
+   "ローズマリー"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "米びつに唐辛子(2〜3本)やローレル(3〜4枚)を入れておくと虫がつかないとされる。"
  }
 ]
