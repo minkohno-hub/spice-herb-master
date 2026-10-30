@@ -2,11 +2,11 @@
 // 修正バッチFIX1（DECISIONS #34）: 既定モードを正式問題（verified）に変更し、出題順
 // セレクト（シャッフル=既定／登録順）を追加した。
 // 監査修正バッチ2（C-01／C-02／D-04）: 絞り込み（章・節・難易度・形式）と学習フォーカス
-// （未回答・誤答・お気に入り・復習期限・記述式）を domain/practice.ts の純粋関数で
+// （未回答・誤答・苦手・ブックマーク・復習期限・記述式）を domain/practice.ts の純粋関数で
 // 演習プールに反映し、セッションは「問題数」で区切って終了時に結果を表示する。
 // セッション中のプールは開始時点のスナップショットで固定し、回答のたびに
 // 対象が入れ替わらないようにする（組み直しは条件変更・再開ボタンのときだけ）。
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
 import { QUESTIONS, SAMPLE_QUESTIONS } from "../data/questions";
 import { CHAPTERS, ALL_SECTIONS } from "../data/structure";
@@ -35,6 +35,7 @@ interface PracticePreset {
   sectionId?: string;
   chapterId?: string;
   questionId?: string;
+  count?: number;
 }
 
 function buildSession(pool: Question[], orderMode: string, seed: string, count: number, firstId?: string): Question[] {
@@ -61,7 +62,7 @@ export default function Practice({ store, update }: { store: StoreData; update: 
     chapterIds: preset.chapterId ? [preset.chapterId] : [],
   });
   const [orderMode, setOrderMode] = useState("shuffle");
-  const [count, setCount] = useState(10);
+  const [count, setCount] = useState(preset.count ?? 10);
   const [idx, setIdx] = useState(0);
   const [results, setResults] = useState<{ questionId: string; correct: boolean | null }[]>([]);
   const [done, setDone] = useState(false);
@@ -74,7 +75,7 @@ export default function Practice({ store, update }: { store: StoreData; update: 
     [mode, filters, store.records, store.srs, store.favorites],
   );
   const [sessionQs, setSessionQs] = useState<Question[]>(() =>
-    buildSession(buildPracticePool(basePool(mode), filters, ctx), "shuffle", String(Date.now()), 10, preset.questionId),
+    buildSession(buildPracticePool(basePool(mode), filters, ctx), "shuffle", String(Date.now()), preset.count ?? 10, preset.questionId),
   );
 
   const restart = (next: { mode?: string; filters?: PracticeFilters; orderMode?: string; count?: number }) => {
@@ -88,6 +89,28 @@ export default function Practice({ store, update }: { store: StoreData; update: 
     setDone(false);
   };
   const applyFilters = (f: PracticeFilters) => { setFilters(f); restart({ filters: f }); };
+
+  // ユーザー要望対応（DECISIONS #35）: 演習画面を開いたまま上部メニューの
+  // 苦手・間違い・ブックマーク等を押してもプリセットが効くよう、マウント後に
+  // location.state が変わったら条件とセッションを組み直す。マウント時の適用は
+  // useState の初期化側で行うため、初期キーと一致する間は何もしない。
+  // questionId（1問だけの深いリンク）はマウント時のみ扱う。
+  const presetKey = [preset.focus ?? "", preset.count ?? "", preset.sectionId ?? "", preset.chapterId ?? ""].join("|");
+  const appliedPresetKey = useRef(presetKey);
+  useEffect(() => {
+    if (appliedPresetKey.current === presetKey) return;
+    appliedPresetKey.current = presetKey;
+    const f: PracticeFilters = {
+      ...DEFAULT_PRACTICE_FILTERS,
+      focus: preset.focus ?? "all",
+      sectionId: preset.sectionId ?? null,
+      chapterIds: preset.chapterId ? [preset.chapterId] : [],
+    };
+    setFilters(f);
+    if (preset.count) setCount(preset.count);
+    restart({ filters: f, count: preset.count ?? count });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [presetKey]);
 
   const toggleChapter = (chapterId: string, checked: boolean) => {
     const chapterIds = checked ? [...filters.chapterIds, chapterId] : filters.chapterIds.filter((c) => c !== chapterId);
@@ -282,7 +305,7 @@ export default function Practice({ store, update }: { store: StoreData; update: 
                 }))
               }
             >
-              {isFav ? "お気に入りから外す" : "お気に入りに追加"}
+              {isFav ? "ブックマークから外す" : "ブックマークに追加"}
             </button>
           </p>
         </>

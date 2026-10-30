@@ -39,7 +39,16 @@ describe("buildPracticePool (C-01)", () => {
     const ctx = { ...CTX, records: [rec("a", false), rec("b", false), rec("b", true), rec("c", null)] };
     expect(buildPracticePool(qs, F({ focus: "wrong" }), ctx).map((q) => q.id)).toEqual(["a"]);
   });
-  it("お気に入り・記述式フォーカス", () => {
+  it("苦手フォーカスは2回以上回答し正答率50%未満の問題だけ（1回だけの誤答や五分五分は外れる）", () => {
+    const ctx = { ...CTX, records: [
+      rec("a", false), rec("a", false),
+      rec("b", false), rec("b", true),
+      rec("c", false),
+      rec("d", false), rec("d", false), rec("d", true),
+    ] };
+    expect(buildPracticePool(qs, F({ focus: "weak" }), ctx).map((q) => q.id)).toEqual(["a", "d"]);
+  });
+  it("ブックマーク・記述式フォーカス", () => {
     const ctx = { ...CTX, favorites: ["d", "b"] };
     expect(buildPracticePool(qs, F({ focus: "favorites" }), ctx).map((q) => q.id)).toEqual(["b", "d"]);
     expect(buildPracticePool(qs, F({ focus: "essay" }), CTX).map((q) => q.id)).toEqual(["c"]);

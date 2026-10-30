@@ -1,5 +1,5 @@
 // 画面コンポーネント（バンドル分割バッチE1で src/App.tsx から分割。docs/DECISIONS.md #23）
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router";
 import { CHAPTERS, ALL_SECTIONS } from "../data/structure";
 import { QUESTIONS } from "../data/questions";
@@ -19,6 +19,12 @@ export default function Reader({store,update}:{store:StoreData;update:any}){
  const [sel,setSel]=useState(store.reader.sectionId || ALL_SECTIONS[0]!.id); const [query,setQuery]=useState("");
  // 監査C-14是正: 問題画面・検索画面から reader.sectionId 経由で遷移してきた場合に追随する。
  useEffect(()=>{ if (store.reader.sectionId && store.reader.sectionId!==sel) setSel(store.reader.sectionId); }, [store.reader.sectionId]);
+ // ユーザー要望対応（DECISIONS #35）: スマホでは目次が本文の上に積まれるため、
+ // 開いた直後や目次で節を選んだ直後は、スクロールせずに本文（ページ）へ
+ // すぐ飛べるよう、本文の先頭へ自動でスクロールする。固定ヘッダーに本文が
+ // 隠れないよう、本文側に scroll-margin-top（styles.css の #reader-page）を置く。
+ const pageRef = useRef<HTMLElement | null>(null);
+ useEffect(()=>{ pageRef.current?.scrollIntoView?.({ block: "start" }); }, [sel ]);
  const sec = ALL_SECTIONS.find(s=>s.id===sel) ?? ALL_SECTIONS[0]!;
  const secPages = transcriptPagesForSection(sec.id);
  const filtered = ALL_SECTIONS.filter(s=>!query || s.title.includes(query));
@@ -30,7 +36,7 @@ export default function Reader({store,update}:{store:StoreData;update:any}){
  <div className="split"><section className="card"><h2>目次（目次ページで照合済み）</h2><input aria-label="節検索" placeholder="語句検索" value={query} onChange={e=>setQuery(e.target.value)}/>
  {CHAPTERS.map(c=><div key={c.id}><h3>{c.label} {c.title}</h3><ul>{c.sections.filter(s=>filteredIds.has(s.id)).map(s=><li key={s.id}><button className="ghost" onClick={()=>{setSel(s.id); update((d:StoreData)=>{d.reader.sectionId=s.id; return d;});}}>{s.title}（p.{s.bookPage}）</button></li>)}</ul></div>)}
  </section>
- <section className="card" style={{fontSize: store.reader.fontSize}}><h2>{sec.title}</h2><p className="muted">書籍 p.{sec.bookPage} ／ 転記状態: {sec.transcriptionStatus}</p>
+ <section className="card" id="reader-page" ref={pageRef} style={{fontSize: store.reader.fontSize}}><h2>{sec.title}</h2><p className="muted">書籍 p.{sec.bookPage} ／ 転記状態: {sec.transcriptionStatus}</p>
  {secPages.length===0 ? <p>この節の本文はまだ転記されていません。原本画像を目視読解して転記したテキストのみがここに掲載されます。推測で本文を補うことはしません。</p>
  : secPages.map(p=><div key={p.bookPage}><p className="muted">― 本書 p.{p.bookPage}（出典画像 {p.imageId}.PNG）―</p>{p.blocks.map((b,i)=><TranscriptBlockView key={i} b={b}/>)}{p.unclear.length>0 && <p className="muted">不明瞭箇所: {p.unclear.map(u=>`${u.location}: ${u.note}`).join(" ／ ")}</p>}</div>)}
  <p className="muted">表示設定: ダークモードは全画面共通（ヘッダーからも切り替えできます）。フォントサイズはこのリーダーの本文だけに適用されます。</p>

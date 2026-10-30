@@ -52,6 +52,29 @@ test.describe("ホームとナビゲーション", () => {
       await expect(page).toHaveURL(new RegExp(`${r.hash.replace("/", "\\/")}$`));
     }
   });
+
+  test("ホームの「5問始める」は設定なしで5問セッションを開始する", async ({ page }) => {
+    await openHome(page);
+    await page.getByRole("link", { name: "5問始める" }).click();
+    await expect(page).toHaveURL(/#\/practice$/);
+    await expect(page.getByText(/セッション 1 \/ 5 問/)).toBeVisible();
+  });
+
+  test("上部メニューの苦手・間違い・ブックマークは対応する学習フォーカスで演習を開く", async ({
+    page,
+  }) => {
+    const cases: Array<{ link: string; focus: string }> = [
+      { link: "苦手", focus: "weak" },
+      { link: "間違い", focus: "wrong" },
+      { link: "ブックマーク", focus: "favorites" },
+    ];
+    for (const c of cases) {
+      await openHome(page);
+      await mainNav(page).getByRole("link", { name: c.link, exact: true }).click();
+      await expect(page).toHaveURL(/#\/practice$/);
+      await expect(page.getByLabel("学習フォーカス")).toHaveValue(c.focus);
+    }
+  });
 });
 
 test.describe("電子書籍リーダー", () => {

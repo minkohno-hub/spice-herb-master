@@ -50,8 +50,21 @@ test.describe("モバイル viewport（390×844）", () => {
     await expect(page.getByText(/書籍 p\.6 ／ 転記状態: 転記済み/)).toBeVisible();
     await page.getByRole("button", { name: "日本における歴史（p.10）" }).click();
     await expect(page.getByText(/書籍 p\.10 ／ 転記状態: 転記済み/)).toBeVisible();
+    // 節を選んだら、スクロール操作なしで本文ページが画面内に入る（DECISIONS #35）
+    await expect(page.getByText(/書籍 p\.10 ／ 転記状態: 転記済み/)).toBeInViewport();
     await expect(
       page.getByText(/「薬味」という言葉はあっても、「スパイス」や「香辛料」は最近まで/),
     ).toBeVisible();
+  });
+
+  test("ホームの「電子書籍を開く」は目次を飛ばして本文ページへ直接着地する", async ({ page }) => {
+    await page.goto("");
+    await page.getByRole("link", { name: "電子書籍を開く" }).click();
+    await expect(page).toHaveURL(/#\/reader$/);
+    // 初期節（世界における歴史、p.6）の本文見出しが、スクロールなしで画面内にある
+    // （転記本文側にも同名の h3 があるため、節タイトルは h2 に限定する）
+    await expect(
+      page.locator("#reader-page").getByRole("heading", { name: "世界における歴史", level: 2 }),
+    ).toBeInViewport();
   });
 });
