@@ -42,9 +42,13 @@ describe("画面スモーク（E1: 分割後の8画面）", () => {
     expect(html).toContain('<button class="ghost">日本における歴史');
   });
   it("カード: 正式カードが描画される", () => {
-    const html = render(createElement(Cards));
+    const html = render(createElement(Cards, { store, update }));
     expect(html).toContain("フラッシュカード・単語帳");
     expect(html).toContain("正式カード");
+    // C1（DECISIONS #32）: 自己評価UIの土台として、未評価の状態表示と評価方法の案内が出る
+    // （評価ボタン自体は裏面表示後にのみ出るため SSR では描画されない）
+    expect(html).toContain("このカードの状態: 未評価");
+    expect(html).toContain("カードをクリックして裏面を表示すると");
   });
   it("模試: 出題候補数がサマリ経由で描画される", () => {
     const html = render(createElement(Exam, { store, update }));
@@ -60,6 +64,12 @@ describe("画面スモーク（E1: 分割後の8画面）", () => {
     const html = render(createElement(SearchPage));
     expect(html).toContain("横断検索");
     expect(html).toContain("問題");
+    // S1（DECISIONS #31）: 複合フィルタの4条件（対象・章・形式・難易度）と合計件数
+    expect(html).toContain("絞り込み条件");
+    expect(html).toContain("検索対象");
+    expect(html).toContain("検索結果 合計");
+    // SSR では数値と「件」の間に React のコメントマーカーが挟まるため数値で固定する
+    expect(html).toContain("1917");
   });
   it("品質管理: 検証集計が描画される", () => {
     const html = render(createElement(QaPage));

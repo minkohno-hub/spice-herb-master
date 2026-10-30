@@ -10,8 +10,21 @@ export function reviewSrs(state: SrsState, quality: number, now = new Date()): S
   const due = new Date(now); due.setDate(due.getDate() + intervalDays);
   return { itemId: state.itemId, easeFactor, intervalDays, repetitions, dueAt: due.toISOString(), lastReviewedAt: now.toISOString() };
 }
+/** 自己評価の語彙（AnswerRecord.selfEval と同一）。フラッシュカードの自己評価UIが使う（docs/DECISIONS.md #32）。 */
+export type CardSelfEval = "known" | "unsure" | "unknown";
+/** 自己評価→SM-2 quality の写像: 分かった=5（完全想起）/ あいまい=3（困難を伴う想起。下限の合格品質）/ 分からない=1（不正解相当）。 */
+export function qualityFromSelfEval(selfEval: CardSelfEval): number { return selfEval==="known" ? 5 : selfEval==="unsure" ? 3 : 1; }
 export function qualityFromResult(correct: boolean|null, scoreRatio: number|null, selfEval?: string|null): number {
-  if (selfEval==="known") return 5; if (selfEval==="unknown") return 1;
+  if (selfEval==="known"||selfEval==="unsure"||selfEval==="unknown") return qualityFromSelfEval(selfEval);
   if (correct) return 5; if (scoreRatio!=null && scoreRatio>=0.5) return 3; return 1;
+}
+/**
+ * フラッシュカードの自己評価を SRS 状態へ反映する（docs/DECISIONS.md #32）。
+ * 保存先は演習と共通の store.srs で、キーはカードID（全件 "card-" 接頭辞で問題IDと名前空間が分離され、
+ * 演習由来の状態と競合・上書きしない）。解答記録（records）には追加しない
+ * （分析の総解答数・正答率は演習の解答だけから決まるため、カード評価で歪めない）。
+ */
+export function applyCardReview(current: SrsState|undefined, cardId: string, selfEval: CardSelfEval, now = new Date()): SrsState {
+  return reviewSrs(current ?? initSrs(cardId, now), qualityFromSelfEval(selfEval), now);
 }
 export function isDue(s: SrsState, now = new Date()): boolean { return new Date(s.dueAt) <= now; }

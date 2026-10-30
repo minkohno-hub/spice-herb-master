@@ -30,7 +30,7 @@ export default function App(){
  return <div data-dark={store.reader.dark}>
  <header className="top"><nav className="main" aria-label="メインナビゲーション"><Link to="/">ホーム</Link><Link to="/practice">演習</Link><Link to="/reader">電子書籍</Link><Link to="/cards">単語帳</Link><Link to="/exam">模擬試験</Link><Link to="/stats">分析</Link><Link to="/search">検索</Link><Link to="/qa">品質管理</Link></nav></header>
  <Suspense fallback={<ScreenLoading/>}>
- <Routes><Route path="/" element={<Home store={store} update={update}/>}/><Route path="/practice" element={<Practice store={store} update={update}/>}/><Route path="/reader" element={<Reader store={store} update={update}/>}/><Route path="/cards" element={<Cards/>}/><Route path="/exam" element={<Exam store={store} update={update}/>}/><Route path="/stats" element={<Stats store={store}/>}/><Route path="/search" element={<SearchPage/>}/><Route path="/qa" element={<QaPage/>}/></Routes>
+ <Routes><Route path="/" element={<Home store={store} update={update}/>}/><Route path="/practice" element={<Practice store={store} update={update}/>}/><Route path="/reader" element={<Reader store={store} update={update}/>}/><Route path="/cards" element={<Cards store={store} update={update}/>}/><Route path="/exam" element={<Exam store={store} update={update}/>}/><Route path="/stats" element={<Stats store={store}/>}/><Route path="/search" element={<SearchPage/>}/><Route path="/qa" element={<QaPage/>}/></Routes>
  </Suspense>
  <footer style={{padding:"1rem"}} className="muted">学習履歴はブラウザ内（localStorage）にのみ保存されます。ブラウザデータ削除・機種変更で消える可能性があります。同期・バックアップ機能はありません（要件）。</footer></div>;
 }
