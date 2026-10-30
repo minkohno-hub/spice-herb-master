@@ -79,6 +79,23 @@ test.describe("ホームとナビゲーション", () => {
     await page.getByRole("link", { name: "5問始める" }).click();
     await expect(page).toHaveURL(/#\/practice$/);
     await expect(page.getByText(/セッション 1 \/ 5 問/)).toBeVisible();
+    // UX9: クイック開始では絞り込み・学習フォーカス等の設定UIを出さず、問題が初期表示範囲に入る
+    await expect(page.getByLabel("学習フォーカス")).toHaveCount(0);
+    await expect(page.getByLabel("演習の絞り込み")).toHaveCount(0);
+    const sessionLabel = page.getByText(/セッション 1 \/ 5 問/);
+    const box = await sessionLabel.boundingBox();
+    const viewport = page.viewportSize();
+    expect(box).not.toBeNull();
+    expect(viewport).not.toBeNull();
+    expect(box!.y).toBeLessThan(viewport!.height);
+  });
+
+  test("演習を直接開いた場合は絞り込みと学習フォーカスが表示される", async ({ page }) => {
+    await openHome(page);
+    await page.getByRole("link", { name: "演習", exact: true }).first().click();
+    await expect(page).toHaveURL(/#\/practice$/);
+    await expect(page.getByLabel("学習フォーカス")).toBeVisible();
+    await expect(page.getByLabel("演習の絞り込み")).toBeVisible();
   });
 
   test("上部メニューの苦手・間違い・ブックマークは対応する学習フォーカスで演習を開く", async ({

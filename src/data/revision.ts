@@ -32,7 +32,7 @@ export const REVISION_EXAM_NOTE =
 
 /** 1級対象スパイスの変更・見出し名称変更（資料の冒頭項目） */
 export const REVISION_LEVEL1_ADDED = [
-  { name: "ジュニパーベリー", bookPage: 103, note: "新規対象品目として新規掲載" },
+  { name: "ジュニパーベリー", bookPage: 102, note: "新規対象品目として新規掲載" },
   { name: "レモンバーム", bookPage: 106, note: "新規対象品目として新規掲載" },
 ] as const;
 
@@ -64,7 +64,7 @@ export const REVISION_AREAS = [
 
 export const REVISION_ENTRIES: RevisionEntry[] = [
   // 序章・世界の料理
-  { id: "rv-calicut", area: "序章・世界の料理", item: "カリカット（歴史）", change: "「カリカット（現・コーリーコード）」→「カリカット（現在のコーチン）」", bookPage: 8 },
+  { id: "rv-calicut", area: "序章・世界の料理", item: "カリカット（歴史）", change: "「カリカット（現在のコーチン）」→「カリカット（現・コーリーコード）」", bookPage: 8 },
   { id: "rv-paella", area: "序章・世界の料理", item: "パエリアの説明", change: "「スペイン語で『フライパン』の意味」→「バレンシア語で『フライパン』の意味」", bookPage: 27 },
   { id: "rv-borscht", area: "序章・世界の料理", item: "ボルシチ", change: "国・地域が「ロシア」→「ウクライナ」に、決め手のスパイス・ハーブが「クローブ、ローレルなど」→「ディル」に", bookPage: 27 },
   { id: "rv-chiliconcarne", area: "序章・世界の料理", item: "チリコンカン", change: "決め手のスパイス・ハーブにクミンが追加され「チリパウダー、クミン、オレガノ」に", bookPage: 28 },
@@ -75,13 +75,13 @@ export const REVISION_ENTRIES: RevisionEntry[] = [
   { id: "rv-cardamom", area: "第2章 スパイス＆ハーブ（品目）", item: "カルダモン", change: "ブラックカルダモンの説明が「ショウガ科の植物の種子（植物学上は果実）」→「ショウガ科の植物の果実」に", bookPage: 56 },
   { id: "rv-clove", area: "第2章 スパイス＆ハーブ（品目）", item: "クローブ", change: "原産地が「モルッカ諸島（インドネシア）」→「インドネシア（マルク諸島）」に", bookPage: 60 },
   { id: "rv-pepper", area: "第2章 スパイス＆ハーブ（品目）", item: "こしょう", change: "ピンクペッパーが「ウルシ科のコショウボクという植物の果実」→「ウルシ科サンショウモドキ属の果実」に。別名に「ベ・ローゼ」「ブラジリアンペッパー」を追加", bookPage: 62 },
-  { id: "rv-coriander", area: "第2章 スパイス＆ハーブ（品目）", item: "コリアンダー", change: "原産地に西アジアが追加され「地中海沿岸、西アジア」に", bookPage: 63 },
+  { id: "rv-coriander", area: "第2章 スパイス＆ハーブ（品目）", item: "コリアンダー", change: "原産地に西アジアが追加され「地中海沿岸、西アジア」に。利用部位に茎が追加され「葉、茎、種子（植物学上は果実）、根」に", bookPage: 63 },
   { id: "rv-cinnamon", area: "第2章 スパイス＆ハーブ（品目）", item: "シナモン", change: "別名から「にっき」が削除され「肉桂、桂皮」に。植物説明に「にっき」や「カラキ」もシナモン、カシアの仲間として取り扱われることがある旨を追記", bookPage: 67 },
-  { id: "rv-staranise", area: "第2章 スパイス＆ハーブ（品目）", item: "スターアニス", change: "利用部位に茎が追加され「葉、茎、種子（植物学上は果実）、根」に。原産地が「中国」→「中国、ベトナム」に", bookPage: 69 },
-  { id: "rv-thyme", area: "第2章 スパイス＆ハーブ（品目）", item: "タイム", change: "語源が「ギリシャ語で『防腐』を意味する『チモン（thymon）』」→「古代ギリシア語で『勇気』や『情熱』などを意味する『チモス（thymos）』」に。「勇気と大胆さの象徴」の項にも追記", bookPage: 76 },
-  { id: "rv-chili", area: "第2章 スパイス＆ハーブ（品目）", item: "唐辛子", change: "別名のカイエンペッパーと鷹の爪に「（※ともに栽培品種の一部を指す）」の注記を追加", bookPage: 78 },
-  { id: "rv-nutmeg", area: "第2章 スパイス＆ハーブ（品目）", item: "ナツメッグ／メース", change: "原産地が「モルッカ諸島」→「インドネシア（マルク諸島）」に", bookPage: 80 },
-  { id: "rv-parsley", area: "第2章 スパイス＆ハーブ（品目）", item: "パセリ", change: "別名「オランダ芹」に注釈（※モスカールド種を指すことが多い）を追記", bookPage: 91 },
+  { id: "rv-staranise", area: "第2章 スパイス＆ハーブ（品目）", item: "スターアニス", change: "原産地が「中国」→「中国、ベトナム」に", bookPage: 69 },
+  { id: "rv-thyme", area: "第2章 スパイス＆ハーブ（品目）", item: "タイム", change: "語源が「ギリシャ語で『防腐』を意味する『チモン（thymon）』」→「古代ギリシア語で『勇気』や『情熱』などを意味する『チモス（thymos）』」に。「勇気と大胆さの象徴」の項にも追記", bookPage: 71 },
+  { id: "rv-chili", area: "第2章 スパイス＆ハーブ（品目）", item: "唐辛子", change: "別名のカイエンペッパーと鷹の爪に「（※ともに栽培品種の一部を指す）」の注記を追加", bookPage: 76 },
+  { id: "rv-nutmeg", area: "第2章 スパイス＆ハーブ（品目）", item: "ナツメッグ／メース", change: "原産地が「モルッカ諸島」→「インドネシア（マルク諸島）」に", bookPage: 78 },
+  { id: "rv-parsley", area: "第2章 スパイス＆ハーブ（品目）", item: "パセリ", change: "別名「オランダ芹」に注釈（※モスカールド種を指すことが多い）を追記", bookPage: 80 },
   { id: "rv-laurel", area: "第2章 スパイス＆ハーブ（品目）", item: "ローレル", change: "「古代オリンピックの時代から、勝利者の頭にかぶせられ、栄光のシンボルとされていた」→「古代ローマの時代から英雄に与えられる冠の材料に使われ、栄光のシンボルとされていた」に", bookPage: 91 },
   { id: "rv-wasabi", area: "第2章 スパイス＆ハーブ（品目）", item: "わさび", change: "原産地が「東アジア」→「日本」に", bookPage: 92 },
   // 第2章 その他の品目・ミックス・コラム
@@ -90,8 +90,9 @@ export const REVISION_ENTRIES: RevisionEntry[] = [
   { id: "rv-kaffir", area: "第2章 その他の品目・ミックス・コラム", item: "カフェライム", change: "別名が「こぶみかんの葉、マックルー、バイマックルー」→「こぶみかん、マックルー、マクルットライム」に", bookPage: 98 },
   { id: "rv-cubeb", area: "第2章 その他の品目・ミックス・コラム", item: "クベバ", change: "別名に畢澄茄（ひっちょうか）、キュベブ、テイルドペッパーを追記", bookPage: 100 },
   { id: "rv-caper", area: "第2章 その他の品目・ミックス・コラム", item: "ケイパー", change: "科名がフウチョウボク科に。別名に風鳥木、ケーパー、ケッパー", bookPage: 101 },
-  { id: "rv-shiso", area: "第2章 その他の品目・ミックス・コラム", item: "しそ（紫蘇）", change: "別名「大葉」は青じその葉の部分を指す旨の説明に変更", bookPage: 102 },
-  { id: "rv-juniper", area: "第2章 その他の品目・ミックス・コラム", item: "ジュニパーベリー", change: "新規掲載（1級対象に追加）。利用部位は種子（植物学上は果実）", bookPage: 103 },
+  { id: "rv-shiso", area: "第2章 その他の品目・ミックス・コラム", item: "しそ（紫蘇）", change: "別名「大葉」は青じその葉の部分を指す旨の説明に変更。利用部位に種子が追加され「葉および花穂、種子」に", bookPage: 102 },
+  { id: "rv-juniper", area: "第2章 その他の品目・ミックス・コラム", item: "ジュニパーベリー", change: "新規掲載（1級対象に追加）", bookPage: 102 },
+  { id: "rv-celery", area: "第2章 その他の品目・ミックス・コラム", item: "セロリー", change: "利用部位が「種子」→「種子（植物学上は果実）」に", bookPage: 103 },
   { id: "rv-pandan", area: "第2章 その他の品目・ミックス・コラム", item: "パンダンリーフ", change: "見出し名称がニオイアダンから変更。別名はニオイタコノキ、ニオイアダン、ランペ。「スクリューパイン」とも呼ばれるタコノキ科パンダナス属の一種で、スリランカでは「ランペ」、タイでは「バイトーイ」と呼ばれ、香りづけや彩りに使われる", bookPage: 105 },
   { id: "rv-lemonbalm", area: "第2章 その他の品目・ミックス・コラム", item: "レモンバーム", change: "新規掲載（1級対象に追加）", bookPage: 106 },
   { id: "rv-longpepper", area: "第2章 その他の品目・ミックス・コラム", item: "ロングペッパー", change: "別名はヒハツ、ヒバーチ、ピバーチ。つる性の熱帯植物でこしょうの近縁種。沖縄では古くから栽培している地域があり「島こしょう」「ヒバーチ」などと呼ばれる（沖縄産は近縁種のヒハツモドキで、区別されずに扱われることが多い）", bookPage: 107 },
@@ -110,8 +111,8 @@ export const REVISION_BROAD: { item: string; change: string; bookPage: number }[
   { item: "漢方でよく使われるスパイスやハーブの一例（表）", change: "表中の「作用など」を全体見直し・変更", bookPage: 129 },
   { item: "メディカルハーブでよく使われるスパイスやハーブの一例（表）", change: "表中の品目（「スパイス・ハーブ」）と「作用など」を全体見直し・変更", bookPage: 130 },
   { item: "スパイスやハーブの成分による生体調節機能（表）", change: "表中の品目と「含有される成分による作用など」を全体見直し・変更", bookPage: 131 },
-  { item: "健やかな食生活とスパイス＆ハーブ", change: "文章を全面改訂し、コラム「日本人の食事摂取基準」を追加", bookPage: 134 },
-  { item: "食の健康情報とスパイス＆ハーブ", change: "文章、コラムを全面改訂", bookPage: 135 },
+  { item: "健やかな食生活とスパイス＆ハーブ", change: "文章を全面改訂し、コラム「日本人の食事摂取基準」を追加", bookPage: 132 },
+  { item: "食の健康情報とスパイス＆ハーブ", change: "文章、コラムを全面改訂", bookPage: 134 },
 ];
 
 export const REVISION_STAR_NOTE =

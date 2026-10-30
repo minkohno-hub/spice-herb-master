@@ -27,9 +27,9 @@ const render = (el: React.ReactElement) =>
   renderToString(createElement(MemoryRouter, null, el));
 
 describe("改訂ポイントのデータ（UX7）", () => {
-  it("変更箇所は35件で、IDに重複がなく、分野は定義済みの4区分のみ", () => {
-    expect(REVISION_ENTRIES.length).toBe(35);
-    expect(new Set(REVISION_ENTRIES.map((e) => e.id)).size).toBe(35);
+  it("変更箇所は36件で、IDに重複がなく、分野は定義済みの4区分のみ", () => {
+    expect(REVISION_ENTRIES.length).toBe(36);
+    expect(new Set(REVISION_ENTRIES.map((e) => e.id)).size).toBe(36);
     for (const e of REVISION_ENTRIES) {
       expect(REVISION_AREAS).toContain(e.area);
       expect(e.item.length).toBeGreaterThan(0);
@@ -69,9 +69,33 @@ describe("改訂ポイントのデータ（UX7）", () => {
       { from: "ニオイアダン", to: "パンダンリーフ", bookPage: 105 },
     ]);
     // 追加2品目と名称変更は変更箇所一覧にも載っている
-    for (const page of [103, 105, 106]) {
+    for (const page of [102, 105, 106]) {
       expect(REVISION_ENTRIES.some((e) => e.bookPage === page)).toBe(true);
     }
+    expect(REVISION_LEVEL1_ADDED[0]).toMatchObject({ name: "ジュニパーベリー", bookPage: 102 });
+  });
+
+  it("第3回監査の是正: 資料PDFのテキスト抽出と本書転記で照合した個別事実", () => {
+    const byId = new Map(REVISION_ENTRIES.map((e) => [e.id, e]));
+    // カリカットは旧版「現在のコーチン」→ 4訂版「現・コーリーコード」（方向の逆転を是正）
+    expect(byId.get("rv-calicut")!.change).toBe(
+      "「カリカット（現在のコーチン）」→「カリカット（現・コーリーコード）」",
+    );
+    // 該当ページは本書での品目ページ（転記で実在確認済み）
+    expect(byId.get("rv-thyme")!.bookPage).toBe(71);
+    expect(byId.get("rv-chili")!.bookPage).toBe(76);
+    expect(byId.get("rv-nutmeg")!.bookPage).toBe(78);
+    expect(byId.get("rv-parsley")!.bookPage).toBe(80);
+    expect(byId.get("rv-juniper")!.bookPage).toBe(102);
+    expect(byId.get("rv-celery")!.bookPage).toBe(103);
+    // 利用部位の変更はコリアンダーのもの（スターアニスへの混入を是正）
+    expect(byId.get("rv-coriander")!.change).toContain("葉、茎、種子（植物学上は果実）、根");
+    expect(byId.get("rv-staranise")!.change).not.toContain("茎");
+    // セロリーの利用部位はジュニパーベリーに混入させない
+    expect(byId.get("rv-juniper")!.change).not.toContain("利用部位");
+    expect(byId.get("rv-celery")!.change).toContain("種子（植物学上は果実）");
+    // 全面見直しの開始ページ（本書の節開始ページで照合）
+    expect(REVISION_BROAD.map((b) => b.bookPage)).toEqual([128, 129, 130, 131, 132, 134]);
   });
 
   it("試験への対応は第17回=両版・第18回以降=4訂版のみ", () => {
