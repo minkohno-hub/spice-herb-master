@@ -1,5 +1,7 @@
 # 独立品質監査報告書（第2回、UX4+UX5 配信後）
 
+> 注記（2026-10-30）: GitHub アカウント名が minkohno-hub から sylpica へ変更され、公開URLは https://sylpica.github.io/spice-herb-master/ に移行した（旧URLは転送されない）。本文中の旧アカウント名・旧URLは監査時点の記録としてそのまま残す。
+
 - 実施日: 2026-10-30（UX4+UX5 の PR #5 マージ＝main 25c3910、gh-pages 4e7dad3 のライブ反映確認後に実施。ユーザー指示「終わったら改めて徹底的な監査して」による）
 - 対象: minkohno-hub/spice-herb-master（公開サイト https://minkohno-hub.github.io/spice-herb-master/）
 - 方法: アプリ自身のテストとは独立に、原データ（JSON/TS）を直接集計する監査スクリプトで相互照合した。あわせて生成の再現性（再生成→バイト比較）、変更差分（git diff）の目視確認、配信中サイトの実物確認（curl）を行った。前回報告書は docs/MUSE_AUDIT_REPORT.md。

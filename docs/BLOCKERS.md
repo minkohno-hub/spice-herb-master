@@ -3,7 +3,7 @@
 （2026-10-30 独立品質監査の修正バッチ7で全面更新）
 
 ## 解消済み
-1. ~~**GitHub Pages公開: 保留**~~ → **解消（2026-10-30）**。ユーザーの明示選択によりリポジトリを public へ変更し、GitHub Pages で公開済み: https://minkohno-hub.github.io/spice-herb-master/
+1. ~~**GitHub Pages公開: 保留**~~ → **解消（2026-10-30）**。ユーザーの明示選択によりリポジトリを public へ変更し、GitHub Pages で公開済み: https://sylpica.github.io/spice-herb-master/（2026-10-30 のアカウント名変更 minkohno-hub → sylpica に伴いURL移行。旧URLは転送されない）
 2. ~~**教科書本文の転記: 未着手**~~ → **解消（2026-10-30）**。転記133ページ・85,586文字（Drive 実在範囲の番号付き本文ページ＋章扉3葉）。詳細は `docs/TRANSCRIPTION.md`。
 
 ## 継続中
