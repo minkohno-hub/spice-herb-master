@@ -25,8 +25,7 @@ function profileName(front: string): string {
 
 export default function Memorize({ store, update }: { store: StoreData; update: any }) {
  const deck = useMemo(() => CARDS.filter((c) => c.kind === "profile"), []);
- const [seed, setSeed] = useState(() => String(Date.now()));
- const [order, setOrder] = useState<string[]>(() => seededShuffle(deck.map((c) => c.id), seed));
+ const [order, setOrder] = useState<string[]>(() => seededShuffle(deck.map((c) => c.id), String(Date.now())));
  const [pos, setPos] = useState(0);
  const [flip, setFlip] = useState(false);
  const [round, setRound] = useState(1);
@@ -60,9 +59,7 @@ export default function Memorize({ store, update }: { store: StoreData; update: 
  };
 
  const restart = () => {
-  const nextSeed = String(Date.now());
-  setSeed(nextSeed);
-  setOrder(seededShuffle(deck.map((c) => c.id), nextSeed));
+  setOrder(seededShuffle(deck.map((c) => c.id), String(Date.now())));
   setPos(0);
   setFlip(false);
   setRound(1);
