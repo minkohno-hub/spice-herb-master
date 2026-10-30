@@ -17,6 +17,7 @@ export default function Home({store,update}:{store:StoreData;update:any}){
  return <main><h1>スパイス＆ハーブ検定1級 学習アプリ</h1>
  <p className="badge">正式問題は、原文照合済み（verified）の知識単位から生成し、出典・正答の検証を通ったものだけを登録しています。本文の全文転記は {APP_DATA_SUMMARY.transcribedPages}ページまで転記済みです（未転記の節はリーダーで明示します）。</p>
  <section className="grid" aria-label="主要機能">
+  <div className="card"><h2>とりあえず5問</h2><p>設定なしで、正式問題からランダムに5問だけ出題します</p><Link className="btn" to="/practice" state={{ focus: "all", count: 5 }}>5問始める</Link></div>
   <div className="card"><h2>前回の続き</h2><p>{store.reader.sectionId? `読書位置: ${SECTION_TITLE.get(store.reader.sectionId) ?? store.reader.sectionId}` : "まだ読書位置がありません"}</p><Link className="btn" to="/reader">電子書籍を開く</Link></div>
   <div className="card"><h2>今日の復習</h2><p>復習予定: {due}件 ／ 今日の解答: {todayCount}件</p><Link className="btn" to="/practice" state={{ focus: "due" }}>復習を始める</Link></div>
   <div className="card"><h2>ランダム演習</h2><p>正式問題 {APP_DATA_SUMMARY.formalQuestions}問</p><Link className="btn" to="/practice">演習設定へ</Link></div>

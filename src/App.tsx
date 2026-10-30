@@ -40,7 +40,7 @@ function ScreenLoading(){
 export default function App(){
  const {store,update,saveFailed}=useAppStore();
  return <div data-dark={store.reader.dark}>
- <header className="top" style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:".5rem"}}><nav className="main" aria-label="メインナビゲーション"><Link to="/">ホーム</Link><Link to="/practice">演習</Link><Link to="/reader">電子書籍</Link><Link to="/cards">単語帳</Link><Link to="/exam">模擬試験</Link><Link to="/stats">分析</Link><Link to="/search">検索</Link><Link to="/qa">品質管理</Link></nav><button type="button" className="ghost" aria-pressed={store.reader.dark} onClick={()=>update((d:StoreData)=>{d.reader.dark=!d.reader.dark; return d;})}>ダークモード切替</button></header>
+ <header className="top" style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:".5rem"}}><nav className="main" aria-label="メインナビゲーション"><Link to="/">ホーム</Link><Link to="/practice">演習</Link><Link to="/practice" state={{ focus: "weak" }}>苦手</Link><Link to="/practice" state={{ focus: "wrong" }}>間違い</Link><Link to="/practice" state={{ focus: "favorites" }}>ブックマーク</Link><Link to="/reader">電子書籍</Link><Link to="/cards">単語帳</Link><Link to="/exam">模擬試験</Link><Link to="/stats">分析</Link><Link to="/search">検索</Link><Link to="/qa">品質管理</Link></nav><button type="button" className="ghost" aria-pressed={store.reader.dark} onClick={()=>update((d:StoreData)=>{d.reader.dark=!d.reader.dark; return d;})}>ダークモード切替</button></header>
  {saveFailed && <p role="alert" className="card">学習記録の保存に失敗しました（ブラウザの保存容量が不足している可能性があります）。このまま続けると記録が残らない場合があります。</p>}
  <ErrorBoundary>
  <Suspense fallback={<ScreenLoading/>}>

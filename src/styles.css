@@ -17,4 +17,5 @@ input,textarea,select{font-size:16px;padding:.55rem;border-radius:8px;border:1px
 .ok{color:var(--ok)} .bad{color:var(--bad)} .muted{color:var(--muted)}
 table{border-collapse:collapse;width:100%;display:block;overflow-x:auto} th,td{border:1px solid var(--line);padding:.4rem;text-align:left}
 .split{display:grid;grid-template-columns:1fr 1fr;gap:1rem} @media(max-width:760px){.split{grid-template-columns:1fr}}
+#reader-page{scroll-margin-top:5rem} @media(max-width:760px){#reader-page{scroll-margin-top:18rem}}
 .flash{min-height:180px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:1.2rem;cursor:pointer}
