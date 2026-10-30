@@ -50,7 +50,10 @@ describe("画面スモーク（E1: 分割後の画面。UX2で設定、UX5で暗
     // C1（DECISIONS #32）: 自己評価UIの土台として、未評価の状態表示と評価方法の案内が出る
     // （評価ボタン自体は裏面表示後にのみ出るため SSR では描画されない）
     expect(html).toContain("このカードの状態: 未評価");
-    expect(html).toContain("カードをクリックして裏面を表示すると");
+    // UX10: ボタンはカードの真下にあり、表面でも「裏面を表示」「次のカード」が出る
+    expect(html).toContain("裏面を表示すると自己評価を記録できます");
+    expect(html).toContain("裏面を表示");
+    expect(html).toContain("次のカード");
   });
   it("模試: 出題候補数がサマリ経由で描画される", () => {
     const html = render(createElement(Exam, { store, update }));
@@ -97,8 +100,11 @@ describe("画面スモーク（E1: 分割後の画面。UX2で設定、UX5で暗
     expect(html).toContain("暗記モード（全");
     expect(html).toContain("80");
     expect(html).toContain("プロフィールを表示（答え合わせ）");
-    expect(html).toContain("自己評価済み（累計）");
+    expect(html).toContain("評価済み（累計）");
     expect(html).toContain("最初から回し直す");
+    // UX10: 答え合わせなしで進めるボタンと、逆モードの切替が出る
+    expect(html).toContain("次へ（答え合わせしない）");
+    expect(html).toContain("プロフィール → 名前（逆）");
   });
   it("リーダー: 世界のドリンクは自節の転記本文が表示される（UX4）", () => {
     const s2: StoreData = structuredClone(defaultStore);
