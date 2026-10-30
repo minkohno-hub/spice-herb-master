@@ -28,7 +28,7 @@ describe("画面スモーク（E1: 分割後の画面。UX2で設定、UX5で暗
     expect(html).toContain("スパイス＆ハーブ検定1級 学習アプリ");
     expect(html).toContain("1804"); // 正式問題数
     expect(html).toContain("545"); // 取り込み済み知識単位数
-    expect(html).toContain("133"); // 転記済みページ数
+    expect(html).toContain("140"); // 転記済みページ数
   });
   it("演習: サンプル問題が QuestionRunner で描画される", () => {
     const html = render(createElement(Practice, { store, update }));
@@ -107,12 +107,17 @@ describe("画面スモーク（E1: 分割後の画面。UX2で設定、UX5で暗
     expect(html).toContain("スパイスやハーブの香りが決め手の各国のドリンク");
     expect(html).not.toContain("この節の本文はまだ転記されていません");
   });
-  it("リーダー: 索引節はアプリ生成の索引が表示され、未転記の行き止まりにならない（UX4）", () => {
+  it("リーダー: 索引節は本書の索引の転記と生成索引が併記される（UX4→T18）", () => {
     const s3: StoreData = structuredClone(defaultStore);
     s3.reader.sectionId = "index";
     const html = render(createElement(Reader, { store: s3, update }));
-    expect(html).toContain("原本画像が未収録のため転記できません");
+    // 本書の索引そのものの転記（T18、ユーザー提供の撮影画像から）
+    expect(html).toContain("麻の実");
+    expect(html).toContain("14・52・59・67・69・72");
+    // 生成索引もナビゲーションとして併記される
+    expect(html).toContain("アプリ収録データからの索引（ページへ移動できます）");
     expect(html).toContain("アニス");
     expect(html).not.toContain("この節の本文はまだ転記されていません");
+    expect(html).not.toContain("転記できません");
   });
 });

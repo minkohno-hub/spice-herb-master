@@ -399,29 +399,33 @@ describe("横断検索フィルタ: 節・状態・転記状態（S2）", () => 
   });
 
   it("転記状態の選択肢は節データに実在する転記済み・未処理のみ", () => {
-    expect(availableTranscriptionStatuses(ALL_SECTIONS)).toEqual(["転記済み", "未処理"]);
+    expect(availableTranscriptionStatuses(ALL_SECTIONS)).toEqual(["転記済み"]);
   });
 
-  it("転記状態: 節には直接、問題には所属節の転記状態で適用される（転記済み=節80件・問題1821件、未処理=節1件・問題0件）", () => {
-    // UX4（DECISIONS #39）で world-drink・season-soy が転記済みになり、
-    // 未処理は索引節（index）だけになった。索引節には問題がないため未処理の問題は0件。
+  it("転記状態: 節には直接、問題には所属節の転記状態で適用される（転記済み=節81件・問題1821件、未処理=節0件・問題0件）", () => {
+    // UX4（DECISIONS #39）で world-drink・season-soy が転記済みになり、さらに T18 で
+    // index が転記済みになったため、全81節が転記済みで未処理は0件になった。
     const done = run(withFilters({ transcriptionStatus: "転記済み" }));
-    expect(done.sections).toHaveLength(80);
+    expect(done.sections).toHaveLength(81);
     expect(done.sections.every((s) => s.transcriptionStatus === "転記済み")).toBe(true);
     expect(done.questions).toHaveLength(1821);
     expect(
       done.questions.every((q) => q.sectionTranscriptionStatus === "転記済み"),
     ).toBe(true);
     const pending = run(withFilters({ transcriptionStatus: "未処理" }));
-    expect(pending.sections).toHaveLength(1);
-    expect(pending.sections[0]!.id).toBe("index");
+    expect(pending.sections).toHaveLength(0);
     expect(pending.questions).toHaveLength(0);
-    // 節との AND: 未処理＋index はその節だけ、未処理＋転記済みの節は0件
+    // 節との AND: 転記済み＋index はその節だけ（索引節には問題がないため問題は0件）、
+    // 未処理＋index は0件（T18で index も転記済みになったため）
     const withSection = run(
-      withFilters({ transcriptionStatus: "未処理", sectionId: "index" }),
+      withFilters({ transcriptionStatus: "転記済み", sectionId: "index" }),
     );
     expect(withSection.sections).toHaveLength(1);
     expect(withSection.questions).toHaveLength(0);
+    expect(
+      run(withFilters({ transcriptionStatus: "未処理", sectionId: "index" }))
+        .total,
+    ).toBe(0);
     expect(
       run(withFilters({ transcriptionStatus: "未処理", sectionId: "world-drink" }))
         .total,
@@ -433,7 +437,7 @@ describe("横断検索フィルタ: 節・状態・転記状態（S2）", () => 
   });
 
   it("転記状態と問題固有条件の組み合わせ: 形式を指定すると節は対象外のまま、問題は所属節の転記状態で絞られる", () => {
-    // 未処理＋一問一答: 未処理の節（索引）には問題がないため0件になる
+    // 未処理＋一問一答: 未処理の節が存在しないため0件になる
     const r = run(
       withFilters({ transcriptionStatus: "未処理", formats: ["one-answer"] }),
     );

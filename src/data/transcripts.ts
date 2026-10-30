@@ -46,11 +46,11 @@ export interface TranscriptPage {
 }
 
 export const TRANSCRIPT_META = {
-  origin: "原本画像（Google Drive フォルダ「スパイスハーブ検定」のスキャン）を目視読解して全文転記",
+  origin: "原本画像（Google Drive フォルダ「スパイスハーブ検定」のスキャン。p.141〜147 は 2026-10-30 にユーザーが提供した撮影画像 IMG_9717〜IMG_9723）を目視読解して全文転記",
   rule: "docs/TRANSCRIPTION.md",
   files: ["preface.json", "ch1.json", "ch2-1.json", "ch2-2.json", "ch2-3.json", "ch3.json", "exam.json"],
-  transcribedPages: 133,
-  totalSourceImages: 139,
+  transcribedPages: 140,
+  totalSourceImages: 146,
 } as const;
 
 /** 転記済みページ（bookPage 昇順） */

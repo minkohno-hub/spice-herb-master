@@ -971,5 +971,54 @@
   "width": 1000,
   "height": 2174,
   "webpBytes": 65512
+ },
+ {
+  "imageId": "IMG_9717",
+  "bookPage": 141,
+  "width": 1000,
+  "height": 1420,
+  "webpBytes": 65884
+ },
+ {
+  "imageId": "IMG_9718",
+  "bookPage": 142,
+  "width": 1000,
+  "height": 1420,
+  "webpBytes": 69730
+ },
+ {
+  "imageId": "IMG_9719",
+  "bookPage": 143,
+  "width": 1000,
+  "height": 1420,
+  "webpBytes": 43262
+ },
+ {
+  "imageId": "IMG_9720",
+  "bookPage": 144,
+  "width": 1000,
+  "height": 1420,
+  "webpBytes": 44652
+ },
+ {
+  "imageId": "IMG_9721",
+  "bookPage": 145,
+  "width": 1000,
+  "height": 1420,
+  "webpBytes": 70652
+ },
+ {
+  "imageId": "IMG_9722",
+  "bookPage": 146,
+  "width": 1000,
+  "height": 1420,
+  "webpBytes": 72168
+ },
+ {
+  "imageId": "IMG_9723",
+  "bookPage": 147,
+  "width": 1000,
+  "height": 1420,
+  "webpBytes": 59580
  }
 ]

@@ -18,12 +18,12 @@ function pageChars(p: (typeof TRANSCRIPT_PAGES)[number]): number {
 }
 
 describe("transcripts (原文層・本文転記)", () => {
-  it("対象は p.6〜16、章扉 p.17、p.18〜31、p.33、p.35〜50、章扉 p.51、p.52〜108、章扉 p.109、p.110〜140 の133ページ・135レコード（昇順。p.29 と p.47 は2節が同じページで始まるため、UX4 で節ごとにレコードを分割して各2レコード。p.32・p.34 は写真のみでテキストがないため対象外。p.141 以降は Drive に原本画像が存在しないため対象外で、転記は Drive 実在範囲で完了。章扉3葉は監査A-02で実物を確認して追加した）", () => {
-    expect(TRANSCRIPT_PAGES.map(p => p.bookPage)).toEqual([6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 29, 30, 31, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140]);
-    expect(TRANSCRIPT_PAGES.length).toBe(135);
-    // ページ数は重複を除いた数（133）で、レコード数とは一致しない
-    expect(TRANSCRIPT_META.transcribedPages).toBe(133);
-    expect(TRANSCRIPT_BY_PAGE.size).toBe(133);
+  it("対象は p.6〜16、章扉 p.17、p.18〜31、p.33、p.35〜50、章扉 p.51、p.52〜108、章扉 p.109、p.110〜147 の140ページ・142レコード（昇順。p.29 と p.47 は2節が同じページで始まるため、UX4 で節ごとにレコードを分割して各2レコード。p.32・p.34 は写真のみでテキストがないため対象外。p.141 以降は当初 Drive に原本画像が存在せず対象外だったが、2026-10-30 にユーザーが撮影画像を提供し、転記バッチT18で追加した。章扉3葉は監査A-02で実物を確認して追加した）", () => {
+    expect(TRANSCRIPT_PAGES.map(p => p.bookPage)).toEqual([6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 29, 30, 31, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147]);
+    expect(TRANSCRIPT_PAGES.length).toBe(142);
+    // ページ数は重複を除いた数（140）で、レコード数とは一致しない
+    expect(TRANSCRIPT_META.transcribedPages).toBe(140);
+    expect(TRANSCRIPT_BY_PAGE.size).toBe(140);
     // 同じページの2レコードは節が異なる
     const p29 = TRANSCRIPT_PAGES.filter(p => p.bookPage === 29).map(p => p.sectionId);
     expect(p29).toEqual(["world-america", "world-drink"]);
@@ -31,7 +31,11 @@ describe("transcripts (原文層・本文転記)", () => {
     expect(p47).toEqual(["season-vinegar", "season-soy"]);
   });
   it("出典（画像ID）が manifest に実在し、欠落画像ではない", () => {
+    // 例外: p.141〜147 の7件（IMG_9717〜9723）は Drive にスキャンがなく、
+    // 2026-10-30 にユーザーが提供した撮影画像が原本のため manifest には載らない（T18）
+    const USER_PHOTO_IDS = new Set(["IMG_9717", "IMG_9718", "IMG_9719", "IMG_9720", "IMG_9721", "IMG_9722", "IMG_9723"]);
     for (const p of TRANSCRIPT_PAGES) {
+      if (USER_PHOTO_IDS.has(p.imageId)) { expect(p.bookPage).toBeGreaterThanOrEqual(141); continue; }
       const entry = manifestById.get(p.imageId);
       expect(entry, p.imageId).toBeDefined();
       expect(entry.extractionStatus).not.toBe("欠落");
@@ -156,8 +160,8 @@ describe("transcripts (原文層・本文転記)", () => {
     expect(transcriptPagesForSection("exam-about").map(p => p.bookPage)).toEqual([136]);
     expect(transcriptPagesForSection("exam-outline").map(p => p.bookPage)).toEqual([137]);
     expect(transcriptPagesForSection("exam-target").map(p => p.bookPage)).toEqual([138]);
-    expect(transcriptPagesForSection("exam-sample").map(p => p.bookPage)).toEqual([139, 140]);
-    expect(transcriptPagesForSection("index").map(p => p.bookPage)).toEqual([]);
+    expect(transcriptPagesForSection("exam-sample").map(p => p.bookPage)).toEqual([139, 140, 141, 142, 143, 144]);
+    expect(transcriptPagesForSection("index").map(p => p.bookPage)).toEqual([145, 146, 147]);
   });
   it("各ページの転記が空でなく、全ブロックに内容がある", () => {
     for (const p of TRANSCRIPT_PAGES) {
@@ -183,8 +187,8 @@ describe("transcripts (原文層・本文転記)", () => {
       }
     }
   });
-  it("転記総文字数が実測どおり（バッチT1〜T17＋監査A-02の章扉3葉: 85,586文字）", () => {
-    expect(TRANSCRIPT_PAGES.reduce((acc, p) => acc + pageChars(p), 0)).toBe(85586);
+  it("転記総文字数が実測どおり（バッチT1〜T18＋監査A-02の章扉3葉: 90,957文字）", () => {
+    expect(TRANSCRIPT_PAGES.reduce((acc, p) => acc + pageChars(p), 0)).toBe(90957);
   });
   it("structure の転記ステータスと実データが一致する（転記済み節は序章の5節＋第一章の26節＋第二章の39節＋第三章の6節＋検定情報の4節）", () => {
     const withData = new Set(TRANSCRIPT_PAGES.map(p => p.sectionId));

@@ -27,7 +27,7 @@ test.describe("ホームとナビゲーション", () => {
     // 軽量サマリ経由の件数表示（tests/summary.test.ts が実データ一致を固定）
     await expect(page.getByText("正式問題 1804問").first()).toBeVisible();
     await expect(page.getByText(/取り込み済み知識単位: 545件/)).toBeVisible();
-    await expect(page.getByText(/全文転記: 133ページ/)).toBeVisible();
+    await expect(page.getByText(/全文転記: 140ページ/)).toBeVisible();
     await expect(page.getByText("教材の状態（正直な表示）")).toBeVisible();
   });
 
@@ -164,14 +164,31 @@ test.describe("電子書籍リーダー", () => {
     await expect(page.locator("#reader-page")).not.toContainText("この節の本文はまだ転記されていません");
   });
 
-  test("索引節ではアプリ生成の索引からページへ移動できる（UX4）", async ({ page }) => {
+  test("索引節では本書の索引の転記と生成索引の併記から移動できる（UX4→T18）", async ({ page }) => {
     await page.goto("#/reader");
     await expect(page.getByRole("heading", { name: "電子書籍リーダー" })).toBeVisible();
     await page.getByRole("button", { name: "主なスパイス＆ハーブの索引（p.145）" }).click();
-    await expect(page.locator("#reader-page")).toContainText("原本画像が未収録のため転記できません");
+    // 本書の索引そのものの転記（T18）が見える
+    await expect(page.locator("#reader-page")).toContainText("麻の実");
+    await expect(page.locator("#reader-page")).toContainText("アプリ収録データからの索引（ページへ移動できます）");
     const anise = page.locator("#reader-page li", { hasText: "アニス" }).first();
     await anise.getByRole("button", { name: "p.52" }).click();
     await expect(page.locator("#reader-page h2")).toHaveText("アニス");
+  });
+});
+
+test.describe("改訂ポイント（UX7）", () => {
+  test("ホームから入り、1級対象の変更と出典が見え、該当ページへ移動できる", async ({ page }) => {
+    await openHome(page);
+    await page.getByRole("link", { name: "改訂ポイントを見る" }).click();
+    await expect(page.getByRole("heading", { name: "改訂ポイント（4訂版）" })).toBeVisible();
+    await expect(page.getByText(/第18回以降（2027年〜）/)).toBeVisible();
+    await expect(page.getByText("ジュニパーベリー", { exact: true }).first()).toBeVisible();
+    // パンダンリーフの「4訂版 p.105 を読む」でリーダーの該当節（その他の品目）へ移動する
+    const pandan = page.locator("li", { hasText: "パンダンリーフ" }).first();
+    await pandan.getByRole("button", { name: "4訂版 p.105 を読む" }).click();
+    await expect(page.getByRole("heading", { name: "電子書籍リーダー" })).toBeVisible();
+    await expect(page.locator("#reader-page")).toContainText("パンダンリーフ");
   });
 });
 
