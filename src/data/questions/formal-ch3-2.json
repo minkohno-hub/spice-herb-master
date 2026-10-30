@@ -3,91 +3,6 @@
   "version": 1,
   "status": "verified",
   "chapterId": "ch3",
-  "sectionId": "life-house",
-  "difficulty": 1,
-  "knowledgeUnitIds": [
-   "l-oil"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9694",
-    "bookPage": 118,
-    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-oil から生成"
-   }
-  ],
-  "id": "q4-l-oil",
-  "format": "single-choice",
-  "prompt": "精油の香りと作用を生かしたものを何という?",
-  "choices": [
-   "湿潤",
-   "ピートモス",
-   "木本性",
-   "アロマテラピー"
-  ],
-  "correctChoiceIndexes": [
-   3
-  ],
-  "explanation": "精油(エッセンシャルオイル)は植物から抽出した芳香成分を高濃度に含む天然素材で、それを生かしたものがアロマテラピー(芳香療法)。口に入れない、肌に直接使わない、火気に注意する。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch3",
-  "sectionId": "life-house",
-  "difficulty": 1,
-  "knowledgeUnitIds": [
-   "l-rice"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9694",
-    "bookPage": 118,
-    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-rice から生成"
-   }
-  ],
-  "id": "q1-l-rice",
-  "format": "one-answer",
-  "prompt": "米びつに入れて虫よけにするとされるスパイス・ハーブを1つ挙げよ。",
-  "acceptedAnswers": [
-   "唐辛子",
-   "ローレル"
-  ],
-  "explanation": "米びつに唐辛子(2〜3本)やローレル(3〜4枚)を入れておくと虫がつかないとされる。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch3",
-  "sectionId": "life-house",
-  "difficulty": 1,
-  "knowledgeUnitIds": [
-   "l-rice"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9694",
-    "bookPage": 118,
-    "locationNote": "本書 p.118（原本画像 IMG_9694.PNG）。原文照合 batch12 で照合済みの知識単位 l-rice から生成"
-   }
-  ],
-  "id": "q4-l-rice",
-  "format": "single-choice",
-  "prompt": "米びつに入れて虫よけにするとされるスパイス・ハーブを1つ挙げよ。",
-  "choices": [
-   "ロングペッパー",
-   "ハルディ",
-   "トゥラシー",
-   "唐辛子"
-  ],
-  "correctChoiceIndexes": [
-   3
-  ],
-  "explanation": "米びつに唐辛子(2〜3本)やローレル(3〜4枚)を入れておくと虫がつかないとされる。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch3",
   "sectionId": "life-handmade",
   "difficulty": 1,
   "knowledgeUnitIds": [
@@ -214,7 +129,13 @@
   "format": "one-answer",
   "prompt": "フルーツポマンダーで、オレンジに刺すスパイスは?",
   "acceptedAnswers": [
-   "クローブ"
+   "クローブ",
+   "丁子(ちょうじ)",
+   "丁子",
+   "丁香(ちょうこう)",
+   "丁香",
+   "百里香(ひゃくりこう)",
+   "百里香"
   ],
   "explanation": "ポマンダーは「香り玉」の意味。フルーツポマンダーは柑橘にクローブを刺し、シナモンパウダーをまぶして作る。高温多湿の夏はカビやすいので秋〜春に作る。"
  },
@@ -238,13 +159,13 @@
   "format": "single-choice",
   "prompt": "フルーツポマンダーで、オレンジに刺すスパイスは?",
   "choices": [
-   "ローゼル",
-   "マロウ",
-   "ジャーマンカモミール",
-   "クローブ"
+   "唐辛子",
+   "クローブ",
+   "ローズマリー",
+   "七味唐辛子"
   ],
   "correctChoiceIndexes": [
-   3
+   1
   ],
   "explanation": "ポマンダーは「香り玉」の意味。フルーツポマンダーは柑橘にクローブを刺し、シナモンパウダーをまぶして作る。高温多湿の夏はカビやすいので秋〜春に作る。"
  },
@@ -671,9 +592,9 @@
   "prompt": "多くのハーブの適温は?",
   "choices": [
    "15〜25度",
-   "摘芯",
-   "湿潤",
-   "午前中"
+   "5〜7度",
+   "10〜15度",
+   "7〜10度"
   ],
   "correctChoiceIndexes": [
    0
@@ -725,12 +646,12 @@
   "prompt": "ハーブの水やりは1日のいつ行うのが基本?",
   "choices": [
    "春",
-   "15〜25度",
    "午前中",
+   "湿潤",
    "開花直前"
   ],
   "correctChoiceIndexes": [
-   2
+   1
   ],
   "explanation": "水やりは土の表面が乾いてから、鉢底から流れ出すほどたっぷりと、午前中に与えるのが基本。"
  },
