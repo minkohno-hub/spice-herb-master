@@ -38,9 +38,11 @@ test.describe("ホームとナビゲーション", () => {
     // 分析・品質管理は UX2 で設定画面へ移したため、ナビの直接リンクには含めない
     const routes: Array<{ link: string; heading: string; hash: string }> = [
       { link: "演習", heading: "演習", hash: "#/practice" },
-      { link: "電子書籍", heading: "電子書籍リーダー", hash: "#/reader" },
+      { link: "暗記", heading: "暗記モード", hash: "#/memorize" },
       { link: "単語帳", heading: "フラッシュカード・単語帳", hash: "#/cards" },
       { link: "模擬試験", heading: "模擬試験（練習用）", hash: "#/exam" },
+      { link: "改訂", heading: "改訂ポイント（4訂版）", hash: "#/revision" },
+      { link: "電子書籍", heading: "電子書籍リーダー", hash: "#/reader" },
       { link: "検索", heading: "横断検索", hash: "#/search" },
       { link: "設定", heading: "設定", hash: "#/settings" },
       { link: "ホーム", heading: "スパイス＆ハーブ検定1級 学習アプリ", hash: "#/" },
@@ -51,6 +53,25 @@ test.describe("ホームとナビゲーション", () => {
       await expect(page.getByRole("heading", { name: r.heading }).first()).toBeVisible();
       await expect(page).toHaveURL(new RegExp(`${r.hash.replace("/", "\\/")}$`));
     }
+  });
+
+  test("上部バーのリンクは指定順に並ぶ（UX8: 暗記・改訂を追加）", async ({ page }) => {
+    await openHome(page);
+    const labels = await mainNav(page).getByRole("link").allTextContents();
+    expect(labels.map((t) => t.trim())).toEqual([
+      "ホーム",
+      "演習",
+      "苦手",
+      "間違い",
+      "ブックマーク",
+      "暗記",
+      "単語帳",
+      "模擬試験",
+      "改訂",
+      "電子書籍",
+      "検索",
+      "設定",
+    ]);
   });
 
   test("ホームの「5問始める」は設定なしで5問セッションを開始する", async ({ page }) => {

@@ -2,7 +2,7 @@
 
 公式テキスト『4訂版 スパイス&ハーブの使いこなし事典』（主婦の友社）に基づく、個人用レスポンシブWebアプリ／PWA。開発主体は Muse（開発指令は元々Claude向けに書かれたものをユーザーがMuseへ再割当）。
 
-**公開サイト: https://minkohno-hub.github.io/spice-herb-master/**（リポジトリは public）
+**公開サイト: https://sylpica.github.io/spice-herb-master/**（リポジトリは public。2026-10-30 に GitHub アカウント名が minkohno-hub から sylpica へ変更され、公開URLも移行した。旧URLは転送されない）
 
 ## 現在の状態（2026-10-30、独立品質監査の修正反映後）
 - **正式問題 1,804問（15形式）・正式カード 602件**。全て原文照合済み（verified）の知識単位545件から決定的パイプライン（`scripts/generate-questions.mjs`）で生成し、出典・正答の検証を通ったものだけを登録している。エンジン検証用サンプル17問・2カードは通常出題の対象外にできる。

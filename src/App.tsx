@@ -46,7 +46,7 @@ export default function App(){
  // 中だけに効き、body の背景（画面の余白・はみ出し部分）がライトのまま残る不具合があった。
  useEffect(()=>{ document.documentElement.dataset.dark = String(store.reader.dark); }, [store.reader.dark]);
  return <div data-dark={store.reader.dark}>
- <header className="top"><nav className="main" aria-label="メインナビゲーション"><Link to="/">ホーム</Link><Link to="/practice">演習</Link><Link to="/practice" state={{ focus: "weak" }}>苦手</Link><Link to="/practice" state={{ focus: "wrong" }}>間違い</Link><Link to="/practice" state={{ focus: "favorites" }}>ブックマーク</Link><Link to="/reader">電子書籍</Link><Link to="/cards">単語帳</Link><Link to="/exam">模擬試験</Link><Link to="/search">検索</Link><Link to="/settings">設定</Link></nav></header>
+ <header className="top"><nav className="main" aria-label="メインナビゲーション"><Link to="/">ホーム</Link><Link to="/practice">演習</Link><Link to="/practice" state={{ focus: "weak" }}>苦手</Link><Link to="/practice" state={{ focus: "wrong" }}>間違い</Link><Link to="/practice" state={{ focus: "favorites" }}>ブックマーク</Link><Link to="/memorize">暗記</Link><Link to="/cards">単語帳</Link><Link to="/exam">模擬試験</Link><Link to="/revision">改訂</Link><Link to="/reader">電子書籍</Link><Link to="/search">検索</Link><Link to="/settings">設定</Link></nav></header>
  {saveFailed && <p role="alert" className="card">学習記録の保存に失敗しました（ブラウザの保存容量が不足している可能性があります）。このまま続けると記録が残らない場合があります。</p>}
  <ErrorBoundary>
  <Suspense fallback={<ScreenLoading/>}>

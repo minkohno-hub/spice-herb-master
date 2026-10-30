@@ -1,5 +1,7 @@
 # MUSE_AUDIT_REPORT — 独立品質監査報告書（2026-10-30）
 
+> 注記（2026-10-30）: GitHub アカウント名が minkohno-hub から sylpica へ変更され、公開URLは https://sylpica.github.io/spice-herb-master/ に移行した（旧URLは転送されない）。本文中の旧アカウント名・旧URLは監査時点の記録としてそのまま残す。
+
 監査対象: スパイス＆ハーブ検定 学習アプリ（minkohno-hub/spice-herb-master）
 ベースライン: コミット `9ec50df`（フェーズ1〜7＋FIX1 完了時点）
 監査・修正ブランチ: `audit/muse-audit-20261030`
