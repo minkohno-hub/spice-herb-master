@@ -18,10 +18,17 @@ function pageChars(p: (typeof TRANSCRIPT_PAGES)[number]): number {
 }
 
 describe("transcripts (原文層・本文転記)", () => {
-  it("対象は p.6〜16、章扉 p.17、p.18〜31、p.33、p.35〜50、章扉 p.51、p.52〜108、章扉 p.109、p.110〜140 の133ページ（重複なし・昇順。p.32・p.34 は写真のみでテキストがないため対象外。p.141 以降は Drive に原本画像が存在しないため対象外で、転記は Drive 実在範囲で完了。章扉3葉は監査A-02で実物を確認して追加した）", () => {
-    expect(TRANSCRIPT_PAGES.map(p => p.bookPage)).toEqual([6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140]);
-    expect(TRANSCRIPT_META.transcribedPages).toBe(TRANSCRIPT_PAGES.length);
-    expect(TRANSCRIPT_BY_PAGE.size).toBe(TRANSCRIPT_PAGES.length);
+  it("対象は p.6〜16、章扉 p.17、p.18〜31、p.33、p.35〜50、章扉 p.51、p.52〜108、章扉 p.109、p.110〜140 の133ページ・135レコード（昇順。p.29 と p.47 は2節が同じページで始まるため、UX4 で節ごとにレコードを分割して各2レコード。p.32・p.34 は写真のみでテキストがないため対象外。p.141 以降は Drive に原本画像が存在しないため対象外で、転記は Drive 実在範囲で完了。章扉3葉は監査A-02で実物を確認して追加した）", () => {
+    expect(TRANSCRIPT_PAGES.map(p => p.bookPage)).toEqual([6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 29, 30, 31, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140]);
+    expect(TRANSCRIPT_PAGES.length).toBe(135);
+    // ページ数は重複を除いた数（133）で、レコード数とは一致しない
+    expect(TRANSCRIPT_META.transcribedPages).toBe(133);
+    expect(TRANSCRIPT_BY_PAGE.size).toBe(133);
+    // 同じページの2レコードは節が異なる
+    const p29 = TRANSCRIPT_PAGES.filter(p => p.bookPage === 29).map(p => p.sectionId);
+    expect(p29).toEqual(["world-america", "world-drink"]);
+    const p47 = TRANSCRIPT_PAGES.filter(p => p.bookPage === 47).map(p => p.sectionId);
+    expect(p47).toEqual(["season-vinegar", "season-soy"]);
   });
   it("出典（画像ID）が manifest に実在し、欠落画像ではない", () => {
     for (const p of TRANSCRIPT_PAGES) {
@@ -56,12 +63,12 @@ describe("transcripts (原文層・本文転記)", () => {
     expect(transcriptPagesForSection("basic-timing").map(p => p.bookPage)).toEqual([21, 22]);
     expect(transcriptPagesForSection("basic-compat").map(p => p.bookPage)).toEqual([23, 24]);
     expect(transcriptPagesForSection("world-africa").map(p => p.bookPage)).toEqual([25]);
-    // バッチT4: 世界の料理の残り3節＋定番料理2節（p.29 は world-america のレコードに world-drink の全文を含む。
-    // p.30 は定番料理パートの扉ページで dish-curry のレコードに含む。p.32 は写真のみでレコードなし）
+    // バッチT4: 世界の料理の残り3節＋定番料理2節（p.29 は world-america と world-drink の2節が始まるページで、
+    // UX4 で節ごとにレコードを分割した。p.30 は定番料理パートの扉ページで dish-curry のレコードに含む。p.32 は写真のみでレコードなし）
     expect(transcriptPagesForSection("world-europe").map(p => p.bookPage)).toEqual([26, 27]);
     expect(transcriptPagesForSection("world-asia").map(p => p.bookPage)).toEqual([28]);
     expect(transcriptPagesForSection("world-america").map(p => p.bookPage)).toEqual([29]);
-    expect(transcriptPagesForSection("world-drink").map(p => p.bookPage)).toEqual([]);
+    expect(transcriptPagesForSection("world-drink").map(p => p.bookPage)).toEqual([29]);
     expect(transcriptPagesForSection("dish-curry").map(p => p.bookPage)).toEqual([30, 31]);
     expect(transcriptPagesForSection("dish-genovese").map(p => p.bookPage)).toEqual([33]);
     // バッチT5: 定番料理の残り6節（p.34 はパエリアの写真のみでレコードなし。ラムの煮込みとクスクスは材料 p.40＋作り方 p.41 の2ページ）
@@ -72,14 +79,14 @@ describe("transcripts (原文層・本文転記)", () => {
     expect(transcriptPagesForSection("dish-hummus").map(p => p.bookPage)).toEqual([39]);
     expect(transcriptPagesForSection("dish-lamb").map(p => p.bookPage)).toEqual([40, 41]);
     // バッチT6: 定番料理の残り4節＋手作り調味料6節（p.46 は season-oil のレコードにパートタイトルと帯見出し「1」を含む。
-    // p.47 は season-vinegar のレコードに season-soy の全文を含むため season-soy は自節レコードを持たない）
+    // p.47 は season-vinegar と season-soy の2節が始まるページで、UX4 で節ごとにレコードを分割した）
     expect(transcriptPagesForSection("dish-currywurst").map(p => p.bookPage)).toEqual([42]);
     expect(transcriptPagesForSection("dish-cumin-potato").map(p => p.bookPage)).toEqual([43]);
     expect(transcriptPagesForSection("dish-chai").map(p => p.bookPage)).toEqual([44]);
     expect(transcriptPagesForSection("dish-apple").map(p => p.bookPage)).toEqual([45]);
     expect(transcriptPagesForSection("season-oil").map(p => p.bookPage)).toEqual([46]);
     expect(transcriptPagesForSection("season-vinegar").map(p => p.bookPage)).toEqual([47]);
-    expect(transcriptPagesForSection("season-soy").map(p => p.bookPage)).toEqual([]);
+    expect(transcriptPagesForSection("season-soy").map(p => p.bookPage)).toEqual([47]);
     expect(transcriptPagesForSection("season-paste").map(p => p.bookPage)).toEqual([48]);
     expect(transcriptPagesForSection("season-dressing").map(p => p.bookPage)).toEqual([49]);
     expect(transcriptPagesForSection("season-plus").map(p => p.bookPage)).toEqual([50]);
@@ -179,7 +186,7 @@ describe("transcripts (原文層・本文転記)", () => {
   it("転記総文字数が実測どおり（バッチT1〜T17＋監査A-02の章扉3葉: 85,586文字）", () => {
     expect(TRANSCRIPT_PAGES.reduce((acc, p) => acc + pageChars(p), 0)).toBe(85586);
   });
-  it("structure の転記ステータスと実データが一致する（転記済み節は序章の5節＋第一章の24節＋第二章の39節＋第三章の6節＋検定情報の4節）", () => {
+  it("structure の転記ステータスと実データが一致する（転記済み節は序章の5節＋第一章の26節＋第二章の39節＋第三章の6節＋検定情報の4節）", () => {
     const withData = new Set(TRANSCRIPT_PAGES.map(p => p.sectionId));
     for (const s of ALL_SECTIONS) {
       if (withData.has(s.id)) expect(s.transcriptionStatus, s.id).toBe("転記済み");

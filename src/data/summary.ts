@@ -32,7 +32,7 @@ export const APP_DATA_SUMMARY = {
   knowledgeImportOrigin: "claude/build-learning-app",
   /** 本文転記ベースの検証済み知識単位数（KNOWLEDGE_UNITS.length。現状0件） */
   verifiedKnowledgeUnits: 0,
-  /** 全文転記済みページ数（TRANSCRIPT_PAGES.length） */
+  /** 全文転記済みページ数（重複を除いたページ数。レコード数は同ページ開始の節で分割されるため一致しないことがある） */
   transcribedPages: 133,
   /** 取り込み済み原本画像数（source-manifest の totalPresent） */
   presentImages: 139,

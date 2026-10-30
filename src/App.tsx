@@ -4,7 +4,7 @@ import { loadStore, saveStore, resetStoreData, type StoreData } from "./domain/s
 
 /**
  * アプリシェル（バンドル分割バッチE1、docs/DECISIONS.md #23）。
- * 9画面は src/screens/ 配下に分割し、React.lazy でルート単位に遅延読み込みする。
+ * 10画面は src/screens/ 配下に分割し、React.lazy でルート単位に遅延読み込みする。
  * 初期表示（ホーム）は軽量サマリ（src/data/summary.ts）の件数だけに依存し、
  * 問題・知識・転記の全データは各画面のチャンクとデータ種別チャンク
  * （vite.config.ts の manualChunks）側に分離される。PWA の precache は
@@ -21,6 +21,7 @@ const Stats = lazy(() => import("./screens/Stats"));
 const SearchPage = lazy(() => import("./screens/SearchPage"));
 const QaPage = lazy(() => import("./screens/QaPage"));
 const Settings = lazy(() => import("./screens/Settings"));
+const Memorize = lazy(() => import("./screens/Memorize"));
 
 function useAppStore(){ const [store,setStore]=useState<StoreData>(()=>loadStore()); const [saveFailed,setSaveFailed]=useState(false); const update=(fn:(d:StoreData)=>StoreData)=>{ setStore(prev=>{ const n=fn(structuredClone(prev)); setSaveFailed(!saveStore(n)); return n; }); }; return {store,update,saveFailed}; }
 
@@ -48,7 +49,7 @@ export default function App(){
  {saveFailed && <p role="alert" className="card">学習記録の保存に失敗しました（ブラウザの保存容量が不足している可能性があります）。このまま続けると記録が残らない場合があります。</p>}
  <ErrorBoundary>
  <Suspense fallback={<ScreenLoading/>}>
- <Routes><Route path="/" element={<Home store={store} update={update}/>}/><Route path="/practice" element={<Practice store={store} update={update}/>}/><Route path="/reader" element={<Reader store={store} update={update}/>}/><Route path="/cards" element={<Cards store={store} update={update}/>}/><Route path="/exam" element={<Exam store={store} update={update}/>}/><Route path="/stats" element={<Stats store={store}/>}/><Route path="/search" element={<SearchPage update={update}/>}/><Route path="/qa" element={<QaPage/>}/><Route path="/settings" element={<Settings store={store} update={update}/>}/></Routes>
+ <Routes><Route path="/" element={<Home store={store} update={update}/>}/><Route path="/practice" element={<Practice store={store} update={update}/>}/><Route path="/reader" element={<Reader store={store} update={update}/>}/><Route path="/cards" element={<Cards store={store} update={update}/>}/><Route path="/exam" element={<Exam store={store} update={update}/>}/><Route path="/stats" element={<Stats store={store}/>}/><Route path="/search" element={<SearchPage update={update}/>}/><Route path="/qa" element={<QaPage/>}/><Route path="/settings" element={<Settings store={store} update={update}/>}/><Route path="/memorize" element={<Memorize store={store} update={update}/>}/></Routes>
  </Suspense>
  </ErrorBoundary>
  <footer style={{padding:"1rem",paddingBottom:"calc(1rem + env(safe-area-inset-bottom))"}} className="muted">学習履歴はブラウザ内（localStorage）にのみ保存されます。ブラウザデータ削除・機種変更で消える可能性があります。同期・バックアップ機能はありません（要件）。</footer></div>;

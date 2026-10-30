@@ -64,8 +64,16 @@ export const TRANSCRIPT_PAGES: TranscriptPage[] = [
   ...(exam as unknown as TranscriptPage[]),
 ].sort((a, b) => a.bookPage - b.bookPage);
 
-/** ページ番号→転記レコード */
-export const TRANSCRIPT_BY_PAGE: Map<number, TranscriptPage> = new Map(TRANSCRIPT_PAGES.map(p => [p.bookPage, p]));
+/**
+ * ページ番号→転記レコード。
+ * 同じページから2節が始まるページ（p.29・p.47）ではレコードが節ごとに分かれるため、
+ * ここではそのページで先に始まる節のレコードを代表として返す。
+ * 節ごとの完全な取得は transcriptPagesForSection を使うこと。
+ * transcribedPages はレコード数ではなく、この Map のキー数（重複を除いたページ数）を指す。
+ */
+export const TRANSCRIPT_BY_PAGE: Map<number, TranscriptPage> = new Map(
+  [...TRANSCRIPT_PAGES].reverse().map(p => [p.bookPage, p]),
+);
 
 /** 節ID→その節の転記済みページ（bookPage 昇順） */
 export function transcriptPagesForSection(sectionId: string): TranscriptPage[] {

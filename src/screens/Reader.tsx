@@ -1,5 +1,5 @@
 // 画面コンポーネント（バンドル分割バッチE1で src/App.tsx から分割。docs/DECISIONS.md #23）
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router";
 import { CHAPTERS, ALL_SECTIONS } from "../data/structure";
 import { QUESTIONS } from "../data/questions";
@@ -51,6 +51,40 @@ function PageImage({ imageId, label, defaultOpen = false }: { imageId: string; l
  </div>;
 }
 
+// 索引節の代替表示（UX4、docs/DECISIONS.md #39）。本書の索引（p.145〜147）は
+// 原本画像が未収録で転記できないため、アプリに収録したスパイス＆ハーブの
+// 知識データ（原文照合済み）から生成した索引を表示する。本書の索引の転記ではない。
+function buildIndexEntries(): { name: string; pages: number[] }[] {
+ const map = new Map<string, Set<number>>();
+ for (const u of IMPORTED_KNOWLEDGE_UNITS) {
+  if (!u.spice) continue;
+  const name = u.spice.name.replace(/（続き）|\(続き\)/g, "").trim();
+  if (!name) continue;
+  const set = map.get(name) ?? new Set<number>();
+  set.add(u.source.page);
+  map.set(name, set);
+ }
+ return [...map.entries()]
+  .map(([name, pages]) => ({ name, pages: [...pages].sort((a, b) => a - b) }))
+  .sort((a, b) => a.name.localeCompare(b.name, "ja"));
+}
+
+function GeneratedIndex({ onJump }: { onJump: (sectionId: string) => void }) {
+ const [q, setQ] = useState("");
+ const entries = useMemo(buildIndexEntries, []);
+ const shown = entries.filter((e) => !q || e.name.includes(q));
+ const jumpToPage = (page: number) => {
+  const target = [...ALL_SECTIONS].reverse().find((s) => s.bookPage <= page);
+  if (target) onJump(target.id);
+ };
+ return <div>
+  <p className="muted">本書の索引（p.145〜147）は原本画像が未収録のため転記できません。ここでは、アプリに収録したスパイス＆ハーブのデータ（原文照合済み）から作った索引を表示します。ページ番号を選ぶと、そのページを含む節へ移動します。</p>
+  <input aria-label="索引検索" placeholder="名前で絞り込み" value={q} onChange={(e) => setQ(e.target.value)} />
+  <p>{shown.length}件（全{entries.length}種）</p>
+  <ul>{shown.map((e) => <li key={e.name}><strong>{e.name}</strong> {e.pages.map((p) => <button key={p} className="ghost" onClick={() => jumpToPage(p)}>p.{p}</button>)}</li>)}</ul>
+ </div>;
+}
+
 export default function Reader({store,update}:{store:StoreData;update:any}){
  const [sel,setSel]=useState(store.reader.sectionId || ALL_SECTIONS[0]!.id); const [query,setQuery]=useState("");
  // 監査C-14是正: 問題画面・検索画面から reader.sectionId 経由で遷移してきた場合に追随する。
@@ -85,11 +119,11 @@ export default function Reader({store,update}:{store:StoreData;update:any}){
  {CHAPTERS.map(c=><div key={c.id}><h3>{c.label} {c.title}</h3><ul>{c.sections.filter(s=>filteredIds.has(s.id)).map(s=><li key={s.id}><button className="ghost" onClick={()=>{setSel(s.id); update((d:StoreData)=>{d.reader.sectionId=s.id; return d;});}}>{s.title}（p.{s.bookPage}）</button></li>)}</ul></div>)}
  <div><h3>本書の表紙・目次（原画）</h3>{FRONT_MATTER_IMAGES.map(e=><PageImage key={e.imageId} imageId={e.imageId} label={e.imageId} />)}</div>
  </section>
- <section className="card" id="reader-page" ref={pageRef} style={{fontSize: store.reader.fontSize}}><h2>{sec.title}</h2><p className="muted">書籍 p.{sec.bookPage} ／ 転記状態: {sec.transcriptionStatus}</p>
- {secPages.length===0 ? <p>この節の本文はまだ転記されていません。原本画像を目視読解して転記したテキストのみがここに掲載されます。推測で本文を補うことはしません。</p>
+ <section className="card" id="reader-page" ref={pageRef} style={{fontSize: store.reader.fontSize}}><h2>{sec.title}</h2><p className="muted">書籍 p.{sec.bookPage} ／ 転記状態: {sec.id==="index" ? "原本画像なし（下の索引はアプリ収録データから生成）" : sec.transcriptionStatus}</p>
+ {secPages.length===0 ? (sec.id==="index" ? <GeneratedIndex onJump={(sid)=>{setSel(sid); update((d:StoreData)=>{d.reader.sectionId=sid; return d;});}} /> : <p>この節の本文はまだ転記されていません。原本画像を目視読解して転記したテキストのみがここに掲載されます。推測で本文を補うことはしません。</p>)
  : secPages.map((p,pi)=><div key={p.bookPage}><p className="muted">― 本書 p.{p.bookPage}（出典画像 {p.imageId}.PNG）―</p><PageImage imageId={p.imageId} label={`本書 p.${p.bookPage}`} defaultOpen={pi===0} />{p.blocks.map((b,i)=><TranscriptBlockView key={i} b={b}/>)}{p.unclear.length>0 && <p className="muted">不明瞭箇所: {p.unclear.map(u=>`${u.location}: ${u.note}`).join(" ／ ")}</p>}</div>)}
  {extraPageImages.length>0 && <div><h3>{secPages.length===0 ? "この節の原画" : "この節の他のページの原画"}</h3>{extraPageImages.map(e=><PageImage key={e.imageId} imageId={e.imageId} label={`本書 p.${e.bookPage}`} />)}</div>}
- <p className="muted">表示設定: ダークモードは全画面共通（ヘッダーからも切り替えできます）。フォントサイズはこのリーダーの本文だけに適用されます。</p>
+ <p className="muted">表示設定: ダークモードは全画面共通（設定画面からも切り替えできます）。フォントサイズはこのリーダーの本文だけに適用されます。</p>
  <label>フォントサイズ<input type="range" min={14} max={22} value={store.reader.fontSize} onChange={e=>update((d:StoreData)=>{d.reader.fontSize=Number(e.target.value); return d;})}/></label>
  <p><button className="ghost" onClick={()=>update((d:StoreData)=>{d.reader.dark=!d.reader.dark; return d;})}>ダークモード切替</button> <button className="ghost" onClick={()=>update((d:StoreData)=>{ if(!d.reader.bookmarks.includes(sec.id)) d.reader.bookmarks.push(sec.id); return d;})}>しおり</button></p>
  <label>ハイライト（この節の強調メモ）<input value={store.reader.highlights[sec.id]??""} onChange={e=>update((d:StoreData)=>{d.reader.highlights[sec.id]=e.target.value; return d;})}/></label>
