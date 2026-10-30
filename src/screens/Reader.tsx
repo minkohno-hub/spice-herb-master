@@ -5,6 +5,7 @@ import { CHAPTERS, ALL_SECTIONS } from "../data/structure";
 import { QUESTIONS } from "../data/questions";
 import { IMPORTED_KNOWLEDGE_UNITS } from "../data/knowledge";
 import { transcriptPagesForSection, type TranscriptBlock } from "../data/transcripts";
+import { FRONT_MATTER_IMAGES, imageForBookPage, pageImageUrl, type PageImageEntry } from "../data/pageImages";
 import type { StoreData } from "../domain/store";
 
 function TranscriptBlockView({b}:{b:TranscriptBlock}){
@@ -15,6 +16,41 @@ function TranscriptBlockView({b}:{b:TranscriptBlock}){
  if(b.type==="table") return <figure>{b.caption?<figcaption>{b.caption}</figcaption>:null}<table><tbody>{(b.rows??[]).map((r,i)=><tr key={i}>{r.map((c,j)=><td key={j}>{c}</td>)}</tr>)}</tbody></table></figure>;
  return <p>{b.text}</p>;
 }
+// ページ原画の表示（UX3、docs/DECISIONS.md #38）。原画は Base64 テキスト
+// （public/pages-b64/）として配信し、開いたページだけ fetch して Blob URL 化する。
+// 一度読み込んだ原画はモジュール内のキャッシュで使い回す。
+const blobUrlCache = new Map<string, string>();
+
+function PageImage({ imageId, label, defaultOpen = false }: { imageId: string; label: string; defaultOpen?: boolean }) {
+ const [open, setOpen] = useState(defaultOpen);
+ const [url, setUrl] = useState<string | null>(() => blobUrlCache.get(imageId) ?? null);
+ const [failed, setFailed] = useState(false);
+ useEffect(() => {
+  if (!open || url) return;
+  let cancelled = false;
+  fetch(pageImageUrl(imageId))
+   .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.text(); })
+   .then((text) => {
+    const bin = atob(text);
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    const u = URL.createObjectURL(new Blob([bytes], { type: "image/webp" }));
+    blobUrlCache.set(imageId, u);
+    if (!cancelled) setUrl(u);
+   })
+   .catch(() => { if (!cancelled) setFailed(true); });
+  return () => { cancelled = true; };
+ }, [open, url, imageId]);
+ return <div>
+  <p><button type="button" className="ghost" aria-expanded={open} onClick={() => setOpen(!open)}>{open ? `原画を隠す（${label}）` : `原画を表示（${label}）`}</button></p>
+  {open && (failed
+   ? <p className="muted">原画を読み込めませんでした。</p>
+   : url
+    ? <img src={url} alt={`${label}の原画`} style={{ width: "100%", height: "auto" }} loading="lazy" />
+    : <p className="muted">原画を読み込み中…</p>)}
+ </div>;
+}
+
 export default function Reader({store,update}:{store:StoreData;update:any}){
  const [sel,setSel]=useState(store.reader.sectionId || ALL_SECTIONS[0]!.id); const [query,setQuery]=useState("");
  // 監査C-14是正: 問題画面・検索画面から reader.sectionId 経由で遷移してきた場合に追随する。
@@ -27,6 +63,18 @@ export default function Reader({store,update}:{store:StoreData;update:any}){
  useEffect(()=>{ pageRef.current?.scrollIntoView?.({ block: "start" }); }, [sel ]);
  const sec = ALL_SECTIONS.find(s=>s.id===sel) ?? ALL_SECTIONS[0]!;
  const secPages = transcriptPagesForSection(sec.id);
+ // UX3: 転記がないページ（写真のみのページ・部分転記の欠け分）も原画で読めるよう、
+ // この節のページ範囲（次の節の開始ページ-1 まで、上限 p.140）のうち
+ // 転記レコードがないページの原画を別枠で出す。
+ const secIndex = ALL_SECTIONS.findIndex(s=>s.id===sec.id);
+ const spanEnd = Math.min((ALL_SECTIONS[secIndex+1]?.bookPage ?? 141) - 1, 140);
+ const transcribedNums = new Set(secPages.map(p=>p.bookPage));
+ const extraPageImages: PageImageEntry[] = [];
+ for (let pg = sec.bookPage; pg <= spanEnd; pg++) {
+  if (transcribedNums.has(pg)) continue;
+  const e = imageForBookPage(pg);
+  if (e) extraPageImages.push(e);
+ }
  const filtered = ALL_SECTIONS.filter(s=>!query || s.title.includes(query));
  // E2E導入バッチE2で発見した不具合の最小修正: ALL_SECTIONS は CHAPTERS の節を
  // スプレッドで複製した別オブジェクトのため、参照一致（includes）では目次の節が
@@ -35,10 +83,12 @@ export default function Reader({store,update}:{store:StoreData;update:any}){
  return <main data-dark={store.reader.dark}><h1>電子書籍リーダー</h1>
  <div className="split"><section className="card"><h2>目次（目次ページで照合済み）</h2><input aria-label="節検索" placeholder="語句検索" value={query} onChange={e=>setQuery(e.target.value)}/>
  {CHAPTERS.map(c=><div key={c.id}><h3>{c.label} {c.title}</h3><ul>{c.sections.filter(s=>filteredIds.has(s.id)).map(s=><li key={s.id}><button className="ghost" onClick={()=>{setSel(s.id); update((d:StoreData)=>{d.reader.sectionId=s.id; return d;});}}>{s.title}（p.{s.bookPage}）</button></li>)}</ul></div>)}
+ <div><h3>本書の表紙・目次（原画）</h3>{FRONT_MATTER_IMAGES.map(e=><PageImage key={e.imageId} imageId={e.imageId} label={e.imageId} />)}</div>
  </section>
  <section className="card" id="reader-page" ref={pageRef} style={{fontSize: store.reader.fontSize}}><h2>{sec.title}</h2><p className="muted">書籍 p.{sec.bookPage} ／ 転記状態: {sec.transcriptionStatus}</p>
  {secPages.length===0 ? <p>この節の本文はまだ転記されていません。原本画像を目視読解して転記したテキストのみがここに掲載されます。推測で本文を補うことはしません。</p>
- : secPages.map(p=><div key={p.bookPage}><p className="muted">― 本書 p.{p.bookPage}（出典画像 {p.imageId}.PNG）―</p>{p.blocks.map((b,i)=><TranscriptBlockView key={i} b={b}/>)}{p.unclear.length>0 && <p className="muted">不明瞭箇所: {p.unclear.map(u=>`${u.location}: ${u.note}`).join(" ／ ")}</p>}</div>)}
+ : secPages.map((p,pi)=><div key={p.bookPage}><p className="muted">― 本書 p.{p.bookPage}（出典画像 {p.imageId}.PNG）―</p><PageImage imageId={p.imageId} label={`本書 p.${p.bookPage}`} defaultOpen={pi===0} />{p.blocks.map((b,i)=><TranscriptBlockView key={i} b={b}/>)}{p.unclear.length>0 && <p className="muted">不明瞭箇所: {p.unclear.map(u=>`${u.location}: ${u.note}`).join(" ／ ")}</p>}</div>)}
+ {extraPageImages.length>0 && <div><h3>{secPages.length===0 ? "この節の原画" : "この節の他のページの原画"}</h3>{extraPageImages.map(e=><PageImage key={e.imageId} imageId={e.imageId} label={`本書 p.${e.bookPage}`} />)}</div>}
  <p className="muted">表示設定: ダークモードは全画面共通（ヘッダーからも切り替えできます）。フォントサイズはこのリーダーの本文だけに適用されます。</p>
  <label>フォントサイズ<input type="range" min={14} max={22} value={store.reader.fontSize} onChange={e=>update((d:StoreData)=>{d.reader.fontSize=Number(e.target.value); return d;})}/></label>
  <p><button className="ghost" onClick={()=>update((d:StoreData)=>{d.reader.dark=!d.reader.dark; return d;})}>ダークモード切替</button> <button className="ghost" onClick={()=>update((d:StoreData)=>{ if(!d.reader.bookmarks.includes(sec.id)) d.reader.bookmarks.push(sec.id); return d;})}>しおり</button></p>

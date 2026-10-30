@@ -1,10 +1,10 @@
-import { Component, Suspense, lazy, useState, type ReactNode } from "react";
+import { Component, Suspense, lazy, useEffect, useState, type ReactNode } from "react";
 import { Routes, Route, Link } from "react-router";
 import { loadStore, saveStore, resetStoreData, type StoreData } from "./domain/store";
 
 /**
  * アプリシェル（バンドル分割バッチE1、docs/DECISIONS.md #23）。
- * 8画面は src/screens/ 配下に分割し、React.lazy でルート単位に遅延読み込みする。
+ * 9画面は src/screens/ 配下に分割し、React.lazy でルート単位に遅延読み込みする。
  * 初期表示（ホーム）は軽量サマリ（src/data/summary.ts）の件数だけに依存し、
  * 問題・知識・転記の全データは各画面のチャンクとデータ種別チャンク
  * （vite.config.ts の manualChunks）側に分離される。PWA の precache は
@@ -20,6 +20,7 @@ const Exam = lazy(() => import("./screens/Exam"));
 const Stats = lazy(() => import("./screens/Stats"));
 const SearchPage = lazy(() => import("./screens/SearchPage"));
 const QaPage = lazy(() => import("./screens/QaPage"));
+const Settings = lazy(() => import("./screens/Settings"));
 
 function useAppStore(){ const [store,setStore]=useState<StoreData>(()=>loadStore()); const [saveFailed,setSaveFailed]=useState(false); const update=(fn:(d:StoreData)=>StoreData)=>{ setStore(prev=>{ const n=fn(structuredClone(prev)); setSaveFailed(!saveStore(n)); return n; }); }; return {store,update,saveFailed}; }
 
@@ -39,12 +40,15 @@ function ScreenLoading(){
 
 export default function App(){
  const {store,update,saveFailed}=useAppStore();
+ // ダークテーマの変数は <html> に適用する（UX2、DECISIONS #36）。従来はラッパー div の
+ // 中だけに効き、body の背景（画面の余白・はみ出し部分）がライトのまま残る不具合があった。
+ useEffect(()=>{ document.documentElement.dataset.dark = String(store.reader.dark); }, [store.reader.dark]);
  return <div data-dark={store.reader.dark}>
- <header className="top" style={{display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:".5rem"}}><nav className="main" aria-label="メインナビゲーション"><Link to="/">ホーム</Link><Link to="/practice">演習</Link><Link to="/practice" state={{ focus: "weak" }}>苦手</Link><Link to="/practice" state={{ focus: "wrong" }}>間違い</Link><Link to="/practice" state={{ focus: "favorites" }}>ブックマーク</Link><Link to="/reader">電子書籍</Link><Link to="/cards">単語帳</Link><Link to="/exam">模擬試験</Link><Link to="/stats">分析</Link><Link to="/search">検索</Link><Link to="/qa">品質管理</Link></nav><button type="button" className="ghost" aria-pressed={store.reader.dark} onClick={()=>update((d:StoreData)=>{d.reader.dark=!d.reader.dark; return d;})}>ダークモード切替</button></header>
+ <header className="top"><nav className="main" aria-label="メインナビゲーション"><Link to="/">ホーム</Link><Link to="/practice">演習</Link><Link to="/practice" state={{ focus: "weak" }}>苦手</Link><Link to="/practice" state={{ focus: "wrong" }}>間違い</Link><Link to="/practice" state={{ focus: "favorites" }}>ブックマーク</Link><Link to="/reader">電子書籍</Link><Link to="/cards">単語帳</Link><Link to="/exam">模擬試験</Link><Link to="/search">検索</Link><Link to="/settings">設定</Link></nav></header>
  {saveFailed && <p role="alert" className="card">学習記録の保存に失敗しました（ブラウザの保存容量が不足している可能性があります）。このまま続けると記録が残らない場合があります。</p>}
  <ErrorBoundary>
  <Suspense fallback={<ScreenLoading/>}>
- <Routes><Route path="/" element={<Home store={store} update={update}/>}/><Route path="/practice" element={<Practice store={store} update={update}/>}/><Route path="/reader" element={<Reader store={store} update={update}/>}/><Route path="/cards" element={<Cards store={store} update={update}/>}/><Route path="/exam" element={<Exam store={store} update={update}/>}/><Route path="/stats" element={<Stats store={store}/>}/><Route path="/search" element={<SearchPage update={update}/>}/><Route path="/qa" element={<QaPage/>}/></Routes>
+ <Routes><Route path="/" element={<Home store={store} update={update}/>}/><Route path="/practice" element={<Practice store={store} update={update}/>}/><Route path="/reader" element={<Reader store={store} update={update}/>}/><Route path="/cards" element={<Cards store={store} update={update}/>}/><Route path="/exam" element={<Exam store={store} update={update}/>}/><Route path="/stats" element={<Stats store={store}/>}/><Route path="/search" element={<SearchPage update={update}/>}/><Route path="/qa" element={<QaPage/>}/><Route path="/settings" element={<Settings store={store} update={update}/>}/></Routes>
  </Suspense>
  </ErrorBoundary>
  <footer style={{padding:"1rem",paddingBottom:"calc(1rem + env(safe-area-inset-bottom))"}} className="muted">学習履歴はブラウザ内（localStorage）にのみ保存されます。ブラウザデータ削除・機種変更で消える可能性があります。同期・バックアップ機能はありません（要件）。</footer></div>;

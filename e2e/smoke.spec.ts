@@ -31,18 +31,18 @@ test.describe("ホームとナビゲーション", () => {
     await expect(page.getByText("教材の状態（正直な表示）")).toBeVisible();
   });
 
-  test("主要ナビゲーションから8画面すべてへ遷移できる（遅延チャンク読み込み）", async ({
+  test("主要ナビゲーションから各画面へ遷移できる（遅延チャンク読み込み）", async ({
     page,
   }) => {
     await openHome(page);
+    // 分析・品質管理は UX2 で設定画面へ移したため、ナビの直接リンクには含めない
     const routes: Array<{ link: string; heading: string; hash: string }> = [
       { link: "演習", heading: "演習", hash: "#/practice" },
       { link: "電子書籍", heading: "電子書籍リーダー", hash: "#/reader" },
       { link: "単語帳", heading: "フラッシュカード・単語帳", hash: "#/cards" },
       { link: "模擬試験", heading: "模擬試験（練習用）", hash: "#/exam" },
-      { link: "分析", heading: "学習分析・可視化", hash: "#/stats" },
       { link: "検索", heading: "横断検索", hash: "#/search" },
-      { link: "品質管理", heading: "品質管理（管理・監査）", hash: "#/qa" },
+      { link: "設定", heading: "設定", hash: "#/settings" },
       { link: "ホーム", heading: "スパイス＆ハーブ検定1級 学習アプリ", hash: "#/" },
     ];
     for (const r of routes) {
@@ -77,6 +77,49 @@ test.describe("ホームとナビゲーション", () => {
   });
 });
 
+test.describe("設定とダークモード（UX2）", () => {
+  test("設定画面から学習分析・品質管理へ遷移できる", async ({ page }) => {
+    await openHome(page);
+    await mainNav(page).getByRole("link", { name: "設定", exact: true }).click();
+    await expect(page.getByRole("heading", { name: "設定" })).toBeVisible();
+    await page.getByRole("link", { name: "学習分析を開く" }).click();
+    await expect(page.getByRole("heading", { name: "学習分析・可視化" })).toBeVisible();
+    await page.goto("#/settings");
+    await page.getByRole("link", { name: "品質管理を開く" }).click();
+    await expect(page.getByRole("heading", { name: "品質管理（管理・監査）" })).toBeVisible();
+  });
+
+  test("ダークモードでは本文・カード・バッジの背景が暗色になり文字が読める", async ({ page }) => {
+    await openHome(page);
+    await mainNav(page).getByRole("link", { name: "設定", exact: true }).click();
+    await page.getByRole("button", { name: "ダークモード切替" }).click();
+    await expect
+      .poll(() => page.evaluate(() => document.documentElement.dataset.dark))
+      .toBe("true");
+    // ページ全体の背景（body / html）が暗色になる（UX2 の根本修正: テーマ適用先を <html> へ）
+    await expect
+      .poll(() => page.evaluate(() => getComputedStyle(document.body).backgroundColor))
+      .toBe("rgb(20, 26, 16)");
+    await expect
+      .poll(() => page.evaluate(() => getComputedStyle(document.documentElement).backgroundColor))
+      .toBe("rgb(20, 26, 16)");
+    // カード背景も暗色で、文字色は明色
+    const card = page.locator(".card").first();
+    await expect.poll(() => card.evaluate((el) => getComputedStyle(el).backgroundColor)).toBe("rgb(31, 41, 24)");
+    await expect.poll(() => card.evaluate((el) => getComputedStyle(el).color)).toBe("rgb(238, 243, 228)");
+    // ホームの通知バッジもダーク用の配色（明るい黄のまま残らない）
+    await page.goto("");
+    const badge = page.locator("p.badge");
+    await expect.poll(() => badge.evaluate((el) => getComputedStyle(el).backgroundColor)).toBe("rgb(61, 52, 19)");
+    await expect.poll(() => badge.evaluate((el) => getComputedStyle(el).color)).toBe("rgb(246, 214, 124)");
+    // 切替は保存され、再読み込み後もダークが維持される
+    await page.reload();
+    await expect
+      .poll(() => page.evaluate(() => document.documentElement.dataset.dark))
+      .toBe("true");
+  });
+});
+
 test.describe("電子書籍リーダー", () => {
   test("目次から節を開くと転記本文が表示される", async ({ page }) => {
     await page.goto("#/reader");
@@ -95,6 +138,22 @@ test.describe("電子書籍リーダー", () => {
     ).toBeVisible();
     // その節の関連問題数などの付帯情報も描画される
     await expect(page.getByText(/関連問題: \d+問（正式）/)).toBeVisible();
+  });
+
+  test("原画（ページ画像）がリーダーで実際に読み込まれて表示される（UX3）", async ({ page }) => {
+    await page.goto("#/reader");
+    await expect(page.getByRole("heading", { name: "電子書籍リーダー" })).toBeVisible();
+    // 初期節の先頭ページの原画は開いた状態で表示され、画像として読み込まれる
+    const img = page.locator("#reader-page img").first();
+    await expect(img).toBeVisible();
+    await expect
+      .poll(() => img.evaluate((el: HTMLImageElement) => el.naturalWidth))
+      .toBe(1000);
+    // 2ページ目以降はボタンで開く
+    await page.getByRole("button", { name: /原画を表示（本書 p\.7）/ }).click();
+    await expect
+      .poll(() => page.locator("#reader-page img").nth(1).evaluate((el: HTMLImageElement) => el.naturalWidth))
+      .toBe(1000);
   });
 });
 
