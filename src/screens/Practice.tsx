@@ -36,6 +36,8 @@ interface PracticePreset {
   chapterId?: string;
   questionId?: string;
   count?: number;
+  /** 「とりあえず5問」からの開始。設定UI（モード・出題順・問題数・絞り込み）を出さず、問題をすぐ表示する（UX9） */
+  quickStart?: boolean;
 }
 
 function buildSession(pool: Question[], orderMode: string, seed: string, count: number, firstId?: string): Question[] {
@@ -63,6 +65,7 @@ export default function Practice({ store, update }: { store: StoreData; update: 
   });
   const [orderMode, setOrderMode] = useState("shuffle");
   const [count, setCount] = useState(preset.count ?? 10);
+  const [quickStart, setQuickStart] = useState(preset.quickStart ?? false);
   const [idx, setIdx] = useState(0);
   const [results, setResults] = useState<{ questionId: string; correct: boolean | null }[]>([]);
   const [done, setDone] = useState(false);
@@ -95,7 +98,7 @@ export default function Practice({ store, update }: { store: StoreData; update: 
   // location.state が変わったら条件とセッションを組み直す。マウント時の適用は
   // useState の初期化側で行うため、初期キーと一致する間は何もしない。
   // questionId（1問だけの深いリンク）はマウント時のみ扱う。
-  const presetKey = [preset.focus ?? "", preset.count ?? "", preset.sectionId ?? "", preset.chapterId ?? ""].join("|");
+  const presetKey = [preset.focus ?? "", preset.count ?? "", preset.sectionId ?? "", preset.chapterId ?? "", preset.quickStart ? "q" : ""].join("|");
   const appliedPresetKey = useRef(presetKey);
   useEffect(() => {
     if (appliedPresetKey.current === presetKey) return;
@@ -107,6 +110,7 @@ export default function Practice({ store, update }: { store: StoreData; update: 
       chapterIds: preset.chapterId ? [preset.chapterId] : [],
     };
     setFilters(f);
+    setQuickStart(preset.quickStart ?? false);
     if (preset.count) setCount(preset.count);
     restart({ filters: f, count: preset.count ?? count });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -128,6 +132,8 @@ export default function Practice({ store, update }: { store: StoreData; update: 
   return (
     <main>
       <h1>演習</h1>
+      {!quickStart && (
+        <>
       <label>
         モード
         <select
@@ -244,6 +250,8 @@ export default function Practice({ store, update }: { store: StoreData; update: 
           対象プール {poolCount} 問から、問題数ぶんを1セッションとして出題します。条件を変えるとセッションは組み直されます。
         </p>
       </section>
+        </>
+      )}
       {done ? (
         <section className="card" aria-label="セッション結果">
           <h2>セッション完了</h2>
@@ -252,13 +260,18 @@ export default function Practice({ store, update }: { store: StoreData; update: 
             {answeredInSession ? Math.round((correctInSession / answeredInSession) * 100) : 0}%）でした。記録は学習分析に保存されています。
           </p>
           <p>
-            <button onClick={() => restart({})}>同じ条件でもう一度</button>{" "}
-            <button
-              className="ghost"
-              onClick={() => { setFilters(DEFAULT_PRACTICE_FILTERS); restart({ filters: DEFAULT_PRACTICE_FILTERS }); }}
-            >
-              条件をリセット
-            </button>
+            <button onClick={() => restart({})}>同じ条件でもう一度</button>
+            {!quickStart && (
+              <>
+                {" "}
+                <button
+                  className="ghost"
+                  onClick={() => { setFilters(DEFAULT_PRACTICE_FILTERS); restart({ filters: DEFAULT_PRACTICE_FILTERS }); }}
+                >
+                  条件をリセット
+                </button>
+              </>
+            )}
           </p>
         </section>
       ) : !q ? (
