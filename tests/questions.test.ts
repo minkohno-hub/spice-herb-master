@@ -12,6 +12,42 @@ import { ALL_SECTIONS } from "../src/data/structure";
 import { computeStats } from "../src/domain/stats";
 
 const byId = new Map(U.map((u) => [u.id, u]));
+
+// 監査B-07是正（AD-6）の照合用ヘルパー: 生成器（scripts/generate-questions.mjs）の
+// nameVariants / aliasAnswersFor / profileByNameNorm と同じ規則で、照合済み
+// プロフィールの名称バリアントと別名を引く。生成器側の検証と独立に再計算する。
+const stripParenSuffix = (s: string) => s.replace(/[（(][^）)]*[）)]\s*$/, "").trim();
+const nameVariantsOf = (name: string): string[] => {
+  const noParen = stripParenSuffix(name);
+  const parts = name.split(/[・/]/).map((p) => p.trim()).filter(Boolean);
+  return [...new Set([name, noParen, ...parts, ...parts.map(stripParenSuffix)])].filter(Boolean);
+};
+const profileByVariant = new Map<string, (typeof U)[number]>();
+const profileAmbiguous = new Set<string>();
+for (const p of U) {
+  if (p.kind !== "spice-profile" || p.status !== "verified") continue;
+  const pname = p.content.match(/^(.+?):\s/)?.[1];
+  if (!pname) continue;
+  for (const v of nameVariantsOf(pname)) {
+    const k = normalizeText(v);
+    const prev = profileByVariant.get(k);
+    if (prev && prev.id !== p.id) profileAmbiguous.add(k);
+    else profileByVariant.set(k, p);
+  }
+}
+const aliasExtrasFor = (a: string, alt: string[]): string[] => {
+  for (const cand of [a, ...alt]) {
+    const k = normalizeText(cand);
+    const prof = profileAmbiguous.has(k) ? undefined : profileByVariant.get(k);
+    if (!prof) continue;
+    const pname = prof.content.match(/^(.+?):\s/)![1]!;
+    const aliasesRaw = prof.content.match(/別名は(.+?)。/)?.[1] ?? "";
+    const aliases = aliasesRaw.split(/[、・，,]/).map((s) => s.trim()).filter(Boolean)
+      .flatMap((al) => { const b = stripParenSuffix(al); return b && b !== al ? [al, b] : [al]; });
+    return [...new Set([...nameVariantsOf(pname), ...aliases])];
+  }
+  return [];
+};
 const questionsDir = new URL("../src/data/questions/", import.meta.url);
 
 describe("正式問題の生成（フェーズ4: scripts/generate-questions.mjs）", () => {
@@ -32,11 +68,14 @@ describe("正式問題の生成（フェーズ4: scripts/generate-questions.mjs�
     expect(META.f2SkippedItems).toBe(11); // 2手順のみ6件（7手順）・対応単位なし1件・番号なし手順1件・年代並べ替え1件・短文記述の対象外1件・監査A3で並べ替えとして不成立と判定した水やりの基本1件（scripts/f2-manual-questions.json の skipped）
     expect(META.f3ByKind).toEqual({ "long-essay": 4, "compare-essay": 7 });
     expect(META.f3Questions).toBe(11);
+    expect(META.fix1ByKind).toEqual({ "term-card": 80, "reverse-card": 63 }); // FIX1（DECISIONS #34）: 用語カード80・逆引きカード63
+    expect(META.fix1Cards).toBe(143);
+    expect(META.fix1SkippedItems).toBe(17); // 名称・別名を含まない検証済み事実がない17種は逆引きを作らない
     expect(META.f3SkippedItems).toBe(11); // 長文の見送り5件・比較の見送り5件・写真識別1件（scripts/f3-manual-questions.json の skipped）
     const byFormat: Record<string, number> = {};
     for (const q of QUESTIONS) byFormat[q.format] = (byFormat[q.format] ?? 0) + 1;
     expect(byFormat).toEqual({ ...META.byFormat });
-    expect(byFormat).toEqual({ "one-answer": 465, "single-choice": 486, "fill-blank": 148, "term-input": 120, "true-false": 272, "multiple-choice": 32, "matching": 43, "reverse-lookup": 60, "table-fill": 68, "composite": 68, "figure": 17, "ordering": 17, "short-essay": 12, "long-essay": 4, "compare-essay": 7 });
+    expect(byFormat).toEqual({ "one-answer": 465, "single-choice": 471, "fill-blank": 148, "term-input": 120, "true-false": 272, "multiple-choice": 32, "matching": 43, "reverse-lookup": 60, "table-fill": 68, "composite": 68, "figure": 17, "ordering": 17, "short-essay": 12, "long-essay": 4, "compare-essay": 7 });
     // 機械検証できる変換のみ（第一弾: draftQa直接変換、Q2: プロフィール構造化属性、Q3: 転記支持文つき人手作成の一問一答、F1: プロフィール構造化属性から検証できる追加7形式。DECISIONS #21。F2: 転記の番号付き手順・支持文に基づく人手作成の並べ替え・短文記述。DECISIONS #26。F3: 転記の複数段落の支持文・明示的な対比に基づく人手作成の長文記述・比較記述。DECISIONS #27）
     expect(Object.keys(byFormat).sort()).toEqual(["compare-essay", "composite", "figure", "fill-blank", "long-essay", "matching", "multiple-choice", "one-answer", "ordering", "reverse-lookup", "short-essay", "single-choice", "table-fill", "term-input", "true-false"]);
   });
@@ -63,7 +102,9 @@ describe("正式問題の生成（フェーズ4: scripts/generate-questions.mjs�
       expect(q.explanation, q.id).toBe(unit.content);
       if (q.format === "one-answer") {
         expect(q.acceptedAnswers?.[0], q.id).toBe(unit.draftQa!.a);
-        const expected = [unit.draftQa!.a, ...unit.draftQa!.alt];
+        // 監査B-07是正（AD-6）: 正答が指す照合済みプロフィールの名称バリアント・
+        // 別名も許容される（推測の別名は加えない）。それ以外は draftQa の a+alt のみ。
+        const expected = [unit.draftQa!.a, ...unit.draftQa!.alt, ...aliasExtrasFor(unit.draftQa!.a, unit.draftQa!.alt)];
         for (const a of q.acceptedAnswers ?? []) expect(expected, q.id).toContain(a);
       }
       if (q.format === "single-choice") {
@@ -73,21 +114,30 @@ describe("正式問題の生成（フェーズ4: scripts/generate-questions.mjs�
       }
     }
   });
-  it("四択の誤答は同一章の照合済み回答からのみ作られ、本文に現れる紛らわしい候補は除外される", () => {
-    const answersByChapter = new Map<string, Set<string>>();
+  it("四択の誤答は照合済み回答（同一章優先・同次元は他章可）か同次元のプロフィール属性値からのみ作られ、本文に現れる紛らわしい候補は除外される", () => {
+    // 監査B-08是正（AD-5）後の規則: 誤答は (a) 同一章の照合済み回答、(b) 設問と
+    // 同じ次元（科名・温度・分量など）の他章の照合済み回答、(c) 科名・原産地・
+    // 利用部位については照合済みプロフィールの同属性値、のいずれか。
+    // 次元の一致そのものは生成器の生成後検証（validateGenerated）が生成時に
+    // 強制し、違反があればデータ自体が書き出されない。ここでは観測可能な
+    // 帰属（a∪b∪c の範囲内にあること）と曖昧さガードを固定する。
+    const allAnswers = new Set<string>();
+    const profileAttrValues = new Set<string>();
     for (const u of U) {
-      if (u.status !== "verified" || !u.draftQa) continue;
-      if (!answersByChapter.has(u.chapterId)) answersByChapter.set(u.chapterId, new Set());
-      answersByChapter.get(u.chapterId)!.add(u.draftQa.a);
+      if (u.status !== "verified") continue;
+      if (u.draftQa) allAnswers.add(u.draftQa.a);
+      if (u.kind === "spice-profile") {
+        const g = (re: RegExp) => u.content.match(re)?.[1] ?? null;
+        for (const v of [g(/科名は(.+?)。/), g(/原産地は(.+?)。/), g(/利用部位は(.+?)。/)]) if (v) profileAttrValues.add(v);
+      }
     }
     for (const q of QUESTIONS.filter((x) => x.id.startsWith("q4-"))) {
       const unit = byId.get(q.knowledgeUnitIds[0]!)!;
-      const pool = answersByChapter.get(unit.chapterId)!;
       const norms = (q.choices ?? []).map(normalizeText);
       expect(new Set(norms).size, q.id).toBe(4); // 正規化後の重複なし
       for (const c of q.choices ?? []) {
         if (c === unit.draftQa!.a) continue;
-        expect(pool.has(c), `${q.id}: 誤答「${c}」`).toBe(true);
+        expect(allAnswers.has(c) || profileAttrValues.has(c), `${q.id}: 誤答「${c}」`).toBe(true);
         // 曖昧さガード: 誤答が生成元単位の本文に現れる場合は正答でもありうるため含めない
         expect(normalizeText(unit.content).includes(normalizeText(c)), `${q.id}: 誤答「${c}」`).toBe(false);
       }
@@ -110,6 +160,7 @@ describe("正式問題の生成（フェーズ4: scripts/generate-questions.mjs�
     for (const c of CARDS) {
       const unit = byId.get(c.knowledgeUnitIds[0]!)!;
       if (c.id.startsWith("card-profile-")) continue; // Q2カードは別テストで検証
+      if (c.id.startsWith("card-term-") || c.id.startsWith("card-rev-")) continue; // FIX1カードは別ブロックで検証
       expect(c.front, c.id).toBe(unit.draftQa!.q);
       expect(c.back, c.id).toBe(unit.draftQa!.a);
     }
@@ -193,8 +244,9 @@ describe("正式問題の生成（フェーズ4: scripts/generate-questions.mjs�
     expect(usedUnitIds.size).toBe(545); // draftQa 379 + プロフィール 80 + 散文 86
     for (const u of U) expect(usedUnitIds.has(u.id), u.id).toBe(true);
     expect(META.excludedUnits).toBe(0);
-    // 項目レベルの除外はプロフィールに属性の記載がない項目のみ（科名12・利用部位12・原産地41・別名20・逆引き20）
-    expect(META.excludedItems).toBe(105);
+    // 項目レベルの除外はプロフィールに属性の記載がない項目（科名12・利用部位12・原産地41・別名20・逆引き20）
+    // ＋監査B-08是正で同次元の誤答を3つ用意できず四択として成立しなくなった15項目
+    expect(META.excludedItems).toBe(120);
   });
   it("Q3: 散文単位の一問一答は手書きデータと一致し、正答が転記支持文に字句として含まれる（根拠の機械チェック）", () => {
     const manual = JSON.parse(readFileSync(new URL("../scripts/q3-manual-questions.json", import.meta.url), "utf8")) as {
@@ -455,7 +507,10 @@ describe("正式問題の生成（フェーズ6・拡充F1: 残り形式のう�
         default: throw new Error(`想定外のF1形式: ${q.format}`);
       }
       const r = gradeQuestion(q, answer);
-      expect(r.correct, q.id).toBe(true);
+      // 監査AD-1: ルーブリック採点の複合問題は、模範解答でも要点充足率1.0に
+      // なるだけで correct は断定されない（null。自己採点で確定する）。
+      if (q.format === "composite") expect(r.correct, q.id).toBeNull();
+      else expect(r.correct, q.id).toBe(true);
       expect(r.scoreRatio, q.id).toBe(1);
       seen.add(q.format);
     }
@@ -532,16 +587,16 @@ describe("難易度較正D1（フェーズ6、DECISIONS #22）", () => {
     expect(held.sort()).toEqual([...HELD].sort());
     expect(META.d1HeldIds).toEqual(HELD); // 生成順のまま固定
     expect(META.d1HeldQuestions).toBe(8);
-    expect(META.d1CalibratedQuestions).toBe(1811); // F2の29問・F3の11問も全件較正済み（DECISIONS #26・#27。監査A3で qord-watering を取り下げたため較正済みは1問減）
+    expect(META.d1CalibratedQuestions).toBe(1796); // F2の29問・F3の11問も全件較正済み（DECISIONS #26・#27。監査B-08是正の再生成で四択15問が減り較正済みも15問減）
   });
 
   it("難易度分布の実測が固定値と一致する（較正前は全件2）", () => {
     const dist: Record<string, number> = {};
     for (const q of QUESTIONS) dist[q.difficulty] = (dist[q.difficulty] ?? 0) + 1;
-    expect(dist).toEqual({ 1: 752, 2: 482, 3: 415, 4: 170 });
-    expect(META.d1ByDifficulty).toEqual({ 1: 752, 2: 482, 3: 415, 4: 170 });
+    expect(dist).toEqual({ 1: 742, 2: 477, 3: 415, 4: 170 });
+    expect(META.d1ByDifficulty).toEqual({ 1: 742, 2: 477, 3: 415, 4: 170 });
     // 較正済みのみの分布（2の474問は較正済み、残り8問は据え置き）
-    expect(META.d1CalibratedByDifficulty).toEqual({ 1: 752, 2: 474, 3: 415, 4: 170 });
+    expect(META.d1CalibratedByDifficulty).toEqual({ 1: 742, 2: 469, 3: 415, 4: 170 });
   });
 });
 
@@ -647,7 +702,8 @@ describe("追加形式F2（フェーズ6、DECISIONS #26）: 転記の番号付�
     }
     for (const q of essays) {
       const r = gradeQuestion(q, q.modelAnswer);
-      expect(r.correct, q.id).toBe(true);
+      // 監査AD-1: 記述式は模範解答でも correct を断定しない（要点充足率1.0のみ）
+      expect(r.correct, q.id).toBeNull();
       expect(r.scoreRatio, q.id).toBe(1);
       expect(gradeQuestion(q, "").correct, q.id).toBe(false);
     }
@@ -730,7 +786,8 @@ describe("追加形式F3（フェーズ6、DECISIONS #27）: 転記の複数段�
   it("F3全形式が採点エンジンで模範解答を満点と判定する（出題・模試・分析が使う gradeQuestion への接続）", () => {
     for (const q of [...longs, ...compares]) {
       const r = gradeQuestion(q, q.modelAnswer);
-      expect(r.correct, q.id).toBe(true);
+      // 監査AD-1: 記述式は模範解答でも correct を断定しない（要点充足率1.0のみ）
+      expect(r.correct, q.id).toBeNull();
       expect(r.scoreRatio, q.id).toBe(1);
       expect(gradeQuestion(q, "").correct, q.id).toBe(false);
     }
@@ -777,9 +834,14 @@ describe("F2/F3形式の意味的監査バッチA3（フェーズ6、DECISIONS #
     expect(gradeQuestion(q("qle-salt-reduction"), "塩分の摂りすぎは高血圧や心血管疾患などのリスクを高める。男性7.5g未満、女性6.5g未満が目安。「適塩」という考え方が広まり、スパイスやハーブの香りや辛みが薄味の物足りなさを補ってくれる。").correct).not.toBe(true);
   });
 
-  it("記述式: 語幹化・代替キーワードにより、常体や括弧注記を省略した原文どおりの回答が満点になる", () => {
-    expect(gradeQuestion(q("qle-traditional-medicine"), "多くの伝統医学はホリスティックな視点に基づき、体と心の両面に働きかけ自然治癒力を引き出す。インドのアーユルヴェーダは「ヴァータ」「ピッタ」「カパ」の3要素でとらえる。中国医学は陰陽五行説に基づいて体系化された。ギリシア発祥の伝統医学は現在の西洋ハーブ医学（メディカルハーブ）にも通じている。コミッションEのモノグラフは正確な情報として評価されている。").correct).toBe(true);
-    expect(gradeQuestion(q("qle-food-safety"), "安全性は科学的な根拠に基づいて論じることが基本で、「食経験」が、安全性の裏づけになっている。保健機能食品は「特定保健用食品」「栄養機能食品」「機能性表示食品」で、それ以外は機能（効果）に関する表示をして販売することもできません。食べ物や栄養の影響を過大に信じる傾向はフードファディズムと呼ばれる。情報の出どころや科学的根拠の有無を確認することが大切だ。").correct).toBe(true);
+  it("記述式: 語幹化・代替キーワードにより、常体や括弧注記を省略した原文どおりの回答が満点（要点充足率1.0）になる", () => {
+    // 監査AD-1: 満点は要点充足率1.0を指し、correct は自動では断定されない（null）
+    const tm = gradeQuestion(q("qle-traditional-medicine"), "多くの伝統医学はホリスティックな視点に基づき、体と心の両面に働きかけ自然治癒力を引き出す。インドのアーユルヴェーダは「ヴァータ」「ピッタ」「カパ」の3要素でとらえる。中国医学は陰陽五行説に基づいて体系化された。ギリシア発祥の伝統医学は現在の西洋ハーブ医学（メディカルハーブ）にも通じている。コミッションEのモノグラフは正確な情報として評価されている。");
+    expect(tm.scoreRatio).toBe(1);
+    expect(tm.correct).toBeNull();
+    const fs = gradeQuestion(q("qle-food-safety"), "安全性は科学的な根拠に基づいて論じることが基本で、「食経験」が、安全性の裏づけになっている。保健機能食品は「特定保健用食品」「栄養機能食品」「機能性表示食品」で、それ以外は機能（効果）に関する表示をして販売することもできません。食べ物や栄養の影響を過大に信じる傾向はフードファディズムと呼ばれる。情報の出どころや科学的根拠の有無を確認することが大切だ。");
+    expect(fs.scoreRatio).toBe(1);
+    expect(fs.correct).toBeNull();
   });
 
   it("比較記述: 属性を全面入れ替えした回答は満点にならない（主語結合キーワード）", () => {
@@ -803,5 +865,101 @@ describe("難易度較正D1（フェーズ6、DECISIONS #22）: 学習分析へ�
     expect(st.total).toBe(4);
     // 回答記録がなくても集計は空で返る（表示側は0件を扱える）
     expect(computeStats([], QUESTIONS).byDifficulty.size).toBe(0);
+  });
+});
+
+describe("修正バッチFIX1（DECISIONS #34）: 用語カード・逆引きカード", () => {
+  const parse = (c: string) => {
+    const g = (re: RegExp) => c.match(re)?.[1] ?? null;
+    return { name: g(/^(.+?):\s/)!, aliasesRaw: g(/別名は(.+?)。/) };
+  };
+  const aliasBase = (t: string) => t.replace(/[(（].*$/, "").trim();
+  const profiles = U.filter((u) => u.kind === "spice-profile" && u.status === "verified");
+  const cardById = new Map(CARDS.map((c) => [c.id, c]));
+
+  it("種別（kind）が全カードに付き、種別別件数が実測と一致する", () => {
+    const counts: Record<string, number> = {};
+    for (const c of CARDS) {
+      const expected = c.id.startsWith("card-term-") ? "term" : c.id.startsWith("card-rev-") ? "reverse" : c.id.startsWith("card-profile-") ? "profile" : "qa";
+      expect(c.kind, c.id).toBe(expected);
+      counts[expected] = (counts[expected] ?? 0) + 1;
+    }
+    expect(counts).toEqual({ qa: 379, profile: 80, term: 80, reverse: 63 });
+    expect(profiles.length).toBe(80); // 図鑑エントリ82種のうち続きページ2件は独立プロフィール単位を持たない
+  });
+
+  it("用語カード: 表=名称、裏=プロフィール content から接頭辞を除いた要点で、全プロフィール分ある", () => {
+    for (const u of profiles) {
+      const card = cardById.get(`card-term-${u.id}`);
+      expect(card, u.id).toBeTruthy();
+      const p = parse(u.content);
+      expect(card!.front, card!.id).toBe(p.name);
+      expect(card!.back, card!.id).toBe(u.content.replace(/^.+?:\s/, ""));
+      expect(card!.knowledgeUnitIds, card!.id).toEqual([u.id]);
+      expect(card!.status, card!.id).toBe("verified");
+    }
+  });
+
+  it("逆引きカード: 表は名称・別名を含まない検証済み事実で、用語カードと reverseOf で相互リンクする", () => {
+    const revCards = CARDS.filter((c) => c.id.startsWith("card-rev-"));
+    expect(revCards.length).toBe(63);
+    for (const c of revCards) {
+      const profileUnit = byId.get(c.knowledgeUnitIds[0]!)!;
+      const factUnit = byId.get(c.knowledgeUnitIds[1]!)!;
+      expect(profileUnit.kind, c.id).toBe("spice-profile");
+      expect(factUnit.kind, c.id).toBe("spice-fact");
+      expect(factUnit.status, c.id).toBe("verified");
+      expect(factUnit.spice?.id, c.id).toBe(profileUnit.spice?.id);
+      const p = parse(profileUnit.content);
+      expect(c.front, c.id).toBe(factUnit.content);
+      expect(c.back, c.id).toBe(p.name);
+      const forbidden = [p.name, ...p.name.split("/").map((s) => s.trim()), ...((p.aliasesRaw ?? "").split("、").map(aliasBase))].filter(Boolean);
+      for (const v of forbidden) expect(c.front.includes(v), `${c.id}: 表に「${v}」が含まれる`).toBe(false);
+      expect(c.reverseOf, c.id).toBe(`card-term-${profileUnit.id}`);
+      expect(cardById.get(c.reverseOf!)!.reverseOf, c.id).toBe(c.id);
+      expect(c.sourceRefs.length, c.id).toBe(2);
+      expect(c.sourceRefs[1]!.bookPage, c.id).toBe(factUnit.source.page);
+    }
+    // 逆引きのないプロフィールは実測17種（名称を含む事実しかない種）
+    const withoutReverse = profiles.filter((u) => !cardById.has(`card-rev-${u.id}`));
+    expect(withoutReverse.length).toBe(17);
+  });
+});
+
+// 監査B-07/B-08是正の回帰固定（docs/AUDIT_DECISIONS.md AD-5/AD-6、2026-10-30再生成）。
+describe("監査是正: 別名許容（B-07）と四択の同次元化（B-08）", () => {
+  const byId = new Map(QUESTIONS.map((q) => [q.id, q]));
+  it("B-07: 逆引き問題はプロフィールの別名を許容する（コリアンダー=パクチー等）", () => {
+    const coriander = byId.get("qti-rev-coriander-profile");
+    expect(coriander?.acceptedAnswers).toContain("パクチー");
+    const garlic = byId.get("qti-rev-garlic-profile");
+    expect(garlic?.acceptedAnswers).toContain("にんにく");
+    expect(garlic?.acceptedAnswers).toContain("大蒜");
+  });
+  it("B-07: 一問一答の正答がスパイス名なら別名も許容する（ターメリック=うこん）", () => {
+    const curry = byId.get("q1-r-curry");
+    expect(curry?.acceptedAnswers).toContain("ターメリック");
+    expect(curry?.acceptedAnswers).toContain("うこん");
+  });
+  it("B-08: 温度の四択は誤答も全て温度（単位クラスが混在しない）", () => {
+    const t = byId.get("q4-b-basil-temp");
+    expect(t).toBeDefined();
+    for (const c of t?.choices ?? []) expect(c).toMatch(/度$/);
+  });
+  it("B-08: 科名の四択は誤答も全て科名", () => {
+    const f = byId.get("q4-lemongrass-1");
+    expect(f).toBeDefined();
+    for (const c of f?.choices ?? []) expect(c).toMatch(/科$/);
+  });
+  it("B-08: 同次元の誤答を3つ用意できない四択は生成しない（プール不足の脱落を固定）", () => {
+    // 人物名の照合済み回答は全書で3件しかなく、人物の四択は成立しない。
+    // 知識自体は一問一答（q1）側で引き続き出題される。
+    for (const id of ["q4-h-hippocrates", "q4-shichimi-2", "q4-d-mojito", "q4-t-cup", "q4-j-todaiji"]) {
+      expect(byId.has(id), id).toBe(false);
+    }
+    expect(byId.has("q1-h-hippocrates")).toBe(true);
+  });
+  it("B-07: 別名展開の対象問題数は生成メタに記録される（128問）", () => {
+    expect(META.aliasExpandedQuestions).toBe(128);
   });
 });

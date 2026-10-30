@@ -6,30 +6,6 @@
   "sectionId": "item-others",
   "difficulty": 3,
   "knowledgeUnitIds": [
-   "chaatmasala-profile"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9684",
-    "bookPage": 108,
-    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 chaatmasala-profile から生成"
-   }
-  ],
-  "id": "qfb-level-chaatmasala-profile",
-  "format": "fill-blank",
-  "prompt": "チャートマサラは検定（　）級の対象である。",
-  "acceptedAnswers": [
-   "1"
-  ],
-  "explanation": "チャートマサラ: ミックススパイス。検定1級の対象。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch2",
-  "sectionId": "item-others",
-  "difficulty": 3,
-  "knowledgeUnitIds": [
    "panchphoron-profile"
   ],
   "sourceRefs": [
@@ -1944,5 +1920,29 @@
    "塩"
   ],
   "explanation": "ごま・クミン・コリアンダーなどの種子系スパイスとナッツ類、塩を粗く砕いて混ぜた、北アフリカ〜中東のシーズニング。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "chm-1"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 chm-1 について、転記本文 p.108 の支持文に基づき人手作成（拡充Q3、DECISIONS #19）。支持文: マンゴーパウダーを基本に、複数のスパイス、塩がミックスされている。"
+   }
+  ],
+  "id": "q1q3-chm-1",
+  "format": "one-answer",
+  "prompt": "チャートマサラ（チャットマサラ）は、何を基本に複数のスパイスと塩がミックスされているか。",
+  "acceptedAnswers": [
+   "マンゴーパウダー"
+  ],
+  "explanation": "マンゴーパウダーを基本に複数のスパイスと塩をミックスした、インドのシーズニングスパイス。生野菜や果物に振りかける。"
  }
 ]

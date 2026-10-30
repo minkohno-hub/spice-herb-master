@@ -31,6 +31,9 @@ test.describe("モバイル viewport（390×844）", () => {
       .getByRole("link", { name: "演習", exact: true })
       .click();
     await expect(page.getByRole("heading", { name: "演習" })).toBeVisible();
+    // FIX1: サンプルは明示選択時のみ。出題順を登録順にして決定的な先頭問題を使う
+    await page.getByLabel("モード").selectOption("sample");
+    await page.getByLabel("出題順").selectOption("sequence");
     await expect(
       page.getByRole("heading", {
         name: "[サンプル] このアプリで通常出題される正式問題の条件はどれか。",

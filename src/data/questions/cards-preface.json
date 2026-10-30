@@ -1,6 +1,7 @@
 [
  {
   "id": "card-b-def",
+  "kind": "qa",
   "front": "スパイス&ハーブの定義の一例で、両者は何という植物の一部とされる?",
   "back": "芳香性植物",
   "reverseOf": null,
@@ -20,6 +21,7 @@
  },
  {
   "id": "card-b-def-split",
+  "kind": "qa",
   "front": "スパイスとハーブを区分する一般的な基準は?",
   "back": "利用する部位",
   "reverseOf": null,
@@ -39,6 +41,7 @@
  },
  {
   "id": "card-b-fresh",
+  "kind": "qa",
   "front": "生で使用するスパイスやハーブの形態を何という?",
   "back": "フレッシュ",
   "reverseOf": null,
@@ -58,6 +61,7 @@
  },
  {
   "id": "card-b-kinome",
+  "kind": "qa",
   "front": "「木の芽」とは何の若葉?",
   "back": "山椒",
   "reverseOf": null,
@@ -77,6 +81,7 @@
  },
  {
   "id": "card-b-dry",
+  "kind": "qa",
   "front": "乾燥させ、保存がきくスパイスやハーブの形態を何という?",
   "back": "ドライ",
   "reverseOf": null,
@@ -96,6 +101,7 @@
  },
  {
   "id": "card-b-single",
+  "kind": "qa",
   "front": "混合されていない1種類のスパイスまたはハーブを何という?",
   "back": "単品",
   "reverseOf": null,
@@ -115,6 +121,7 @@
  },
  {
   "id": "card-b-whole",
+  "kind": "qa",
   "front": "原形のまま乾燥させた、香りがとびにくい形状を何という?",
   "back": "ホール",
   "reverseOf": null,
@@ -134,6 +141,7 @@
  },
  {
   "id": "card-b-coarse",
+  "kind": "qa",
   "front": "ホールを粗めに粉砕し粒子を整えた形状を何という?",
   "back": "あらびき",
   "reverseOf": null,
@@ -153,6 +161,7 @@
  },
  {
   "id": "card-b-powder",
+  "kind": "qa",
   "front": "ホール・あらびき・パウダーのうち、最も香りがとびやすいのは?",
   "back": "パウダー",
   "reverseOf": null,
@@ -172,6 +181,7 @@
  },
  {
   "id": "card-b-mix",
+  "kind": "qa",
   "front": "複数のスパイスやハーブを混ぜたものを何という?",
   "back": "ミックス",
   "reverseOf": null,
@@ -191,6 +201,7 @@
  },
  {
   "id": "card-b-synergy",
+  "kind": "qa",
   "front": "スパイスを混ぜて香りの幅・厚み・深みが生まれる効果を何という?",
   "back": "シナジー効果",
   "reverseOf": null,
@@ -210,6 +221,7 @@
  },
  {
   "id": "card-b-masking",
+  "kind": "qa",
   "front": "混ぜたスパイスが互いのとがった香りを消し合い丸みのある香りになる効果を何という?",
   "back": "マスキング効果",
   "reverseOf": null,
@@ -229,6 +241,7 @@
  },
  {
   "id": "card-b-part-rare",
+  "kind": "qa",
   "front": "サフランが利用する部位は?",
   "back": "雌しべ",
   "reverseOf": null,
@@ -248,6 +261,7 @@
  },
  {
   "id": "card-b-part-clove",
+  "kind": "qa",
   "front": "クローブが利用する部位は?",
   "back": "蕾",
   "reverseOf": null,
@@ -267,6 +281,7 @@
  },
  {
   "id": "card-b-part-coriander",
+  "kind": "qa",
   "front": "1つの植物で種子と葉の両方を使う例として挙げられるスパイスは?",
   "back": "コリアンダー",
   "reverseOf": null,
@@ -286,6 +301,7 @@
  },
  {
   "id": "card-b-part-leaf",
+  "kind": "qa",
   "front": "利用部位「葉」に分類されるものはどれ? (例:タイム)",
   "back": "葉",
   "reverseOf": null,
@@ -305,6 +321,7 @@
  },
  {
   "id": "card-b-part-seed",
+  "kind": "qa",
   "front": "コリアンダー、フェンネル、アニス、クミンが分類される利用部位は?",
   "back": "種子",
   "reverseOf": null,
@@ -324,6 +341,7 @@
  },
  {
   "id": "card-b-part-fruit",
+  "kind": "qa",
   "front": "こしょう、唐辛子、オールスパイスが分類される利用部位は?",
   "back": "果実",
   "reverseOf": null,
@@ -343,6 +361,7 @@
  },
  {
   "id": "card-b-part-root",
+  "kind": "qa",
   "front": "ジンジャー、わさび、ターメリックが分類される利用部位は?",
   "back": "根・根茎",
   "reverseOf": null,
@@ -362,6 +381,7 @@
  },
  {
   "id": "card-b-part-bark",
+  "kind": "qa",
   "front": "シナモンが分類される利用部位は?",
   "back": "樹皮",
   "reverseOf": null,
@@ -381,6 +401,7 @@
  },
  {
   "id": "card-b-seed-fruit",
+  "kind": "qa",
   "front": "種子グループに入るコリアンダーやクミンは、植物学上は何にあたる?",
   "back": "果実",
   "reverseOf": null,
@@ -400,6 +421,7 @@
  },
  {
   "id": "card-b-garlic-bulb",
+  "kind": "qa",
   "front": "ガーリックの利用部位は植物学的には何と呼ばれる?",
   "back": "鱗茎",
   "reverseOf": null,
@@ -419,6 +441,7 @@
  },
  {
   "id": "card-b-taxonomy",
+  "kind": "qa",
   "front": "植物学の分類単位を大きい順に並べると「界・門・綱・目・?・属・種」の?に入るのは?",
   "back": "科",
   "reverseOf": null,
@@ -438,6 +461,7 @@
  },
  {
   "id": "card-b-family-meaning",
+  "kind": "qa",
   "front": "スパイスの種類を特定できる分類単位は(科、属・種のどれ)?",
   "back": "属・種",
   "reverseOf": null,
@@ -457,6 +481,7 @@
  },
  {
   "id": "card-b-lamiaceae",
+  "kind": "qa",
   "front": "葉が対生し爽やかな香りを持つものが多く、バジルやミントが属する科は?",
   "back": "シソ科",
   "reverseOf": null,
@@ -476,6 +501,7 @@
  },
  {
   "id": "card-b-apiaceae",
+  "kind": "qa",
   "front": "移植を嫌うものが多く、収穫は外側の葉からとされる科は?",
   "back": "セリ科",
   "reverseOf": null,
@@ -495,6 +521,7 @@
  },
  {
   "id": "card-b-zingiberaceae",
+  "kind": "qa",
   "front": "ジンジャーやターメリックが属し、スーッとする香りのものが多い科は?",
   "back": "ショウガ科",
   "reverseOf": null,
@@ -514,6 +541,7 @@
  },
  {
   "id": "card-b-brassicaceae",
+  "kind": "qa",
   "front": "わさびやマスタードが属し、辛みを持つものが多い科は?",
   "back": "アブラナ科",
   "reverseOf": null,
@@ -533,6 +561,7 @@
  },
  {
   "id": "card-b-fresh-keep",
+  "kind": "qa",
   "front": "フレッシュハーブを保存する場所として適しているのは?",
   "back": "冷蔵庫の野菜室",
   "reverseOf": null,
@@ -552,6 +581,7 @@
  },
  {
   "id": "card-b-fresh-points",
+  "kind": "qa",
   "front": "フレッシュハーブ保存の3つのポイントは?",
   "back": "低温・適度な湿気・傷めない",
   "reverseOf": null,
@@ -571,6 +601,7 @@
  },
  {
   "id": "card-b-fresh-stand",
+  "kind": "qa",
   "front": "フレッシュハーブを野菜室で保存する理想的な置き方は?",
   "back": "立てて保存する",
   "reverseOf": null,
@@ -590,6 +621,7 @@
  },
  {
   "id": "card-b-basil-temp",
+  "kind": "qa",
   "front": "バジルの保存温度の目安は?",
   "back": "10〜15度",
   "reverseOf": null,
@@ -609,6 +641,7 @@
  },
  {
   "id": "card-b-temp-5-7",
+  "kind": "qa",
   "front": "オレガノやディルなど多くのフレッシュハーブの保存温度の目安は?",
   "back": "5〜7度",
   "reverseOf": null,
@@ -628,6 +661,7 @@
  },
  {
   "id": "card-b-temp-7-10",
+  "kind": "qa",
   "front": "タイム、レモングラス、ローズマリーの保存温度の目安は?",
   "back": "7〜10度",
   "reverseOf": null,
@@ -647,6 +681,7 @@
  },
  {
   "id": "card-b-dry-enemy",
+  "kind": "qa",
   "front": "ドライスパイスの保存における3つの大敵は?",
   "back": "光・熱・湿気",
   "reverseOf": null,
@@ -666,6 +701,7 @@
  },
  {
   "id": "card-b-dry-life",
+  "kind": "qa",
   "front": "ドライスパイスの「生命」とされる2つの要素は?",
   "back": "香りと色",
   "reverseOf": null,
@@ -685,6 +721,7 @@
  },
  {
   "id": "card-b-condensation",
+  "kind": "qa",
   "front": "冷蔵室から出したスパイスびんの蓋を開けたままにすると起こる恐れがあることは?",
   "back": "結露",
   "reverseOf": null,
@@ -704,6 +741,7 @@
  },
  {
   "id": "card-b-cooking-care",
+  "kind": "qa",
   "front": "調理中、スパイスの容器から鍋の上で直接振りかけてよいか?",
   "back": "しない",
   "reverseOf": null,
@@ -723,6 +761,7 @@
  },
  {
   "id": "card-h-egypt-mummy",
+  "kind": "qa",
   "front": "古代エジプトのミイラ作りで、防腐作用を期待して遺体に詰められたスパイスの代表例は?",
   "back": "シナモン",
   "reverseOf": null,
@@ -742,6 +781,7 @@
  },
  {
   "id": "card-h-egypt-pyramid",
+  "kind": "qa",
   "front": "ピラミッド建設の労働者に体力をつけるため大量に使われたとされるスパイスは?",
   "back": "ガーリック",
   "reverseOf": null,
@@ -761,6 +801,7 @@
  },
  {
   "id": "card-h-china-2500bc",
+  "kind": "qa",
   "front": "スパイスを加えた香酒や香飯が神に供えられていたのは、紀元前何年頃の中国?",
   "back": "紀元前2500年頃",
   "reverseOf": null,
@@ -780,6 +821,7 @@
  },
  {
   "id": "card-h-han-clove",
+  "kind": "qa",
   "front": "漢の時代、官吏が天子に奏上する際に口臭消しとして口に含んだスパイスは?",
   "back": "クローブ",
   "reverseOf": null,
@@ -799,6 +841,7 @@
  },
  {
   "id": "card-h-incense",
+  "kind": "qa",
   "front": "山椒・クローブ・シナモンなどが寺院や教会で火にくべられた目的は?",
   "back": "空気を清める香煙",
   "reverseOf": null,
@@ -818,6 +861,7 @@
  },
  {
   "id": "card-h-hippocrates",
+  "kind": "qa",
   "front": "紀元前400年頃に400種のハーブ処方をまとめ「医学の父」と呼ばれる人物は?",
   "back": "ヒポクラテス",
   "reverseOf": null,
@@ -837,6 +881,7 @@
  },
  {
   "id": "card-h-dioscorides",
+  "kind": "qa",
   "front": "『マテリア・メディカ(薬物誌)』を著したローマ時代の医師は?",
   "back": "ディオスコリデス",
   "reverseOf": null,
@@ -856,6 +901,7 @@
  },
  {
   "id": "card-h-materia-600",
+  "kind": "qa",
   "front": "『マテリア・メディカ』に掲載された植物は何種に及ぶ?",
   "back": "600種",
   "reverseOf": null,
@@ -875,6 +921,7 @@
  },
  {
   "id": "card-h-ancient-uses",
+  "kind": "qa",
   "front": "古代のスパイスやハーブの用途として挙げられるものを答えよ(薬事以外に3つ)。",
   "back": "祭事・媚薬・保存剤",
   "reverseOf": null,
@@ -894,6 +941,7 @@
  },
  {
   "id": "card-h-medieval-price",
+  "kind": "qa",
   "front": "中世ヨーロッパでスパイスは何に匹敵する価値を持ったとされる?",
   "back": "金銀",
   "reverseOf": null,
@@ -913,6 +961,7 @@
  },
  {
   "id": "card-h-constantinople",
+  "kind": "qa",
   "front": "スパイス交易で繁栄した都市コンスタンティノープルの現在の名称は?",
   "back": "イスタンブール",
   "reverseOf": null,
@@ -932,6 +981,7 @@
  },
  {
   "id": "card-h-venice",
+  "kind": "qa",
   "front": "中世ヨーロッパでスパイス需要が高まった主な用途は?",
   "back": "肉の保存",
   "reverseOf": null,
@@ -951,6 +1001,7 @@
  },
  {
   "id": "card-h-marco-polo",
+  "kind": "qa",
   "front": "マルコ・ポーロが東洋で見聞したことをまとめた旅行記の名称は?",
   "back": "世界の記述",
   "reverseOf": null,
@@ -970,6 +1021,7 @@
  },
  {
   "id": "card-h-marco-polo-year",
+  "kind": "qa",
   "front": "『世界の記述』(『東方見聞録』)が発表された年は?",
   "back": "1299年",
   "reverseOf": null,
@@ -989,6 +1041,7 @@
  },
  {
   "id": "card-h-moluccas",
+  "kind": "qa",
   "front": "「香料諸島」とも呼ばれる諸島は?",
   "back": "モルッカ諸島",
   "reverseOf": null,
@@ -1008,6 +1061,7 @@
  },
  {
   "id": "card-h-age-discovery",
+  "kind": "qa",
   "front": "マルコ・ポーロの書物が幕開けを促したとされる時代は?",
   "back": "大航海時代",
   "reverseOf": null,
@@ -1027,6 +1081,7 @@
  },
  {
   "id": "card-h-columbus",
+  "kind": "qa",
   "front": "コロンブスが発見した、アメリカ大陸固有のスパイスは?",
   "back": "唐辛子",
   "reverseOf": null,
@@ -1046,6 +1101,7 @@
  },
  {
   "id": "card-h-columbus-queen",
+  "kind": "qa",
   "front": "コロンブスの航海を支援したスペインの女王は?",
   "back": "イサベル女王",
   "reverseOf": null,
@@ -1065,6 +1121,7 @@
  },
  {
   "id": "card-h-columbus-4",
+  "kind": "qa",
   "front": "コロンブスは1504年までに何回大西洋を渡った?",
   "back": "4回",
   "reverseOf": null,
@@ -1084,6 +1141,7 @@
  },
  {
   "id": "card-h-gama",
+  "kind": "qa",
   "front": "1498年にカリカットまでの航海に成功したポルトガル人は?",
   "back": "バスコ・ダ・ガマ",
   "reverseOf": null,
@@ -1103,6 +1161,7 @@
  },
  {
   "id": "card-h-calicut",
+  "kind": "qa",
   "front": "カリカットの現在の名称は?",
   "back": "コーリコード",
   "reverseOf": null,
@@ -1122,6 +1181,7 @@
  },
  {
   "id": "card-h-magellan",
+  "kind": "qa",
   "front": "マゼランが戦死した場所は?",
   "back": "フィリピン",
   "reverseOf": null,
@@ -1141,6 +1201,7 @@
  },
  {
   "id": "card-h-magellan-year",
+  "kind": "qa",
   "front": "マゼラン海峡が発見された年は?",
   "back": "1520年",
   "reverseOf": null,
@@ -1160,6 +1221,7 @@
  },
  {
   "id": "card-h-magellan-spices",
+  "kind": "qa",
   "front": "マゼラン船団がモルッカ諸島から持ち帰ったスパイスによって莫大な利益を得た国は?",
   "back": "スペイン",
   "reverseOf": null,
@@ -1179,6 +1241,7 @@
  },
  {
   "id": "card-h-decline",
+  "kind": "qa",
   "front": "大航海時代以降、衰退した交易都市・地域を1つ挙げよ。",
   "back": "ヴェネツィア",
   "reverseOf": null,
@@ -1198,6 +1261,7 @@
  },
  {
   "id": "card-h-spice-war-cause",
+  "kind": "qa",
   "front": "こしょう・クローブ・ナツメッグの争奪戦が東南アジアで発展した争いを何と呼ぶ?",
   "back": "スパイス戦争",
   "reverseOf": null,
@@ -1217,6 +1281,7 @@
  },
  {
   "id": "card-h-british-eic",
+  "kind": "qa",
   "front": "イギリス東インド会社が設立された年は?",
   "back": "1600年",
   "reverseOf": null,
@@ -1236,6 +1301,7 @@
  },
  {
   "id": "card-h-dutch-eic",
+  "kind": "qa",
   "front": "オランダ東インド会社が設立された年は?",
   "back": "1602年",
   "reverseOf": null,
@@ -1255,6 +1321,7 @@
  },
  {
   "id": "card-h-spice-war-4",
+  "kind": "qa",
   "front": "スパイス戦争で植民地を争ったのは何カ国?",
   "back": "4カ国",
   "reverseOf": null,
@@ -1274,6 +1341,7 @@
  },
  {
   "id": "card-h-dutch-rule",
+  "kind": "qa",
   "front": "スパイス戦争の結果、モルッカ諸島の大部分を統制下においた国は?",
   "back": "オランダ",
   "reverseOf": null,
@@ -1293,6 +1361,7 @@
  },
  {
   "id": "card-h-france-theft",
+  "kind": "qa",
   "front": "1770年頃、フランスがクローブなどの苗木を移植したフランス島の別名は?",
   "back": "マダガスカル島",
   "reverseOf": null,
@@ -1312,6 +1381,7 @@
  },
  {
   "id": "card-h-france-method",
+  "kind": "qa",
   "front": "オランダの牙城を崩すためにフランスがとった方法は?",
   "back": "盗木",
   "reverseOf": null,
@@ -1331,6 +1401,7 @@
  },
  {
   "id": "card-h-penang",
+  "kind": "qa",
   "front": "イギリスがクローブやナツメッグを移植した島は?",
   "back": "ペナン島",
   "reverseOf": null,
@@ -1350,6 +1421,7 @@
  },
  {
   "id": "card-h-war-end",
+  "kind": "qa",
   "front": "スパイス戦争が自然消滅的に終焉を迎えたのはいつ頃?",
   "back": "19世紀中頃",
   "reverseOf": null,
@@ -1369,6 +1441,7 @@
  },
  {
   "id": "card-j-yakumi",
+  "kind": "qa",
   "front": "日本でスパイスを大量に使う必要がなかった理由は?",
   "back": "新鮮な食材が手に入りやすかったため",
   "reverseOf": null,
@@ -1388,6 +1461,7 @@
  },
  {
   "id": "card-j-fish",
+  "kind": "qa",
   "front": "日本で魚介に使われてきた代表的なスパイス(わさび、山椒、しょうが以外)は?",
   "back": "ねぎ",
   "reverseOf": null,
@@ -1407,6 +1481,7 @@
  },
  {
   "id": "card-j-hot-ratio",
+  "kind": "qa",
   "front": "世界のスパイスのうち辛みを持つものの割合は?",
   "back": "1割未満",
   "reverseOf": null,
@@ -1426,6 +1501,7 @@
  },
  {
   "id": "card-j-kojiki",
+  "kind": "qa",
   "front": "712年に編纂され、「はじかみ」やにんにくが登場する歴史書は?",
   "back": "古事記",
   "reverseOf": null,
@@ -1445,6 +1521,7 @@
  },
  {
   "id": "card-j-hajikami",
+  "kind": "qa",
   "front": "『古事記』に登場する「はじかみ」がさすものは?",
   "back": "しょうが、もしくは山椒",
   "reverseOf": null,
@@ -1464,6 +1541,7 @@
  },
  {
   "id": "card-j-shosoin-doc",
+  "kind": "qa",
   "front": "『正倉院文書』に記された「胡麻子」とは何のこと?",
   "back": "ごま",
   "reverseOf": null,
@@ -1483,6 +1561,7 @@
  },
  {
   "id": "card-j-engishiki",
+  "kind": "qa",
   "front": "にんにくの栽培法が記された平安初期の法律書は?",
   "back": "延喜式",
   "reverseOf": null,
@@ -1502,6 +1581,7 @@
  },
  {
   "id": "card-j-shomu",
+  "kind": "qa",
   "front": "こしょうなど熱帯原産のスパイスが既に日本に上陸していたのは、どの天皇の時代?",
   "back": "聖武天皇",
   "reverseOf": null,
@@ -1521,6 +1601,7 @@
  },
  {
   "id": "card-j-shosoin-treasure",
+  "kind": "qa",
   "front": "正倉院宝物の「桂心」とはどのスパイス?",
   "back": "シナモン",
   "reverseOf": null,
@@ -1540,6 +1621,7 @@
  },
  {
   "id": "card-j-shosoin-chouko",
+  "kind": "qa",
   "front": "正倉院宝物の「丁香」とはどのスパイス?",
   "back": "クローブ",
   "reverseOf": null,
@@ -1559,6 +1641,7 @@
  },
  {
   "id": "card-j-todaiji",
+  "kind": "qa",
   "front": "正倉院のある寺は?",
   "back": "東大寺",
   "reverseOf": null,
@@ -1578,6 +1661,7 @@
  },
  {
   "id": "card-j-nara",
+  "kind": "qa",
   "front": "スパイスが日本に渡来したのは何時代?",
   "back": "奈良時代",
   "reverseOf": null,
@@ -1597,6 +1681,7 @@
  },
  {
   "id": "card-j-shichimi",
+  "kind": "qa",
   "front": "七味唐辛子が江戸で初めて売り出されたとされる年は?",
   "back": "1625年",
   "reverseOf": null,
@@ -1616,6 +1701,7 @@
  },
  {
   "id": "card-j-shichimi-origin",
+  "kind": "qa",
   "front": "七味唐辛子のヒントになったといわれるものは?",
   "back": "漢方薬の配合",
   "reverseOf": null,
@@ -1635,6 +1721,7 @@
  },
  {
   "id": "card-j-curry-1872",
+  "kind": "qa",
   "front": "日本で初めてカレーの作り方が紹介された料理書を1つ挙げよ。",
   "back": "西洋料理指南",
   "reverseOf": null,
@@ -1654,6 +1741,7 @@
  },
  {
   "id": "card-j-curry-year",
+  "kind": "qa",
   "front": "日本で初めてカレーの作り方が料理書に載ったのは西暦何年?",
   "back": "1872年",
   "reverseOf": null,
@@ -1673,6 +1761,7 @@
  },
  {
   "id": "card-j-curry-route",
+  "kind": "qa",
   "front": "カレーはどの国を経由して西洋料理として日本に紹介された?",
   "back": "イギリス",
   "reverseOf": null,
@@ -1692,6 +1781,7 @@
  },
  {
   "id": "card-j-prewar",
+  "kind": "qa",
   "front": "戦前からカレー粉のほかにスパイスが使われ消費されていた調味料は?",
   "back": "ウスターソース",
   "reverseOf": null,
@@ -1711,6 +1801,7 @@
  },
  {
   "id": "card-j-1990s",
+  "kind": "qa",
   "front": "家庭でスパイスやハーブがポピュラーになった食の流行が起きたのは何年代以降?",
   "back": "1990年代",
   "reverseOf": null,

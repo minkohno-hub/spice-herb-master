@@ -23,7 +23,9 @@ export interface Question {
   imageAlt?: string; imageRef?: string|null;
   explanation: string; knowledgeUnitIds: string[]; sourceRefs: SourceRef[];
 }
-export interface Flashcard { id: string; front: string; back: string; reverseOf?: string|null; chapterId: string; sectionId: string; status: QuestionStatus; knowledgeUnitIds: string[]; sourceRefs: SourceRef[]; }
+/** カードの種別（FIX1で導入）。未設定のカードは ID 接頭辞から判定する（後方互換、domain/cards.ts の cardKindOf）。 */
+export type FlashcardKind = "qa" | "profile" | "term" | "reverse";
+export interface Flashcard { id: string; kind?: FlashcardKind; front: string; back: string; reverseOf?: string|null; chapterId: string; sectionId: string; status: QuestionStatus; knowledgeUnitIds: string[]; sourceRefs: SourceRef[]; }
 /** Claude版ブランチから取り込んだ知識単位（フェーズ2統合）。原則 unverified: 原本画像との人手照合を終えた単位だけが、scripts/collation-overrides.json 経由で verified になる。 */
 export interface KnowledgeSource { page: number; sourceUnitId: string; origin: "claude/build-learning-app"; }
 /** 原文照合の記録（照合済み単位にのみ付く）。batch は scripts/collation-overrides.json のバッチID。 */

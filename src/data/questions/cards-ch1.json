@@ -1,6 +1,7 @@
 [
  {
   "id": "card-r-curry",
+  "kind": "qa",
   "front": "本書のチキンカレーに添えるライスを黄色く色づけるスパイスは?",
   "back": "ターメリック",
   "reverseOf": null,
@@ -20,6 +21,7 @@
  },
  {
   "id": "card-r-genovese-sauce",
+  "kind": "qa",
   "front": "ジェノベーゼソースの冷蔵保存の目安は?",
   "back": "1週間",
   "reverseOf": null,
@@ -39,6 +41,7 @@
  },
  {
   "id": "card-r-genovese-nut",
+  "kind": "qa",
   "front": "ジェノベーゼソースに使われるナッツは?",
   "back": "松の実",
   "reverseOf": null,
@@ -58,6 +61,7 @@
  },
  {
   "id": "card-r-paella",
+  "kind": "qa",
   "front": "パエリアに使うサフランは、使う前にどうする?",
   "back": "水に合わせておいて色を出す",
   "reverseOf": null,
@@ -77,6 +81,7 @@
  },
  {
   "id": "card-r-chili",
+  "kind": "qa",
   "front": "チリコンカンで主役となるミックススパイスは?",
   "back": "チリパウダー",
   "reverseOf": null,
@@ -96,6 +101,7 @@
  },
  {
   "id": "card-r-kakuni",
+  "kind": "qa",
   "front": "本書の中国風「豚の角煮」で風味の決め手となるスパイスは?",
   "back": "スターアニス",
   "reverseOf": null,
@@ -115,6 +121,7 @@
  },
  {
   "id": "card-r-ceviche",
+  "kind": "qa",
   "front": "セビーチェはどの地域風の魚介マリネ?",
   "back": "南米",
   "reverseOf": null,
@@ -134,6 +141,7 @@
  },
  {
   "id": "card-r-hummus",
+  "kind": "qa",
   "front": "フムスの主材料の豆は?",
   "back": "ひよこ豆",
   "reverseOf": null,
@@ -153,6 +161,7 @@
  },
  {
   "id": "card-r-couscous",
+  "kind": "qa",
   "front": "クスクスは何の粉を粒状にしたパスタ?",
   "back": "セモリナ粉",
   "reverseOf": null,
@@ -172,6 +181,7 @@
  },
  {
   "id": "card-r-harissa",
+  "kind": "qa",
   "front": "本書のハリッサ風ペーストに使われる種子系スパイスで、キャラウェイ以外のものは?",
   "back": "クミン",
   "reverseOf": null,
@@ -191,6 +201,7 @@
  },
  {
   "id": "card-r-currywurst",
+  "kind": "qa",
   "front": "カリーヴルストはどこの国のファストフード?",
   "back": "ドイツ",
   "reverseOf": null,
@@ -210,6 +221,7 @@
  },
  {
   "id": "card-r-cumin-potato",
+  "kind": "qa",
   "front": "クミンポテトのもとになっているインドの家庭料理は?",
   "back": "サブジ",
   "reverseOf": null,
@@ -229,6 +241,7 @@
  },
  {
   "id": "card-r-chai",
+  "kind": "qa",
   "front": "本書のチャイに使うスパイスを3つ挙げよ。",
   "back": "シナモン・カルダモン・クローブ",
   "reverseOf": null,
@@ -248,6 +261,7 @@
  },
  {
   "id": "card-r-bakedapple",
+  "kind": "qa",
   "front": "焼きりんごに使う2つのスパイスは?",
   "back": "クローブとシナモン",
   "reverseOf": null,
@@ -267,6 +281,7 @@
  },
  {
   "id": "card-c-flavor-oil",
+  "kind": "qa",
   "front": "フレーバーオイルは冷暗所に何週間ほどおく?",
   "back": "1〜2週間",
   "reverseOf": null,
@@ -286,6 +301,7 @@
  },
  {
   "id": "card-c-bottle",
+  "kind": "qa",
   "front": "手作り調味料に使う保存びんは事前にどうしておく?",
   "back": "煮沸消毒して乾かす",
   "reverseOf": null,
@@ -305,6 +321,7 @@
  },
  {
   "id": "card-c-herb-paste",
+  "kind": "qa",
   "front": "ハーブペーストを冷凍した場合の保存の目安は?",
   "back": "1〜2カ月",
   "reverseOf": null,
@@ -324,6 +341,7 @@
  },
  {
   "id": "card-c-paste-basil",
+  "kind": "qa",
   "front": "バジルペーストの半量を何にかえると、より鮮やかな緑色になる?",
   "back": "イタリアンパセリ",
   "reverseOf": null,
@@ -343,6 +361,7 @@
  },
  {
   "id": "card-c-paste-rucola",
+  "kind": "qa",
   "front": "ルッコラペーストに加えると味わいが深くなる食材は?",
   "back": "アンチョビ",
   "reverseOf": null,
@@ -362,6 +381,7 @@
  },
  {
   "id": "card-c-dressing",
+  "kind": "qa",
   "front": "手作りドレッシングの冷蔵保存の目安は?",
   "back": "2〜3日",
   "reverseOf": null,
@@ -381,6 +401,7 @@
  },
  {
   "id": "card-c-fines-herbes",
+  "kind": "qa",
   "front": "フランス語で「細かく刻んだハーブ」を意味する言葉は?",
   "back": "フィーヌゼルブ",
   "reverseOf": null,
@@ -400,6 +421,7 @@
  },
  {
   "id": "card-c-dress-ethnic",
+  "kind": "qa",
   "front": "エスニック風ドレッシングで塩の代わりに使う調味料は?",
   "back": "ナンプラー",
   "reverseOf": null,
@@ -419,6 +441,7 @@
  },
  {
   "id": "card-u-3roles",
+  "kind": "qa",
   "front": "料理におけるスパイスやハーブの3つの働きは?",
   "back": "香りづけ・辛みづけ・色づけ",
   "reverseOf": null,
@@ -438,6 +461,7 @@
  },
  {
   "id": "card-u-aroma-main",
+  "kind": "qa",
   "front": "3つの働きのうち、ほとんどのスパイスやハーブが持つ働きは?",
   "back": "香りづけ",
   "reverseOf": null,
@@ -457,6 +481,7 @@
  },
  {
   "id": "card-u-aroma-source",
+  "kind": "qa",
   "front": "スパイスの香りの正体は何という成分?",
   "back": "揮発性の香気成分",
   "reverseOf": null,
@@ -476,6 +501,7 @@
  },
  {
   "id": "card-u-aroma-whole",
+  "kind": "qa",
   "front": "ホールスパイスの香りを引き出す方法を2つ挙げよ。",
   "back": "挽く・加熱する",
   "reverseOf": null,
@@ -495,6 +521,7 @@
  },
  {
   "id": "card-u-aroma-herb",
+  "kind": "qa",
   "front": "フレッシュハーブの香りを引き出す方法を1つ挙げよ。",
   "back": "ちぎる",
   "reverseOf": null,
@@ -514,6 +541,7 @@
  },
  {
   "id": "card-u-aroma-powder",
+  "kind": "qa",
   "front": "パウダースパイスの短所は?",
   "back": "香りの消失が早い",
   "reverseOf": null,
@@ -533,6 +561,7 @@
  },
  {
   "id": "card-u-starter",
+  "kind": "qa",
   "front": "調理の最初に油で炒めて香りを移すスパイスを何と呼ぶ?",
   "back": "スタータースパイス",
   "reverseOf": null,
@@ -552,6 +581,7 @@
  },
  {
   "id": "card-u-starter-ex",
+  "kind": "qa",
   "front": "スタータースパイスの代表例を1つ挙げよ。",
   "back": "クミン",
   "reverseOf": null,
@@ -571,6 +601,7 @@
  },
  {
   "id": "card-u-heat",
+  "kind": "qa",
   "front": "辛みのあるスパイスを加える際の基本的な注意は?",
   "back": "少量ずつ味をみながら加える",
   "reverseOf": null,
@@ -590,6 +621,7 @@
  },
  {
   "id": "card-u-color",
+  "kind": "qa",
   "front": "色づけの目的で使われるスパイスを1つ挙げよ(例:ターメリック以外)。",
   "back": "パプリカ",
   "reverseOf": null,
@@ -609,6 +641,7 @@
  },
  {
   "id": "card-u-timing-prep",
+  "kind": "qa",
   "front": "素材の臭みとりや香りづけを目的にスパイスを使うタイミングは?",
   "back": "下ごしらえ",
   "reverseOf": null,
@@ -628,6 +661,7 @@
  },
  {
   "id": "card-u-timing-prep-form",
+  "kind": "qa",
   "front": "下ごしらえで素材にまんべんなくまぶすのに適した形状は?",
   "back": "パウダー",
   "reverseOf": null,
@@ -647,6 +681,7 @@
  },
  {
   "id": "card-u-timing-cook",
+  "kind": "qa",
   "front": "調理中にスパイスを使う場合、適した形状は?",
   "back": "ホール",
   "reverseOf": null,
@@ -666,6 +701,7 @@
  },
  {
   "id": "card-u-timing-cook-herb",
+  "kind": "qa",
   "front": "調理中に使うフレッシュハーブとして、香りの強いものの例は?",
   "back": "ローズマリー",
   "reverseOf": null,
@@ -685,6 +721,7 @@
  },
  {
   "id": "card-u-timing-finish",
+  "kind": "qa",
   "front": "仕上げにスパイスを使う場合、多く使われる形状は?",
   "back": "パウダー",
   "reverseOf": null,
@@ -704,6 +741,7 @@
  },
  {
   "id": "card-u-timing-finish-herb",
+  "kind": "qa",
   "front": "料理の仕上げに向くフレッシュハーブの特徴は?",
   "back": "葉がやわらかく香りがマイルド",
   "reverseOf": null,
@@ -723,6 +761,7 @@
  },
  {
   "id": "card-u-overspice",
+  "kind": "qa",
   "front": "スパイスを加えすぎるよくある失敗を何という?",
   "back": "オーバースパイス",
   "reverseOf": null,
@@ -742,6 +781,7 @@
  },
  {
   "id": "card-u-fresh-3x",
+  "kind": "qa",
   "front": "同じレシピでフレッシュハーブを使う場合、ドライハーブの何倍が目安?",
   "back": "3倍",
   "reverseOf": null,
@@ -761,6 +801,7 @@
  },
  {
   "id": "card-u-dry-third",
+  "kind": "qa",
   "front": "フレッシュハーブ大さじ1をドライに置き換える場合の量は?",
   "back": "1/3量",
   "reverseOf": null,
@@ -780,6 +821,7 @@
  },
  {
   "id": "card-u-rosemary-same",
+  "kind": "qa",
   "front": "乾燥でも体積があまり変化しないため、ドライとほぼ同量でよいハーブの例は?",
   "back": "ローズマリー",
   "reverseOf": null,
@@ -799,6 +841,7 @@
  },
  {
   "id": "card-u-wash",
+  "kind": "qa",
   "front": "フレッシュハーブは調理前に水洗いが必要か?",
   "back": "必要",
   "reverseOf": null,
@@ -818,6 +861,7 @@
  },
  {
   "id": "card-u-knife",
+  "kind": "qa",
   "front": "ハーブの変色を防ぐために使うとよい包丁の材質は?",
   "back": "ステンレスやセラミック",
   "reverseOf": null,
@@ -837,6 +881,7 @@
  },
  {
   "id": "card-u-pairing",
+  "kind": "qa",
   "front": "スパイスの相性はメニューと素材のどちらとの相性で覚えるのがよい?",
   "back": "素材",
   "reverseOf": null,
@@ -856,6 +901,7 @@
  },
  {
   "id": "card-u-pair-beef",
+  "kind": "qa",
   "front": "ブーケガルニ・クローブ・オレガノなどと相性がよいとされる素材は?",
   "back": "牛肉",
   "reverseOf": null,
@@ -875,6 +921,7 @@
  },
  {
   "id": "card-u-pair-pork",
+  "kind": "qa",
   "front": "ジンジャー・ナツメッグ・スターアニス・五香粉などと相性がよいとされる素材は?",
   "back": "豚肉",
   "reverseOf": null,
@@ -894,6 +941,7 @@
  },
  {
   "id": "card-u-pair-redfish",
+  "kind": "qa",
   "front": "チリペッパー・ディル・ガーリックなどと相性がよいとされる魚は(赤身魚・白身魚)?",
   "back": "赤身魚",
   "reverseOf": null,
@@ -913,6 +961,7 @@
  },
  {
   "id": "card-u-pair-whitefish",
+  "kind": "qa",
   "front": "タラゴンやバジルなどと相性がよいとされる魚は(赤身魚・白身魚)?",
   "back": "白身魚",
   "reverseOf": null,
@@ -932,6 +981,7 @@
  },
  {
   "id": "card-w-africa",
+  "kind": "qa",
   "front": "アフリカの料理でよく使われるスパイスを1つ挙げよ。",
   "back": "クミン",
   "reverseOf": null,
@@ -951,6 +1001,7 @@
  },
  {
   "id": "card-w-couscous",
+  "kind": "qa",
   "front": "クスクスに添えられることが多い唐辛子ペーストの名は?",
   "back": "ハリッサ",
   "reverseOf": null,
@@ -970,6 +1021,7 @@
  },
  {
   "id": "card-w-middleeast",
+  "kind": "qa",
   "front": "中近東の料理でよく使われる肉は?",
   "back": "羊肉",
   "reverseOf": null,
@@ -989,6 +1041,7 @@
  },
  {
   "id": "card-w-tabbouleh",
+  "kind": "qa",
   "front": "レバノンのサラダ「タッブーレ」の決め手のハーブは?",
   "back": "パセリ",
   "reverseOf": null,
@@ -1008,6 +1061,7 @@
  },
  {
   "id": "card-w-dukkah",
+  "kind": "qa",
   "front": "ごま・スパイス・ナッツ類を合わせ、オリーブオイルにひたしたパンにつけて食べるシーズニングは?",
   "back": "デュカ",
   "reverseOf": null,
@@ -1027,6 +1081,7 @@
  },
  {
   "id": "card-w-europe",
+  "kind": "qa",
   "front": "地中海沿岸地域で魚と相性がよくよく使われるスパイスを1つ挙げよ。",
   "back": "サフラン",
   "reverseOf": null,
@@ -1046,6 +1101,7 @@
  },
  {
   "id": "card-w-caprese",
+  "kind": "qa",
   "front": "カプレーゼの決め手のハーブは?",
   "back": "バジル",
   "reverseOf": null,
@@ -1065,6 +1121,7 @@
  },
  {
   "id": "card-w-milanese",
+  "kind": "qa",
   "front": "ミラノ風リゾットの決め手のスパイスは?",
   "back": "サフラン",
   "reverseOf": null,
@@ -1084,6 +1141,7 @@
  },
  {
   "id": "card-w-saltimbocca",
+  "kind": "qa",
   "front": "サルティンボッカの決め手のハーブは?",
   "back": "セージ",
   "reverseOf": null,
@@ -1103,6 +1161,7 @@
  },
  {
   "id": "card-w-saltimbocca-mean",
+  "kind": "qa",
   "front": "「サルティンボッカ」の意味は?",
   "back": "口に飛び込む",
   "reverseOf": null,
@@ -1122,6 +1181,7 @@
  },
  {
   "id": "card-w-genovese",
+  "kind": "qa",
   "front": "ジェノベーゼソースの決め手のハーブは?",
   "back": "バジル",
   "reverseOf": null,
@@ -1141,6 +1201,7 @@
  },
  {
   "id": "card-w-carbonara",
+  "kind": "qa",
   "front": "カルボナーラの仕上げに欠かせないスパイスは?",
   "back": "ブラックペッパー",
   "reverseOf": null,
@@ -1160,6 +1221,7 @@
  },
  {
   "id": "card-w-bouillabaisse",
+  "kind": "qa",
   "front": "サフランを使った魚介のスープ「ブイヤベース」はどこの国の料理?",
   "back": "フランス",
   "reverseOf": null,
@@ -1179,6 +1241,7 @@
  },
  {
   "id": "card-w-paella",
+  "kind": "qa",
   "front": "パエリアの色づけに使われるスパイスは?",
   "back": "サフラン",
   "reverseOf": null,
@@ -1198,6 +1261,7 @@
  },
  {
   "id": "card-w-paella-mean",
+  "kind": "qa",
   "front": "「パエリア」はバレンシア語で何を意味する?",
   "back": "フライパン",
   "reverseOf": null,
@@ -1217,6 +1281,7 @@
  },
  {
   "id": "card-w-goulash",
+  "kind": "qa",
   "front": "ハンガリアングラーシュの決め手のスパイスは?",
   "back": "パプリカ",
   "reverseOf": null,
@@ -1236,6 +1301,7 @@
  },
  {
   "id": "card-w-borscht",
+  "kind": "qa",
   "front": "ボルシチの決め手のハーブは?",
   "back": "ディル",
   "reverseOf": null,
@@ -1255,6 +1321,7 @@
  },
  {
   "id": "card-w-borscht-origin",
+  "kind": "qa",
   "front": "ボルシチ発祥の国は?",
   "back": "ウクライナ",
   "reverseOf": null,
@@ -1274,6 +1341,7 @@
  },
  {
   "id": "card-w-asia",
+  "kind": "qa",
   "front": "東アジア・東南アジアの味つけで広く使われる調味料の種類は?",
   "back": "発酵調味料",
   "reverseOf": null,
@@ -1293,6 +1361,7 @@
  },
  {
   "id": "card-w-dongpo",
+  "kind": "qa",
   "front": "トンポーロウの決め手のスパイスは?",
   "back": "スターアニス",
   "reverseOf": null,
@@ -1312,6 +1381,7 @@
  },
  {
   "id": "card-w-dongpo-country",
+  "kind": "qa",
   "front": "トンポーロウはどこの国の料理?",
   "back": "中国",
   "reverseOf": null,
@@ -1331,6 +1401,7 @@
  },
  {
   "id": "card-w-tomyum",
+  "kind": "qa",
   "front": "トムヤムクンはどこの国の料理?",
   "back": "タイ",
   "reverseOf": null,
@@ -1350,6 +1421,7 @@
  },
  {
   "id": "card-w-banhxeo",
+  "kind": "qa",
   "front": "ベトナムの料理「バインセオ」の決め手のスパイスは?",
   "back": "ターメリック",
   "reverseOf": null,
@@ -1369,6 +1441,7 @@
  },
  {
   "id": "card-w-america",
+  "kind": "qa",
   "front": "多様な食文化が混ざり合って生まれる料理を何と呼ぶ?",
   "back": "フュージョン料理",
   "reverseOf": null,
@@ -1388,6 +1461,7 @@
  },
  {
   "id": "card-w-chiliconcarne",
+  "kind": "qa",
   "front": "チリコンカンは何と呼ばれる料理ジャンルの代表的メニュー?",
   "back": "テクス・メクス",
   "reverseOf": null,
@@ -1407,6 +1481,7 @@
  },
  {
   "id": "card-w-guacamole",
+  "kind": "qa",
   "front": "メキシコのアボカドディップ「ワカモーレ」の決め手のハーブは?",
   "back": "パクチー",
   "reverseOf": null,
@@ -1426,6 +1501,7 @@
  },
  {
   "id": "card-d-moroccan-tea",
+  "kind": "qa",
   "front": "「ガンパウダー」と呼ばれる中国緑茶とミントで入れるお茶は?",
   "back": "モロッコティー",
   "reverseOf": null,
@@ -1445,6 +1521,7 @@
  },
  {
   "id": "card-d-gahwa",
+  "kind": "qa",
   "front": "ガーワ(アラビアンコーヒー)の決め手のスパイスは?",
   "back": "カルダモン",
   "reverseOf": null,
@@ -1464,6 +1541,7 @@
  },
  {
   "id": "card-d-eggnog",
+  "kind": "qa",
   "front": "エッグノッグに使われるスパイスは?",
   "back": "ナツメッグ",
   "reverseOf": null,
@@ -1483,6 +1561,7 @@
  },
  {
   "id": "card-d-cafe-olla",
+  "kind": "qa",
   "front": "メキシコのカフェ・デ・オーヤに使われるスパイスは?",
   "back": "シナモン",
   "reverseOf": null,
@@ -1502,6 +1581,7 @@
  },
  {
   "id": "card-d-mojito",
+  "kind": "qa",
   "front": "モヒートを愛した作家として知られるのは?",
   "back": "ヘミングウェイ",
   "reverseOf": null,
@@ -1521,6 +1601,7 @@
  },
  {
   "id": "card-d-mojito-herb",
+  "kind": "qa",
   "front": "モヒートの決め手のハーブは?",
   "back": "ミント",
   "reverseOf": null,

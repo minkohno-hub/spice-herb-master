@@ -5,7 +5,8 @@
  * 散文単位の転記支持文に基づく人手作成一問一答（拡充Q3、DECISIONS #19）、
  * プロフィール属性から機械検証できる追加7形式の生成（拡充F1、DECISIONS #21）、
  * 転記本文の番号付き手順・支持文に基づく人手作成の並べ替え・短文記述（追加形式F2、DECISIONS #26）、
- * 転記本文の複数段落の支持文・明示的な対比に基づく人手作成の長文記述・比較記述（追加形式F3、DECISIONS #27）。
+ * 転記本文の複数段落の支持文・明示的な対比に基づく人手作成の長文記述・比較記述（追加形式F3、DECISIONS #27）、
+ * プロフィール単位からの用語カードと、名称を含まない検証済み事実からの逆引きカード（修正バッチFIX1、DECISIONS #34）。
  * 難易度は較正D1（DECISIONS #22）で、出題範囲の階層と形式負荷に基づく相対指標として付与する
  * （実際の受験者の正答率ではない。較正できない問題は2に据え置き、メタの d1HeldIds に記録）。
  * データ本体は src/data/questions/ 配下の章別分割JSON（全ファイル128KB未満）。
@@ -35,7 +36,8 @@ import formalCh32 from "./questions/formal-ch3-2.json";
 import formalAppendix from "./questions/formal-appendix.json";
 import cardsPreface from "./questions/cards-preface.json";
 import cardsCh1 from "./questions/cards-ch1.json";
-import cardsCh2 from "./questions/cards-ch2.json";
+import cardsCh21 from "./questions/cards-ch2-1.json";
+import cardsCh22 from "./questions/cards-ch2-2.json";
 import cardsCh3 from "./questions/cards-ch3.json";
 import cardsAppendix from "./questions/cards-appendix.json";
 export const QUESTION_GENERATION_META = {
@@ -85,10 +87,10 @@ export const QUESTION_GENERATION_META = {
     "profile-card": 80
   },
   "q2Questions": 375,
-  "formalQuestions": 1819,
+  "formalQuestions": 1804,
   "byFormat": {
     "one-answer": 465,
-    "single-choice": 486,
+    "single-choice": 471,
     "fill-blank": 148,
     "term-input": 120,
     "true-false": 272,
@@ -104,18 +106,18 @@ export const QUESTION_GENERATION_META = {
     "compare-essay": 7
   },
   "d1ByDifficulty": {
-    "1": 752,
-    "2": 482,
+    "1": 742,
+    "2": 477,
     "3": 415,
     "4": 170
   },
   "d1CalibratedByDifficulty": {
-    "1": 752,
-    "2": 474,
+    "1": 742,
+    "2": 469,
     "3": 415,
     "4": 170
   },
-  "d1CalibratedQuestions": 1811,
+  "d1CalibratedQuestions": 1796,
   "d1HeldQuestions": 8,
   "d1HeldIds": [
     "q1-e-org",
@@ -127,8 +129,15 @@ export const QUESTION_GENERATION_META = {
     "q1q3-e-level1",
     "q1q3-e-scope1"
   ],
-  "formalCards": 459,
-  "excludedItems": 105,
+  "formalCards": 602,
+  "aliasExpandedQuestions": 128,
+  "fix1ByKind": {
+    "term-card": 80,
+    "reverse-card": 63
+  },
+  "fix1Cards": 143,
+  "fix1SkippedItems": 17,
+  "excludedItems": 120,
   "excludedUnits": 0,
   "files": [
     "formal-preface-1.json",
@@ -155,7 +164,8 @@ export const QUESTION_GENERATION_META = {
     "formal-appendix.json",
     "cards-preface.json",
     "cards-ch1.json",
-    "cards-ch2.json",
+    "cards-ch2-1.json",
+    "cards-ch2-2.json",
     "cards-ch3.json",
     "cards-appendix.json"
   ]
@@ -187,7 +197,8 @@ export const FORMAL_QUESTIONS: Question[] = [
 export const FORMAL_CARDS: Flashcard[] = [
   ...(cardsPreface as unknown as Flashcard[]),
   ...(cardsCh1 as unknown as Flashcard[]),
-  ...(cardsCh2 as unknown as Flashcard[]),
+  ...(cardsCh21 as unknown as Flashcard[]),
+  ...(cardsCh22 as unknown as Flashcard[]),
   ...(cardsCh3 as unknown as Flashcard[]),
   ...(cardsAppendix as unknown as Flashcard[]),
 ];

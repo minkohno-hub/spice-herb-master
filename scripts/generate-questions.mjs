@@ -32,6 +32,12 @@
  *     最初に適格な構成員を対象にする（適格な構成員がないグループは生成しない）。
  *   - 組み合わせ: 除外リストの同種グループ除外（kind: match-cogroup）に載る単位ペアは、
  *     当該属性の組み合わせグループで同居させない。
+ * - 監査B-07/B-08是正（2026-10-30独立品質監査、docs/AUDIT_DECISIONS.md AD-5/AD-6）:
+ *   B-07: 名称を答える問題（qti-rev と、正答が品目名の q1）では、生成元プロフィールが
+ *   「別名」として明記する語も許容回答に含める（別名も同じ品目の名称のため）。
+ *   B-08: 四択（q4）の誤答は、設問文のパターンと正答の形状から決めた次元
+ *   （人物／科名／部位／原産地／数量／品目名など）と同次元の候補だけに限る。
+ *   次元基盤（プロフィールパース・別名集合・次元判定）は生成ループより前に定義する。
  * - 拡充F1（フェーズ6、docs/DECISIONS.md #21）: 残り13形式を全件評価し、プロフィール単位の
  *   構造化属性で正答・誤答の正しさを機械検証できる7形式を追加生成する:
  *   true-false（属性値そのままの真文＋他プロフィールの同属性値へ入れ替えた偽文。偽文の値には
@@ -99,6 +105,7 @@ const readJson = (p) => JSON.parse(readFileSync(p, "utf8"));
 // ---- 正規化（src/domain/normalize.ts と同じ規則を複製。生成側の同一視判定に使う）
 function normalizeText(s) {
   let t = s.normalize("NFKC").toLowerCase().trim();
+  t = t.replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60)); // 監査B-06是正: かな畳み込み（アプリ側と同一規則）
   t = t.replace(/[\s　]+/g, "");
   t = t.replace(/[。、,.・:：;；!！?？「」『』（）()\[\]"'’]/g, "");
   t = t.replace(/ー/g, "");
@@ -301,7 +308,7 @@ function f3EntryOk(entry, kind) {
 }
 
 // ---- 生成
-const report = { attempted: { "one-answer": 0, "single-choice": 0, "flashcard": 0, "fill-blank": 0, "term-input": 0, "true-false": 0, "multiple-choice": 0, "matching": 0, "reverse-lookup": 0, "table-fill": 0, "composite": 0, "figure": 0, "ordering": 0, "short-essay": 0, "long-essay": 0, "compare-essay": 0 }, passed: { "one-answer": 0, "single-choice": 0, "flashcard": 0, "fill-blank": 0, "term-input": 0, "true-false": 0, "multiple-choice": 0, "matching": 0, "reverse-lookup": 0, "table-fill": 0, "composite": 0, "figure": 0, "ordering": 0, "short-essay": 0, "long-essay": 0, "compare-essay": 0 }, q2ByKind: { "family-fill": 0, "level-fill": 0, "part-choice": 0, "origin-choice": 0, "alias-term": 0, "reverse-term": 0, "profile-card": 0 }, f1ByKind: { "tf-family-true": 0, "tf-family-false": 0, "tf-part-true": 0, "tf-part-false": 0, "mc-family": 0, "mc-part": 0, "mc-origin": 0, "match-family": 0, "match-part": 0, "match-origin": 0, "reverse-alias": 0, "table-profile": 0, "composite-profile": 0, "figure-table": 0 }, f1Skipped: [], f2ByKind: { "ordering": 0, "short-essay": 0 }, f2Skipped: f2Manual.skipped, f3ByKind: { "long-essay": 0, "compare-essay": 0 }, f3Skipped: f3Manual.skipped, q3Questions: 0, excluded: [] };
+const report = { attempted: { "one-answer": 0, "single-choice": 0, "flashcard": 0, "fill-blank": 0, "term-input": 0, "true-false": 0, "multiple-choice": 0, "matching": 0, "reverse-lookup": 0, "table-fill": 0, "composite": 0, "figure": 0, "ordering": 0, "short-essay": 0, "long-essay": 0, "compare-essay": 0 }, passed: { "one-answer": 0, "single-choice": 0, "flashcard": 0, "fill-blank": 0, "term-input": 0, "true-false": 0, "multiple-choice": 0, "matching": 0, "reverse-lookup": 0, "table-fill": 0, "composite": 0, "figure": 0, "ordering": 0, "short-essay": 0, "long-essay": 0, "compare-essay": 0 }, q2ByKind: { "family-fill": 0, "level-fill": 0, "part-choice": 0, "origin-choice": 0, "alias-term": 0, "reverse-term": 0, "profile-card": 0 }, f1ByKind: { "tf-family-true": 0, "tf-family-false": 0, "tf-part-true": 0, "tf-part-false": 0, "mc-family": 0, "mc-part": 0, "mc-origin": 0, "match-family": 0, "match-part": 0, "match-origin": 0, "reverse-alias": 0, "table-profile": 0, "composite-profile": 0, "figure-table": 0 }, f1Skipped: [], f2ByKind: { "ordering": 0, "short-essay": 0 }, f2Skipped: f2Manual.skipped, f3ByKind: { "long-essay": 0, "compare-essay": 0 }, f3Skipped: f3Manual.skipped, q3Questions: 0, fix1ByKind: { "term-card": 0, "reverse-card": 0 }, fix1Skipped: [], aliasExpansions: [], excluded: [] };
 const exclude = (kind, unitId, reason) => report.excluded.push({ kind, unitId, reason });
 
 const questions = [];
@@ -317,82 +324,9 @@ for (const u of ineligible) {
   exclude("all", u.id, reason);
 }
 
-// 同一章（取り込み章 chapterId）の verified draftQa 回答プール（誤答候補の母集団）
-const poolByChapter = new Map();
-for (const u of eligible) {
-  if (!poolByChapter.has(u.chapterId)) poolByChapter.set(u.chapterId, []);
-  poolByChapter.get(u.chapterId).push(u);
-}
-
-function distractorsFor(unit) {
-  const a = unit.draftQa.a;
-  const normA = normalizeText(a);
-  const normContent = normalizeText(unit.content);
-  const forbidden = new Set([normA, ...unit.draftQa.alt.map(normalizeText)]);
-  const a1Excluded = a1ExcludedFor(unit.id, "draft-choice");
-  const cands = [];
-  for (const other of poolByChapter.get(unit.chapterId) ?? []) {
-    if (other.id === unit.id) continue;
-    const cand = other.draftQa.a;
-    if (a1Excluded.has(cand)) continue; // 監査A1で真の問題と判定された誤答（DECISIONS #20）
-    const n = normalizeText(cand);
-    if (!n || forbidden.has(n)) continue;
-    // 曖昧さガード: 誤答候補が生成元単位の fact 本文に現れるものは「正答でもありうる」ため除外。
-    // 正答と部分文字列関係にある候補（例: 正答の一部・拡張）も除外する。
-    if (normContent.includes(n)) continue;
-    if (n.includes(normA) || normA.includes(n)) continue;
-    cands.push({ cand, n, other });
-  }
-  // 重複（正規化後）を除き、優先度（同一節タイトル→同一ページ→同一カテゴリ→ハッシュ）で決定的に並べる
-  const seen = new Set();
-  const uniq = cands.filter((c) => (seen.has(c.n) ? false : (seen.add(c.n), true)));
-  uniq.sort((x, y) => {
-    const tier = (c) => (c.other.sectionTitle === unit.sectionTitle ? 0 : 1) + (c.other.source.page === unit.source.page ? 0 : 2) + (c.other.category === unit.category ? 0 : 4);
-    return tier(x) - tier(y) || fnv(`${unit.id}|${x.other.id}`) - fnv(`${unit.id}|${y.other.id}`);
-  });
-  return uniq.slice(0, 3).map((c) => c.cand);
-}
-
-for (const unit of eligible) {
-  const { q, a, alt } = unit.draftQa;
-  const sec = sectionForPage(unit.source.page);
-  const { ref, imageId } = sourceRefFor(unit);
-  const imgEntry = manifestById.get(imageId);
-  const sourceOk = Boolean(imgEntry) && imgEntry.driveFileId !== null && imgEntry.extractionStatus !== "欠落";
-  const baseOk = Boolean(sec) && sourceOk && q.trim() !== "" && a.trim() !== "";
-  if (!baseOk) {
-    const reason = !sec ? "出典ページに対応する節が構造データにない" : !sourceOk ? `出典画像 ${imageId} が manifest に実在しない/欠落` : "draftQa の q/a が空";
-    exclude("one-answer", unit.id, reason); exclude("single-choice", unit.id, reason); exclude("flashcard", unit.id, reason);
-    continue;
-  }
-  const common = { version: 1, status: "verified", chapterId: sec.chapterId, sectionId: sec.id, difficulty: 2, knowledgeUnitIds: [unit.id], sourceRefs: [ref] };
-
-  // one-answer（一問一答）: draftQa の直接変換
-  report.attempted["one-answer"]++;
-  const accepted = [];
-  const seenAcc = new Set();
-  for (const t of [a, ...alt]) { const n = normalizeText(t); if (n && !seenAcc.has(n)) { seenAcc.add(n); accepted.push(t); } }
-  questions.push({ ...common, id: `q1-${unit.id}`, format: "one-answer", prompt: q, acceptedAnswers: accepted, explanation: unit.content });
-  report.passed["one-answer"]++;
-
-  // フラッシュカード: draftQa の直接変換
-  report.attempted["flashcard"]++;
-  cards.push({ id: `card-${unit.id}`, front: q, back: a, reverseOf: null, chapterId: sec.chapterId, sectionId: sec.id, status: "verified", knowledgeUnitIds: [unit.id], sourceRefs: [ref] });
-  report.passed["flashcard"]++;
-
-  // single-choice（四択）: 誤答が3つ確保できる場合のみ
-  report.attempted["single-choice"]++;
-  const distractors = distractorsFor(unit);
-  if (distractors.length < 3) { exclude("single-choice", unit.id, `誤答候補が3つ確保できない（ガード通過 ${distractors.length} 件）`); continue; }
-  const choices = [a, ...distractors];
-  // 決定的シャッフル（ハッシュ順）
-  const order = choices.map((c, i) => ({ c, k: fnv(`q4-${unit.id}|${i}|${c}`) })).sort((x, y) => x.k - y.k);
-  const shuffled = order.map((o) => o.c);
-  questions.push({ ...common, id: `q4-${unit.id}`, format: "single-choice", prompt: q, choices: shuffled, correctChoiceIndexes: [shuffled.indexOf(a)], explanation: unit.content });
-  report.passed["single-choice"]++;
-}
-
-// ---- Q2生成（プロフィール単位の構造化属性から。DECISIONS #18）
+// ---- プロフィール定型文のパースと別名・次元基盤
+// Q2生成だけでなく、Q1/Q4生成の監査是正（B-07 別名許容／B-08 誤答の次元型付け）でも
+// 使うため、生成ループより前に定義する。
 // プロフィール content の定型文: 「名称: 科名は…。原産地は…。利用部位は…。別名は…。検定…級の対象。」
 // （ミックススパイスは「名称: ミックススパイス。検定…級の対象。」のみ。属性の無い項目は生成しない）
 function parseProfile(content) {
@@ -419,6 +353,220 @@ function nameVariants(name) {
 const parsedProfiles = new Map(profileEligible.map((u) => [u.id, parseProfile(u.content)]));
 // 四択の誤答プールは「他の照合済みプロフィールの同属性値」のみ（教科書外の選択肢は作らない）
 const profilePool = (key) => [...new Set(profileEligible.map((u) => parsedProfiles.get(u.id)[key]).filter(Boolean))];
+// 別名→名称の逆引きガード: 別名基部の出現回数（全プロフィール）と、全プロフィールの名称バリアント集合
+const aliasBaseCount = new Map();
+for (const u of profileEligible) for (const tok of splitAliases(parsedProfiles.get(u.id).aliasesRaw)) {
+  const b = normalizeText(aliasBase(tok));
+  aliasBaseCount.set(b, (aliasBaseCount.get(b) ?? 0) + 1);
+}
+const allNameNorms = new Set();
+for (const u of profileEligible) for (const v of nameVariants(parsedProfiles.get(u.id).name ?? "")) allNameNorms.add(normalizeText(v));
+// 監査B-07是正: 名称を答える問題の追加許容回答 = 生成元プロフィールが「別名」として
+// 明記する語（全文・基部）。別名も同じ品目の名称であるため正答に含める。
+// 他のプロフィールの名称バリアントと一致する語は、別品目の正式名でもあるため除外する。
+// 推測による別名は追加しない（AUDIT_DECISIONS AD-6）。
+function aliasAnswersFor(profileUnit) {
+  const p = parsedProfiles.get(profileUnit.id);
+  if (!p) return [];
+  const others = new Set();
+  for (const u of profileEligible) { if (u.id === profileUnit.id) continue; for (const v of nameVariants(parsedProfiles.get(u.id).name ?? "")) others.add(normalizeText(v)); }
+  const out = []; const seen = new Set();
+  for (const tok of splitAliases(p.aliasesRaw)) for (const v of [tok, aliasBase(tok)]) {
+    const n = normalizeText(v);
+    if (n && !seen.has(n) && !others.has(n)) { seen.add(n); out.push(v); }
+  }
+  return out;
+}
+// 名称を答える問題の許容回答（名称バリアント＋別名。生成と検証で同一の構築を使う）
+function nameAcceptedAnswers(profileUnit) {
+  const p = parsedProfiles.get(profileUnit.id);
+  const out = [...nameVariants(p?.name ?? "")];
+  const seen = new Set(out.map(normalizeText));
+  for (const v of aliasAnswersFor(profileUnit)) { const n = normalizeText(v); if (!seen.has(n)) { seen.add(n); out.push(v); } }
+  return out;
+}
+
+// ---- 監査B-08是正: 四択（q4）の誤答の次元型付け
+// フェーズ4の誤答生成は同一章の他問の正答を次元の照合なしに流用しており、人物を問う
+// 問題に食材名、数量を問う問題に別次元の値が並ぶ不良が標本監査で40%を占めた。
+// 設問文のパターンと正答の形状から次元を決め、同次元の候補だけを誤答にする。
+const profileNameNorms = new Set();
+for (const u of profileEligible) for (const v of nameVariants(parsedProfiles.get(u.id).name ?? "")) profileNameNorms.add(normalizeText(v));
+const familyValNorms = new Set(profilePool("family").map(normalizeText));
+const originValNorms = new Set(profilePool("origin").map(normalizeText));
+const partValNorms = new Set(profilePool("part").map(normalizeText));
+const aliasNormSet = new Set();
+for (const u of profileEligible) for (const t of splitAliases(parsedProfiles.get(u.id).aliasesRaw)) { aliasNormSet.add(normalizeText(t)); aliasNormSet.add(normalizeText(aliasBase(t))); }
+const QUESTION_DIM_PATTERNS = [
+  ["person", /誰|人物|博士|著者|作者|作家|人名|発見者|提唱者|探検家/],
+  ["family", /何科|科名/],
+  ["part", /部位/],
+  ["origin", /原産地|原産国|どこの国|産地は/],
+  ["book", /著書の名|書名|何という(本|書物|著書)|本の名前|著作の題名/],
+  ["drink", /飲み物|飲料|カクテル|ドリンク/],
+  ["dish", /料理名|定番料理|代表的な料理/],
+  ["quantity", /分量|何倍|何粒|何杯|何本|何枚|何個|何g|何mℓ|何ml|何分|何時間|何日|何年|どれだけの量/],
+  ["place-name", /寺院|神社|寺の名|場所の名/],
+];
+// 数量は単位の種類まで揃える（監査B-08の標本で、分量の問題に倍率・杯数・時間が
+// 並ぶ不良が確認されたため。mℓ と倍は同じ「数量」でも次元が違う）。
+function quantityClass(raw) {
+  if (/mℓ|ml|cc|リットル|大さじ|小さじ|カップ/.test(raw)) return "quantity:volume";
+  if (/kg|キログラム|グラム|(^|[^a-zA-Z])g([^a-zA-Z]|$)/.test(raw)) return "quantity:mass";
+  if (/倍|%|％|割/.test(raw)) return "quantity:ratio";
+  if (/粒|杯|本|枚|個|滴|片|束/.test(raw)) return "quantity:count";
+  if (/世紀|年|月|日|時間|分|秒|週間/.test(raw)) return "quantity:time";
+  if (/cm|mm|センチ|メートル/.test(raw)) return "quantity:length";
+  if (/度/.test(raw)) return "quantity:deg";
+  return "quantity:plain";
+}
+function answerShapeDim(ans) {
+  const raw = (ans ?? "").trim();
+  const n = normalizeText(raw);
+  if (!n) return "unknown";
+  if (profileNameNorms.has(n) || aliasNormSet.has(n)) return "spice-name";
+  if (familyValNorms.has(n)) return "family";
+  if (originValNorms.has(n)) return "origin";
+  if (partValNorms.has(n)) return "part";
+  if (/^\d/.test(raw) || (/\d/.test(raw) && /(g|mℓ|ml|粒|倍|分|時間|日|年|杯|本|枚|個|度|%|cm|mm|kg|世紀)/.test(raw))) return quantityClass(raw);
+  if (/(寺|神社|宮殿|城)$/.test(raw)) return "place-name";
+  return "unknown";
+}
+const dimCache = new Map();
+function questionDim(unit) {
+  if (dimCache.has(unit.id)) return dimCache.get(unit.id);
+  let dim = null;
+  for (const [d, re] of QUESTION_DIM_PATTERNS) if (re.test(unit.draftQa.q)) { dim = d; break; }
+  if (dim === "quantity") { const s = answerShapeDim(unit.draftQa.a); dim = s.startsWith("quantity") ? s : "quantity:plain"; }
+  if (!dim) dim = answerShapeDim(unit.draftQa.a);
+  dimCache.set(unit.id, dim);
+  return dim;
+}
+// 監査B-07是正の一般化: 正答（名称）が指すプロフィールを、名称バリアントの
+// 正規化形から引く。2つ以上のプロフィールが同じ名称バリアントを持つ場合は
+// 曖昧として null を記録し、展開対象にしない。
+const profileByNameNorm = new Map();
+for (const u of profileEligible) for (const v of nameVariants(parsedProfiles.get(u.id).name ?? "")) {
+  const n = normalizeText(v);
+  if (!n) continue;
+  if (profileByNameNorm.has(n) && profileByNameNorm.get(n) !== u.id) profileByNameNorm.set(n, null);
+  else profileByNameNorm.set(n, u.id);
+}
+
+// 同一章（取り込み章 chapterId）の verified draftQa 回答プール（誤答候補の母集団）
+const poolByChapter = new Map();
+for (const u of eligible) {
+  if (!poolByChapter.has(u.chapterId)) poolByChapter.set(u.chapterId, []);
+  poolByChapter.get(u.chapterId).push(u);
+}
+
+function distractorsFor(unit) {
+  const a = unit.draftQa.a;
+  const normA = normalizeText(a);
+  const normContent = normalizeText(unit.content);
+  const dimQ = questionDim(unit);
+  const forbidden = new Set([normA, ...unit.draftQa.alt.map(normalizeText)]);
+  const a1Excluded = a1ExcludedFor(unit.id, "draft-choice");
+  const cands = [];
+  // 監査B-08是正の補完2: 次元が判明している設問では、同次元の候補が同一章で
+  // 不足する場合に限り他章の照合済み回答も候補にする（温度・分量・科名などの
+  // 値は章をまたいでも同じ種類の事実であり、弱い誤答を残すより正しい）。
+  // 次元不明の設問は従来どおり同一章のみ（話題の近さが唯一の担保のため）。
+  const sameChapter = poolByChapter.get(unit.chapterId) ?? [];
+  const crossChapter = dimQ !== "unknown" ? eligible.filter((o) => o.chapterId !== unit.chapterId) : [];
+  for (const other of [...sameChapter, ...crossChapter]) {
+    if (other.id === unit.id) continue;
+    const cand = other.draftQa.a;
+    if (a1Excluded.has(cand)) continue; // 監査A1で真の問題と判定された誤答（DECISIONS #20）
+    const n = normalizeText(cand);
+    if (!n || forbidden.has(n)) continue;
+    // 曖昧さガード: 誤答候補が生成元単位の fact 本文に現れるものは「正答でもありうる」ため除外。
+    // 正答と部分文字列関係にある候補（例: 正答の一部・拡張）も除外する。
+    if (normContent.includes(n)) continue;
+    if (n.includes(normA) || normA.includes(n)) continue;
+    // 監査B-08是正: 次元（人物／数量／原産地／品目名など）が設問と異なる候補は、
+    // 形式だけで排除できてしまう弱い誤答になるため使わない。
+    if (questionDim(other) !== dimQ) continue;
+    cands.push({ cand, n, other });
+  }
+  // 重複（正規化後）を除き、優先度（同一節タイトル→同一ページ→同一カテゴリ→ハッシュ）で決定的に並べる
+  const seen = new Set();
+  const uniq = cands.filter((c) => (seen.has(c.n) ? false : (seen.add(c.n), true)));
+  uniq.sort((x, y) => {
+    const tier = (c) => (c.other.sectionTitle === unit.sectionTitle ? 0 : 1) + (c.other.source.page === unit.source.page ? 0 : 2) + (c.other.category === unit.category ? 0 : 4) + (c.other.chapterId === unit.chapterId ? 0 : 8);
+    return tier(x) - tier(y) || fnv(`${unit.id}|${x.other.id}`) - fnv(`${unit.id}|${y.other.id}`);
+  });
+  const picked = uniq.slice(0, 3).map((c) => c.cand);
+  // 監査B-08是正の補完: 科名・原産地・利用部位の次元では、同次元の候補が同一章の
+  // draftQa 回答に不足する場合に限り、照合済みプロフィールの同属性値（qsc生成と
+  // 同じ母集団）で補う。属性値は教科書の照合済み記載そのものである。
+  if (picked.length < 3 && ["family", "origin", "part"].includes(dimQ)) {
+    const have = new Set(picked.map(normalizeText));
+    const a1x = a1ExcludedFor(unit.id, `profile-${dimQ}`);
+    const extra = profilePool(dimQ).filter((v) => {
+      const n = normalizeText(v);
+      return n && !have.has(n) && !forbidden.has(n) && !a1x.has(v) && !normContent.includes(n) && !n.includes(normA) && !normA.includes(n);
+    });
+    extra.sort((x, y) => fnv(`${unit.id}|topup-${dimQ}|${x}`) - fnv(`${unit.id}|topup-${dimQ}|${y}`));
+    for (const v of extra) { if (picked.length >= 3) break; picked.push(v); }
+  }
+  return picked;
+}
+
+for (const unit of eligible) {
+  const { q, a, alt } = unit.draftQa;
+  const sec = sectionForPage(unit.source.page);
+  const { ref, imageId } = sourceRefFor(unit);
+  const imgEntry = manifestById.get(imageId);
+  const sourceOk = Boolean(imgEntry) && imgEntry.driveFileId !== null && imgEntry.extractionStatus !== "欠落";
+  const baseOk = Boolean(sec) && sourceOk && q.trim() !== "" && a.trim() !== "";
+  if (!baseOk) {
+    const reason = !sec ? "出典ページに対応する節が構造データにない" : !sourceOk ? `出典画像 ${imageId} が manifest に実在しない/欠落` : "draftQa の q/a が空";
+    exclude("one-answer", unit.id, reason); exclude("single-choice", unit.id, reason); exclude("flashcard", unit.id, reason);
+    continue;
+  }
+  const common = { version: 1, status: "verified", chapterId: sec.chapterId, sectionId: sec.id, difficulty: 2, knowledgeUnitIds: [unit.id], sourceRefs: [ref] };
+
+  // one-answer（一問一答）: draftQa の直接変換
+  report.attempted["one-answer"]++;
+  const accepted = [];
+  const seenAcc = new Set();
+  for (const t of [a, ...alt]) { const n = normalizeText(t); if (n && !seenAcc.has(n)) { seenAcc.add(n); accepted.push(t); } }
+  // 監査B-07是正: 正答がスパイスの名称そのものの問題では、その品目の照合済み
+  // プロフィールが「別名」として明記する語も正答に含める（別名も同じ品目の名称）。
+  // 対象は、正答が指すプロフィールを名称バリアントから引ける問題すべて。
+  {
+    const profId = profileByNameNorm.get(normalizeText(a));
+    if (profId) {
+      const prof = unitById.get(profId);
+      const added = [];
+      for (const v of aliasAnswersFor(prof)) { const n = normalizeText(v); if (n && !seenAcc.has(n)) { seenAcc.add(n); accepted.push(v); added.push(v); } }
+      if (added.length) report.aliasExpansions.push({ questionId: `q1-${unit.id}`, added });
+    }
+  }
+  questions.push({ ...common, id: `q1-${unit.id}`, format: "one-answer", prompt: q, acceptedAnswers: accepted, explanation: unit.content });
+  report.passed["one-answer"]++;
+
+  // フラッシュカード: draftQa の直接変換
+  report.attempted["flashcard"]++;
+  cards.push({ id: `card-${unit.id}`, kind: "qa", front: q, back: a, reverseOf: null, chapterId: sec.chapterId, sectionId: sec.id, status: "verified", knowledgeUnitIds: [unit.id], sourceRefs: [ref] });
+  report.passed["flashcard"]++;
+
+  // single-choice（四択）: 誤答が3つ確保できる場合のみ
+  report.attempted["single-choice"]++;
+  const distractors = distractorsFor(unit);
+  if (distractors.length < 3) { exclude("single-choice", unit.id, `誤答候補が3つ確保できない（ガード通過 ${distractors.length} 件）`); continue; }
+  const choices = [a, ...distractors];
+  // 決定的シャッフル（ハッシュ順）
+  const order = choices.map((c, i) => ({ c, k: fnv(`q4-${unit.id}|${i}|${c}`) })).sort((x, y) => x.k - y.k);
+  const shuffled = order.map((o) => o.c);
+  questions.push({ ...common, id: `q4-${unit.id}`, format: "single-choice", prompt: q, choices: shuffled, correctChoiceIndexes: [shuffled.indexOf(a)], explanation: unit.content });
+  report.passed["single-choice"]++;
+}
+
+// ---- Q2生成（プロフィール単位の構造化属性から。DECISIONS #18）
+// プロフィール定型文のパース・別名・次元基盤は、Q1/Q4生成の監査是正（B-07/B-08）でも
+// 使うため生成ループより前に定義してある（重複定義は置かない）。
 function profileDistractors(unit, key, answer) {
   const normA = normalizeText(answer);
   const a1Excluded = a1ExcludedFor(unit.id, `profile-${key}`);
@@ -430,14 +578,7 @@ function profileDistractors(unit, key, answer) {
   cands.sort((x, y) => fnv(`${unit.id}|${key}|${x}`) - fnv(`${unit.id}|${key}|${y}`));
   return cands.slice(0, 3);
 }
-// 別名→名称の逆引きガード: 別名基部の出現回数（全プロフィール）と、全プロフィールの名称バリアント集合
-const aliasBaseCount = new Map();
-for (const u of profileEligible) for (const tok of splitAliases(parsedProfiles.get(u.id).aliasesRaw)) {
-  const b = normalizeText(aliasBase(tok));
-  aliasBaseCount.set(b, (aliasBaseCount.get(b) ?? 0) + 1);
-}
-const allNameNorms = new Set();
-for (const u of profileEligible) for (const v of nameVariants(parsedProfiles.get(u.id).name ?? "")) allNameNorms.add(normalizeText(v));
+// 別名→名称の逆引きガード（aliasBaseCount / allNameNorms）は生成ループより前に定義済み。
 
 for (const unit of profileEligible) {
   const p = parsedProfiles.get(unit.id);
@@ -488,13 +629,16 @@ for (const unit of profileEligible) {
     report.attempted["term-input"]++;
     const uniqTok = aliasToks.find((t) => { const b = normalizeText(aliasBase(t)); return aliasBaseCount.get(b) === 1 && !allNameNorms.has(b); });
     if (uniqTok) {
-      questions.push({ ...common, id: `qti-rev-${unit.id}`, format: "term-input", prompt: `別名「${aliasBase(uniqTok)}」と呼ばれるスパイス＆ハーブの名称を答えよ。`, acceptedAnswers: nameVariants(p.name), explanation: unit.content });
+      // 監査B-07是正: 名称を答える問題のため、この品目の別名も許容回答に含める。
+      const acc = nameAcceptedAnswers(unit);
+      if (acc.length > nameVariants(p.name).length) report.aliasExpansions.push({ questionId: `qti-rev-${unit.id}`, added: acc.slice(nameVariants(p.name).length) });
+      questions.push({ ...common, id: `qti-rev-${unit.id}`, format: "term-input", prompt: `別名「${aliasBase(uniqTok)}」と呼ばれるスパイス＆ハーブの名称を答えよ。`, acceptedAnswers: acc, explanation: unit.content });
       report.passed["term-input"]++; report.q2ByKind["reverse-term"]++;
     } else exclude("reverse-term", unit.id, "一意な別名がない（他のプロフィールと共有される別名のみ）");
   } else { missing("alias-term", "別名"); missing("reverse-term", "別名"); }
   // フラッシュカード: 裏は単位 content そのもの（プロフィール全文）
   report.attempted["flashcard"]++;
-  cards.push({ id: `card-profile-${unit.id}`, front: `${p.name}のプロフィールは？`, back: unit.content, reverseOf: null, chapterId: sec.chapterId, sectionId: sec.id, status: "verified", knowledgeUnitIds: [unit.id], sourceRefs: [ref] });
+  cards.push({ id: `card-profile-${unit.id}`, kind: "profile", front: `${p.name}のプロフィールは？`, back: unit.content, reverseOf: null, chapterId: sec.chapterId, sectionId: sec.id, status: "verified", knowledgeUnitIds: [unit.id], sourceRefs: [ref] });
   report.passed["flashcard"]++; report.q2ByKind["profile-card"]++;
 }
 
@@ -866,10 +1010,15 @@ function validateGenerated(qs, cs) {
       if (new Set(norms).size !== norms.length) problems.push(`${q.id}: 選択肢に正規化後の重複`);
       for (const c of q.choices) {
         if (c === unit.draftQa.a) continue;
-        const ok = (poolByChapter.get(unit.chapterId) ?? []).some((o) => o.id !== unit.id && o.draftQa.a === c);
-        if (!ok) problems.push(`${q.id}: 誤答「${c}」が同一章の照合済み回答に存在しない`);
+        const qDim = questionDim(unit);
+        const srcUnits = eligible.filter((o) => o.id !== unit.id && o.draftQa.a === c);
+        const ok = srcUnits.some((o) => o.chapterId === unit.chapterId || questionDim(o) === qDim)
+          || (["family", "origin", "part"].includes(qDim) && profilePool(qDim).includes(c));
+        if (!ok) problems.push(`${q.id}: 誤答「${c}」が同一章の照合済み回答にも同次元のプロフィール属性値にも存在しない`);
         if (normalizeText(unit.content).includes(normalizeText(c))) problems.push(`${q.id}: 誤答「${c}」が生成元単位の本文に現れる（曖昧さガード違反）`);
         if (a1ExcludedFor(unit.id, "draft-choice").has(c)) problems.push(`${q.id}: 誤答「${c}」が監査A1除外リストに登録されている（DECISIONS #20）`);
+        const srcUnit = (poolByChapter.get(unit.chapterId) ?? []).find((o) => o.id !== unit.id && o.draftQa.a === c);
+        if (srcUnit && questionDim(srcUnit) !== questionDim(unit)) problems.push(`${q.id}: 誤答「${c}」の次元が設問と異なる（監査B-08是正）`);
       }
     }
     // ---- Q2（プロフィール属性由来）の根拠チェック: 正答・許容回答が単位 content の抽出値と一致すること
@@ -916,7 +1065,7 @@ function validateGenerated(qs, cs) {
           if (aliasBaseCount.get(normalizeText(base)) !== 1) problems.push(`${q.id}: 別名「${base}」が全プロフィール中で一意でない（逆引きガード違反）`);
           if (allNameNorms.has(normalizeText(base))) problems.push(`${q.id}: 別名「${base}」がプロフィール名称と一致する（逆引きガード違反）`);
         }
-        if (!sameSet(q.acceptedAnswers ?? [], nameVariants(p.name))) problems.push(`${q.id}: 許容回答がプロフィールの名称バリアントと不一致`);
+        if (!sameSet(q.acceptedAnswers ?? [], nameAcceptedAnswers(unit))) problems.push(`${q.id}: 許容回答がプロフィールの名称バリアント＋別名（監査B-07是正）と不一致`);
       }
     }
     // ---- F1（プロフィール属性由来の追加形式。DECISIONS #21）の根拠チェック
@@ -1010,14 +1159,78 @@ function validateGenerated(qs, cs) {
     const unit = unitById.get(c.knowledgeUnitIds[0]);
     if (!unit) { problems.push(`${c.id}: 生成元単位が存在しない`); continue; }
     if (!c.sourceRefs.length) problems.push(`${c.id}: 出典なし`);
+    // FIX1: 種別（kind）の接頭辞整合（DECISIONS #34）
+    const expectedKind = c.id.startsWith("card-term-") ? "term" : c.id.startsWith("card-rev-") ? "reverse" : c.id.startsWith("card-profile-") ? "profile" : "qa";
+    if (c.kind !== expectedKind) problems.push(`${c.id}: kind が「${expectedKind}」でない`);
     if (c.id.startsWith("card-profile-")) {
       const p = parseProfile(unit.content);
       if (c.front !== `${p.name}のプロフィールは？`) problems.push(`${c.id}: 表がテンプレートと不一致`);
       if (c.back !== unit.content) problems.push(`${c.id}: 裏がプロフィール単位の content と不一致`);
+    } else if (c.id.startsWith("card-term-")) {
+      // FIX1 用語カード: 表=名称、裏=接頭辞を除いたプロフィール content、reverseOf は逆引きの有無と一致
+      const p = parseProfile(unit.content);
+      if (c.front !== p.name) problems.push(`${c.id}: 表がプロフィールの名称と不一致`);
+      if (c.back !== unit.content.replace(/^.+?:\s/, "")) problems.push(`${c.id}: 裏がプロフィール content（接頭辞除き）と不一致`);
+      const rev = cs.find((x) => x.id === `card-rev-${unit.id}`);
+      if ((c.reverseOf ?? null) !== (rev ? rev.id : null)) problems.push(`${c.id}: reverseOf が逆引きカードの有無と不一致`);
+    } else if (c.id.startsWith("card-rev-")) {
+      // FIX1 逆引きカード: 表=選択規則どおりの名称非含有の事実、裏=名称、出典は [プロフィール, 事実]
+      const p = parseProfile(unit.content);
+      const factUnit = unitById.get(c.knowledgeUnitIds[1]);
+      if (!factUnit) problems.push(`${c.id}: 逆引きの生成元事実単位が存在しない`);
+      else {
+        const expected = fix1ReverseFactFor(unit, p);
+        if (!expected || expected.id !== factUnit.id) problems.push(`${c.id}: 逆引きの事実が選択規則（名称・別名基部を含まない最初の1件）と不一致`);
+        if (c.front !== factUnit.content) problems.push(`${c.id}: 表が事実単位の content と不一致`);
+        if (fix1ForbiddenFor(p).size && [...fix1ForbiddenFor(p)].some((v) => v && c.front.includes(v))) problems.push(`${c.id}: 表に名称・別名が含まれている`);
+        if (c.sourceRefs.length !== 2 || c.sourceRefs[1].bookPage !== factUnit.source.page) problems.push(`${c.id}: 出典[1]が事実単位と不一致`);
+      }
+      if (c.back !== p.name) problems.push(`${c.id}: 裏がプロフィールの名称と不一致`);
+      if (c.reverseOf !== `card-term-${unit.id}`) problems.push(`${c.id}: reverseOf が用語カードを指していない`);
     } else if (c.front !== unit.draftQa.q || c.back !== unit.draftQa.a) problems.push(`${c.id}: 表/裏が draftQa と不一致`);
   }
   return problems;
 }
+// ---- FIX1: 用語カード・逆引きカード（検証済みプロフィール／事実単位からのみ。DECISIONS #34）
+// 用語カード: 表=名称、裏=プロフィール content から「名称: 」接頭辞を除いた検証済み要点（属性・別名・検定級・英名）。
+// 逆引きカード: 表=その品目の検証済み spice-fact のうち名称・別名基部を含まない最初の1件（単位ID順）、裏=名称。
+// 名称を含む事実しかない品目は表に答えが漏れるため作らず、fix1Skipped に記録する（除外集計には混ぜない）。
+const fix1FactsBySpice = new Map();
+for (const u of units) {
+  if (u.kind !== "spice-fact" || u.status !== "verified" || !u.spice) continue;
+  if (!fix1FactsBySpice.has(u.spice.id)) fix1FactsBySpice.set(u.spice.id, []);
+  fix1FactsBySpice.get(u.spice.id).push(u);
+}
+for (const list of fix1FactsBySpice.values()) list.sort((a, b) => (a.id < b.id ? -1 : 1));
+const fix1ForbiddenFor = (p) => {
+  const forbidden = new Set([p.name, ...p.name.split("/").map((s) => s.trim())]);
+  for (const tok of splitAliases(p.aliasesRaw)) { const b = aliasBase(tok); if (b) forbidden.add(b); }
+  return forbidden;
+};
+const fix1ReverseFactFor = (unit, p) => {
+  const forbidden = fix1ForbiddenFor(p);
+  return (fix1FactsBySpice.get(unit.spice?.id) ?? []).find((f) => ![...forbidden].some((v) => v && f.content.includes(v))) ?? null;
+};
+for (const unit of profileEligible) {
+  const p = parsedProfiles.get(unit.id);
+  const sec = sectionForPage(unit.source.page);
+  const { ref } = sourceRefFor(unit);
+  // 用語カード
+  report.attempted["flashcard"]++;
+  const termCard = { id: `card-term-${unit.id}`, kind: "term", front: p.name, back: unit.content.replace(/^.+?:\s/, ""), reverseOf: null, chapterId: sec.chapterId, sectionId: sec.id, status: "verified", knowledgeUnitIds: [unit.id], sourceRefs: [ref] };
+  cards.push(termCard);
+  report.passed["flashcard"]++; report.fix1ByKind["term-card"]++;
+  // 逆引きカード（名称・別名を含まない検証済み事実がある場合のみ）
+  const cand = fix1ReverseFactFor(unit, p);
+  if (!cand) { report.fix1Skipped.push({ kind: "reverse-card", unitId: unit.id, reason: "名称・別名基部を含まない検証済み事実がないため、表に答え（名称）が漏れる逆引きカードは作らない（DECISIONS #34）" }); continue; }
+  report.attempted["flashcard"]++;
+  const { ref: factRef } = sourceRefFor(cand);
+  const revCard = { id: `card-rev-${unit.id}`, kind: "reverse", front: cand.content, back: p.name, reverseOf: termCard.id, chapterId: sec.chapterId, sectionId: sec.id, status: "verified", knowledgeUnitIds: [unit.id, cand.id], sourceRefs: [ref, factRef] };
+  termCard.reverseOf = revCard.id;
+  cards.push(revCard);
+  report.passed["flashcard"]++; report.fix1ByKind["reverse-card"]++;
+}
+
 const problems = validateGenerated(questions, cards);
 if (problems.length) {
   // 検証失敗は生成バグかデータ異常。落として続行せず、原因を報告して止める（握りつぶさない）。
@@ -1086,6 +1299,10 @@ const meta = {
   d1HeldQuestions: d1Report.heldIds.length,
   d1HeldIds: d1Report.heldIds,
   formalCards: cards.length,
+  aliasExpandedQuestions: report.aliasExpansions.length,
+  fix1ByKind: report.fix1ByKind,
+  fix1Cards: report.fix1ByKind["term-card"] + report.fix1ByKind["reverse-card"],
+  fix1SkippedItems: report.fix1Skipped.length,
   excludedItems: report.excluded.filter((e) => e.kind !== "all").length,
   excludedUnits: report.excluded.filter((e) => e.kind === "all").length,
   files: written.map((w) => w.rel),
@@ -1099,7 +1316,8 @@ const header = `/**
  * 散文単位の転記支持文に基づく人手作成一問一答（拡充Q3、DECISIONS #19）、
  * プロフィール属性から機械検証できる追加7形式の生成（拡充F1、DECISIONS #21）、
  * 転記本文の番号付き手順・支持文に基づく人手作成の並べ替え・短文記述（追加形式F2、DECISIONS #26）、
- * 転記本文の複数段落の支持文・明示的な対比に基づく人手作成の長文記述・比較記述（追加形式F3、DECISIONS #27）。
+ * 転記本文の複数段落の支持文・明示的な対比に基づく人手作成の長文記述・比較記述（追加形式F3、DECISIONS #27）、
+ * プロフィール単位からの用語カードと、名称を含まない検証済み事実からの逆引きカード（修正バッチFIX1、DECISIONS #34）。
  * 難易度は較正D1（DECISIONS #22）で、出題範囲の階層と形式負荷に基づく相対指標として付与する
  * （実際の受験者の正答率ではない。較正できない問題は2に据え置き、メタの d1HeldIds に記録）。
  * データ本体は src/data/questions/ 配下の章別分割JSON（全ファイル128KB未満）。
@@ -1115,7 +1333,7 @@ ${cImports.map((w) => `  ...(${w.ident} as unknown as Flashcard[]),`).join("\n")
 ];
 `;
 writeFileSync(join(repoRoot, "src", "data", "formal-questions.ts"), header);
-writeFileSync(join(repoRoot, "scripts", "question-generation-report.json"), JSON.stringify({ meta, attempted: report.attempted, passed: report.passed, q2ByKind: report.q2ByKind, f1ByKind: report.f1ByKind, f1Skipped: report.f1Skipped, f2ByKind: report.f2ByKind, f2Skipped: report.f2Skipped, f3ByKind: report.f3ByKind, f3Skipped: report.f3Skipped, q3Questions: report.q3Questions, d1: d1Report, excluded: report.excluded }, null, 2) + "\n");
+writeFileSync(join(repoRoot, "scripts", "question-generation-report.json"), JSON.stringify({ meta, attempted: report.attempted, passed: report.passed, q2ByKind: report.q2ByKind, f1ByKind: report.f1ByKind, f1Skipped: report.f1Skipped, f2ByKind: report.f2ByKind, f2Skipped: report.f2Skipped, f3ByKind: report.f3ByKind, f3Skipped: report.f3Skipped, q3Questions: report.q3Questions, fix1ByKind: report.fix1ByKind, fix1Skipped: report.fix1Skipped, aliasExpansions: report.aliasExpansions, d1: d1Report, excluded: report.excluded }, null, 2) + "\n");
 
 for (const w of written) console.log(`  ${w.rel}: ${w.count}件 / ${w.bytes} bytes`);
-console.log(`生成完了: 正式問題 ${questions.length}問（one-answer ${byFormat["one-answer"] ?? 0} / single-choice ${byFormat["single-choice"] ?? 0} / fill-blank ${byFormat["fill-blank"] ?? 0} / term-input ${byFormat["term-input"] ?? 0} / true-false ${byFormat["true-false"] ?? 0} / multiple-choice ${byFormat["multiple-choice"] ?? 0} / matching ${byFormat["matching"] ?? 0} / reverse-lookup ${byFormat["reverse-lookup"] ?? 0} / table-fill ${byFormat["table-fill"] ?? 0} / composite ${byFormat["composite"] ?? 0} / figure ${byFormat["figure"] ?? 0} / ordering ${byFormat["ordering"] ?? 0} / short-essay ${byFormat["short-essay"] ?? 0} / long-essay ${byFormat["long-essay"] ?? 0} / compare-essay ${byFormat["compare-essay"] ?? 0}）、正式カード ${cards.length}件。Q2内訳: ${JSON.stringify(report.q2ByKind)}、Q3一問一答: ${report.q3Questions}問、F1内訳: ${JSON.stringify(report.f1ByKind)}、F1スキップ: ${report.f1Skipped.length}件、F2内訳: ${JSON.stringify(report.f2ByKind)}、F2スキップ: ${report.f2Skipped.length}件、F3内訳: ${JSON.stringify(report.f3ByKind)}、F3スキップ: ${report.f3Skipped.length}件、除外（項目）${meta.excludedItems}件・除外（単位）${meta.excludedUnits}件。難易度較正D1: 分布 ${JSON.stringify(d1Report.byDifficulty)}（うち較正済み ${questions.length - d1Report.heldIds.length}問、据え置き ${d1Report.heldIds.length}問）。詳細は scripts/question-generation-report.json`);
+console.log(`生成完了: 正式問題 ${questions.length}問（one-answer ${byFormat["one-answer"] ?? 0} / single-choice ${byFormat["single-choice"] ?? 0} / fill-blank ${byFormat["fill-blank"] ?? 0} / term-input ${byFormat["term-input"] ?? 0} / true-false ${byFormat["true-false"] ?? 0} / multiple-choice ${byFormat["multiple-choice"] ?? 0} / matching ${byFormat["matching"] ?? 0} / reverse-lookup ${byFormat["reverse-lookup"] ?? 0} / table-fill ${byFormat["table-fill"] ?? 0} / composite ${byFormat["composite"] ?? 0} / figure ${byFormat["figure"] ?? 0} / ordering ${byFormat["ordering"] ?? 0} / short-essay ${byFormat["short-essay"] ?? 0} / long-essay ${byFormat["long-essay"] ?? 0} / compare-essay ${byFormat["compare-essay"] ?? 0}）、正式カード ${cards.length}件。Q2内訳: ${JSON.stringify(report.q2ByKind)}、Q3一問一答: ${report.q3Questions}問、F1内訳: ${JSON.stringify(report.f1ByKind)}、F1スキップ: ${report.f1Skipped.length}件、F2内訳: ${JSON.stringify(report.f2ByKind)}、F2スキップ: ${report.f2Skipped.length}件、F3内訳: ${JSON.stringify(report.f3ByKind)}、F3スキップ: ${report.f3Skipped.length}件、除外（項目）${meta.excludedItems}件・除外（単位）${meta.excludedUnits}件。FIX1内訳: ${JSON.stringify(report.fix1ByKind)}、FIX1スキップ: ${report.fix1Skipped.length}件。難易度較正D1: 分布 ${JSON.stringify(d1Report.byDifficulty)}（うち較正済み ${questions.length - d1Report.heldIds.length}問、据え置き ${d1Report.heldIds.length}問）。詳細は scripts/question-generation-report.json`);

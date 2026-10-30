@@ -24,9 +24,9 @@ describe("画面スモーク（E1: 分割後の8画面）", () => {
   it("ホーム: 件数表示が軽量サマリ経由で描画される", () => {
     const html = render(createElement(Home, { store, update }));
     expect(html).toContain("スパイス＆ハーブ検定1級 学習アプリ");
-    expect(html).toContain("1819"); // 正式問題数
+    expect(html).toContain("1804"); // 正式問題数
     expect(html).toContain("545"); // 取り込み済み知識単位数
-    expect(html).toContain("130"); // 転記済みページ数
+    expect(html).toContain("133"); // 転記済みページ数
   });
   it("演習: サンプル問題が QuestionRunner で描画される", () => {
     const html = render(createElement(Practice, { store, update }));
@@ -53,7 +53,7 @@ describe("画面スモーク（E1: 分割後の8画面）", () => {
   it("模試: 出題候補数がサマリ経由で描画される", () => {
     const html = render(createElement(Exam, { store, update }));
     expect(html).toContain("模擬試験");
-    expect(html).toContain("1819");
+    expect(html).toContain("1804");
   });
   it("分析: 網羅率の5指標が描画される", () => {
     const html = render(createElement(Stats, { store }));
@@ -69,7 +69,7 @@ describe("画面スモーク（E1: 分割後の8画面）", () => {
     expect(html).toContain("検索対象");
     expect(html).toContain("検索結果 合計");
     // SSR では数値と「件」の間に React のコメントマーカーが挟まるため数値で固定する
-    expect(html).toContain("1917");
+    expect(html).toContain("1902");
   });
   it("品質管理: 検証集計が描画される", () => {
     const html = render(createElement(QaPage));

@@ -3,7 +3,9 @@
 // 章・形式の複数選択（OR）と節・状態・転記状態の条件を追加（docs/DECISIONS.md #33）。
 // 絞り込みの純粋ロジックは src/domain/search.ts に置き、単体テストで固定する。
 import { useState } from "react";
+import { Link, useNavigate } from "react-router";
 import { ALL_SECTIONS, CHAPTERS } from "../data/structure";
+import type { StoreData } from "../domain/store";
 import { QUESTIONS, SAMPLE_QUESTIONS } from "../data/questions";
 import { FORMAT_LABELS, type QuestionFormat, type QuestionStatus } from "../domain/types";
 import {
@@ -14,11 +16,18 @@ import {
   availableTranscriptionStatuses,
   filterSearchResults,
   hasActiveSearchFilters,
+  keywordExcerpt,
   type SearchFilters,
   type SearchTarget,
 } from "../domain/search";
+import { TRANSCRIPT_SECTION_TEXT } from "../data/transcripts";
 
 const SECTION_BY_ID = new Map(ALL_SECTIONS.map((s) => [s.id, s]));
+// 節には転記本文を付与する（キーワードはタイトルだけでなく本文にも一致する、監査C-15）。
+const SEARCHABLE_SECTIONS = ALL_SECTIONS.map((s) => ({
+  ...s,
+  bodyText: TRANSCRIPT_SECTION_TEXT.get(s.id) ?? "",
+}));
 // 問題には所属する節の転記状態を付与する（転記状態フィルタの判定用、#33）。
 // 節 ID は全問題で実在することを単体テストで固定している。
 const ALL_QUESTIONS = [...QUESTIONS, ...SAMPLE_QUESTIONS].map((q) => ({
@@ -40,10 +49,11 @@ const STATUS_LABELS: Record<QuestionStatus, string> = {
 // 転記状態の選択肢は節データに実在する状態のみ（転記済み・未処理、#33）。
 const TRANSCRIPTION_OPTIONS = availableTranscriptionStatuses(ALL_SECTIONS);
 
-export default function SearchPage() {
+export default function SearchPage({ update }: { update?: (fn: (d: StoreData) => StoreData) => void }) {
+  const navigate = useNavigate();
   const [filters, setFilters] = useState<SearchFilters>(DEFAULT_SEARCH_FILTERS);
   const { sections: secs, questions: qs, total } = filterSearchResults(
-    ALL_SECTIONS,
+    SEARCHABLE_SECTIONS,
     ALL_QUESTIONS,
     filters,
   );
@@ -140,7 +150,7 @@ export default function SearchPage() {
       <h1>横断検索</h1>
       <input
         aria-label="キーワード"
-        placeholder="キーワード（教材・問題・用語）"
+        placeholder="キーワード（教材の本文・問題文）"
         value={filters.keyword}
         onChange={(e) => set({ keyword: e.target.value })}
       />
@@ -300,11 +310,34 @@ export default function SearchPage() {
           <p className="muted">該当する教材（節）はありません。</p>
         ) : (
           <ul>
-            {secs.slice(0, 30).map((s) => (
-              <li key={s.id}>
-                {s.title}（p.{s.bookPage}・{s.transcriptionStatus}）
-              </li>
-            ))}
+            {secs.slice(0, 30).map((s) => {
+              // タイトルに一致せず本文にだけ一致した節は、一致箇所の抜粋を示す（監査C-15）
+              const excerpt =
+                filters.keyword && !s.title.includes(filters.keyword)
+                  ? keywordExcerpt(s.bodyText ?? "", filters.keyword)
+                  : null;
+              return (
+                <li key={s.id}>
+                  {s.title}（p.{s.bookPage}・{s.transcriptionStatus}）{" "}
+                  <button
+                    type="button"
+                    className="ghost"
+                    onClick={() => {
+                      update?.((d: StoreData) => { d.reader.sectionId = s.id; return d; });
+                      navigate("/reader");
+                    }}
+                  >
+                    リーダーで開く
+                  </button>
+                  {excerpt && (
+                    <>
+                      <br />
+                      <span className="muted">{excerpt}</span>
+                    </>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         )}
       </section>
@@ -316,7 +349,8 @@ export default function SearchPage() {
           <ul>
             {qs.map((x) => (
               <li key={x.id}>
-                [{FORMAT_LABELS[x.format]}/{x.status}] {x.prompt.slice(0, 80)}
+                [{FORMAT_LABELS[x.format]}/{x.status}] {x.prompt.slice(0, 80)}{" "}
+                <Link to="/practice" state={{ questionId: x.id }}>演習で開く</Link>
               </li>
             ))}
           </ul>

@@ -49,7 +49,7 @@ export const TRANSCRIPT_META = {
   origin: "原本画像（Google Drive フォルダ「スパイスハーブ検定」のスキャン）を目視読解して全文転記",
   rule: "docs/TRANSCRIPTION.md",
   files: ["preface.json", "ch1.json", "ch2-1.json", "ch2-2.json", "ch2-3.json", "ch3.json", "exam.json"],
-  transcribedPages: 130,
+  transcribedPages: 133,
   totalSourceImages: 139,
 } as const;
 
@@ -71,6 +71,29 @@ export const TRANSCRIPT_BY_PAGE: Map<number, TranscriptPage> = new Map(TRANSCRIP
 export function transcriptPagesForSection(sectionId: string): TranscriptPage[] {
   return TRANSCRIPT_PAGES.filter(p => p.sectionId === sectionId);
 }
+
+/**
+ * 節ID→転記本文の連結テキスト（横断検索のキーワード索引、監査C-15是正）。
+ * 計数定義（tests/transcripts.test.ts の pageChars）と同じ構成要素
+ * （text＋title＋caption＋表セル）をページ順に連結する。編集注記 note は
+ * 書籍本文ではないため含めない。
+ */
+export const TRANSCRIPT_SECTION_TEXT: ReadonlyMap<string, string> = (() => {
+  const map = new Map<string, string[]>();
+  for (const p of TRANSCRIPT_PAGES) {
+    const parts: string[] = [];
+    for (const b of p.blocks) {
+      if (b.title) parts.push(b.title);
+      if (b.text) parts.push(b.text);
+      if (b.caption) parts.push(b.caption);
+      if (b.rows) for (const row of b.rows) parts.push(...row);
+    }
+    const arr = map.get(p.sectionId) ?? [];
+    arr.push(parts.join(""));
+    map.set(p.sectionId, arr);
+  }
+  return new Map([...map].map(([k, v]) => [k, v.join(" ")]));
+})();
 
 /** ページ→原本画像ID（転記・生成で使う実測対応。manifest の連番からは導かない） */
 export function imageIdForBookPage(page: number): string {

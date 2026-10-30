@@ -135,3 +135,46 @@ describe("永続化と後方互換（C1）", () => {
     expect(loadStore()).toEqual(defaultStore);
   });
 });
+
+describe("カードの種別・絞り込み・シャッフル（FIX1、DECISIONS #34）: domain/cards・domain/shuffle", () => {
+  it("cardKindOf は kind フィールドを優先し、未設定なら ID 接頭辞から判定する（後方互換）", async () => {
+    const { cardKindOf } = await import("../src/domain/cards");
+    const base = CARDS[0]!;
+    expect(cardKindOf({ ...base, kind: "term" })).toBe("term"); // フィールド優先
+    const bare = { ...base } as Record<string, unknown>;
+    delete bare.kind;
+    expect(cardKindOf({ ...bare, id: "card-term-x" } as never)).toBe("term");
+    expect(cardKindOf({ ...bare, id: "card-rev-x" } as never)).toBe("reverse");
+    expect(cardKindOf({ ...bare, id: "card-profile-x" } as never)).toBe("profile");
+    expect(cardKindOf({ ...bare, id: "card-x" } as never)).toBe("qa");
+    expect(cardKindOf(SAMPLE_CARDS[0]!)).toBe("qa"); // サンプルカード（kind未設定）は一問一答扱い
+  });
+
+  it("実データの種別別件数と、種別・章フィルタの結果が実測と一致する", async () => {
+    const { countCardsByKind, filterCards } = await import("../src/domain/cards");
+    expect(countCardsByKind(CARDS)).toEqual({ qa: 379, profile: 80, term: 80, reverse: 63 });
+    expect(filterCards(CARDS, { kind: null, chapterId: null }).length).toBe(602);
+    expect(filterCards(CARDS, { kind: "term", chapterId: null }).length).toBe(80);
+    expect(filterCards(CARDS, { kind: "reverse", chapterId: null }).length).toBe(63);
+    expect(filterCards(CARDS, { kind: "term", chapterId: "ch2" }).length).toBe(80); // 用語は全件第二章
+    expect(filterCards(CARDS, { kind: "qa", chapterId: "ch2" }).length).toBe(138); // 第二章カード218件の内訳: 一問一答138＋プロフィール80
+    expect(filterCards(CARDS, { kind: null, chapterId: "preface" }).length).toBe(91);
+    // フィルタは入力順を保持する（並び替えはシャッフル側の責務）
+    const terms = filterCards(CARDS, { kind: "term", chapterId: null });
+    const ids = terms.map((c) => c.id);
+    expect(ids).toEqual(CARDS.filter((c) => c.id.startsWith("card-term-")).map((c) => c.id));
+  });
+
+  it("seededShuffle は決定的で、要素の集合を変えず、入力を変更しない", async () => {
+    const { seededShuffle, fnv1a } = await import("../src/domain/shuffle");
+    const input = Array.from({ length: 50 }, (_, i) => i);
+    const a = seededShuffle(input, "seed-a");
+    const b = seededShuffle(input, "seed-a");
+    expect(a).toEqual(b); // 同シード→同結果
+    expect([...a].sort((x, y) => x - y)).toEqual(input); // 集合不変
+    expect(input).toEqual(Array.from({ length: 50 }, (_, i) => i)); // 入力不変
+    expect(seededShuffle(input, "seed-b")).not.toEqual(a); // 別シード→別順序
+    expect(fnv1a("x")).toBe(fnv1a("x"));
+    expect(seededShuffle([], "s")).toEqual([]);
+  });
+});

@@ -61,6 +61,14 @@ function singleCharBoundaryHit(boundaryText: string, ch: string): boolean {
   }
   return false;
 }
+/** 長いキーワードの派生断片（監査B-06是正）: 読点・中点・括弧で分割した断片群。 */
+function derivedFragments(keyword: string): string[] {
+  return keyword
+    .split(/[、,・]/)
+    .flatMap((s) => s.split(/[(（]/))
+    .map((s) => s.replace(/[)）]/g, "").trim())
+    .filter((s) => normalizeText(s).length >= 2);
+}
 /** キーワード1件の一致判定。normAnswer は正規化済み回答、boundaryText は区切りを残した回答（単漢字判定用）。 */
 function keywordHit(normAnswer: string, boundaryText: string, keyword: string, useBoundary: boolean): boolean {
   const variants = [keyword];
@@ -72,6 +80,13 @@ function keywordHit(normAnswer: string, boundaryText: string, keyword: string, u
     if (n.length === 1) {
       if (useBoundary ? singleCharBoundaryHit(boundaryText, n) : normAnswer.includes(n)) return true;
     } else if (normAnswer.includes(n)) return true;
+  }
+  // 監査B-06是正: 正規化後12字以上の単一キーワードは、言い回しの少しの違いで
+  // 連続部分文字列にならず正しい回答を落とす。断片（2字以上）が順序どおり
+  // 近接して現れる場合も一致とみなす（全断片が必要なため、羅列の緩和にはならない）。
+  if (normalizeText(keyword).length >= 12) {
+    const frags = derivedFragments(keyword);
+    if (frags.length >= 2 && proximityGroupHit(normAnswer, frags)) return true;
   }
   return false;
 }
@@ -138,7 +153,11 @@ export function gradeEssayRubric(rubric: RubricPoint[], answer: string): GradeRe
     if (hit){got+=p.points; matched.push(p.id);} else if (p.required) missed.push(p.id);
   }
   const ratio = total? got/total:0;
-  return { correct: missed.length===0 && ratio===1 ? true : ratio===0 ? false : null, scoreRatio: ratio, autoScoreRatio: ratio, matchedPointIds: matched, missedRequiredIds: missed, note: "ルールベース自動判定（要点キーワード一致）。最終判定は自己採点と分離して保存される。" };
+  // 監査B-05是正（AUDIT_DECISIONS AD-1）: キーワード一致だけでは文としての正しさ
+  // （意味・矛盾の有無）を判定できないため、要点が全て揃っても自動判定では
+  // 「正解」と断定しない（correct は null＝要自己確認）。要点が皆無の場合の
+  // 不正解（false）だけは断定できるため維持する。
+  return { correct: ratio===0 ? false : null, scoreRatio: ratio, autoScoreRatio: ratio, matchedPointIds: matched, missedRequiredIds: missed, note: ratio===1 ? "全ての要点キーワードが含まれています。ただし文としての正しさは自動判定できないため、正解とは断定しません。最終判定は自己採点で確定してください。" : "ルールベース自動判定（要点キーワード一致）。最終判定は自己採点と分離して保存される。" };
 }
 export function gradeQuestion(q: Question, answer: unknown): GradeResult {
   switch(q.format){

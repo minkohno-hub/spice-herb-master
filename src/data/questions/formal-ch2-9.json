@@ -4,28 +4,6 @@
   "status": "verified",
   "chapterId": "ch2",
   "sectionId": "item-saffron",
-  "difficulty": 1,
-  "knowledgeUnitIds": [
-   "saffron-profile"
-  ],
-  "sourceRefs": [
-   {
-    "manifestImageId": "IMG_9639",
-    "bookPage": 64,
-    "locationNote": "本書 p.64（原本画像 IMG_9639.PNG）。原文照合 batch20 で照合済みの知識単位 saffron-profile から生成"
-   }
-  ],
-  "id": "qtf-part-false-saffron-profile",
-  "format": "true-false",
-  "prompt": "サフランの利用部位は根茎である。",
-  "correctBoolean": false,
-  "explanation": "サフラン: 科名はアヤメ科。原産地は南ヨーロッパ、西アジア。利用部位は花の雌しべ。別名はサフランクロッカス、蕃紅花(ばんこうか)。検定1・2・3級の対象。"
- },
- {
-  "version": 1,
-  "status": "verified",
-  "chapterId": "ch2",
-  "sectionId": "item-saffron",
   "difficulty": 2,
   "knowledgeUnitIds": [
    "saffron-profile"
@@ -2392,5 +2370,27 @@
    1
   ],
   "explanation": "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chili",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "chili-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9652",
+    "bookPage": 76,
+    "locationNote": "本書 p.76（原本画像 IMG_9652.PNG）。原文照合 batch2 で照合済みの知識単位 chili-profile から生成"
+   }
+  ],
+  "id": "qtf-family-chili-profile",
+  "format": "true-false",
+  "prompt": "唐辛子の科名はナス科である。",
+  "correctBoolean": true,
+  "explanation": "唐辛子: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実、葉。別名はチリペッパー、チリ、カイエンペッパー(品種の一部)、鷹の爪(品種の一部)。検定1・2・3級の対象。"
  }
 ]

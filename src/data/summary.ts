@@ -13,9 +13,9 @@
  */
 export const APP_DATA_SUMMARY = {
   /** 正式問題数（QUESTIONS.length） */
-  formalQuestions: 1819,
+  formalQuestions: 1804,
   /** 正式カード数（CARDS.length） */
-  formalCards: 459,
+  formalCards: 602,
   /** エンジン検証用サンプル問題数（SAMPLE_QUESTIONS.length） */
   sampleQuestions: 17,
   /** サンプルカード数（SAMPLE_CARDS.length） */
@@ -33,7 +33,7 @@ export const APP_DATA_SUMMARY = {
   /** 本文転記ベースの検証済み知識単位数（KNOWLEDGE_UNITS.length。現状0件） */
   verifiedKnowledgeUnits: 0,
   /** 全文転記済みページ数（TRANSCRIPT_PAGES.length） */
-  transcribedPages: 130,
+  transcribedPages: 133,
   /** 取り込み済み原本画像数（source-manifest の totalPresent） */
   presentImages: 139,
   /** 欠落画像数（source-manifest の totalMissing。IMG_9647.PNG） */

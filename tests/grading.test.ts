@@ -11,6 +11,25 @@ describe("text grading",()=>{ it("表記揺れ（localStorage）",()=>{ expect(g
 describe("essay rubric",()=>{ const rub=q("sample-short").rubric!; it("全要点で満点",()=>{ const r=gradeEssayRubric(rub,"要点を確認し、自己採点と分ける"); expect(r.scoreRatio).toBe(1); expect(r.missedRequiredIds).toEqual([]); }); it("一部要点のみ部分点",()=>{ const r=gradeEssayRubric(rub,"要点だけ書く"); expect(r.scoreRatio).toBe(0.5); expect(r.missedRequiredIds.length).toBe(1); }); it("空回答",()=>{ expect(gradeEssayRubric(rub,"").scoreRatio).toBe(0); }); it("特殊文字のみは0点側",()=>{ expect(gradeEssayRubric(rub,"!!!???").scoreRatio).toBe(0); }); it("基準なしは判定しない",()=>{ expect(gradeEssayRubric([],"何か").correct).toBeNull(); }); });
 describe("table fill",()=>{ it("セル部分点",()=>{ expect(gradeTableFill(q("sample-tablefill"),{A:"取り込み率"}).scoreRatio).toBe(1); expect(gradeTableFill(q("sample-tablefill"),{A:"天気"}).scoreRatio).toBe(0); }); });
 
+/* 監査B-05/B-06是正（AUDIT_DECISIONS AD-1）: 記述式の自動判定は「正解」を断定しない／かな畳み込み／長いキーワードの断片近接一致。 */
+describe("audit fixes: essay grading",()=>{
+  const rub=q("sample-short").rubric!;
+  it("全要点が揃っても自動判定は正解と断定しない（correct は null、比率は1）",()=>{ const r=gradeEssayRubric(rub,"要点を確認し、自己採点と分ける"); expect(r.scoreRatio).toBe(1); expect(r.correct).toBeNull(); });
+  it("キーワード羅列も断定はされない（比率は立つが correct は null）",()=>{ const r=gradeEssayRubric(rub,"要点、自己採点"); expect(r.scoreRatio).toBe(1); expect(r.correct).toBeNull(); });
+  it("要点皆無は従来どおり不正解（false）",()=>{ expect(gradeEssayRubric(rub,"無関係な文").correct).toBe(false); });
+  it("かな表記の違いを吸収する（ターメリック／たーめりっく）",()=>{ expect(normalizeText("ターメリック")).toBe(normalizeText("たーめりっく")); const fake={acceptedAnswers:["ターメリック"]} as Parameters<typeof gradeTextAnswer>[0]; expect(gradeTextAnswer(fake,"たーめりっく").correct).toBe(true); });
+  it("長い単一キーワードは自然な言い回しでも一致し、一部だけでは一致しない",()=>{
+    const longRub: RubricPoint[]=[{id:"n",label:"ナツメグ",keywords:["種子の仁(ナツメッグ)、仮種皮(メース)"],required:true,points:1}];
+    expect(gradeEssayRubric(longRub,"種子の仁であるナツメッグと、仮種皮であるメースを使う").scoreRatio).toBe(1);
+    expect(gradeEssayRubric(longRub,"メースを使う").scoreRatio).toBe(0);
+  });
+  it("実データ: qcomp-nutmeg-profile の模範解答をひらがな化しても満点になる",()=>{
+    const qq=QUESTIONS.find(x=>x.id==="qcomp-nutmeg-profile")!;
+    const hira=qq.modelAnswer!.replace(/[ァ-ヶ]/g,(c)=>String.fromCharCode(c.charCodeAt(0)-0x60));
+    expect(gradeEssayRubric(qq.rubric!,hira).scoreRatio).toBe(1);
+  });
+});
+
 /* G1: 記述式採点エンジン拡張（DECISIONS #29）。A3監査の要確認4問＋要点レベル残存2件への対応。 */
 describe("essay rubric G1 extensions",()=>{
   const fq=(id:string)=>QUESTIONS.find(x=>x.id===id)!;
