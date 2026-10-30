@@ -242,6 +242,30 @@ test.describe("暗記モード（UX5）", () => {
     await expect(page.getByText("2 / 80種")).toBeVisible();
     await expect(page.getByText(/この周の「覚えた」: 1種/)).toBeVisible();
   });
+
+  test("答え合わせしなくても次へ進める（UX10）", async ({ page }) => {
+    await openHome(page);
+    await page.getByRole("link", { name: "暗記を始める" }).click();
+    await expect(page.getByText("1 / 80種")).toBeVisible();
+    // 答え合わせも自己評価もしていない状態で「次へ」が使える
+    await page.getByRole("button", { name: "次へ（答え合わせしない）" }).click();
+    await expect(page.getByText("2 / 80種")).toBeVisible();
+    await expect(page.getByText(/この周の「覚えた」: 0種/)).toBeVisible();
+    await expect(page.getByText(/評価済み（累計）: 0 \/ 80種/)).toBeVisible();
+  });
+
+  test("逆モード: 説明から名前を当てられる（UX10）", async ({ page }) => {
+    await openHome(page);
+    await page.getByRole("link", { name: "暗記を始める" }).click();
+    await page.getByRole("button", { name: "プロフィール → 名前（逆）" }).click();
+    // 表面は説明文で、名前（見出し）はまだ出ていない
+    await expect(page.getByText("説明から名前を当てる")).toBeVisible();
+    await expect(page.locator("main h2")).toHaveCount(0);
+    await page.getByRole("button", { name: "名前を表示（答え合わせ）" }).click();
+    await expect(page.locator("main h2")).toHaveCount(1);
+    await page.getByRole("button", { name: "まだ", exact: true }).click();
+    await expect(page.getByText("2 / 80種")).toBeVisible();
+  });
 });
 
 test.describe("演習", () => {
@@ -329,6 +353,28 @@ test.describe("フラッシュカード", () => {
     const next = (await card.textContent())?.trim();
     expect(next).toBeTruthy();
     expect(next).not.toBe(back);
+  });
+
+  test("操作ボタンはカードの真下にある（UX10）", async ({ page }) => {
+    await page.goto("#/cards");
+    await expect(
+      page.getByRole("heading", { name: "フラッシュカード・単語帳" }),
+    ).toBeVisible();
+    const card = page.getByRole("button", { name: "カード反転" });
+    const cardBox = await card.boundingBox();
+    const nextBox = await page.getByRole("button", { name: "次のカード" }).boundingBox();
+    expect(cardBox).not.toBeNull();
+    expect(nextBox).not.toBeNull();
+    // 「次のカード」はカードの下端より下、かつ 160px 以内（=真下）
+    expect(nextBox!.y).toBeGreaterThanOrEqual(cardBox!.y + cardBox!.height - 1);
+    expect(nextBox!.y - (cardBox!.y + cardBox!.height)).toBeLessThan(160);
+    // 裏面を表示すると自己評価ボタンも同じ真下の段に出る
+    await page.getByRole("button", { name: "裏面を表示" }).click();
+    const evalBox = await page.getByRole("button", { name: "分かった" }).boundingBox();
+    expect(evalBox).not.toBeNull();
+    const cardBox2 = await card.boundingBox();
+    expect(evalBox!.y).toBeGreaterThanOrEqual(cardBox2!.y + cardBox2!.height - 1);
+    expect(evalBox!.y - (cardBox2!.y + cardBox2!.height)).toBeLessThan(160);
   });
 
   test("種別フィルタで用語カードだけに絞り込める（FIX1）", async ({ page }) => {
