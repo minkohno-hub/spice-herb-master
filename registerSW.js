@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/spice-herb-master/sw.js', { scope: '/spice-herb-master/' })})}
