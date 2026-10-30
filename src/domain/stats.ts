@@ -6,7 +6,7 @@ export function computeStats(records: AnswerRecord[], questions: Question[]) {
   const by = (key: (q:Question)=>string) => { const m = new Map<string,{total:number;correct:number}>(); for(const r of records){ const q=questions.find(x=>x.id===r.questionId); if(!q) continue; const k=key(q); const e=m.get(k)??{total:0,correct:0}; e.total++; if(r.correct===true) e.correct++; m.set(k,e);} return m; };
   return { total, correct, accuracy: total? correct/total : null, byChapter: by(q=>q.chapterId), byFormat: by(q=>q.format), byDifficulty: by(q=>String(q.difficulty)) };
 }
-export function computeCoverage(args: {presentImages:number; expectedImages:number; units:KnowledgeUnit[]; totalSections:number; questions:Question[]; records:AnswerRecord[]}): Coverage {
+export function computeCoverage(args: {presentImages:number; expectedImages:number; units: readonly { id: string }[]; totalSections:number; questions:Question[]; records:AnswerRecord[]}): Coverage {
   const {presentImages, expectedImages, units, questions, records} = args;
   const verifiedUnits = units; const questionized = new Set(questions.filter(q=>q.status==="verified").flatMap(q=>q.knowledgeUnitIds));
   const studiedQ = new Set(records.map(r=>r.questionId));

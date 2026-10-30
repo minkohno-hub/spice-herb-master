@@ -1,6 +1,7 @@
 [
  {
   "id": "card-e-org",
+  "kind": "qa",
   "front": "スパイス&ハーブ検定を主催する団体は?",
   "back": "山崎香辛料振興財団",
   "reverseOf": null,
@@ -20,6 +21,7 @@
  },
  {
   "id": "card-e-start",
+  "kind": "qa",
   "front": "スパイス&ハーブ検定がスタートした年は?",
   "back": "2009年",
   "reverseOf": null,
@@ -39,6 +41,7 @@
  },
  {
   "id": "card-e-scope",
+  "kind": "qa",
   "front": "1級の単品知識で対象となるスパイス・ハーブは全部で何種?",
   "back": "80種",
   "reverseOf": null,
