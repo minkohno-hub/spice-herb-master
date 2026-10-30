@@ -1,0 +1,1970 @@
+[
+ {
+  "id": "asafoetida-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "アサフェティダ",
+  "category": "profile",
+  "content": "アサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。",
+  "source": {
+   "page": 98,
+   "sourceUnitId": "asafoetida-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "asafoetida",
+   "name": "アサフェティダ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "プロフィール表（別名・科名・利用部位）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "asa-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "アサフェティダ",
+  "category": "spice-fact",
+  "content": "強烈なにおいがあるが油で加熱すると気にならなくなり、インドでは豆や野菜料理に玉ねぎのようなコクを与えるスタータースパイスとして使う。",
+  "source": {
+   "page": 98,
+   "sourceUnitId": "asa-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "インド名を「ヒング」といい、加熱で玉ねぎのようなコクを出すスパイスは?",
+   "a": "アサフェティダ",
+   "alt": []
+  },
+  "spice": {
+   "id": "asafoetida",
+   "name": "アサフェティダ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "特徴・用途欄の強烈な香り・油で加熱するとにおいを感じなくなる・インドでは豆や野菜料理に玉ねぎに似たコクを与えるスタータースパイスとして用いる、ノートの「ヒング」はインド名、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "asa-2",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "アサフェティダ",
+  "category": "spice-fact",
+  "content": "根茎に切り込みを入れてにじむ乳白色の汁を固めて粉にしたもの。においが強いので密閉容器で保存する。",
+  "source": {
+   "page": 98,
+   "sourceUnitId": "asa-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "asafoetida",
+   "name": "アサフェティダ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "ノートの開花直前、根茎に切り込みを入れると乳白色の汁が滲出し固化したものを粉状にしたもの・注記の保存の際は必ず密閉できる容器を使用する、と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "ajwain-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "アジョワン",
+  "category": "profile",
+  "content": "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。",
+  "source": {
+   "page": 98,
+   "sourceUnitId": "ajwain-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "ajwain",
+   "name": "アジョワン",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "プロフィール表（科名・利用部位）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "ajw-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "アジョワン",
+  "category": "spice-fact",
+  "content": "タイムに似た香り(主成分は同じチモール)で、ナンやチャパティ、豆料理などインド料理に使われる。",
+  "source": {
+   "page": 98,
+   "sourceUnitId": "ajw-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "タイムと同じ香り成分チモールを持つ、インド料理で使われるセリ科の種子は?",
+   "a": "アジョワン",
+   "alt": []
+  },
+  "spice": {
+   "id": "ajwain",
+   "name": "アジョワン",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "特徴・用途欄のタイムに似た香り（主成分は同じチモール）・ナンやチャパティ、豆料理などインド料理に広く使われる、と一致（Q内の科名・種子は同ページプロフィール表で照合）。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "kaffirlime-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "カフェライム",
+  "category": "profile",
+  "content": "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。",
+  "source": {
+   "page": 98,
+   "sourceUnitId": "kaffirlime-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "kaffirlime",
+   "name": "カフェライム",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "プロフィール表（別名・科名・利用部位）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "kaf-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "カフェライム",
+  "category": "spice-fact",
+  "content": "爽やかな柑橘系の香りで、主に葉をタイやカンボジアの料理に使う。果皮もすりおろしてタイ風カレーなどに使う。",
+  "source": {
+   "page": 98,
+   "sourceUnitId": "kaf-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "タイ名でマックルーと呼ばれる柑橘は?",
+   "a": "カフェライム",
+   "alt": [
+    "こぶみかん"
+   ]
+  },
+  "spice": {
+   "id": "kaffirlime",
+   "name": "カフェライム",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "特徴・用途欄の爽やかな柑橘系の香り・主に葉をタイやカンボジアの料理に使う、ノートの果皮をすりおろしてタイ風カレーなどに使う・「マックルー」はタイ名、と一致。q/a・alt も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "kaf-2",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "カフェライム",
+  "category": "spice-fact",
+  "content": "タイ語で葉をさす場合は「バイマックルー」という。",
+  "source": {
+   "page": 98,
+   "sourceUnitId": "kaf-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "kaffirlime",
+   "name": "カフェライム",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch7",
+   "reason": "ノートの葉をさす場合は「バイマックルー」という、と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "galangal-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ガランガル",
+  "category": "profile",
+  "content": "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。",
+  "source": {
+   "page": 99,
+   "sourceUnitId": "galangal-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "galangal",
+   "name": "ガランガル",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 カー・科名 ショウガ科・利用部位 根茎）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "gal-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ガランガル",
+  "category": "spice-fact",
+  "content": "ジンジャーに似た爽やかな香りと刺激があり、小ガランガルと大ガランガルの2種類のうち小ガランガルのほうが辛い。タイ名はカー。",
+  "source": {
+   "page": 99,
+   "sourceUnitId": "gal-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ガランガルの2種類のうち、辛みが強いのはどちら?",
+   "a": "小ガランガル",
+   "alt": []
+  },
+  "spice": {
+   "id": "galangal",
+   "name": "ガランガル",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄のジンジャーに似た爽やかな香りとピリッとした刺激、ノートの小ガランガルと大ガランガルの2種類・小ガランガルのほうが辛みが強い・「カー」はタイ名、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "curryleaf-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "カレーリーフ",
+  "category": "profile",
+  "content": "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。",
+  "source": {
+   "page": 99,
+   "sourceUnitId": "curryleaf-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "curryleaf",
+   "name": "カレーリーフ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 カリーパッタ・科名 ミカン科・利用部位 葉）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "cl-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "カレーリーフ",
+  "category": "spice-fact",
+  "content": "芳しい香りで南インドやスリランカのカレーの香りづけに使う。インド名カリーパッタ、和名ナンヨウザンショウ。",
+  "source": {
+   "page": 99,
+   "sourceUnitId": "cl-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "カレーリーフの和名は?",
+   "a": "ナンヨウザンショウ",
+   "alt": []
+  },
+  "spice": {
+   "id": "curryleaf",
+   "name": "カレーリーフ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄の芳しい香り・南インドやスリランカでカレーの香りづけに使う、ノートの「カリーパッタ」はインド名・和名は「ナンヨウザンショウ」、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "licorice-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "かんぞう(甘草)",
+  "category": "profile",
+  "content": "かんぞう(甘草): 科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。",
+  "source": {
+   "page": 99,
+   "sourceUnitId": "licorice-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "licorice",
+   "name": "かんぞう(甘草)",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 リコリス、リカリス・科名 マメ科・利用部位 根、走根）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "lic-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "かんぞう(甘草)",
+  "category": "spice-fact",
+  "content": "甘み成分グリチルリチンを含み、砂糖の数十倍ともいわれる甘さ。菓子・ドリンクや漬けもの、佃煮の調味にも使われる。",
+  "source": {
+   "page": 99,
+   "sourceUnitId": "lic-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "かんぞう(甘草)の甘み成分は?",
+   "a": "グリチルリチン",
+   "alt": []
+  },
+  "spice": {
+   "id": "licorice",
+   "name": "かんぞう(甘草)",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄の甘み成分「グリチルリチン」・砂糖の数十倍ともいわれる甘み・菓子やドリンク、漬けものや佃煮の調味にも用いられる、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "cubeb-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "クベバ",
+  "category": "profile",
+  "content": "クベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。",
+  "source": {
+   "page": 100,
+   "sourceUnitId": "cubeb-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cubeb",
+   "name": "クベバ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 畢澄茄、キュベブ、テイルドペッパー・科名 コショウ科・利用部位 果実）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "cub-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "クベバ",
+  "category": "spice-fact",
+  "content": "しっぽのような短い茎がついた未熟果を天日乾燥したもので、刺激的な香りと辛み・苦みを持つ。中国では古くから薬用。",
+  "source": {
+   "page": 100,
+   "sourceUnitId": "cub-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "しっぽのような茎がつくことから「テイルドペッパー」とも呼ばれるスパイスは?",
+   "a": "クベバ",
+   "alt": []
+  },
+  "spice": {
+   "id": "cubeb",
+   "name": "クベバ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄の刺激的な香りと辛み・苦み、ノートのしっぽのように見える短い茎をつけた未熟な果実を天日乾燥する・中国では古くから薬用、と一致。q の「テイルドペッパー」は同ページの別名表で照合済み。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "grainsofparadise-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "グレインズオブパラダイス",
+  "category": "profile",
+  "content": "グレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。",
+  "source": {
+   "page": 100,
+   "sourceUnitId": "grainsofparadise-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "grainsofparadise",
+   "name": "グレインズオブパラダイス",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（科名 ショウガ科・利用部位 種子。ページに別名欄なし）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "gop-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "グレインズオブパラダイス",
+  "category": "spice-fact",
+  "content": "カルダモンに似た香りとこしょうに似た辛みを持ち、西アフリカでラムやヤギ肉料理に多用される。ラセラヌーやカラダッカの原料。",
+  "source": {
+   "page": 100,
+   "sourceUnitId": "gop-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "カルダモンに似た香りとこしょうに似た辛みを持ち、西アフリカで使われるショウガ科の種子は?",
+   "a": "グレインズオブパラダイス",
+   "alt": []
+  },
+  "spice": {
+   "id": "grainsofparadise",
+   "name": "グレインズオブパラダイス",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄のカルダモンに似た香りとこしょうに似た辛み・西アフリカでラムやヤギ肉などに多用される、ノートのモロッコの「ラセラヌー」やチュニジアの「カラダッカ」の原料、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "cresson-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "クレソン",
+  "category": "profile",
+  "content": "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。",
+  "source": {
+   "page": 100,
+   "sourceUnitId": "cresson-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "cresson",
+   "name": "クレソン",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 ウォータークレス・科名 アブラナ科・利用部位 葉、茎）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "cre-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "クレソン",
+  "category": "spice-fact",
+  "content": "爽やかな香りとピリッとした辛み。英名ウォータークレスのとおり水辺に群生する。",
+  "source": {
+   "page": 100,
+   "sourceUnitId": "cre-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "クレソンの英名は?",
+   "a": "ウォータークレス",
+   "alt": []
+  },
+  "spice": {
+   "id": "cresson",
+   "name": "クレソン",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄の爽やかな香りとピリッとした辛み、ノートの英名は「ウォータークレス」・その名が示すように水辺に群生する、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "caper-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ケイパー",
+  "category": "profile",
+  "content": "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。",
+  "source": {
+   "page": 101,
+   "sourceUnitId": "caper-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "caper",
+   "name": "ケイパー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 風鳥木、ケーパー、ケッパー・科名 フウチョウボク科・利用部位 蕾）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "cap-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ケイパー",
+  "category": "spice-fact",
+  "content": "使うのは小さな蕾で、乾燥すると香りが悪くなるためすぐに酢漬けや塩漬けにする。スモークサーモンやタルタルソースに使われる。",
+  "source": {
+   "page": 101,
+   "sourceUnitId": "cap-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ケイパーとして利用される部位は?",
+   "a": "蕾",
+   "alt": []
+  },
+  "spice": {
+   "id": "caper",
+   "name": "ケイパー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "ノートの利用するのは小さな蕾・乾燥すると香りが悪くなるので収穫した蕾はすぐに酢漬けや塩漬けにする、特徴・用途欄のスモークサーモンやタルタルソースへの利用、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "poppyseed-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "けしの実",
+  "category": "profile",
+  "content": "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。",
+  "source": {
+   "page": 101,
+   "sourceUnitId": "poppyseed-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "poppyseed",
+   "name": "けしの実",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 ポピーシード・科名 ケシ科・利用部位 種子）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "pop-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "けしの実",
+  "category": "spice-fact",
+  "content": "小さな丸い粒でナッツのような香ばしさ。あんパンやおせちの田作りに使われ、七味唐辛子の原料にもなる。",
+  "source": {
+   "page": 101,
+   "sourceUnitId": "pop-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "あんパンやおせちの田作りに使われる、ポピーシードとも呼ばれる種子は?",
+   "a": "けしの実",
+   "alt": []
+  },
+  "spice": {
+   "id": "poppyseed",
+   "name": "けしの実",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄のとても小さな丸い粒・ナッツのような香ばしさ・おせち料理の「田作り」やあんパンに用いられる、ノートの七味唐辛子の原料、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "safflower-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "サフラワー",
+  "category": "profile",
+  "content": "サフラワー: 科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。",
+  "source": {
+   "page": 101,
+   "sourceUnitId": "safflower-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "safflower",
+   "name": "サフラワー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 べにばな・科名 キク科・利用部位 花弁、種子）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "saf-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "サフラワー",
+  "category": "spice-fact",
+  "content": "乾燥した紅色の花弁から抽出した黄色い液を色づけに使う。別名べにばなで山形県の県花。種子は食用油の原料。",
+  "source": {
+   "page": 101,
+   "sourceUnitId": "saf-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "サフラワー(べにばな)を県花とする県は?",
+   "a": "山形県",
+   "alt": []
+  },
+  "spice": {
+   "id": "safflower",
+   "name": "サフラワー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄の乾燥した紅色の花弁を水などにひたして抽出した黄色い液を色づけに使う、ノートの別名べにばな・山形県の県花・種子は食用油の原料、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "savory-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "サボリー",
+  "category": "profile",
+  "content": "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。",
+  "source": {
+   "page": 102,
+   "sourceUnitId": "savory-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "savory",
+   "name": "サボリー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 セイボリー・科名 シソ科・利用部位 葉および花穂）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "sav-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "サボリー",
+  "category": "spice-fact",
+  "content": "タイムに似るがより鮮烈な香りで、豆との相性がよく「豆のハーブ」と呼ばれる。エルブドプロバンスやブーケガルニにも使われる。",
+  "source": {
+   "page": 102,
+   "sourceUnitId": "sav-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「豆のハーブ」とも呼ばれるハーブは?",
+   "a": "サボリー",
+   "alt": []
+  },
+  "spice": {
+   "id": "savory",
+   "name": "サボリー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄のタイムに似るがより鮮烈な香り・「豆のハーブ」とも呼ばれる、ノートのエルブドプロバンスの原料・ブーケガルニにも用いられる、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "shiso-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "しそ(紫蘇)",
+  "category": "profile",
+  "content": "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。",
+  "source": {
+   "page": 102,
+   "sourceUnitId": "shiso-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "shiso",
+   "name": "しそ(紫蘇)",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 大葉（青じその葉の部分を指す）・科名 シソ科・利用部位 葉および花穂、種子）と検定対象級（1級）が一致。単位側の別名表記は原文注記の要約で意味一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "shi-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "しそ(紫蘇)",
+  "category": "spice-fact",
+  "content": "青じそは薬味に、赤じそは漬けものやふりかけに使われることが多い。乾燥した種子が七味唐辛子に配合されることもある。",
+  "source": {
+   "page": 102,
+   "sourceUnitId": "shi-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "shiso",
+   "name": "しそ(紫蘇)",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄の青じそは薬味に・赤じそは漬けものやふりかけに用いられることが多い、ノートの乾燥させた種子が七味唐辛子に配合されることもある、と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "juniper-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ジュニパーベリー",
+  "category": "profile",
+  "content": "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。",
+  "source": {
+   "page": 102,
+   "sourceUnitId": "juniper-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "juniper",
+   "name": "ジュニパーベリー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "プロフィール表（別名 西洋ねず、杜松・科名 ヒノキ科・利用部位 果実）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "jun-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ジュニパーベリー",
+  "category": "spice-fact",
+  "content": "ウッディーでスパイシーな香りで、ジビエ料理の臭み消しや蒸留酒ジンの香りづけに使われる。",
+  "source": {
+   "page": 102,
+   "sourceUnitId": "jun-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "蒸留酒ジンの香りづけのスパイスとして有名なのは?",
+   "a": "ジュニパーベリー",
+   "alt": []
+  },
+  "spice": {
+   "id": "juniper",
+   "name": "ジュニパーベリー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch8",
+   "reason": "特徴・用途欄のウッディーでスパイシーな香り・ジビエ料理の臭み消し、ノートの蒸留酒・ジンの香りづけのスパイスとして有名、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "sumac-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "スマック",
+  "category": "profile",
+  "content": "スマック: 科名はウルシ科。利用部位は果実。検定1級の対象。",
+  "source": {
+   "page": 103,
+   "sourceUnitId": "sumac-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "sumac",
+   "name": "スマック",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（科名 ウルシ科・利用部位 果実）と検定対象級（1級）が一致。ページに別名欄はなく単位側も別名なしで一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "sum-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "スマック",
+  "category": "spice-fact",
+  "content": "酸味と渋みのある赤いスパイスで、中近東で酸味づけに使う。赤じそふりかけを思わせる色と味で、ザーターの原料。",
+  "source": {
+   "page": 103,
+   "sourceUnitId": "sum-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ミックススパイス「ザーター」の原料で、酸味と渋みのある赤いスパイスは?",
+   "a": "スマック",
+   "alt": []
+  },
+  "spice": {
+   "id": "sumac",
+   "name": "スマック",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄の酸味と渋みが特徴の赤色のスパイス・中近東で酸味づけに広く利用、ノートの赤じそふりかけを彷彿とさせる色・味わいと「ザーター」の原料のひとつ、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "celery-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "セロリー",
+  "category": "profile",
+  "content": "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。",
+  "source": {
+   "page": 103,
+   "sourceUnitId": "celery-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "celery",
+   "name": "セロリー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（科名 セリ科・利用部位 種子（植物学上は果実））と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "cel-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "セロリー",
+  "category": "spice-fact",
+  "content": "強い爽やかな香りとほろ苦さがあり、野菜の青臭さを抑える。スパイスに使うのは野生種スモーリッジの種子。",
+  "source": {
+   "page": 103,
+   "sourceUnitId": "cel-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイスとして用いられるセロリーの種子は何という種のもの?",
+   "a": "スモーリッジ",
+   "alt": []
+  },
+  "spice": {
+   "id": "celery",
+   "name": "セロリー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄の独特の強い爽やかな香り・青臭さやほろ苦さ・素材の青臭さを抑える、ノートのスパイスとして用いられるのはスモーリッジ種の種子、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "sorrel-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ソレル",
+  "category": "profile",
+  "content": "ソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。",
+  "source": {
+   "page": 103,
+   "sourceUnitId": "sorrel-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "sorrel",
+   "name": "ソレル",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（別名 オゼイユ・科名 タデ科・利用部位 葉）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "sor-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ソレル",
+  "category": "spice-fact",
+  "content": "爽やかで強い酸味とほろ苦さがあり、フランス料理でピューレやソースに使われる。白い斑点のあるフレンチソレル(バックラーリーフソレル)もある。",
+  "source": {
+   "page": 103,
+   "sourceUnitId": "sor-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フランス名をオゼイユという、強い酸味を持つタデ科のハーブは?",
+   "a": "ソレル",
+   "alt": []
+  },
+  "spice": {
+   "id": "sorrel",
+   "name": "ソレル",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄の爽やかな強い酸味とほろ苦さ・フランス料理によく用いられる・ピューレにしてソースやスープに利用、ノートの葉に白い斑点を持つフレンチソレル（バックラーリーフソレル）、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "tade-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "たで(蓼)",
+  "category": "profile",
+  "content": "たで(蓼): 科名はタデ科。利用部位は葉(芽)。検定1級の対象。",
+  "source": {
+   "page": 104,
+   "sourceUnitId": "tade-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "tade",
+   "name": "たで(蓼)",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（科名 タデ科・利用部位 葉（芽））と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "tad-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "たで(蓼)",
+  "category": "spice-fact",
+  "content": "食用は主にやなぎたでとその変種(紅たで・青たで)。青たでは「鮎たで」とも呼ばれ、たで酢は鮎料理に欠かせない。",
+  "source": {
+   "page": 104,
+   "sourceUnitId": "tad-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "鮎料理に欠かせない薬味として有名な、たでの葉を使った酢は?",
+   "a": "たで酢",
+   "alt": []
+  },
+  "spice": {
+   "id": "tade",
+   "name": "たで(蓼)",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄の食用は「やなぎたで」とその変種の紅たで・青たで、青たでは「鮎たで」の名でも流通し「たで酢」は鮎料理に欠かせない薬味、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "tad-2",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "たで(蓼)",
+  "category": "spice-fact",
+  "content": "ことわざ「蓼食う虫も好き好き」は、たで独特の辛みに由来する。",
+  "source": {
+   "page": 104,
+   "sourceUnitId": "tad-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "tade",
+   "name": "たで(蓼)",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "ノートの「蓼食う虫も好き好き」は、たでが独特の辛みを持つことに由来、と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "tamarind-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "タマリンド",
+  "category": "profile",
+  "content": "タマリンド: 科名はマメ科。利用部位は果実。検定1級の対象。",
+  "source": {
+   "page": 104,
+   "sourceUnitId": "tamarind-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "tamarind",
+   "name": "タマリンド",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（科名 マメ科・利用部位 果実）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "tam-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "タマリンド",
+  "category": "spice-fact",
+  "content": "さやの中の果肉を使い、フルーツのような酸味で南インドや東南アジアの料理に甘酸っぱさを加える。チャツネやソースの原料にもなる。",
+  "source": {
+   "page": 104,
+   "sourceUnitId": "tam-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "さやの中の果肉を酸味づけに使うマメ科のスパイスは?",
+   "a": "タマリンド",
+   "alt": []
+  },
+  "spice": {
+   "id": "tamarind",
+   "name": "タマリンド",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄のフルーツのような酸味・南インドや東南アジアの料理に幅広く利用、ノートのさやの中にある果肉をスパイスとして用いる・チャツネ、ソースなどの原料、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "dokudami-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "どくだみ",
+  "category": "profile",
+  "content": "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。",
+  "source": {
+   "page": 104,
+   "sourceUnitId": "dokudami-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "dokudami",
+   "name": "どくだみ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（科名 ドクダミ科・利用部位 葉）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "dok-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "どくだみ",
+  "category": "spice-fact",
+  "content": "強い香りを持ち、ベトナム料理に使われ、日本では乾燥葉をお茶にする。生薬としては十薬と呼ばれる。",
+  "source": {
+   "page": 104,
+   "sourceUnitId": "dok-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "生薬としてのどくだみの名前は?",
+   "a": "十薬",
+   "alt": []
+  },
+  "spice": {
+   "id": "dokudami",
+   "name": "どくだみ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄の特有の強い香り・ベトナムでは各種料理によく使われる・日本では乾燥させた葉をお茶にする、ノートの生薬としてのどくだみは十薬と呼ばれる、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "nigella-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ニゲラ",
+  "category": "profile",
+  "content": "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。",
+  "source": {
+   "page": 105,
+   "sourceUnitId": "nigella-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "nigella",
+   "name": "ニゲラ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（別名 ブラッククミン、カロンジ・科名 キンポウゲ科・利用部位 種子）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "nig-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ニゲラ",
+  "category": "spice-fact",
+  "content": "小さな黒い粒でインドや中近東で使われ、パンチフォロンやラセラヌーに配合される。インド名カロンジ。",
+  "source": {
+   "page": 105,
+   "sourceUnitId": "nig-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "nigella",
+   "name": "ニゲラ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄の小さな黒い粒のスパイスでインドや中近東地域でよく使われる、ノートのインドの「パンチフォロン」やモロッコの「ラセラヌー」に配合・インド名は「カロンジ」、と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "pandan-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "パンダンリーフ",
+  "category": "profile",
+  "content": "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。",
+  "source": {
+   "page": 105,
+   "sourceUnitId": "pandan-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "pandan",
+   "name": "パンダンリーフ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（別名 ニオイタコノキ、ニオイアダン、ランペ・科名 タコノキ科・利用部位 葉）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "pan-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "パンダンリーフ",
+  "category": "spice-fact",
+  "content": "炊きたてごはんのような甘く強い香りで、東南アジアの米料理やデザートに使う。スリランカではランペ、タイではバイトーイと呼ばれる。",
+  "source": {
+   "page": 105,
+   "sourceUnitId": "pan-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "炊きたてごはんのような香りを持つ、タコノキ科の葉は?",
+   "a": "パンダンリーフ",
+   "alt": []
+  },
+  "spice": {
+   "id": "pandan",
+   "name": "パンダンリーフ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄の炊きたてごはんのような甘くて強い香り・東南アジアの米料理やデザートに使われる、ノートのスリランカでは「ランペ」、タイでは「バイトーイ」、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "fenugreek-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "フェネグリーク",
+  "category": "profile",
+  "content": "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。",
+  "source": {
+   "page": 105,
+   "sourceUnitId": "fenugreek-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "fenugreek",
+   "name": "フェネグリーク",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（別名 メティ（メッチ）・科名 マメ科・利用部位 種子、葉）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "fen-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "フェネグリーク",
+  "category": "spice-fact",
+  "content": "種子はメイプルシロップに似た甘い香りと強い苦みを持ち、スタータースパイスとして使う。苦みがあるので量は控えめに。葉はカスリメティと呼ばれる。",
+  "source": {
+   "page": 105,
+   "sourceUnitId": "fen-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "メイプルシロップに似た香りを持つマメ科の種子は?",
+   "a": "フェネグリーク",
+   "alt": []
+  },
+  "spice": {
+   "id": "fenugreek",
+   "name": "フェネグリーク",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄の種子はメイプルシロップに似た甘い香りと強い苦み、ノートのスタータースパイスとして利用・苦みがあるため量は控えめに・葉は「カスリメティ」、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "mache-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "マーシュ",
+  "category": "profile",
+  "content": "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。",
+  "source": {
+   "page": 106,
+   "sourceUnitId": "mache-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "mache",
+   "name": "マーシュ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（別名 コーンサラダ・科名 スイカズラ科・利用部位 葉、茎）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "mac-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "マーシュ",
+  "category": "spice-fact",
+  "content": "丸い卵形の葉とクセのない風味。英名コーンサラダはトウモロコシ畑近くに自生したことに由来する。",
+  "source": {
+   "page": 106,
+   "sourceUnitId": "mac-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "英名を「コーンサラダ」というハーブは?",
+   "a": "マーシュ",
+   "alt": []
+  },
+  "spice": {
+   "id": "mache",
+   "name": "マーシュ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄の丸く卵形の葉とクセのない風味、ノートの英名「コーンサラダ」はトウモロコシ畑近くに自生していたことに由来、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "amchur-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "マンゴーパウダー",
+  "category": "profile",
+  "content": "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。",
+  "source": {
+   "page": 106,
+   "sourceUnitId": "amchur-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "amchur",
+   "name": "マンゴーパウダー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（別名 アムチュール・科名 ウルシ科・利用部位 果実）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "amc-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "マンゴーパウダー",
+  "category": "spice-fact",
+  "content": "未熟なマンゴーを乾燥・粉末にしたもので、レモンのような強い酸味。チャートマサラの原料。インド名アムチュール。",
+  "source": {
+   "page": 106,
+   "sourceUnitId": "amc-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "チャートマサラの基本となるスパイスは?",
+   "a": "マンゴーパウダー",
+   "alt": []
+  },
+  "spice": {
+   "id": "amchur",
+   "name": "マンゴーパウダー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄のレモンやライムのような強い酸味、ノートの未熟な果実を乾燥・粉状にしたもの・「チャートマサラ」の原料・「アムチュール」はインド名、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "mitsuba-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "みつば",
+  "category": "profile",
+  "content": "みつば: 科名はセリ科。利用部位は葉、茎。検定1級の対象。",
+  "source": {
+   "page": 106,
+   "sourceUnitId": "mitsuba-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "mitsuba",
+   "name": "みつば",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（科名 セリ科・利用部位 葉、茎）と検定対象級（1級）が一致。ページに別名欄はなく単位側も別名なしで一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "mit-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "みつば",
+  "category": "spice-fact",
+  "content": "みずみずしく爽やかな香りで、日本料理の汁ものの薬味やおひたしに使われる。東アジアに広く自生。",
+  "source": {
+   "page": 106,
+   "sourceUnitId": "mit-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "mitsuba",
+   "name": "みつば",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄のみずみずしい爽やかな香り・日本料理の汁ものなどの薬味やおひたし、ノートの東アジアに広く自生、と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "lemonbalm-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "レモンバーム",
+  "category": "profile",
+  "content": "レモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。",
+  "source": {
+   "page": 106,
+   "sourceUnitId": "lemonbalm-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "lemonbalm",
+   "name": "レモンバーム",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "プロフィール表（別名 メリッサ・科名 シソ科・利用部位 葉）と検定対象級（1級）が一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "lb-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "レモンバーム",
+  "category": "spice-fact",
+  "content": "おだやかなレモンのような香り。学名でもあるメリッサは「みつばち」の意味で、みつばちを集める植物として栽培された。",
+  "source": {
+   "page": 106,
+   "sourceUnitId": "lb-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "レモンバームの別名「メリッサ」の意味は?",
+   "a": "みつばち",
+   "alt": []
+  },
+  "spice": {
+   "id": "lemonbalm",
+   "name": "レモンバーム",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch9",
+   "reason": "特徴・用途欄のおだやかなレモンのような香り、ノートの学名でもある「メリッサ」の名は「みつばち」という意味でみつばちを集める植物として栽培されていた、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "longpepper-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ロングペッパー",
+  "category": "profile",
+  "content": "ロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。",
+  "source": {
+   "page": 107,
+   "sourceUnitId": "longpepper-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "longpepper",
+   "name": "ロングペッパー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "プロフィール表: 別名 ヒハツ、ヒバーチ、ピパーチ／科名 コショウ科／利用部位 果実と一致。検定1級対象として掲載",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "lp-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ロングペッパー",
+  "category": "spice-fact",
+  "content": "細長い棒状の果実をつけるこしょうの近縁種。沖縄では島こしょう・ヒバーチと呼ばれ、沖縄そばの薬味に使う。",
+  "source": {
+   "page": 107,
+   "sourceUnitId": "lp-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "沖縄で「島こしょう」とも呼ばれるコショウ科のスパイスは?",
+   "a": "ロングペッパー",
+   "alt": []
+  },
+  "spice": {
+   "id": "longpepper",
+   "name": "ロングペッパー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ノート（つる性の熱帯植物で、こしょうの近縁種。細長い棒状の果実をつける。沖縄では「島こしょう」「ヒバーチ」などと呼ばれている）と特徴・用途（日本では、主に沖縄で豚肉料理や沖縄そばの薬味に使われる）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "lp-2",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ロングペッパー",
+  "category": "spice-fact",
+  "content": "こしょうの語源とされる「ピッパリー」はロングペッパーをさすとされる。",
+  "source": {
+   "page": 107,
+   "sourceUnitId": "lp-2",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "longpepper",
+   "name": "ロングペッパー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ノート「こしょうの語源とされる『ピッパリー』は、ロングペッパーをさすとされる」と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "quatreepices-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "カトルエピス",
+  "category": "profile",
+  "content": "カトルエピス: ミックススパイス。検定1級の対象。",
+  "source": {
+   "page": 107,
+   "sourceUnitId": "quatreepices-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "quatreepices",
+   "name": "カトルエピス",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "「その他のミックススパイス」の項に掲載されるミックススパイスで検定1級の対象であることと一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "qe-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "カトルエピス",
+  "category": "spice-fact",
+  "content": "古典的なフランス料理で肉料理やパテ・テリーヌに使うミックススパイスで、ナツメッグ・クローブ・シナモン・ブラックペッパー・ジンジャーなどから4つを混ぜる。",
+  "source": {
+   "page": 107,
+   "sourceUnitId": "qe-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "4つのスパイスを混ぜる、フランス料理の伝統的なミックススパイスは?",
+   "a": "カトルエピス",
+   "alt": []
+  },
+  "spice": {
+   "id": "quatreepices",
+   "name": "カトルエピス",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "特徴・用途（古典的なフランス料理で肉料理の臭み消し、風味づけに用い、パテ、テリーヌなどに使う）とノート（ナツメッグ、クローブ、シナモン、ブラックペッパー、ジンジャーなどのうちから4つのスパイスがミックスされる）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "zaatar-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ザーター",
+  "category": "profile",
+  "content": "ザーター: ミックススパイス。検定1級の対象。",
+  "source": {
+   "page": 107,
+   "sourceUnitId": "zaatar-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "zaatar",
+   "name": "ザーター",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "「その他のミックススパイス」の項に掲載されるミックススパイスで検定1級の対象であることと一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "za-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ザーター",
+  "category": "spice-fact",
+  "content": "白ごま・オレガノ・スマックを基本にした、北アフリカ〜中近東のミックススパイス。",
+  "source": {
+   "page": 107,
+   "sourceUnitId": "za-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "zaatar",
+   "name": "ザーター",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ノート「一般に白ごま、オレガノ、スマックを基本にミックスされる。北アフリカから中近東にかけての地域で利用されるミックススパイス」と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "dukkah-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ダッカ(デュカ)",
+  "category": "profile",
+  "content": "ダッカ(デュカ): ミックススパイス。検定1級の対象。",
+  "source": {
+   "page": 108,
+   "sourceUnitId": "dukkah-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "dukkah",
+   "name": "ダッカ(デュカ)",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ページ見出し「ダッカ（デュカ）」のシーズニング（ミックススパイス）で検定1級の対象であることと一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "duk-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ダッカ(デュカ)",
+  "category": "spice-fact",
+  "content": "ごま・クミン・コリアンダーなどの種子系スパイスとナッツ類、塩を粗く砕いて混ぜた、北アフリカ〜中東のシーズニング。",
+  "source": {
+   "page": 108,
+   "sourceUnitId": "duk-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "dukkah",
+   "name": "ダッカ(デュカ)",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ノート「ごまやクミン、コリアンダーといった種子を利用するスパイス、ナッツ類など数種と塩を粗く砕いて混ぜ合わせたもの。北アフリカから中東地域で利用されるシーズニングスパイス」と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "chaatmasala-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "チャートマサラ",
+  "category": "profile",
+  "content": "チャートマサラ: ミックススパイス。検定1級の対象。",
+  "source": {
+   "page": 108,
+   "sourceUnitId": "chaatmasala-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chaatmasala",
+   "name": "チャートマサラ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ページ見出し「チャートマサラ（チャットマサラ）」のシーズニングスパイスで検定1級の対象であることと一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "chm-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "チャートマサラ",
+  "category": "spice-fact",
+  "content": "マンゴーパウダーを基本に複数のスパイスと塩をミックスした、インドのシーズニングスパイス。生野菜や果物に振りかける。",
+  "source": {
+   "page": 108,
+   "sourceUnitId": "chm-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "chaatmasala",
+   "name": "チャートマサラ",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ノート（マンゴーパウダーを基本に、複数のスパイス、塩がミックスされている。インドで利用されるシーズニングスパイス）と特徴・用途（生野菜やゆで卵、果物などに振りかけて利用される）と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "panchphoron-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "パンチフォロン",
+  "category": "profile",
+  "content": "パンチフォロン: ミックススパイス。検定1級の対象。",
+  "source": {
+   "page": 108,
+   "sourceUnitId": "panchphoron-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "panchphoron",
+   "name": "パンチフォロン",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ページ見出し「パンチフォロン」のミックススパイスで検定1級の対象であることと一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "pp-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "パンチフォロン",
+  "category": "spice-fact",
+  "content": "クミン・ニゲラ・フェネグリーク・マスタードシード・フェンネルシードの5種をホールのまま混ぜた、インド東部ベンガル地方の代表的ミックススパイス。",
+  "source": {
+   "page": 108,
+   "sourceUnitId": "pp-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "5種類のスパイスをホールで混ぜる、ベンガル地方のミックススパイスは?",
+   "a": "パンチフォロン",
+   "alt": []
+  },
+  "spice": {
+   "id": "panchphoron",
+   "name": "パンチフォロン",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ノート「クミン、ニゲラ、フェネグリーク、マスタードシード、フェンネルシードの5種類をすべてホールでミックスしたもの。インド東部ベンガル地方の代表的なミックススパイス」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "rasalhanout-profile",
+  "kind": "spice-profile",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ラセラヌー",
+  "category": "profile",
+  "content": "ラセラヌー: ミックススパイス。検定1級の対象。",
+  "source": {
+   "page": 108,
+   "sourceUnitId": "rasalhanout-profile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": {
+   "id": "rasalhanout",
+   "name": "ラセラヌー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ページ見出し「ラセラヌー」のミックススパイスで検定1級の対象であることと一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "rh-1",
+  "kind": "spice-fact",
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionTitle": "ラセラヌー",
+  "category": "spice-fact",
+  "content": "20種類以上のスパイスやハーブを混ぜたモロッコのミックススパイスで、名前は「店の一番」の意味とされる。",
+  "source": {
+   "page": 108,
+   "sourceUnitId": "rh-1",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「店の一番」の意味とされる、モロッコのミックススパイスは?",
+   "a": "ラセラヌー",
+   "alt": []
+  },
+  "spice": {
+   "id": "rasalhanout",
+   "name": "ラセラヌー",
+   "en": null
+  },
+  "collation": {
+   "batch": "batch10",
+   "reason": "ノート「20種類以上のスパイスやハーブがミックスされている。モロッコのミックススパイス。ラセラヌーとは『店の一番』との意味だそう」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ }
+]

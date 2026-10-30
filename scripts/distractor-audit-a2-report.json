@@ -1,0 +1,5355 @@
+{
+  "meta": {
+    "audit": "F1形式の意味的監査バッチA2（○×・多択・組み合わせ・図表）",
+    "generatedBy": "scripts/audit-f1-a2.mjs",
+    "verdictsSource": "scripts/distractor-audit-a2-verdicts.json",
+    "targets": {
+      "total": 364,
+      "byFormat": {
+        "true-false": 272,
+        "multiple-choice": 32,
+        "matching": 43,
+        "figure": 17
+      },
+      "byKind": {
+        "figure": 17,
+        "matching/family": 17,
+        "matching/origin": 9,
+        "matching/part": 17,
+        "multiple-choice/family": 14,
+        "multiple-choice/origin": 7,
+        "multiple-choice/part": 11,
+        "true-false/family-false": 68,
+        "true-false/family-true": 68,
+        "true-false/part-false": 68,
+        "true-false/part-true": 68
+      }
+    },
+    "categories": {
+      "TF-A": "偽文値が対象品目の同一spice他単位 content に出現",
+      "TF-B": "偽文値が出典ページ・次ページの転記ブロックに出現",
+      "TF-C": "偽文値が転記のブロックで対象名・別名基部と共起",
+      "TF-D": "偽文値と真文値の構成要素関係（包含・一致・共有）",
+      "TF-E": "真文の確認対象（括弧注記を含む値 / 複合名称）",
+      "MC-A": "非該当候補の属性値と対象値の構成要素関係（包含・一致・共有）",
+      "MC-B": "非該当候補の同一spice単位 content に対象値が出現",
+      "MC-C": "転記ブロックで非該当候補名と対象値が共起",
+      "MC-D": "候補同士の名称・別名基部が一致/包含",
+      "MC-E": "原産地の地域トークンに文字列包含（地域の広狭）",
+      "MT-A": "right値同士の構成要素関係（包含・集合一致・共有）",
+      "MT-B": "含意グラフで模範対応と異なる完全対応（別解）が存在",
+      "MT-C": "leftの同一spice単位 content に他のright値が出現",
+      "MT-D": "出典ページの転記ブロックでleft名と他のright値が共起",
+      "FG-A": "対象値の構成要素が他行の利用部位値に包含される（他行が対象値を含意）",
+      "FG-B": "対象値が他行品目の同一spice単位 content に出現",
+      "FG-C": "転記ブロックで他行名・別名基部と対象値が共起",
+      "FG-D": "対象値と他行値の構成要素の部分共有（FG-Aに該当しない共有）"
+    },
+    "screening": {
+      "flaggedQuestions": 80,
+      "byCategory": {
+        "FG-A": {
+          "instances": 8,
+          "questions": 7
+        },
+        "FG-B": {
+          "instances": 9,
+          "questions": 5
+        },
+        "FG-C": {
+          "instances": 11,
+          "questions": 7
+        },
+        "FG-D": {
+          "instances": 10,
+          "questions": 6
+        },
+        "MC-A": {
+          "instances": 1,
+          "questions": 1
+        },
+        "MC-C": {
+          "instances": 4,
+          "questions": 3
+        },
+        "MC-E": {
+          "instances": 3,
+          "questions": 2
+        },
+        "MT-A": {
+          "instances": 38,
+          "questions": 17
+        },
+        "MT-B": {
+          "instances": 2,
+          "questions": 2
+        },
+        "MT-C": {
+          "instances": 9,
+          "questions": 6
+        },
+        "MT-D": {
+          "instances": 16,
+          "questions": 9
+        },
+        "TF-A": {
+          "instances": 1,
+          "questions": 1
+        },
+        "TF-B": {
+          "instances": 18,
+          "questions": 14
+        },
+        "TF-C": {
+          "instances": 5,
+          "questions": 5
+        },
+        "TF-D": {
+          "instances": 5,
+          "questions": 5
+        },
+        "TF-E": {
+          "instances": 18,
+          "questions": 17
+        }
+      }
+    },
+    "sampling": {
+      "rate": 0.1,
+      "byKind": {
+        "figure": {
+          "kindTargets": 17,
+          "unflagged": 2,
+          "sampled": 1,
+          "sampleIds": [
+            "qfig-pepper-profile"
+          ]
+        },
+        "matching/family": {
+          "kindTargets": 17,
+          "unflagged": 17,
+          "sampled": 2,
+          "sampleIds": [
+            "qmatch-family-ajwain-profile",
+            "qmatch-family-celery-profile"
+          ]
+        },
+        "matching/origin": {
+          "kindTargets": 9,
+          "unflagged": 5,
+          "sampled": 1,
+          "sampleIds": [
+            "qmatch-origin-marjoram-profile"
+          ]
+        },
+        "matching/part": {
+          "kindTargets": 17,
+          "unflagged": 1,
+          "sampled": 1,
+          "sampleIds": [
+            "qmatch-part-pepper-profile"
+          ]
+        },
+        "multiple-choice/family": {
+          "kindTargets": 14,
+          "unflagged": 14,
+          "sampled": 2,
+          "sampleIds": [
+            "qmc-family-chives-profile",
+            "qmc-family-curryleaf-profile"
+          ]
+        },
+        "multiple-choice/origin": {
+          "kindTargets": 7,
+          "unflagged": 4,
+          "sampled": 1,
+          "sampleIds": [
+            "qmc-origin-ginger-profile"
+          ]
+        },
+        "multiple-choice/part": {
+          "kindTargets": 11,
+          "unflagged": 8,
+          "sampled": 1,
+          "sampleIds": [
+            "qmc-part-marjoram-profile"
+          ]
+        },
+        "true-false/family-false": {
+          "kindTargets": 68,
+          "unflagged": 60,
+          "sampled": 6,
+          "sampleIds": [
+            "qtf-family-false-rucola-profile",
+            "qtf-family-false-coriander-profile",
+            "qtf-family-false-curryleaf-profile",
+            "qtf-family-false-caper-profile",
+            "qtf-family-false-mitsuba-profile",
+            "qtf-family-false-parsley-profile"
+          ]
+        },
+        "true-false/family-true": {
+          "kindTargets": 68,
+          "unflagged": 65,
+          "sampled": 7,
+          "sampleIds": [
+            "qtf-family-dokudami-profile",
+            "qtf-family-longpepper-profile",
+            "qtf-family-shiso-profile",
+            "qtf-family-anise-profile",
+            "qtf-family-fenugreek-profile",
+            "qtf-family-thyme-profile",
+            "qtf-family-caper-profile"
+          ]
+        },
+        "true-false/part-false": {
+          "kindTargets": 68,
+          "unflagged": 54,
+          "sampled": 6,
+          "sampleIds": [
+            "qtf-part-false-pandan-profile",
+            "qtf-part-false-nigella-profile",
+            "qtf-part-false-paprika-profile",
+            "qtf-part-false-juniper-profile",
+            "qtf-part-false-mache-profile",
+            "qtf-part-false-nutmeg-profile"
+          ]
+        },
+        "true-false/part-true": {
+          "kindTargets": 68,
+          "unflagged": 54,
+          "sampled": 6,
+          "sampleIds": [
+            "qtf-part-cardamom-profile",
+            "qtf-part-dokudami-profile",
+            "qtf-part-laurel-profile",
+            "qtf-part-poppyseed-profile",
+            "qtf-part-grainsofparadise-profile",
+            "qtf-part-sage-profile"
+          ]
+        }
+      },
+      "sampledQuestions": 34
+    },
+    "verdicts": {
+      "flagged": {
+        "真の問題": 8,
+        "問題なし": 70,
+        "要確認": 2
+      },
+      "sampled": {
+        "真の問題": 0,
+        "問題なし": 34,
+        "要確認": 0
+      },
+      "trueProblems": [
+        "qfig-ajwain-profile",
+        "qfig-caraway-profile",
+        "qfig-coriander-profile",
+        "qfig-cumin-profile",
+        "qfig-dill-profile",
+        "qfig-oregano-profile",
+        "qfig-tamarind-profile",
+        "qmatch-part-ajwain-profile"
+      ],
+      "needsReview": [
+        "qfig-mint-profile",
+        "qmatch-part-tamarind-profile"
+      ]
+    },
+    "fixes": [
+      {
+        "questionIds": [
+          "qfig-ajwain-profile",
+          "qfig-caraway-profile",
+          "qfig-coriander-profile",
+          "qfig-cumin-profile",
+          "qfig-dill-profile",
+          "qfig-oregano-profile",
+          "qfig-tamarind-profile"
+        ],
+        "method": "生成器の図表の対象選択に意味的一意性ガードを追加（監査A2、docs/DECISIONS.md #25）: 対象の利用部位の構成要素が他の構成員の利用部位値に包含される対象は選ばず、決定的ハッシュの対象が不適格な場合はグループ順で最初に適格な構成員を対象にする。問題文と正解のみが変わり、表・選択肢・解説と問題数は不変（対象の付け替え: アジョワン問題→バジル、キャラウェイ問題→キャラウェイ、コリアンダー問題→コリアンダー、クミン問題→クミン、ディル問題→ディル、オレガノ問題→オレガノ、タマリンド問題→タイム）。生成側の再検証（生成器 validateGenerated）でも同ガードを全件確認する。"
+      },
+      {
+        "questionIds": [
+          "qmatch-part-ajwain-profile"
+        ],
+        "method": "scripts/distractor-audit-exclusions.json に同種グループ除外（kind: match-cogroup、key: part、allspice-profile × amchur-profile）を追加し、生成器の組み合わせグループ化で両者を同じ問題に入れない（監査A2、docs/DECISIONS.md #25）。再生成で qmatch-part-ajwain-profile の構成はアジョワン・オールスパイス・アニス・アサフェティダとなり、代わりに qmatch-part-amchur-profile（マンゴーパウダー・バジル・ケイパー・キャラウェイ）が生じ、qmatch-part-asafoetida-profile は消える。組み合わせの問題数（43問）と他のグループの構成は不変で、新しい両グループに別解の完全対応がないことを含意グラフで再確認した。"
+      }
+    ]
+  },
+  "flagged": [
+    {
+      "questionId": "qtf-part-false-chili-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "chili-profile"
+      ],
+      "sourcePages": [
+        76
+      ],
+      "prompt": "唐辛子の利用部位は根である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "唐辛子: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実、葉。別名はチリペッパー、チリ、カイエンペッパー(品種の一部)、鷹の爪(品種の一部)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "根",
+          "detail": "p.77 の転記ブロックに偽文値が出現: 生の大根に箸などで穴をあけ、唐辛子（ホール）を差し込んでいっしょにすりおろしたもの。"
+        },
+        {
+          "category": "TF-C",
+          "subject": "根",
+          "detail": "p.77 の転記ブロックで対象名/別名「唐辛子」と共起: 生の大根に箸などで穴をあけ、唐辛子（ホール）を差し込んでいっしょにすりおろしたもの。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "共起ブロックはもみじおろしの説明で、「根」は調理に使う生の大根の字の一部として現れるもので、唐辛子の部位の記載ではない。唐辛子の利用部位は果実、葉（転記 p.76 の表）。"
+    },
+    {
+      "questionId": "qtf-family-nutmeg-profile",
+      "format": "true-false",
+      "kind": "true-false/family-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "nutmeg-profile"
+      ],
+      "sourcePages": [
+        78
+      ],
+      "prompt": "ナツメッグ/メースの科名はニクズク科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "ナツメッグ/メース",
+          "detail": "名称「ナツメッグ/メース」が複合で複数品目を含むため、真文が両品目に当てはまるか確認"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "複合名称ナツメッグ/メースは同一植物の2つの産品で、科名ニクズク科は転記 p.78 の表の記載そのもの（照合バッチ3）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-nutmeg-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "nutmeg-profile"
+      ],
+      "sourcePages": [
+        78
+      ],
+      "prompt": "ナツメッグ/メースの利用部位は種子の仁(ナツメッグ)、仮種皮(メース)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "種子の仁(ナツメッグ)、仮種皮(メース)",
+          "detail": "真文の利用部位値に括弧注記を含む: 種子の仁(ナツメッグ)、仮種皮(メース)"
+        },
+        {
+          "category": "TF-E",
+          "subject": "ナツメッグ/メース",
+          "detail": "名称「ナツメッグ/メース」が複合で複数品目を含むため、真文が両品目に当てはまるか確認"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「種子の仁(ナツメッグ)、仮種皮(メース)」は転記 p.78 のプロフィール表の記載そのもので、括弧内は各部位がどちらの産品かを教科書自身が対応づけた注記であり、同ページの注記（※ナツメッグとメースについて）とも一致する（照合バッチ3）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-basil-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "basil-profile"
+      ],
+      "sourcePages": [
+        79
+      ],
+      "prompt": "バジルの利用部位は葉および花穂、種子(バジルシード)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "バジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "葉および花穂、種子(バジルシード)",
+          "detail": "真文の利用部位値に括弧注記を含む: 葉および花穂、種子(バジルシード)"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「葉および花穂、種子(バジルシード)」は転記 p.79 のプロフィール表の記載そのもので、括弧内は種子製品の名称であり、同ページ本文もバジルシードの利用を記す（照合バッチ3）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-vanilla-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "vanilla-profile"
+      ],
+      "sourcePages": [
+        81
+      ],
+      "prompt": "バニラの利用部位は果実(さや)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "バニラ: 科名はラン科。原産地は中央アメリカ。利用部位は果実(さや)。別名はワニラ。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "果実(さや)",
+          "detail": "真文の利用部位値に括弧注記を含む: 果実(さや)"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「果実(さや)」は転記 p.81 のプロフィール表の記載そのもので、同ページ本文も「さや状の果実を未熟な緑色のうちに採取し」て利用すると記す（照合バッチ3）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-paprika-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "paprika-profile"
+      ],
+      "sourcePages": [
+        82
+      ],
+      "prompt": "パプリカの利用部位は果実(種子を除いた果肉部)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "パプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "果実(種子を除いた果肉部)",
+          "detail": "真文の利用部位値に括弧注記を含む: 果実(種子を除いた果肉部)"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「果実(種子を除いた果肉部)」は転記 p.82 のプロフィール表の記載そのもので、括弧内は利用範囲を限定する教科書自身の注記（照合バッチ4）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-fennel-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "fennel-profile"
+      ],
+      "sourcePages": [
+        83
+      ],
+      "prompt": "フェンネルの利用部位は種子(植物学上は果実)、葉、茎である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "フェンネル: 科名はセリ科。原産地は地中海沿岸。利用部位は種子(植物学上は果実)、葉、茎。別名は茴香(ういきょう)、小茴香(しょういきょう)。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "種子(植物学上は果実)、葉、茎",
+          "detail": "真文の利用部位値に括弧注記を含む: 種子(植物学上は果実)、葉、茎"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「種子(植物学上は果実)、葉、茎」は転記 p.83 のプロフィール表の記載そのもの（照合バッチ4）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-false-mint-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "mint-profile"
+      ],
+      "sourcePages": [
+        87
+      ],
+      "prompt": "ミントの利用部位は根である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-C",
+          "subject": "根",
+          "detail": "p.127 の転記ブロックで対象名/別名「ミント」と共起: 株を根ごと分割する方法。株が大きくなって別の容器に植え替えるときなどに、根ごとやさしく株分けする。株分けが可能なのはオレガノ、ミント、タイムなど株立ちになるものや、チャイブなど球根や根茎を持っているハーブ。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "共起は転記 p.127 の栽培（株分け）の文章で、「根ごと分割」は繁殖方法の説明であり、利用部位の記載ではない。ミントの利用部位は葉および花穂（転記 p.87 の表）。"
+    },
+    {
+      "questionId": "qtf-family-false-grainsofparadise-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "grainsofparadise-profile"
+      ],
+      "sourcePages": [
+        100
+      ],
+      "prompt": "グレインズオブパラダイスの科名はフウチョウボク科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "グレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "フウチョウボク科",
+          "detail": "p.101 の転記ブロックに偽文値が出現: 科名 | フウチョウボク科"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値フウチョウボク科の出現は次ページ（p.101）のケイパーのプロフィール行であり、グレインズオブパラダイスの科名はショウガ科（転記 p.100 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-part-false-cresson-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "cresson-profile"
+      ],
+      "sourcePages": [
+        100
+      ],
+      "prompt": "クレソンの利用部位は未熟な果実である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "未熟な果実",
+          "detail": "p.100 の転記ブロックに偽文値が出現: しっぽのように見える短い茎をつけた、緑色の未熟な果実を摘み取り、天日乾燥する。中国では古くから薬用として利用されてきた。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値「未熟な果実」の出現は同一ページ（p.100）のクベバの記事本文であり、クレソンの利用部位は葉、茎（転記 p.100 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-part-false-savory-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "savory-profile"
+      ],
+      "sourcePages": [
+        102
+      ],
+      "prompt": "サボリーの利用部位は種子(植物学上は果実)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "種子(植物学上は果実)",
+          "detail": "p.103 の転記ブロックに偽文値が出現: 利用部位 | 種子（植物学上は果実）"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値「種子（植物学上は果実）」の出現は次ページ（p.103）のセロリーのプロフィール行であり、サボリーの利用部位は葉および花穂（転記 p.102 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-part-false-shiso-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "shiso-profile"
+      ],
+      "sourcePages": [
+        102
+      ],
+      "prompt": "しそ(紫蘇)の利用部位は果実(種子を除いた果肉部)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-D",
+          "subject": "果実(種子を除いた果肉部)",
+          "detail": "偽文値と真文値「葉および花穂、種子」が構成要素 [\"種子\"] を共有"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "構成要素「種子」の共有は偽文値の括弧注記「種子を除いた果肉部」（種子の利用を否定する注記）由来の見かけのものである。しその利用部位は葉および花穂、種子であり、パプリカの値全体（果肉部）には該当しない。"
+    },
+    {
+      "questionId": "qtf-family-false-celery-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "celery-profile"
+      ],
+      "sourcePages": [
+        103
+      ],
+      "prompt": "セロリーの科名はウルシ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "ウルシ科",
+          "detail": "p.103 の転記ブロックに偽文値が出現: 科名 | ウルシ科"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値ウルシ科の出現は同一ページ（p.103）のスマックのプロフィール行であり、セロリーの科名はセリ科（転記 p.103 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-part-celery-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "celery-profile"
+      ],
+      "sourcePages": [
+        103
+      ],
+      "prompt": "セロリーの利用部位は種子(植物学上は果実)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "種子(植物学上は果実)",
+          "detail": "真文の利用部位値に括弧注記を含む: 種子(植物学上は果実)"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「種子(植物学上は果実)」は転記 p.103 のプロフィール表の記載そのもので、括弧内は教科書自身の植物学上の注記（照合バッチ9）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-false-celery-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "celery-profile"
+      ],
+      "sourcePages": [
+        103
+      ],
+      "prompt": "セロリーの利用部位は未熟な果実である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-D",
+          "subject": "未熟な果実",
+          "detail": "偽文値の構成要素が真文値「種子(植物学上は果実)」に包含される"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値「未熟な果実」の構成要素は真文値の括弧注記（植物学上は果実）により見かけ上包含されるが、セロリーの部位が未熟な状態で利用されるとの記載は教科書になく、「未熟な果実」はオールスパイスの値全体としてセロリーには該当しない。"
+    },
+    {
+      "questionId": "qtf-family-false-sorrel-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "sorrel-profile"
+      ],
+      "sourcePages": [
+        103
+      ],
+      "prompt": "ソレルの科名はセリ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "セリ科",
+          "detail": "p.103 の転記ブロックに偽文値が出現: 科名 | セリ科"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値セリ科の出現は同一ページ（p.103）のセロリーのプロフィール行であり、ソレルの科名はタデ科（転記 p.103 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-part-tade-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "tade-profile"
+      ],
+      "sourcePages": [
+        104
+      ],
+      "prompt": "たで(蓼)の利用部位は葉(芽)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "たで(蓼): 科名はタデ科。利用部位は葉(芽)。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "葉(芽)",
+          "detail": "真文の利用部位値に括弧注記を含む: 葉(芽)"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「葉(芽)」は転記 p.104 のプロフィール表の記載そのもので、括弧内は食用とする形態（芽）の指定（照合バッチ9）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-family-false-dokudami-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "dokudami-profile"
+      ],
+      "sourcePages": [
+        104
+      ],
+      "prompt": "どくだみの科名はマメ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "マメ科",
+          "detail": "p.104 の転記ブロックに偽文値が出現: 科名 | マメ科"
+        },
+        {
+          "category": "TF-B",
+          "subject": "マメ科",
+          "detail": "p.105 の転記ブロックに偽文値が出現: 科名 | マメ科"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値マメ科の出現は同一見開き（p.104・105）のフェネグリーク等のプロフィール行であり、どくだみの科名はドクダミ科（転記 p.104 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-family-false-pandan-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "pandan-profile"
+      ],
+      "sourcePages": [
+        105
+      ],
+      "prompt": "パンダンリーフの科名はマメ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "マメ科",
+          "detail": "p.105 の転記ブロックに偽文値が出現: 科名 | マメ科"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値マメ科の出現は同一ページ（p.105）のフェネグリークのプロフィール行であり、パンダンリーフの科名はタコノキ科（転記 p.105 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-family-false-amchur-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "amchur-profile"
+      ],
+      "sourcePages": [
+        106
+      ],
+      "prompt": "マンゴーパウダーの科名はコショウ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "コショウ科",
+          "detail": "p.107 の転記ブロックに偽文値が出現: 科名 | コショウ科"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値コショウ科の出現は同一見開きの次ページ（p.107）にあるロングペッパーのプロフィール行であり、マンゴーパウダーの科名はウルシ科（転記 p.106 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-part-false-lemonbalm-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "lemonbalm-profile"
+      ],
+      "sourcePages": [
+        106
+      ],
+      "prompt": "レモンバームの利用部位は未熟な果実である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "レモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "未熟な果実",
+          "detail": "p.106 の転記ブロックに偽文値が出現: マンゴーの未熟な果実をスライスして乾燥後、粉状にしたものをスパイスとして利用。シーズニングスパイス「チャートマサラ（チャットマサラ）」の原料。「アムチュール」はインド名。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値「未熟な果実」の出現は同一ページ（p.106）のマンゴーパウダーの記事本文であり、レモンバームの利用部位は葉（転記 p.106 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qmc-part-amchur-profile",
+      "format": "multiple-choice",
+      "kind": "multiple-choice/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "amchur-profile",
+        "cardamom-profile",
+        "saffron-profile",
+        "garlic-profile"
+      ],
+      "sourcePages": [
+        106,
+        56,
+        64,
+        55
+      ],
+      "prompt": "利用部位が「果実」であるものをすべて選べ。",
+      "choices": [
+        "ガーリック",
+        "サフラン",
+        "カルダモン",
+        "マンゴーパウダー"
+      ],
+      "correctChoiceIndexes": [
+        2,
+        3
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。",
+        "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。",
+        "サフラン: 科名はアヤメ科。原産地は南ヨーロッパ、西アジア。利用部位は花の雌しべ。別名はサフランクロッカス、蕃紅花(ばんこうか)。検定1・2・3級の対象。",
+        "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MC-C",
+          "subject": "ガーリック",
+          "detail": "p.14 の転記ブロックで候補名/別名「ガーリック」と対象値が共起: コリアンダー、フェンネル、クミンなどは外観から種子を利用するグループに入っているが、植物学上は果実。ガーリックは根・根茎のグループに入っているが、鱗茎と呼ばれる葉や茎が肥大した部分。"
+        },
+        {
+          "category": "MC-C",
+          "subject": "サフラン",
+          "detail": "p.14 の転記ブロックで候補名/別名「サフラン」と対象値が共起: スパイスやハーブは植物のさまざまな部位を利用しています。種子や果実、葉の部分を利用する場合が多いのですが、サフランやクローブのように雌しべ、蕾を利用する珍しいものもあります。またコリアンダーのようにひとつの植物で種子、葉を使うという例もあり"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "転記 p.14 の共起ブロックは、ガーリックの部位が鱗茎であることを明示する注記と、サフランの部位が雌しべである例示であり、どちらの非該当候補も「果実」を部位とするとは記されていない。対象値への該当なし。"
+    },
+    {
+      "questionId": "qmc-part-asafoetida-profile",
+      "format": "multiple-choice",
+      "kind": "multiple-choice/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "asafoetida-profile",
+        "galangal-profile",
+        "garlic-profile",
+        "mache-profile"
+      ],
+      "sourcePages": [
+        98,
+        99,
+        55,
+        106
+      ],
+      "prompt": "利用部位が「根茎」であるものをすべて選べ。",
+      "choices": [
+        "ガランガル",
+        "マーシュ",
+        "アサフェティダ",
+        "ガーリック"
+      ],
+      "correctChoiceIndexes": [
+        0,
+        2
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "アサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。",
+        "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。",
+        "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。",
+        "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MC-C",
+          "subject": "ガーリック",
+          "detail": "p.14 の転記ブロックで候補名/別名「ガーリック」と対象値が共起: 根・根茎 | ジンジャー、ガーリック、わさび、ターメリックなど"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "転記 p.14 の分類表でガーリックは「根・根茎」のグループに挙げられるが、同じ p.14 の注記とプロフィールがその部位は鱗茎（葉や茎が肥大した部分）と明示しており、分類グループ名は利用部位の値「根茎」そのものではない。ガーリックは対象値「根茎」には該当しない。"
+    },
+    {
+      "questionId": "qmc-part-fenugreek-profile",
+      "format": "multiple-choice",
+      "kind": "multiple-choice/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "fenugreek-profile",
+        "mustard-profile",
+        "paprika-profile",
+        "juniper-profile"
+      ],
+      "sourcePages": [
+        105,
+        85,
+        82,
+        102
+      ],
+      "prompt": "利用部位が「種子、葉」であるものをすべて選べ。",
+      "choices": [
+        "ジュニパーベリー",
+        "フェネグリーク",
+        "マスタード",
+        "パプリカ"
+      ],
+      "correctChoiceIndexes": [
+        1,
+        2
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。",
+        "マスタード: 科名はアブラナ科。原産地は地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)。利用部位は種子、葉。別名はからし。検定1・2・3級の対象。",
+        "パプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。",
+        "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MC-A",
+          "subject": "パプリカ",
+          "detail": "非該当候補のpart値「果実(種子を除いた果肉部)」と対象値が構成要素 [\"種子\"] を共有"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "非該当候補パプリカの値「果実(種子を除いた果肉部)」との語彙「種子」の共有は、種子の利用を否定する括弧注記（種子を除いた）由来の見かけのものである。パプリカは種子を利用せず葉も含まないため、対象値「種子、葉」には該当しない。"
+    },
+    {
+      "questionId": "qmc-origin-basil-profile",
+      "format": "multiple-choice",
+      "kind": "multiple-choice/origin",
+      "chapterId": "ch2",
+      "unitIds": [
+        "basil-profile",
+        "cardamom-profile",
+        "paprika-profile",
+        "garlic-profile"
+      ],
+      "sourcePages": [
+        79,
+        56,
+        82,
+        55
+      ],
+      "prompt": "原産地が「インド」であるものをすべて選べ。",
+      "choices": [
+        "パプリカ",
+        "カルダモン",
+        "バジル",
+        "ガーリック"
+      ],
+      "correctChoiceIndexes": [
+        1,
+        2
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "バジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。",
+        "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。",
+        "パプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。",
+        "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MC-C",
+          "subject": "ガーリック",
+          "detail": "p.55 の転記ブロックで候補名/別名「ガーリック」と対象値が共起: 肉や魚の臭み消しの働きが強く、強烈で独特の香りは味わいに深みや力強さを与える。塩、こしょうに次ぐ第三の調味料ともいわれ、古くからグリル、煮込み、スープ、麺類、ソースなど、世界各地の料理に幅広く使われている。フランス、イタリア、スペイン、メキ"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "非該当候補ガーリックと対象値「インド」の共起は転記 p.55 の利用・普及の文章（世界各地の料理）の中のもので、原産地の記載ではない。ガーリックの原産地は中央アジア（プロフィール）で、対象値には該当しない。"
+    },
+    {
+      "questionId": "qmc-origin-clove-profile",
+      "format": "multiple-choice",
+      "kind": "multiple-choice/origin",
+      "chapterId": "ch2",
+      "unitIds": [
+        "clove-profile",
+        "nutmeg-profile",
+        "caraway-profile",
+        "lemongrass-profile"
+      ],
+      "sourcePages": [
+        60,
+        78,
+        57,
+        89
+      ],
+      "prompt": "原産地が「インドネシア(マルク諸島)」であるものをすべて選べ。",
+      "choices": [
+        "レモングラス",
+        "ナツメッグ/メース",
+        "クローブ",
+        "キャラウェイ"
+      ],
+      "correctChoiceIndexes": [
+        1,
+        2
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "クローブ: 科名はフトモモ科。原産地はインドネシア(マルク諸島)。利用部位は蕾。別名は丁子(ちょうじ)、丁香(ちょうこう)、百里香(ひゃくりこう)。検定1・2・3級の対象。",
+        "ナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。",
+        "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。",
+        "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MC-E",
+          "subject": "レモングラス",
+          "detail": "地域トークン「インド」と対象値の地域トークン「インドネシア」に文字列包含"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "文字列包含は「インド」と「インドネシア」の見かけのもので、両者は別の地域である（インドネシア(マルク諸島)が対象値、レモングラスの原産地はインド、熱帯アジア）。監査A1の原産地の全体値基準でも別解にならない。"
+    },
+    {
+      "questionId": "qmc-origin-dill-profile",
+      "format": "multiple-choice",
+      "kind": "multiple-choice/origin",
+      "chapterId": "ch2",
+      "unitIds": [
+        "dill-profile",
+        "saffron-profile",
+        "mint-profile",
+        "turmeric-profile"
+      ],
+      "sourcePages": [
+        75,
+        64,
+        87,
+        70
+      ],
+      "prompt": "原産地が「南ヨーロッパ、西アジア」であるものをすべて選べ。",
+      "choices": [
+        "サフラン",
+        "ミント",
+        "ターメリック",
+        "ディル"
+      ],
+      "correctChoiceIndexes": [
+        0,
+        3
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。",
+        "サフラン: 科名はアヤメ科。原産地は南ヨーロッパ、西アジア。利用部位は花の雌しべ。別名はサフランクロッカス、蕃紅花(ばんこうか)。検定1・2・3級の対象。",
+        "ミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。",
+        "ターメリック: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はうこん、秋うこん、インディアンサフラン。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MC-E",
+          "subject": "ミント",
+          "detail": "地域トークン「ヨーロッパ」と対象値の地域トークン「南ヨーロッパ」に文字列包含"
+        },
+        {
+          "category": "MC-E",
+          "subject": "ミント",
+          "detail": "地域トークン「アジア」と対象値の地域トークン「西アジア」に文字列包含"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "非該当候補ミントの原産地「ヨーロッパ、アジア」は対象値「南ヨーロッパ、西アジア」より広い地域表記だが、教科書はミントの原産地を南ヨーロッパ・西アジアとは特定しておらず、全体値としては一致しない。監査A1の原産地問題（qsc-origin）の全体値基準と同一の扱いで、別解にならない。"
+    },
+    {
+      "questionId": "qmatch-part-ajwain-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "ajwain-profile",
+        "allspice-profile",
+        "amchur-profile",
+        "anise-profile"
+      ],
+      "sourcePages": [
+        98,
+        53,
+        106,
+        52
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: アジョワン・オールスパイス・マンゴーパウダー・アニス）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "アジョワン",
+          "right": "種子"
+        },
+        {
+          "left": "オールスパイス",
+          "right": "未熟な果実"
+        },
+        {
+          "left": "マンゴーパウダー",
+          "right": "果実"
+        },
+        {
+          "left": "アニス",
+          "right": "種子(植物学上は果実)"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。",
+        "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。",
+        "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。",
+        "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "種子(植物学上は果実)",
+          "detail": "アジョワン=\"種子\" と アニス=\"種子(植物学上は果実)\": 「種子」の構成要素が「種子(植物学上は果実)」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "果実",
+          "detail": "オールスパイス=\"未熟な果実\" と マンゴーパウダー=\"果実\": 構成要素が集合一致"
+        },
+        {
+          "category": "MT-A",
+          "subject": "種子(植物学上は果実)",
+          "detail": "オールスパイス=\"未熟な果実\" と アニス=\"種子(植物学上は果実)\": 「未熟な果実」の構成要素が「種子(植物学上は果実)」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "種子(植物学上は果実)",
+          "detail": "マンゴーパウダー=\"果実\" と アニス=\"種子(植物学上は果実)\": 「果実」の構成要素が「種子(植物学上は果実)」に包含"
+        },
+        {
+          "category": "MT-B",
+          "subject": null,
+          "detail": "含意グラフで別解の完全対応が存在: アジョワン=種子 / オールスパイス=果実 / マンゴーパウダー=未熟な果実 / アニス=種子(植物学上は果実)"
+        },
+        {
+          "category": "MT-D",
+          "subject": "未熟な果実",
+          "detail": "left「マンゴーパウダー」の出典ページ p.106 の転記ブロックで他のright「未熟な果実」と共起: マンゴーの未熟な果実をスライスして乾燥後、粉状にしたものをスパイスとして利用。シーズニングスパイス「チャートマサラ（チャットマサラ）」の原料。「アムチュール」はインド名。"
+        }
+      ],
+      "verdict": "真の問題",
+      "basis": "含意グラフで完全対応の別解が存在する: オールスパイス=果実（その部位「未熟な果実」は果実そのもの）、マンゴーパウダー=未熟な果実（転記 p.106 が「マンゴーの未熟な果実をスライスして乾燥後、粉状にしたものをスパイスとして利用」と明示し、MT-Dでも検出）。模範対応と異なる組み合わせでも全ペアが教科書の記載上成り立つため、対応が一意でない。"
+    },
+    {
+      "questionId": "qmatch-part-asafoetida-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "asafoetida-profile",
+        "basil-profile",
+        "caper-profile",
+        "caraway-profile"
+      ],
+      "sourcePages": [
+        98,
+        79,
+        101,
+        57
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: アサフェティダ・バジル・ケイパー・キャラウェイ）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "アサフェティダ",
+          "right": "根茎"
+        },
+        {
+          "left": "バジル",
+          "right": "葉および花穂、種子(バジルシード)"
+        },
+        {
+          "left": "ケイパー",
+          "right": "蕾"
+        },
+        {
+          "left": "キャラウェイ",
+          "right": "種子(植物学上は果実)"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "アサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。",
+        "バジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。",
+        "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。",
+        "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "種子(植物学上は果実)",
+          "detail": "バジル=\"葉および花穂、種子(バジルシード)\" と キャラウェイ=\"種子(植物学上は果実)\": 構成要素 [\"種子\"] を共有"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "バジルとキャラウェイの値の共有は語彙「種子」のみ。キャラウェイの値の括弧注記（植物学上は果実）はキャラウェイ固有のもので、バジルはその値全体を取れず、バジルの値（葉および花穂を含む）もキャラウェイは取れない。完全対応の別解は存在しない（MT-B検出なし）。"
+    },
+    {
+      "questionId": "qmatch-part-cardamom-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "cardamom-profile",
+        "celery-profile",
+        "chervil-profile",
+        "chili-profile"
+      ],
+      "sourcePages": [
+        56,
+        103,
+        73,
+        76
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: カルダモン・セロリー・チャービル・唐辛子）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "カルダモン",
+          "right": "果実"
+        },
+        {
+          "left": "セロリー",
+          "right": "種子(植物学上は果実)"
+        },
+        {
+          "left": "チャービル",
+          "right": "葉、茎"
+        },
+        {
+          "left": "唐辛子",
+          "right": "果実、葉"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。",
+        "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。",
+        "チャービル: 科名はセリ科。原産地はヨーロッパ、西アジア。利用部位は葉、茎。別名はセルフィーユ、茴香芹(ういきょうぜり)。検定1・2級の対象。",
+        "唐辛子: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実、葉。別名はチリペッパー、チリ、カイエンペッパー(品種の一部)、鷹の爪(品種の一部)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "種子(植物学上は果実)",
+          "detail": "カルダモン=\"果実\" と セロリー=\"種子(植物学上は果実)\": 「果実」の構成要素が「種子(植物学上は果実)」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "果実、葉",
+          "detail": "カルダモン=\"果実\" と 唐辛子=\"果実、葉\": 「果実」の構成要素が「果実、葉」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "果実、葉",
+          "detail": "セロリー=\"種子(植物学上は果実)\" と 唐辛子=\"果実、葉\": 構成要素 [\"果実\"] を共有"
+        },
+        {
+          "category": "MT-A",
+          "subject": "果実、葉",
+          "detail": "チャービル=\"葉、茎\" と 唐辛子=\"果実、葉\": 構成要素 [\"葉\"] を共有"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "カルダモン「果実」はセロリー・唐辛子の値に含まれるが、唐辛子・セロリーはカルダモンの値の受け先となる他の値（種子(植物学上は果実)、葉、茎を含む複合値）を取ることができず、含意グラフでも完全対応の別解は存在しない（MT-B検出なし）。部分包含のみ。"
+    },
+    {
+      "questionId": "qmatch-part-chives-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "chives-profile",
+        "cinnamon-profile",
+        "clove-profile",
+        "coriander-profile"
+      ],
+      "sourcePages": [
+        74,
+        67,
+        60,
+        63
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: チャイブ・シナモン/カシア・クローブ・コリアンダー）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "チャイブ",
+          "right": "花、葉"
+        },
+        {
+          "left": "シナモン/カシア",
+          "right": "樹皮"
+        },
+        {
+          "left": "クローブ",
+          "right": "蕾"
+        },
+        {
+          "left": "コリアンダー",
+          "right": "葉、茎、種子(植物学上は果実)、根"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "チャイブ: 科名はヒガンバナ科。原産地は中央アジア、温帯地域。利用部位は花、葉。別名はシブレット、西洋あさつき、えぞねぎ。検定1・2級の対象。",
+        "シナモン/カシア: 科名はクスノキ科。原産地はスリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)。利用部位は樹皮。別名は肉桂(にっけい)、桂皮(けいひ)。検定1・2・3級の対象。",
+        "クローブ: 科名はフトモモ科。原産地はインドネシア(マルク諸島)。利用部位は蕾。別名は丁子(ちょうじ)、丁香(ちょうこう)、百里香(ひゃくりこう)。検定1・2・3級の対象。",
+        "コリアンダー: 科名はセリ科。原産地は地中海沿岸、西アジア。利用部位は葉、茎、種子(植物学上は果実)、根。別名はコエンドロ、シラントロ、香菜(シャンツァイ)、パクチー、カメムシソウ。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "葉、茎、種子(植物学上は果実)、根",
+          "detail": "チャイブ=\"花、葉\" と コリアンダー=\"葉、茎、種子(植物学上は果実)、根\": 構成要素 [\"葉\"] を共有"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "チャイブとコリアンダーの値の共有は語彙「葉」のみ。チャイブの値「花、葉」の花はコリアンダーに無く、コリアンダーの複合値もチャイブは取れない。完全対応の別解は存在しない（MT-B検出なし）。"
+    },
+    {
+      "questionId": "qmatch-part-cresson-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "cresson-profile",
+        "cubeb-profile",
+        "cumin-profile",
+        "curryleaf-profile"
+      ],
+      "sourcePages": [
+        100,
+        100,
+        59,
+        99
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: クレソン・クベバ・クミン・カレーリーフ）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "クレソン",
+          "right": "葉、茎"
+        },
+        {
+          "left": "クベバ",
+          "right": "果実"
+        },
+        {
+          "left": "クミン",
+          "right": "種子(植物学上は果実)"
+        },
+        {
+          "left": "カレーリーフ",
+          "right": "葉"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。",
+        "クベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。",
+        "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。",
+        "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "葉",
+          "detail": "クレソン=\"葉、茎\" と カレーリーフ=\"葉\": 「葉」の構成要素が「葉、茎」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "種子(植物学上は果実)",
+          "detail": "クベバ=\"果実\" と クミン=\"種子(植物学上は果実)\": 「果実」の構成要素が「種子(植物学上は果実)」に包含"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "クレソン「葉、茎」とカレーリーフ「葉」、クベバ「果実」とクミン「種子(植物学上は果実)」の間に包含があるが、カレーリーフは茎を含まず、クベバは種子を含まないため、入れ替えでは完全対応が構成できない（MT-B検出なし）。部分包含のみ。"
+    },
+    {
+      "questionId": "qmatch-part-dill-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "dill-profile",
+        "dokudami-profile",
+        "fenugreek-profile",
+        "galangal-profile"
+      ],
+      "sourcePages": [
+        75,
+        104,
+        105,
+        99
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: ディル・どくだみ・フェネグリーク・ガランガル）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "ディル",
+          "right": "種子(植物学上は果実)、葉、茎"
+        },
+        {
+          "left": "どくだみ",
+          "right": "葉"
+        },
+        {
+          "left": "フェネグリーク",
+          "right": "種子、葉"
+        },
+        {
+          "left": "ガランガル",
+          "right": "根茎"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。",
+        "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。",
+        "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。",
+        "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "葉",
+          "detail": "ディル=\"種子(植物学上は果実)、葉、茎\" と どくだみ=\"葉\": 「葉」の構成要素が「種子(植物学上は果実)、葉、茎」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "種子、葉",
+          "detail": "ディル=\"種子(植物学上は果実)、葉、茎\" と フェネグリーク=\"種子、葉\": 「種子、葉」の構成要素が「種子(植物学上は果実)、葉、茎」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "種子、葉",
+          "detail": "どくだみ=\"葉\" と フェネグリーク=\"種子、葉\": 「葉」の構成要素が「種子、葉」に包含"
+        },
+        {
+          "category": "MT-C",
+          "subject": "葉",
+          "detail": "left「ディル」の同一spice単位 dill-1 の content に他のright「葉」が出現: 種子はキャラウェイに似た爽やかな香りでピクルスなどに使い、羽状のやわらかい葉はタイム・フェンネルと並ぶ「魚のハーブ」とされる。"
+        },
+        {
+          "category": "MT-C",
+          "subject": "葉",
+          "detail": "left「フェネグリーク」の同一spice単位 fen-1 の content に他のright「葉」が出現: 種子はメイプルシロップに似た甘い香りと強い苦みを持ち、スタータースパイスとして使う。苦みがあるので量は控えめに。葉はカスリメティと呼ばれる。"
+        },
+        {
+          "category": "MT-D",
+          "subject": "葉",
+          "detail": "left「フェネグリーク」の出典ページ p.105 の転記ブロックで他のright「葉」と共起: スタータースパイス（p.19）として利用されることが多く、油とともに焦がさないよう注意して炒めて、香ばしい甘い香りを引き出し、料理にマイルドな風味を加える。種子自体は、炒ったあとも煮込んだあとも苦みを有しているため、量は控えめに用いる。「メ"
+        },
+        {
+          "category": "MT-D",
+          "subject": "葉",
+          "detail": "left「ガランガル」の出典ページ p.99 の転記ブロックで他のright「葉」と共起: 葉には特有の芳しい香りとほのかなスパイシーさがあり、南インドやスリランカではカレーなどの香りづけに使われる。例えば煮込み過程で加える、カレー用ペーストの材料に使うなど。カレー以外では、炒めものやピクルス、魚介の酢漬けなどに使われることも。"
+        },
+        {
+          "category": "MT-D",
+          "subject": "葉",
+          "detail": "left「ガランガル」の出典ページ p.99 の転記ブロックで他のright「葉」と共起: 葉がよく茂るので、生垣にも利用されている。「カリーパッタ」はインド名。和名は「ナンヨウザンショウ」。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "どくだみ「葉」はディル・フェネグリークの値に含まれるが、どくだみは種子を含む値を取ることができず、ディルもフェネグリークの値全体は取れないため、完全対応の別解は存在しない（MT-B検出なし）。MT-Cの dill-1・fen-1 の葉の言及はいずれも自品目の値の構成部位としての利用であり、他方の値全体への該当ではない。MT-Dの p.99 の葉の記述は同一ページのカレーリーフの記事のもので、ガランガル（根茎）の部位の記載ではない。"
+    },
+    {
+      "questionId": "qmatch-part-fennel-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "fennel-profile",
+        "gardenia-profile",
+        "garlic-profile",
+        "ginger-profile"
+      ],
+      "sourcePages": [
+        83,
+        58,
+        55,
+        68
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: フェンネル・くちなし・ガーリック・しょうが）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "フェンネル",
+          "right": "種子(植物学上は果実)、葉、茎"
+        },
+        {
+          "left": "くちなし",
+          "right": "果実"
+        },
+        {
+          "left": "ガーリック",
+          "right": "鱗茎"
+        },
+        {
+          "left": "しょうが",
+          "right": "根茎"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "フェンネル: 科名はセリ科。原産地は地中海沿岸。利用部位は種子(植物学上は果実)、葉、茎。別名は茴香(ういきょう)、小茴香(しょういきょう)。検定1・2級の対象。",
+        "くちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。",
+        "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。",
+        "しょうが: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "果実",
+          "detail": "フェンネル=\"種子(植物学上は果実)、葉、茎\" と くちなし=\"果実\": 「果実」の構成要素が「種子(植物学上は果実)、葉、茎」に包含"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "くちなし「果実」はフェンネルの値に含まれるが、くちなしはフェンネルの値全体（種子・葉・茎を含む）を取ることはできず、完全対応の別解は存在しない（MT-B検出なし）。部分包含のみ。"
+    },
+    {
+      "questionId": "qmatch-part-grainsofparadise-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "grainsofparadise-profile",
+        "horseradish-profile",
+        "juniper-profile",
+        "kaffirlime-profile"
+      ],
+      "sourcePages": [
+        100,
+        84,
+        102,
+        98
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: グレインズオブパラダイス・ホースラディッシュ・ジュニパーベリー・カフェライム）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "グレインズオブパラダイス",
+          "right": "種子"
+        },
+        {
+          "left": "ホースラディッシュ",
+          "right": "根"
+        },
+        {
+          "left": "ジュニパーベリー",
+          "right": "果実"
+        },
+        {
+          "left": "カフェライム",
+          "right": "葉、果皮"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "グレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。",
+        "ホースラディッシュ: 科名はアブラナ科。原産地は諸説あるが東ヨーロッパ説が有力。利用部位は根。別名は西洋わさび、わさび大根、レホール。検定1・2級の対象。",
+        "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。",
+        "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-D",
+          "subject": "果実",
+          "detail": "left「カフェライム」の出典ページ p.98 の転記ブロックで他のright「果実」と共起: カフェライムの果実は苦みがあるが、果皮には強い香りがあり、すりおろしてタイ風カレーやスープなどの料理に風味を添えるのに使用される。「マックルー」はタイ名。葉をさす場合は「バイマックルー」という。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "MT-Dの共起はカフェライム自身の記事で、同文が利用部位は果皮であることを明示している（「カフェライムの果実は苦みがあるが、果皮には強い香りがあり…使う」）。果実への言及は果皮利用の文脈であり、カフェライムの値「葉、果皮」はジュニパーベリーの値「果実」に該当しない。"
+    },
+    {
+      "questionId": "qmatch-part-laurel-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "laurel-profile",
+        "lemongrass-profile",
+        "licorice-profile",
+        "longpepper-profile"
+      ],
+      "sourcePages": [
+        91,
+        89,
+        99,
+        107
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: ローレル・レモングラス・かんぞう(甘草)・ロングペッパー）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "ローレル",
+          "right": "葉"
+        },
+        {
+          "left": "レモングラス",
+          "right": "地上部"
+        },
+        {
+          "left": "かんぞう(甘草)",
+          "right": "根、走根"
+        },
+        {
+          "left": "ロングペッパー",
+          "right": "果実"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "ローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。",
+        "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。",
+        "かんぞう(甘草): 科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。",
+        "ロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-C",
+          "subject": "葉",
+          "detail": "left「レモングラス」の同一spice単位 lemongrass-2 の content に他のright「葉」が出現: 葉に傷をつけて初めて香りが強く漂うので、刻んだりもんだりして使う。東南アジアではかたい茎も使う。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "単位 lemongrass-2 はレモングラスが葉（と茎）を使うことを記すが、それはレモングラス自身の値「地上部」（地上部は葉・茎を含む）の範囲内の利用であり、ローレルは「地上部」を取ることができない（葉のみ）ため、入れ替えによる完全対応の別解は存在しない（MT-B検出なし）。"
+    },
+    {
+      "questionId": "qmatch-part-lemonbalm-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "lemonbalm-profile",
+        "mache-profile",
+        "marjoram-profile",
+        "mustard-profile"
+      ],
+      "sourcePages": [
+        106,
+        106,
+        85,
+        85
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: レモンバーム・マーシュ・マジョラム・マスタード）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "レモンバーム",
+          "right": "葉"
+        },
+        {
+          "left": "マーシュ",
+          "right": "葉、茎"
+        },
+        {
+          "left": "マジョラム",
+          "right": "葉および花穂"
+        },
+        {
+          "left": "マスタード",
+          "right": "種子、葉"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "レモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。",
+        "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。",
+        "マジョラム: 科名はシソ科。原産地は地中海東部沿岸。利用部位は葉および花穂。別名はマヨラナ、花薄荷(はなはっか)。検定1・2級の対象。",
+        "マスタード: 科名はアブラナ科。原産地は地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)。利用部位は種子、葉。別名はからし。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "葉、茎",
+          "detail": "レモンバーム=\"葉\" と マーシュ=\"葉、茎\": 「葉」の構成要素が「葉、茎」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "葉および花穂",
+          "detail": "レモンバーム=\"葉\" と マジョラム=\"葉および花穂\": 「葉」の構成要素が「葉および花穂」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "種子、葉",
+          "detail": "レモンバーム=\"葉\" と マスタード=\"種子、葉\": 「葉」の構成要素が「種子、葉」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "葉および花穂",
+          "detail": "マーシュ=\"葉、茎\" と マジョラム=\"葉および花穂\": 構成要素 [\"葉\"] を共有"
+        },
+        {
+          "category": "MT-A",
+          "subject": "種子、葉",
+          "detail": "マーシュ=\"葉、茎\" と マスタード=\"種子、葉\": 構成要素 [\"葉\"] を共有"
+        },
+        {
+          "category": "MT-A",
+          "subject": "種子、葉",
+          "detail": "マジョラム=\"葉および花穂\" と マスタード=\"種子、葉\": 構成要素 [\"葉\"] を共有"
+        },
+        {
+          "category": "MT-C",
+          "subject": "葉",
+          "detail": "left「マーシュ」の同一spice単位 mac-1 の content に他のright「葉」が出現: 丸い卵形の葉とクセのない風味。英名コーンサラダはトウモロコシ畑近くに自生したことに由来する。"
+        },
+        {
+          "category": "MT-D",
+          "subject": "葉",
+          "detail": "left「マスタード」の出典ページ p.86 の転記ブロックで他のright「葉」と共起: マスタードの葉は、漬けもの、おひたし、炒めもの、鍋もの、料理のつけ合わせ、サラダなどに幅広く使われる。さまざまな品種があるが、どれもピリッとした辛みと爽やかな後味を持つ。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "葉を含む値が複数あるが、レモンバーム「葉」は自らの値以外を取ることができず（茎・花穂・種子を含まない）、入れ替えはレモンバームで行き詰まるため完全対応の別解は存在しない（MT-B検出なし）。MT-Cの mac-1 の葉はマーシュ自身の値「葉、茎」の構成部位、MT-Dの p.86 の葉はマスタード自身の値「種子、葉」の構成部位としての利用で、他方の値全体への該当ではない。"
+    },
+    {
+      "questionId": "qmatch-part-mint-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "mint-profile",
+        "mitsuba-profile",
+        "nigella-profile",
+        "nutmeg-profile"
+      ],
+      "sourcePages": [
+        87,
+        106,
+        105,
+        78
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: ミント・みつば・ニゲラ・ナツメッグ/メース）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "ミント",
+          "right": "葉および花穂"
+        },
+        {
+          "left": "みつば",
+          "right": "葉、茎"
+        },
+        {
+          "left": "ニゲラ",
+          "right": "種子"
+        },
+        {
+          "left": "ナツメッグ/メース",
+          "right": "種子の仁(ナツメッグ)、仮種皮(メース)"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "ミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。",
+        "みつば: 科名はセリ科。利用部位は葉、茎。検定1級の対象。",
+        "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。",
+        "ナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "葉、茎",
+          "detail": "ミント=\"葉および花穂\" と みつば=\"葉、茎\": 構成要素 [\"葉\"] を共有"
+        },
+        {
+          "category": "MT-C",
+          "subject": "種子",
+          "detail": "left「ナツメッグ/メース」の同一spice単位 nutmeg-1 の content に他のright「種子」が出現: ナツメッグは種子の殻を除いた仁、メースは種子を包む仮種皮を乾燥させたもの。"
+        },
+        {
+          "category": "MT-D",
+          "subject": "種子",
+          "detail": "left「ナツメッグ/メース」の出典ページ p.78 の転記ブロックで他のright「種子」と共起: 利用部位 | 種子の仁（ナツメッグ）、仮種皮（メース）"
+        },
+        {
+          "category": "MT-D",
+          "subject": "種子",
+          "detail": "left「ナツメッグ/メース」の出典ページ p.78 の転記ブロックで他のright「種子」と共起: 種子…ナツメッグ（種子の仁）"
+        },
+        {
+          "category": "MT-D",
+          "subject": "種子",
+          "detail": "left「ナツメッグ/メース」の出典ページ p.78 の転記ブロックで他のright「種子」と共起: ※ナツメッグとメースについて ナツメッグは種子の仁（乾燥させた種子の殻を取り除いた部分をさす）、メースは仮種皮の部分を乾燥させたもの（写真参照）。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "ナツメッグ/メースの値に「種子」が現れる（種子の仁）ものの、ニゲラはナツメッグ/メースの値全体「種子の仁(ナツメッグ)、仮種皮(メース)」を取ることはできず、入れ替えによる完全対応の別解は構成できない（MT-B検出なし）。MT-Aの共有も語彙「葉」の部分共有にとどまる。図表形式（単独で対象値を問う）とは異なり、組み合わせとしての対応は一意。"
+    },
+    {
+      "questionId": "qmatch-part-oregano-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "oregano-profile",
+        "pandan-profile",
+        "paprika-profile",
+        "parsley-profile"
+      ],
+      "sourcePages": [
+        54,
+        105,
+        82,
+        80
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: オレガノ・パンダンリーフ・パプリカ・パセリ）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "オレガノ",
+          "right": "葉および花穂"
+        },
+        {
+          "left": "パンダンリーフ",
+          "right": "葉"
+        },
+        {
+          "left": "パプリカ",
+          "right": "果実(種子を除いた果肉部)"
+        },
+        {
+          "left": "パセリ",
+          "right": "葉、茎"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。",
+        "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。",
+        "パプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。",
+        "パセリ: 科名はセリ科。原産地は地中海沿岸。利用部位は葉、茎。別名はオランダ芹(モスカールド種をさすことが多い)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "葉",
+          "detail": "オレガノ=\"葉および花穂\" と パンダンリーフ=\"葉\": 「葉」の構成要素が「葉および花穂」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "葉、茎",
+          "detail": "オレガノ=\"葉および花穂\" と パセリ=\"葉、茎\": 構成要素 [\"葉\"] を共有"
+        },
+        {
+          "category": "MT-A",
+          "subject": "葉、茎",
+          "detail": "パンダンリーフ=\"葉\" と パセリ=\"葉、茎\": 「葉」の構成要素が「葉、茎」に包含"
+        },
+        {
+          "category": "MT-C",
+          "subject": "葉",
+          "detail": "left「オレガノ」の同一spice単位 oregano-2 の content に他のright「葉」が出現: 名は古代ギリシア語で「喜びの山」を意味する言葉が語源とされる。"
+        },
+        {
+          "category": "MT-D",
+          "subject": "葉",
+          "detail": "left「オレガノ」の出典ページ p.54 の転記ブロックで他のright「葉」と共起: オレガノの名は古代ギリシア語で「喜びの山」を意味する言葉が語源といわれている。ローマ時代の美食家アピシウスが「おいしいソースには欠かせないスパイス」と言って、その香りを愛したとされる。"
+        },
+        {
+          "category": "MT-C",
+          "subject": "葉",
+          "detail": "left「パセリ」の同一spice単位 parsley-1 の content に他のright「葉」が出現: 葉が縮れた「カールリーフ」(代表:モスカールドパセリ)と、葉が平らな「フラットリーフ」(代表:イタリアンパセリ)の2種類がある。"
+        },
+        {
+          "category": "MT-C",
+          "subject": "葉",
+          "detail": "left「パセリ」の同一spice単位 parsley-3 の content に他のright「葉」が出現: 爽やかな香りは口臭予防に効果的とされ、葉にはビタミンCが多い。"
+        },
+        {
+          "category": "MT-D",
+          "subject": "葉",
+          "detail": "left「パセリ」の出典ページ p.80 の転記ブロックで他のright「葉」と共起: パセリは大きく分けて2種類ある。日本では一番ポピュラーな葉が縮れた「カールリーフ」と呼ばれるものと、葉が平らな「フラットリーフ」と呼ばれるもので、代表的なものにそれぞれ「モスカールドパセリ」「イタリアンパセリ」がある。風味は若干異なるが、同"
+        },
+        {
+          "category": "MT-D",
+          "subject": "葉",
+          "detail": "left「パセリ」の出典ページ p.80 の転記ブロックで他のright「葉」と共起: 洋食などの彩りに添えられることの多いハーブだが、葉にはビタミンCが多く含まれているので、炊き上がったごはんに刻んだパセリの葉を混ぜ込むなどして食べるのもおすすめ。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "オレガノ・パンダンリーフ・パセリの間に葉の包含があるが、パンダンリーフ「葉」は茎・花穂を含む値を取ることができず、入れ替えでは完全対応が構成できない（MT-B検出なし）。MT-C/MT-Dの葉の言及はオレガノ・パセリ自身の値の構成部位としてのもので、他方の値全体への該当ではない。"
+    },
+    {
+      "questionId": "qmatch-part-safflower-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "safflower-profile",
+        "saffron-profile",
+        "sage-profile",
+        "sansho-profile"
+      ],
+      "sourcePages": [
+        101,
+        64,
+        70,
+        65
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: サフラワー・サフラン・セージ・山椒/花椒）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "サフラワー",
+          "right": "花弁、種子"
+        },
+        {
+          "left": "サフラン",
+          "right": "花の雌しべ"
+        },
+        {
+          "left": "セージ",
+          "right": "葉および花穂"
+        },
+        {
+          "left": "山椒/花椒",
+          "right": "果実、果皮、葉"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "サフラワー: 科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。",
+        "サフラン: 科名はアヤメ科。原産地は南ヨーロッパ、西アジア。利用部位は花の雌しべ。別名はサフランクロッカス、蕃紅花(ばんこうか)。検定1・2・3級の対象。",
+        "セージ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はサルビア、薬用サルビア。検定1・2・3級の対象。",
+        "山椒/花椒: 科名はミカン科。原産地は中国、日本、朝鮮半島。利用部位は果実、果皮、葉。別名ははじかみ(山椒)、中国山椒、華北山椒、ファガラ、セシュアンペッパー(花椒)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "果実、果皮、葉",
+          "detail": "セージ=\"葉および花穂\" と 山椒/花椒=\"果実、果皮、葉\": 構成要素 [\"葉\"] を共有"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "セージと山椒/花椒の値の共有は語彙「葉」のみ。山椒/花椒の値は果実・果皮も要し、セージはその全体を取れない。完全対応の別解は存在しない（MT-B検出なし）。"
+    },
+    {
+      "questionId": "qmatch-part-savory-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "savory-profile",
+        "shiso-profile",
+        "sorrel-profile",
+        "staranise-profile"
+      ],
+      "sourcePages": [
+        102,
+        102,
+        103,
+        69
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: サボリー・しそ(紫蘇)・ソレル・スターアニス）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "サボリー",
+          "right": "葉および花穂"
+        },
+        {
+          "left": "しそ(紫蘇)",
+          "right": "葉および花穂、種子"
+        },
+        {
+          "left": "ソレル",
+          "right": "葉"
+        },
+        {
+          "left": "スターアニス",
+          "right": "果実"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。",
+        "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。",
+        "ソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。",
+        "スターアニス: 科名はマツブサ科。原産地は中国、ベトナム。利用部位は果実。別名は八角(はっかく)、大茴香(だいういきょう)、パージャオ、ポイカッ、チャイニーズアニス、トウシキミ。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "葉および花穂、種子",
+          "detail": "サボリー=\"葉および花穂\" と しそ(紫蘇)=\"葉および花穂、種子\": 「葉および花穂」の構成要素が「葉および花穂、種子」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "葉",
+          "detail": "サボリー=\"葉および花穂\" と ソレル=\"葉\": 「葉」の構成要素が「葉および花穂」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "葉",
+          "detail": "しそ(紫蘇)=\"葉および花穂、種子\" と ソレル=\"葉\": 「葉」の構成要素が「葉および花穂、種子」に包含"
+        },
+        {
+          "category": "MT-D",
+          "subject": "葉",
+          "detail": "left「しそ(紫蘇)」の出典ページ p.102 の転記ブロックで他のright「葉」と共起: 別名 | 大葉（青じその葉の部分を指す）"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "しそ(紫蘇)の値はサボリーの値「葉および花穂」を含むが、サボリーはしその値の種子を取ることができず、ソレル「葉」も両複合値を取れないため、完全対応の別解は存在しない（MT-B検出なし）。MT-Dはしその別名「大葉」の注記行での共起で、部位の対応には影響しない。"
+    },
+    {
+      "questionId": "qmatch-part-sumac-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "sumac-profile",
+        "tade-profile",
+        "tarragon-profile",
+        "thyme-profile"
+      ],
+      "sourcePages": [
+        103,
+        104,
+        72,
+        71
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: スマック・たで(蓼)・タラゴン・タイム）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "スマック",
+          "right": "果実"
+        },
+        {
+          "left": "たで(蓼)",
+          "right": "葉(芽)"
+        },
+        {
+          "left": "タラゴン",
+          "right": "葉"
+        },
+        {
+          "left": "タイム",
+          "right": "葉および花穂"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "スマック: 科名はウルシ科。利用部位は果実。検定1級の対象。",
+        "たで(蓼): 科名はタデ科。利用部位は葉(芽)。検定1級の対象。",
+        "タラゴン: 科名はキク科。原産地はロシア南部、西アジア。利用部位は葉。別名はエストラゴン。検定1・2級の対象。",
+        "タイム: 科名はシソ科。原産地は南ヨーロッパ。利用部位は葉および花穂。別名は立麝香草(たちじゃこうそう)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "葉",
+          "detail": "たで(蓼)=\"葉(芽)\" と タラゴン=\"葉\": 「葉」の構成要素が「葉(芽)」に包含"
+        },
+        {
+          "category": "MT-A",
+          "subject": "葉および花穂",
+          "detail": "たで(蓼)=\"葉(芽)\" と タイム=\"葉および花穂\": 構成要素 [\"葉\"] を共有"
+        },
+        {
+          "category": "MT-A",
+          "subject": "葉および花穂",
+          "detail": "タラゴン=\"葉\" と タイム=\"葉および花穂\": 「葉」の構成要素が「葉および花穂」に包含"
+        },
+        {
+          "category": "MT-D",
+          "subject": "葉",
+          "detail": "left「たで(蓼)」の出典ページ p.104 の転記ブロックで他のright「葉」と共起: 食用にされるのは「やながたで」という種類と、その変種である紅たで、青たでなどで、葉や茎にピリッとした辛みがある。青たでは「鮎たで」の名でも流通し、葉を刻んで二杯酢で溶いた「たで酢」は鮎料理に欠かせない薬味として有名。また紅たでとともにその芽"
+        },
+        {
+          "category": "MT-D",
+          "subject": "葉",
+          "detail": "left「タイム」の出典ページ p.71 の転記ブロックで他のright「葉」と共起: タイムの名は古代ギリシア語で「勇気」や「情熱」などを意味する「チモス（thymos）」に由来するとされる。小さいながら気品のあるすがすがしい芳香は人間の能力を高めるものと信じられ、「勇気」と「大胆さ」のシンボルだったともいわれる。この時代の"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "たで(蓼)「葉(芽)」・タラゴン「葉」・タイム「葉および花穂」の間に包含があるが、タラゴンは芽の指定を含む値も花穂を含む値も取ることができず、入れ替えでは完全対応が構成できない（MT-B検出なし）。MT-Dの共起はたで自身の記事（葉や茎の辛み）とタイムの語源の文章で、他方の値への該当を示すものではない。"
+    },
+    {
+      "questionId": "qmatch-part-tamarind-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "tamarind-profile",
+        "turmeric-profile",
+        "vanilla-profile",
+        "wasabi-profile"
+      ],
+      "sourcePages": [
+        104,
+        70,
+        81,
+        92
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: タマリンド・ターメリック・バニラ・わさび）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "タマリンド",
+          "right": "果実"
+        },
+        {
+          "left": "ターメリック",
+          "right": "根茎"
+        },
+        {
+          "left": "バニラ",
+          "right": "果実(さや)"
+        },
+        {
+          "left": "わさび",
+          "right": "根茎、葉、茎"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "タマリンド: 科名はマメ科。利用部位は果実。検定1級の対象。",
+        "ターメリック: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はうこん、秋うこん、インディアンサフラン。検定1・2・3級の対象。",
+        "バニラ: 科名はラン科。原産地は中央アメリカ。利用部位は果実(さや)。別名はワニラ。検定1・2級の対象。",
+        "わさび: 科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "果実(さや)",
+          "detail": "タマリンド=\"果実\" と バニラ=\"果実(さや)\": 構成要素が集合一致"
+        },
+        {
+          "category": "MT-A",
+          "subject": "根茎、葉、茎",
+          "detail": "ターメリック=\"根茎\" と わさび=\"根茎、葉、茎\": 「根茎」の構成要素が「根茎、葉、茎」に包含"
+        },
+        {
+          "category": "MT-B",
+          "subject": null,
+          "detail": "含意グラフで別解の完全対応が存在: タマリンド=果実(さや) / ターメリック=根茎 / バニラ=果実 / わさび=根茎、葉、茎"
+        }
+      ],
+      "verdict": "要確認",
+      "basis": "含意グラフでは別解の完全対応が機械的に検出される（バニラ=果実、タマリンド=果実(さや)）。バニラ=果実はその値「果実(さや)」から成り立つが、タマリンド=果実(さや)については、単位 tam-1 が「さやの中の果肉を使う」と記すのみで、さや自体がタマリンドの利用部位であるとは教科書のどこにも記されていない（バニラはさや自体を利用する点で異なる）。別解が成り立つかを教科書の記載だけでは確定できないため要確認とする。"
+    },
+    {
+      "questionId": "qmatch-origin-cinnamon-profile",
+      "format": "matching",
+      "kind": "matching/origin",
+      "chapterId": "ch2",
+      "unitIds": [
+        "cinnamon-profile",
+        "clove-profile",
+        "coriander-profile",
+        "cumin-profile"
+      ],
+      "sourcePages": [
+        67,
+        60,
+        63,
+        59
+      ],
+      "prompt": "次の名称と原産地を組み合わせよ（対象: シナモン/カシア・クローブ・コリアンダー・クミン）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "シナモン/カシア",
+          "right": "スリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)"
+        },
+        {
+          "left": "クローブ",
+          "right": "インドネシア(マルク諸島)"
+        },
+        {
+          "left": "コリアンダー",
+          "right": "地中海沿岸、西アジア"
+        },
+        {
+          "left": "クミン",
+          "right": "エジプト"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "シナモン/カシア: 科名はクスノキ科。原産地はスリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)。利用部位は樹皮。別名は肉桂(にっけい)、桂皮(けいひ)。検定1・2・3級の対象。",
+        "クローブ: 科名はフトモモ科。原産地はインドネシア(マルク諸島)。利用部位は蕾。別名は丁子(ちょうじ)、丁香(ちょうこう)、百里香(ひゃくりこう)。検定1・2・3級の対象。",
+        "コリアンダー: 科名はセリ科。原産地は地中海沿岸、西アジア。利用部位は葉、茎、種子(植物学上は果実)、根。別名はコエンドロ、シラントロ、香菜(シャンツァイ)、パクチー、カメムシソウ。検定1・2・3級の対象。",
+        "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-C",
+          "subject": "エジプト",
+          "detail": "left「シナモン/カシア」の同一spice単位 cinnamon-3 の content に他のright「エジプト」が出現: 古代エジプトでは、シナモン(カシア)が入手できるようになると、アニスやクミンに代わってミイラ保存の主な防腐剤になった。"
+        },
+        {
+          "category": "MT-D",
+          "subject": "エジプト",
+          "detail": "left「シナモン/カシア」の出典ページ p.67 の転記ブロックで他のright「エジプト」と共起: 古代エジプトでは、シナモン（カシア）が入手できるようになってから、ミイラの保存のためにそれまで使われてきたアニスやクミンといったスパイスの代わりに、主要な薬剤（防腐剤）となった。日本でも遅くとも8世紀前半の聖武天皇の時代までに、こしょう、ク"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "単位 cinnamon-3・転記 p.67 の「エジプト」は古代エジプトでの利用（ミイラ保存の防腐剤）の文脈であり、原産地の記載ではない。シナモン/カシアの原産地値はスリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)で、エジプトは対応先にならない。"
+    },
+    {
+      "questionId": "qmatch-origin-ginger-profile",
+      "format": "matching",
+      "kind": "matching/origin",
+      "chapterId": "ch2",
+      "unitIds": [
+        "ginger-profile",
+        "horseradish-profile",
+        "laurel-profile",
+        "lemongrass-profile"
+      ],
+      "sourcePages": [
+        68,
+        84,
+        91,
+        89
+      ],
+      "prompt": "次の名称と原産地を組み合わせよ（対象: しょうが・ホースラディッシュ・ローレル・レモングラス）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "しょうが",
+          "right": "熱帯アジア"
+        },
+        {
+          "left": "ホースラディッシュ",
+          "right": "諸説あるが東ヨーロッパ説が有力"
+        },
+        {
+          "left": "ローレル",
+          "right": "西アジア、ヨーロッパ南部"
+        },
+        {
+          "left": "レモングラス",
+          "right": "インド、熱帯アジア"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "しょうが: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。",
+        "ホースラディッシュ: 科名はアブラナ科。原産地は諸説あるが東ヨーロッパ説が有力。利用部位は根。別名は西洋わさび、わさび大根、レホール。検定1・2級の対象。",
+        "ローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。",
+        "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "インド、熱帯アジア",
+          "detail": "しょうが=\"熱帯アジア\" と レモングラス=\"インド、熱帯アジア\": 「熱帯アジア」の構成要素が「インド、熱帯アジア」に包含"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "レモングラスの原産地値「インド、熱帯アジア」は熱帯アジアを要素として含むが、しょうがはレモングラスの値全体（インドを含む）を取ることはできず、含意グラフでも完全対応の別解は存在しない（MT-B検出なし）。部分包含のみ。"
+    },
+    {
+      "questionId": "qmatch-origin-oregano-profile",
+      "format": "matching",
+      "kind": "matching/origin",
+      "chapterId": "ch2",
+      "unitIds": [
+        "oregano-profile",
+        "paprika-profile",
+        "pepper-profile",
+        "rucola-profile"
+      ],
+      "sourcePages": [
+        54,
+        82,
+        61,
+        88
+      ],
+      "prompt": "次の名称と原産地を組み合わせよ（対象: オレガノ・パプリカ・こしょう・ルッコラ）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "オレガノ",
+          "right": "地中海沿岸"
+        },
+        {
+          "left": "パプリカ",
+          "right": "熱帯アメリカ"
+        },
+        {
+          "left": "こしょう",
+          "right": "インド(マラバル地方)"
+        },
+        {
+          "left": "ルッコラ",
+          "right": "地中海沿岸、西アジア"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。",
+        "パプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。",
+        "こしょう: 科名はコショウ科。原産地はインド(マラバル地方)。利用部位は果実。別名はペッパー。検定1・2・3級の対象。",
+        "ルッコラ: 科名はアブラナ科。原産地は地中海沿岸、西アジア。利用部位は地上部。別名はロケット、アルグラ、きばなすずしろ。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "地中海沿岸、西アジア",
+          "detail": "オレガノ=\"地中海沿岸\" と ルッコラ=\"地中海沿岸、西アジア\": 「地中海沿岸」の構成要素が「地中海沿岸、西アジア」に包含"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "ルッコラの原産地値「地中海沿岸、西アジア」は地中海沿岸を含むが、オレガノはルッコラの値全体（西アジアを含む）を取ることはできず、含意グラフでも完全対応の別解は存在しない（MT-B検出なし）。部分包含のみ。"
+    },
+    {
+      "questionId": "qmatch-origin-parsley-profile",
+      "format": "matching",
+      "kind": "matching/origin",
+      "chapterId": "ch2",
+      "unitIds": [
+        "parsley-profile",
+        "saffron-profile",
+        "sansho-profile",
+        "staranise-profile"
+      ],
+      "sourcePages": [
+        80,
+        64,
+        65,
+        69
+      ],
+      "prompt": "次の名称と原産地を組み合わせよ（対象: パセリ・サフラン・山椒/花椒・スターアニス）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "パセリ",
+          "right": "地中海沿岸"
+        },
+        {
+          "left": "サフラン",
+          "right": "南ヨーロッパ、西アジア"
+        },
+        {
+          "left": "山椒/花椒",
+          "right": "中国、日本、朝鮮半島"
+        },
+        {
+          "left": "スターアニス",
+          "right": "中国、ベトナム"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "パセリ: 科名はセリ科。原産地は地中海沿岸。利用部位は葉、茎。別名はオランダ芹(モスカールド種をさすことが多い)。検定1・2・3級の対象。",
+        "サフラン: 科名はアヤメ科。原産地は南ヨーロッパ、西アジア。利用部位は花の雌しべ。別名はサフランクロッカス、蕃紅花(ばんこうか)。検定1・2・3級の対象。",
+        "山椒/花椒: 科名はミカン科。原産地は中国、日本、朝鮮半島。利用部位は果実、果皮、葉。別名ははじかみ(山椒)、中国山椒、華北山椒、ファガラ、セシュアンペッパー(花椒)。検定1・2・3級の対象。",
+        "スターアニス: 科名はマツブサ科。原産地は中国、ベトナム。利用部位は果実。別名は八角(はっかく)、大茴香(だいういきょう)、パージャオ、ポイカッ、チャイニーズアニス、トウシキミ。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "MT-A",
+          "subject": "中国、ベトナム",
+          "detail": "山椒/花椒=\"中国、日本、朝鮮半島\" と スターアニス=\"中国、ベトナム\": 構成要素 [\"中国\"] を共有"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "山椒/花椒とスターアニスの原産地値の共有は地域「中国」のみ。山椒/花椒はベトナムを含まず、スターアニスは日本・朝鮮半島を含まないため、どちらの値全体も他方に該当せず、完全対応の別解は存在しない（MT-B検出なし）。"
+    },
+    {
+      "questionId": "qfig-ajwain-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "ajwain-profile",
+        "allspice-profile",
+        "amchur-profile",
+        "basil-profile"
+      ],
+      "sourcePages": [
+        98,
+        53,
+        106,
+        79
+      ],
+      "prompt": "表の中で、利用部位が「果実」である品目はどれか（対象: アジョワン・オールスパイス・マンゴーパウダー・バジル）。",
+      "choices": [
+        "マンゴーパウダー",
+        "オールスパイス",
+        "アジョワン",
+        "バジル"
+      ],
+      "correctChoiceIndexes": [
+        0
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "アジョワン",
+            "セリ科",
+            "種子"
+          ],
+          [
+            "オールスパイス",
+            "フトモモ科",
+            "未熟な果実"
+          ],
+          [
+            "マンゴーパウダー",
+            "ウルシ科",
+            "果実"
+          ],
+          [
+            "バジル",
+            "シソ科",
+            "葉および花穂、種子(バジルシード)"
+          ]
+        ]
+      },
+      "unitContents": [
+        "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。",
+        "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。",
+        "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。",
+        "バジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-A",
+          "subject": "オールスパイス",
+          "detail": "対象値「果実」の構成要素 [\"果実\"] が他行「オールスパイス」の利用部位「未熟な果実」に包含される"
+        },
+        {
+          "category": "FG-C",
+          "subject": "オールスパイス",
+          "detail": "p.14 の転記ブロックで他行名/別名「オールスパイス」と対象値「果実」が共起: 果実 | こしょう、唐辛子、オールスパイスなど"
+        }
+      ],
+      "verdict": "真の問題",
+      "basis": "他行オールスパイスの利用部位「未熟な果実」は果実そのものであり、転記 p.14 の利用部位による分類表でもオールスパイスは「果実」のグループに挙げられている。対象値「果実」に該当する品目が表内でマンゴーパウダーと2件になり、一意でない。"
+    },
+    {
+      "questionId": "qfig-anise-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "anise-profile",
+        "caper-profile",
+        "cardamom-profile",
+        "chili-profile"
+      ],
+      "sourcePages": [
+        52,
+        101,
+        56,
+        76
+      ],
+      "prompt": "表の中で、利用部位が「種子(植物学上は果実)」である品目はどれか（対象: アニス・ケイパー・カルダモン・唐辛子）。",
+      "choices": [
+        "ケイパー",
+        "アニス",
+        "唐辛子",
+        "カルダモン"
+      ],
+      "correctChoiceIndexes": [
+        1
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "アニス",
+            "セリ科",
+            "種子(植物学上は果実)"
+          ],
+          [
+            "ケイパー",
+            "フウチョウボク科",
+            "蕾"
+          ],
+          [
+            "カルダモン",
+            "ショウガ科",
+            "果実"
+          ],
+          [
+            "唐辛子",
+            "ナス科",
+            "果実、葉"
+          ]
+        ]
+      },
+      "unitContents": [
+        "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。",
+        "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。",
+        "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。",
+        "唐辛子: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実、葉。別名はチリペッパー、チリ、カイエンペッパー(品種の一部)、鷹の爪(品種の一部)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-D",
+          "subject": "カルダモン",
+          "detail": "対象値「種子(植物学上は果実)」と他行「カルダモン」の利用部位「果実」が構成要素 [\"果実\"] を共有（包含はしない）"
+        },
+        {
+          "category": "FG-D",
+          "subject": "唐辛子",
+          "detail": "対象値「種子(植物学上は果実)」と他行「唐辛子」の利用部位「果実、葉」が構成要素 [\"果実\"] を共有（包含はしない）"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "他行カルダモン「果実」・唐辛子「果実、葉」との共有は、対象値の括弧注記（植物学上は果実）由来の語彙「果実」のみ。対象値は全体として「種子(植物学上は果実)」であり、両行の値は種子を部位としないため全体値としては該当しない。部分共有のみで別解にならない。"
+    },
+    {
+      "questionId": "qfig-caraway-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "caraway-profile",
+        "cresson-profile",
+        "cubeb-profile",
+        "curryleaf-profile"
+      ],
+      "sourcePages": [
+        57,
+        100,
+        100,
+        99
+      ],
+      "prompt": "表の中で、利用部位が「果実」である品目はどれか（対象: キャラウェイ・クレソン・クベバ・カレーリーフ）。",
+      "choices": [
+        "カレーリーフ",
+        "キャラウェイ",
+        "クベバ",
+        "クレソン"
+      ],
+      "correctChoiceIndexes": [
+        2
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "キャラウェイ",
+            "セリ科",
+            "種子(植物学上は果実)"
+          ],
+          [
+            "クレソン",
+            "アブラナ科",
+            "葉、茎"
+          ],
+          [
+            "クベバ",
+            "コショウ科",
+            "果実"
+          ],
+          [
+            "カレーリーフ",
+            "ミカン科",
+            "葉"
+          ]
+        ]
+      },
+      "unitContents": [
+        "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。",
+        "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。",
+        "クベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。",
+        "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-A",
+          "subject": "キャラウェイ",
+          "detail": "対象値「果実」の構成要素 [\"果実\"] が他行「キャラウェイ」の利用部位「種子(植物学上は果実)」に包含される"
+        }
+      ],
+      "verdict": "真の問題",
+      "basis": "他行キャラウェイの利用部位は「種子(植物学上は果実)」で、教科書自身の注記によりその部位は植物学上は果実であると明示されている。対象値「果実」に該当する品目がクベバと2件になり、一意でない。"
+    },
+    {
+      "questionId": "qfig-celery-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "celery-profile",
+        "dokudami-profile",
+        "fenugreek-profile",
+        "galangal-profile"
+      ],
+      "sourcePages": [
+        103,
+        104,
+        105,
+        99
+      ],
+      "prompt": "表の中で、利用部位が「種子(植物学上は果実)」である品目はどれか（対象: セロリー・どくだみ・フェネグリーク・ガランガル）。",
+      "choices": [
+        "セロリー",
+        "フェネグリーク",
+        "ガランガル",
+        "どくだみ"
+      ],
+      "correctChoiceIndexes": [
+        0
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "セロリー",
+            "セリ科",
+            "種子(植物学上は果実)"
+          ],
+          [
+            "どくだみ",
+            "ドクダミ科",
+            "葉"
+          ],
+          [
+            "フェネグリーク",
+            "マメ科",
+            "種子、葉"
+          ],
+          [
+            "ガランガル",
+            "ショウガ科",
+            "根茎"
+          ]
+        ]
+      },
+      "unitContents": [
+        "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。",
+        "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。",
+        "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。",
+        "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-D",
+          "subject": "フェネグリーク",
+          "detail": "対象値「種子(植物学上は果実)」と他行「フェネグリーク」の利用部位「種子、葉」が構成要素 [\"種子\"] を共有（包含はしない）"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "他行フェネグリーク「種子、葉」との共有は語彙「種子」のみ。対象値は全体として「種子(植物学上は果実)」であり、フェネグリークの種子が植物学上は果実である旨の記載は教科書になく、その値には葉も含まれる。部分共有のみで別解にならない。"
+    },
+    {
+      "questionId": "qfig-chervil-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "chervil-profile",
+        "gardenia-profile",
+        "garlic-profile",
+        "ginger-profile"
+      ],
+      "sourcePages": [
+        73,
+        58,
+        55,
+        68
+      ],
+      "prompt": "表の中で、利用部位が「果実」である品目はどれか（対象: チャービル・くちなし・ガーリック・しょうが）。",
+      "choices": [
+        "ガーリック",
+        "しょうが",
+        "くちなし",
+        "チャービル"
+      ],
+      "correctChoiceIndexes": [
+        2
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "チャービル",
+            "セリ科",
+            "葉、茎"
+          ],
+          [
+            "くちなし",
+            "アカネ科",
+            "果実"
+          ],
+          [
+            "ガーリック",
+            "ヒガンバナ科",
+            "鱗茎"
+          ],
+          [
+            "しょうが",
+            "ショウガ科",
+            "根茎"
+          ]
+        ]
+      },
+      "unitContents": [
+        "チャービル: 科名はセリ科。原産地はヨーロッパ、西アジア。利用部位は葉、茎。別名はセルフィーユ、茴香芹(ういきょうぜり)。検定1・2級の対象。",
+        "くちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。",
+        "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。",
+        "しょうが: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-C",
+          "subject": "ガーリック",
+          "detail": "p.14 の転記ブロックで他行名/別名「ガーリック」と対象値「果実」が共起: コリアンダー、フェンネル、クミンなどは外観から種子を利用するグループに入っているが、植物学上は果実。ガーリックは根・根茎のグループに入っているが、鱗茎と呼ばれる葉や茎が肥大した部分。"
+        },
+        {
+          "category": "FG-C",
+          "subject": "しょうが",
+          "detail": "p.61 の転記ブロックで他行名/別名「しょうが」と対象値「果実」が共起: 主に熱帯地方で高さ5～9mに成長するつる性の植物で、支柱や樹木に巻きついて高く伸びる。白い小さな花を咲かせ、その後、房状に果実をつける（1房あたり50～60個）。果実の収穫時期と製法によって、ブラックペッパー、ホワイトペッパー、グリーンペッ"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "FG-Cの共起はいずれも対象外の文脈: p.14のブロックはガーリックの部位が鱗茎であることを明示する注記（果実ではない）、p.61のブロックはこしょうの植物・果実の説明で、しょうがの利用部位の記載ではない（しょうがの利用部位は根茎、転記 p.68 の表）。正解くちなし「果実」以外に対象値へ該当する行はない。"
+    },
+    {
+      "questionId": "qfig-coriander-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "coriander-profile",
+        "grainsofparadise-profile",
+        "horseradish-profile",
+        "juniper-profile"
+      ],
+      "sourcePages": [
+        63,
+        100,
+        84,
+        102
+      ],
+      "prompt": "表の中で、利用部位が「種子」である品目はどれか（対象: コリアンダー・グレインズオブパラダイス・ホースラディッシュ・ジュニパーベリー）。",
+      "choices": [
+        "コリアンダー",
+        "グレインズオブパラダイス",
+        "ジュニパーベリー",
+        "ホースラディッシュ"
+      ],
+      "correctChoiceIndexes": [
+        1
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "コリアンダー",
+            "セリ科",
+            "葉、茎、種子(植物学上は果実)、根"
+          ],
+          [
+            "グレインズオブパラダイス",
+            "ショウガ科",
+            "種子"
+          ],
+          [
+            "ホースラディッシュ",
+            "アブラナ科",
+            "根"
+          ],
+          [
+            "ジュニパーベリー",
+            "ヒノキ科",
+            "果実"
+          ]
+        ]
+      },
+      "unitContents": [
+        "コリアンダー: 科名はセリ科。原産地は地中海沿岸、西アジア。利用部位は葉、茎、種子(植物学上は果実)、根。別名はコエンドロ、シラントロ、香菜(シャンツァイ)、パクチー、カメムシソウ。検定1・2・3級の対象。",
+        "グレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。",
+        "ホースラディッシュ: 科名はアブラナ科。原産地は諸説あるが東ヨーロッパ説が有力。利用部位は根。別名は西洋わさび、わさび大根、レホール。検定1・2級の対象。",
+        "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-A",
+          "subject": "コリアンダー",
+          "detail": "対象値「種子」の構成要素 [\"種子\"] が他行「コリアンダー」の利用部位「葉、茎、種子(植物学上は果実)、根」に包含される"
+        },
+        {
+          "category": "FG-B",
+          "subject": "コリアンダー",
+          "detail": "他行「コリアンダー」の同一spice単位 coriander-1 の content に対象値「種子」が出現: 完熟した種子と葉・茎ではまったく異なる香りを持つ。種子は甘く爽やかで、カレー粉に欠かせない。"
+        },
+        {
+          "category": "FG-C",
+          "subject": "コリアンダー",
+          "detail": "p.14 の転記ブロックで他行名/別名「コリアンダー」と対象値「種子」が共起: スパイスやハーブは植物のさまざまな部位を利用しています。種子や果実、葉の部分を利用する場合が多いのですが、サフランやクローブのように雌しべ、蕾を利用する珍しいものもあります。またコリアンダーのようにひとつの植物で種子、葉を使うという例もあり"
+        }
+      ],
+      "verdict": "真の問題",
+      "basis": "他行コリアンダーの利用部位「葉、茎、種子(植物学上は果実)、根」は種子を構成部位として明示的に含み、単位 coriander-1 も完熟した種子の利用（カレー粉）を記す。対象値「種子」に該当する品目がグレインズオブパラダイスと2件になり、一意でない。"
+    },
+    {
+      "questionId": "qfig-cumin-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "cumin-profile",
+        "kaffirlime-profile",
+        "laurel-profile",
+        "lemongrass-profile"
+      ],
+      "sourcePages": [
+        59,
+        98,
+        91,
+        89
+      ],
+      "prompt": "表の中で、利用部位が「葉」である品目はどれか（対象: クミン・カフェライム・ローレル・レモングラス）。",
+      "choices": [
+        "ローレル",
+        "カフェライム",
+        "クミン",
+        "レモングラス"
+      ],
+      "correctChoiceIndexes": [
+        0
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "クミン",
+            "セリ科",
+            "種子(植物学上は果実)"
+          ],
+          [
+            "カフェライム",
+            "ミカン科",
+            "葉、果皮"
+          ],
+          [
+            "ローレル",
+            "クスノキ科",
+            "葉"
+          ],
+          [
+            "レモングラス",
+            "イネ科",
+            "地上部"
+          ]
+        ]
+      },
+      "unitContents": [
+        "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。",
+        "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。",
+        "ローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。",
+        "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-C",
+          "subject": "クミン",
+          "detail": "p.14 の転記ブロックで他行名/別名「クミン」と対象値「葉」が共起: コリアンダー、フェンネル、クミンなどは外観から種子を利用するグループに入っているが、植物学上は果実。ガーリックは根・根茎のグループに入っているが、鱗茎と呼ばれる葉や茎が肥大した部分。"
+        },
+        {
+          "category": "FG-A",
+          "subject": "カフェライム",
+          "detail": "対象値「葉」の構成要素 [\"葉\"] が他行「カフェライム」の利用部位「葉、果皮」に包含される"
+        },
+        {
+          "category": "FG-B",
+          "subject": "カフェライム",
+          "detail": "他行「カフェライム」の同一spice単位 kaf-1 の content に対象値「葉」が出現: 爽やかな柑橘系の香りで、主に葉をタイやカンボジアの料理に使う。果皮もすりおろしてタイ風カレーなどに使う。"
+        },
+        {
+          "category": "FG-B",
+          "subject": "カフェライム",
+          "detail": "他行「カフェライム」の同一spice単位 kaf-2 の content に対象値「葉」が出現: タイ語で葉をさす場合は「バイマックルー」という。"
+        },
+        {
+          "category": "FG-C",
+          "subject": "カフェライム",
+          "detail": "p.98 の転記ブロックで他行名/別名「カフェライム」と対象値「葉」が共起: カフェライムの果実は苦みがあるが、果皮には強い香りがあり、すりおろしてタイ風カレーやスープなどの料理に風味を添えるのに使用される。「マックルー」はタイ名。葉をさす場合は「バイマックルー」という。"
+        },
+        {
+          "category": "FG-B",
+          "subject": "レモングラス",
+          "detail": "他行「レモングラス」の同一spice単位 lemongrass-2 の content に対象値「葉」が出現: 葉に傷をつけて初めて香りが強く漂うので、刻んだりもんだりして使う。東南アジアではかたい茎も使う。"
+        },
+        {
+          "category": "FG-C",
+          "subject": "レモングラス",
+          "detail": "p.111 の転記ブロックで他行名/別名「レモングラス」と対象値「葉」が共起: ハーブを手でちぎることでハーブティーの命である“香り”が出やすくなる。手でちぎりにくい繊維質のハーブ（レモングラスなど）は、キッチンばさみなどで適当な大きさに切る。ただし葉をあまり細かくつぶしすぎると、青臭さや渋みの原因につながるので注意し"
+        }
+      ],
+      "verdict": "真の問題",
+      "basis": "他行カフェライムの利用部位「葉、果皮」は葉を構成部位として含み（単位 kaf-1「主に葉を…使う」）、レモングラスも単位 lemongrass-2 が葉に傷をつけて使うことを明示する。対象値「葉」に該当する品目がローレル以外に2件あり、一意でない。"
+    },
+    {
+      "questionId": "qfig-dill-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "dill-profile",
+        "lemonbalm-profile",
+        "licorice-profile",
+        "longpepper-profile"
+      ],
+      "sourcePages": [
+        75,
+        106,
+        99,
+        107
+      ],
+      "prompt": "表の中で、利用部位が「葉」である品目はどれか（対象: ディル・レモンバーム・かんぞう(甘草)・ロングペッパー）。",
+      "choices": [
+        "かんぞう(甘草)",
+        "レモンバーム",
+        "ディル",
+        "ロングペッパー"
+      ],
+      "correctChoiceIndexes": [
+        1
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "ディル",
+            "セリ科",
+            "種子(植物学上は果実)、葉、茎"
+          ],
+          [
+            "レモンバーム",
+            "シソ科",
+            "葉"
+          ],
+          [
+            "かんぞう(甘草)",
+            "マメ科",
+            "根、走根"
+          ],
+          [
+            "ロングペッパー",
+            "コショウ科",
+            "果実"
+          ]
+        ]
+      },
+      "unitContents": [
+        "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。",
+        "レモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。",
+        "かんぞう(甘草): 科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。",
+        "ロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-A",
+          "subject": "ディル",
+          "detail": "対象値「葉」の構成要素 [\"葉\"] が他行「ディル」の利用部位「種子(植物学上は果実)、葉、茎」に包含される"
+        },
+        {
+          "category": "FG-B",
+          "subject": "ディル",
+          "detail": "他行「ディル」の同一spice単位 dill-1 の content に対象値「葉」が出現: 種子はキャラウェイに似た爽やかな香りでピクルスなどに使い、羽状のやわらかい葉はタイム・フェンネルと並ぶ「魚のハーブ」とされる。"
+        },
+        {
+          "category": "FG-C",
+          "subject": "ディル",
+          "detail": "p.13 の転記ブロックで他行名/別名「ジル」と対象値「葉」が共起: 生で使用するスパイスやハーブのこと。日本で古くから使われているものに、しその葉、木の芽（山椒の若葉）などがある。バジルやルッコラ、パクチー（コリアンダー）などのハーブも一般的になった。新鮮な香りと色合いが、料理の味と見た目を引き立ててくれる"
+        }
+      ],
+      "verdict": "真の問題",
+      "basis": "他行ディルの利用部位「種子(植物学上は果実)、葉、茎」は葉を構成部位として含み、単位 dill-1 も葉の利用（魚のハーブ）を記す。対象値「葉」に該当する品目がレモンバームと2件になり、一意でない。"
+    },
+    {
+      "questionId": "qfig-fennel-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "fennel-profile",
+        "mache-profile",
+        "marjoram-profile",
+        "mustard-profile"
+      ],
+      "sourcePages": [
+        83,
+        106,
+        85,
+        85
+      ],
+      "prompt": "表の中で、利用部位が「葉および花穂」である品目はどれか（対象: フェンネル・マーシュ・マジョラム・マスタード）。",
+      "choices": [
+        "マスタード",
+        "マーシュ",
+        "フェンネル",
+        "マジョラム"
+      ],
+      "correctChoiceIndexes": [
+        3
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "フェンネル",
+            "セリ科",
+            "種子(植物学上は果実)、葉、茎"
+          ],
+          [
+            "マーシュ",
+            "スイカズラ科",
+            "葉、茎"
+          ],
+          [
+            "マジョラム",
+            "シソ科",
+            "葉および花穂"
+          ],
+          [
+            "マスタード",
+            "アブラナ科",
+            "種子、葉"
+          ]
+        ]
+      },
+      "unitContents": [
+        "フェンネル: 科名はセリ科。原産地は地中海沿岸。利用部位は種子(植物学上は果実)、葉、茎。別名は茴香(ういきょう)、小茴香(しょういきょう)。検定1・2級の対象。",
+        "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。",
+        "マジョラム: 科名はシソ科。原産地は地中海東部沿岸。利用部位は葉および花穂。別名はマヨラナ、花薄荷(はなはっか)。検定1・2級の対象。",
+        "マスタード: 科名はアブラナ科。原産地は地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)。利用部位は種子、葉。別名はからし。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-D",
+          "subject": "フェンネル",
+          "detail": "対象値「葉および花穂」と他行「フェンネル」の利用部位「種子(植物学上は果実)、葉、茎」が構成要素 [\"葉\"] を共有（包含はしない）"
+        },
+        {
+          "category": "FG-D",
+          "subject": "マーシュ",
+          "detail": "対象値「葉および花穂」と他行「マーシュ」の利用部位「葉、茎」が構成要素 [\"葉\"] を共有（包含はしない）"
+        },
+        {
+          "category": "FG-D",
+          "subject": "マスタード",
+          "detail": "対象値「葉および花穂」と他行「マスタード」の利用部位「種子、葉」が構成要素 [\"葉\"] を共有（包含はしない）"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "他行フェンネル・マーシュ・マスタードとの共有は語彙「葉」のみ。対象値「葉および花穂」は葉と花穂の双方を要し、花穂を含む他行はない。部分共有のみで別解にならない。"
+    },
+    {
+      "questionId": "qfig-mint-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "mint-profile",
+        "mitsuba-profile",
+        "nigella-profile",
+        "nutmeg-profile"
+      ],
+      "sourcePages": [
+        87,
+        106,
+        105,
+        78
+      ],
+      "prompt": "表の中で、利用部位が「種子」である品目はどれか（対象: ミント・みつば・ニゲラ・ナツメッグ/メース）。",
+      "choices": [
+        "ニゲラ",
+        "みつば",
+        "ナツメッグ/メース",
+        "ミント"
+      ],
+      "correctChoiceIndexes": [
+        0
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "ミント",
+            "シソ科",
+            "葉および花穂"
+          ],
+          [
+            "みつば",
+            "セリ科",
+            "葉、茎"
+          ],
+          [
+            "ニゲラ",
+            "キンポウゲ科",
+            "種子"
+          ],
+          [
+            "ナツメッグ/メース",
+            "ニクズク科",
+            "種子の仁(ナツメッグ)、仮種皮(メース)"
+          ]
+        ]
+      },
+      "unitContents": [
+        "ミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。",
+        "みつば: 科名はセリ科。利用部位は葉、茎。検定1級の対象。",
+        "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。",
+        "ナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-B",
+          "subject": "ナツメッグ/メース",
+          "detail": "他行「ナツメッグ/メース」の同一spice単位 nutmeg-1 の content に対象値「種子」が出現: ナツメッグは種子の殻を除いた仁、メースは種子を包む仮種皮を乾燥させたもの。"
+        },
+        {
+          "category": "FG-C",
+          "subject": "ナツメッグ/メース",
+          "detail": "p.78 の転記ブロックで他行名/別名「ナツメッグ」と対象値「種子」が共起: 利用部位 | 種子の仁（ナツメッグ）、仮種皮（メース）"
+        }
+      ],
+      "verdict": "要確認",
+      "basis": "他行ナツメッグ/メースの値「種子の仁(ナツメッグ)、仮種皮(メース)」と単位 nutmeg-1（ナツメッグは種子の殻を除いた仁）は、種子が利用の対象であることを示すが、複合品目の値全体は「種子」ではなく（メースは仮種皮）、教科書がこの品目の利用部位を「種子」と記す箇所もない。対象値「種子」への該当を教科書の記載だけでは確定も否定もできないため要確認とする。"
+    },
+    {
+      "questionId": "qfig-oregano-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "oregano-profile",
+        "pandan-profile",
+        "paprika-profile",
+        "parsley-profile"
+      ],
+      "sourcePages": [
+        54,
+        105,
+        82,
+        80
+      ],
+      "prompt": "表の中で、利用部位が「葉」である品目はどれか（対象: オレガノ・パンダンリーフ・パプリカ・パセリ）。",
+      "choices": [
+        "パプリカ",
+        "パンダンリーフ",
+        "パセリ",
+        "オレガノ"
+      ],
+      "correctChoiceIndexes": [
+        1
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "オレガノ",
+            "シソ科",
+            "葉および花穂"
+          ],
+          [
+            "パンダンリーフ",
+            "タコノキ科",
+            "葉"
+          ],
+          [
+            "パプリカ",
+            "ナス科",
+            "果実(種子を除いた果肉部)"
+          ],
+          [
+            "パセリ",
+            "セリ科",
+            "葉、茎"
+          ]
+        ]
+      },
+      "unitContents": [
+        "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。",
+        "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。",
+        "パプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。",
+        "パセリ: 科名はセリ科。原産地は地中海沿岸。利用部位は葉、茎。別名はオランダ芹(モスカールド種をさすことが多い)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-A",
+          "subject": "オレガノ",
+          "detail": "対象値「葉」の構成要素 [\"葉\"] が他行「オレガノ」の利用部位「葉および花穂」に包含される"
+        },
+        {
+          "category": "FG-B",
+          "subject": "オレガノ",
+          "detail": "他行「オレガノ」の同一spice単位 oregano-2 の content に対象値「葉」が出現: 名は古代ギリシア語で「喜びの山」を意味する言葉が語源とされる。"
+        },
+        {
+          "category": "FG-C",
+          "subject": "オレガノ",
+          "detail": "p.47 の転記ブロックで他行名/別名「オレガノ」と対象値「葉」が共起: ディル（枝葉、シードともに）／オレガノ／タイム／タラゴン／ミント／ローズマリー／セージ／バジル など"
+        },
+        {
+          "category": "FG-A",
+          "subject": "パセリ",
+          "detail": "対象値「葉」の構成要素 [\"葉\"] が他行「パセリ」の利用部位「葉、茎」に包含される"
+        },
+        {
+          "category": "FG-B",
+          "subject": "パセリ",
+          "detail": "他行「パセリ」の同一spice単位 parsley-1 の content に対象値「葉」が出現: 葉が縮れた「カールリーフ」(代表:モスカールドパセリ)と、葉が平らな「フラットリーフ」(代表:イタリアンパセリ)の2種類がある。"
+        },
+        {
+          "category": "FG-B",
+          "subject": "パセリ",
+          "detail": "他行「パセリ」の同一spice単位 parsley-3 の content に対象値「葉」が出現: 爽やかな香りは口臭予防に効果的とされ、葉にはビタミンCが多い。"
+        },
+        {
+          "category": "FG-C",
+          "subject": "パセリ",
+          "detail": "p.22 の転記ブロックで他行名/別名「パセリ」と対象値「葉」が共起: おすすめの形態など | 瞬時に香りが広がるように、粒度の小さいパウダータイプを使用することが多い。フレッシュハーブでは、ディル、チャービル、チャイブ、パセリなど葉がやわらかく、香りがマイルドなものがおすすめ"
+        }
+      ],
+      "verdict": "真の問題",
+      "basis": "他行オレガノ「葉および花穂」とパセリ「葉、茎」はいずれも葉を構成部位として明示的に含む。対象値「葉」に該当する品目がパンダンリーフ以外に2件あり、一意でない。"
+    },
+    {
+      "questionId": "qfig-safflower-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "safflower-profile",
+        "saffron-profile",
+        "sage-profile",
+        "sansho-profile"
+      ],
+      "sourcePages": [
+        101,
+        64,
+        70,
+        65
+      ],
+      "prompt": "表の中で、利用部位が「果実、果皮、葉」である品目はどれか（対象: サフラワー・サフラン・セージ・山椒/花椒）。",
+      "choices": [
+        "セージ",
+        "サフラワー",
+        "サフラン",
+        "山椒/花椒"
+      ],
+      "correctChoiceIndexes": [
+        3
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "サフラワー",
+            "キク科",
+            "花弁、種子"
+          ],
+          [
+            "サフラン",
+            "アヤメ科",
+            "花の雌しべ"
+          ],
+          [
+            "セージ",
+            "シソ科",
+            "葉および花穂"
+          ],
+          [
+            "山椒/花椒",
+            "ミカン科",
+            "果実、果皮、葉"
+          ]
+        ]
+      },
+      "unitContents": [
+        "サフラワー: 科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。",
+        "サフラン: 科名はアヤメ科。原産地は南ヨーロッパ、西アジア。利用部位は花の雌しべ。別名はサフランクロッカス、蕃紅花(ばんこうか)。検定1・2・3級の対象。",
+        "セージ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はサルビア、薬用サルビア。検定1・2・3級の対象。",
+        "山椒/花椒: 科名はミカン科。原産地は中国、日本、朝鮮半島。利用部位は果実、果皮、葉。別名ははじかみ(山椒)、中国山椒、華北山椒、ファガラ、セシュアンペッパー(花椒)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-D",
+          "subject": "セージ",
+          "detail": "対象値「果実、果皮、葉」と他行「セージ」の利用部位「葉および花穂」が構成要素 [\"葉\"] を共有（包含はしない）"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "他行セージ「葉および花穂」との共有は語彙「葉」のみ。対象値「果実、果皮、葉」は3要素すべてを要し、セージは果実・果皮を含まない。部分共有のみで別解にならない。"
+    },
+    {
+      "questionId": "qfig-savory-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "savory-profile",
+        "sorrel-profile",
+        "staranise-profile",
+        "turmeric-profile"
+      ],
+      "sourcePages": [
+        102,
+        103,
+        69,
+        70
+      ],
+      "prompt": "表の中で、利用部位が「葉および花穂」である品目はどれか（対象: サボリー・ソレル・スターアニス・ターメリック）。",
+      "choices": [
+        "ターメリック",
+        "ソレル",
+        "スターアニス",
+        "サボリー"
+      ],
+      "correctChoiceIndexes": [
+        3
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "サボリー",
+            "シソ科",
+            "葉および花穂"
+          ],
+          [
+            "ソレル",
+            "タデ科",
+            "葉"
+          ],
+          [
+            "スターアニス",
+            "マツブサ科",
+            "果実"
+          ],
+          [
+            "ターメリック",
+            "ショウガ科",
+            "根茎"
+          ]
+        ]
+      },
+      "unitContents": [
+        "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。",
+        "ソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。",
+        "スターアニス: 科名はマツブサ科。原産地は中国、ベトナム。利用部位は果実。別名は八角(はっかく)、大茴香(だいういきょう)、パージャオ、ポイカッ、チャイニーズアニス、トウシキミ。検定1・2級の対象。",
+        "ターメリック: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はうこん、秋うこん、インディアンサフラン。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-D",
+          "subject": "ソレル",
+          "detail": "対象値「葉および花穂」と他行「ソレル」の利用部位「葉」が構成要素 [\"葉\"] を共有（包含はしない）"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "他行ソレル「葉」との共有は語彙「葉」のみ。対象値「葉および花穂」は花穂も要し、ソレルは花穂を含まない。部分共有のみで別解にならない。"
+    },
+    {
+      "questionId": "qfig-shiso-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "shiso-profile",
+        "sumac-profile",
+        "tade-profile",
+        "tarragon-profile"
+      ],
+      "sourcePages": [
+        102,
+        103,
+        104,
+        72
+      ],
+      "prompt": "表の中で、利用部位が「葉(芽)」である品目はどれか（対象: しそ(紫蘇)・スマック・たで(蓼)・タラゴン）。",
+      "choices": [
+        "しそ(紫蘇)",
+        "スマック",
+        "たで(蓼)",
+        "タラゴン"
+      ],
+      "correctChoiceIndexes": [
+        2
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "しそ(紫蘇)",
+            "シソ科",
+            "葉および花穂、種子"
+          ],
+          [
+            "スマック",
+            "ウルシ科",
+            "果実"
+          ],
+          [
+            "たで(蓼)",
+            "タデ科",
+            "葉(芽)"
+          ],
+          [
+            "タラゴン",
+            "キク科",
+            "葉"
+          ]
+        ]
+      },
+      "unitContents": [
+        "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。",
+        "スマック: 科名はウルシ科。利用部位は果実。検定1級の対象。",
+        "たで(蓼): 科名はタデ科。利用部位は葉(芽)。検定1級の対象。",
+        "タラゴン: 科名はキク科。原産地はロシア南部、西アジア。利用部位は葉。別名はエストラゴン。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-D",
+          "subject": "しそ(紫蘇)",
+          "detail": "対象値「葉(芽)」と他行「しそ(紫蘇)」の利用部位「葉および花穂、種子」が構成要素 [\"葉\"] を共有（包含はしない）"
+        },
+        {
+          "category": "FG-D",
+          "subject": "タラゴン",
+          "detail": "対象値「葉(芽)」と他行「タラゴン」の利用部位「葉」が構成要素 [\"葉\"] を共有（包含はしない）"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "対象値「葉(芽)」は芽の指定を含む値であり、他行しそ「葉および花穂、種子」・タラゴン「葉」の葉は芽としての利用が教科書に記されていない。語彙「葉」の部分共有のみで、対象値の全体には該当しない。"
+    },
+    {
+      "questionId": "qfig-tamarind-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "tamarind-profile",
+        "thyme-profile",
+        "vanilla-profile",
+        "wasabi-profile"
+      ],
+      "sourcePages": [
+        104,
+        71,
+        81,
+        92
+      ],
+      "prompt": "表の中で、利用部位が「果実」である品目はどれか（対象: タマリンド・タイム・バニラ・わさび）。",
+      "choices": [
+        "バニラ",
+        "わさび",
+        "タマリンド",
+        "タイム"
+      ],
+      "correctChoiceIndexes": [
+        2
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "タマリンド",
+            "マメ科",
+            "果実"
+          ],
+          [
+            "タイム",
+            "シソ科",
+            "葉および花穂"
+          ],
+          [
+            "バニラ",
+            "ラン科",
+            "果実(さや)"
+          ],
+          [
+            "わさび",
+            "アブラナ科",
+            "根茎、葉、茎"
+          ]
+        ]
+      },
+      "unitContents": [
+        "タマリンド: 科名はマメ科。利用部位は果実。検定1級の対象。",
+        "タイム: 科名はシソ科。原産地は南ヨーロッパ。利用部位は葉および花穂。別名は立麝香草(たちじゃこうそう)。検定1・2・3級の対象。",
+        "バニラ: 科名はラン科。原産地は中央アメリカ。利用部位は果実(さや)。別名はワニラ。検定1・2級の対象。",
+        "わさび: 科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "FG-A",
+          "subject": "バニラ",
+          "detail": "対象値「果実」の構成要素 [\"果実\"] が他行「バニラ」の利用部位「果実(さや)」に包含される"
+        }
+      ],
+      "verdict": "真の問題",
+      "basis": "他行バニラの利用部位「果実(さや)」は果実そのものであり、転記 p.81 も「さや状の果実を…採取し」て利用すると明示する。対象値「果実」に該当する品目がタマリンドと2件になり、一意でない。"
+    },
+    {
+      "questionId": "qtf-part-anise-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "anise-profile"
+      ],
+      "sourcePages": [
+        52
+      ],
+      "prompt": "アニスの利用部位は種子(植物学上は果実)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "種子(植物学上は果実)",
+          "detail": "真文の利用部位値に括弧注記を含む: 種子(植物学上は果実)"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「種子(植物学上は果実)」は転記 p.52 のプロフィール表の記載そのもので、括弧内は教科書自身の植物学上の注記（照合バッチ17）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-false-anise-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "anise-profile"
+      ],
+      "sourcePages": [
+        52
+      ],
+      "prompt": "アニスの利用部位は果実、果皮、葉である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-D",
+          "subject": "果実、果皮、葉",
+          "detail": "偽文値と真文値「種子(植物学上は果実)」が構成要素 [\"果実\"] を共有"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "構成要素「果実」の共有は真文値の括弧注記（植物学上は果実）由来のみ。偽文値は全体として山椒/花椒の値「果実、果皮、葉」であり、アニスに果皮・葉の利用は教科書に記載がない。全体値としては偽であり、別解にならない。"
+    },
+    {
+      "questionId": "qtf-part-false-oregano-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "oregano-profile"
+      ],
+      "sourcePages": [
+        54
+      ],
+      "prompt": "オレガノの利用部位は根である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-C",
+          "subject": "根",
+          "detail": "p.127 の転記ブロックで対象名/別名「オレガノ」と共起: 株を根ごと分割する方法。株が大きくなって別の容器に植え替えるときなどに、根ごとやさしく株分けする。株分けが可能なのはオレガノ、ミント、タイムなど株立ちになるものや、チャイブなど球根や根茎を持っているハーブ。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "共起は転記 p.127 の栽培（株分け）の文章で、「根ごと分割」は繁殖方法の説明であり、利用部位の記載ではない。オレガノの利用部位は葉および花穂（転記 p.54 の表）。"
+    },
+    {
+      "questionId": "qtf-part-caraway-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "caraway-profile"
+      ],
+      "sourcePages": [
+        57
+      ],
+      "prompt": "キャラウェイの利用部位は種子(植物学上は果実)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "種子(植物学上は果実)",
+          "detail": "真文の利用部位値に括弧注記を含む: 種子(植物学上は果実)"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「種子(植物学上は果実)」は転記 p.57 のプロフィール表の記載そのもので、括弧内は教科書自身の植物学上の注記（照合バッチ18）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-cumin-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "cumin-profile"
+      ],
+      "sourcePages": [
+        59
+      ],
+      "prompt": "クミンの利用部位は種子(植物学上は果実)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "種子(植物学上は果実)",
+          "detail": "真文の利用部位値に括弧注記を含む: 種子(植物学上は果実)"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「種子(植物学上は果実)」は転記 p.59 のプロフィール表の記載そのもので、括弧内は教科書自身の植物学上の注記（照合バッチ18）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-false-cumin-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "cumin-profile"
+      ],
+      "sourcePages": [
+        59
+      ],
+      "prompt": "クミンの利用部位は果実、葉である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-D",
+          "subject": "果実、葉",
+          "detail": "偽文値と真文値「種子(植物学上は果実)」が構成要素 [\"果実\"] を共有"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "構成要素「果実」の共有は真文値の括弧注記（植物学上は果実）由来のみ。偽文値は全体として唐辛子の値「果実、葉」であり、クミンに葉の利用は教科書に記載がない。全体値としては偽であり、別解にならない。"
+    },
+    {
+      "questionId": "qtf-part-coriander-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "coriander-profile"
+      ],
+      "sourcePages": [
+        63
+      ],
+      "prompt": "コリアンダーの利用部位は葉、茎、種子(植物学上は果実)、根である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "コリアンダー: 科名はセリ科。原産地は地中海沿岸、西アジア。利用部位は葉、茎、種子(植物学上は果実)、根。別名はコエンドロ、シラントロ、香菜(シャンツァイ)、パクチー、カメムシソウ。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "葉、茎、種子(植物学上は果実)、根",
+          "detail": "真文の利用部位値に括弧注記を含む: 葉、茎、種子(植物学上は果実)、根"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「葉、茎、種子(植物学上は果実)、根」は転記 p.63 のプロフィール表の記載そのもので、括弧内は教科書自身の植物学上の注記（照合バッチ19）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-family-sansho-profile",
+      "format": "true-false",
+      "kind": "true-false/family-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "sansho-profile"
+      ],
+      "sourcePages": [
+        65
+      ],
+      "prompt": "山椒/花椒の科名はミカン科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "山椒/花椒: 科名はミカン科。原産地は中国、日本、朝鮮半島。利用部位は果実、果皮、葉。別名ははじかみ(山椒)、中国山椒、華北山椒、ファガラ、セシュアンペッパー(花椒)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "山椒/花椒",
+          "detail": "名称「山椒/花椒」が複合で複数品目を含むため、真文が両品目に当てはまるか確認"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "複合名称山椒/花椒は同じミカン科サンショウ属で、科名ミカン科は転記 p.65 の表の記載そのもの（照合バッチ20、単位 sansho-1 も同属と明記）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-sansho-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "sansho-profile"
+      ],
+      "sourcePages": [
+        65
+      ],
+      "prompt": "山椒/花椒の利用部位は果実、果皮、葉である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "山椒/花椒: 科名はミカン科。原産地は中国、日本、朝鮮半島。利用部位は果実、果皮、葉。別名ははじかみ(山椒)、中国山椒、華北山椒、ファガラ、セシュアンペッパー(花椒)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "山椒/花椒",
+          "detail": "名称「山椒/花椒」が複合で複数品目を含むため、真文が両品目に当てはまるか確認"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "複合名称山椒/花椒の利用部位「果実、果皮、葉」は転記 p.65 の表の複合プロフィールの記載そのもの（照合バッチ20）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-family-cinnamon-profile",
+      "format": "true-false",
+      "kind": "true-false/family-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "cinnamon-profile"
+      ],
+      "sourcePages": [
+        67
+      ],
+      "prompt": "シナモン/カシアの科名はクスノキ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "シナモン/カシア: 科名はクスノキ科。原産地はスリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)。利用部位は樹皮。別名は肉桂(にっけい)、桂皮(けいひ)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "シナモン/カシア",
+          "detail": "名称「シナモン/カシア」が複合で複数品目を含むため、真文が両品目に当てはまるか確認"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "複合名称シナモン/カシアは同一プロフィールとして転記 p.67 の表に記載され、科名クスノキ科は両者に共通する（照合バッチ20で全項目一致を確認）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-cinnamon-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "cinnamon-profile"
+      ],
+      "sourcePages": [
+        67
+      ],
+      "prompt": "シナモン/カシアの利用部位は樹皮である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "シナモン/カシア: 科名はクスノキ科。原産地はスリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)。利用部位は樹皮。別名は肉桂(にっけい)、桂皮(けいひ)。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "シナモン/カシア",
+          "detail": "名称「シナモン/カシア」が複合で複数品目を含むため、真文が両品目に当てはまるか確認"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "複合名称シナモン/カシアの利用部位は樹皮で両者に共通し、転記 p.67 の表の記載そのもの（照合バッチ20）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-family-false-ginger-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "ginger-profile"
+      ],
+      "sourcePages": [
+        68
+      ],
+      "prompt": "しょうがの科名はマツブサ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "しょうが: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "マツブサ科",
+          "detail": "p.69 の転記ブロックに偽文値が出現: 科名 | マツブサ科"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値マツブサ科の出現は次ページ（p.69）のスターアニスのプロフィール行であり、しょうがの科名はショウガ科（転記 p.68 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-part-false-ginger-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "ginger-profile"
+      ],
+      "sourcePages": [
+        68
+      ],
+      "prompt": "しょうがの利用部位は葉である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "しょうが: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-A",
+          "subject": "葉",
+          "detail": "同一spice単位 ginger-2 の content に偽文値が出現: 葉しょうがのうち、ごく若く細いものは筆しょうが(はじかみ)と呼ばれ、甘酢漬けで焼き魚に添える。"
+        },
+        {
+          "category": "TF-B",
+          "subject": "葉",
+          "detail": "p.68 の転記ブロックに偽文値が出現: 高温多湿な気候を好む。葉は高さ60～90cmに成長。根茎は薄黄色で繊維質。"
+        },
+        {
+          "category": "TF-B",
+          "subject": "葉",
+          "detail": "p.68 の転記ブロックに偽文値が出現: 【葉しょうが】"
+        },
+        {
+          "category": "TF-B",
+          "subject": "葉",
+          "detail": "p.68 の転記ブロックに偽文値が出現: 葉がついた状態で出荷されるしょうがの総称。ごく若く細い芽しょうがは筆しょうが、はじかみとも呼ばれ、甘酢に漬けて焼き魚のつけ合わせなどに用いられる。"
+        },
+        {
+          "category": "TF-C",
+          "subject": "葉",
+          "detail": "p.68 の転記ブロックで対象名/別名「しょうが」と共起: 【葉しょうが】"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "「葉しょうが」は葉がついた状態で出荷される若いしょうがの総称で、甘酢漬けにして食べるのは若い芽しょうが（根茎側）であり、葉自体を利用部位とする記載は転記 p.68 のどこにもない（「葉は高さ60～90cmに成長」は植物の形態の説明）。しょうがの利用部位は根茎（同ページの表）のみ。監査A1で真の問題としたどくだみ「地上部」（生薬としての利用が明記）とは異なり、葉の利用の明示がないため別解にならない。"
+    },
+    {
+      "questionId": "qtf-part-false-sage-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "sage-profile"
+      ],
+      "sourcePages": [
+        70
+      ],
+      "prompt": "セージの利用部位は根茎である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "セージ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はサルビア、薬用サルビア。検定1・2・3級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "根茎",
+          "detail": "p.70 の転記ブロックに偽文値が出現: 利用部位 | 根茎"
+        },
+        {
+          "category": "TF-B",
+          "subject": "根茎",
+          "detail": "p.70 の転記ブロックに偽文値が出現: 高温多湿の環境を好む。葉は高さ50～170cmに成長。秋うこんとも呼ばれ、秋（晩夏）に白い花を咲かせる。根茎は濃い黄色。"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値「根茎」の出現はいずれも同一ページ（p.70）のターメリックのプロフィール行と記事本文であり、セージの利用部位は葉および花穂（転記 p.70 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-family-false-chervil-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "chervil-profile"
+      ],
+      "sourcePages": [
+        73
+      ],
+      "prompt": "チャービルの科名はヒガンバナ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "チャービル: 科名はセリ科。原産地はヨーロッパ、西アジア。利用部位は葉、茎。別名はセルフィーユ、茴香芹(ういきょうぜり)。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-B",
+          "subject": "ヒガンバナ科",
+          "detail": "p.74 の転記ブロックに偽文値が出現: 科名 | ヒガンバナ科"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値ヒガンバナ科の出現は次ページ（p.74）のチャイブのプロフィール行であり、チャービルの科名はセリ科（転記 p.73 の表）。対象品目への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-part-false-chervil-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "chervil-profile"
+      ],
+      "sourcePages": [
+        73
+      ],
+      "prompt": "チャービルの利用部位は根である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "チャービル: 科名はセリ科。原産地はヨーロッパ、西アジア。利用部位は葉、茎。別名はセルフィーユ、茴香芹(ういきょうぜり)。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-C",
+          "subject": "根",
+          "detail": "p.122 の転記ブロックで対象名/別名「チャービル」と共起: 9月下旬〜10月上旬が定植時期の目安。ラベンダーやローズマリーなど耐寒性のあるハーブは、この時期に植えつけると冬の間にしっかりと根が張り、春からの成長も良好になる。また一年草の苗であっても、コリアンダー、チャービル、ディルなど耐寒性のあるも"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "共起は転記 p.122 の栽培（定植時期）の文章で、「根が張る」は苗の活着の一般的な説明であり、チャービルが例示されるのは耐寒性のある一年草としての文脈。利用部位の記載ではなく、チャービルの利用部位は葉、茎（転記 p.73 の表）。"
+    },
+    {
+      "questionId": "qtf-part-dill-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "dill-profile"
+      ],
+      "sourcePages": [
+        75
+      ],
+      "prompt": "ディルの利用部位は種子(植物学上は果実)、葉、茎である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-E",
+          "subject": "種子(植物学上は果実)、葉、茎",
+          "detail": "真文の利用部位値に括弧注記を含む: 種子(植物学上は果実)、葉、茎"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "真文の値「種子(植物学上は果実)、葉、茎」は転記 p.75 のプロフィール表の記載そのもの（照合バッチ2）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-false-dill-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "dill-profile"
+      ],
+      "sourcePages": [
+        75
+      ],
+      "prompt": "ディルの利用部位は果実(種子を除いた果肉部)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。"
+      ],
+      "findings": [
+        {
+          "category": "TF-D",
+          "subject": "果実(種子を除いた果肉部)",
+          "detail": "偽文値の構成要素が真文値「種子(植物学上は果実)、葉、茎」に包含される"
+        }
+      ],
+      "verdict": "問題なし",
+      "basis": "偽文値はパプリカの値「果実(種子を除いた果肉部)」で、種子を除いた果肉のみを部位とする限定であり、ディルの果実にあたる部分はまさに種子（植物学上は果実）そのものであるため、範囲が正反対で該当しない。"
+    }
+  ],
+  "sampled": [
+    {
+      "questionId": "qfig-pepper-profile",
+      "format": "figure",
+      "kind": "figure",
+      "chapterId": "ch2",
+      "unitIds": [
+        "pepper-profile",
+        "poppyseed-profile",
+        "rosemary-profile",
+        "rucola-profile"
+      ],
+      "sourcePages": [
+        61,
+        101,
+        90,
+        88
+      ],
+      "prompt": "表の中で、利用部位が「葉および花穂」である品目はどれか（対象: こしょう・けしの実・ローズマリー・ルッコラ）。",
+      "choices": [
+        "ローズマリー",
+        "ルッコラ",
+        "こしょう",
+        "けしの実"
+      ],
+      "correctChoiceIndexes": [
+        0
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": {
+        "headers": [
+          "名称",
+          "科名",
+          "利用部位"
+        ],
+        "rows": [
+          [
+            "こしょう",
+            "コショウ科",
+            "果実"
+          ],
+          [
+            "けしの実",
+            "ケシ科",
+            "種子"
+          ],
+          [
+            "ローズマリー",
+            "シソ科",
+            "葉および花穂"
+          ],
+          [
+            "ルッコラ",
+            "アブラナ科",
+            "地上部"
+          ]
+        ]
+      },
+      "unitContents": [
+        "こしょう: 科名はコショウ科。原産地はインド(マラバル地方)。利用部位は果実。別名はペッパー。検定1・2・3級の対象。",
+        "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。",
+        "ローズマリー: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はまんねんろう。検定1・2・3級の対象。",
+        "ルッコラ: 科名はアブラナ科。原産地は地中海沿岸、西アジア。利用部位は地上部。別名はロケット、アルグラ、きばなすずしろ。検定1・2級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 対象値「葉および花穂」に対し、他行ルッコラは葉の利用はある（単位 rucola-1）が花穂の記載がなく対象値の全体を満たさない。こしょう「果実」・けしの実「種子」も該当しない。表内で対象値に該当するのはローズマリーのみ。"
+    },
+    {
+      "questionId": "qmatch-family-ajwain-profile",
+      "format": "matching",
+      "kind": "matching/family",
+      "chapterId": "ch2",
+      "unitIds": [
+        "ajwain-profile",
+        "allspice-profile",
+        "amchur-profile",
+        "basil-profile"
+      ],
+      "sourcePages": [
+        98,
+        53,
+        106,
+        79
+      ],
+      "prompt": "次の名称と科名を組み合わせよ（対象: アジョワン・オールスパイス・マンゴーパウダー・バジル）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "アジョワン",
+          "right": "セリ科"
+        },
+        {
+          "left": "オールスパイス",
+          "right": "フトモモ科"
+        },
+        {
+          "left": "マンゴーパウダー",
+          "right": "ウルシ科"
+        },
+        {
+          "left": "バジル",
+          "right": "シソ科"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。",
+        "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。",
+        "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。",
+        "バジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 科名はセリ科・フトモモ科・ウルシ科・シソ科と全行で異なり、各品目の科名はプロフィール表どおりで対応は一意。同一科の別品目も問題内にない。"
+    },
+    {
+      "questionId": "qmatch-family-celery-profile",
+      "format": "matching",
+      "kind": "matching/family",
+      "chapterId": "ch2",
+      "unitIds": [
+        "celery-profile",
+        "dokudami-profile",
+        "fenugreek-profile",
+        "galangal-profile"
+      ],
+      "sourcePages": [
+        103,
+        104,
+        105,
+        99
+      ],
+      "prompt": "次の名称と科名を組み合わせよ（対象: セロリー・どくだみ・フェネグリーク・ガランガル）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "セロリー",
+          "right": "セリ科"
+        },
+        {
+          "left": "どくだみ",
+          "right": "ドクダミ科"
+        },
+        {
+          "left": "フェネグリーク",
+          "right": "マメ科"
+        },
+        {
+          "left": "ガランガル",
+          "right": "ショウガ科"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。",
+        "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。",
+        "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。",
+        "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 科名はセリ科・ドクダミ科・マメ科・ショウガ科と全行で異なり、各品目の科名はプロフィール表どおりで対応は一意。"
+    },
+    {
+      "questionId": "qmatch-origin-marjoram-profile",
+      "format": "matching",
+      "kind": "matching/origin",
+      "chapterId": "ch2",
+      "unitIds": [
+        "marjoram-profile",
+        "mint-profile",
+        "mustard-profile",
+        "nutmeg-profile"
+      ],
+      "sourcePages": [
+        85,
+        87,
+        85,
+        78
+      ],
+      "prompt": "次の名称と原産地を組み合わせよ（対象: マジョラム・ミント・マスタード・ナツメッグ/メース）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "マジョラム",
+          "right": "地中海東部沿岸"
+        },
+        {
+          "left": "ミント",
+          "right": "ヨーロッパ、アジア"
+        },
+        {
+          "left": "マスタード",
+          "right": "地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)"
+        },
+        {
+          "left": "ナツメッグ/メース",
+          "right": "インドネシア(マルク諸島)"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "マジョラム: 科名はシソ科。原産地は地中海東部沿岸。利用部位は葉および花穂。別名はマヨラナ、花薄荷(はなはっか)。検定1・2級の対象。",
+        "ミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。",
+        "マスタード: 科名はアブラナ科。原産地は地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)。利用部位は種子、葉。別名はからし。検定1・2・3級の対象。",
+        "ナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: マスタードの原産地値は種類別の複合値（地中海沿岸(白からし)等）で全体として他行の値と一致せず、マジョラムの「地中海東部沿岸」はマスタードのトークン「地中海沿岸」とは別の地域表記。ミント「ヨーロッパ、アジア」・ナツメッグ/メース「インドネシア(マルク諸島)」も含め、入れ替えの成り立つペアはない。"
+    },
+    {
+      "questionId": "qmatch-part-pepper-profile",
+      "format": "matching",
+      "kind": "matching/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "pepper-profile",
+        "poppyseed-profile",
+        "rosemary-profile",
+        "rucola-profile"
+      ],
+      "sourcePages": [
+        61,
+        101,
+        90,
+        88
+      ],
+      "prompt": "次の名称と利用部位を組み合わせよ（対象: こしょう・けしの実・ローズマリー・ルッコラ）。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": null,
+      "matchingPairs": [
+        {
+          "left": "こしょう",
+          "right": "果実"
+        },
+        {
+          "left": "けしの実",
+          "right": "種子"
+        },
+        {
+          "left": "ローズマリー",
+          "right": "葉および花穂"
+        },
+        {
+          "left": "ルッコラ",
+          "right": "地上部"
+        }
+      ],
+      "table": null,
+      "unitContents": [
+        "こしょう: 科名はコショウ科。原産地はインド(マラバル地方)。利用部位は果実。別名はペッパー。検定1・2・3級の対象。",
+        "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。",
+        "ローズマリー: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はまんねんろう。検定1・2・3級の対象。",
+        "ルッコラ: 科名はアブラナ科。原産地は地中海沿岸、西アジア。利用部位は地上部。別名はロケット、アルグラ、きばなすずしろ。検定1・2級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 対象の値同士（果実・種子・葉および花穂・地上部）に包含関係はなく、ルッコラは葉の利用はあるが花穂の記載がないためローズマリーの値を取ることはできない。対応は一意。"
+    },
+    {
+      "questionId": "qmc-family-chives-profile",
+      "format": "multiple-choice",
+      "kind": "multiple-choice/family",
+      "chapterId": "ch2",
+      "unitIds": [
+        "chives-profile",
+        "garlic-profile",
+        "poppyseed-profile",
+        "kaffirlime-profile"
+      ],
+      "sourcePages": [
+        74,
+        55,
+        101,
+        98
+      ],
+      "prompt": "科名が「ヒガンバナ科」であるものをすべて選べ。",
+      "choices": [
+        "ガーリック",
+        "カフェライム",
+        "けしの実",
+        "チャイブ"
+      ],
+      "correctChoiceIndexes": [
+        0,
+        3
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "チャイブ: 科名はヒガンバナ科。原産地は中央アジア、温帯地域。利用部位は花、葉。別名はシブレット、西洋あさつき、えぞねぎ。検定1・2級の対象。",
+        "ガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。",
+        "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。",
+        "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 正解ガーリック・チャイブはいずれもヒガンバナ科（プロフィールどおり）。非該当カフェライム（ミカン科）・けしの実（ケシ科）は科が明確に異なり、別名等による同一品目の重複もない。"
+    },
+    {
+      "questionId": "qmc-family-curryleaf-profile",
+      "format": "multiple-choice",
+      "kind": "multiple-choice/family",
+      "chapterId": "ch2",
+      "unitIds": [
+        "curryleaf-profile",
+        "kaffirlime-profile",
+        "pandan-profile",
+        "amchur-profile"
+      ],
+      "sourcePages": [
+        99,
+        98,
+        105,
+        106
+      ],
+      "prompt": "科名が「ミカン科」であるものをすべて選べ。",
+      "choices": [
+        "カレーリーフ",
+        "パンダンリーフ",
+        "マンゴーパウダー",
+        "カフェライム"
+      ],
+      "correctChoiceIndexes": [
+        0,
+        3
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。",
+        "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。",
+        "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。",
+        "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 正解カレーリーフ・カフェライムはいずれもミカン科（プロフィールどおり）。非該当パンダンリーフ（タコノキ科）・マンゴーパウダー（ウルシ科）は科が明確に異なる。"
+    },
+    {
+      "questionId": "qmc-origin-ginger-profile",
+      "format": "multiple-choice",
+      "kind": "multiple-choice/origin",
+      "chapterId": "ch2",
+      "unitIds": [
+        "ginger-profile",
+        "turmeric-profile",
+        "sansho-profile",
+        "cumin-profile"
+      ],
+      "sourcePages": [
+        68,
+        70,
+        65,
+        59
+      ],
+      "prompt": "原産地が「熱帯アジア」であるものをすべて選べ。",
+      "choices": [
+        "ターメリック",
+        "しょうが",
+        "山椒/花椒",
+        "クミン"
+      ],
+      "correctChoiceIndexes": [
+        0,
+        1
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "しょうが: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。",
+        "ターメリック: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はうこん、秋うこん、インディアンサフラン。検定1・2・3級の対象。",
+        "山椒/花椒: 科名はミカン科。原産地は中国、日本、朝鮮半島。利用部位は果実、果皮、葉。別名ははじかみ(山椒)、中国山椒、華北山椒、ファガラ、セシュアンペッパー(花椒)。検定1・2・3級の対象。",
+        "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 正解ターメリック・しょうがはいずれも原産地「熱帯アジア」（プロフィールどおり）。非該当山椒/花椒（中国、日本、朝鮮半島）・クミン（エジプト）は地域トークンの重なりもない。"
+    },
+    {
+      "questionId": "qmc-part-marjoram-profile",
+      "format": "multiple-choice",
+      "kind": "multiple-choice/part",
+      "chapterId": "ch2",
+      "unitIds": [
+        "marjoram-profile",
+        "mint-profile",
+        "allspice-profile",
+        "nigella-profile"
+      ],
+      "sourcePages": [
+        85,
+        87,
+        53,
+        105
+      ],
+      "prompt": "利用部位が「葉および花穂」であるものをすべて選べ。",
+      "choices": [
+        "オールスパイス",
+        "ニゲラ",
+        "ミント",
+        "マジョラム"
+      ],
+      "correctChoiceIndexes": [
+        2,
+        3
+      ],
+      "correctBoolean": null,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "マジョラム: 科名はシソ科。原産地は地中海東部沿岸。利用部位は葉および花穂。別名はマヨラナ、花薄荷(はなはっか)。検定1・2級の対象。",
+        "ミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。",
+        "オールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。",
+        "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 正解ミント・マジョラムはいずれも利用部位「葉および花穂」（プロフィールどおり）。非該当オールスパイス（未熟な果実）・ニゲラ（種子）は対象値と構成要素を共有しない。"
+    },
+    {
+      "questionId": "qtf-family-false-rucola-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "rucola-profile"
+      ],
+      "sourcePages": [
+        88
+      ],
+      "prompt": "ルッコラの科名はシソ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ルッコラ: 科名はアブラナ科。原産地は地中海沿岸、西アジア。利用部位は地上部。別名はロケット、アルグラ、きばなすずしろ。検定1・2級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: ルッコラの科名はアブラナ科（転記 p.88 の表）。偽文値シソ科は他のプロフィールの科名であり、ルッコラの記事・単位にシソ科への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-family-false-coriander-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "coriander-profile"
+      ],
+      "sourcePages": [
+        63
+      ],
+      "prompt": "コリアンダーの科名はクスノキ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "コリアンダー: 科名はセリ科。原産地は地中海沿岸、西アジア。利用部位は葉、茎、種子(植物学上は果実)、根。別名はコエンドロ、シラントロ、香菜(シャンツァイ)、パクチー、カメムシソウ。検定1・2・3級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: コリアンダーの科名はセリ科（転記 p.63 の表）。偽文値クスノキ科はシナモン/カシア・ローレルの科名であり、コリアンダーの記事・単位にクスノキ科への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-family-false-curryleaf-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "curryleaf-profile"
+      ],
+      "sourcePages": [
+        99
+      ],
+      "prompt": "カレーリーフの科名はドクダミ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: カレーリーフの科名はミカン科（転記 p.100 の表）。偽文値ドクダミ科はどくだみ固有の科名であり、カレーリーフの記事・単位にドクダミ科への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-family-false-caper-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "caper-profile"
+      ],
+      "sourcePages": [
+        101
+      ],
+      "prompt": "ケイパーの科名はクスノキ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: ケイパーの科名はフウチョウボク科（転記 p.101 の表）。偽文値クスノキ科は他のプロフィールの科名であり、ケイパーの記事・単位にクスノキ科への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-family-false-mitsuba-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "mitsuba-profile"
+      ],
+      "sourcePages": [
+        106
+      ],
+      "prompt": "みつばの科名はアカネ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "みつば: 科名はセリ科。利用部位は葉、茎。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: みつばの科名はセリ科（転記 p.106 の表）。偽文値アカネ科はくちなしの科名であり、みつばの記事・単位にアカネ科への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-family-false-parsley-profile",
+      "format": "true-false",
+      "kind": "true-false/family-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "parsley-profile"
+      ],
+      "sourcePages": [
+        80
+      ],
+      "prompt": "パセリの科名はシソ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "パセリ: 科名はセリ科。原産地は地中海沿岸。利用部位は葉、茎。別名はオランダ芹(モスカールド種をさすことが多い)。検定1・2・3級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: パセリの科名はセリ科（転記 p.80 の表）。偽文値シソ科は他のプロフィールの科名であり、パセリの記事・単位にシソ科への帰属の記載はない。"
+    },
+    {
+      "questionId": "qtf-family-dokudami-profile",
+      "format": "true-false",
+      "kind": "true-false/family-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "dokudami-profile"
+      ],
+      "sourcePages": [
+        104
+      ],
+      "prompt": "どくだみの科名はドクダミ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値ドクダミ科は転記 p.104 のプロフィール表の科名そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-family-longpepper-profile",
+      "format": "true-false",
+      "kind": "true-false/family-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "longpepper-profile"
+      ],
+      "sourcePages": [
+        107
+      ],
+      "prompt": "ロングペッパーの科名はコショウ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値コショウ科は転記 p.107 のプロフィール表の科名そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-family-shiso-profile",
+      "format": "true-false",
+      "kind": "true-false/family-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "shiso-profile"
+      ],
+      "sourcePages": [
+        102
+      ],
+      "prompt": "しそ(紫蘇)の科名はシソ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値シソ科は転記 p.102 のプロフィール表の科名そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-family-anise-profile",
+      "format": "true-false",
+      "kind": "true-false/family-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "anise-profile"
+      ],
+      "sourcePages": [
+        52
+      ],
+      "prompt": "アニスの科名はセリ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値セリ科は転記 p.52 のプロフィール表の科名そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-family-fenugreek-profile",
+      "format": "true-false",
+      "kind": "true-false/family-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "fenugreek-profile"
+      ],
+      "sourcePages": [
+        105
+      ],
+      "prompt": "フェネグリークの科名はマメ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値マメ科は転記 p.105 のプロフィール表の科名そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-family-thyme-profile",
+      "format": "true-false",
+      "kind": "true-false/family-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "thyme-profile"
+      ],
+      "sourcePages": [
+        71
+      ],
+      "prompt": "タイムの科名はシソ科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "タイム: 科名はシソ科。原産地は南ヨーロッパ。利用部位は葉および花穂。別名は立麝香草(たちじゃこうそう)。検定1・2・3級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値シソ科は転記 p.71 のプロフィール表の科名そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-family-caper-profile",
+      "format": "true-false",
+      "kind": "true-false/family-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "caper-profile"
+      ],
+      "sourcePages": [
+        101
+      ],
+      "prompt": "ケイパーの科名はフウチョウボク科である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値フウチョウボク科は転記 p.101 のプロフィール表の科名そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-false-pandan-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "pandan-profile"
+      ],
+      "sourcePages": [
+        105
+      ],
+      "prompt": "パンダンリーフの利用部位は種子(植物学上は果実)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: パンダンリーフの利用部位は葉（転記 p.105 の表）。偽文値「種子(植物学上は果実)」は他のプロフィールの値であり、パンダンリーフに種子の利用は記事・単位に記載がない。"
+    },
+    {
+      "questionId": "qtf-part-false-nigella-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "nigella-profile"
+      ],
+      "sourcePages": [
+        105
+      ],
+      "prompt": "ニゲラの利用部位は樹皮である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: ニゲラの利用部位は種子（転記 p.104 の表）。偽文値樹皮はシナモン/カシアの値であり、ニゲラに樹皮の利用は記事・単位に記載がない。"
+    },
+    {
+      "questionId": "qtf-part-false-paprika-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "paprika-profile"
+      ],
+      "sourcePages": [
+        82
+      ],
+      "prompt": "パプリカの利用部位は地上部である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "パプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: パプリカの利用部位は果実(種子を除いた果肉部)（転記 p.82 の表）。偽文値地上部はレモングラス・ルッコラの値であり、パプリカに地上部の利用は記事・単位に記載がない。"
+    },
+    {
+      "questionId": "qtf-part-false-juniper-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "juniper-profile"
+      ],
+      "sourcePages": [
+        102
+      ],
+      "prompt": "ジュニパーベリーの利用部位は樹皮である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: ジュニパーベリーの利用部位は果実（転記 p.102 の表）。偽文値樹皮はシナモン/カシアの値であり、ジュニパーベリーに樹皮の利用は記事・単位に記載がない。"
+    },
+    {
+      "questionId": "qtf-part-false-mache-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "mache-profile"
+      ],
+      "sourcePages": [
+        106
+      ],
+      "prompt": "マーシュの利用部位は種子である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: マーシュの利用部位は葉、茎（転記 p.106 の表）。偽文値種子は他のプロフィールの値であり、マーシュに種子の利用は記事・単位に記載がない。"
+    },
+    {
+      "questionId": "qtf-part-false-nutmeg-profile",
+      "format": "true-false",
+      "kind": "true-false/part-false",
+      "chapterId": "ch2",
+      "unitIds": [
+        "nutmeg-profile"
+      ],
+      "sourcePages": [
+        78
+      ],
+      "prompt": "ナツメッグ/メースの利用部位は果実(種子を除いた果肉部)である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": false,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: ナツメッグ/メースの利用部位は種子の仁・仮種皮（転記 p.78 の表と注記）で、利用するのは果実の果肉部ではない。偽文値「果実(種子を除いた果肉部)」はパプリカの値であり、ナツメッグの果肉の利用は記事・単位に記載がない。"
+    },
+    {
+      "questionId": "qtf-part-cardamom-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "cardamom-profile"
+      ],
+      "sourcePages": [
+        56
+      ],
+      "prompt": "カルダモンの利用部位は果実である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値「果実」は転記 p.56 のプロフィール表の利用部位そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-dokudami-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "dokudami-profile"
+      ],
+      "sourcePages": [
+        104
+      ],
+      "prompt": "どくだみの利用部位は葉である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値「葉」は転記 p.104 のプロフィール表の利用部位そのもの。なお同記事の注記にある地上部の生薬利用は真文の正確性に影響しない（本問は真文）。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-laurel-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "laurel-profile"
+      ],
+      "sourcePages": [
+        91
+      ],
+      "prompt": "ローレルの利用部位は葉である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "ローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値「葉」は転記 p.90 のプロフィール表の利用部位そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-poppyseed-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "poppyseed-profile"
+      ],
+      "sourcePages": [
+        101
+      ],
+      "prompt": "けしの実の利用部位は種子である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値「種子」は転記 p.101 のプロフィール表の利用部位そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-grainsofparadise-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "grainsofparadise-profile"
+      ],
+      "sourcePages": [
+        100
+      ],
+      "prompt": "グレインズオブパラダイスの利用部位は種子である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "グレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値「種子」は転記 p.100 のプロフィール表の利用部位そのもの。真文は正確。"
+    },
+    {
+      "questionId": "qtf-part-sage-profile",
+      "format": "true-false",
+      "kind": "true-false/part-true",
+      "chapterId": "ch2",
+      "unitIds": [
+        "sage-profile"
+      ],
+      "sourcePages": [
+        70
+      ],
+      "prompt": "セージの利用部位は葉および花穂である。",
+      "choices": null,
+      "correctChoiceIndexes": null,
+      "correctBoolean": true,
+      "matchingPairs": null,
+      "table": null,
+      "unitContents": [
+        "セージ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はサルビア、薬用サルビア。検定1・2・3級の対象。"
+      ],
+      "verdict": "問題なし",
+      "basis": "サンプル精査: 真文の値「葉および花穂」は転記 p.70 のプロフィール表の利用部位そのもの。真文は正確。"
+    }
+  ]
+}

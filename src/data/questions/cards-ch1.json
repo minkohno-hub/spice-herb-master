@@ -1,0 +1,1541 @@
+[
+ {
+  "id": "card-r-curry",
+  "front": "本書のチキンカレーに添えるライスを黄色く色づけるスパイスは?",
+  "back": "ターメリック",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-curry",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-curry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9606",
+    "bookPage": 31,
+    "locationNote": "本書 p.31（原本画像 IMG_9606.PNG）。原文照合 batch28 で照合済みの知識単位 r-curry から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-genovese-sauce",
+  "front": "ジェノベーゼソースの冷蔵保存の目安は?",
+  "back": "1週間",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-genovese",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-genovese-sauce"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9608",
+    "bookPage": 33,
+    "locationNote": "本書 p.33（原本画像 IMG_9608.PNG）。原文照合 batch28 で照合済みの知識単位 r-genovese-sauce から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-genovese-nut",
+  "front": "ジェノベーゼソースに使われるナッツは?",
+  "back": "松の実",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-genovese",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-genovese-nut"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9608",
+    "bookPage": 33,
+    "locationNote": "本書 p.33（原本画像 IMG_9608.PNG）。原文照合 batch28 で照合済みの知識単位 r-genovese-nut から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-paella",
+  "front": "パエリアに使うサフランは、使う前にどうする?",
+  "back": "水に合わせておいて色を出す",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-paella",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-paella"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9610",
+    "bookPage": 35,
+    "locationNote": "本書 p.35（原本画像 IMG_9610.PNG）。原文照合 batch28 で照合済みの知識単位 r-paella から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-chili",
+  "front": "チリコンカンで主役となるミックススパイスは?",
+  "back": "チリパウダー",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-chili",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-chili"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9611",
+    "bookPage": 36,
+    "locationNote": "本書 p.36（原本画像 IMG_9611.PNG）。原文照合 batch28 で照合済みの知識単位 r-chili から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-kakuni",
+  "front": "本書の中国風「豚の角煮」で風味の決め手となるスパイスは?",
+  "back": "スターアニス",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-kakuni",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-kakuni"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9612",
+    "bookPage": 37,
+    "locationNote": "本書 p.37（原本画像 IMG_9612.PNG）。原文照合 batch28 で照合済みの知識単位 r-kakuni から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-ceviche",
+  "front": "セビーチェはどの地域風の魚介マリネ?",
+  "back": "南米",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-ceviche",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-ceviche"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9613",
+    "bookPage": 38,
+    "locationNote": "本書 p.38（原本画像 IMG_9613.PNG）。原文照合 batch28 で照合済みの知識単位 r-ceviche から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-hummus",
+  "front": "フムスの主材料の豆は?",
+  "back": "ひよこ豆",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-hummus",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-hummus"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9614",
+    "bookPage": 39,
+    "locationNote": "本書 p.39（原本画像 IMG_9614.PNG）。原文照合 batch29 で照合済みの知識単位 r-hummus から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-couscous",
+  "front": "クスクスは何の粉を粒状にしたパスタ?",
+  "back": "セモリナ粉",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-lamb",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-couscous"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9616",
+    "bookPage": 41,
+    "locationNote": "本書 p.41（原本画像 IMG_9616.PNG）。原文照合 batch29 で照合済みの知識単位 r-couscous から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-harissa",
+  "front": "本書のハリッサ風ペーストに使われる種子系スパイスで、キャラウェイ以外のものは?",
+  "back": "クミン",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-lamb",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-harissa"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9616",
+    "bookPage": 41,
+    "locationNote": "本書 p.41（原本画像 IMG_9616.PNG）。原文照合 batch29 で照合済みの知識単位 r-harissa から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-currywurst",
+  "front": "カリーヴルストはどこの国のファストフード?",
+  "back": "ドイツ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-currywurst",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-currywurst"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9617",
+    "bookPage": 42,
+    "locationNote": "本書 p.42（原本画像 IMG_9617.PNG）。原文照合 batch29 で照合済みの知識単位 r-currywurst から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-cumin-potato",
+  "front": "クミンポテトのもとになっているインドの家庭料理は?",
+  "back": "サブジ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-cumin-potato",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-cumin-potato"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9618",
+    "bookPage": 43,
+    "locationNote": "本書 p.43（原本画像 IMG_9618.PNG）。原文照合 batch29 で照合済みの知識単位 r-cumin-potato から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-chai",
+  "front": "本書のチャイに使うスパイスを3つ挙げよ。",
+  "back": "シナモン・カルダモン・クローブ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-chai",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-chai"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9619",
+    "bookPage": 44,
+    "locationNote": "本書 p.44（原本画像 IMG_9619.PNG）。原文照合 batch29 で照合済みの知識単位 r-chai から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-r-bakedapple",
+  "front": "焼きりんごに使う2つのスパイスは?",
+  "back": "クローブとシナモン",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "dish-apple",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "r-bakedapple"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9620",
+    "bookPage": 45,
+    "locationNote": "本書 p.45（原本画像 IMG_9620.PNG）。原文照合 batch29 で照合済みの知識単位 r-bakedapple から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-c-flavor-oil",
+  "front": "フレーバーオイルは冷暗所に何週間ほどおく?",
+  "back": "1〜2週間",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "season-oil",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "c-flavor-oil"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9621",
+    "bookPage": 46,
+    "locationNote": "本書 p.46（原本画像 IMG_9621.PNG）。原文照合 batch29 で照合済みの知識単位 c-flavor-oil から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-c-bottle",
+  "front": "手作り調味料に使う保存びんは事前にどうしておく?",
+  "back": "煮沸消毒して乾かす",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "season-oil",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "c-bottle"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9621",
+    "bookPage": 46,
+    "locationNote": "本書 p.46（原本画像 IMG_9621.PNG）。原文照合 batch29 で照合済みの知識単位 c-bottle から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-c-herb-paste",
+  "front": "ハーブペーストを冷凍した場合の保存の目安は?",
+  "back": "1〜2カ月",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "season-paste",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "c-herb-paste"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9623",
+    "bookPage": 48,
+    "locationNote": "本書 p.48（原本画像 IMG_9623.PNG）。原文照合 batch30 で照合済みの知識単位 c-herb-paste から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-c-paste-basil",
+  "front": "バジルペーストの半量を何にかえると、より鮮やかな緑色になる?",
+  "back": "イタリアンパセリ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "season-paste",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "c-paste-basil"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9623",
+    "bookPage": 48,
+    "locationNote": "本書 p.48（原本画像 IMG_9623.PNG）。原文照合 batch30 で照合済みの知識単位 c-paste-basil から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-c-paste-rucola",
+  "front": "ルッコラペーストに加えると味わいが深くなる食材は?",
+  "back": "アンチョビ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "season-paste",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "c-paste-rucola"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9623",
+    "bookPage": 48,
+    "locationNote": "本書 p.48（原本画像 IMG_9623.PNG）。原文照合 batch30 で照合済みの知識単位 c-paste-rucola から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-c-dressing",
+  "front": "手作りドレッシングの冷蔵保存の目安は?",
+  "back": "2〜3日",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "season-dressing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "c-dressing"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9624",
+    "bookPage": 49,
+    "locationNote": "本書 p.49（原本画像 IMG_9624.PNG）。原文照合 batch30 で照合済みの知識単位 c-dressing から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-c-fines-herbes",
+  "front": "フランス語で「細かく刻んだハーブ」を意味する言葉は?",
+  "back": "フィーヌゼルブ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "season-dressing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "c-fines-herbes"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9624",
+    "bookPage": 49,
+    "locationNote": "本書 p.49（原本画像 IMG_9624.PNG）。原文照合 batch30 で照合済みの知識単位 c-fines-herbes から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-c-dress-ethnic",
+  "front": "エスニック風ドレッシングで塩の代わりに使う調味料は?",
+  "back": "ナンプラー",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "season-dressing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "c-dress-ethnic"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9624",
+    "bookPage": 49,
+    "locationNote": "本書 p.49（原本画像 IMG_9624.PNG）。原文照合 batch30 で照合済みの知識単位 c-dress-ethnic から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-3roles",
+  "front": "料理におけるスパイスやハーブの3つの働きは?",
+  "back": "香りづけ・辛みづけ・色づけ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-3roles"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9593",
+    "bookPage": 18,
+    "locationNote": "本書 p.18（原本画像 IMG_9593.PNG）。原文照合 batch24 で照合済みの知識単位 u-3roles から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-aroma-main",
+  "front": "3つの働きのうち、ほとんどのスパイスやハーブが持つ働きは?",
+  "back": "香りづけ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-aroma-main"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9593",
+    "bookPage": 18,
+    "locationNote": "本書 p.18（原本画像 IMG_9593.PNG）。原文照合 batch24 で照合済みの知識単位 u-aroma-main から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-aroma-source",
+  "front": "スパイスの香りの正体は何という成分?",
+  "back": "揮発性の香気成分",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-aroma-source"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9594",
+    "bookPage": 19,
+    "locationNote": "本書 p.19（原本画像 IMG_9594.PNG）。原文照合 batch25 で照合済みの知識単位 u-aroma-source から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-aroma-whole",
+  "front": "ホールスパイスの香りを引き出す方法を2つ挙げよ。",
+  "back": "挽く・加熱する",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-aroma-whole"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9594",
+    "bookPage": 19,
+    "locationNote": "本書 p.19（原本画像 IMG_9594.PNG）。原文照合 batch25 で照合済みの知識単位 u-aroma-whole から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-aroma-herb",
+  "front": "フレッシュハーブの香りを引き出す方法を1つ挙げよ。",
+  "back": "ちぎる",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-aroma-herb"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9594",
+    "bookPage": 19,
+    "locationNote": "本書 p.19（原本画像 IMG_9594.PNG）。原文照合 batch25 で照合済みの知識単位 u-aroma-herb から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-aroma-powder",
+  "front": "パウダースパイスの短所は?",
+  "back": "香りの消失が早い",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-aroma-powder"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9594",
+    "bookPage": 19,
+    "locationNote": "本書 p.19（原本画像 IMG_9594.PNG）。原文照合 batch25 で照合済みの知識単位 u-aroma-powder から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-starter",
+  "front": "調理の最初に油で炒めて香りを移すスパイスを何と呼ぶ?",
+  "back": "スタータースパイス",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-starter"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9594",
+    "bookPage": 19,
+    "locationNote": "本書 p.19（原本画像 IMG_9594.PNG）。原文照合 batch25 で照合済みの知識単位 u-starter から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-starter-ex",
+  "front": "スタータースパイスの代表例を1つ挙げよ。",
+  "back": "クミン",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-starter-ex"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9594",
+    "bookPage": 19,
+    "locationNote": "本書 p.19（原本画像 IMG_9594.PNG）。原文照合 batch25 で照合済みの知識単位 u-starter-ex から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-heat",
+  "front": "辛みのあるスパイスを加える際の基本的な注意は?",
+  "back": "少量ずつ味をみながら加える",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-heat"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9595",
+    "bookPage": 20,
+    "locationNote": "本書 p.20（原本画像 IMG_9595.PNG）。原文照合 batch25 で照合済みの知識単位 u-heat から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-color",
+  "front": "色づけの目的で使われるスパイスを1つ挙げよ(例:ターメリック以外)。",
+  "back": "パプリカ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-color"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9595",
+    "bookPage": 20,
+    "locationNote": "本書 p.20（原本画像 IMG_9595.PNG）。原文照合 batch25 で照合済みの知識単位 u-color から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-timing-prep",
+  "front": "素材の臭みとりや香りづけを目的にスパイスを使うタイミングは?",
+  "back": "下ごしらえ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-timing-prep"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9596",
+    "bookPage": 21,
+    "locationNote": "本書 p.21（原本画像 IMG_9596.PNG）。原文照合 batch25 で照合済みの知識単位 u-timing-prep から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-timing-prep-form",
+  "front": "下ごしらえで素材にまんべんなくまぶすのに適した形状は?",
+  "back": "パウダー",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-timing-prep-form"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9596",
+    "bookPage": 21,
+    "locationNote": "本書 p.21（原本画像 IMG_9596.PNG）。原文照合 batch25 で照合済みの知識単位 u-timing-prep-form から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-timing-cook",
+  "front": "調理中にスパイスを使う場合、適した形状は?",
+  "back": "ホール",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-timing-cook"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9596",
+    "bookPage": 21,
+    "locationNote": "本書 p.21（原本画像 IMG_9596.PNG）。原文照合 batch25 で照合済みの知識単位 u-timing-cook から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-timing-cook-herb",
+  "front": "調理中に使うフレッシュハーブとして、香りの強いものの例は?",
+  "back": "ローズマリー",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-timing-cook-herb"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9596",
+    "bookPage": 21,
+    "locationNote": "本書 p.21（原本画像 IMG_9596.PNG）。原文照合 batch25 で照合済みの知識単位 u-timing-cook-herb から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-timing-finish",
+  "front": "仕上げにスパイスを使う場合、多く使われる形状は?",
+  "back": "パウダー",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-timing-finish"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9597",
+    "bookPage": 22,
+    "locationNote": "本書 p.22（原本画像 IMG_9597.PNG）。原文照合 batch25 で照合済みの知識単位 u-timing-finish から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-timing-finish-herb",
+  "front": "料理の仕上げに向くフレッシュハーブの特徴は?",
+  "back": "葉がやわらかく香りがマイルド",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-timing-finish-herb"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9597",
+    "bookPage": 22,
+    "locationNote": "本書 p.22（原本画像 IMG_9597.PNG）。原文照合 batch25 で照合済みの知識単位 u-timing-finish-herb から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-overspice",
+  "front": "スパイスを加えすぎるよくある失敗を何という?",
+  "back": "オーバースパイス",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-overspice"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9597",
+    "bookPage": 22,
+    "locationNote": "本書 p.22（原本画像 IMG_9597.PNG）。原文照合 batch25 で照合済みの知識単位 u-overspice から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-fresh-3x",
+  "front": "同じレシピでフレッシュハーブを使う場合、ドライハーブの何倍が目安?",
+  "back": "3倍",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-fresh-3x"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9597",
+    "bookPage": 22,
+    "locationNote": "本書 p.22（原本画像 IMG_9597.PNG）。原文照合 batch25 で照合済みの知識単位 u-fresh-3x から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-dry-third",
+  "front": "フレッシュハーブ大さじ1をドライに置き換える場合の量は?",
+  "back": "1/3量",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-dry-third"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9597",
+    "bookPage": 22,
+    "locationNote": "本書 p.22（原本画像 IMG_9597.PNG）。原文照合 batch25 で照合済みの知識単位 u-dry-third から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-rosemary-same",
+  "front": "乾燥でも体積があまり変化しないため、ドライとほぼ同量でよいハーブの例は?",
+  "back": "ローズマリー",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-rosemary-same"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9597",
+    "bookPage": 22,
+    "locationNote": "本書 p.22（原本画像 IMG_9597.PNG）。原文照合 batch25 で照合済みの知識単位 u-rosemary-same から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-wash",
+  "front": "フレッシュハーブは調理前に水洗いが必要か?",
+  "back": "必要",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-wash"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-wash から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-knife",
+  "front": "ハーブの変色を防ぐために使うとよい包丁の材質は?",
+  "back": "ステンレスやセラミック",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-knife"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-knife から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-pairing",
+  "front": "スパイスの相性はメニューと素材のどちらとの相性で覚えるのがよい?",
+  "back": "素材",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-pairing"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pairing から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-pair-beef",
+  "front": "ブーケガルニ・クローブ・オレガノなどと相性がよいとされる素材は?",
+  "back": "牛肉",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-pair-beef"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-beef から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-pair-pork",
+  "front": "ジンジャー・ナツメッグ・スターアニス・五香粉などと相性がよいとされる素材は?",
+  "back": "豚肉",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-pair-pork"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-pork から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-pair-redfish",
+  "front": "チリペッパー・ディル・ガーリックなどと相性がよいとされる魚は(赤身魚・白身魚)?",
+  "back": "赤身魚",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-pair-redfish"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-redfish から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-u-pair-whitefish",
+  "front": "タラゴンやバジルなどと相性がよいとされる魚は(赤身魚・白身魚)?",
+  "back": "白身魚",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "u-pair-whitefish"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-whitefish から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-africa",
+  "front": "アフリカの料理でよく使われるスパイスを1つ挙げよ。",
+  "back": "クミン",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-africa"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-africa から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-couscous",
+  "front": "クスクスに添えられることが多い唐辛子ペーストの名は?",
+  "back": "ハリッサ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-couscous"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-couscous から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-middleeast",
+  "front": "中近東の料理でよく使われる肉は?",
+  "back": "羊肉",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-middleeast"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-middleeast から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-tabbouleh",
+  "front": "レバノンのサラダ「タッブーレ」の決め手のハーブは?",
+  "back": "パセリ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-tabbouleh"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-tabbouleh から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-dukkah",
+  "front": "ごま・スパイス・ナッツ類を合わせ、オリーブオイルにひたしたパンにつけて食べるシーズニングは?",
+  "back": "デュカ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-dukkah"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-dukkah から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-europe",
+  "front": "地中海沿岸地域で魚と相性がよくよく使われるスパイスを1つ挙げよ。",
+  "back": "サフラン",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-europe"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-europe から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-caprese",
+  "front": "カプレーゼの決め手のハーブは?",
+  "back": "バジル",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-caprese"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-caprese から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-milanese",
+  "front": "ミラノ風リゾットの決め手のスパイスは?",
+  "back": "サフラン",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-milanese"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-milanese から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-saltimbocca",
+  "front": "サルティンボッカの決め手のハーブは?",
+  "back": "セージ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-saltimbocca"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-saltimbocca から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-saltimbocca-mean",
+  "front": "「サルティンボッカ」の意味は?",
+  "back": "口に飛び込む",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-saltimbocca-mean"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-saltimbocca-mean から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-genovese",
+  "front": "ジェノベーゼソースの決め手のハーブは?",
+  "back": "バジル",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-genovese"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-genovese から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-carbonara",
+  "front": "カルボナーラの仕上げに欠かせないスパイスは?",
+  "back": "ブラックペッパー",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-carbonara"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-carbonara から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-bouillabaisse",
+  "front": "サフランを使った魚介のスープ「ブイヤベース」はどこの国の料理?",
+  "back": "フランス",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-bouillabaisse"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-bouillabaisse から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-paella",
+  "front": "パエリアの色づけに使われるスパイスは?",
+  "back": "サフラン",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-paella"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-paella から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-paella-mean",
+  "front": "「パエリア」はバレンシア語で何を意味する?",
+  "back": "フライパン",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-paella-mean"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-paella-mean から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-goulash",
+  "front": "ハンガリアングラーシュの決め手のスパイスは?",
+  "back": "パプリカ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-goulash"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-goulash から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-borscht",
+  "front": "ボルシチの決め手のハーブは?",
+  "back": "ディル",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-borscht"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-borscht から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-borscht-origin",
+  "front": "ボルシチ発祥の国は?",
+  "back": "ウクライナ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-borscht-origin"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-borscht-origin から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-asia",
+  "front": "東アジア・東南アジアの味つけで広く使われる調味料の種類は?",
+  "back": "発酵調味料",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-asia"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-asia から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-dongpo",
+  "front": "トンポーロウの決め手のスパイスは?",
+  "back": "スターアニス",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-dongpo"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-dongpo から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-dongpo-country",
+  "front": "トンポーロウはどこの国の料理?",
+  "back": "中国",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-dongpo-country"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-dongpo-country から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-tomyum",
+  "front": "トムヤムクンはどこの国の料理?",
+  "back": "タイ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-tomyum"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-tomyum から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-banhxeo",
+  "front": "ベトナムの料理「バインセオ」の決め手のスパイスは?",
+  "back": "ターメリック",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-banhxeo"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-banhxeo から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-america",
+  "front": "多様な食文化が混ざり合って生まれる料理を何と呼ぶ?",
+  "back": "フュージョン料理",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-america"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 w-america から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-chiliconcarne",
+  "front": "チリコンカンは何と呼ばれる料理ジャンルの代表的メニュー?",
+  "back": "テクス・メクス",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-chiliconcarne"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 w-chiliconcarne から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-w-guacamole",
+  "front": "メキシコのアボカドディップ「ワカモーレ」の決め手のハーブは?",
+  "back": "パクチー",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "w-guacamole"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 w-guacamole から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-d-moroccan-tea",
+  "front": "「ガンパウダー」と呼ばれる中国緑茶とミントで入れるお茶は?",
+  "back": "モロッコティー",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "d-moroccan-tea"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-moroccan-tea から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-d-gahwa",
+  "front": "ガーワ(アラビアンコーヒー)の決め手のスパイスは?",
+  "back": "カルダモン",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "d-gahwa"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-gahwa から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-d-eggnog",
+  "front": "エッグノッグに使われるスパイスは?",
+  "back": "ナツメッグ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "d-eggnog"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-eggnog から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-d-cafe-olla",
+  "front": "メキシコのカフェ・デ・オーヤに使われるスパイスは?",
+  "back": "シナモン",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "d-cafe-olla"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-cafe-olla から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-d-mojito",
+  "front": "モヒートを愛した作家として知られるのは?",
+  "back": "ヘミングウェイ",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "d-mojito"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-mojito から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-d-mojito-herb",
+  "front": "モヒートの決め手のハーブは?",
+  "back": "ミント",
+  "reverseOf": null,
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "d-mojito-herb"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-mojito-herb から生成"
+   }
+  ]
+ }
+]

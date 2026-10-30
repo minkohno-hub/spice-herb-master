@@ -1,0 +1,1123 @@
+{
+  "meta": {
+    "generatedBy": "scripts/generate-questions.mjs",
+    "sourceUnitsTotal": 545,
+    "eligibleUnits": 379,
+    "profileEligibleUnits": 80,
+    "q3Units": 86,
+    "q3Questions": 86,
+    "f1ByKind": {
+      "tf-family-true": 68,
+      "tf-family-false": 68,
+      "tf-part-true": 68,
+      "tf-part-false": 68,
+      "mc-family": 14,
+      "mc-part": 11,
+      "mc-origin": 7,
+      "match-family": 17,
+      "match-part": 17,
+      "match-origin": 9,
+      "reverse-alias": 60,
+      "table-profile": 68,
+      "composite-profile": 68,
+      "figure-table": 17
+    },
+    "f1Questions": 560,
+    "f1SkippedItems": 71,
+    "f2ByKind": {
+      "ordering": 17,
+      "short-essay": 12
+    },
+    "f2Questions": 29,
+    "f2SkippedItems": 11,
+    "f3ByKind": {
+      "long-essay": 4,
+      "compare-essay": 7
+    },
+    "f3Questions": 11,
+    "f3SkippedItems": 11,
+    "q2ByKind": {
+      "family-fill": 68,
+      "level-fill": 80,
+      "part-choice": 68,
+      "origin-choice": 39,
+      "alias-term": 60,
+      "reverse-term": 60,
+      "profile-card": 80
+    },
+    "q2Questions": 375,
+    "formalQuestions": 1819,
+    "byFormat": {
+      "one-answer": 465,
+      "single-choice": 486,
+      "fill-blank": 148,
+      "term-input": 120,
+      "true-false": 272,
+      "table-fill": 68,
+      "composite": 68,
+      "reverse-lookup": 60,
+      "multiple-choice": 32,
+      "matching": 43,
+      "figure": 17,
+      "ordering": 17,
+      "short-essay": 12,
+      "long-essay": 4,
+      "compare-essay": 7
+    },
+    "d1ByDifficulty": {
+      "1": 752,
+      "2": 482,
+      "3": 415,
+      "4": 170
+    },
+    "d1CalibratedByDifficulty": {
+      "1": 752,
+      "2": 474,
+      "3": 415,
+      "4": 170
+    },
+    "d1CalibratedQuestions": 1811,
+    "d1HeldQuestions": 8,
+    "d1HeldIds": [
+      "q1-e-org",
+      "q4-e-org",
+      "q1-e-start",
+      "q4-e-start",
+      "q1-e-scope",
+      "q4-e-scope",
+      "q1q3-e-level1",
+      "q1q3-e-scope1"
+    ],
+    "formalCards": 459,
+    "excludedItems": 105,
+    "excludedUnits": 0,
+    "files": [
+      "formal-preface-1.json",
+      "formal-preface-2.json",
+      "formal-ch1-1.json",
+      "formal-ch1-2.json",
+      "formal-ch2-1.json",
+      "formal-ch2-2.json",
+      "formal-ch2-3.json",
+      "formal-ch2-4.json",
+      "formal-ch2-5.json",
+      "formal-ch2-6.json",
+      "formal-ch2-7.json",
+      "formal-ch2-8.json",
+      "formal-ch2-9.json",
+      "formal-ch2-10.json",
+      "formal-ch2-11.json",
+      "formal-ch2-12.json",
+      "formal-ch2-13.json",
+      "formal-ch2-14.json",
+      "formal-ch2-15.json",
+      "formal-ch3-1.json",
+      "formal-ch3-2.json",
+      "formal-appendix.json",
+      "cards-preface.json",
+      "cards-ch1.json",
+      "cards-ch2.json",
+      "cards-ch3.json",
+      "cards-appendix.json"
+    ]
+  },
+  "attempted": {
+    "one-answer": 465,
+    "single-choice": 486,
+    "flashcard": 459,
+    "fill-blank": 148,
+    "term-input": 120,
+    "true-false": 272,
+    "multiple-choice": 32,
+    "matching": 43,
+    "reverse-lookup": 60,
+    "table-fill": 68,
+    "composite": 68,
+    "figure": 17,
+    "ordering": 17,
+    "short-essay": 12,
+    "long-essay": 4,
+    "compare-essay": 7
+  },
+  "passed": {
+    "one-answer": 465,
+    "single-choice": 486,
+    "flashcard": 459,
+    "fill-blank": 148,
+    "term-input": 120,
+    "true-false": 272,
+    "multiple-choice": 32,
+    "matching": 43,
+    "reverse-lookup": 60,
+    "table-fill": 68,
+    "composite": 68,
+    "figure": 17,
+    "ordering": 17,
+    "short-essay": 12,
+    "long-essay": 4,
+    "compare-essay": 7
+  },
+  "q2ByKind": {
+    "family-fill": 68,
+    "level-fill": 80,
+    "part-choice": 68,
+    "origin-choice": 39,
+    "alias-term": 60,
+    "reverse-term": 60,
+    "profile-card": 80
+  },
+  "f1ByKind": {
+    "tf-family-true": 68,
+    "tf-family-false": 68,
+    "tf-part-true": 68,
+    "tf-part-false": 68,
+    "mc-family": 14,
+    "mc-part": 11,
+    "mc-origin": 7,
+    "match-family": 17,
+    "match-part": 17,
+    "match-origin": 9,
+    "reverse-alias": 60,
+    "table-profile": 68,
+    "composite-profile": 68,
+    "figure-table": 17
+  },
+  "f1Skipped": [
+    {
+      "kind": "tf-family",
+      "detail": "gokoufun-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "gokoufun-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "gokoufun-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "gokoufun-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "gokoufun-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "herbesdeprovence-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "herbesdeprovence-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "herbesdeprovence-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "herbesdeprovence-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "herbesdeprovence-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "garammasala-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "garammasala-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "garammasala-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "garammasala-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "garammasala-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "currypowder-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "currypowder-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "currypowder-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "currypowder-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "currypowder-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "shichimi-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "shichimi-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "shichimi-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "shichimi-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "shichimi-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "chilipowder-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "chilipowder-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "chilipowder-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "chilipowder-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "chilipowder-profile: 別名の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "ajwain-profile: 別名の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "grainsofparadise-profile: 別名の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "sumac-profile: 別名の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "celery-profile: 別名の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "tade-profile: 別名の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "tamarind-profile: 別名の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "dokudami-profile: 別名の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "mitsuba-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "quatreepices-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "quatreepices-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "quatreepices-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "quatreepices-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "quatreepices-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "zaatar-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "zaatar-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "zaatar-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "zaatar-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "zaatar-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "dukkah-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "dukkah-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "dukkah-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "dukkah-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "dukkah-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "chaatmasala-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "chaatmasala-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "chaatmasala-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "chaatmasala-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "chaatmasala-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "panchphoron-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "panchphoron-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "panchphoron-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "panchphoron-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "panchphoron-profile: 別名の記載がない"
+    },
+    {
+      "kind": "tf-family",
+      "detail": "rasalhanout-profile: プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "tf-part",
+      "detail": "rasalhanout-profile: プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "table-profile",
+      "detail": "rasalhanout-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "composite-profile",
+      "detail": "rasalhanout-profile: 科名または利用部位の記載がない"
+    },
+    {
+      "kind": "reverse-alias",
+      "detail": "rasalhanout-profile: 別名の記載がない"
+    },
+    {
+      "kind": "match-origin",
+      "detail": "sage-profile: 原産地の値が重複しない4件グループを作れなかった"
+    },
+    {
+      "kind": "match-origin",
+      "detail": "vanilla-profile: 原産地の値が重複しない4件グループを作れなかった"
+    },
+    {
+      "kind": "match-origin",
+      "detail": "wasabi-profile: 原産地の値が重複しない4件グループを作れなかった"
+    }
+  ],
+  "f2ByKind": {
+    "ordering": 17,
+    "short-essay": 12
+  },
+  "f2Skipped": [
+    {
+      "target": "ジェノベーゼソースの作り方（本書 p.33）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "セビーチェの作り方（本書 p.38）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "フレーバーオイルの作り方（本書 p.46）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "フレーバービネガー／フレーバーしょうゆの作り方（本書 p.47）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "基本のドレッシングの作り方（本書 p.49）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "サシェの作り方（本書 p.119）",
+      "reason": "手順が2つだけで並べ替えが自明なため作らない"
+    },
+    {
+      "target": "ローズマリーのリースの作り方（本書 p.121）",
+      "reason": "対応する知識単位がなく（同ページの単位はタッジーマッジーについて）、出典・解説を単位に紐付けられないため作らない"
+    },
+    {
+      "target": "手作りハリッサ風ペースト（本書 p.41）・ハーブバス（本書 p.115）・シナモンのコースター（本書 p.119）等の作り方",
+      "reason": "番号が付いておらず、順序が原文に明示されていないため作らない"
+    },
+    {
+      "target": "歴史の出来事など年代の並べ替え",
+      "reason": "F1（DECISIONS #21）の評価どおり、年代が単一の数値として明示される単位は一部のみで概数・範囲・時代名が混在するため作らない"
+    },
+    {
+      "target": "上記12件以外の短文記述",
+      "reason": "転記支持文に2点以上の検証可能な要点（字句として切り出せる語句）を含む単位・節が他に確認できないため作らない（量より質を優先）"
+    },
+    {
+      "target": "水やりの基本（本書 p.125）",
+      "reason": "監査A3（DECISIONS #28）で、番号付き3項目が時間的工程ではなく並列の原則（与える条件・量・時刻）であり、提示順を入れ替えても原則として成立して正解が一意でないと判定したため、並べ替え問題としては生成しない（F2で生成した qord-watering を取り下げ）"
+    }
+  ],
+  "f3ByKind": {
+    "long-essay": 4,
+    "compare-essay": 7
+  },
+  "f3Skipped": [
+    {
+      "target": "長文記述: ハーブの栽培管理（定植・水やり・剪定・収穫・ふやす）を束ねた長文",
+      "reason": "支持範囲が追加形式F2の短文記述（挿し木・定植時期・培養土）および並べ替え（植えつけ・水やり）と重なり、同一素材の焼き直しになるため作らない"
+    },
+    {
+      "target": "長文記述: ハーブティー（いれ方・ブレンド・リスト）を束ねた長文",
+      "reason": "支持範囲がF2の短文記述（フレッシュハーブティーの使用量）・並べ替え（ハーブティーのいれ方）と重なり、残りの散文も手順・一覧が中心で複数段落にわたる統合テーマを構成できないため作らない"
+    },
+    {
+      "target": "長文記述: こしょうの歴史（貴重品・日本への伝来・ピンクペッパー）",
+      "reason": "同一記事内でも話題が分散し、単一テーマとして4点以上の要点を一貫した設問に束ねられないため作らない（3種の比較は比較記述で採用）"
+    },
+    {
+      "target": "長文記述: 日本へのスパイス渡来史（奈良時代〜近世）",
+      "reason": "年代・書名・宝物の列挙が中心で、要点を字句で束ねると一問一答の寄せ集めになるため作らない（食文化の対比部分は比較記述で採用）"
+    },
+    {
+      "target": "長文記述: 各国の料理とスパイス（アフリカ・ヨーロッパ・アジア・アメリカ）",
+      "reason": "地域ごとの紹介の並列であり、単一テーマとして統合された支持範囲を構成できないため作らない"
+    },
+    {
+      "target": "比較記述: フレッシュとドライの保存法の比較",
+      "reason": "転記 p.16 の2段落はF2の短文記述2問（フレッシュの保存法・ドライの保存法）がそのまま支持文としており、比較形式にしても検証可能な要点が増えない（焼き直しになる）ため作らない。使用量の対比（転記 p.22、倍率と理由・例外が原文に明示）のみを比較記述として採用した"
+    },
+    {
+      "target": "比較記述: パセリの2種類（カールリーフとフラットリーフ）",
+      "reason": "転記 p.80 に「風味は若干異なる」とあるだけで、種類ごとの属性値が原文に対応して示されておらず、字句包含で検証できる要点を対象ごとに用意できないため作らない"
+    },
+    {
+      "target": "比較記述: わさびとホースラディッシュ",
+      "reason": "転記 p.92 の言及は辛み成分（アリル芥子油）が同様という共通点のみで、相違点の対比が原文に明示されていないため作らない"
+    },
+    {
+      "target": "比較記述: 唐辛子の品種（天鷹唐辛子・韓国産・ハラペーニョ・ハバネロ・プリッキーヌ）",
+      "reason": "転記 p.76 のコラムは品種ごとの個別紹介の列挙で、サイズ・辛み・用途が混在し、共通の観点で双方（各品種）の値が対応して示されていないため作らない"
+    },
+    {
+      "target": "比較記述: アニスとスターアニス",
+      "reason": "転記 p.69 にヨーロッパでアニスの代用になる旨の言及はあるが、双方の属性値の対比が原文に明示されていないため作らない"
+    },
+    {
+      "target": "写真識別（photo-id）",
+      "reason": "教科書画像の取り込み判断（DECISIONS #12）が別途必要であり、提示素材と識別根拠がないため、本バッチでも対象外（DECISIONS #27）"
+    }
+  ],
+  "q3Questions": 86,
+  "d1": {
+    "byDifficulty": {
+      "1": 752,
+      "2": 482,
+      "3": 415,
+      "4": 170
+    },
+    "calibratedByDifficulty": {
+      "1": 752,
+      "2": 474,
+      "3": 415,
+      "4": 170
+    },
+    "heldIds": [
+      "q1-e-org",
+      "q4-e-org",
+      "q1-e-start",
+      "q4-e-start",
+      "q1-e-scope",
+      "q4-e-scope",
+      "q1q3-e-level1",
+      "q1q3-e-scope1"
+    ]
+  },
+  "excluded": [
+    {
+      "kind": "family-fill",
+      "unitId": "gokoufun-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "gokoufun-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "gokoufun-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "gokoufun-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "gokoufun-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "herbesdeprovence-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "herbesdeprovence-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "herbesdeprovence-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "herbesdeprovence-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "herbesdeprovence-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "garammasala-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "garammasala-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "garammasala-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "garammasala-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "garammasala-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "currypowder-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "currypowder-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "currypowder-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "currypowder-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "currypowder-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "shichimi-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "shichimi-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "shichimi-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "shichimi-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "shichimi-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "chilipowder-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "chilipowder-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "chilipowder-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "chilipowder-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "chilipowder-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "asafoetida-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "ajwain-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "ajwain-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "ajwain-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "kaffirlime-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "galangal-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "curryleaf-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "licorice-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "cubeb-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "grainsofparadise-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "grainsofparadise-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "grainsofparadise-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "cresson-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "caper-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "poppyseed-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "safflower-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "savory-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "shiso-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "juniper-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "sumac-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "sumac-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "sumac-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "celery-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "celery-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "celery-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "sorrel-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "tade-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "tade-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "tade-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "tamarind-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "tamarind-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "tamarind-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "dokudami-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "dokudami-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "dokudami-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "nigella-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "pandan-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "fenugreek-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "mache-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "amchur-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "mitsuba-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "mitsuba-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "mitsuba-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "lemonbalm-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "longpepper-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "quatreepices-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "quatreepices-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "quatreepices-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "quatreepices-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "quatreepices-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "zaatar-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "zaatar-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "zaatar-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "zaatar-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "zaatar-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "dukkah-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "dukkah-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "dukkah-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "dukkah-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "dukkah-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "chaatmasala-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "chaatmasala-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "chaatmasala-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "chaatmasala-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "chaatmasala-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "panchphoron-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "panchphoron-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "panchphoron-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "panchphoron-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "panchphoron-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "family-fill",
+      "unitId": "rasalhanout-profile",
+      "reason": "プロフィールに科名の記載がない"
+    },
+    {
+      "kind": "part-choice",
+      "unitId": "rasalhanout-profile",
+      "reason": "プロフィールに利用部位の記載がない"
+    },
+    {
+      "kind": "origin-choice",
+      "unitId": "rasalhanout-profile",
+      "reason": "プロフィールに原産地の記載がない"
+    },
+    {
+      "kind": "alias-term",
+      "unitId": "rasalhanout-profile",
+      "reason": "プロフィールに別名の記載がない"
+    },
+    {
+      "kind": "reverse-term",
+      "unitId": "rasalhanout-profile",
+      "reason": "プロフィールに別名の記載がない"
+    }
+  ]
+}

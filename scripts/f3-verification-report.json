@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "verifiedBy": "scripts/verify-f3-questions.mjs",
+    "longEssayEntries": 4,
+    "longEssayOk": 4,
+    "compareEssayEntries": 7,
+    "compareEssayOk": 7,
+    "failures": 0,
+    "skipped": 11,
+    "existingFormalQuestionsNonF3": 1808
+  },
+  "longEssay": [
+    {
+      "slug": "spice-trade-history",
+      "unitIds": [
+        "h-medieval-price",
+        "h-marco-polo",
+        "h-magellan-spices",
+        "h-spice-war-4",
+        "h-france-theft"
+      ],
+      "supportPages": [
+        7,
+        8,
+        9
+      ],
+      "supports": 5,
+      "modelAnswerChars": 1190,
+      "sentences": 22,
+      "points": 7,
+      "ok": true
+    },
+    {
+      "slug": "traditional-medicine",
+      "unitIds": [
+        "m-holistic",
+        "m-ayurveda",
+        "m-china",
+        "m-greek",
+        "m-commissione"
+      ],
+      "supportPages": [
+        128,
+        129,
+        130
+      ],
+      "supports": 5,
+      "modelAnswerChars": 901,
+      "sentences": 17,
+      "points": 6,
+      "ok": true
+    },
+    {
+      "slug": "food-safety",
+      "unitIds": [
+        "m-shokukeiken",
+        "m-hokenkinou",
+        "m-faddism"
+      ],
+      "supportPages": [
+        134,
+        135
+      ],
+      "supports": 4,
+      "modelAnswerChars": 933,
+      "sentences": 14,
+      "points": 6,
+      "ok": true
+    },
+    {
+      "slug": "salt-reduction",
+      "unitIds": [
+        "m-salt",
+        "m-tekien"
+      ],
+      "supportPages": [
+        132
+      ],
+      "supports": 2,
+      "modelAnswerChars": 507,
+      "sentences": 9,
+      "points": 6,
+      "ok": true
+    }
+  ],
+  "compareEssay": [
+    {
+      "slug": "cinnamon-cassia",
+      "unitIds": [
+        "cinnamon-profile",
+        "cinnamon-1",
+        "cinnamon-2"
+      ],
+      "supportPages": [
+        67
+      ],
+      "supports": 2,
+      "modelAnswerChars": 259,
+      "sentences": 6,
+      "points": 6,
+      "ok": true
+    },
+    {
+      "slug": "sansho-huajiao",
+      "unitIds": [
+        "sansho-profile",
+        "sansho-1"
+      ],
+      "supportPages": [
+        65
+      ],
+      "supports": 1,
+      "modelAnswerChars": 112,
+      "sentences": 3,
+      "points": 4,
+      "ok": true
+    },
+    {
+      "slug": "three-peppers",
+      "unitIds": [
+        "pepper-profile",
+        "pepper-1",
+        "pepper-2",
+        "pepper-3",
+        "pepper-4"
+      ],
+      "supportPages": [
+        61
+      ],
+      "supports": 3,
+      "modelAnswerChars": 414,
+      "sentences": 11,
+      "points": 6,
+      "ok": true
+    },
+    {
+      "slug": "japan-europe-spice",
+      "unitIds": [
+        "j-yakumi",
+        "j-fish",
+        "j-hot-ratio"
+      ],
+      "supportPages": [
+        10
+      ],
+      "supports": 2,
+      "modelAnswerChars": 390,
+      "sentences": 7,
+      "points": 5,
+      "ok": true
+    },
+    {
+      "slug": "fresh-dry-amount",
+      "unitIds": [
+        "u-fresh-3x",
+        "u-dry-third",
+        "u-rosemary-same"
+      ],
+      "supportPages": [
+        22
+      ],
+      "supports": 1,
+      "modelAnswerChars": 162,
+      "sentences": 3,
+      "points": 4,
+      "ok": true
+    },
+    {
+      "slug": "pots",
+      "unitIds": [
+        "g-pot"
+      ],
+      "supportPages": [
+        124
+      ],
+      "supports": 2,
+      "modelAnswerChars": 112,
+      "sentences": 3,
+      "points": 5,
+      "ok": true
+    },
+    {
+      "slug": "rosemary-types",
+      "unitIds": [
+        "rosemary-profile",
+        "rosemary-4"
+      ],
+      "supportPages": [
+        90
+      ],
+      "supports": 1,
+      "modelAnswerChars": 181,
+      "sentences": 9,
+      "points": 6,
+      "ok": true
+    }
+  ],
+  "skipped": [
+    {
+      "target": "長文記述: ハーブの栽培管理（定植・水やり・剪定・収穫・ふやす）を束ねた長文",
+      "reason": "支持範囲が追加形式F2の短文記述（挿し木・定植時期・培養土）および並べ替え（植えつけ・水やり）と重なり、同一素材の焼き直しになるため作らない"
+    },
+    {
+      "target": "長文記述: ハーブティー（いれ方・ブレンド・リスト）を束ねた長文",
+      "reason": "支持範囲がF2の短文記述（フレッシュハーブティーの使用量）・並べ替え（ハーブティーのいれ方）と重なり、残りの散文も手順・一覧が中心で複数段落にわたる統合テーマを構成できないため作らない"
+    },
+    {
+      "target": "長文記述: こしょうの歴史（貴重品・日本への伝来・ピンクペッパー）",
+      "reason": "同一記事内でも話題が分散し、単一テーマとして4点以上の要点を一貫した設問に束ねられないため作らない（3種の比較は比較記述で採用）"
+    },
+    {
+      "target": "長文記述: 日本へのスパイス渡来史（奈良時代〜近世）",
+      "reason": "年代・書名・宝物の列挙が中心で、要点を字句で束ねると一問一答の寄せ集めになるため作らない（食文化の対比部分は比較記述で採用）"
+    },
+    {
+      "target": "長文記述: 各国の料理とスパイス（アフリカ・ヨーロッパ・アジア・アメリカ）",
+      "reason": "地域ごとの紹介の並列であり、単一テーマとして統合された支持範囲を構成できないため作らない"
+    },
+    {
+      "target": "比較記述: フレッシュとドライの保存法の比較",
+      "reason": "転記 p.16 の2段落はF2の短文記述2問（フレッシュの保存法・ドライの保存法）がそのまま支持文としており、比較形式にしても検証可能な要点が増えない（焼き直しになる）ため作らない。使用量の対比（転記 p.22、倍率と理由・例外が原文に明示）のみを比較記述として採用した"
+    },
+    {
+      "target": "比較記述: パセリの2種類（カールリーフとフラットリーフ）",
+      "reason": "転記 p.80 に「風味は若干異なる」とあるだけで、種類ごとの属性値が原文に対応して示されておらず、字句包含で検証できる要点を対象ごとに用意できないため作らない"
+    },
+    {
+      "target": "比較記述: わさびとホースラディッシュ",
+      "reason": "転記 p.92 の言及は辛み成分（アリル芥子油）が同様という共通点のみで、相違点の対比が原文に明示されていないため作らない"
+    },
+    {
+      "target": "比較記述: 唐辛子の品種（天鷹唐辛子・韓国産・ハラペーニョ・ハバネロ・プリッキーヌ）",
+      "reason": "転記 p.76 のコラムは品種ごとの個別紹介の列挙で、サイズ・辛み・用途が混在し、共通の観点で双方（各品種）の値が対応して示されていないため作らない"
+    },
+    {
+      "target": "比較記述: アニスとスターアニス",
+      "reason": "転記 p.69 にヨーロッパでアニスの代用になる旨の言及はあるが、双方の属性値の対比が原文に明示されていないため作らない"
+    },
+    {
+      "target": "写真識別（photo-id）",
+      "reason": "教科書画像の取り込み判断（DECISIONS #12）が別途必要であり、提示素材と識別根拠がないため、本バッチでも対象外（DECISIONS #27）"
+    }
+  ],
+  "failures": []
+}

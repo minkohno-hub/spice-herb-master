@@ -1,0 +1,59 @@
+[
+ {
+  "id": "card-e-org",
+  "front": "スパイス&ハーブ検定を主催する団体は?",
+  "back": "山崎香辛料振興財団",
+  "reverseOf": null,
+  "chapterId": "appendix",
+  "sectionId": "exam-about",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "e-org"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9712",
+    "bookPage": 136,
+    "locationNote": "本書 p.136（原本画像 IMG_9712.PNG）。原文照合 batch30 で照合済みの知識単位 e-org から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-e-start",
+  "front": "スパイス&ハーブ検定がスタートした年は?",
+  "back": "2009年",
+  "reverseOf": null,
+  "chapterId": "appendix",
+  "sectionId": "exam-about",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "e-start"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9712",
+    "bookPage": 136,
+    "locationNote": "本書 p.136（原本画像 IMG_9712.PNG）。原文照合 batch30 で照合済みの知識単位 e-start から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-e-scope",
+  "front": "1級の単品知識で対象となるスパイス・ハーブは全部で何種?",
+  "back": "80種",
+  "reverseOf": null,
+  "chapterId": "appendix",
+  "sectionId": "exam-outline",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "e-scope"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9713",
+    "bookPage": 137,
+    "locationNote": "本書 p.137（原本画像 IMG_9713.PNG）。原文照合 batch30 で照合済みの知識単位 e-scope から生成"
+   }
+  ]
+ }
+]

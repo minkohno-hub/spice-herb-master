@@ -1,0 +1,1399 @@
+[
+ {
+  "id": "t-def",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブティー",
+  "category": "term",
+  "content": "1種類のハーブでいれたものをシングルハーブティー、複数のハーブを使ったものをブレンドハーブティーと呼ぶ。",
+  "source": {
+   "page": 110,
+   "sourceUnitId": "t-def",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "複数のハーブを用いたハーブティーを何と呼ぶ?",
+   "a": "ブレンドハーブティー",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "注記「1種類だけのハーブでいれたお茶は『シングルハーブティー』、複数のハーブを用いたものは『ブレンドハーブティー』と呼ばれる」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-caution",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブティー",
+  "category": "misc",
+  "content": "妊娠中の人、幼児、高齢者、通院中の人、アレルギーや高血圧などの疾患がある人には適さないハーブもあるため、安全性を確認してから楽しむ。",
+  "source": {
+   "page": 110,
+   "sourceUnitId": "t-caution",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "「ハーブティーを楽しむ際の注意事項」の前段（妊娠中の人や幼児、高齢者、通院中の人、アレルギーや高血圧など特別な疾患がある場合には適さない種類があるので、安全性を確認してから楽しむこと）の忠実な要約で意味一致。軽微な表現差として修正不要で昇格",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-cup",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "いれ方",
+  "category": "count",
+  "content": "ティーカップ1杯分は150〜180mlが目安で、カップはあらかじめ温めておく。",
+  "source": {
+   "page": 111,
+   "sourceUnitId": "t-cup",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハーブティーのティーカップ1杯分の目安量は?",
+   "a": "150〜180ml",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "手順1「準備」（ティーカップ（1杯分150〜180mℓ）を用意する。カップはあらかじめ温めておく）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-amount",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "いれ方",
+  "category": "count",
+  "content": "1杯分の目安はドライハーブがティースプーン山盛り1杯、フレッシュハーブは山盛り3杯程度(ドライの3倍)。",
+  "source": {
+   "page": 111,
+   "sourceUnitId": "t-amount",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハーブティー1杯分のフレッシュハーブの目安は、ティースプーン山盛り何杯?",
+   "a": "3杯",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "手順2（ドライハーブはティーカップ1杯分でティースプーン山盛り1杯程度。フレッシュハーブは山盛り3杯程度。ドライの3倍程度が目安）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-lid",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "いれ方",
+  "category": "method",
+  "content": "沸騰したての熱湯を使うのは香りを出しやすくするため、蓋をするのは揮発性の香りを逃がさないため。",
+  "source": {
+   "page": 111,
+   "sourceUnitId": "t-lid",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハーブティーをいれるとき、ポットに蓋をする理由は?",
+   "a": "揮発性の香りを逃がさないため",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "手順3の注記（熱湯にするのは、香りを出しやすくするため。蓋をするのは、蓋なしでは揮発性である香りがどんどん逃げてしまうため）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-time",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "いれ方",
+  "category": "count",
+  "content": "抽出時間はフレッシュで3分程度、ドライ(葉や花)で3〜5分、かたい果実や種子は7〜10分が目安。",
+  "source": {
+   "page": 111,
+   "sourceUnitId": "t-time",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "かたい種皮を持つ果実や種子のハーブティーの抽出時間の目安は?",
+   "a": "7〜10分",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch10",
+   "reason": "手順4（フレッシュハーブティーで3分程度、ドライハーブティー（葉や花）で3〜5分。かたい種皮を持つ果実や種子などは7〜10分）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-summer",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "季節のブレンド",
+  "category": "misc",
+  "content": "夏は濃いめに抽出して氷に注ぐアイスハーブティーがおすすめで、ハイビスカスやローズヒップ、レモングラスやミントが向く。",
+  "source": {
+   "page": 112,
+   "sourceUnitId": "t-summer",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "「夏」節の「濃いめに抽出したハーブティーを、氷の入ったグラスに注ぐアイスハーブティーがおすすめ。爽やかな酸味と美しい赤い色が特徴のハイビスカスやローズヒップ、爽やかな香りのレモングラスやミントなどがぴったり」と一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-chamomile",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブリスト",
+  "category": "spice",
+  "content": "ジャーマンカモミールは、りんごに似た甘い香りから「大地のりんご」と呼ばれる。",
+  "source": {
+   "page": 113,
+   "sourceUnitId": "t-chamomile",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「大地のりんご」と呼ばれるハーブは?",
+   "a": "ジャーマンカモミール",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ジャーマンカモミール項の「「大地のりんご」と呼ばれるように、りんごに似た甘い香りがする」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-stevia",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブリスト",
+  "category": "count",
+  "content": "ステビアを利用した甘味料は砂糖の200〜300倍ほどの甘さがあるといわれる。",
+  "source": {
+   "page": 113,
+   "sourceUnitId": "t-stevia",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ステビアを利用した甘味料は、砂糖の何倍ほどの甘さといわれる?",
+   "a": "200〜300倍",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ステビア項の「利用した甘味料は、砂糖の200〜300倍ほどの甘さがあるといわれている」と一致（数値含む）。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-hibiscus",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブリスト",
+  "category": "spice",
+  "content": "ハイビスカスは酸味と赤い色が特徴でクエン酸を多く含み、別名ローゼル。",
+  "source": {
+   "page": 113,
+   "sourceUnitId": "t-hibiscus",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハイビスカスの別名は?",
+   "a": "ローゼル",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ハイビスカス項の「爽やかな酸味と美しい赤い色が特徴。クエン酸を多く含む」「別名「ローゼル」」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-mallow",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブリスト",
+  "category": "spice",
+  "content": "マロウのティーは青色で、レモン汁など酸性のものを加えるとピンクに変わることから「夜明けのハーブティー」と呼ばれる。",
+  "source": {
+   "page": 113,
+   "sourceUnitId": "t-mallow",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "色の変化から「夜明けのハーブティー」と呼ばれるハーブは?",
+   "a": "マロウ",
+   "alt": [
+    "マロー",
+    "マロウ/マロー"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "マロウ/マロー項の「ティーは美しい青色…酸性のレモン汁や乳酸飲料などを加えるとピンクに変化…色の変化から「夜明けのハーブティー」との愛称」と一致。q/a（alt のマローは見出し表記と一致）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-raspberry",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブリスト",
+  "category": "spice",
+  "content": "ラズベリーリーフはヨーロッパで「安産のハーブティー」として親しまれてきた(妊娠中の飲用はかかりつけ医に相談)。",
+  "source": {
+   "page": 113,
+   "sourceUnitId": "t-raspberry",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ヨーロッパで「安産のハーブティー」として親しまれてきたのは?",
+   "a": "ラズベリーリーフ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ラズベリーリーフ項の「ヨーロッパでは古くから「安産のハーブティー」として親しまれ」「※妊娠中の飲用については、かかりつけ医に相談すること」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-elder",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブリスト",
+  "category": "spice",
+  "content": "エルダーフラワーはマスカットに似た甘い香りで、欧米では万病薬的存在とされてきた。",
+  "source": {
+   "page": 113,
+   "sourceUnitId": "t-elder",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "マスカットに似た香りを持ち、欧米で万病薬的存在とされたハーブは?",
+   "a": "エルダーフラワー",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "エルダーフラワー項の「マスカットに似た甘くてフルーティな香り」「欧米では古くから万病薬的な存在として親しまれており」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-lavender",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブリスト",
+  "category": "spice",
+  "content": "ラベンダーは甘くフローラルな強い香りで「ハーブの女王」とも呼ばれる。",
+  "source": {
+   "page": 114,
+   "sourceUnitId": "t-lavender",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「ハーブの女王」とも呼ばれるハーブは?",
+   "a": "ラベンダー",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ラベンダー項の「甘くフローラルな強い香りで「ハーブの女王」とも呼ばれる」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-verbena",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブリスト",
+  "category": "spice",
+  "content": "レモンバーベナの別名はベルベーヌ。",
+  "source": {
+   "page": 114,
+   "sourceUnitId": "t-verbena",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "レモンバーベナの別名は?",
+   "a": "ベルベーヌ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "レモンバーベナ項の「別名「ベルベーヌ」」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-rosehip",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハーブリスト",
+  "category": "spice",
+  "content": "ローズヒップはドッグローズというバラ科植物の実で、ビタミンCが豊富。",
+  "source": {
+   "page": 114,
+   "sourceUnitId": "t-rosehip",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ローズヒップは何という植物の実?",
+   "a": "ドッグローズ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ローズヒップ項の「ドッグローズというバラ科の植物の実で…ビタミンCが豊富に含まれており」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "t-coffee",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "代替コーヒー",
+  "category": "spice",
+  "content": "ハーブの根をローストした代替コーヒー(ハーブコーヒー)にはカフェインが含まれず、ダンデリオン(セイヨウタンポポ)やチコリの根を使ったものが代表的。",
+  "source": {
+   "page": 114,
+   "sourceUnitId": "t-coffee",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "代替コーヒーの原料として代表的な、セイヨウタンポポの英名は?",
+   "a": "ダンデリオン",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "コラム「人気の代替コーヒー（ハーブコーヒー）」の「ハーブの根をローストしたもの」「カフェインは含まれていない」「代表的なものにダンデリオン（セイヨウタンポポ）の根を利用したものや、チコリの根を利用したもの」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-bath",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ヘルス&ビューティー",
+  "category": "count",
+  "content": "ハーブバスの使用量はドライハーブで約20g(大さじ山盛り5杯程度)、フレッシュはひとつかみ程度。",
+  "source": {
+   "page": 115,
+   "sourceUnitId": "l-bath",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハーブバスに使うドライハーブの量の目安は?",
+   "a": "約20g",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "ハーブバス使用量の「ドライハーブの場合…約20g（大さじ山盛り5杯程度）」「フレッシュハーブの場合…ひとつかみ程度」と一致（数値含む）。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-youth",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ヘルス&ビューティー",
+  "category": "spice",
+  "content": "ローズマリーは「若返りのハーブ」といわれ、美肌作用が期待されている。",
+  "source": {
+   "page": 115,
+   "sourceUnitId": "l-youth",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「若返りのハーブ」といわれるハーブは?",
+   "a": "ローズマリー",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "「ローズマリーは「若返りのハーブ」といわれ、美肌作用が期待されている」と一致。原文の留保表現をそのまま保持し、効能の断定への強化なし。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-skin",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ヘルス&ビューティー",
+  "category": "spice",
+  "content": "化粧水のハーブ選びの例:乾燥肌〜普通肌はラベンダーやジャーマンカモミール、普通肌〜脂性肌はゼラニウム、脂性肌はローズマリーやジュニパーベリー。",
+  "source": {
+   "page": 115,
+   "sourceUnitId": "l-skin",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "脂性肌向けの化粧水に向くハーブの例を1つ挙げよ。",
+   "a": "ローズマリー",
+   "alt": [
+    "ジュニパーベリー"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch11",
+   "reason": "化粧水の肌タイプ別ハーブ選び表（乾燥肌〜普通肌=ラベンダー、ジャーマンカモミール／普通肌〜脂性肌=ゼラニウム／脂性肌=ローズマリー、ジュニパーベリー）と全行一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-lotion",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ヘルス&ビューティー",
+  "category": "count",
+  "content": "手作り化粧水は自家用のみとし、冷蔵室で保管して4〜5日で使い切る。",
+  "source": {
+   "page": 116,
+   "sourceUnitId": "l-lotion",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "手作り化粧水は冷蔵保管で何日で使い切る?",
+   "a": "4〜5日",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "手作り化粧水のレシピ注記「作った化粧水は自家用のみで使い、冷蔵室で保管し、4〜5日で使い切る」と一致（数値含む）。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-hungarian",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ヘルス&ビューティー",
+  "category": "term",
+  "content": "14世紀頃、ハンガリー王妃にローズマリーなどで作った化粧水が献上され、健康と若々しさを取り戻したという逸話から「ハンガリアンウォーター」と呼ばれる。",
+  "source": {
+   "page": 116,
+   "sourceUnitId": "l-hungarian",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハンガリー王妃の逸話で知られる、ローズマリーなどで作った化粧水の名は?",
+   "a": "ハンガリアンウォーター",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "コラム「若返りのハーブ!?『ハンガリアンウォーター』」の逸話（14世紀頃、ハンガリー王妃にローズマリーなどで作られた化粧水が献上され、健康が回復し若々しい肌がよみがえった）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-gargle",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ヘルス&ビューティー",
+  "category": "spice",
+  "content": "うがい液にはチモールを含むタイムやミントがおすすめで、濃いめのハーブティーを冷まして使い、その日のうちに使い切る。",
+  "source": {
+   "page": 116,
+   "sourceUnitId": "l-gargle",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "抗菌作用が強いといわれる成分チモールを含み、うがい液に向くハーブは?",
+   "a": "タイム",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「自家製うがい液もハーブで」の「濃いめに煮出したハーブティーをそのまま冷まして使います」「うがい液はその日のうちに使い切る」、おすすめのタイム（抗菌作用が強いといわれる成分「チモール」を含む）・ミントと一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-aromabath",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハウスキーピング",
+  "category": "term",
+  "content": "精油を使って香りを空間に漂わせて楽しむことを芳香浴という。",
+  "source": {
+   "page": 117,
+   "sourceUnitId": "l-aromabath",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "精油の香りを空間に漂わせて楽しむことを何という?",
+   "a": "芳香浴",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「芳香浴 精油を利用」の「精油を使って香りを空間に漂わせて楽しむことを芳香浴といいます」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-spray",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハウスキーピング",
+  "category": "food",
+  "content": "ルームスプレーは無水エタノール5mlに精油20滴以下を混ぜ、精製水45mlを加えて作る。",
+  "source": {
+   "page": 117,
+   "sourceUnitId": "l-spray",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ルームスプレーで、精油を最初に混ぜる液体は?",
+   "a": "無水エタノール",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「ルームフレッシュナー（ルームスプレー）」の手順（無水エタノール5mℓに好みの精油20滴以下をたらして混ぜ、精製水45mℓを加える）と一致（数値含む）。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-oil",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "精油",
+  "category": "term",
+  "content": "精油(エッセンシャルオイル)は植物から抽出した芳香成分を高濃度に含む天然素材で、それを生かしたものがアロマテラピー(芳香療法)。口に入れない、肌に直接使わない、火気に注意する。",
+  "source": {
+   "page": 118,
+   "sourceUnitId": "l-oil",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "精油の香りと作用を生かしたものを何という?",
+   "a": "アロマテラピー",
+   "alt": [
+    "芳香療法"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "コラム「精油（エッセンシャルオイル）について」の定義（植物から抽出した芳香成分を高濃度に含有した天然素材）と「これを生かしたものが『アロマテラピー』。芳香療法と訳され」、注意事項（絶対に口に入れない／肌に直接使用しない／火気に注意）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-rice",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "暮らしの知恵",
+  "category": "spice",
+  "content": "米びつに唐辛子(2〜3本)やローレル(3〜4枚)を入れておくと虫がつかないとされる。",
+  "source": {
+   "page": 118,
+   "sourceUnitId": "l-rice",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "米びつに入れて虫よけにするとされるスパイス・ハーブを1つ挙げよ。",
+   "a": "唐辛子",
+   "alt": [
+    "ローレル"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「食品保存に」の「米びつに唐辛子（2〜3本）やローレル（3〜4枚）を入れておくと虫がつかないとされます」と一致（数値・留保表現含む）。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-closet",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "暮らしの知恵",
+  "category": "misc",
+  "content": "クローゼットにラベンダー・シナモン・ローレル・セージなどを入れると防虫効果が期待できる。",
+  "source": {
+   "page": 118,
+   "sourceUnitId": "l-closet",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「食器棚やクローゼットに」の「クローゼットにラベンダー、シナモン、ローレル、セージなどを入れておくと…防虫効果が期待できます」と一致（品目・留保表現含む）",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-sachet",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハンドメイド",
+  "category": "term",
+  "content": "サシェはフランス語で「香り袋」のこと。",
+  "source": {
+   "page": 119,
+   "sourceUnitId": "l-sachet",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フランス語で「香り袋」を意味する言葉は?",
+   "a": "サシェ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch12",
+   "reason": "「Handmade 1 サシェ」の「フランス語で『香り袋』のこと」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-sachet-deodor",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハンドメイド",
+  "category": "spice",
+  "content": "消臭用サシェにはペパーミント・クローブ・タイム、リフレッシュ用にはローズマリー・レモングラス・山椒、リラックス用にはラベンダー・ローズ・ジャーマンカモミールが向く。",
+  "source": {
+   "page": 120,
+   "sourceUnitId": "l-sachet-deodor",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "リラックス用のサシェに向くハーブを1つ挙げよ。",
+   "a": "ラベンダー",
+   "alt": [
+    "ローズ",
+    "ジャーマンカモミール"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「サシェにおすすめのスパイス＆ハーブ」の用途別3区分（消臭=ペパーミント・クローブ・タイム／リフレッシュ=ローズマリー・レモングラス・山椒／リラックス=ラベンダー・ローズ・ジャーマンカモミール）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-pomander",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハンドメイド",
+  "category": "spice",
+  "content": "ポマンダーは「香り玉」の意味。フルーツポマンダーは柑橘にクローブを刺し、シナモンパウダーをまぶして作る。高温多湿の夏はカビやすいので秋〜春に作る。",
+  "source": {
+   "page": 120,
+   "sourceUnitId": "l-pomander",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フルーツポマンダーで、オレンジに刺すスパイスは?",
+   "a": "クローブ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「フルーツポマンダー」: ポマンダーは「香り玉」の意味、オレンジなど柑橘系の果物にクローブを刺しパウダースパイス（シナモン）をまぶす、注意「高温多湿の夏場に作ると乾燥中にカビやすいので、秋から春の製作がおすすめ」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-pomander-mean",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハンドメイド",
+  "category": "term",
+  "content": "ポマンダーは「香り玉」を意味する。",
+  "source": {
+   "page": 120,
+   "sourceUnitId": "l-pomander-mean",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「ポマンダー」の意味は?",
+   "a": "香り玉",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「ポマンダーとは『香り玉』の意味」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "l-tussie",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "ハンドメイド",
+  "category": "term",
+  "content": "タッジーマッジーはイギリス伝統のハーブ入りの小さな花束で、19世紀ビクトリア朝時代に花言葉とともに流行し、「語るブーケ」「言葉の花束」と呼ばれた。",
+  "source": {
+   "page": 121,
+   "sourceUnitId": "l-tussie",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ビクトリア朝時代に流行した、「語るブーケ」とも呼ばれるハーブ入りの花束は?",
+   "a": "タッジーマッジー",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "コラム「タッジーマッジーってどんなもの？」: イギリス伝統のハーブの入った小さな花束、19世紀のビクトリア朝時代に花言葉とともに流行し「語るブーケ」「言葉の花束」と呼ばれた、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-timing",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "timing",
+  "content": "定植の時期は春(4月下旬以降)か秋(9月下旬〜10月上旬)が適する。耐寒性のない一年草(バジルなど)は春植えが基本。",
+  "source": {
+   "page": 122,
+   "sourceUnitId": "g-timing",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "バジルなど耐寒性のない一年草のハーブの定植は、春と秋のどちらが基本?",
+   "a": "春",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「定植の時期」: 春（遅霜の心配がなくなる4月下旬以降）・秋（9月下旬〜10月上旬）が目安、バジルなどの一年草で耐寒性のないハーブは春の定植が基本、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-annual",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "term",
+  "content": "発芽から開花・結実・枯死までが1年未満の植物を一年草、毎年茎や葉を伸ばすものを多年草、一年中地上部が枯れないものを常緑植物という。",
+  "source": {
+   "page": 122,
+   "sourceUnitId": "g-annual",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "一年中、地上部が枯れない植物を何という?",
+   "a": "常緑植物",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "一年草（発芽してから開花、結実、枯死するまでのサイクルが1年未満の植物）・多年草（毎年、茎や葉を伸ばすもの）・常緑植物（一年中、地上部が枯れない植物）の定義と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-seedling",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "misc",
+  "content": "健全な苗の選び方:葉や茎につやがある、間延びしていない、根づまりや根腐れを起こしていない。",
+  "source": {
+   "page": 123,
+   "sourceUnitId": "g-seedling",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「苗を選ぶポイント」3点（葉や茎につやがあるもの／葉や茎が間延びしていないもの／根づまりや根腐れを起こしていないもの）と一致（draftQa なし）",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-soil",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "term",
+  "content": "ハーブ栽培には弱アルカリ性・通気性がある・排水性と保水性をあわせ持つ土が適するとされる。",
+  "source": {
+   "page": 123,
+   "sourceUnitId": "g-soil",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "一般的にハーブの培養土に適するとされる酸度は?",
+   "a": "弱アルカリ性",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「培養土」: 一般的にハーブの培養には「弱アルカリ性」「通気性がある」「排水性と保水性をあわせ持つ」特徴の土が適している、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-soil-blend",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "term",
+  "content": "ベースの土は赤玉土(水はけ・通気性)と腐葉土(養分・通気性)。プラスする土はバーミキュライト(軽量化・水はけ)とピートモス(保水性、ただし酸性なので酸度調整済みのもの)。",
+  "source": {
+   "page": 123,
+   "sourceUnitId": "g-soil-blend",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "保水性をよくするが酸性のため、酸度調整済みのものを使う土は?",
+   "a": "ピートモス",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch13",
+   "reason": "「ブレンドする土」: ベース=赤玉土（水はけ・通気性）・腐葉土（養分・通気性）、プラス=バーミキュライト（軽量化・水はけ）・ピートモス（保水性、ただし酸性なので酸度が調整されているものを用いる）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-pot",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "term",
+  "content": "素焼き鉢は通気性がよいが夏は乾燥しやすく、プラスチック鉢は軽いが蒸れやすい。苗の根元が鉢の縁から2cm程度下になるよう植える。",
+  "source": {
+   "page": 124,
+   "sourceUnitId": "g-pot",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "通気性はよいが夏は乾燥しやすい鉢の素材は?",
+   "a": "素焼き",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「容器」: 素焼き製=通気性（水はけ）はよいが夏は乾燥しやすい／プラスチック製=軽いが通気性が悪くて蒸れやすい、と植えつけ手順「苗の根元が鉢の縁から2cm程度下がったところにくるように調整する」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-temp",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "temp",
+  "content": "ハーブの適温はだいたい15〜25度。肥料は定植後、育ち始めてから2〜3週間に一度が目安。",
+  "source": {
+   "page": 125,
+   "sourceUnitId": "g-temp",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "多くのハーブの適温は?",
+   "a": "15〜25度",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「温度」=ハーブによって適温に差はあるが、だいたい15〜25度／「肥料やり」=定植後ハーブが育ち始めてからは、2〜3週間に一度を目安に肥料を与える、と一致（数値2点含む）。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-water",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "timing",
+  "content": "水やりは土の表面が乾いてから、鉢底から流れ出すほどたっぷりと、午前中に与えるのが基本。",
+  "source": {
+   "page": 125,
+   "sourceUnitId": "g-water",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハーブの水やりは1日のいつ行うのが基本?",
+   "a": "午前中",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「水やり」の基本3点（土の表面が乾いてから与える／鉢底から水が流れ出すほどたっぷりと／午前中に）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-dry",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "term",
+  "content": "乾燥を好むのはローズマリー・タイム・セージなど、湿潤を好むのはバジル・チャービル・パセリなど。",
+  "source": {
+   "page": 125,
+   "sourceUnitId": "g-dry",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "乾燥と湿潤のうち、バジルが好むのは?",
+   "a": "湿潤",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「ハーブの個性に合わせて」: 乾燥を好むハーブ（ローズマリー、タイムなど／ローズマリー、セージなど）と湿潤を好むハーブ（バジルなど／チャービル、パセリなど）の分類と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-pinch",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "term",
+  "content": "剪定は枝や茎の一部を取り除くこと、摘芯は枝先の中心を切り取って脇から新芽を出させること。",
+  "source": {
+   "page": 126,
+   "sourceUnitId": "g-pinch",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "枝先の中心を切り取って脇から新芽を出させることを何という?",
+   "a": "摘芯",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「剪定・摘芯」: 剪定=枝や茎の一部を取り除くこと、摘芯=枝先の中心を切り取り、その脇から新芽を出させること、の定義2点と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-harvest-dry",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "timing",
+  "content": "ドライにする場合は、最も香りが強くなる開花直前の収穫がおすすめ。",
+  "source": {
+   "page": 126,
+   "sourceUnitId": "g-harvest-dry",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ドライにするハーブの収穫に適した時期は?",
+   "a": "開花直前",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「ハーブを収穫する［時期］」=ドライにする場合は、最も香りが強くなる開花直前（花が咲き始める頃）の収穫がおすすめ、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-harvest-lam",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "method",
+  "content": "シソ科の草本性ハーブ(バジル・オレガノ・ミントなど)は脇芽のある節の上でカットして収穫する。",
+  "source": {
+   "page": 126,
+   "sourceUnitId": "g-harvest-lam",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": null,
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「［収穫方法］」=シソ科に属するハーブのうち、草本性のハーブ（バジル、オレガノ、ミント、セージ、レモンバームなど）は脇芽のある節の上でカットして収穫、と一致（単位は例示を3種に絞った要約）。draftQa はなし",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-harvest-woody",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "term",
+  "content": "シソ科の木本性ハーブ(ローズマリー・ラベンダー・タイムなど)は枝を間引くように収穫する。",
+  "source": {
+   "page": 127,
+   "sourceUnitId": "g-harvest-woody",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ローズマリーやラベンダーのように茎が木質化するハーブを何性という?",
+   "a": "木本性",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "シソ科の木本性のハーブ（茎が木質化するローズマリー、ラベンダー、タイムなど）は使用する分だけ枝を間引くように収穫する、と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-harvest-api",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "method",
+  "content": "セリ科の大部分のハーブは内側から新芽が出るので、中心部を残して外側の葉から収穫する。",
+  "source": {
+   "page": 127,
+   "sourceUnitId": "g-harvest-api",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "セリ科ハーブの葉は、内側と外側のどちらから収穫する?",
+   "a": "外側",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "セリ科に属する大部分のハーブは内側から新芽が出るので、中心部は残して外側の葉から収穫する、と一致（単位は例示を省略した要約）。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "g-propagate",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "栽培",
+  "category": "method",
+  "content": "ハーブをふやす方法は、種をまく・株分け・挿し木の3つ。挿し木は1カ月ほどで根づく。",
+  "source": {
+   "page": 127,
+   "sourceUnitId": "g-propagate",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハーブをふやす3つの方法は、種まき・株分けと何?",
+   "a": "挿し木",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch14",
+   "reason": "「ハーブをふやす（増殖）」の3つの方法（種をまく／株分けする／挿し木）と挿し木「1ヵ月ほどで根づく」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "m-holistic",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "健康",
+  "category": "term",
+  "content": "多くの伝統医学は人を「全体」としてとらえるホリスティックな視点に基づく。",
+  "source": {
+   "page": 128,
+   "sourceUnitId": "m-holistic",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "人を「全体」としてとらえる考え方を何という?",
+   "a": "ホリスティック",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "「伝統医学とスパイス＆ハーブ」: 「ホリスティックな視点――人を『全体』としてとらえる考え方――に基づいています」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "m-ayurveda",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "健康",
+  "category": "term",
+  "content": "インドの伝統医学アーユルヴェーダは、体の機能をヴァータ・ピッタ・カパの3要素(ドーシャ)でとらえる。",
+  "source": {
+   "page": 128,
+   "sourceUnitId": "m-ayurveda",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "アーユルヴェーダで体の機能をとらえる3要素を総称して何という?",
+   "a": "ドーシャ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "「インドの伝統医学『アーユルヴェーダ』」: 「人間の体の機能を『ヴァータ』『ピッタ』『カパ』の3要素（ドーシャ）でとらえ」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "m-ayur-3",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "健康",
+  "category": "term",
+  "content": "ドーシャの3要素はヴァータ・ピッタ・カパである。",
+  "source": {
+   "page": 128,
+   "sourceUnitId": "m-ayur-3",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ドーシャの3要素は、ヴァータ・ピッタと何?",
+   "a": "カパ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "ドーシャの3要素はヴァータ・ピッタ・カパで、p.128 本文と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "m-tulsi",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "健康",
+  "category": "spice",
+  "content": "アーユルヴェーダでホーリーバジルのインド現地名はトゥラシー(トゥルシー)。",
+  "source": {
+   "page": 128,
+   "sourceUnitId": "m-tulsi",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ホーリーバジルのインド現地名は?",
+   "a": "トゥラシー",
+   "alt": [
+    "トゥルシー"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "表「アーユルヴェーダでよく使われるスパイスやハーブの一例」: ホーリーバジルの別名（インド現地名）は「トゥラシー、トゥルシー」で一致。q/a（a=トゥラシー、alt=トゥルシー）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "m-haldi",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "健康",
+  "category": "spice",
+  "content": "インド現地名で、コリアンダーシードはダニヤー、クミンはジーラ、ターメリックはハルディ。",
+  "source": {
+   "page": 128,
+   "sourceUnitId": "m-haldi",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ターメリックのインド現地名は?",
+   "a": "ハルディ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "同表: コリアンダー（シード）=ダニヤー、クミン=ジーラ、ターメリック=ハルディの3対応が一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "m-china",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "健康",
+  "category": "book",
+  "content": "中国医学は陰陽五行説に基づき、韓国では韓医学、日本では漢方として定着した。古典薬草書は『神農本草経』。",
+  "source": {
+   "page": 129,
+   "sourceUnitId": "m-china",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "中医学の古典薬草書の名は?",
+   "a": "神農本草経",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "「中国の伝統医学」: 陰陽五行説に基づいて体系化、韓国では「韓医学」、日本では「漢方」として定着、中医学の古典薬草書『神農本草経』と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "m-nikuzuku",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "健康",
+  "category": "spice",
+  "content": "漢方名で、ナツメッグは肉豆蔲、シナモンは桂皮、ペパーミントは薄荷。",
+  "source": {
+   "page": 129,
+   "sourceUnitId": "m-nikuzuku",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ナツメッグの漢方名は?",
+   "a": "肉豆蔲",
+   "alt": [
+    "肉豆蔻",
+    "にくずく"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "誤りを修正して昇格: 漢方名の漢字が原文と異なっていた（修正前 content「肉豆蔻」/ a「肉豆蔻」→ 原文 p.129 の表「漢方でよく使われるスパイスやハーブの一例」の表記「肉豆蔲（にくずく）」に修正。拡大読解で確認。修正前の表記は許容回答として alt に保持）。シナモン=桂皮、ペパーミント=薄荷の対応は原文どおり",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "m-yakkiho",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch3",
+  "sectionTitle": "健康",
+  "category": "term",
+  "content": "食品としてのスパイス・ハーブと漢方薬は薬機法により明確に区別されている。",
+  "source": {
+   "page": 129,
+   "sourceUnitId": "m-yakkiho",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "食品としてのスパイスと漢方薬を区別している法律の略称は?",
+   "a": "薬機法",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch15",
+   "reason": "p.129 脚注: 「食品としてのスパイス・ハーブと、漢方薬のそれらは薬機法（『医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律』）により明確に区別されています」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ }
+]

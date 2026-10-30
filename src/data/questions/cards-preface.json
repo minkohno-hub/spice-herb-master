@@ -1,0 +1,1731 @@
+[
+ {
+  "id": "card-b-def",
+  "front": "スパイス&ハーブの定義の一例で、両者は何という植物の一部とされる?",
+  "back": "芳香性植物",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-def"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9587",
+    "bookPage": 12,
+    "locationNote": "本書 p.12（原本画像 IMG_9587.PNG）。原文照合 batch23 で照合済みの知識単位 b-def から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-def-split",
+  "front": "スパイスとハーブを区分する一般的な基準は?",
+  "back": "利用する部位",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-def-split"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9587",
+    "bookPage": 12,
+    "locationNote": "本書 p.12（原本画像 IMG_9587.PNG）。原文照合 batch23 で照合済みの知識単位 b-def-split から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-fresh",
+  "front": "生で使用するスパイスやハーブの形態を何という?",
+  "back": "フレッシュ",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-fresh"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-fresh から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-kinome",
+  "front": "「木の芽」とは何の若葉?",
+  "back": "山椒",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-kinome"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-kinome から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-dry",
+  "front": "乾燥させ、保存がきくスパイスやハーブの形態を何という?",
+  "back": "ドライ",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-dry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-dry から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-single",
+  "front": "混合されていない1種類のスパイスまたはハーブを何という?",
+  "back": "単品",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-single"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-single から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-whole",
+  "front": "原形のまま乾燥させた、香りがとびにくい形状を何という?",
+  "back": "ホール",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-whole"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-whole から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-coarse",
+  "front": "ホールを粗めに粉砕し粒子を整えた形状を何という?",
+  "back": "あらびき",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-coarse"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-coarse から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-powder",
+  "front": "ホール・あらびき・パウダーのうち、最も香りがとびやすいのは?",
+  "back": "パウダー",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-powder"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-powder から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-mix",
+  "front": "複数のスパイスやハーブを混ぜたものを何という?",
+  "back": "ミックス",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-mix"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-mix から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-synergy",
+  "front": "スパイスを混ぜて香りの幅・厚み・深みが生まれる効果を何という?",
+  "back": "シナジー効果",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-synergy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-synergy から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-masking",
+  "front": "混ぜたスパイスが互いのとがった香りを消し合い丸みのある香りになる効果を何という?",
+  "back": "マスキング効果",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-masking"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9588",
+    "bookPage": 13,
+    "locationNote": "本書 p.13（原本画像 IMG_9588.PNG）。原文照合 batch23 で照合済みの知識単位 b-masking から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-part-rare",
+  "front": "サフランが利用する部位は?",
+  "back": "雌しべ",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-part-rare"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-rare から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-part-clove",
+  "front": "クローブが利用する部位は?",
+  "back": "蕾",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-part-clove"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-clove から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-part-coriander",
+  "front": "1つの植物で種子と葉の両方を使う例として挙げられるスパイスは?",
+  "back": "コリアンダー",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-part-coriander"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-coriander から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-part-leaf",
+  "front": "利用部位「葉」に分類されるものはどれ? (例:タイム)",
+  "back": "葉",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-part-leaf"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-leaf から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-part-seed",
+  "front": "コリアンダー、フェンネル、アニス、クミンが分類される利用部位は?",
+  "back": "種子",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-part-seed"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-seed から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-part-fruit",
+  "front": "こしょう、唐辛子、オールスパイスが分類される利用部位は?",
+  "back": "果実",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-part-fruit"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-fruit から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-part-root",
+  "front": "ジンジャー、わさび、ターメリックが分類される利用部位は?",
+  "back": "根・根茎",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-part-root"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-root から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-part-bark",
+  "front": "シナモンが分類される利用部位は?",
+  "back": "樹皮",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-part-bark"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-part-bark から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-seed-fruit",
+  "front": "種子グループに入るコリアンダーやクミンは、植物学上は何にあたる?",
+  "back": "果実",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-seed-fruit"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-seed-fruit から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-garlic-bulb",
+  "front": "ガーリックの利用部位は植物学的には何と呼ばれる?",
+  "back": "鱗茎",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-garlic-bulb"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9589",
+    "bookPage": 14,
+    "locationNote": "本書 p.14（原本画像 IMG_9589.PNG）。原文照合 batch24 で照合済みの知識単位 b-garlic-bulb から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-taxonomy",
+  "front": "植物学の分類単位を大きい順に並べると「界・門・綱・目・?・属・種」の?に入るのは?",
+  "back": "科",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-taxonomy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-taxonomy から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-family-meaning",
+  "front": "スパイスの種類を特定できる分類単位は(科、属・種のどれ)?",
+  "back": "属・種",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-family-meaning"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-family-meaning から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-lamiaceae",
+  "front": "葉が対生し爽やかな香りを持つものが多く、バジルやミントが属する科は?",
+  "back": "シソ科",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-lamiaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-lamiaceae から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-apiaceae",
+  "front": "移植を嫌うものが多く、収穫は外側の葉からとされる科は?",
+  "back": "セリ科",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-apiaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-apiaceae から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-zingiberaceae",
+  "front": "ジンジャーやターメリックが属し、スーッとする香りのものが多い科は?",
+  "back": "ショウガ科",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-zingiberaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-zingiberaceae から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-brassicaceae",
+  "front": "わさびやマスタードが属し、辛みを持つものが多い科は?",
+  "back": "アブラナ科",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "classification",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-brassicaceae"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9590",
+    "bookPage": 15,
+    "locationNote": "本書 p.15（原本画像 IMG_9590.PNG）。原文照合 batch24 で照合済みの知識単位 b-brassicaceae から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-fresh-keep",
+  "front": "フレッシュハーブを保存する場所として適しているのは?",
+  "back": "冷蔵庫の野菜室",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-fresh-keep"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-fresh-keep から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-fresh-points",
+  "front": "フレッシュハーブ保存の3つのポイントは?",
+  "back": "低温・適度な湿気・傷めない",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-fresh-points"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-fresh-points から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-fresh-stand",
+  "front": "フレッシュハーブを野菜室で保存する理想的な置き方は?",
+  "back": "立てて保存する",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-fresh-stand"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-fresh-stand から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-basil-temp",
+  "front": "バジルの保存温度の目安は?",
+  "back": "10〜15度",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-basil-temp"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-basil-temp から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-temp-5-7",
+  "front": "オレガノやディルなど多くのフレッシュハーブの保存温度の目安は?",
+  "back": "5〜7度",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-temp-5-7"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-temp-5-7 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-temp-7-10",
+  "front": "タイム、レモングラス、ローズマリーの保存温度の目安は?",
+  "back": "7〜10度",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-temp-7-10"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-temp-7-10 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-dry-enemy",
+  "front": "ドライスパイスの保存における3つの大敵は?",
+  "back": "光・熱・湿気",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-dry-enemy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-dry-enemy から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-dry-life",
+  "front": "ドライスパイスの「生命」とされる2つの要素は?",
+  "back": "香りと色",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-dry-life"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-dry-life から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-condensation",
+  "front": "冷蔵室から出したスパイスびんの蓋を開けたままにすると起こる恐れがあることは?",
+  "back": "結露",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-condensation"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-condensation から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-b-cooking-care",
+  "front": "調理中、スパイスの容器から鍋の上で直接振りかけてよいか?",
+  "back": "しない",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "b-cooking-care"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-cooking-care から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-egypt-mummy",
+  "front": "古代エジプトのミイラ作りで、防腐作用を期待して遺体に詰められたスパイスの代表例は?",
+  "back": "シナモン",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-egypt-mummy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-egypt-mummy から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-egypt-pyramid",
+  "front": "ピラミッド建設の労働者に体力をつけるため大量に使われたとされるスパイスは?",
+  "back": "ガーリック",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-egypt-pyramid"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-egypt-pyramid から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-china-2500bc",
+  "front": "スパイスを加えた香酒や香飯が神に供えられていたのは、紀元前何年頃の中国?",
+  "back": "紀元前2500年頃",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-china-2500bc"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-china-2500bc から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-han-clove",
+  "front": "漢の時代、官吏が天子に奏上する際に口臭消しとして口に含んだスパイスは?",
+  "back": "クローブ",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-han-clove"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-han-clove から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-incense",
+  "front": "山椒・クローブ・シナモンなどが寺院や教会で火にくべられた目的は?",
+  "back": "空気を清める香煙",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-incense"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-incense から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-hippocrates",
+  "front": "紀元前400年頃に400種のハーブ処方をまとめ「医学の父」と呼ばれる人物は?",
+  "back": "ヒポクラテス",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-hippocrates"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9581",
+    "bookPage": 6,
+    "locationNote": "本書 p.6（原本画像 IMG_9581.PNG）。原文照合 batch22 で照合済みの知識単位 h-hippocrates から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-dioscorides",
+  "front": "『マテリア・メディカ(薬物誌)』を著したローマ時代の医師は?",
+  "back": "ディオスコリデス",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-dioscorides"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-dioscorides から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-materia-600",
+  "front": "『マテリア・メディカ』に掲載された植物は何種に及ぶ?",
+  "back": "600種",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-materia-600"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-materia-600 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-ancient-uses",
+  "front": "古代のスパイスやハーブの用途として挙げられるものを答えよ(薬事以外に3つ)。",
+  "back": "祭事・媚薬・保存剤",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-ancient-uses"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-ancient-uses から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-medieval-price",
+  "front": "中世ヨーロッパでスパイスは何に匹敵する価値を持ったとされる?",
+  "back": "金銀",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-medieval-price"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-medieval-price から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-constantinople",
+  "front": "スパイス交易で繁栄した都市コンスタンティノープルの現在の名称は?",
+  "back": "イスタンブール",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-constantinople"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-constantinople から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-venice",
+  "front": "中世ヨーロッパでスパイス需要が高まった主な用途は?",
+  "back": "肉の保存",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-venice"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-venice から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-marco-polo",
+  "front": "マルコ・ポーロが東洋で見聞したことをまとめた旅行記の名称は?",
+  "back": "世界の記述",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-marco-polo"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-marco-polo から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-marco-polo-year",
+  "front": "『世界の記述』(『東方見聞録』)が発表された年は?",
+  "back": "1299年",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-marco-polo-year"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-marco-polo-year から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-moluccas",
+  "front": "「香料諸島」とも呼ばれる諸島は?",
+  "back": "モルッカ諸島",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-moluccas"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-moluccas から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-age-discovery",
+  "front": "マルコ・ポーロの書物が幕開けを促したとされる時代は?",
+  "back": "大航海時代",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-age-discovery"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-age-discovery から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-columbus",
+  "front": "コロンブスが発見した、アメリカ大陸固有のスパイスは?",
+  "back": "唐辛子",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-columbus"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-columbus から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-columbus-queen",
+  "front": "コロンブスの航海を支援したスペインの女王は?",
+  "back": "イサベル女王",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-columbus-queen"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-columbus-queen から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-columbus-4",
+  "front": "コロンブスは1504年までに何回大西洋を渡った?",
+  "back": "4回",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-columbus-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-columbus-4 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-gama",
+  "front": "1498年にカリカットまでの航海に成功したポルトガル人は?",
+  "back": "バスコ・ダ・ガマ",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-gama"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-gama から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-calicut",
+  "front": "カリカットの現在の名称は?",
+  "back": "コーリコード",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-calicut"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-calicut から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-magellan",
+  "front": "マゼランが戦死した場所は?",
+  "back": "フィリピン",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-magellan"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-magellan から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-magellan-year",
+  "front": "マゼラン海峡が発見された年は?",
+  "back": "1520年",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-magellan-year"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-magellan-year から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-magellan-spices",
+  "front": "マゼラン船団がモルッカ諸島から持ち帰ったスパイスによって莫大な利益を得た国は?",
+  "back": "スペイン",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-magellan-spices"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-magellan-spices から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-decline",
+  "front": "大航海時代以降、衰退した交易都市・地域を1つ挙げよ。",
+  "back": "ヴェネツィア",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-decline"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-decline から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-spice-war-cause",
+  "front": "こしょう・クローブ・ナツメッグの争奪戦が東南アジアで発展した争いを何と呼ぶ?",
+  "back": "スパイス戦争",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-spice-war-cause"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-spice-war-cause から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-british-eic",
+  "front": "イギリス東インド会社が設立された年は?",
+  "back": "1600年",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-british-eic"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-british-eic から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-dutch-eic",
+  "front": "オランダ東インド会社が設立された年は?",
+  "back": "1602年",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-dutch-eic"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-dutch-eic から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-spice-war-4",
+  "front": "スパイス戦争で植民地を争ったのは何カ国?",
+  "back": "4カ国",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-spice-war-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-spice-war-4 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-dutch-rule",
+  "front": "スパイス戦争の結果、モルッカ諸島の大部分を統制下においた国は?",
+  "back": "オランダ",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-dutch-rule"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-dutch-rule から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-france-theft",
+  "front": "1770年頃、フランスがクローブなどの苗木を移植したフランス島の別名は?",
+  "back": "マダガスカル島",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-france-theft"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-france-theft から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-france-method",
+  "front": "オランダの牙城を崩すためにフランスがとった方法は?",
+  "back": "盗木",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-france-method"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-france-method から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-penang",
+  "front": "イギリスがクローブやナツメッグを移植した島は?",
+  "back": "ペナン島",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-penang"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-penang から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-h-war-end",
+  "front": "スパイス戦争が自然消滅的に終焉を迎えたのはいつ頃?",
+  "back": "19世紀中頃",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "h-war-end"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-war-end から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-yakumi",
+  "front": "日本でスパイスを大量に使う必要がなかった理由は?",
+  "back": "新鮮な食材が手に入りやすかったため",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-yakumi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-yakumi から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-fish",
+  "front": "日本で魚介に使われてきた代表的なスパイス(わさび、山椒、しょうが以外)は?",
+  "back": "ねぎ",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-fish"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-fish から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-hot-ratio",
+  "front": "世界のスパイスのうち辛みを持つものの割合は?",
+  "back": "1割未満",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-hot-ratio"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-hot-ratio から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-kojiki",
+  "front": "712年に編纂され、「はじかみ」やにんにくが登場する歴史書は?",
+  "back": "古事記",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-kojiki"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-kojiki から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-hajikami",
+  "front": "『古事記』に登場する「はじかみ」がさすものは?",
+  "back": "しょうが、もしくは山椒",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-hajikami"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-hajikami から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-shosoin-doc",
+  "front": "『正倉院文書』に記された「胡麻子」とは何のこと?",
+  "back": "ごま",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-shosoin-doc"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shosoin-doc から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-engishiki",
+  "front": "にんにくの栽培法が記された平安初期の法律書は?",
+  "back": "延喜式",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-engishiki"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-engishiki から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-shomu",
+  "front": "こしょうなど熱帯原産のスパイスが既に日本に上陸していたのは、どの天皇の時代?",
+  "back": "聖武天皇",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-shomu"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shomu から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-shosoin-treasure",
+  "front": "正倉院宝物の「桂心」とはどのスパイス?",
+  "back": "シナモン",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-shosoin-treasure"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shosoin-treasure から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-shosoin-chouko",
+  "front": "正倉院宝物の「丁香」とはどのスパイス?",
+  "back": "クローブ",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-shosoin-chouko"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shosoin-chouko から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-todaiji",
+  "front": "正倉院のある寺は?",
+  "back": "東大寺",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-todaiji"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-todaiji から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-nara",
+  "front": "スパイスが日本に渡来したのは何時代?",
+  "back": "奈良時代",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-nara"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-nara から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-shichimi",
+  "front": "七味唐辛子が江戸で初めて売り出されたとされる年は?",
+  "back": "1625年",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-shichimi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-shichimi から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-shichimi-origin",
+  "front": "七味唐辛子のヒントになったといわれるものは?",
+  "back": "漢方薬の配合",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-shichimi-origin"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-shichimi-origin から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-curry-1872",
+  "front": "日本で初めてカレーの作り方が紹介された料理書を1つ挙げよ。",
+  "back": "西洋料理指南",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-curry-1872"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-curry-1872 から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-curry-year",
+  "front": "日本で初めてカレーの作り方が料理書に載ったのは西暦何年?",
+  "back": "1872年",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-curry-year"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-curry-year から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-curry-route",
+  "front": "カレーはどの国を経由して西洋料理として日本に紹介された?",
+  "back": "イギリス",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-curry-route"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-curry-route から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-prewar",
+  "front": "戦前からカレー粉のほかにスパイスが使われ消費されていた調味料は?",
+  "back": "ウスターソース",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-prewar"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-prewar から生成"
+   }
+  ]
+ },
+ {
+  "id": "card-j-1990s",
+  "front": "家庭でスパイスやハーブがポピュラーになった食の流行が起きたのは何年代以降?",
+  "back": "1990年代",
+  "reverseOf": null,
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "status": "verified",
+  "knowledgeUnitIds": [
+   "j-1990s"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-1990s から生成"
+   }
+  ]
+ }
+]

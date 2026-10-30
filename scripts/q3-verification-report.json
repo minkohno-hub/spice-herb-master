@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "verifiedBy": "scripts/verify-q3-questions.mjs",
+    "proseUnitsTotal": 86,
+    "manualEntries": 86,
+    "checkedOk": 86,
+    "failures": 0,
+    "uncoveredUnits": [],
+    "existingFormalQuestionsNonQ3": 1133,
+    "siblingAnswerMatches": 5
+  },
+  "checked": [
+    {
+      "unitId": "anise-1",
+      "supportPage": 52,
+      "ok": true
+    },
+    {
+      "unitId": "anise-3",
+      "supportPage": 52,
+      "ok": true
+    },
+    {
+      "unitId": "allspice-2",
+      "supportPage": 53,
+      "ok": true
+    },
+    {
+      "unitId": "oregano-1",
+      "supportPage": 54,
+      "ok": true
+    },
+    {
+      "unitId": "cardamom-2",
+      "supportPage": 56,
+      "ok": true
+    },
+    {
+      "unitId": "cardamom-3",
+      "supportPage": 56,
+      "ok": true
+    },
+    {
+      "unitId": "caraway-3",
+      "supportPage": 57,
+      "ok": true
+    },
+    {
+      "unitId": "gardenia-2",
+      "supportPage": 58,
+      "ok": true
+    },
+    {
+      "unitId": "cumin-1",
+      "supportPage": 59,
+      "ok": true
+    },
+    {
+      "unitId": "cumin-2",
+      "supportPage": 59,
+      "ok": true
+    },
+    {
+      "unitId": "clove-1",
+      "supportPage": 60,
+      "ok": true
+    },
+    {
+      "unitId": "clove-2",
+      "supportPage": 60,
+      "ok": true
+    },
+    {
+      "unitId": "pepper-1",
+      "supportPage": 61,
+      "ok": true
+    },
+    {
+      "unitId": "pepper-7",
+      "supportPage": 62,
+      "ok": true
+    },
+    {
+      "unitId": "coriander-1",
+      "supportPage": 63,
+      "ok": true
+    },
+    {
+      "unitId": "saffron-1",
+      "supportPage": 64,
+      "ok": true
+    },
+    {
+      "unitId": "sansho-2",
+      "supportPage": 65,
+      "ok": true
+    },
+    {
+      "unitId": "sansho-5",
+      "supportPage": 66,
+      "ok": true
+    },
+    {
+      "unitId": "sansho-9",
+      "supportPage": 66,
+      "ok": true
+    },
+    {
+      "unitId": "cinnamon-2",
+      "supportPage": 67,
+      "ok": true
+    },
+    {
+      "unitId": "cinnamon-3",
+      "supportPage": 67,
+      "ok": true
+    },
+    {
+      "unitId": "ginger-3",
+      "supportPage": 68,
+      "ok": true
+    },
+    {
+      "unitId": "staranise-1",
+      "supportPage": 69,
+      "ok": true
+    },
+    {
+      "unitId": "staranise-2",
+      "supportPage": 69,
+      "ok": true
+    },
+    {
+      "unitId": "staranise-4",
+      "supportPage": 69,
+      "ok": true
+    },
+    {
+      "unitId": "sage-1",
+      "supportPage": 70,
+      "ok": true
+    },
+    {
+      "unitId": "turmeric-1",
+      "supportPage": 70,
+      "ok": true
+    },
+    {
+      "unitId": "turmeric-4",
+      "supportPage": 70,
+      "ok": true
+    },
+    {
+      "unitId": "thyme-5",
+      "supportPage": 71,
+      "ok": true
+    },
+    {
+      "unitId": "tarragon-2",
+      "supportPage": 72,
+      "ok": true
+    },
+    {
+      "unitId": "tarragon-4",
+      "supportPage": 72,
+      "ok": true
+    },
+    {
+      "unitId": "chervil-2",
+      "supportPage": 73,
+      "ok": true
+    },
+    {
+      "unitId": "chives-2",
+      "supportPage": 74,
+      "ok": true
+    },
+    {
+      "unitId": "dill-1",
+      "supportPage": 75,
+      "ok": true
+    },
+    {
+      "unitId": "dill-3",
+      "supportPage": 75,
+      "ok": true
+    },
+    {
+      "unitId": "chili-3",
+      "supportPage": 76,
+      "ok": true
+    },
+    {
+      "unitId": "chili-4",
+      "supportPage": 76,
+      "ok": true
+    },
+    {
+      "unitId": "paste-2",
+      "supportPage": 77,
+      "ok": true
+    },
+    {
+      "unitId": "paste-6",
+      "supportPage": 77,
+      "ok": true
+    },
+    {
+      "unitId": "paste-8",
+      "supportPage": 77,
+      "ok": true
+    },
+    {
+      "unitId": "nutmeg-3",
+      "supportPage": 78,
+      "ok": true
+    },
+    {
+      "unitId": "nutmeg-5",
+      "supportPage": 78,
+      "ok": true
+    },
+    {
+      "unitId": "basil-1",
+      "supportPage": 79,
+      "ok": true
+    },
+    {
+      "unitId": "basil-2",
+      "supportPage": 79,
+      "ok": true
+    },
+    {
+      "unitId": "parsley-2",
+      "supportPage": 80,
+      "ok": true
+    },
+    {
+      "unitId": "parsley-3",
+      "supportPage": 80,
+      "ok": true
+    },
+    {
+      "unitId": "parsley-4",
+      "supportPage": 80,
+      "ok": true
+    },
+    {
+      "unitId": "vanilla-3",
+      "supportPage": 81,
+      "ok": true
+    },
+    {
+      "unitId": "paprika-1",
+      "supportPage": 82,
+      "ok": true
+    },
+    {
+      "unitId": "paprika-3",
+      "supportPage": 82,
+      "ok": true
+    },
+    {
+      "unitId": "paprika-5",
+      "supportPage": 82,
+      "ok": true
+    },
+    {
+      "unitId": "fennel-1",
+      "supportPage": 83,
+      "ok": true
+    },
+    {
+      "unitId": "fennel-2",
+      "supportPage": 83,
+      "ok": true
+    },
+    {
+      "unitId": "horseradish-1",
+      "supportPage": 84,
+      "ok": true
+    },
+    {
+      "unitId": "marjoram-2",
+      "supportPage": 85,
+      "ok": true
+    },
+    {
+      "unitId": "mustard-4",
+      "supportPage": 86,
+      "ok": true
+    },
+    {
+      "unitId": "mustard-5",
+      "supportPage": 86,
+      "ok": true
+    },
+    {
+      "unitId": "lemongrass-2",
+      "supportPage": 89,
+      "ok": true
+    },
+    {
+      "unitId": "rosemary-1",
+      "supportPage": 90,
+      "ok": true
+    },
+    {
+      "unitId": "rosemary-2",
+      "supportPage": 90,
+      "ok": true
+    },
+    {
+      "unitId": "laurel-2",
+      "supportPage": 91,
+      "ok": true
+    },
+    {
+      "unitId": "laurel-4",
+      "supportPage": 91,
+      "ok": true
+    },
+    {
+      "unitId": "wasabi-4",
+      "supportPage": 92,
+      "ok": true
+    },
+    {
+      "unitId": "hdp-1",
+      "supportPage": 93,
+      "ok": true
+    },
+    {
+      "unitId": "cp-2",
+      "supportPage": 95,
+      "ok": true
+    },
+    {
+      "unitId": "cp-4",
+      "supportPage": 95,
+      "ok": true
+    },
+    {
+      "unitId": "shichimi-3",
+      "supportPage": 96,
+      "ok": true
+    },
+    {
+      "unitId": "shichimi-4",
+      "supportPage": 96,
+      "ok": true
+    },
+    {
+      "unitId": "chp-1",
+      "supportPage": 97,
+      "ok": true
+    },
+    {
+      "unitId": "asa-2",
+      "supportPage": 98,
+      "ok": true
+    },
+    {
+      "unitId": "kaf-2",
+      "supportPage": 98,
+      "ok": true
+    },
+    {
+      "unitId": "shi-1",
+      "supportPage": 102,
+      "ok": true
+    },
+    {
+      "unitId": "tad-2",
+      "supportPage": 104,
+      "ok": true
+    },
+    {
+      "unitId": "nig-1",
+      "supportPage": 105,
+      "ok": true
+    },
+    {
+      "unitId": "mit-1",
+      "supportPage": 106,
+      "ok": true
+    },
+    {
+      "unitId": "lp-2",
+      "supportPage": 107,
+      "ok": true
+    },
+    {
+      "unitId": "za-1",
+      "supportPage": 107,
+      "ok": true
+    },
+    {
+      "unitId": "duk-1",
+      "supportPage": 108,
+      "ok": true
+    },
+    {
+      "unitId": "chm-1",
+      "supportPage": 108,
+      "ok": true
+    },
+    {
+      "unitId": "e-level1",
+      "supportPage": 137,
+      "ok": true
+    },
+    {
+      "unitId": "e-scope1",
+      "supportPage": 137,
+      "ok": true
+    },
+    {
+      "unitId": "t-caution",
+      "supportPage": 110,
+      "ok": true
+    },
+    {
+      "unitId": "t-summer",
+      "supportPage": 112,
+      "ok": true
+    },
+    {
+      "unitId": "l-closet",
+      "supportPage": 118,
+      "ok": true
+    },
+    {
+      "unitId": "g-seedling",
+      "supportPage": 123,
+      "ok": true
+    },
+    {
+      "unitId": "g-harvest-lam",
+      "supportPage": 126,
+      "ok": true
+    }
+  ],
+  "failures": [],
+  "siblingAnswerMatches": [
+    {
+      "q3UnitId": "mustard-5",
+      "q3Answer": "マスタード",
+      "existingId": "qti-rev-mustard-profile",
+      "existingUnitId": "mustard-profile",
+      "existingPrompt": "別名「からし」と呼ばれるスパイス＆ハーブの名称を答えよ。"
+    },
+    {
+      "q3UnitId": "nig-1",
+      "q3Answer": "カロンジ",
+      "existingId": "qti-alias-nigella-profile",
+      "existingUnitId": "nigella-profile",
+      "existingPrompt": "ニゲラの別名を1つ答えよ。"
+    },
+    {
+      "q3UnitId": "lp-2",
+      "q3Answer": "ロングペッパー",
+      "existingId": "q1-lp-1",
+      "existingUnitId": "lp-1",
+      "existingPrompt": "沖縄で「島こしょう」とも呼ばれるコショウ科のスパイスは?"
+    },
+    {
+      "q3UnitId": "lp-2",
+      "q3Answer": "ロングペッパー",
+      "existingId": "q4-lp-1",
+      "existingUnitId": "lp-1",
+      "existingPrompt": "沖縄で「島こしょう」とも呼ばれるコショウ科のスパイスは?"
+    },
+    {
+      "q3UnitId": "lp-2",
+      "q3Answer": "ロングペッパー",
+      "existingId": "qti-rev-longpepper-profile",
+      "existingUnitId": "longpepper-profile",
+      "existingPrompt": "別名「ヒハツ」と呼ばれるスパイス＆ハーブの名称を答えよ。"
+    }
+  ]
+}

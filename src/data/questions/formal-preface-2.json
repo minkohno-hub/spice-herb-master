@@ -1,0 +1,2721 @@
+[
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-ancient-uses"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-ancient-uses から生成"
+   }
+  ],
+  "id": "q4-h-ancient-uses",
+  "format": "single-choice",
+  "prompt": "古代のスパイスやハーブの用途として挙げられるものを答えよ(薬事以外に3つ)。",
+  "choices": [
+   "空気を清める香煙",
+   "大航海時代",
+   "祭事・媚薬・保存剤",
+   "肉の保存"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "スパイスやハーブは古代から薬事・祭事・媚薬・保存剤などの目的で使われ、貴重品とされた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-medieval-price"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-medieval-price から生成"
+   }
+  ],
+  "id": "q1-h-medieval-price",
+  "format": "one-answer",
+  "prompt": "中世ヨーロッパでスパイスは何に匹敵する価値を持ったとされる?",
+  "acceptedAnswers": [
+   "金銀"
+  ],
+  "explanation": "中世、スパイスは東洋から陸路・海路で運ばれたが、盗賊や災害の危険と長い輸送時間のため高騰し、ヨーロッパでは金銀に匹敵する価値を持った。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-medieval-price"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-medieval-price から生成"
+   }
+  ],
+  "id": "q4-h-medieval-price",
+  "format": "single-choice",
+  "prompt": "中世ヨーロッパでスパイスは何に匹敵する価値を持ったとされる?",
+  "choices": [
+   "大航海時代",
+   "スパイス戦争",
+   "盗木",
+   "金銀"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "中世、スパイスは東洋から陸路・海路で運ばれたが、盗賊や災害の危険と長い輸送時間のため高騰し、ヨーロッパでは金銀に匹敵する価値を持った。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-constantinople"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-constantinople から生成"
+   }
+  ],
+  "id": "q1-h-constantinople",
+  "format": "one-answer",
+  "prompt": "スパイス交易で繁栄した都市コンスタンティノープルの現在の名称は?",
+  "acceptedAnswers": [
+   "イスタンブール"
+  ],
+  "explanation": "交易の中継地アラビア半島を中心にアラブ商人が往来し、コンスタンティノープル(現イスタンブール)などが繁栄した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-constantinople"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-constantinople から生成"
+   }
+  ],
+  "id": "q4-h-constantinople",
+  "format": "single-choice",
+  "prompt": "スパイス交易で繁栄した都市コンスタンティノープルの現在の名称は?",
+  "choices": [
+   "モルッカ諸島",
+   "コーリコード",
+   "ペナン島",
+   "イスタンブール"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "交易の中継地アラビア半島を中心にアラブ商人が往来し、コンスタンティノープル(現イスタンブール)などが繁栄した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-venice"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-venice から生成"
+   }
+  ],
+  "id": "q1-h-venice",
+  "format": "one-answer",
+  "prompt": "中世ヨーロッパでスパイス需要が高まった主な用途は?",
+  "acceptedAnswers": [
+   "肉の保存"
+  ],
+  "explanation": "中世ヨーロッパで肉の保存用の需要が高まり、ヴェネツィアなど地中海沿岸都市が東方物資の中継地として繁栄した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-venice"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-venice から生成"
+   }
+  ],
+  "id": "q4-h-venice",
+  "format": "single-choice",
+  "prompt": "中世ヨーロッパでスパイス需要が高まった主な用途は?",
+  "choices": [
+   "空気を清める香煙",
+   "大航海時代",
+   "祭事・媚薬・保存剤",
+   "肉の保存"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "中世ヨーロッパで肉の保存用の需要が高まり、ヴェネツィアなど地中海沿岸都市が東方物資の中継地として繁栄した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-marco-polo"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-marco-polo から生成"
+   }
+  ],
+  "id": "q1-h-marco-polo",
+  "format": "one-answer",
+  "prompt": "マルコ・ポーロが東洋で見聞したことをまとめた旅行記の名称は?",
+  "acceptedAnswers": [
+   "世界の記述",
+   "東方見聞録"
+  ],
+  "explanation": "1299年、マルコ・ポーロの旅行記『世界の記述』(『東方見聞録』)が発表され、香料諸島やジパングの黄金の宮殿などがヨーロッパに強い印象を与えた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-marco-polo"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-marco-polo から生成"
+   }
+  ],
+  "id": "q4-h-marco-polo",
+  "format": "single-choice",
+  "prompt": "マルコ・ポーロが東洋で見聞したことをまとめた旅行記の名称は?",
+  "choices": [
+   "西洋料理指南",
+   "世界の記述",
+   "古事記",
+   "延喜式"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "1299年、マルコ・ポーロの旅行記『世界の記述』(『東方見聞録』)が発表され、香料諸島やジパングの黄金の宮殿などがヨーロッパに強い印象を与えた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-marco-polo-year"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-marco-polo-year から生成"
+   }
+  ],
+  "id": "q1-h-marco-polo-year",
+  "format": "one-answer",
+  "prompt": "『世界の記述』(『東方見聞録』)が発表された年は?",
+  "acceptedAnswers": [
+   "1299年"
+  ],
+  "explanation": "『世界の記述』が発表されたのは1299年である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-marco-polo-year"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-marco-polo-year から生成"
+   }
+  ],
+  "id": "q4-h-marco-polo-year",
+  "format": "single-choice",
+  "prompt": "『世界の記述』(『東方見聞録』)が発表された年は?",
+  "choices": [
+   "紀元前2500年頃",
+   "1602年",
+   "1600年",
+   "1299年"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "『世界の記述』が発表されたのは1299年である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-moluccas"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-moluccas から生成"
+   }
+  ],
+  "id": "q1-h-moluccas",
+  "format": "one-answer",
+  "prompt": "「香料諸島」とも呼ばれる諸島は?",
+  "acceptedAnswers": [
+   "モルッカ諸島",
+   "マルク諸島"
+  ],
+  "explanation": "香料諸島とも呼ばれるのはモルッカ諸島(マルク諸島)である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-moluccas"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-moluccas から生成"
+   }
+  ],
+  "id": "q4-h-moluccas",
+  "format": "single-choice",
+  "prompt": "「香料諸島」とも呼ばれる諸島は?",
+  "choices": [
+   "イスタンブール",
+   "ペナン島",
+   "モルッカ諸島",
+   "ヴェネツィア"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "香料諸島とも呼ばれるのはモルッカ諸島(マルク諸島)である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-age-discovery"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-age-discovery から生成"
+   }
+  ],
+  "id": "q1-h-age-discovery",
+  "format": "one-answer",
+  "prompt": "マルコ・ポーロの書物が幕開けを促したとされる時代は?",
+  "acceptedAnswers": [
+   "大航海時代"
+  ],
+  "explanation": "『世界の記述』は東洋への好奇心をかきたて、200年以上にわたる大航海時代の幕開けを促すきっかけとなった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-age-discovery"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-age-discovery から生成"
+   }
+  ],
+  "id": "q4-h-age-discovery",
+  "format": "single-choice",
+  "prompt": "マルコ・ポーロの書物が幕開けを促したとされる時代は?",
+  "choices": [
+   "スパイス戦争",
+   "大航海時代",
+   "盗木",
+   "金銀"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "『世界の記述』は東洋への好奇心をかきたて、200年以上にわたる大航海時代の幕開けを促すきっかけとなった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-columbus"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-columbus から生成"
+   }
+  ],
+  "id": "q1-h-columbus",
+  "format": "one-answer",
+  "prompt": "コロンブスが発見した、アメリカ大陸固有のスパイスは?",
+  "acceptedAnswers": [
+   "唐辛子"
+  ],
+  "explanation": "1492年、コロンブスはスペインのイサベル女王の支援で大西洋を渡り、東洋には到達できなかったが、アメリカ大陸固有のスパイスである唐辛子を発見した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-columbus"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-columbus から生成"
+   }
+  ],
+  "id": "q4-h-columbus",
+  "format": "single-choice",
+  "prompt": "コロンブスが発見した、アメリカ大陸固有のスパイスは?",
+  "choices": [
+   "シナモン",
+   "唐辛子",
+   "ガーリック",
+   "クローブ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "1492年、コロンブスはスペインのイサベル女王の支援で大西洋を渡り、東洋には到達できなかったが、アメリカ大陸固有のスパイスである唐辛子を発見した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-columbus-queen"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-columbus-queen から生成"
+   }
+  ],
+  "id": "q1-h-columbus-queen",
+  "format": "one-answer",
+  "prompt": "コロンブスの航海を支援したスペインの女王は?",
+  "acceptedAnswers": [
+   "イサベル女王"
+  ],
+  "explanation": "コロンブスの航海を支援したのはスペインのイサベル女王である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-columbus-queen"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-columbus-queen から生成"
+   }
+  ],
+  "id": "q4-h-columbus-queen",
+  "format": "single-choice",
+  "prompt": "コロンブスの航海を支援したスペインの女王は?",
+  "choices": [
+   "ヒポクラテス",
+   "ディオスコリデス",
+   "バスコ・ダ・ガマ",
+   "イサベル女王"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "コロンブスの航海を支援したのはスペインのイサベル女王である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-columbus-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-columbus-4 から生成"
+   }
+  ],
+  "id": "q1-h-columbus-4",
+  "format": "one-answer",
+  "prompt": "コロンブスは1504年までに何回大西洋を渡った?",
+  "acceptedAnswers": [
+   "4回"
+  ],
+  "explanation": "コロンブスは1504年までに4回大西洋を渡った。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-columbus-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-columbus-4 から生成"
+   }
+  ],
+  "id": "q4-h-columbus-4",
+  "format": "single-choice",
+  "prompt": "コロンブスは1504年までに何回大西洋を渡った?",
+  "choices": [
+   "4回",
+   "1割未満",
+   "4カ国",
+   "600種"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "コロンブスは1504年までに4回大西洋を渡った。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-gama"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-gama から生成"
+   }
+  ],
+  "id": "q1-h-gama",
+  "format": "one-answer",
+  "prompt": "1498年にカリカットまでの航海に成功したポルトガル人は?",
+  "acceptedAnswers": [
+   "バスコ・ダ・ガマ"
+  ],
+  "explanation": "1498年、ポルトガルのバスコ・ダ・ガマがインド西海岸(マラバル海岸)のカリカット(現コーリコード)への航海に成功し、こしょうやシナモンを安価に入手する道を開いた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-gama"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-gama から生成"
+   }
+  ],
+  "id": "q4-h-gama",
+  "format": "single-choice",
+  "prompt": "1498年にカリカットまでの航海に成功したポルトガル人は?",
+  "choices": [
+   "イサベル女王",
+   "ヒポクラテス",
+   "ディオスコリデス",
+   "バスコ・ダ・ガマ"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "1498年、ポルトガルのバスコ・ダ・ガマがインド西海岸(マラバル海岸)のカリカット(現コーリコード)への航海に成功し、こしょうやシナモンを安価に入手する道を開いた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-calicut"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-calicut から生成"
+   }
+  ],
+  "id": "q1-h-calicut",
+  "format": "one-answer",
+  "prompt": "カリカットの現在の名称は?",
+  "acceptedAnswers": [
+   "コーリコード"
+  ],
+  "explanation": "バスコ・ダ・ガマが到達したカリカットの現在の名称はコーリコードである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-calicut"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-calicut から生成"
+   }
+  ],
+  "id": "q4-h-calicut",
+  "format": "single-choice",
+  "prompt": "カリカットの現在の名称は?",
+  "choices": [
+   "コーリコード",
+   "フィリピン",
+   "イスタンブール",
+   "ヴェネツィア"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "バスコ・ダ・ガマが到達したカリカットの現在の名称はコーリコードである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-magellan"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-magellan から生成"
+   }
+  ],
+  "id": "q1-h-magellan",
+  "format": "one-answer",
+  "prompt": "マゼランが戦死した場所は?",
+  "acceptedAnswers": [
+   "フィリピン"
+  ],
+  "explanation": "1520年、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し、太平洋横断に成功した。マゼランはフィリピンで戦死したが、船団はモルッカ諸島に到達した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-magellan"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-magellan から生成"
+   }
+  ],
+  "id": "q4-h-magellan",
+  "format": "single-choice",
+  "prompt": "マゼランが戦死した場所は?",
+  "choices": [
+   "ヴェネツィア",
+   "フィリピン",
+   "ペナン島",
+   "コーリコード"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "1520年、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し、太平洋横断に成功した。マゼランはフィリピンで戦死したが、船団はモルッカ諸島に到達した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-magellan-year"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-magellan-year から生成"
+   }
+  ],
+  "id": "q1-h-magellan-year",
+  "format": "one-answer",
+  "prompt": "マゼラン海峡が発見された年は?",
+  "acceptedAnswers": [
+   "1520年"
+  ],
+  "explanation": "マゼラン海峡が発見されたのは1520年である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-magellan-year"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-magellan-year から生成"
+   }
+  ],
+  "id": "q4-h-magellan-year",
+  "format": "single-choice",
+  "prompt": "マゼラン海峡が発見された年は?",
+  "choices": [
+   "1520年",
+   "1299年",
+   "1602年",
+   "1600年"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "マゼラン海峡が発見されたのは1520年である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-magellan-spices"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-magellan-spices から生成"
+   }
+  ],
+  "id": "q1-h-magellan-spices",
+  "format": "one-answer",
+  "prompt": "マゼラン船団がモルッカ諸島から持ち帰ったスパイスによって莫大な利益を得た国は?",
+  "acceptedAnswers": [
+   "スペイン"
+  ],
+  "explanation": "マゼランの船団が持ち帰ったクローブ・ナツメッグ・シナモン・メースなどは、スペインに莫大な利益をもたらした。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-magellan-spices"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-magellan-spices から生成"
+   }
+  ],
+  "id": "q4-h-magellan-spices",
+  "format": "single-choice",
+  "prompt": "マゼラン船団がモルッカ諸島から持ち帰ったスパイスによって莫大な利益を得た国は?",
+  "choices": [
+   "唐辛子",
+   "オランダ",
+   "スペイン",
+   "イギリス"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "マゼランの船団が持ち帰ったクローブ・ナツメッグ・シナモン・メースなどは、スペインに莫大な利益をもたらした。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-decline"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-decline から生成"
+   }
+  ],
+  "id": "q1-h-decline",
+  "format": "one-answer",
+  "prompt": "大航海時代以降、衰退した交易都市・地域を1つ挙げよ。",
+  "acceptedAnswers": [
+   "ヴェネツィア",
+   "アラビア半島",
+   "ペルシア"
+  ],
+  "explanation": "海洋交易路の開拓により、スパイス交易でにぎわったアラビア半島・ヴェネツィア・ペルシアの街は衰退していった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-decline"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-decline から生成"
+   }
+  ],
+  "id": "q4-h-decline",
+  "format": "single-choice",
+  "prompt": "大航海時代以降、衰退した交易都市・地域を1つ挙げよ。",
+  "choices": [
+   "ヴェネツィア",
+   "モルッカ諸島",
+   "コーリコード",
+   "フィリピン"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "海洋交易路の開拓により、スパイス交易でにぎわったアラビア半島・ヴェネツィア・ペルシアの街は衰退していった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-spice-war-cause"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-spice-war-cause から生成"
+   }
+  ],
+  "id": "q1-h-spice-war-cause",
+  "format": "one-answer",
+  "prompt": "こしょう・クローブ・ナツメッグの争奪戦が東南アジアで発展した争いを何と呼ぶ?",
+  "acceptedAnswers": [
+   "スパイス戦争"
+  ],
+  "explanation": "ヨーロッパの気候では栽培が困難なこしょう・クローブ・ナツメッグをめぐる争奪戦が激化し、東南アジアでの「スパイス戦争」に発展した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-spice-war-cause"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-spice-war-cause から生成"
+   }
+  ],
+  "id": "q4-h-spice-war-cause",
+  "format": "single-choice",
+  "prompt": "こしょう・クローブ・ナツメッグの争奪戦が東南アジアで発展した争いを何と呼ぶ?",
+  "choices": [
+   "金銀",
+   "スパイス戦争",
+   "盗木",
+   "大航海時代"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ヨーロッパの気候では栽培が困難なこしょう・クローブ・ナツメッグをめぐる争奪戦が激化し、東南アジアでの「スパイス戦争」に発展した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-british-eic"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-british-eic から生成"
+   }
+  ],
+  "id": "q1-h-british-eic",
+  "format": "one-answer",
+  "prompt": "イギリス東インド会社が設立された年は?",
+  "acceptedAnswers": [
+   "1600年"
+  ],
+  "explanation": "16世紀後半にイギリスがスペイン・ポルトガルの領海へ進出し、1600年にイギリス東インド会社を設立した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-british-eic"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-british-eic から生成"
+   }
+  ],
+  "id": "q4-h-british-eic",
+  "format": "single-choice",
+  "prompt": "イギリス東インド会社が設立された年は?",
+  "choices": [
+   "紀元前2500年頃",
+   "19世紀中頃",
+   "1602年",
+   "1600年"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "16世紀後半にイギリスがスペイン・ポルトガルの領海へ進出し、1600年にイギリス東インド会社を設立した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-dutch-eic"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-dutch-eic から生成"
+   }
+  ],
+  "id": "q1-h-dutch-eic",
+  "format": "one-answer",
+  "prompt": "オランダ東インド会社が設立された年は?",
+  "acceptedAnswers": [
+   "1602年"
+  ],
+  "explanation": "1602年にオランダ東インド会社が設立され、ポルトガルが主導していたクローブ貿易の支配権を奪った。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-dutch-eic"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-dutch-eic から生成"
+   }
+  ],
+  "id": "q4-h-dutch-eic",
+  "format": "single-choice",
+  "prompt": "オランダ東インド会社が設立された年は?",
+  "choices": [
+   "19世紀中頃",
+   "1602年",
+   "1600年",
+   "1299年"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "1602年にオランダ東インド会社が設立され、ポルトガルが主導していたクローブ貿易の支配権を奪った。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-spice-war-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-spice-war-4 から生成"
+   }
+  ],
+  "id": "q1-h-spice-war-4",
+  "format": "one-answer",
+  "prompt": "スパイス戦争で植民地を争ったのは何カ国?",
+  "acceptedAnswers": [
+   "4カ国"
+  ],
+  "explanation": "スパイス戦争は、ポルトガル・スペイン・オランダ・イギリスの4カ国による植民地争奪の乱戦である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-spice-war-4"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-spice-war-4 から生成"
+   }
+  ],
+  "id": "q4-h-spice-war-4",
+  "format": "single-choice",
+  "prompt": "スパイス戦争で植民地を争ったのは何カ国?",
+  "choices": [
+   "1割未満",
+   "4回",
+   "600種",
+   "4カ国"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "スパイス戦争は、ポルトガル・スペイン・オランダ・イギリスの4カ国による植民地争奪の乱戦である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-dutch-rule"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-dutch-rule から生成"
+   }
+  ],
+  "id": "q1-h-dutch-rule",
+  "format": "one-answer",
+  "prompt": "スパイス戦争の結果、モルッカ諸島の大部分を統制下においた国は?",
+  "acceptedAnswers": [
+   "オランダ"
+  ],
+  "explanation": "モルッカ諸島は一部を除きオランダの統制下に入り、18世紀までの2世紀近くオランダが繁栄した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-dutch-rule"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-dutch-rule から生成"
+   }
+  ],
+  "id": "q4-h-dutch-rule",
+  "format": "single-choice",
+  "prompt": "スパイス戦争の結果、モルッカ諸島の大部分を統制下においた国は?",
+  "choices": [
+   "スペイン",
+   "イギリス",
+   "オランダ",
+   "4カ国"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "モルッカ諸島は一部を除きオランダの統制下に入り、18世紀までの2世紀近くオランダが繁栄した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-france-theft"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-france-theft から生成"
+   }
+  ],
+  "id": "q1-h-france-theft",
+  "format": "one-answer",
+  "prompt": "1770年頃、フランスがクローブなどの苗木を移植したフランス島の別名は?",
+  "acceptedAnswers": [
+   "マダガスカル島"
+  ],
+  "explanation": "1770年頃、フランスはオランダの監視の隙を突いてクローブやナツメッグの苗木を持ち出し(盗木)、フランス島(マダガスカル島)に移植した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-france-theft"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-france-theft から生成"
+   }
+  ],
+  "id": "q4-h-france-theft",
+  "format": "single-choice",
+  "prompt": "1770年頃、フランスがクローブなどの苗木を移植したフランス島の別名は?",
+  "choices": [
+   "マダガスカル島",
+   "ヴェネツィア",
+   "フィリピン",
+   "ペナン島"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "1770年頃、フランスはオランダの監視の隙を突いてクローブやナツメッグの苗木を持ち出し(盗木)、フランス島(マダガスカル島)に移植した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-france-method"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-france-method から生成"
+   }
+  ],
+  "id": "q1-h-france-method",
+  "format": "one-answer",
+  "prompt": "オランダの牙城を崩すためにフランスがとった方法は?",
+  "acceptedAnswers": [
+   "盗木"
+  ],
+  "explanation": "オランダの牙城を崩したフランスが用いた方法は、正面からの戦いではなく盗木であった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-france-method"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-france-method から生成"
+   }
+  ],
+  "id": "q4-h-france-method",
+  "format": "single-choice",
+  "prompt": "オランダの牙城を崩すためにフランスがとった方法は?",
+  "choices": [
+   "大航海時代",
+   "盗木",
+   "スパイス戦争",
+   "金銀"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "オランダの牙城を崩したフランスが用いた方法は、正面からの戦いではなく盗木であった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-penang"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-penang から生成"
+   }
+  ],
+  "id": "q1-h-penang",
+  "format": "one-answer",
+  "prompt": "イギリスがクローブやナツメッグを移植した島は?",
+  "acceptedAnswers": [
+   "ペナン島"
+  ],
+  "explanation": "イギリスはクローブやナツメッグをペナン島に移植した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-penang"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-penang から生成"
+   }
+  ],
+  "id": "q4-h-penang",
+  "format": "single-choice",
+  "prompt": "イギリスがクローブやナツメッグを移植した島は?",
+  "choices": [
+   "マダガスカル島",
+   "ヴェネツィア",
+   "イスタンブール",
+   "ペナン島"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "イギリスはクローブやナツメッグをペナン島に移植した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-war-end"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-war-end から生成"
+   }
+  ],
+  "id": "q1-h-war-end",
+  "format": "one-answer",
+  "prompt": "スパイス戦争が自然消滅的に終焉を迎えたのはいつ頃?",
+  "acceptedAnswers": [
+   "19世紀中頃"
+  ],
+  "explanation": "栽培地が広がり、19世紀中頃には移植地での生産量が原産地を上回り、スパイス戦争は自然消滅的に終焉した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "h-war-end"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-war-end から生成"
+   }
+  ],
+  "id": "q4-h-war-end",
+  "format": "single-choice",
+  "prompt": "スパイス戦争が自然消滅的に終焉を迎えたのはいつ頃?",
+  "choices": [
+   "19世紀中頃",
+   "1602年",
+   "1600年",
+   "1299年"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "栽培地が広がり、19世紀中頃には移植地での生産量が原産地を上回り、スパイス戦争は自然消滅的に終焉した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-yakumi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-yakumi から生成"
+   }
+  ],
+  "id": "q1-j-yakumi",
+  "format": "one-answer",
+  "prompt": "日本でスパイスを大量に使う必要がなかった理由は?",
+  "acceptedAnswers": [
+   "新鮮な食材が手に入りやすかったため"
+  ],
+  "explanation": "日本では新鮮な海山の幸を得やすかったため、防腐や強い香りづけのためにスパイスを使う必要がなかった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-yakumi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-yakumi から生成"
+   }
+  ],
+  "id": "q4-j-yakumi",
+  "format": "single-choice",
+  "prompt": "日本でスパイスを大量に使う必要がなかった理由は?",
+  "choices": [
+   "しない",
+   "ウスターソース",
+   "漢方薬の配合",
+   "新鮮な食材が手に入りやすかったため"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "日本では新鮮な海山の幸を得やすかったため、防腐や強い香りづけのためにスパイスを使う必要がなかった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-fish"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-fish から生成"
+   }
+  ],
+  "id": "q1-j-fish",
+  "format": "one-answer",
+  "prompt": "日本で魚介に使われてきた代表的なスパイス(わさび、山椒、しょうが以外)は?",
+  "acceptedAnswers": [
+   "ねぎ"
+  ],
+  "explanation": "日本では魚介に使うスパイスが多く、代表はわさび・山椒・しょうが・ねぎなどで、隠し味や薬味として少量を添えた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-fish"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-fish から生成"
+   }
+  ],
+  "id": "q4-j-fish",
+  "format": "single-choice",
+  "prompt": "日本で魚介に使われてきた代表的なスパイス(わさび、山椒、しょうが以外)は?",
+  "choices": [
+   "クローブ",
+   "ごま",
+   "ねぎ",
+   "しょうが、もしくは山椒"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "日本では魚介に使うスパイスが多く、代表はわさび・山椒・しょうが・ねぎなどで、隠し味や薬味として少量を添えた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-hot-ratio"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-hot-ratio から生成"
+   }
+  ],
+  "id": "q1-j-hot-ratio",
+  "format": "one-answer",
+  "prompt": "世界のスパイスのうち辛みを持つものの割合は?",
+  "acceptedAnswers": [
+   "1割未満",
+   "1割もない"
+  ],
+  "explanation": "世界各国で使われるスパイスのうち、辛みを持つものは1割もない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-hot-ratio"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-hot-ratio から生成"
+   }
+  ],
+  "id": "q4-j-hot-ratio",
+  "format": "single-choice",
+  "prompt": "世界のスパイスのうち辛みを持つものの割合は?",
+  "choices": [
+   "600種",
+   "4回",
+   "1割未満",
+   "4カ国"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "世界各国で使われるスパイスのうち、辛みを持つものは1割もない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-kojiki"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-kojiki から生成"
+   }
+  ],
+  "id": "q1-j-kojiki",
+  "format": "one-answer",
+  "prompt": "712年に編纂され、「はじかみ」やにんにくが登場する歴史書は?",
+  "acceptedAnswers": [
+   "古事記"
+  ],
+  "explanation": "712年に編纂された『古事記』には、はじかみ(しょうが、または山椒)やにんにくが登場する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-kojiki"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-kojiki から生成"
+   }
+  ],
+  "id": "q4-j-kojiki",
+  "format": "single-choice",
+  "prompt": "712年に編纂され、「はじかみ」やにんにくが登場する歴史書は?",
+  "choices": [
+   "西洋料理指南",
+   "世界の記述",
+   "古事記",
+   "延喜式"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "712年に編纂された『古事記』には、はじかみ(しょうが、または山椒)やにんにくが登場する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-hajikami"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-hajikami から生成"
+   }
+  ],
+  "id": "q1-j-hajikami",
+  "format": "one-answer",
+  "prompt": "『古事記』に登場する「はじかみ」がさすものは?",
+  "acceptedAnswers": [
+   "しょうが、もしくは山椒",
+   "しょうが",
+   "山椒"
+  ],
+  "explanation": "『古事記』に登場する「はじかみ」は、しょうが、もしくは山椒をさす。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-hajikami"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-hajikami から生成"
+   }
+  ],
+  "id": "q4-j-hajikami",
+  "format": "single-choice",
+  "prompt": "『古事記』に登場する「はじかみ」がさすものは?",
+  "choices": [
+   "ごま",
+   "しょうが、もしくは山椒",
+   "クローブ",
+   "ねぎ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "『古事記』に登場する「はじかみ」は、しょうが、もしくは山椒をさす。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shosoin-doc"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shosoin-doc から生成"
+   }
+  ],
+  "id": "q1-j-shosoin-doc",
+  "format": "one-answer",
+  "prompt": "『正倉院文書』に記された「胡麻子」とは何のこと?",
+  "acceptedAnswers": [
+   "ごま"
+  ],
+  "explanation": "『正倉院文書』(734年頃)には胡麻子(ごま)が記されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shosoin-doc"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shosoin-doc から生成"
+   }
+  ],
+  "id": "q4-j-shosoin-doc",
+  "format": "single-choice",
+  "prompt": "『正倉院文書』に記された「胡麻子」とは何のこと?",
+  "choices": [
+   "しょうが、もしくは山椒",
+   "ねぎ",
+   "ごま",
+   "コリアンダー"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "『正倉院文書』(734年頃)には胡麻子(ごま)が記されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-engishiki"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-engishiki から生成"
+   }
+  ],
+  "id": "q1-j-engishiki",
+  "format": "one-answer",
+  "prompt": "にんにくの栽培法が記された平安初期の法律書は?",
+  "acceptedAnswers": [
+   "延喜式"
+  ],
+  "explanation": "平安初期の法律書『延喜式』(927年)には、にんにくの栽培法が記されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-engishiki"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-engishiki から生成"
+   }
+  ],
+  "id": "q4-j-engishiki",
+  "format": "single-choice",
+  "prompt": "にんにくの栽培法が記された平安初期の法律書は?",
+  "choices": [
+   "世界の記述",
+   "延喜式",
+   "西洋料理指南",
+   "古事記"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "平安初期の法律書『延喜式』(927年)には、にんにくの栽培法が記されている。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shomu"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shomu から生成"
+   }
+  ],
+  "id": "q1-j-shomu",
+  "format": "one-answer",
+  "prompt": "こしょうなど熱帯原産のスパイスが既に日本に上陸していたのは、どの天皇の時代?",
+  "acceptedAnswers": [
+   "聖武天皇"
+  ],
+  "explanation": "こしょうなど熱帯原産のスパイスは、聖武天皇の時代(724〜749年)にはすでに日本に上陸していた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shomu"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shomu から生成"
+   }
+  ],
+  "id": "q4-j-shomu",
+  "format": "single-choice",
+  "prompt": "こしょうなど熱帯原産のスパイスが既に日本に上陸していたのは、どの天皇の時代?",
+  "choices": [
+   "ディオスコリデス",
+   "バスコ・ダ・ガマ",
+   "聖武天皇",
+   "イサベル女王"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "こしょうなど熱帯原産のスパイスは、聖武天皇の時代(724〜749年)にはすでに日本に上陸していた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shosoin-treasure"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shosoin-treasure から生成"
+   }
+  ],
+  "id": "q1-j-shosoin-treasure",
+  "format": "one-answer",
+  "prompt": "正倉院宝物の「桂心」とはどのスパイス?",
+  "acceptedAnswers": [
+   "シナモン"
+  ],
+  "explanation": "正倉院宝物には、こしょうのほか、クローブ(丁香)、シナモン(桂心)が納められ、貴重な薬として渡来した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shosoin-treasure"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shosoin-treasure から生成"
+   }
+  ],
+  "id": "q4-j-shosoin-treasure",
+  "format": "single-choice",
+  "prompt": "正倉院宝物の「桂心」とはどのスパイス?",
+  "choices": [
+   "しょうが、もしくは山椒",
+   "シナモン",
+   "ごま",
+   "ねぎ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "正倉院宝物には、こしょうのほか、クローブ(丁香)、シナモン(桂心)が納められ、貴重な薬として渡来した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shosoin-chouko"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shosoin-chouko から生成"
+   }
+  ],
+  "id": "q1-j-shosoin-chouko",
+  "format": "one-answer",
+  "prompt": "正倉院宝物の「丁香」とはどのスパイス?",
+  "acceptedAnswers": [
+   "クローブ"
+  ],
+  "explanation": "正倉院宝物の「丁香」はクローブである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shosoin-chouko"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-shosoin-chouko から生成"
+   }
+  ],
+  "id": "q4-j-shosoin-chouko",
+  "format": "single-choice",
+  "prompt": "正倉院宝物の「丁香」とはどのスパイス?",
+  "choices": [
+   "しょうが、もしくは山椒",
+   "ねぎ",
+   "クローブ",
+   "ごま"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "正倉院宝物の「丁香」はクローブである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-todaiji"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-todaiji から生成"
+   }
+  ],
+  "id": "q1-j-todaiji",
+  "format": "one-answer",
+  "prompt": "正倉院のある寺は?",
+  "acceptedAnswers": [
+   "東大寺"
+  ],
+  "explanation": "正倉院のある奈良・東大寺は745年建立である(写真キャプション)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-todaiji"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-todaiji から生成"
+   }
+  ],
+  "id": "q4-j-todaiji",
+  "format": "single-choice",
+  "prompt": "正倉院のある寺は?",
+  "choices": [
+   "イスタンブール",
+   "東大寺",
+   "冷蔵庫の野菜室",
+   "マダガスカル島"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "正倉院のある奈良・東大寺は745年建立である(写真キャプション)。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-nara"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-nara から生成"
+   }
+  ],
+  "id": "q1-j-nara",
+  "format": "one-answer",
+  "prompt": "スパイスが日本に渡来したのは何時代?",
+  "acceptedAnswers": [
+   "奈良時代"
+  ],
+  "explanation": "スパイスが日本に渡来したのは奈良時代(8世紀)とされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-nara"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-nara から生成"
+   }
+  ],
+  "id": "q4-j-nara",
+  "format": "single-choice",
+  "prompt": "スパイスが日本に渡来したのは何時代?",
+  "choices": [
+   "古事記",
+   "新鮮な食材が手に入りやすかったため",
+   "ごま",
+   "奈良時代"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "スパイスが日本に渡来したのは奈良時代(8世紀)とされる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shichimi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-shichimi から生成"
+   }
+  ],
+  "id": "q1-j-shichimi",
+  "format": "one-answer",
+  "prompt": "七味唐辛子が江戸で初めて売り出されたとされる年は?",
+  "acceptedAnswers": [
+   "1625年",
+   "寛永2年"
+  ],
+  "explanation": "七味唐辛子は江戸時代初期の寛永2年(1625年)に江戸で売り出されたのが最初とされ、江戸時代後期には薬味として全国に広がった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shichimi"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-shichimi から生成"
+   }
+  ],
+  "id": "q4-j-shichimi",
+  "format": "single-choice",
+  "prompt": "七味唐辛子が江戸で初めて売り出されたとされる年は?",
+  "choices": [
+   "1872年",
+   "1625年",
+   "19世紀中頃",
+   "1990年代"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "七味唐辛子は江戸時代初期の寛永2年(1625年)に江戸で売り出されたのが最初とされ、江戸時代後期には薬味として全国に広がった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shichimi-origin"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-shichimi-origin から生成"
+   }
+  ],
+  "id": "q1-j-shichimi-origin",
+  "format": "one-answer",
+  "prompt": "七味唐辛子のヒントになったといわれるものは?",
+  "acceptedAnswers": [
+   "漢方薬の配合"
+  ],
+  "explanation": "七味唐辛子は漢方薬の配合がヒントになったとされ、唐辛子・山椒・陳皮・青のり・ごま・麻の実・けしの実など主に7種を混ぜた日本独自のミックススパイスである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-shichimi-origin"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-shichimi-origin から生成"
+   }
+  ],
+  "id": "q4-j-shichimi-origin",
+  "format": "single-choice",
+  "prompt": "七味唐辛子のヒントになったといわれるものは?",
+  "choices": [
+   "漢方薬の配合",
+   "しない",
+   "ウスターソース",
+   "新鮮な食材が手に入りやすかったため"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "七味唐辛子は漢方薬の配合がヒントになったとされ、唐辛子・山椒・陳皮・青のり・ごま・麻の実・けしの実など主に7種を混ぜた日本独自のミックススパイスである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-curry-1872"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-curry-1872 から生成"
+   }
+  ],
+  "id": "q1-j-curry-1872",
+  "format": "one-answer",
+  "prompt": "日本で初めてカレーの作り方が紹介された料理書を1つ挙げよ。",
+  "acceptedAnswers": [
+   "西洋料理指南",
+   "西洋料理通"
+  ],
+  "explanation": "明治5年(1872年)刊行の『西洋料理指南』や『西洋料理通』で初めてカレーの作り方が発表された。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-curry-1872"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-curry-1872 から生成"
+   }
+  ],
+  "id": "q4-j-curry-1872",
+  "format": "single-choice",
+  "prompt": "日本で初めてカレーの作り方が紹介された料理書を1つ挙げよ。",
+  "choices": [
+   "古事記",
+   "世界の記述",
+   "延喜式",
+   "西洋料理指南"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "明治5年(1872年)刊行の『西洋料理指南』や『西洋料理通』で初めてカレーの作り方が発表された。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-curry-year"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-curry-year から生成"
+   }
+  ],
+  "id": "q1-j-curry-year",
+  "format": "one-answer",
+  "prompt": "日本で初めてカレーの作り方が料理書に載ったのは西暦何年?",
+  "acceptedAnswers": [
+   "1872年",
+   "明治5年"
+  ],
+  "explanation": "日本で初めてカレーの作り方が料理書で紹介されたのは明治初期の1872年である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-curry-year"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-curry-year から生成"
+   }
+  ],
+  "id": "q4-j-curry-year",
+  "format": "single-choice",
+  "prompt": "日本で初めてカレーの作り方が料理書に載ったのは西暦何年?",
+  "choices": [
+   "1600年",
+   "1872年",
+   "1625年",
+   "1990年代"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "日本で初めてカレーの作り方が料理書で紹介されたのは明治初期の1872年である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-curry-route"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-curry-route から生成"
+   }
+  ],
+  "id": "q1-j-curry-route",
+  "format": "one-answer",
+  "prompt": "カレーはどの国を経由して西洋料理として日本に紹介された?",
+  "acceptedAnswers": [
+   "イギリス"
+  ],
+  "explanation": "インド料理のカレーはイギリスに高級インド料理として伝わり、西洋料理として日本に紹介され、ごはんにかける「カレーライス」が広まった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-curry-route"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-curry-route から生成"
+   }
+  ],
+  "id": "q4-j-curry-route",
+  "format": "single-choice",
+  "prompt": "カレーはどの国を経由して西洋料理として日本に紹介された?",
+  "choices": [
+   "スペイン",
+   "イギリス",
+   "1625年",
+   "オランダ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "インド料理のカレーはイギリスに高級インド料理として伝わり、西洋料理として日本に紹介され、ごはんにかける「カレーライス」が広まった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-prewar"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-prewar から生成"
+   }
+  ],
+  "id": "q1-j-prewar",
+  "format": "one-answer",
+  "prompt": "戦前からカレー粉のほかにスパイスが使われ消費されていた調味料は?",
+  "acceptedAnswers": [
+   "ウスターソース"
+  ],
+  "explanation": "クローブ・ナツメッグ・クミン・ターメリックなどは、カレー粉やウスターソースとして戦前から日本の食卓で消費されていた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-prewar"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-prewar から生成"
+   }
+  ],
+  "id": "q4-j-prewar",
+  "format": "single-choice",
+  "prompt": "戦前からカレー粉のほかにスパイスが使われ消費されていた調味料は?",
+  "choices": [
+   "新鮮な食材が手に入りやすかったため",
+   "漢方薬の配合",
+   "しない",
+   "ウスターソース"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "クローブ・ナツメッグ・クミン・ターメリックなどは、カレー粉やウスターソースとして戦前から日本の食卓で消費されていた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-1990s"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-1990s から生成"
+   }
+  ],
+  "id": "q1-j-1990s",
+  "format": "one-answer",
+  "prompt": "家庭でスパイスやハーブがポピュラーになった食の流行が起きたのは何年代以降?",
+  "acceptedAnswers": [
+   "1990年代"
+  ],
+  "explanation": "1990年代以降のイタリアン・エスニック・激辛ブームや海外旅行の普及などで、家庭のスパイスやハーブがポピュラーになった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "j-1990s"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9586",
+    "bookPage": 11,
+    "locationNote": "本書 p.11（原本画像 IMG_9586.PNG）。原文照合 batch23 で照合済みの知識単位 j-1990s から生成"
+   }
+  ],
+  "id": "q4-j-1990s",
+  "format": "single-choice",
+  "prompt": "家庭でスパイスやハーブがポピュラーになった食の流行が起きたのは何年代以降?",
+  "choices": [
+   "1625年",
+   "1872年",
+   "紀元前2500年頃",
+   "1990年代"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "1990年代以降のイタリアン・エスニック・激辛ブームや海外旅行の普及などで、家庭のスパイスやハーブがポピュラーになった。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "b-fresh-points"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-fresh-points について、転記本文 p.16 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: フレッシュハーブは野菜と同じ食品と考えて保存します。ドライよりもデリケートなので、「低温」「適度な湿気」「傷めない」をポイントに。密封できる袋に入れて冷蔵庫の野菜室で保存しましょう。"
+   }
+  ],
+  "id": "qse-fresh-storage",
+  "format": "short-essay",
+  "prompt": "フレッシュハーブの保存法について、3つのポイントを挙げて短く述べよ。",
+  "modelAnswer": "フレッシュハーブは野菜と同じ食品と考えて保存します。ドライよりもデリケートなので、「低温」「適度な湿気」「傷めない」をポイントに。密封できる袋に入れて冷蔵庫の野菜室で保存しましょう。",
+  "rubric": [
+   {
+    "id": "low-temp",
+    "label": "ポイント「低温」を挙げる",
+    "keywords": [
+     "低温"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "moisture",
+    "label": "ポイント「適度な湿気」を挙げる",
+    "keywords": [
+     "適度な湿気"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "no-damage",
+    "label": "ポイント「傷めない」を挙げる",
+    "keywords": [
+     "傷めない"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "フレッシュハーブ保存の3つのポイントは低温・適度な湿気・傷めないことである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "preservation",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "b-dry-enemy"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9591",
+    "bookPage": 16,
+    "locationNote": "本書 p.16（原本画像 IMG_9591.PNG）。原文照合 batch24 で照合済みの知識単位 b-dry-enemy について、転記本文 p.16 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: ドライのスパイスやハーブの生命は香りと色です。その大敵は「光」「熱」「湿気」。これらを避けるために、容器の蓋をしっかり閉めて冷暗所で保存することが第一です。ただし商品に表示があれば、指定された場所で保存しましょう。"
+   }
+  ],
+  "id": "qse-dry-storage",
+  "format": "short-essay",
+  "prompt": "ドライのスパイス＆ハーブの保存法について、大敵を挙げ、保存の仕方とともに短く述べよ。",
+  "modelAnswer": "ドライのスパイスやハーブの生命は香りと色です。その大敵は「光」「熱」「湿気」。これらを避けるために、容器の蓋をしっかり閉めて冷暗所で保存することが第一です。ただし商品に表示があれば、指定された場所で保存しましょう。",
+  "rubric": [
+   {
+    "id": "light",
+    "label": "大敵「光」を挙げる",
+    "keywords": [
+     "光"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "heat",
+    "label": "大敵「熱」を挙げる",
+    "keywords": [
+     "熱"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "humidity",
+    "label": "大敵「湿気」を挙げる",
+    "keywords": [
+     "湿気"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "dark-place",
+    "label": "蓋を閉めて冷暗所で保存することに触れる",
+    "keywords": [
+     "冷暗所"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "ドライのスパイスやハーブの生命は香りと色で、大敵は「光」「熱」「湿気」。蓋をしっかり閉めて冷暗所で保存する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-world",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "h-medieval-price",
+   "h-marco-polo",
+   "h-magellan-spices",
+   "h-spice-war-4",
+   "h-france-theft"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-medieval-price について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.7: 古代より薬事、祭事、媚薬、保存剤などの目的で使われ、貴重品とされてきたスパイスやハーブ。その後、中世にかけて、スパイスは産地である東洋からヨーロッパへ陸路や海路で運ばれていました。盗賊の襲撃や自然災害などの危険に加え、輸送時間も長かったため、価格は高騰。ヨーロッパでは金銀に匹敵する価値を持つようになりました。交易の中継地となったアラビア半島の港町や市場町を中心に、アラブ商人が洋の東西を行き交い、コンスタンティノープル（現・イスタンブール）などの都市が繁栄を極めました。 / p.7: 特に入手が困難であったこしょう、クローブ、ナツメッグ、シナモンなどを産する東洋は、ヨーロッパの人々にまるで宝の島のように強い憧れを抱かせる地でした。1299年に、マルコ・ポーロが東洋で目にした事柄をまとめた旅行記『世界の記述』（『東方見聞録』）が発表されると、そこに記された美しい絹織物、香料諸島とも呼ばれるモルッカ諸島（マルク諸島）や中国のスパイス、そしてジパング（日本）の黄金の宮殿などは、ヨーロッパの人々に強烈な印象を与えました。この書物が人々の東洋への好奇心をかきたて、200年以上にわたる「大航海時代」の幕開けを促すきっかけとなったのです。 / p.8: 1520年に、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し、その後太平洋の横断に成功。マゼランはフィリピンで戦死しましたが、船団は苦難の末にモルッカ諸島（香料諸島）に到達し、彼らが持ち帰ったクローブ、ナツメッグ、シナモン、メースなどのスパイスは、スペインに莫大な利益をもたらしました。一方で、スパイスの交易でにぎわったアラビア半島やヴェネツィア、ペルシアの街は衰退の一途をたどることになります。 / p.9: 同じ頃、オランダもこの海域への関心を強めていました。16世紀末にモルッカ諸島に進出すると、現地の人々との交易を通じて関係を深め、のちの支配体制の基盤を構築。1602年のオランダ東インド会社の設立後、ポルトガルが主導していたクローブ貿易の支配権を奪いました。さらに、そこにイギリスが参戦し、4カ国による植民地の争奪をかけた乱戦状態となりました。これを「スパイス戦争」と呼んでいます。結局、モルッカ諸島は一部を除きオランダの統制下に入り、18世紀までの2世紀近くオランダが繁栄をほしいままにしました。 / p.9: こうして栄華を誇っていたオランダの牙城を崩したのは、それまで参戦していなかったフランスでした。それも真正面から戦いを挑まず、スパイスから得られる利益を追求したのです。その方法とは、盗木でした。1770年頃、クローブやナツメッグなどの利益を生む苗木をオランダ官憲の監視の隙を突いて持ち出し、フランス支配下のフランス島（マダガスカル島）に移植することに成功したのです。その後、移植先はさらに南米、西インド諸島（カリブ海地域）などへ広がっていきました。"
+   },
+   {
+    "manifestImageId": "IMG_9582",
+    "bookPage": 7,
+    "locationNote": "本書 p.7（原本画像 IMG_9582.PNG）。原文照合 batch22 で照合済みの知識単位 h-marco-polo について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.7: 古代より薬事、祭事、媚薬、保存剤などの目的で使われ、貴重品とされてきたスパイスやハーブ。その後、中世にかけて、スパイスは産地である東洋からヨーロッパへ陸路や海路で運ばれていました。盗賊の襲撃や自然災害などの危険に加え、輸送時間も長かったため、価格は高騰。ヨーロッパでは金銀に匹敵する価値を持つようになりました。交易の中継地となったアラビア半島の港町や市場町を中心に、アラブ商人が洋の東西を行き交い、コンスタンティノープル（現・イスタンブール）などの都市が繁栄を極めました。 / p.7: 特に入手が困難であったこしょう、クローブ、ナツメッグ、シナモンなどを産する東洋は、ヨーロッパの人々にまるで宝の島のように強い憧れを抱かせる地でした。1299年に、マルコ・ポーロが東洋で目にした事柄をまとめた旅行記『世界の記述』（『東方見聞録』）が発表されると、そこに記された美しい絹織物、香料諸島とも呼ばれるモルッカ諸島（マルク諸島）や中国のスパイス、そしてジパング（日本）の黄金の宮殿などは、ヨーロッパの人々に強烈な印象を与えました。この書物が人々の東洋への好奇心をかきたて、200年以上にわたる「大航海時代」の幕開けを促すきっかけとなったのです。 / p.8: 1520年に、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し、その後太平洋の横断に成功。マゼランはフィリピンで戦死しましたが、船団は苦難の末にモルッカ諸島（香料諸島）に到達し、彼らが持ち帰ったクローブ、ナツメッグ、シナモン、メースなどのスパイスは、スペインに莫大な利益をもたらしました。一方で、スパイスの交易でにぎわったアラビア半島やヴェネツィア、ペルシアの街は衰退の一途をたどることになります。 / p.9: 同じ頃、オランダもこの海域への関心を強めていました。16世紀末にモルッカ諸島に進出すると、現地の人々との交易を通じて関係を深め、のちの支配体制の基盤を構築。1602年のオランダ東インド会社の設立後、ポルトガルが主導していたクローブ貿易の支配権を奪いました。さらに、そこにイギリスが参戦し、4カ国による植民地の争奪をかけた乱戦状態となりました。これを「スパイス戦争」と呼んでいます。結局、モルッカ諸島は一部を除きオランダの統制下に入り、18世紀までの2世紀近くオランダが繁栄をほしいままにしました。 / p.9: こうして栄華を誇っていたオランダの牙城を崩したのは、それまで参戦していなかったフランスでした。それも真正面から戦いを挑まず、スパイスから得られる利益を追求したのです。その方法とは、盗木でした。1770年頃、クローブやナツメッグなどの利益を生む苗木をオランダ官憲の監視の隙を突いて持ち出し、フランス支配下のフランス島（マダガスカル島）に移植することに成功したのです。その後、移植先はさらに南米、西インド諸島（カリブ海地域）などへ広がっていきました。"
+   },
+   {
+    "manifestImageId": "IMG_9583",
+    "bookPage": 8,
+    "locationNote": "本書 p.8（原本画像 IMG_9583.PNG）。原文照合 batch22 で照合済みの知識単位 h-magellan-spices について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.7: 古代より薬事、祭事、媚薬、保存剤などの目的で使われ、貴重品とされてきたスパイスやハーブ。その後、中世にかけて、スパイスは産地である東洋からヨーロッパへ陸路や海路で運ばれていました。盗賊の襲撃や自然災害などの危険に加え、輸送時間も長かったため、価格は高騰。ヨーロッパでは金銀に匹敵する価値を持つようになりました。交易の中継地となったアラビア半島の港町や市場町を中心に、アラブ商人が洋の東西を行き交い、コンスタンティノープル（現・イスタンブール）などの都市が繁栄を極めました。 / p.7: 特に入手が困難であったこしょう、クローブ、ナツメッグ、シナモンなどを産する東洋は、ヨーロッパの人々にまるで宝の島のように強い憧れを抱かせる地でした。1299年に、マルコ・ポーロが東洋で目にした事柄をまとめた旅行記『世界の記述』（『東方見聞録』）が発表されると、そこに記された美しい絹織物、香料諸島とも呼ばれるモルッカ諸島（マルク諸島）や中国のスパイス、そしてジパング（日本）の黄金の宮殿などは、ヨーロッパの人々に強烈な印象を与えました。この書物が人々の東洋への好奇心をかきたて、200年以上にわたる「大航海時代」の幕開けを促すきっかけとなったのです。 / p.8: 1520年に、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し、その後太平洋の横断に成功。マゼランはフィリピンで戦死しましたが、船団は苦難の末にモルッカ諸島（香料諸島）に到達し、彼らが持ち帰ったクローブ、ナツメッグ、シナモン、メースなどのスパイスは、スペインに莫大な利益をもたらしました。一方で、スパイスの交易でにぎわったアラビア半島やヴェネツィア、ペルシアの街は衰退の一途をたどることになります。 / p.9: 同じ頃、オランダもこの海域への関心を強めていました。16世紀末にモルッカ諸島に進出すると、現地の人々との交易を通じて関係を深め、のちの支配体制の基盤を構築。1602年のオランダ東インド会社の設立後、ポルトガルが主導していたクローブ貿易の支配権を奪いました。さらに、そこにイギリスが参戦し、4カ国による植民地の争奪をかけた乱戦状態となりました。これを「スパイス戦争」と呼んでいます。結局、モルッカ諸島は一部を除きオランダの統制下に入り、18世紀までの2世紀近くオランダが繁栄をほしいままにしました。 / p.9: こうして栄華を誇っていたオランダの牙城を崩したのは、それまで参戦していなかったフランスでした。それも真正面から戦いを挑まず、スパイスから得られる利益を追求したのです。その方法とは、盗木でした。1770年頃、クローブやナツメッグなどの利益を生む苗木をオランダ官憲の監視の隙を突いて持ち出し、フランス支配下のフランス島（マダガスカル島）に移植することに成功したのです。その後、移植先はさらに南米、西インド諸島（カリブ海地域）などへ広がっていきました。"
+   },
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-spice-war-4 について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.7: 古代より薬事、祭事、媚薬、保存剤などの目的で使われ、貴重品とされてきたスパイスやハーブ。その後、中世にかけて、スパイスは産地である東洋からヨーロッパへ陸路や海路で運ばれていました。盗賊の襲撃や自然災害などの危険に加え、輸送時間も長かったため、価格は高騰。ヨーロッパでは金銀に匹敵する価値を持つようになりました。交易の中継地となったアラビア半島の港町や市場町を中心に、アラブ商人が洋の東西を行き交い、コンスタンティノープル（現・イスタンブール）などの都市が繁栄を極めました。 / p.7: 特に入手が困難であったこしょう、クローブ、ナツメッグ、シナモンなどを産する東洋は、ヨーロッパの人々にまるで宝の島のように強い憧れを抱かせる地でした。1299年に、マルコ・ポーロが東洋で目にした事柄をまとめた旅行記『世界の記述』（『東方見聞録』）が発表されると、そこに記された美しい絹織物、香料諸島とも呼ばれるモルッカ諸島（マルク諸島）や中国のスパイス、そしてジパング（日本）の黄金の宮殿などは、ヨーロッパの人々に強烈な印象を与えました。この書物が人々の東洋への好奇心をかきたて、200年以上にわたる「大航海時代」の幕開けを促すきっかけとなったのです。 / p.8: 1520年に、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し、その後太平洋の横断に成功。マゼランはフィリピンで戦死しましたが、船団は苦難の末にモルッカ諸島（香料諸島）に到達し、彼らが持ち帰ったクローブ、ナツメッグ、シナモン、メースなどのスパイスは、スペインに莫大な利益をもたらしました。一方で、スパイスの交易でにぎわったアラビア半島やヴェネツィア、ペルシアの街は衰退の一途をたどることになります。 / p.9: 同じ頃、オランダもこの海域への関心を強めていました。16世紀末にモルッカ諸島に進出すると、現地の人々との交易を通じて関係を深め、のちの支配体制の基盤を構築。1602年のオランダ東インド会社の設立後、ポルトガルが主導していたクローブ貿易の支配権を奪いました。さらに、そこにイギリスが参戦し、4カ国による植民地の争奪をかけた乱戦状態となりました。これを「スパイス戦争」と呼んでいます。結局、モルッカ諸島は一部を除きオランダの統制下に入り、18世紀までの2世紀近くオランダが繁栄をほしいままにしました。 / p.9: こうして栄華を誇っていたオランダの牙城を崩したのは、それまで参戦していなかったフランスでした。それも真正面から戦いを挑まず、スパイスから得られる利益を追求したのです。その方法とは、盗木でした。1770年頃、クローブやナツメッグなどの利益を生む苗木をオランダ官憲の監視の隙を突いて持ち出し、フランス支配下のフランス島（マダガスカル島）に移植することに成功したのです。その後、移植先はさらに南米、西インド諸島（カリブ海地域）などへ広がっていきました。"
+   },
+   {
+    "manifestImageId": "IMG_9584",
+    "bookPage": 9,
+    "locationNote": "本書 p.9（原本画像 IMG_9584.PNG）。原文照合 batch22 で照合済みの知識単位 h-france-theft について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.7: 古代より薬事、祭事、媚薬、保存剤などの目的で使われ、貴重品とされてきたスパイスやハーブ。その後、中世にかけて、スパイスは産地である東洋からヨーロッパへ陸路や海路で運ばれていました。盗賊の襲撃や自然災害などの危険に加え、輸送時間も長かったため、価格は高騰。ヨーロッパでは金銀に匹敵する価値を持つようになりました。交易の中継地となったアラビア半島の港町や市場町を中心に、アラブ商人が洋の東西を行き交い、コンスタンティノープル（現・イスタンブール）などの都市が繁栄を極めました。 / p.7: 特に入手が困難であったこしょう、クローブ、ナツメッグ、シナモンなどを産する東洋は、ヨーロッパの人々にまるで宝の島のように強い憧れを抱かせる地でした。1299年に、マルコ・ポーロが東洋で目にした事柄をまとめた旅行記『世界の記述』（『東方見聞録』）が発表されると、そこに記された美しい絹織物、香料諸島とも呼ばれるモルッカ諸島（マルク諸島）や中国のスパイス、そしてジパング（日本）の黄金の宮殿などは、ヨーロッパの人々に強烈な印象を与えました。この書物が人々の東洋への好奇心をかきたて、200年以上にわたる「大航海時代」の幕開けを促すきっかけとなったのです。 / p.8: 1520年に、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し、その後太平洋の横断に成功。マゼランはフィリピンで戦死しましたが、船団は苦難の末にモルッカ諸島（香料諸島）に到達し、彼らが持ち帰ったクローブ、ナツメッグ、シナモン、メースなどのスパイスは、スペインに莫大な利益をもたらしました。一方で、スパイスの交易でにぎわったアラビア半島やヴェネツィア、ペルシアの街は衰退の一途をたどることになります。 / p.9: 同じ頃、オランダもこの海域への関心を強めていました。16世紀末にモルッカ諸島に進出すると、現地の人々との交易を通じて関係を深め、のちの支配体制の基盤を構築。1602年のオランダ東インド会社の設立後、ポルトガルが主導していたクローブ貿易の支配権を奪いました。さらに、そこにイギリスが参戦し、4カ国による植民地の争奪をかけた乱戦状態となりました。これを「スパイス戦争」と呼んでいます。結局、モルッカ諸島は一部を除きオランダの統制下に入り、18世紀までの2世紀近くオランダが繁栄をほしいままにしました。 / p.9: こうして栄華を誇っていたオランダの牙城を崩したのは、それまで参戦していなかったフランスでした。それも真正面から戦いを挑まず、スパイスから得られる利益を追求したのです。その方法とは、盗木でした。1770年頃、クローブやナツメッグなどの利益を生む苗木をオランダ官憲の監視の隙を突いて持ち出し、フランス支配下のフランス島（マダガスカル島）に移植することに成功したのです。その後、移植先はさらに南米、西インド諸島（カリブ海地域）などへ広がっていきました。"
+   }
+  ],
+  "id": "qle-spice-trade-history",
+  "format": "long-essay",
+  "prompt": "スパイスをめぐる東西交易から大航海時代、スパイス戦争とその終焉までの経緯を、長文で述べよ。",
+  "modelAnswer": "古代より薬事、祭事、媚薬、保存剤などの目的で使われ、貴重品とされてきたスパイスやハーブ。その後、中世にかけて、スパイスは産地である東洋からヨーロッパへ陸路や海路で運ばれていました。盗賊の襲撃や自然災害などの危険に加え、輸送時間も長かったため、価格は高騰。ヨーロッパでは金銀に匹敵する価値を持つようになりました。交易の中継地となったアラビア半島の港町や市場町を中心に、アラブ商人が洋の東西を行き交い、コンスタンティノープル（現・イスタンブール）などの都市が繁栄を極めました。\n特に入手が困難であったこしょう、クローブ、ナツメッグ、シナモンなどを産する東洋は、ヨーロッパの人々にまるで宝の島のように強い憧れを抱かせる地でした。1299年に、マルコ・ポーロが東洋で目にした事柄をまとめた旅行記『世界の記述』（『東方見聞録』）が発表されると、そこに記された美しい絹織物、香料諸島とも呼ばれるモルッカ諸島（マルク諸島）や中国のスパイス、そしてジパング（日本）の黄金の宮殿などは、ヨーロッパの人々に強烈な印象を与えました。この書物が人々の東洋への好奇心をかきたて、200年以上にわたる「大航海時代」の幕開けを促すきっかけとなったのです。\n1520年に、マゼランやエルカーノがスペインの援助でマゼラン海峡を発見し、その後太平洋の横断に成功。マゼランはフィリピンで戦死しましたが、船団は苦難の末にモルッカ諸島（香料諸島）に到達し、彼らが持ち帰ったクローブ、ナツメッグ、シナモン、メースなどのスパイスは、スペインに莫大な利益をもたらしました。一方で、スパイスの交易でにぎわったアラビア半島やヴェネツィア、ペルシアの街は衰退の一途をたどることになります。\n同じ頃、オランダもこの海域への関心を強めていました。16世紀末にモルッカ諸島に進出すると、現地の人々との交易を通じて関係を深め、のちの支配体制の基盤を構築。1602年のオランダ東インド会社の設立後、ポルトガルが主導していたクローブ貿易の支配権を奪いました。さらに、そこにイギリスが参戦し、4カ国による植民地の争奪をかけた乱戦状態となりました。これを「スパイス戦争」と呼んでいます。結局、モルッカ諸島は一部を除きオランダの統制下に入り、18世紀までの2世紀近くオランダが繁栄をほしいままにしました。\nこうして栄華を誇っていたオランダの牙城を崩したのは、それまで参戦していなかったフランスでした。それも真正面から戦いを挑まず、スパイスから得られる利益を追求したのです。その方法とは、盗木でした。1770年頃、クローブやナツメッグなどの利益を生む苗木をオランダ官憲の監視の隙を突いて持ち出し、フランス支配下のフランス島（マダガスカル島）に移植することに成功したのです。その後、移植先はさらに南米、西インド諸島（カリブ海地域）などへ広がっていきました。",
+  "rubric": [
+   {
+    "id": "value",
+    "label": "中世のスパイスがヨーロッパで金銀に匹敵する価値を持ったことに触れる",
+    "keywords": [
+     "金銀に匹敵する価値"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "marco",
+    "label": "マルコ・ポーロの旅行記が人々の東洋への好奇心をかきたてたことに触れる",
+    "keywords": [
+     "東洋への好奇心をかきたて"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "magellan-arrival",
+    "label": "マゼランやエルカーノの船団がモルッカ諸島（香料諸島）に到達したことに触れる",
+    "keywords": [
+     "モルッカ諸島（香料諸島）に到達"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "magellan-profit",
+    "label": "持ち帰ったスパイスがスペインに莫大な利益をもたらしたことに触れる",
+    "keywords": [
+     "莫大な利益をもたらし"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "spice-war",
+    "label": "4カ国による植民地の争奪が「スパイス戦争」と呼ばれることに触れる",
+    "keywords": [
+     "「スパイス戦争」と呼んで"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "dutch-rule",
+    "label": "モルッカ諸島が一部を除きオランダの統制下に入ったことに触れる",
+    "keywords": [
+     "オランダの統制下に入り"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "theft",
+    "label": "フランスが正面から戦わず盗木で苗木を持ち出し移植したことに触れる",
+    "keywords": [
+     "盗木"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "中世、スパイスは東洋から陸路・海路で運ばれたが、盗賊や災害の危険と長い輸送時間のため高騰し、ヨーロッパでは金銀に匹敵する価値を持った。\n1299年、マルコ・ポーロの旅行記『世界の記述』(『東方見聞録』)が発表され、香料諸島やジパングの黄金の宮殿などがヨーロッパに強い印象を与えた。\nマゼランの船団が持ち帰ったクローブ・ナツメッグ・シナモン・メースなどは、スペインに莫大な利益をもたらした。\nスパイス戦争は、ポルトガル・スペイン・オランダ・イギリスの4カ国による植民地争奪の乱戦である。\n1770年頃、フランスはオランダの監視の隙を突いてクローブやナツメッグの苗木を持ち出し(盗木)、フランス島(マダガスカル島)に移植した。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "preface",
+  "sectionId": "history-japan",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "j-yakumi",
+   "j-fish",
+   "j-hot-ratio"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-yakumi について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.10: 「薬味」という言葉はあっても、「スパイス」や「香辛料」は最近まで日本人にはなじみの薄い言葉でした。ヨーロッパや東南アジア諸国では、かつては新鮮な食材が手に入りにくく、食材の防腐や臭み消しのためにスパイスを大量に消費してきました。一方、日本では新鮮な海山の幸を容易に入手しやすかったため、防腐や強い香りづけを目的にスパイスを使う必要がありませんでした。 / p.10: 日常の食生活は魚介類と野菜が中心であったため、スパイスやハーブも魚介に使用するものが多く、その代表はわさび、山椒、しょうが、ねぎなど。使用法も食材の持ち味を損ねない程度に、隠し味や薬味として少量を添えるものでした。このような用途から、日本料理に用いるスパイスは辛みを伴うものが多く、日本では「スパイス」と聞くと「辛いもの」という印象が強いのです。しかし、じつは世界各国で使われるスパイスのうち、辛みを持つものは1割もありません。"
+   },
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-fish について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.10: 「薬味」という言葉はあっても、「スパイス」や「香辛料」は最近まで日本人にはなじみの薄い言葉でした。ヨーロッパや東南アジア諸国では、かつては新鮮な食材が手に入りにくく、食材の防腐や臭み消しのためにスパイスを大量に消費してきました。一方、日本では新鮮な海山の幸を容易に入手しやすかったため、防腐や強い香りづけを目的にスパイスを使う必要がありませんでした。 / p.10: 日常の食生活は魚介類と野菜が中心であったため、スパイスやハーブも魚介に使用するものが多く、その代表はわさび、山椒、しょうが、ねぎなど。使用法も食材の持ち味を損ねない程度に、隠し味や薬味として少量を添えるものでした。このような用途から、日本料理に用いるスパイスは辛みを伴うものが多く、日本では「スパイス」と聞くと「辛いもの」という印象が強いのです。しかし、じつは世界各国で使われるスパイスのうち、辛みを持つものは1割もありません。"
+   },
+   {
+    "manifestImageId": "IMG_9585",
+    "bookPage": 10,
+    "locationNote": "本書 p.10（原本画像 IMG_9585.PNG）。原文照合 batch23 で照合済みの知識単位 j-hot-ratio について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.10: 「薬味」という言葉はあっても、「スパイス」や「香辛料」は最近まで日本人にはなじみの薄い言葉でした。ヨーロッパや東南アジア諸国では、かつては新鮮な食材が手に入りにくく、食材の防腐や臭み消しのためにスパイスを大量に消費してきました。一方、日本では新鮮な海山の幸を容易に入手しやすかったため、防腐や強い香りづけを目的にスパイスを使う必要がありませんでした。 / p.10: 日常の食生活は魚介類と野菜が中心であったため、スパイスやハーブも魚介に使用するものが多く、その代表はわさび、山椒、しょうが、ねぎなど。使用法も食材の持ち味を損ねない程度に、隠し味や薬味として少量を添えるものでした。このような用途から、日本料理に用いるスパイスは辛みを伴うものが多く、日本では「スパイス」と聞くと「辛いもの」という印象が強いのです。しかし、じつは世界各国で使われるスパイスのうち、辛みを持つものは1割もありません。"
+   }
+  ],
+  "id": "qce-japan-europe-spice",
+  "format": "compare-essay",
+  "prompt": "日本と、ヨーロッパ・東南アジア諸国について、食材の入手事情とスパイスの使い方の違いを比較して述べよ。あわせて、日本で「スパイスは辛いもの」という印象が強い理由にも触れること。",
+  "modelAnswer": "「薬味」という言葉はあっても、「スパイス」や「香辛料」は最近まで日本人にはなじみの薄い言葉でした。ヨーロッパや東南アジア諸国では、かつては新鮮な食材が手に入りにくく、食材の防腐や臭み消しのためにスパイスを大量に消費してきました。一方、日本では新鮮な海山の幸を容易に入手しやすかったため、防腐や強い香りづけを目的にスパイスを使う必要がありませんでした。\n日常の食生活は魚介類と野菜が中心であったため、スパイスやハーブも魚介に使用するものが多く、その代表はわさび、山椒、しょうが、ねぎなど。使用法も食材の持ち味を損ねない程度に、隠し味や薬味として少量を添えるものでした。このような用途から、日本料理に用いるスパイスは辛みを伴うものが多く、日本では「スパイス」と聞くと「辛いもの」という印象が強いのです。しかし、じつは世界各国で使われるスパイスのうち、辛みを持つものは1割もありません。",
+  "rubric": [
+   {
+    "id": "eu-supply",
+    "label": "ヨーロッパや東南アジア諸国では新鮮な食材が手に入りにくかったことに触れる",
+    "keywords": [
+     "新鮮な食材が手に入りにくく"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "eu-use",
+    "label": "防腐や臭み消しのためにスパイスを大量に消費してきたことに触れる",
+    "keywords": [
+     "防腐や臭み消しのためにスパイスを大量に消費"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "jp-supply",
+    "label": "日本では新鮮な海山の幸を容易に入手しやすかったことに触れる",
+    "keywords": [
+     "日本では新鮮な海山の幸を容易に入手"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "jp-use",
+    "label": "日本では隠し味や薬味として少量を添える使い方だったことに触れる",
+    "keywords": [
+     "薬味として少量を添える"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "jp-impression",
+    "label": "日本料理に用いるスパイスは辛みを伴うものが多いことが「辛いもの」という印象につながったことに触れる",
+    "keywords": [
+     "日本料理に用いるスパイスは辛みを伴うものが多く"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "日本では新鮮な海山の幸を得やすかったため、防腐や強い香りづけのためにスパイスを使う必要がなかった。\n日本では魚介に使うスパイスが多く、代表はわさび・山椒・しょうが・ねぎなどで、隠し味や薬味として少量を添えた。\n世界各国で使われるスパイスのうち、辛みを持つものは1割もない。"
+ }
+]

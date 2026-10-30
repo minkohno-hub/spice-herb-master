@@ -1,0 +1,4142 @@
+[
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ],
+  "id": "qfb-family-lemongrass-profile",
+  "format": "fill-blank",
+  "prompt": "レモングラスの科名は（　）である。",
+  "acceptedAnswers": [
+   "イネ科"
+  ],
+  "explanation": "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ],
+  "id": "qfb-level-lemongrass-profile",
+  "format": "fill-blank",
+  "prompt": "レモングラスは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2"
+  ],
+  "explanation": "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ],
+  "id": "qsc-part-lemongrass-profile",
+  "format": "single-choice",
+  "prompt": "レモングラスの利用部位はどれか。",
+  "choices": [
+   "果実、果皮、葉",
+   "地上部",
+   "葉および花穂",
+   "鱗茎"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-lemongrass-profile",
+  "format": "single-choice",
+  "prompt": "レモングラスの原産地はどれか。",
+  "choices": [
+   "インド、熱帯アジア",
+   "スリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)",
+   "中央アジア、温帯地域",
+   "南ヨーロッパ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ],
+  "id": "qti-alias-lemongrass-profile",
+  "format": "term-input",
+  "prompt": "レモングラスの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "レモンガヤ",
+   "レモンソウ",
+   "タクライ",
+   "セイラ"
+  ],
+  "explanation": "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-lemongrass",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ],
+  "id": "qti-rev-lemongrass-profile",
+  "format": "term-input",
+  "prompt": "別名「レモンガヤ」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "レモングラス"
+  ],
+  "explanation": "レモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-rosemary",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "rosemary-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-profile から生成"
+   }
+  ],
+  "id": "qfb-family-rosemary-profile",
+  "format": "fill-blank",
+  "prompt": "ローズマリーの科名は（　）である。",
+  "acceptedAnswers": [
+   "シソ科"
+  ],
+  "explanation": "ローズマリー: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はまんねんろう。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-rosemary",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "rosemary-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-profile から生成"
+   }
+  ],
+  "id": "qfb-level-rosemary-profile",
+  "format": "fill-blank",
+  "prompt": "ローズマリーは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2・3"
+  ],
+  "explanation": "ローズマリー: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はまんねんろう。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-rosemary",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "rosemary-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-profile から生成"
+   }
+  ],
+  "id": "qsc-part-rosemary-profile",
+  "format": "single-choice",
+  "prompt": "ローズマリーの利用部位はどれか。",
+  "choices": [
+   "根、走根",
+   "葉および花穂",
+   "地上部",
+   "種子(植物学上は果実)"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ローズマリー: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はまんねんろう。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-rosemary",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "rosemary-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-rosemary-profile",
+  "format": "single-choice",
+  "prompt": "ローズマリーの原産地はどれか。",
+  "choices": [
+   "熱帯アメリカ",
+   "熱帯アジア",
+   "中国、ベトナム",
+   "地中海沿岸"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ローズマリー: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はまんねんろう。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-rosemary",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "rosemary-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-profile から生成"
+   }
+  ],
+  "id": "qti-alias-rosemary-profile",
+  "format": "term-input",
+  "prompt": "ローズマリーの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "まんねんろう"
+  ],
+  "explanation": "ローズマリー: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はまんねんろう。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-rosemary",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "rosemary-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-profile から生成"
+   }
+  ],
+  "id": "qti-rev-rosemary-profile",
+  "format": "term-input",
+  "prompt": "別名「まんねんろう」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "ローズマリー"
+  ],
+  "explanation": "ローズマリー: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はまんねんろう。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-laurel",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "laurel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-profile から生成"
+   }
+  ],
+  "id": "qfb-family-laurel-profile",
+  "format": "fill-blank",
+  "prompt": "ローレルの科名は（　）である。",
+  "acceptedAnswers": [
+   "クスノキ科"
+  ],
+  "explanation": "ローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-laurel",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "laurel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-profile から生成"
+   }
+  ],
+  "id": "qfb-level-laurel-profile",
+  "format": "fill-blank",
+  "prompt": "ローレルは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2・3"
+  ],
+  "explanation": "ローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-laurel",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "laurel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-profile から生成"
+   }
+  ],
+  "id": "qsc-part-laurel-profile",
+  "format": "single-choice",
+  "prompt": "ローレルの利用部位はどれか。",
+  "choices": [
+   "果実",
+   "種子の仁(ナツメッグ)、仮種皮(メース)",
+   "根、走根",
+   "葉"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-laurel",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "laurel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-laurel-profile",
+  "format": "single-choice",
+  "prompt": "ローレルの原産地はどれか。",
+  "choices": [
+   "西アジア、ヨーロッパ南部",
+   "地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)",
+   "スリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)",
+   "ロシア南部、西アジア"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "ローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-laurel",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "laurel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-profile から生成"
+   }
+  ],
+  "id": "qti-alias-laurel-profile",
+  "format": "term-input",
+  "prompt": "ローレルの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "月桂樹",
+   "ベイリーブス",
+   "ローリエ"
+  ],
+  "explanation": "ローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-laurel",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "laurel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-profile から生成"
+   }
+  ],
+  "id": "qti-rev-laurel-profile",
+  "format": "term-input",
+  "prompt": "別名「月桂樹」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "ローレル"
+  ],
+  "explanation": "ローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-wasabi",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "wasabi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-profile から生成"
+   }
+  ],
+  "id": "qfb-family-wasabi-profile",
+  "format": "fill-blank",
+  "prompt": "わさびの科名は（　）である。",
+  "acceptedAnswers": [
+   "アブラナ科"
+  ],
+  "explanation": "わさび: 科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-wasabi",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "wasabi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-profile から生成"
+   }
+  ],
+  "id": "qfb-level-wasabi-profile",
+  "format": "fill-blank",
+  "prompt": "わさびは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2・3"
+  ],
+  "explanation": "わさび: 科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-wasabi",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "wasabi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-profile から生成"
+   }
+  ],
+  "id": "qsc-part-wasabi-profile",
+  "format": "single-choice",
+  "prompt": "わさびの利用部位はどれか。",
+  "choices": [
+   "樹皮",
+   "種子(植物学上は果実)",
+   "花、葉",
+   "根茎、葉、茎"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "わさび: 科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-wasabi",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "wasabi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-profile から生成"
+   }
+  ],
+  "id": "qsc-origin-wasabi-profile",
+  "format": "single-choice",
+  "prompt": "わさびの原産地はどれか。",
+  "choices": [
+   "インドネシア(マルク諸島)",
+   "ヨーロッパ、西アジア",
+   "地中海沿岸、西アジア",
+   "日本"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "わさび: 科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-wasabi",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "wasabi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-profile から生成"
+   }
+  ],
+  "id": "qti-alias-wasabi-profile",
+  "format": "term-input",
+  "prompt": "わさびの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "山葵(わさび)",
+   "山葵",
+   "日本わさび",
+   "沢わさび"
+  ],
+  "explanation": "わさび: 科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-wasabi",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "wasabi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-profile から生成"
+   }
+  ],
+  "id": "qti-rev-wasabi-profile",
+  "format": "term-input",
+  "prompt": "別名「山葵」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "わさび"
+  ],
+  "explanation": "わさび: 科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "gokoufun-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9669",
+    "bookPage": 93,
+    "locationNote": "本書 p.93（原本画像 IMG_9669.PNG）。原文照合 batch6 で照合済みの知識単位 gokoufun-profile から生成"
+   }
+  ],
+  "id": "qfb-level-gokoufun-profile",
+  "format": "fill-blank",
+  "prompt": "五香粉は検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2"
+  ],
+  "explanation": "五香粉: ミックススパイス。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "herbesdeprovence-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9669",
+    "bookPage": 93,
+    "locationNote": "本書 p.93（原本画像 IMG_9669.PNG）。原文照合 batch6 で照合済みの知識単位 herbesdeprovence-profile から生成"
+   }
+  ],
+  "id": "qfb-level-herbesdeprovence-profile",
+  "format": "fill-blank",
+  "prompt": "エルブドプロバンスは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2"
+  ],
+  "explanation": "エルブドプロバンス: ミックススパイス。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "garammasala-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9670",
+    "bookPage": 94,
+    "locationNote": "本書 p.94（原本画像 IMG_9670.PNG）。原文照合 batch6 で照合済みの知識単位 garammasala-profile から生成"
+   }
+  ],
+  "id": "qfb-level-garammasala-profile",
+  "format": "fill-blank",
+  "prompt": "ガラムマサラは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2・3"
+  ],
+  "explanation": "ガラムマサラ: ミックススパイス。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "currypowder-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9671",
+    "bookPage": 95,
+    "locationNote": "本書 p.95（原本画像 IMG_9671.PNG）。原文照合 batch7 で照合済みの知識単位 currypowder-profile から生成"
+   }
+  ],
+  "id": "qfb-level-currypowder-profile",
+  "format": "fill-blank",
+  "prompt": "カレー粉は検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2・3"
+  ],
+  "explanation": "カレー粉: ミックススパイス。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "shichimi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9672",
+    "bookPage": 96,
+    "locationNote": "本書 p.96（原本画像 IMG_9672.PNG）。原文照合 batch7 で照合済みの知識単位 shichimi-profile から生成"
+   }
+  ],
+  "id": "qfb-level-shichimi-profile",
+  "format": "fill-blank",
+  "prompt": "七味唐辛子は検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2・3"
+  ],
+  "explanation": "七味唐辛子: ミックススパイス。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mix",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "chilipowder-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9673",
+    "bookPage": 97,
+    "locationNote": "本書 p.97（原本画像 IMG_9673.PNG）。原文照合 batch7 で照合済みの知識単位 chilipowder-profile から生成"
+   }
+  ],
+  "id": "qfb-level-chilipowder-profile",
+  "format": "fill-blank",
+  "prompt": "チリパウダーは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1・2"
+  ],
+  "explanation": "チリパウダー: ミックススパイス。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "asafoetida-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   }
+  ],
+  "id": "qfb-family-asafoetida-profile",
+  "format": "fill-blank",
+  "prompt": "アサフェティダの科名は（　）である。",
+  "acceptedAnswers": [
+   "セリ科"
+  ],
+  "explanation": "アサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "asafoetida-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   }
+  ],
+  "id": "qfb-level-asafoetida-profile",
+  "format": "fill-blank",
+  "prompt": "アサフェティダは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "アサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "asafoetida-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   }
+  ],
+  "id": "qsc-part-asafoetida-profile",
+  "format": "single-choice",
+  "prompt": "アサフェティダの利用部位はどれか。",
+  "choices": [
+   "花の雌しべ",
+   "根茎",
+   "果実、葉",
+   "花、葉"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "アサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "asafoetida-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   }
+  ],
+  "id": "qti-alias-asafoetida-profile",
+  "format": "term-input",
+  "prompt": "アサフェティダの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "ヒング"
+  ],
+  "explanation": "アサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "asafoetida-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   }
+  ],
+  "id": "qti-rev-asafoetida-profile",
+  "format": "term-input",
+  "prompt": "別名「ヒング」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "アサフェティダ"
+  ],
+  "explanation": "アサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "ajwain-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 ajwain-profile から生成"
+   }
+  ],
+  "id": "qfb-family-ajwain-profile",
+  "format": "fill-blank",
+  "prompt": "アジョワンの科名は（　）である。",
+  "acceptedAnswers": [
+   "セリ科"
+  ],
+  "explanation": "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "ajwain-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 ajwain-profile から生成"
+   }
+  ],
+  "id": "qfb-level-ajwain-profile",
+  "format": "fill-blank",
+  "prompt": "アジョワンは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "ajwain-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 ajwain-profile から生成"
+   }
+  ],
+  "id": "qsc-part-ajwain-profile",
+  "format": "single-choice",
+  "prompt": "アジョワンの利用部位はどれか。",
+  "choices": [
+   "果実、葉",
+   "根",
+   "地上部",
+   "種子"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "kaffirlime-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaffirlime-profile から生成"
+   }
+  ],
+  "id": "qfb-family-kaffirlime-profile",
+  "format": "fill-blank",
+  "prompt": "カフェライムの科名は（　）である。",
+  "acceptedAnswers": [
+   "ミカン科"
+  ],
+  "explanation": "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "kaffirlime-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaffirlime-profile から生成"
+   }
+  ],
+  "id": "qfb-level-kaffirlime-profile",
+  "format": "fill-blank",
+  "prompt": "カフェライムは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "kaffirlime-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaffirlime-profile から生成"
+   }
+  ],
+  "id": "qsc-part-kaffirlime-profile",
+  "format": "single-choice",
+  "prompt": "カフェライムの利用部位はどれか。",
+  "choices": [
+   "未熟な果実",
+   "根、走根",
+   "葉、果皮",
+   "果実、果皮、葉"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "kaffirlime-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaffirlime-profile から生成"
+   }
+  ],
+  "id": "qti-alias-kaffirlime-profile",
+  "format": "term-input",
+  "prompt": "カフェライムの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "こぶみかん",
+   "マックルー",
+   "マクルットライム"
+  ],
+  "explanation": "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "kaffirlime-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaffirlime-profile から生成"
+   }
+  ],
+  "id": "qti-rev-kaffirlime-profile",
+  "format": "term-input",
+  "prompt": "別名「こぶみかん」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "カフェライム"
+  ],
+  "explanation": "カフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "galangal-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 galangal-profile から生成"
+   }
+  ],
+  "id": "qfb-family-galangal-profile",
+  "format": "fill-blank",
+  "prompt": "ガランガルの科名は（　）である。",
+  "acceptedAnswers": [
+   "ショウガ科"
+  ],
+  "explanation": "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "galangal-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 galangal-profile から生成"
+   }
+  ],
+  "id": "qfb-level-galangal-profile",
+  "format": "fill-blank",
+  "prompt": "ガランガルは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "galangal-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 galangal-profile から生成"
+   }
+  ],
+  "id": "qsc-part-galangal-profile",
+  "format": "single-choice",
+  "prompt": "ガランガルの利用部位はどれか。",
+  "choices": [
+   "果実、葉",
+   "根茎",
+   "根、走根",
+   "葉、茎"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "galangal-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 galangal-profile から生成"
+   }
+  ],
+  "id": "qti-alias-galangal-profile",
+  "format": "term-input",
+  "prompt": "ガランガルの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "カー"
+  ],
+  "explanation": "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "galangal-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 galangal-profile から生成"
+   }
+  ],
+  "id": "qti-rev-galangal-profile",
+  "format": "term-input",
+  "prompt": "別名「カー」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "ガランガル"
+  ],
+  "explanation": "ガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "curryleaf-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 curryleaf-profile から生成"
+   }
+  ],
+  "id": "qfb-family-curryleaf-profile",
+  "format": "fill-blank",
+  "prompt": "カレーリーフの科名は（　）である。",
+  "acceptedAnswers": [
+   "ミカン科"
+  ],
+  "explanation": "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "curryleaf-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 curryleaf-profile から生成"
+   }
+  ],
+  "id": "qfb-level-curryleaf-profile",
+  "format": "fill-blank",
+  "prompt": "カレーリーフは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "curryleaf-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 curryleaf-profile から生成"
+   }
+  ],
+  "id": "qsc-part-curryleaf-profile",
+  "format": "single-choice",
+  "prompt": "カレーリーフの利用部位はどれか。",
+  "choices": [
+   "種子",
+   "樹皮",
+   "葉",
+   "花の雌しべ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "curryleaf-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 curryleaf-profile から生成"
+   }
+  ],
+  "id": "qti-alias-curryleaf-profile",
+  "format": "term-input",
+  "prompt": "カレーリーフの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "カリーパッタ"
+  ],
+  "explanation": "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "curryleaf-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 curryleaf-profile から生成"
+   }
+  ],
+  "id": "qti-rev-curryleaf-profile",
+  "format": "term-input",
+  "prompt": "別名「カリーパッタ」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "カレーリーフ"
+  ],
+  "explanation": "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "licorice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 licorice-profile から生成"
+   }
+  ],
+  "id": "qfb-family-licorice-profile",
+  "format": "fill-blank",
+  "prompt": "かんぞう(甘草)の科名は（　）である。",
+  "acceptedAnswers": [
+   "マメ科"
+  ],
+  "explanation": "かんぞう(甘草): 科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "licorice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 licorice-profile から生成"
+   }
+  ],
+  "id": "qfb-level-licorice-profile",
+  "format": "fill-blank",
+  "prompt": "かんぞう(甘草)は検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "かんぞう(甘草): 科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "licorice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 licorice-profile から生成"
+   }
+  ],
+  "id": "qsc-part-licorice-profile",
+  "format": "single-choice",
+  "prompt": "かんぞう(甘草)の利用部位はどれか。",
+  "choices": [
+   "根、走根",
+   "花弁、種子",
+   "種子、葉",
+   "花、葉"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "かんぞう(甘草): 科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "licorice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 licorice-profile から生成"
+   }
+  ],
+  "id": "qti-alias-licorice-profile",
+  "format": "term-input",
+  "prompt": "かんぞう(甘草)の別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "リコリス",
+   "リカリス"
+  ],
+  "explanation": "かんぞう(甘草): 科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "licorice-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 licorice-profile から生成"
+   }
+  ],
+  "id": "qti-rev-licorice-profile",
+  "format": "term-input",
+  "prompt": "別名「リコリス」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "かんぞう(甘草)",
+   "かんぞう",
+   "甘草"
+  ],
+  "explanation": "かんぞう(甘草): 科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cubeb-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cubeb-profile から生成"
+   }
+  ],
+  "id": "qfb-family-cubeb-profile",
+  "format": "fill-blank",
+  "prompt": "クベバの科名は（　）である。",
+  "acceptedAnswers": [
+   "コショウ科"
+  ],
+  "explanation": "クベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cubeb-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cubeb-profile から生成"
+   }
+  ],
+  "id": "qfb-level-cubeb-profile",
+  "format": "fill-blank",
+  "prompt": "クベバは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "クベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cubeb-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cubeb-profile から生成"
+   }
+  ],
+  "id": "qsc-part-cubeb-profile",
+  "format": "single-choice",
+  "prompt": "クベバの利用部位はどれか。",
+  "choices": [
+   "種子",
+   "果実",
+   "鱗茎",
+   "蕾"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "クベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cubeb-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cubeb-profile から生成"
+   }
+  ],
+  "id": "qti-alias-cubeb-profile",
+  "format": "term-input",
+  "prompt": "クベバの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "畢澄茄(ひっちょうか)",
+   "畢澄茄",
+   "キュベブ",
+   "テイルドペッパー"
+  ],
+  "explanation": "クベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "cubeb-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cubeb-profile から生成"
+   }
+  ],
+  "id": "qti-rev-cubeb-profile",
+  "format": "term-input",
+  "prompt": "別名「畢澄茄」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "クベバ"
+  ],
+  "explanation": "クベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "grainsofparadise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 grainsofparadise-profile から生成"
+   }
+  ],
+  "id": "qfb-family-grainsofparadise-profile",
+  "format": "fill-blank",
+  "prompt": "グレインズオブパラダイスの科名は（　）である。",
+  "acceptedAnswers": [
+   "ショウガ科"
+  ],
+  "explanation": "グレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "grainsofparadise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 grainsofparadise-profile から生成"
+   }
+  ],
+  "id": "qfb-level-grainsofparadise-profile",
+  "format": "fill-blank",
+  "prompt": "グレインズオブパラダイスは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "グレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "grainsofparadise-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 grainsofparadise-profile から生成"
+   }
+  ],
+  "id": "qsc-part-grainsofparadise-profile",
+  "format": "single-choice",
+  "prompt": "グレインズオブパラダイスの利用部位はどれか。",
+  "choices": [
+   "樹皮",
+   "蕾",
+   "種子",
+   "葉および花穂"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "グレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cresson-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cresson-profile から生成"
+   }
+  ],
+  "id": "qfb-family-cresson-profile",
+  "format": "fill-blank",
+  "prompt": "クレソンの科名は（　）である。",
+  "acceptedAnswers": [
+   "アブラナ科"
+  ],
+  "explanation": "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cresson-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cresson-profile から生成"
+   }
+  ],
+  "id": "qfb-level-cresson-profile",
+  "format": "fill-blank",
+  "prompt": "クレソンは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cresson-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cresson-profile から生成"
+   }
+  ],
+  "id": "qsc-part-cresson-profile",
+  "format": "single-choice",
+  "prompt": "クレソンの利用部位はどれか。",
+  "choices": [
+   "葉、茎",
+   "果実、果皮、葉",
+   "葉、果皮",
+   "葉(芽)"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "cresson-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cresson-profile から生成"
+   }
+  ],
+  "id": "qti-alias-cresson-profile",
+  "format": "term-input",
+  "prompt": "クレソンの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "ウォータークレス"
+  ],
+  "explanation": "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "cresson-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cresson-profile から生成"
+   }
+  ],
+  "id": "qti-rev-cresson-profile",
+  "format": "term-input",
+  "prompt": "別名「ウォータークレス」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "クレソン"
+  ],
+  "explanation": "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "caper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   }
+  ],
+  "id": "qfb-family-caper-profile",
+  "format": "fill-blank",
+  "prompt": "ケイパーの科名は（　）である。",
+  "acceptedAnswers": [
+   "フウチョウボク科"
+  ],
+  "explanation": "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "caper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   }
+  ],
+  "id": "qfb-level-caper-profile",
+  "format": "fill-blank",
+  "prompt": "ケイパーは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "caper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   }
+  ],
+  "id": "qsc-part-caper-profile",
+  "format": "single-choice",
+  "prompt": "ケイパーの利用部位はどれか。",
+  "choices": [
+   "葉および花穂",
+   "根",
+   "蕾",
+   "葉、茎、種子(植物学上は果実)、根"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "caper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   }
+  ],
+  "id": "qti-alias-caper-profile",
+  "format": "term-input",
+  "prompt": "ケイパーの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "風鳥木(ふうちょうぼく)",
+   "風鳥木",
+   "ケーパー",
+   "ケッパー"
+  ],
+  "explanation": "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "caper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   }
+  ],
+  "id": "qti-rev-caper-profile",
+  "format": "term-input",
+  "prompt": "別名「風鳥木」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "ケイパー"
+  ],
+  "explanation": "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "poppyseed-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 poppyseed-profile から生成"
+   }
+  ],
+  "id": "qfb-family-poppyseed-profile",
+  "format": "fill-blank",
+  "prompt": "けしの実の科名は（　）である。",
+  "acceptedAnswers": [
+   "ケシ科"
+  ],
+  "explanation": "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "poppyseed-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 poppyseed-profile から生成"
+   }
+  ],
+  "id": "qfb-level-poppyseed-profile",
+  "format": "fill-blank",
+  "prompt": "けしの実は検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "poppyseed-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 poppyseed-profile から生成"
+   }
+  ],
+  "id": "qsc-part-poppyseed-profile",
+  "format": "single-choice",
+  "prompt": "けしの実の利用部位はどれか。",
+  "choices": [
+   "種子",
+   "葉",
+   "根",
+   "花、葉"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "poppyseed-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 poppyseed-profile から生成"
+   }
+  ],
+  "id": "qti-alias-poppyseed-profile",
+  "format": "term-input",
+  "prompt": "けしの実の別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "ポピーシード"
+  ],
+  "explanation": "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "poppyseed-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 poppyseed-profile から生成"
+   }
+  ],
+  "id": "qti-rev-poppyseed-profile",
+  "format": "term-input",
+  "prompt": "別名「ポピーシード」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "けしの実"
+  ],
+  "explanation": "けしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "safflower-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 safflower-profile から生成"
+   }
+  ],
+  "id": "qfb-family-safflower-profile",
+  "format": "fill-blank",
+  "prompt": "サフラワーの科名は（　）である。",
+  "acceptedAnswers": [
+   "キク科"
+  ],
+  "explanation": "サフラワー: 科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "safflower-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 safflower-profile から生成"
+   }
+  ],
+  "id": "qfb-level-safflower-profile",
+  "format": "fill-blank",
+  "prompt": "サフラワーは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "サフラワー: 科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "safflower-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 safflower-profile から生成"
+   }
+  ],
+  "id": "qsc-part-safflower-profile",
+  "format": "single-choice",
+  "prompt": "サフラワーの利用部位はどれか。",
+  "choices": [
+   "果実",
+   "花弁、種子",
+   "種子(植物学上は果実)",
+   "根"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "サフラワー: 科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "safflower-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 safflower-profile から生成"
+   }
+  ],
+  "id": "qti-alias-safflower-profile",
+  "format": "term-input",
+  "prompt": "サフラワーの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "べにばな"
+  ],
+  "explanation": "サフラワー: 科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "safflower-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 safflower-profile から生成"
+   }
+  ],
+  "id": "qti-rev-safflower-profile",
+  "format": "term-input",
+  "prompt": "別名「べにばな」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "サフラワー"
+  ],
+  "explanation": "サフラワー: 科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "savory-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 savory-profile から生成"
+   }
+  ],
+  "id": "qfb-family-savory-profile",
+  "format": "fill-blank",
+  "prompt": "サボリーの科名は（　）である。",
+  "acceptedAnswers": [
+   "シソ科"
+  ],
+  "explanation": "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "savory-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 savory-profile から生成"
+   }
+  ],
+  "id": "qfb-level-savory-profile",
+  "format": "fill-blank",
+  "prompt": "サボリーは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "savory-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 savory-profile から生成"
+   }
+  ],
+  "id": "qsc-part-savory-profile",
+  "format": "single-choice",
+  "prompt": "サボリーの利用部位はどれか。",
+  "choices": [
+   "樹皮",
+   "葉および花穂",
+   "種子、葉",
+   "葉(芽)"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "savory-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 savory-profile から生成"
+   }
+  ],
+  "id": "qti-alias-savory-profile",
+  "format": "term-input",
+  "prompt": "サボリーの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "セイボリー"
+  ],
+  "explanation": "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "savory-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 savory-profile から生成"
+   }
+  ],
+  "id": "qti-rev-savory-profile",
+  "format": "term-input",
+  "prompt": "別名「セイボリー」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "サボリー"
+  ],
+  "explanation": "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "shiso-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shiso-profile から生成"
+   }
+  ],
+  "id": "qfb-family-shiso-profile",
+  "format": "fill-blank",
+  "prompt": "しそ(紫蘇)の科名は（　）である。",
+  "acceptedAnswers": [
+   "シソ科"
+  ],
+  "explanation": "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "shiso-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shiso-profile から生成"
+   }
+  ],
+  "id": "qfb-level-shiso-profile",
+  "format": "fill-blank",
+  "prompt": "しそ(紫蘇)は検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "shiso-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shiso-profile から生成"
+   }
+  ],
+  "id": "qsc-part-shiso-profile",
+  "format": "single-choice",
+  "prompt": "しそ(紫蘇)の利用部位はどれか。",
+  "choices": [
+   "地上部",
+   "葉および花穂、種子",
+   "未熟な果実",
+   "花の雌しべ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "shiso-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shiso-profile から生成"
+   }
+  ],
+  "id": "qti-alias-shiso-profile",
+  "format": "term-input",
+  "prompt": "しそ(紫蘇)の別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "大葉(青じその葉)",
+   "大葉"
+  ],
+  "explanation": "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "shiso-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shiso-profile から生成"
+   }
+  ],
+  "id": "qti-rev-shiso-profile",
+  "format": "term-input",
+  "prompt": "別名「大葉」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "しそ(紫蘇)",
+   "しそ",
+   "紫蘇"
+  ],
+  "explanation": "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "juniper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   }
+  ],
+  "id": "qfb-family-juniper-profile",
+  "format": "fill-blank",
+  "prompt": "ジュニパーベリーの科名は（　）である。",
+  "acceptedAnswers": [
+   "ヒノキ科"
+  ],
+  "explanation": "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "juniper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   }
+  ],
+  "id": "qfb-level-juniper-profile",
+  "format": "fill-blank",
+  "prompt": "ジュニパーベリーは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "juniper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   }
+  ],
+  "id": "qsc-part-juniper-profile",
+  "format": "single-choice",
+  "prompt": "ジュニパーベリーの利用部位はどれか。",
+  "choices": [
+   "花、葉",
+   "蕾",
+   "果実",
+   "葉、茎"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "juniper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   }
+  ],
+  "id": "qti-alias-juniper-profile",
+  "format": "term-input",
+  "prompt": "ジュニパーベリーの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "西洋ねず",
+   "杜松(としょう)",
+   "杜松"
+  ],
+  "explanation": "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "juniper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   }
+  ],
+  "id": "qti-rev-juniper-profile",
+  "format": "term-input",
+  "prompt": "別名「西洋ねず」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "ジュニパーベリー"
+  ],
+  "explanation": "ジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sumac-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sumac-profile から生成"
+   }
+  ],
+  "id": "qfb-family-sumac-profile",
+  "format": "fill-blank",
+  "prompt": "スマックの科名は（　）である。",
+  "acceptedAnswers": [
+   "ウルシ科"
+  ],
+  "explanation": "スマック: 科名はウルシ科。利用部位は果実。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sumac-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sumac-profile から生成"
+   }
+  ],
+  "id": "qfb-level-sumac-profile",
+  "format": "fill-blank",
+  "prompt": "スマックは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "スマック: 科名はウルシ科。利用部位は果実。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sumac-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sumac-profile から生成"
+   }
+  ],
+  "id": "qsc-part-sumac-profile",
+  "format": "single-choice",
+  "prompt": "スマックの利用部位はどれか。",
+  "choices": [
+   "葉および花穂",
+   "花弁、種子",
+   "種子の仁(ナツメッグ)、仮種皮(メース)",
+   "果実"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "スマック: 科名はウルシ科。利用部位は果実。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "celery-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 celery-profile から生成"
+   }
+  ],
+  "id": "qfb-family-celery-profile",
+  "format": "fill-blank",
+  "prompt": "セロリーの科名は（　）である。",
+  "acceptedAnswers": [
+   "セリ科"
+  ],
+  "explanation": "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "celery-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 celery-profile から生成"
+   }
+  ],
+  "id": "qfb-level-celery-profile",
+  "format": "fill-blank",
+  "prompt": "セロリーは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "celery-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 celery-profile から生成"
+   }
+  ],
+  "id": "qsc-part-celery-profile",
+  "format": "single-choice",
+  "prompt": "セロリーの利用部位はどれか。",
+  "choices": [
+   "葉(芽)",
+   "果実、果皮、葉",
+   "花弁、種子",
+   "種子(植物学上は果実)"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sorrel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sorrel-profile から生成"
+   }
+  ],
+  "id": "qfb-family-sorrel-profile",
+  "format": "fill-blank",
+  "prompt": "ソレルの科名は（　）である。",
+  "acceptedAnswers": [
+   "タデ科"
+  ],
+  "explanation": "ソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sorrel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sorrel-profile から生成"
+   }
+  ],
+  "id": "qfb-level-sorrel-profile",
+  "format": "fill-blank",
+  "prompt": "ソレルは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "ソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sorrel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sorrel-profile から生成"
+   }
+  ],
+  "id": "qsc-part-sorrel-profile",
+  "format": "single-choice",
+  "prompt": "ソレルの利用部位はどれか。",
+  "choices": [
+   "花弁、種子",
+   "種子(植物学上は果実)",
+   "果実",
+   "葉"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "sorrel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sorrel-profile から生成"
+   }
+  ],
+  "id": "qti-alias-sorrel-profile",
+  "format": "term-input",
+  "prompt": "ソレルの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "オゼイユ"
+  ],
+  "explanation": "ソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "sorrel-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sorrel-profile から生成"
+   }
+  ],
+  "id": "qti-rev-sorrel-profile",
+  "format": "term-input",
+  "prompt": "別名「オゼイユ」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "ソレル"
+  ],
+  "explanation": "ソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tade-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tade-profile から生成"
+   }
+  ],
+  "id": "qfb-family-tade-profile",
+  "format": "fill-blank",
+  "prompt": "たで(蓼)の科名は（　）である。",
+  "acceptedAnswers": [
+   "タデ科"
+  ],
+  "explanation": "たで(蓼): 科名はタデ科。利用部位は葉(芽)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tade-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tade-profile から生成"
+   }
+  ],
+  "id": "qfb-level-tade-profile",
+  "format": "fill-blank",
+  "prompt": "たで(蓼)は検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "たで(蓼): 科名はタデ科。利用部位は葉(芽)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tade-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tade-profile から生成"
+   }
+  ],
+  "id": "qsc-part-tade-profile",
+  "format": "single-choice",
+  "prompt": "たで(蓼)の利用部位はどれか。",
+  "choices": [
+   "果実(種子を除いた果肉部)",
+   "地上部",
+   "葉、茎",
+   "葉(芽)"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "たで(蓼): 科名はタデ科。利用部位は葉(芽)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tamarind-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tamarind-profile から生成"
+   }
+  ],
+  "id": "qfb-family-tamarind-profile",
+  "format": "fill-blank",
+  "prompt": "タマリンドの科名は（　）である。",
+  "acceptedAnswers": [
+   "マメ科"
+  ],
+  "explanation": "タマリンド: 科名はマメ科。利用部位は果実。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tamarind-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tamarind-profile から生成"
+   }
+  ],
+  "id": "qfb-level-tamarind-profile",
+  "format": "fill-blank",
+  "prompt": "タマリンドは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "タマリンド: 科名はマメ科。利用部位は果実。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "tamarind-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tamarind-profile から生成"
+   }
+  ],
+  "id": "qsc-part-tamarind-profile",
+  "format": "single-choice",
+  "prompt": "タマリンドの利用部位はどれか。",
+  "choices": [
+   "葉および花穂、種子",
+   "葉(芽)",
+   "樹皮",
+   "果実"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "タマリンド: 科名はマメ科。利用部位は果実。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "dokudami-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dokudami-profile から生成"
+   }
+  ],
+  "id": "qfb-family-dokudami-profile",
+  "format": "fill-blank",
+  "prompt": "どくだみの科名は（　）である。",
+  "acceptedAnswers": [
+   "ドクダミ科"
+  ],
+  "explanation": "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "dokudami-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dokudami-profile から生成"
+   }
+  ],
+  "id": "qfb-level-dokudami-profile",
+  "format": "fill-blank",
+  "prompt": "どくだみは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "dokudami-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dokudami-profile から生成"
+   }
+  ],
+  "id": "qsc-part-dokudami-profile",
+  "format": "single-choice",
+  "prompt": "どくだみの利用部位はどれか。",
+  "choices": [
+   "葉",
+   "果実(種子を除いた果肉部)",
+   "花弁、種子",
+   "根、走根"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "どくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "nigella-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 nigella-profile から生成"
+   }
+  ],
+  "id": "qfb-family-nigella-profile",
+  "format": "fill-blank",
+  "prompt": "ニゲラの科名は（　）である。",
+  "acceptedAnswers": [
+   "キンポウゲ科"
+  ],
+  "explanation": "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "nigella-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 nigella-profile から生成"
+   }
+  ],
+  "id": "qfb-level-nigella-profile",
+  "format": "fill-blank",
+  "prompt": "ニゲラは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "nigella-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 nigella-profile から生成"
+   }
+  ],
+  "id": "qsc-part-nigella-profile",
+  "format": "single-choice",
+  "prompt": "ニゲラの利用部位はどれか。",
+  "choices": [
+   "葉、茎",
+   "葉および花穂",
+   "種子",
+   "地上部"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "nigella-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 nigella-profile から生成"
+   }
+  ],
+  "id": "qti-alias-nigella-profile",
+  "format": "term-input",
+  "prompt": "ニゲラの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "ブラッククミン",
+   "カロンジ"
+  ],
+  "explanation": "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "nigella-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 nigella-profile から生成"
+   }
+  ],
+  "id": "qti-rev-nigella-profile",
+  "format": "term-input",
+  "prompt": "別名「ブラッククミン」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "ニゲラ"
+  ],
+  "explanation": "ニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "pandan-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 pandan-profile から生成"
+   }
+  ],
+  "id": "qfb-family-pandan-profile",
+  "format": "fill-blank",
+  "prompt": "パンダンリーフの科名は（　）である。",
+  "acceptedAnswers": [
+   "タコノキ科"
+  ],
+  "explanation": "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "pandan-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 pandan-profile から生成"
+   }
+  ],
+  "id": "qfb-level-pandan-profile",
+  "format": "fill-blank",
+  "prompt": "パンダンリーフは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "pandan-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 pandan-profile から生成"
+   }
+  ],
+  "id": "qsc-part-pandan-profile",
+  "format": "single-choice",
+  "prompt": "パンダンリーフの利用部位はどれか。",
+  "choices": [
+   "根、走根",
+   "種子(植物学上は果実)",
+   "鱗茎",
+   "葉"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "pandan-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 pandan-profile から生成"
+   }
+  ],
+  "id": "qti-alias-pandan-profile",
+  "format": "term-input",
+  "prompt": "パンダンリーフの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "ニオイタコノキ",
+   "ニオイアダン",
+   "ランペ"
+  ],
+  "explanation": "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "pandan-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 pandan-profile から生成"
+   }
+  ],
+  "id": "qti-rev-pandan-profile",
+  "format": "term-input",
+  "prompt": "別名「ニオイタコノキ」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "パンダンリーフ"
+  ],
+  "explanation": "パンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "fenugreek-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   }
+  ],
+  "id": "qfb-family-fenugreek-profile",
+  "format": "fill-blank",
+  "prompt": "フェネグリークの科名は（　）である。",
+  "acceptedAnswers": [
+   "マメ科"
+  ],
+  "explanation": "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "fenugreek-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   }
+  ],
+  "id": "qfb-level-fenugreek-profile",
+  "format": "fill-blank",
+  "prompt": "フェネグリークは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "fenugreek-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   }
+  ],
+  "id": "qsc-part-fenugreek-profile",
+  "format": "single-choice",
+  "prompt": "フェネグリークの利用部位はどれか。",
+  "choices": [
+   "種子の仁(ナツメッグ)、仮種皮(メース)",
+   "種子、葉",
+   "果実(さや)",
+   "果実、果皮、葉"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "fenugreek-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   }
+  ],
+  "id": "qti-alias-fenugreek-profile",
+  "format": "term-input",
+  "prompt": "フェネグリークの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "メティ(メッチ)",
+   "メティ"
+  ],
+  "explanation": "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "fenugreek-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   }
+  ],
+  "id": "qti-rev-fenugreek-profile",
+  "format": "term-input",
+  "prompt": "別名「メティ」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "フェネグリーク"
+  ],
+  "explanation": "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "mache-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mache-profile から生成"
+   }
+  ],
+  "id": "qfb-family-mache-profile",
+  "format": "fill-blank",
+  "prompt": "マーシュの科名は（　）である。",
+  "acceptedAnswers": [
+   "スイカズラ科"
+  ],
+  "explanation": "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "mache-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mache-profile から生成"
+   }
+  ],
+  "id": "qfb-level-mache-profile",
+  "format": "fill-blank",
+  "prompt": "マーシュは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "mache-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mache-profile から生成"
+   }
+  ],
+  "id": "qsc-part-mache-profile",
+  "format": "single-choice",
+  "prompt": "マーシュの利用部位はどれか。",
+  "choices": [
+   "葉、茎",
+   "根",
+   "花弁、種子",
+   "果実、果皮、葉"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "mache-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mache-profile から生成"
+   }
+  ],
+  "id": "qti-alias-mache-profile",
+  "format": "term-input",
+  "prompt": "マーシュの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "コーンサラダ"
+  ],
+  "explanation": "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "mache-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mache-profile から生成"
+   }
+  ],
+  "id": "qti-rev-mache-profile",
+  "format": "term-input",
+  "prompt": "別名「コーンサラダ」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "マーシュ"
+  ],
+  "explanation": "マーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "amchur-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amchur-profile から生成"
+   }
+  ],
+  "id": "qfb-family-amchur-profile",
+  "format": "fill-blank",
+  "prompt": "マンゴーパウダーの科名は（　）である。",
+  "acceptedAnswers": [
+   "ウルシ科"
+  ],
+  "explanation": "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "amchur-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amchur-profile から生成"
+   }
+  ],
+  "id": "qfb-level-amchur-profile",
+  "format": "fill-blank",
+  "prompt": "マンゴーパウダーは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "amchur-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amchur-profile から生成"
+   }
+  ],
+  "id": "qsc-part-amchur-profile",
+  "format": "single-choice",
+  "prompt": "マンゴーパウダーの利用部位はどれか。",
+  "choices": [
+   "地上部",
+   "葉、茎",
+   "花弁、種子",
+   "果実"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "amchur-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amchur-profile から生成"
+   }
+  ],
+  "id": "qti-alias-amchur-profile",
+  "format": "term-input",
+  "prompt": "マンゴーパウダーの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "アムチュール"
+  ],
+  "explanation": "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "amchur-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amchur-profile から生成"
+   }
+  ],
+  "id": "qti-rev-amchur-profile",
+  "format": "term-input",
+  "prompt": "別名「アムチュール」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "マンゴーパウダー"
+  ],
+  "explanation": "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "mitsuba-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mitsuba-profile から生成"
+   }
+  ],
+  "id": "qfb-family-mitsuba-profile",
+  "format": "fill-blank",
+  "prompt": "みつばの科名は（　）である。",
+  "acceptedAnswers": [
+   "セリ科"
+  ],
+  "explanation": "みつば: 科名はセリ科。利用部位は葉、茎。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "mitsuba-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mitsuba-profile から生成"
+   }
+  ],
+  "id": "qfb-level-mitsuba-profile",
+  "format": "fill-blank",
+  "prompt": "みつばは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "みつば: 科名はセリ科。利用部位は葉、茎。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "mitsuba-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mitsuba-profile から生成"
+   }
+  ],
+  "id": "qsc-part-mitsuba-profile",
+  "format": "single-choice",
+  "prompt": "みつばの利用部位はどれか。",
+  "choices": [
+   "葉、茎",
+   "果実、果皮、葉",
+   "地上部",
+   "根"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "みつば: 科名はセリ科。利用部位は葉、茎。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "lemonbalm-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 lemonbalm-profile から生成"
+   }
+  ],
+  "id": "qfb-family-lemonbalm-profile",
+  "format": "fill-blank",
+  "prompt": "レモンバームの科名は（　）である。",
+  "acceptedAnswers": [
+   "シソ科"
+  ],
+  "explanation": "レモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "lemonbalm-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 lemonbalm-profile から生成"
+   }
+  ],
+  "id": "qfb-level-lemonbalm-profile",
+  "format": "fill-blank",
+  "prompt": "レモンバームは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "レモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "lemonbalm-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 lemonbalm-profile から生成"
+   }
+  ],
+  "id": "qsc-part-lemonbalm-profile",
+  "format": "single-choice",
+  "prompt": "レモンバームの利用部位はどれか。",
+  "choices": [
+   "葉",
+   "鱗茎",
+   "地上部",
+   "樹皮"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "レモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "lemonbalm-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 lemonbalm-profile から生成"
+   }
+  ],
+  "id": "qti-alias-lemonbalm-profile",
+  "format": "term-input",
+  "prompt": "レモンバームの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "メリッサ"
+  ],
+  "explanation": "レモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "lemonbalm-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 lemonbalm-profile から生成"
+   }
+  ],
+  "id": "qti-rev-lemonbalm-profile",
+  "format": "term-input",
+  "prompt": "別名「メリッサ」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "レモンバーム"
+  ],
+  "explanation": "レモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "longpepper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 longpepper-profile から生成"
+   }
+  ],
+  "id": "qfb-family-longpepper-profile",
+  "format": "fill-blank",
+  "prompt": "ロングペッパーの科名は（　）である。",
+  "acceptedAnswers": [
+   "コショウ科"
+  ],
+  "explanation": "ロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "longpepper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 longpepper-profile から生成"
+   }
+  ],
+  "id": "qfb-level-longpepper-profile",
+  "format": "fill-blank",
+  "prompt": "ロングペッパーは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "ロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "longpepper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 longpepper-profile から生成"
+   }
+  ],
+  "id": "qsc-part-longpepper-profile",
+  "format": "single-choice",
+  "prompt": "ロングペッパーの利用部位はどれか。",
+  "choices": [
+   "葉および花穂、種子",
+   "果実",
+   "花の雌しべ",
+   "根茎、葉、茎"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "longpepper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 longpepper-profile から生成"
+   }
+  ],
+  "id": "qti-alias-longpepper-profile",
+  "format": "term-input",
+  "prompt": "ロングペッパーの別名を1つ答えよ。",
+  "acceptedAnswers": [
+   "ヒハツ",
+   "ヒバーチ",
+   "ピパーチ"
+  ],
+  "explanation": "ロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "longpepper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 longpepper-profile から生成"
+   }
+  ],
+  "id": "qti-rev-longpepper-profile",
+  "format": "term-input",
+  "prompt": "別名「ヒハツ」と呼ばれるスパイス＆ハーブの名称を答えよ。",
+  "acceptedAnswers": [
+   "ロングペッパー"
+  ],
+  "explanation": "ロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "quatreepices-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 quatreepices-profile から生成"
+   }
+  ],
+  "id": "qfb-level-quatreepices-profile",
+  "format": "fill-blank",
+  "prompt": "カトルエピスは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "カトルエピス: ミックススパイス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "zaatar-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 zaatar-profile から生成"
+   }
+  ],
+  "id": "qfb-level-zaatar-profile",
+  "format": "fill-blank",
+  "prompt": "ザーターは検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "ザーター: ミックススパイス。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "dukkah-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9684",
+    "bookPage": 108,
+    "locationNote": "本書 p.108（原本画像 IMG_9684.PNG）。原文照合 batch10 で照合済みの知識単位 dukkah-profile から生成"
+   }
+  ],
+  "id": "qfb-level-dukkah-profile",
+  "format": "fill-blank",
+  "prompt": "ダッカ(デュカ)は検定（　）級の対象である。",
+  "acceptedAnswers": [
+   "1"
+  ],
+  "explanation": "ダッカ(デュカ): ミックススパイス。検定1級の対象。"
+ }
+]

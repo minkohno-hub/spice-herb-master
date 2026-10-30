@@ -1,0 +1,193 @@
+#!/usr/bin/env node
+/**
+ * Claude版ブランチ（claude/build-learning-app）の構造化データを取り込む変換スクリプト（再実行可能）。
+ *
+ * 入力: <claude-data-dir>/units/*.json, <claude-data-dir>/spices/*.json
+ *   既定のデータ dir はリポジトリの隣の監査コピー ../spice-claude-audit/data。
+ *   引数または環境変数 SPICE_CLAUDE_DATA で上書きできる。
+ * 出力:
+ *   - src/data/knowledge/units/<元ファイル名>.json（取り込み元ファイル単位の分割JSON）
+ *   - src/data/knowledge/spices/<元ファイル名>.json（同上）
+ *   - src/data/knowledge.ts（上記JSONを import して従来と同じエクスポートを提供する薄い生成モジュール）
+ *   生成物は手で編集しないこと。
+ *   分割理由: GitHubコネクタの1ファイルあたりサイズ制約と、指令書第17章
+ *   「データは章・節単位で分割」に合わせるため。各分割JSONは 128KB (131072 bytes) 未満を
+ *   実測で保証し、超えるグループは連番ファイル（<名前>-1.json, <名前>-2.json, …）へ自動で再分割する。
+ *
+ * 変換ルール（docs/DECISIONS.md #10〜#13）:
+ * - 取り込み時点では全件 status = "unverified"（この後、照合 overrides の適用で昇格しうる）
+ * - 全件に source = { page, sourceUnitId, origin: "claude/build-learning-app" } を必須付与
+ * - units/*.json の units[] をそのまま知識単位化（kind: "unit"）
+ * - spices/*.json の各 spice について:
+ *   - facts[] を知識単位化（kind: "spice-fact"、親 spice の id/name/en/page を保持）
+ *   - profileOf を持たない spice は、属性（科名/原産地/利用部位/別名）から
+ *     プロフィール知識単位を1件生成（kind: "spice-profile"）。
+ *     これは Claude版 scripts/generate.mjs の知識単位定義（2. 図鑑の知識単位）を踏襲したもので、
+ *     Claude自己申告「知識単位545」は units 248 + spice facts 217 + profile 80 = 545 と実測で一致する。
+ * - q/a を持つ単位は draftQa（一問一答の下書き参照）として保持するが、正式問題としては登録しない。
+ * - 原文照合の結果は scripts/collation-overrides.json（単位ID → verified 昇格 / fact・q/a の修正 /
+ *   要確認フラグ / 理由）で上書き適用する。生成物（分割JSON）を手で書き換えず、照合のたびに
+ *   overrides へ追記して再実行すれば状態が再現される。overrides に未存在のIDがあればエラーで止まる。
+ */
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
+import { dirname, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const dataDir = resolve(process.argv[2] ?? process.env.SPICE_CLAUDE_DATA ?? join(repoRoot, "..", "spice-claude-audit", "data"));
+const ORIGIN = "claude/build-learning-app";
+const MAX_FILE_BYTES = 128 * 1024; // 131072 bytes。各分割JSONはこの値「未満」にする。
+const outDir = join(repoRoot, "src", "data", "knowledge");
+
+const readJson = (p) => JSON.parse(readFileSync(p, "utf8"));
+const listJson = (sub) => readdirSync(join(dataDir, sub)).filter((f) => f.endsWith(".json")).sort();
+
+// グループ単位（取り込み元ファイル単位）で知識単位を保持する。
+// groups: [{ group: "units/ch0-basics", units: [...] }]（取り込み順を保持し、連結すると従来と同じ並びになる）
+const groups = [];
+const allUnits = () => groups.flatMap((g) => g.units);
+const base = (kind, id, chapterId, sectionTitle, category, content, page, draftQa, spice) => ({
+  id, kind, status: "unverified", chapterId, sectionTitle, category, content,
+  source: { page, sourceUnitId: id, origin: ORIGIN },
+  draftQa: draftQa ?? null,
+  spice: spice ?? null,
+  collation: null,
+});
+
+// ---- 1. 一般章の知識単位（data/units/*.json）
+let unitsFromFiles = 0, unitQa = 0;
+for (const file of listJson("units")) {
+  const json = readJson(join(dataDir, "units", file));
+  const group = { group: `units/${file.replace(/\.json$/, "")}`, units: [] };
+  for (const u of json.units) {
+    group.units.push(base("unit", u.id, json.chapter, u.sec, u.cat, u.fact, u.p,
+      u.q ? { q: u.q, a: u.a, alt: u.alt ?? [] } : null, null));
+    unitsFromFiles++; if (u.q) unitQa++;
+  }
+  groups.push(group);
+}
+
+// ---- 2. 図鑑（data/spices/*.json）: プロフィール単位 + facts
+let spiceEntries = 0, spiceFacts = 0, spiceFactQa = 0, spiceProfiles = 0;
+for (const file of listJson("spices")) {
+  const json = readJson(join(dataDir, "spices", file));
+  const group = { group: `spices/${file.replace(/\.json$/, "")}`, units: [] };
+  for (const s of json.spices) {
+    spiceEntries++;
+    const spiceRef = { id: s.id, name: s.name, en: s.en ?? null };
+    if (!s.profileOf) {
+      const prof = [
+        s.family && `科名は${s.family}`,
+        s.origin && `原産地は${s.origin}`,
+        s.part && `利用部位は${s.part}`,
+        s.aliases?.length && `別名は${s.aliases.join("、")}`,
+      ].filter(Boolean).join("。");
+      const fact = `${s.name}: ${prof || "ミックススパイス"}。検定${(s.grades ?? []).join("・")}級の対象。`;
+      group.units.push(base("spice-profile", `${s.id}-profile`, "ch2", s.name, "profile", fact, s.p, null, spiceRef));
+      spiceProfiles++;
+    }
+    for (const f of s.facts ?? []) {
+      group.units.push(base("spice-fact", f.id, "ch2", s.name, "spice-fact", f.fact, s.p,
+        f.q ? { q: f.q, a: f.a, alt: f.alt ?? [] } : null, spiceRef));
+      spiceFacts++; if (f.q) spiceFactQa++;
+    }
+  }
+  groups.push(group);
+}
+
+// ---- 検証（変換時に最低限の整合性を担保。失敗したら生成しない）
+const units = allUnits();
+const ids = new Set();
+for (const u of units) {
+  if (ids.has(u.id)) throw new Error(`ID重複: ${u.id}`);
+  ids.add(u.id);
+  if (typeof u.source.page !== "number") throw new Error(`出典ページなし: ${u.id}`);
+  if (u.status !== "unverified") throw new Error(`status異常: ${u.id}`);
+}
+
+// ---- 原文照合の上書き適用（scripts/collation-overrides.json）
+const overridesPath = join(repoRoot, "scripts", "collation-overrides.json");
+const overridesDoc = existsSync(overridesPath) ? readJson(overridesPath) : { overrides: {} };
+const overrides = overridesDoc.overrides ?? {};
+const byId = new Map(units.map((u) => [u.id, u]));
+for (const [oid, ov] of Object.entries(overrides)) {
+  const u = byId.get(oid);
+  if (!u) throw new Error(`collation-overrides に存在しない単位ID: ${oid}`);
+  if (ov.content != null) u.content = ov.content;
+  if (ov.draftQa != null) u.draftQa = ov.draftQa;
+  u.collation = { batch: ov.batch ?? null, reason: ov.reason ?? "", needsReview: Boolean(ov.needsReview) };
+  // 要確認（原文に根拠なし等）は verified に昇格させない。
+  u.status = ov.needsReview ? "unverified" : (ov.status ?? "unverified");
+}
+for (const u of units) {
+  if (u.status !== "unverified" && u.status !== "verified") throw new Error(`status異常（適用後）: ${u.id}`);
+  if (u.status === "verified" && !u.collation) throw new Error(`verified なのに照合記録なし: ${u.id}`);
+}
+const verifiedTotal = units.filter((u) => u.status === "verified").length;
+const needsReviewTotal = units.filter((u) => u.collation?.needsReview).length;
+const draftQaTotal = units.filter((u) => u.draftQa).length;
+
+// ---- 分割書き出し（1ファイル < 128KB を実測保証。超える場合は自動で連番分割）
+const serialize = (arr) => JSON.stringify(arr, null, 1) + "\n";
+const splitGroup = (arr) => {
+  // そのまま収まれば1ファイル、超えれば再帰的に二分して全チャンクが上限未満になるまで分割する。
+  if (Buffer.byteLength(serialize(arr), "utf8") < MAX_FILE_BYTES || arr.length <= 1) return [arr];
+  const mid = Math.ceil(arr.length / 2);
+  return [...splitGroup(arr.slice(0, mid)), ...splitGroup(arr.slice(mid))];
+};
+
+rmSync(outDir, { recursive: true, force: true });
+const written = []; // { path（src/data/knowledge からの相対）, importPath, ident, count, bytes }
+const camel = (s) => s.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase());
+for (const g of groups) {
+  const chunks = splitGroup(g.units);
+  chunks.forEach((chunk, i) => {
+    const suffix = chunks.length > 1 ? `-${i + 1}` : "";
+    const rel = `${g.group}${suffix}.json`;
+    const body = serialize(chunk);
+    const bytes = Buffer.byteLength(body, "utf8");
+    if (bytes >= MAX_FILE_BYTES) throw new Error(`分割後もサイズ上限以上: ${rel} (${bytes} bytes)`);
+    const abs = join(outDir, rel);
+    mkdirSync(dirname(abs), { recursive: true });
+    writeFileSync(abs, body);
+    written.push({ rel, ident: camel(`${g.group}${suffix}`.replace(/\//g, "-")), count: chunk.length, bytes });
+  });
+}
+
+const meta = {
+  origin: ORIGIN,
+  generatedBy: "scripts/import-claude-data.mjs",
+  totalUnits: units.length,
+  fromUnitFiles: unitsFromFiles,
+  spiceEntries,
+  spiceFacts,
+  spiceProfiles,
+  draftQaTotal,
+  verifiedTotal,
+  needsReviewTotal,
+  overridesApplied: Object.keys(overrides).length,
+  files: written.map((w) => w.rel),
+  note: `verified ${verifiedTotal}件は原本画像との照合済み（scripts/collation-overrides.json 経由）。残りは unverified（構造検証済み・内容の人手照合は未実施）。正式問題は照合済み単位の draftQa から別途生成する（scripts/generate-questions.mjs）。データ本体は src/data/knowledge/ 配下の元ファイル単位の分割JSON。`,
+};
+
+const importLines = written.map((w) => `import ${w.ident} from "./knowledge/${w.rel}";`).join("\n");
+const spreadLines = written.map((w) => `  ...(${w.ident} as unknown as ImportedKnowledgeUnit[]),`).join("\n");
+const header = `/**
+ * 生成物（薄い集約モジュール） — 手で編集しないこと。再生成: node scripts/import-claude-data.mjs
+ * データ本体は src/data/knowledge/ 配下の分割JSON（取り込み元ファイル単位、全ファイル128KB未満）。
+ * 出典: Claude版ブランチ claude/build-learning-app の data/units/*.json と data/spices/*.json。
+ * status は原則 "unverified"。原本画像と照合済みの単位だけが、scripts/collation-overrides.json の
+ * 上書き適用により "verified" になる（現在 ${verifiedTotal} 件、要確認 ${needsReviewTotal} 件）。
+ * q/a は一問一答の下書き参照（draftQa）であり、正式問題ではない。
+ */
+import type { ImportedKnowledgeUnit } from "../domain/types";
+${importLines}
+export const KNOWLEDGE_IMPORT_META = ${JSON.stringify(meta, null, 2)} as const;
+export const IMPORTED_KNOWLEDGE_UNITS: ImportedKnowledgeUnit[] = [
+${spreadLines}
+];
+`;
+writeFileSync(join(repoRoot, "src/data/knowledge.ts"), header);
+
+for (const w of written) console.log(`  ${w.rel}: ${w.count}件 / ${w.bytes} bytes`);
+console.log(`取り込み完了: 合計 ${units.length} 件（units由来 ${unitsFromFiles} / spice facts ${spiceFacts} / spice profile ${spiceProfiles}、図鑑エントリ ${spiceEntries}種、q/a付き ${draftQaTotal}、照合上書き ${Object.keys(overrides).length} 件適用・verified ${verifiedTotal} 件・要確認 ${needsReviewTotal} 件）を ${written.length} ファイルに分割（全ファイル ${MAX_FILE_BYTES} bytes 未満）`);

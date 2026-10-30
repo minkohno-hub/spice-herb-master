@@ -1,0 +1,2162 @@
+[
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "ajwain-profile",
+   "grainsofparadise-profile",
+   "caper-profile",
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 ajwain-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 grainsofparadise-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ],
+  "id": "qmc-part-ajwain-profile",
+  "format": "multiple-choice",
+  "prompt": "利用部位が「種子」であるものをすべて選べ。",
+  "choices": [
+   "アジョワン",
+   "レモングラス",
+   "ケイパー",
+   "グレインズオブパラダイス"
+  ],
+  "correctChoiceIndexes": [
+   0,
+   3
+  ],
+  "explanation": "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。\nグレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。\nケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。\nレモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "anise-profile",
+   "caraway-profile",
+   "tarragon-profile",
+   "wasabi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9648",
+    "bookPage": 72,
+    "locationNote": "本書 p.72（原本画像 IMG_9648.PNG）。原文照合 batch1 で照合済みの知識単位 tarragon-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-profile から生成"
+   }
+  ],
+  "id": "qmc-part-anise-profile",
+  "format": "multiple-choice",
+  "prompt": "利用部位が「種子(植物学上は果実)」であるものをすべて選べ。",
+  "choices": [
+   "わさび",
+   "タラゴン",
+   "キャラウェイ",
+   "アニス"
+  ],
+  "correctChoiceIndexes": [
+   2,
+   3
+  ],
+  "explanation": "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。\nキャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。\nタラゴン: 科名はキク科。原産地はロシア南部、西アジア。利用部位は葉。別名はエストラゴン。検定1・2級の対象。\nわさび: 科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-dill",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "dill-profile",
+   "fennel-profile",
+   "nutmeg-profile",
+   "horseradish-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9651",
+    "bookPage": 75,
+    "locationNote": "本書 p.75（原本画像 IMG_9651.PNG）。原文照合 batch2 で照合済みの知識単位 dill-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9659",
+    "bookPage": 83,
+    "locationNote": "本書 p.83（原本画像 IMG_9659.PNG）。原文照合 batch4 で照合済みの知識単位 fennel-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9654",
+    "bookPage": 78,
+    "locationNote": "本書 p.78（原本画像 IMG_9654.PNG）。原文照合 batch3 で照合済みの知識単位 nutmeg-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9660",
+    "bookPage": 84,
+    "locationNote": "本書 p.84（原本画像 IMG_9660.PNG）。原文照合 batch4 で照合済みの知識単位 horseradish-profile から生成"
+   }
+  ],
+  "id": "qmc-part-dill-profile",
+  "format": "multiple-choice",
+  "prompt": "利用部位が「種子(植物学上は果実)、葉、茎」であるものをすべて選べ。",
+  "choices": [
+   "ホースラディッシュ",
+   "フェンネル",
+   "ナツメッグ/メース",
+   "ディル"
+  ],
+  "correctChoiceIndexes": [
+   1,
+   3
+  ],
+  "explanation": "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。\nフェンネル: 科名はセリ科。原産地は地中海沿岸。利用部位は種子(植物学上は果実)、葉、茎。別名は茴香(ういきょう)、小茴香(しょういきょう)。検定1・2級の対象。\nナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。\nホースラディッシュ: 科名はアブラナ科。原産地は諸説あるが東ヨーロッパ説が有力。利用部位は根。別名は西洋わさび、わさび大根、レホール。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "fenugreek-profile",
+   "mustard-profile",
+   "paprika-profile",
+   "juniper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 mustard-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   }
+  ],
+  "id": "qmc-part-fenugreek-profile",
+  "format": "multiple-choice",
+  "prompt": "利用部位が「種子、葉」であるものをすべて選べ。",
+  "choices": [
+   "ジュニパーベリー",
+   "フェネグリーク",
+   "マスタード",
+   "パプリカ"
+  ],
+  "correctChoiceIndexes": [
+   1,
+   2
+  ],
+  "explanation": "フェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。\nマスタード: 科名はアブラナ科。原産地は地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)。利用部位は種子、葉。別名はからし。検定1・2・3級の対象。\nパプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。\nジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "curryleaf-profile",
+   "dokudami-profile",
+   "caper-profile",
+   "paprika-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 curryleaf-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dokudami-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-profile から生成"
+   }
+  ],
+  "id": "qmc-part-curryleaf-profile",
+  "format": "multiple-choice",
+  "prompt": "利用部位が「葉」であるものをすべて選べ。",
+  "choices": [
+   "どくだみ",
+   "カレーリーフ",
+   "パプリカ",
+   "ケイパー"
+  ],
+  "correctChoiceIndexes": [
+   0,
+   1
+  ],
+  "explanation": "カレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。\nどくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。\nケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。\nパプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chervil",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "chervil-profile",
+   "cresson-profile",
+   "tamarind-profile",
+   "paprika-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9649",
+    "bookPage": 73,
+    "locationNote": "本書 p.73（原本画像 IMG_9649.PNG）。原文照合 batch1 で照合済みの知識単位 chervil-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cresson-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tamarind-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-profile から生成"
+   }
+  ],
+  "id": "qmc-part-chervil-profile",
+  "format": "multiple-choice",
+  "prompt": "利用部位が「葉、茎」であるものをすべて選べ。",
+  "choices": [
+   "パプリカ",
+   "チャービル",
+   "クレソン",
+   "タマリンド"
+  ],
+  "correctChoiceIndexes": [
+   1,
+   2
+  ],
+  "explanation": "チャービル: 科名はセリ科。原産地はヨーロッパ、西アジア。利用部位は葉、茎。別名はセルフィーユ、茴香芹(ういきょうぜり)。検定1・2級の対象。\nクレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。\nタマリンド: 科名はマメ科。利用部位は果実。検定1級の対象。\nパプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-marjoram-mustard",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "marjoram-profile",
+   "mint-profile",
+   "allspice-profile",
+   "nigella-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 marjoram-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9663",
+    "bookPage": 87,
+    "locationNote": "本書 p.87（原本画像 IMG_9663.PNG）。原文照合 batch5 で照合済みの知識単位 mint-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 nigella-profile から生成"
+   }
+  ],
+  "id": "qmc-part-marjoram-profile",
+  "format": "multiple-choice",
+  "prompt": "利用部位が「葉および花穂」であるものをすべて選べ。",
+  "choices": [
+   "オールスパイス",
+   "ニゲラ",
+   "ミント",
+   "マジョラム"
+  ],
+  "correctChoiceIndexes": [
+   2,
+   3
+  ],
+  "explanation": "マジョラム: 科名はシソ科。原産地は地中海東部沿岸。利用部位は葉および花穂。別名はマヨラナ、花薄荷(はなはっか)。検定1・2級の対象。\nミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。\nオールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。\nニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "caper-profile",
+   "clove-profile",
+   "asafoetida-profile",
+   "fenugreek-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9635",
+    "bookPage": 60,
+    "locationNote": "本書 p.60（原本画像 IMG_9635.PNG）。原文照合 batch19 で照合済みの知識単位 clove-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   }
+  ],
+  "id": "qmc-part-caper-profile",
+  "format": "multiple-choice",
+  "prompt": "利用部位が「蕾」であるものをすべて選べ。",
+  "choices": [
+   "ケイパー",
+   "アサフェティダ",
+   "フェネグリーク",
+   "クローブ"
+  ],
+  "correctChoiceIndexes": [
+   0,
+   3
+  ],
+  "explanation": "ケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。\nクローブ: 科名はフトモモ科。原産地はインドネシア(マルク諸島)。利用部位は蕾。別名は丁子(ちょうじ)、丁香(ちょうこう)、百里香(ひゃくりこう)。検定1・2・3級の対象。\nアサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。\nフェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-basil",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "basil-profile",
+   "cardamom-profile",
+   "paprika-profile",
+   "garlic-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9655",
+    "bookPage": 79,
+    "locationNote": "本書 p.79（原本画像 IMG_9655.PNG）。原文照合 batch3 で照合済みの知識単位 basil-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   }
+  ],
+  "id": "qmc-origin-basil-profile",
+  "format": "multiple-choice",
+  "prompt": "原産地が「インド」であるものをすべて選べ。",
+  "choices": [
+   "パプリカ",
+   "カルダモン",
+   "バジル",
+   "ガーリック"
+  ],
+  "correctChoiceIndexes": [
+   1,
+   2
+  ],
+  "explanation": "バジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。\nカルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。\nパプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。\nガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-clove",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "clove-profile",
+   "nutmeg-profile",
+   "caraway-profile",
+   "lemongrass-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9635",
+    "bookPage": 60,
+    "locationNote": "本書 p.60（原本画像 IMG_9635.PNG）。原文照合 batch19 で照合済みの知識単位 clove-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9654",
+    "bookPage": 78,
+    "locationNote": "本書 p.78（原本画像 IMG_9654.PNG）。原文照合 batch3 で照合済みの知識単位 nutmeg-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   }
+  ],
+  "id": "qmc-origin-clove-profile",
+  "format": "multiple-choice",
+  "prompt": "原産地が「インドネシア(マルク諸島)」であるものをすべて選べ。",
+  "choices": [
+   "レモングラス",
+   "ナツメッグ/メース",
+   "クローブ",
+   "キャラウェイ"
+  ],
+  "correctChoiceIndexes": [
+   1,
+   2
+  ],
+  "explanation": "クローブ: 科名はフトモモ科。原産地はインドネシア(マルク諸島)。利用部位は蕾。別名は丁子(ちょうじ)、丁香(ちょうこう)、百里香(ひゃくりこう)。検定1・2・3級の対象。\nナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。\nキャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。\nレモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-dill",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "dill-profile",
+   "saffron-profile",
+   "mint-profile",
+   "turmeric-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9651",
+    "bookPage": 75,
+    "locationNote": "本書 p.75（原本画像 IMG_9651.PNG）。原文照合 batch2 で照合済みの知識単位 dill-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9639",
+    "bookPage": 64,
+    "locationNote": "本書 p.64（原本画像 IMG_9639.PNG）。原文照合 batch20 で照合済みの知識単位 saffron-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9663",
+    "bookPage": 87,
+    "locationNote": "本書 p.87（原本画像 IMG_9663.PNG）。原文照合 batch5 で照合済みの知識単位 mint-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 turmeric-profile から生成"
+   }
+  ],
+  "id": "qmc-origin-dill-profile",
+  "format": "multiple-choice",
+  "prompt": "原産地が「南ヨーロッパ、西アジア」であるものをすべて選べ。",
+  "choices": [
+   "サフラン",
+   "ミント",
+   "ターメリック",
+   "ディル"
+  ],
+  "correctChoiceIndexes": [
+   0,
+   3
+  ],
+  "explanation": "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。\nサフラン: 科名はアヤメ科。原産地は南ヨーロッパ、西アジア。利用部位は花の雌しべ。別名はサフランクロッカス、蕃紅花(ばんこうか)。検定1・2・3級の対象。\nミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。\nターメリック: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はうこん、秋うこん、インディアンサフラン。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-fennel",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "fennel-profile",
+   "oregano-profile",
+   "tarragon-profile",
+   "mint-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9659",
+    "bookPage": 83,
+    "locationNote": "本書 p.83（原本画像 IMG_9659.PNG）。原文照合 batch4 で照合済みの知識単位 fennel-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9648",
+    "bookPage": 72,
+    "locationNote": "本書 p.72（原本画像 IMG_9648.PNG）。原文照合 batch1 で照合済みの知識単位 tarragon-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9663",
+    "bookPage": 87,
+    "locationNote": "本書 p.87（原本画像 IMG_9663.PNG）。原文照合 batch5 で照合済みの知識単位 mint-profile から生成"
+   }
+  ],
+  "id": "qmc-origin-fennel-profile",
+  "format": "multiple-choice",
+  "prompt": "原産地が「地中海沿岸」であるものをすべて選べ。",
+  "choices": [
+   "ミント",
+   "タラゴン",
+   "オレガノ",
+   "フェンネル"
+  ],
+  "correctChoiceIndexes": [
+   2,
+   3
+  ],
+  "explanation": "フェンネル: 科名はセリ科。原産地は地中海沿岸。利用部位は種子(植物学上は果実)、葉、茎。別名は茴香(ういきょう)、小茴香(しょういきょう)。検定1・2級の対象。\nオレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。\nタラゴン: 科名はキク科。原産地はロシア南部、西アジア。利用部位は葉。別名はエストラゴン。検定1・2級の対象。\nミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-coriander",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "coriander-profile",
+   "rucola-profile",
+   "pepper-profile",
+   "basil-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9638",
+    "bookPage": 63,
+    "locationNote": "本書 p.63（原本画像 IMG_9638.PNG）。原文照合 batch19 で照合済みの知識単位 coriander-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9664",
+    "bookPage": 88,
+    "locationNote": "本書 p.88（原本画像 IMG_9664.PNG）。原文照合 batch5 で照合済みの知識単位 rucola-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9636",
+    "bookPage": 61,
+    "locationNote": "本書 p.61（原本画像 IMG_9636.PNG）。原文照合 batch19 で照合済みの知識単位 pepper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9655",
+    "bookPage": 79,
+    "locationNote": "本書 p.79（原本画像 IMG_9655.PNG）。原文照合 batch3 で照合済みの知識単位 basil-profile から生成"
+   }
+  ],
+  "id": "qmc-origin-coriander-profile",
+  "format": "multiple-choice",
+  "prompt": "原産地が「地中海沿岸、西アジア」であるものをすべて選べ。",
+  "choices": [
+   "ルッコラ",
+   "こしょう",
+   "コリアンダー",
+   "バジル"
+  ],
+  "correctChoiceIndexes": [
+   0,
+   2
+  ],
+  "explanation": "コリアンダー: 科名はセリ科。原産地は地中海沿岸、西アジア。利用部位は葉、茎、種子(植物学上は果実)、根。別名はコエンドロ、シラントロ、香菜(シャンツァイ)、パクチー、カメムシソウ。検定1・2・3級の対象。\nルッコラ: 科名はアブラナ科。原産地は地中海沿岸、西アジア。利用部位は地上部。別名はロケット、アルグラ、きばなすずしろ。検定1・2級の対象。\nこしょう: 科名はコショウ科。原産地はインド(マラバル地方)。利用部位は果実。別名はペッパー。検定1・2・3級の対象。\nバジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-ginger",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "ginger-profile",
+   "turmeric-profile",
+   "sansho-profile",
+   "cumin-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9643",
+    "bookPage": 68,
+    "locationNote": "本書 p.68（原本画像 IMG_9643.PNG）。原文照合 batch21 で照合済みの知識単位 ginger-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 turmeric-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9640",
+    "bookPage": 65,
+    "locationNote": "本書 p.65（原本画像 IMG_9640.PNG）。原文照合 batch20 で照合済みの知識単位 sansho-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   }
+  ],
+  "id": "qmc-origin-ginger-profile",
+  "format": "multiple-choice",
+  "prompt": "原産地が「熱帯アジア」であるものをすべて選べ。",
+  "choices": [
+   "ターメリック",
+   "しょうが",
+   "山椒/花椒",
+   "クミン"
+  ],
+  "correctChoiceIndexes": [
+   0,
+   1
+  ],
+  "explanation": "しょうが: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。\nターメリック: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はうこん、秋うこん、インディアンサフラン。検定1・2・3級の対象。\n山椒/花椒: 科名はミカン科。原産地は中国、日本、朝鮮半島。利用部位は果実、果皮、葉。別名ははじかみ(山椒)、中国山椒、華北山椒、ファガラ、セシュアンペッパー(花椒)。検定1・2・3級の対象。\nクミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chili",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "chili-profile",
+   "paprika-profile",
+   "laurel-profile",
+   "mustard-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9652",
+    "bookPage": 76,
+    "locationNote": "本書 p.76（原本画像 IMG_9652.PNG）。原文照合 batch2 で照合済みの知識単位 chili-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 mustard-profile から生成"
+   }
+  ],
+  "id": "qmc-origin-chili-profile",
+  "format": "multiple-choice",
+  "prompt": "原産地が「熱帯アメリカ」であるものをすべて選べ。",
+  "choices": [
+   "パプリカ",
+   "ローレル",
+   "マスタード",
+   "唐辛子"
+  ],
+  "correctChoiceIndexes": [
+   0,
+   3
+  ],
+  "explanation": "唐辛子: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実、葉。別名はチリペッパー、チリ、カイエンペッパー(品種の一部)、鷹の爪(品種の一部)。検定1・2・3級の対象。\nパプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。\nローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。\nマスタード: 科名はアブラナ科。原産地は地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)。利用部位は種子、葉。別名はからし。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "ajwain-profile",
+   "allspice-profile",
+   "amchur-profile",
+   "basil-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 ajwain-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amchur-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9655",
+    "bookPage": 79,
+    "locationNote": "本書 p.79（原本画像 IMG_9655.PNG）。原文照合 batch3 で照合済みの知識単位 basil-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-ajwain-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: アジョワン・オールスパイス・マンゴーパウダー・バジル）。",
+  "matchingPairs": [
+   {
+    "left": "アジョワン",
+    "right": "セリ科"
+   },
+   {
+    "left": "オールスパイス",
+    "right": "フトモモ科"
+   },
+   {
+    "left": "マンゴーパウダー",
+    "right": "ウルシ科"
+   },
+   {
+    "left": "バジル",
+    "right": "シソ科"
+   }
+  ],
+  "explanation": "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。\nオールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。\nマンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。\nバジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-anise",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "anise-profile",
+   "caper-profile",
+   "cardamom-profile",
+   "chili-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9652",
+    "bookPage": 76,
+    "locationNote": "本書 p.76（原本画像 IMG_9652.PNG）。原文照合 batch2 で照合済みの知識単位 chili-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-anise-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: アニス・ケイパー・カルダモン・唐辛子）。",
+  "matchingPairs": [
+   {
+    "left": "アニス",
+    "right": "セリ科"
+   },
+   {
+    "left": "ケイパー",
+    "right": "フウチョウボク科"
+   },
+   {
+    "left": "カルダモン",
+    "right": "ショウガ科"
+   },
+   {
+    "left": "唐辛子",
+    "right": "ナス科"
+   }
+  ],
+  "explanation": "アニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。\nケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。\nカルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。\n唐辛子: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実、葉。別名はチリペッパー、チリ、カイエンペッパー(品種の一部)、鷹の爪(品種の一部)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "asafoetida-profile",
+   "chives-profile",
+   "cinnamon-profile",
+   "clove-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9650",
+    "bookPage": 74,
+    "locationNote": "本書 p.74（原本画像 IMG_9650.PNG）。原文照合 batch2 で照合済みの知識単位 chives-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9642",
+    "bookPage": 67,
+    "locationNote": "本書 p.67（原本画像 IMG_9642.PNG）。原文照合 batch20 で照合済みの知識単位 cinnamon-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9635",
+    "bookPage": 60,
+    "locationNote": "本書 p.60（原本画像 IMG_9635.PNG）。原文照合 batch19 で照合済みの知識単位 clove-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-asafoetida-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: アサフェティダ・チャイブ・シナモン/カシア・クローブ）。",
+  "matchingPairs": [
+   {
+    "left": "アサフェティダ",
+    "right": "セリ科"
+   },
+   {
+    "left": "チャイブ",
+    "right": "ヒガンバナ科"
+   },
+   {
+    "left": "シナモン/カシア",
+    "right": "クスノキ科"
+   },
+   {
+    "left": "クローブ",
+    "right": "フトモモ科"
+   }
+  ],
+  "explanation": "アサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。\nチャイブ: 科名はヒガンバナ科。原産地は中央アジア、温帯地域。利用部位は花、葉。別名はシブレット、西洋あさつき、えぞねぎ。検定1・2級の対象。\nシナモン/カシア: 科名はクスノキ科。原産地はスリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)。利用部位は樹皮。別名は肉桂(にっけい)、桂皮(けいひ)。検定1・2・3級の対象。\nクローブ: 科名はフトモモ科。原産地はインドネシア(マルク諸島)。利用部位は蕾。別名は丁子(ちょうじ)、丁香(ちょうこう)、百里香(ひゃくりこう)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-caraway",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "caraway-profile",
+   "cresson-profile",
+   "cubeb-profile",
+   "curryleaf-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cresson-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cubeb-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 curryleaf-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-caraway-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: キャラウェイ・クレソン・クベバ・カレーリーフ）。",
+  "matchingPairs": [
+   {
+    "left": "キャラウェイ",
+    "right": "セリ科"
+   },
+   {
+    "left": "クレソン",
+    "right": "アブラナ科"
+   },
+   {
+    "left": "クベバ",
+    "right": "コショウ科"
+   },
+   {
+    "left": "カレーリーフ",
+    "right": "ミカン科"
+   }
+  ],
+  "explanation": "キャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。\nクレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。\nクベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。\nカレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "celery-profile",
+   "dokudami-profile",
+   "fenugreek-profile",
+   "galangal-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 celery-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dokudami-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 galangal-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-celery-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: セロリー・どくだみ・フェネグリーク・ガランガル）。",
+  "matchingPairs": [
+   {
+    "left": "セロリー",
+    "right": "セリ科"
+   },
+   {
+    "left": "どくだみ",
+    "right": "ドクダミ科"
+   },
+   {
+    "left": "フェネグリーク",
+    "right": "マメ科"
+   },
+   {
+    "left": "ガランガル",
+    "right": "ショウガ科"
+   }
+  ],
+  "explanation": "セロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。\nどくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。\nフェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。\nガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chervil",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "chervil-profile",
+   "gardenia-profile",
+   "garlic-profile",
+   "ginger-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9649",
+    "bookPage": 73,
+    "locationNote": "本書 p.73（原本画像 IMG_9649.PNG）。原文照合 batch1 で照合済みの知識単位 chervil-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9643",
+    "bookPage": 68,
+    "locationNote": "本書 p.68（原本画像 IMG_9643.PNG）。原文照合 batch21 で照合済みの知識単位 ginger-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-chervil-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: チャービル・くちなし・ガーリック・しょうが）。",
+  "matchingPairs": [
+   {
+    "left": "チャービル",
+    "right": "セリ科"
+   },
+   {
+    "left": "くちなし",
+    "right": "アカネ科"
+   },
+   {
+    "left": "ガーリック",
+    "right": "ヒガンバナ科"
+   },
+   {
+    "left": "しょうが",
+    "right": "ショウガ科"
+   }
+  ],
+  "explanation": "チャービル: 科名はセリ科。原産地はヨーロッパ、西アジア。利用部位は葉、茎。別名はセルフィーユ、茴香芹(ういきょうぜり)。検定1・2級の対象。\nくちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。\nガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。\nしょうが: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-coriander",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "coriander-profile",
+   "grainsofparadise-profile",
+   "horseradish-profile",
+   "juniper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9638",
+    "bookPage": 63,
+    "locationNote": "本書 p.63（原本画像 IMG_9638.PNG）。原文照合 batch19 で照合済みの知識単位 coriander-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 grainsofparadise-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9660",
+    "bookPage": 84,
+    "locationNote": "本書 p.84（原本画像 IMG_9660.PNG）。原文照合 batch4 で照合済みの知識単位 horseradish-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-coriander-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: コリアンダー・グレインズオブパラダイス・ホースラディッシュ・ジュニパーベリー）。",
+  "matchingPairs": [
+   {
+    "left": "コリアンダー",
+    "right": "セリ科"
+   },
+   {
+    "left": "グレインズオブパラダイス",
+    "right": "ショウガ科"
+   },
+   {
+    "left": "ホースラディッシュ",
+    "right": "アブラナ科"
+   },
+   {
+    "left": "ジュニパーベリー",
+    "right": "ヒノキ科"
+   }
+  ],
+  "explanation": "コリアンダー: 科名はセリ科。原産地は地中海沿岸、西アジア。利用部位は葉、茎、種子(植物学上は果実)、根。別名はコエンドロ、シラントロ、香菜(シャンツァイ)、パクチー、カメムシソウ。検定1・2・3級の対象。\nグレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。\nホースラディッシュ: 科名はアブラナ科。原産地は諸説あるが東ヨーロッパ説が有力。利用部位は根。別名は西洋わさび、わさび大根、レホール。検定1・2級の対象。\nジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cumin",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "cumin-profile",
+   "kaffirlime-profile",
+   "laurel-profile",
+   "lemonbalm-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaffirlime-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9667",
+    "bookPage": 91,
+    "locationNote": "本書 p.91（原本画像 IMG_9667.PNG）。原文照合 batch6 で照合済みの知識単位 laurel-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 lemonbalm-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-cumin-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: クミン・カフェライム・ローレル・レモンバーム）。",
+  "matchingPairs": [
+   {
+    "left": "クミン",
+    "right": "セリ科"
+   },
+   {
+    "left": "カフェライム",
+    "right": "ミカン科"
+   },
+   {
+    "left": "ローレル",
+    "right": "クスノキ科"
+   },
+   {
+    "left": "レモンバーム",
+    "right": "シソ科"
+   }
+  ],
+  "explanation": "クミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。\nカフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。\nローレル: 科名はクスノキ科。原産地は西アジア、ヨーロッパ南部。利用部位は葉。別名は月桂樹、ベイリーブス、ローリエ。検定1・2・3級の対象。\nレモンバーム: 科名はシソ科。利用部位は葉。別名はメリッサ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-dill",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "dill-profile",
+   "lemongrass-profile",
+   "licorice-profile",
+   "longpepper-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9651",
+    "bookPage": 75,
+    "locationNote": "本書 p.75（原本画像 IMG_9651.PNG）。原文照合 batch2 で照合済みの知識単位 dill-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9665",
+    "bookPage": 89,
+    "locationNote": "本書 p.89（原本画像 IMG_9665.PNG）。原文照合 batch5 で照合済みの知識単位 lemongrass-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 licorice-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9683",
+    "bookPage": 107,
+    "locationNote": "本書 p.107（原本画像 IMG_9683.PNG）。原文照合 batch10 で照合済みの知識単位 longpepper-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-dill-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: ディル・レモングラス・かんぞう(甘草)・ロングペッパー）。",
+  "matchingPairs": [
+   {
+    "left": "ディル",
+    "right": "セリ科"
+   },
+   {
+    "left": "レモングラス",
+    "right": "イネ科"
+   },
+   {
+    "left": "かんぞう(甘草)",
+    "right": "マメ科"
+   },
+   {
+    "left": "ロングペッパー",
+    "right": "コショウ科"
+   }
+  ],
+  "explanation": "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。\nレモングラス: 科名はイネ科。原産地はインド、熱帯アジア。利用部位は地上部。別名はレモンガヤ、レモンソウ、タクライ、セイラ。検定1・2級の対象。\nかんぞう(甘草): 科名はマメ科。利用部位は根、走根。別名はリコリス、リカリス。検定1級の対象。\nロングペッパー: 科名はコショウ科。利用部位は果実。別名はヒハツ、ヒバーチ、ピパーチ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-fennel",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "fennel-profile",
+   "mache-profile",
+   "marjoram-profile",
+   "mustard-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9659",
+    "bookPage": 83,
+    "locationNote": "本書 p.83（原本画像 IMG_9659.PNG）。原文照合 batch4 で照合済みの知識単位 fennel-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mache-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 marjoram-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9661",
+    "bookPage": 85,
+    "locationNote": "本書 p.85（原本画像 IMG_9661.PNG）。原文照合 batch4 で照合済みの知識単位 mustard-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-fennel-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: フェンネル・マーシュ・マジョラム・マスタード）。",
+  "matchingPairs": [
+   {
+    "left": "フェンネル",
+    "right": "セリ科"
+   },
+   {
+    "left": "マーシュ",
+    "right": "スイカズラ科"
+   },
+   {
+    "left": "マジョラム",
+    "right": "シソ科"
+   },
+   {
+    "left": "マスタード",
+    "right": "アブラナ科"
+   }
+  ],
+  "explanation": "フェンネル: 科名はセリ科。原産地は地中海沿岸。利用部位は種子(植物学上は果実)、葉、茎。別名は茴香(ういきょう)、小茴香(しょういきょう)。検定1・2級の対象。\nマーシュ: 科名はスイカズラ科。利用部位は葉、茎。別名はコーンサラダ。検定1級の対象。\nマジョラム: 科名はシソ科。原産地は地中海東部沿岸。利用部位は葉および花穂。別名はマヨラナ、花薄荷(はなはっか)。検定1・2級の対象。\nマスタード: 科名はアブラナ科。原産地は地中海沿岸(白からし)、インド・中国(和がらし)、中近東(黒からし)。利用部位は種子、葉。別名はからし。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-mint",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "mint-profile",
+   "mitsuba-profile",
+   "nigella-profile",
+   "nutmeg-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9663",
+    "bookPage": 87,
+    "locationNote": "本書 p.87（原本画像 IMG_9663.PNG）。原文照合 batch5 で照合済みの知識単位 mint-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 mitsuba-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 nigella-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9654",
+    "bookPage": 78,
+    "locationNote": "本書 p.78（原本画像 IMG_9654.PNG）。原文照合 batch3 で照合済みの知識単位 nutmeg-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-mint-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: ミント・みつば・ニゲラ・ナツメッグ/メース）。",
+  "matchingPairs": [
+   {
+    "left": "ミント",
+    "right": "シソ科"
+   },
+   {
+    "left": "みつば",
+    "right": "セリ科"
+   },
+   {
+    "left": "ニゲラ",
+    "right": "キンポウゲ科"
+   },
+   {
+    "left": "ナツメッグ/メース",
+    "right": "ニクズク科"
+   }
+  ],
+  "explanation": "ミント: 科名はシソ科。原産地はヨーロッパ、アジア。利用部位は葉および花穂。別名は薄荷(はっか)。検定1・2・3級の対象。\nみつば: 科名はセリ科。利用部位は葉、茎。検定1級の対象。\nニゲラ: 科名はキンポウゲ科。利用部位は種子。別名はブラッククミン、カロンジ。検定1級の対象。\nナツメッグ/メース: 科名はニクズク科。原産地はインドネシア(マルク諸島)。利用部位は種子の仁(ナツメッグ)、仮種皮(メース)。別名はにくずく(ナツメッグ)、にくずくか(メース)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-oregano",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "oregano-profile",
+   "pandan-profile",
+   "paprika-profile",
+   "parsley-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9629",
+    "bookPage": 54,
+    "locationNote": "本書 p.54（原本画像 IMG_9629.PNG）。原文照合 batch17 で照合済みの知識単位 oregano-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 pandan-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9658",
+    "bookPage": 82,
+    "locationNote": "本書 p.82（原本画像 IMG_9658.PNG）。原文照合 batch4 で照合済みの知識単位 paprika-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9656",
+    "bookPage": 80,
+    "locationNote": "本書 p.80（原本画像 IMG_9656.PNG）。原文照合 batch3 で照合済みの知識単位 parsley-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-oregano-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: オレガノ・パンダンリーフ・パプリカ・パセリ）。",
+  "matchingPairs": [
+   {
+    "left": "オレガノ",
+    "right": "シソ科"
+   },
+   {
+    "left": "パンダンリーフ",
+    "right": "タコノキ科"
+   },
+   {
+    "left": "パプリカ",
+    "right": "ナス科"
+   },
+   {
+    "left": "パセリ",
+    "right": "セリ科"
+   }
+  ],
+  "explanation": "オレガノ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名は花薄荷(はなはっか)、ワイルドマジョラム。検定1・2・3級の対象。\nパンダンリーフ: 科名はタコノキ科。利用部位は葉。別名はニオイタコノキ、ニオイアダン、ランペ。検定1級の対象。\nパプリカ: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実(種子を除いた果肉部)。別名はハンガリアンペッパー、スパニッシュペッパー、ピメントン、甘唐辛子。検定1・2級の対象。\nパセリ: 科名はセリ科。原産地は地中海沿岸。利用部位は葉、茎。別名はオランダ芹(モスカールド種をさすことが多い)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-pepper",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "pepper-profile",
+   "poppyseed-profile",
+   "rosemary-profile",
+   "rucola-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9636",
+    "bookPage": 61,
+    "locationNote": "本書 p.61（原本画像 IMG_9636.PNG）。原文照合 batch19 で照合済みの知識単位 pepper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 poppyseed-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9666",
+    "bookPage": 90,
+    "locationNote": "本書 p.90（原本画像 IMG_9666.PNG）。原文照合 batch5 で照合済みの知識単位 rosemary-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9664",
+    "bookPage": 88,
+    "locationNote": "本書 p.88（原本画像 IMG_9664.PNG）。原文照合 batch5 で照合済みの知識単位 rucola-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-pepper-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: こしょう・けしの実・ローズマリー・ルッコラ）。",
+  "matchingPairs": [
+   {
+    "left": "こしょう",
+    "right": "コショウ科"
+   },
+   {
+    "left": "けしの実",
+    "right": "ケシ科"
+   },
+   {
+    "left": "ローズマリー",
+    "right": "シソ科"
+   },
+   {
+    "left": "ルッコラ",
+    "right": "アブラナ科"
+   }
+  ],
+  "explanation": "こしょう: 科名はコショウ科。原産地はインド(マラバル地方)。利用部位は果実。別名はペッパー。検定1・2・3級の対象。\nけしの実: 科名はケシ科。利用部位は種子。別名はポピーシード。検定1級の対象。\nローズマリー: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はまんねんろう。検定1・2・3級の対象。\nルッコラ: 科名はアブラナ科。原産地は地中海沿岸、西アジア。利用部位は地上部。別名はロケット、アルグラ、きばなすずしろ。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "safflower-profile",
+   "saffron-profile",
+   "sage-profile",
+   "sansho-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 safflower-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9639",
+    "bookPage": 64,
+    "locationNote": "本書 p.64（原本画像 IMG_9639.PNG）。原文照合 batch20 で照合済みの知識単位 saffron-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 sage-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9640",
+    "bookPage": 65,
+    "locationNote": "本書 p.65（原本画像 IMG_9640.PNG）。原文照合 batch20 で照合済みの知識単位 sansho-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-safflower-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: サフラワー・サフラン・セージ・山椒/花椒）。",
+  "matchingPairs": [
+   {
+    "left": "サフラワー",
+    "right": "キク科"
+   },
+   {
+    "left": "サフラン",
+    "right": "アヤメ科"
+   },
+   {
+    "left": "セージ",
+    "right": "シソ科"
+   },
+   {
+    "left": "山椒/花椒",
+    "right": "ミカン科"
+   }
+  ],
+  "explanation": "サフラワー: 科名はキク科。利用部位は花弁、種子。別名はべにばな。検定1級の対象。\nサフラン: 科名はアヤメ科。原産地は南ヨーロッパ、西アジア。利用部位は花の雌しべ。別名はサフランクロッカス、蕃紅花(ばんこうか)。検定1・2・3級の対象。\nセージ: 科名はシソ科。原産地は地中海沿岸。利用部位は葉および花穂。別名はサルビア、薬用サルビア。検定1・2・3級の対象。\n山椒/花椒: 科名はミカン科。原産地は中国、日本、朝鮮半島。利用部位は果実、果皮、葉。別名ははじかみ(山椒)、中国山椒、華北山椒、ファガラ、セシュアンペッパー(花椒)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "savory-profile",
+   "sorrel-profile",
+   "staranise-profile",
+   "sumac-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 savory-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sorrel-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9644",
+    "bookPage": 69,
+    "locationNote": "本書 p.69（原本画像 IMG_9644.PNG）。原文照合 batch21 で照合済みの知識単位 staranise-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 sumac-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-savory-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: サボリー・ソレル・スターアニス・スマック）。",
+  "matchingPairs": [
+   {
+    "left": "サボリー",
+    "right": "シソ科"
+   },
+   {
+    "left": "ソレル",
+    "right": "タデ科"
+   },
+   {
+    "left": "スターアニス",
+    "right": "マツブサ科"
+   },
+   {
+    "left": "スマック",
+    "right": "ウルシ科"
+   }
+  ],
+  "explanation": "サボリー: 科名はシソ科。利用部位は葉および花穂。別名はセイボリー。検定1級の対象。\nソレル: 科名はタデ科。利用部位は葉。別名はオゼイユ。検定1級の対象。\nスターアニス: 科名はマツブサ科。原産地は中国、ベトナム。利用部位は果実。別名は八角(はっかく)、大茴香(だいういきょう)、パージャオ、ポイカッ、チャイニーズアニス、トウシキミ。検定1・2級の対象。\nスマック: 科名はウルシ科。利用部位は果実。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "shiso-profile",
+   "tade-profile",
+   "tamarind-profile",
+   "tarragon-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 shiso-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tade-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 tamarind-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9648",
+    "bookPage": 72,
+    "locationNote": "本書 p.72（原本画像 IMG_9648.PNG）。原文照合 batch1 で照合済みの知識単位 tarragon-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-shiso-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: しそ(紫蘇)・たで(蓼)・タマリンド・タラゴン）。",
+  "matchingPairs": [
+   {
+    "left": "しそ(紫蘇)",
+    "right": "シソ科"
+   },
+   {
+    "left": "たで(蓼)",
+    "right": "タデ科"
+   },
+   {
+    "left": "タマリンド",
+    "right": "マメ科"
+   },
+   {
+    "left": "タラゴン",
+    "right": "キク科"
+   }
+  ],
+  "explanation": "しそ(紫蘇): 科名はシソ科。利用部位は葉および花穂、種子。別名は大葉(青じその葉)。検定1級の対象。\nたで(蓼): 科名はタデ科。利用部位は葉(芽)。検定1級の対象。\nタマリンド: 科名はマメ科。利用部位は果実。検定1級の対象。\nタラゴン: 科名はキク科。原産地はロシア南部、西アジア。利用部位は葉。別名はエストラゴン。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-thyme",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "thyme-profile",
+   "turmeric-profile",
+   "vanilla-profile",
+   "wasabi-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9646",
+    "bookPage": 71,
+    "locationNote": "本書 p.71（原本画像 IMG_9646.PNG）。原文照合 batch1 で照合済みの知識単位 thyme-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9645",
+    "bookPage": 70,
+    "locationNote": "本書 p.70（原本画像 IMG_9645.PNG）。原文照合 batch1 で照合済みの知識単位 turmeric-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9657",
+    "bookPage": 81,
+    "locationNote": "本書 p.81（原本画像 IMG_9657.PNG）。原文照合 batch3 で照合済みの知識単位 vanilla-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9668",
+    "bookPage": 92,
+    "locationNote": "本書 p.92（原本画像 IMG_9668.PNG）。原文照合 batch6 で照合済みの知識単位 wasabi-profile から生成"
+   }
+  ],
+  "id": "qmatch-family-thyme-profile",
+  "format": "matching",
+  "prompt": "次の名称と科名を組み合わせよ（対象: タイム・ターメリック・バニラ・わさび）。",
+  "matchingPairs": [
+   {
+    "left": "タイム",
+    "right": "シソ科"
+   },
+   {
+    "left": "ターメリック",
+    "right": "ショウガ科"
+   },
+   {
+    "left": "バニラ",
+    "right": "ラン科"
+   },
+   {
+    "left": "わさび",
+    "right": "アブラナ科"
+   }
+  ],
+  "explanation": "タイム: 科名はシソ科。原産地は南ヨーロッパ。利用部位は葉および花穂。別名は立麝香草(たちじゃこうそう)。検定1・2・3級の対象。\nターメリック: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はうこん、秋うこん、インディアンサフラン。検定1・2・3級の対象。\nバニラ: 科名はラン科。原産地は中央アメリカ。利用部位は果実(さや)。別名はワニラ。検定1・2級の対象。\nわさび: 科名はアブラナ科。原産地は日本。利用部位は根茎、葉、茎。別名は山葵(わさび)、日本わさび、沢わさび。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "ajwain-profile",
+   "allspice-profile",
+   "anise-profile",
+   "asafoetida-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 ajwain-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9628",
+    "bookPage": 53,
+    "locationNote": "本書 p.53（原本画像 IMG_9628.PNG）。原文照合 batch17 で照合済みの知識単位 allspice-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9627",
+    "bookPage": 52,
+    "locationNote": "本書 p.52（原本画像 IMG_9627.PNG）。原文照合 batch17 で照合済みの知識単位 anise-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 asafoetida-profile から生成"
+   }
+  ],
+  "id": "qmatch-part-ajwain-profile",
+  "format": "matching",
+  "prompt": "次の名称と利用部位を組み合わせよ（対象: アジョワン・オールスパイス・アニス・アサフェティダ）。",
+  "matchingPairs": [
+   {
+    "left": "アジョワン",
+    "right": "種子"
+   },
+   {
+    "left": "オールスパイス",
+    "right": "未熟な果実"
+   },
+   {
+    "left": "アニス",
+    "right": "種子(植物学上は果実)"
+   },
+   {
+    "left": "アサフェティダ",
+    "right": "根茎"
+   }
+  ],
+  "explanation": "アジョワン: 科名はセリ科。利用部位は種子。検定1級の対象。\nオールスパイス: 科名はフトモモ科。原産地はアンティル諸島(西インド諸島)、中央アメリカ。利用部位は未熟な果実。別名は百味こしょう、三香子(さんこうし)、ジャマイカンペッパー、ピメント。検定1・2級の対象。\nアニス: 科名はセリ科。原産地は地中海東部沿岸、エジプト。利用部位は種子(植物学上は果実)。別名は茴芹(ういきん)。検定1・2級の対象。\nアサフェティダ: 科名はセリ科。利用部位は根茎。別名はヒング。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "amchur-profile",
+   "basil-profile",
+   "caper-profile",
+   "caraway-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9682",
+    "bookPage": 106,
+    "locationNote": "本書 p.106（原本画像 IMG_9682.PNG）。原文照合 batch9 で照合済みの知識単位 amchur-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9655",
+    "bookPage": 79,
+    "locationNote": "本書 p.79（原本画像 IMG_9655.PNG）。原文照合 batch3 で照合済みの知識単位 basil-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9677",
+    "bookPage": 101,
+    "locationNote": "本書 p.101（原本画像 IMG_9677.PNG）。原文照合 batch8 で照合済みの知識単位 caper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9632",
+    "bookPage": 57,
+    "locationNote": "本書 p.57（原本画像 IMG_9632.PNG）。原文照合 batch18 で照合済みの知識単位 caraway-profile から生成"
+   }
+  ],
+  "id": "qmatch-part-amchur-profile",
+  "format": "matching",
+  "prompt": "次の名称と利用部位を組み合わせよ（対象: マンゴーパウダー・バジル・ケイパー・キャラウェイ）。",
+  "matchingPairs": [
+   {
+    "left": "マンゴーパウダー",
+    "right": "果実"
+   },
+   {
+    "left": "バジル",
+    "right": "葉および花穂、種子(バジルシード)"
+   },
+   {
+    "left": "ケイパー",
+    "right": "蕾"
+   },
+   {
+    "left": "キャラウェイ",
+    "right": "種子(植物学上は果実)"
+   }
+  ],
+  "explanation": "マンゴーパウダー: 科名はウルシ科。利用部位は果実。別名はアムチュール。検定1級の対象。\nバジル: 科名はシソ科。原産地はインド。利用部位は葉および花穂、種子(バジルシード)。別名はめぼうき、バジリコ。検定1・2・3級の対象。\nケイパー: 科名はフウチョウボク科。利用部位は蕾。別名は風鳥木(ふうちょうぼく)、ケーパー、ケッパー。検定1級の対象。\nキャラウェイ: 科名はセリ科。原産地はヨーロッパ、西アジアといわれる。利用部位は種子(植物学上は果実)。別名は姫茴香(ひめういきょう)、キュンメル、カルワイシード。検定1・2級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-cardamom",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "cardamom-profile",
+   "celery-profile",
+   "chervil-profile",
+   "chili-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9631",
+    "bookPage": 56,
+    "locationNote": "本書 p.56（原本画像 IMG_9631.PNG）。原文照合 batch18 で照合済みの知識単位 cardamom-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9679",
+    "bookPage": 103,
+    "locationNote": "本書 p.103（原本画像 IMG_9679.PNG）。原文照合 batch9 で照合済みの知識単位 celery-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9649",
+    "bookPage": 73,
+    "locationNote": "本書 p.73（原本画像 IMG_9649.PNG）。原文照合 batch1 で照合済みの知識単位 chervil-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9652",
+    "bookPage": 76,
+    "locationNote": "本書 p.76（原本画像 IMG_9652.PNG）。原文照合 batch2 で照合済みの知識単位 chili-profile から生成"
+   }
+  ],
+  "id": "qmatch-part-cardamom-profile",
+  "format": "matching",
+  "prompt": "次の名称と利用部位を組み合わせよ（対象: カルダモン・セロリー・チャービル・唐辛子）。",
+  "matchingPairs": [
+   {
+    "left": "カルダモン",
+    "right": "果実"
+   },
+   {
+    "left": "セロリー",
+    "right": "種子(植物学上は果実)"
+   },
+   {
+    "left": "チャービル",
+    "right": "葉、茎"
+   },
+   {
+    "left": "唐辛子",
+    "right": "果実、葉"
+   }
+  ],
+  "explanation": "カルダモン: 科名はショウガ科。原産地はインド。利用部位は果実。別名は小豆蔲(しょうずく)、グリーンカルダモン。検定1・2級の対象。\nセロリー: 科名はセリ科。利用部位は種子(植物学上は果実)。検定1級の対象。\nチャービル: 科名はセリ科。原産地はヨーロッパ、西アジア。利用部位は葉、茎。別名はセルフィーユ、茴香芹(ういきょうぜり)。検定1・2級の対象。\n唐辛子: 科名はナス科。原産地は熱帯アメリカ。利用部位は果実、葉。別名はチリペッパー、チリ、カイエンペッパー(品種の一部)、鷹の爪(品種の一部)。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-chive",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "chives-profile",
+   "cinnamon-profile",
+   "clove-profile",
+   "coriander-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9650",
+    "bookPage": 74,
+    "locationNote": "本書 p.74（原本画像 IMG_9650.PNG）。原文照合 batch2 で照合済みの知識単位 chives-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9642",
+    "bookPage": 67,
+    "locationNote": "本書 p.67（原本画像 IMG_9642.PNG）。原文照合 batch20 で照合済みの知識単位 cinnamon-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9635",
+    "bookPage": 60,
+    "locationNote": "本書 p.60（原本画像 IMG_9635.PNG）。原文照合 batch19 で照合済みの知識単位 clove-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9638",
+    "bookPage": 63,
+    "locationNote": "本書 p.63（原本画像 IMG_9638.PNG）。原文照合 batch19 で照合済みの知識単位 coriander-profile から生成"
+   }
+  ],
+  "id": "qmatch-part-chives-profile",
+  "format": "matching",
+  "prompt": "次の名称と利用部位を組み合わせよ（対象: チャイブ・シナモン/カシア・クローブ・コリアンダー）。",
+  "matchingPairs": [
+   {
+    "left": "チャイブ",
+    "right": "花、葉"
+   },
+   {
+    "left": "シナモン/カシア",
+    "right": "樹皮"
+   },
+   {
+    "left": "クローブ",
+    "right": "蕾"
+   },
+   {
+    "left": "コリアンダー",
+    "right": "葉、茎、種子(植物学上は果実)、根"
+   }
+  ],
+  "explanation": "チャイブ: 科名はヒガンバナ科。原産地は中央アジア、温帯地域。利用部位は花、葉。別名はシブレット、西洋あさつき、えぞねぎ。検定1・2級の対象。\nシナモン/カシア: 科名はクスノキ科。原産地はスリランカ、インド(シナモン)/ベトナム、中国、タイ(カシア)。利用部位は樹皮。別名は肉桂(にっけい)、桂皮(けいひ)。検定1・2・3級の対象。\nクローブ: 科名はフトモモ科。原産地はインドネシア(マルク諸島)。利用部位は蕾。別名は丁子(ちょうじ)、丁香(ちょうこう)、百里香(ひゃくりこう)。検定1・2・3級の対象。\nコリアンダー: 科名はセリ科。原産地は地中海沿岸、西アジア。利用部位は葉、茎、種子(植物学上は果実)、根。別名はコエンドロ、シラントロ、香菜(シャンツァイ)、パクチー、カメムシソウ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "cresson-profile",
+   "cubeb-profile",
+   "cumin-profile",
+   "curryleaf-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cresson-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 cubeb-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9634",
+    "bookPage": 59,
+    "locationNote": "本書 p.59（原本画像 IMG_9634.PNG）。原文照合 batch18 で照合済みの知識単位 cumin-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 curryleaf-profile から生成"
+   }
+  ],
+  "id": "qmatch-part-cresson-profile",
+  "format": "matching",
+  "prompt": "次の名称と利用部位を組み合わせよ（対象: クレソン・クベバ・クミン・カレーリーフ）。",
+  "matchingPairs": [
+   {
+    "left": "クレソン",
+    "right": "葉、茎"
+   },
+   {
+    "left": "クベバ",
+    "right": "果実"
+   },
+   {
+    "left": "クミン",
+    "right": "種子(植物学上は果実)"
+   },
+   {
+    "left": "カレーリーフ",
+    "right": "葉"
+   }
+  ],
+  "explanation": "クレソン: 科名はアブラナ科。利用部位は葉、茎。別名はウォータークレス。検定1級の対象。\nクベバ: 科名はコショウ科。利用部位は果実。別名は畢澄茄(ひっちょうか)、キュベブ、テイルドペッパー。検定1級の対象。\nクミン: 科名はセリ科。原産地はエジプト。利用部位は種子(植物学上は果実)。別名は馬芹(うまぜり/ばきん)、ジーラ(ジェーラ)。検定1・2・3級の対象。\nカレーリーフ: 科名はミカン科。利用部位は葉。別名はカリーパッタ。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-dill",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "dill-profile",
+   "dokudami-profile",
+   "fenugreek-profile",
+   "galangal-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9651",
+    "bookPage": 75,
+    "locationNote": "本書 p.75（原本画像 IMG_9651.PNG）。原文照合 batch2 で照合済みの知識単位 dill-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9680",
+    "bookPage": 104,
+    "locationNote": "本書 p.104（原本画像 IMG_9680.PNG）。原文照合 batch9 で照合済みの知識単位 dokudami-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9681",
+    "bookPage": 105,
+    "locationNote": "本書 p.105（原本画像 IMG_9681.PNG）。原文照合 batch9 で照合済みの知識単位 fenugreek-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9675",
+    "bookPage": 99,
+    "locationNote": "本書 p.99（原本画像 IMG_9675.PNG）。原文照合 batch8 で照合済みの知識単位 galangal-profile から生成"
+   }
+  ],
+  "id": "qmatch-part-dill-profile",
+  "format": "matching",
+  "prompt": "次の名称と利用部位を組み合わせよ（対象: ディル・どくだみ・フェネグリーク・ガランガル）。",
+  "matchingPairs": [
+   {
+    "left": "ディル",
+    "right": "種子(植物学上は果実)、葉、茎"
+   },
+   {
+    "left": "どくだみ",
+    "right": "葉"
+   },
+   {
+    "left": "フェネグリーク",
+    "right": "種子、葉"
+   },
+   {
+    "left": "ガランガル",
+    "right": "根茎"
+   }
+  ],
+  "explanation": "ディル: 科名はセリ科。原産地は南ヨーロッパ、西アジア。利用部位は種子(植物学上は果実)、葉、茎。別名はいのんど、ジル、サワ。検定1・2級の対象。\nどくだみ: 科名はドクダミ科。利用部位は葉。検定1級の対象。\nフェネグリーク: 科名はマメ科。利用部位は種子、葉。別名はメティ(メッチ)。検定1級の対象。\nガランガル: 科名はショウガ科。利用部位は根茎。別名はカー。検定1級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-fennel",
+  "difficulty": 3,
+  "knowledgeUnitIds": [
+   "fennel-profile",
+   "gardenia-profile",
+   "garlic-profile",
+   "ginger-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9659",
+    "bookPage": 83,
+    "locationNote": "本書 p.83（原本画像 IMG_9659.PNG）。原文照合 batch4 で照合済みの知識単位 fennel-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9633",
+    "bookPage": 58,
+    "locationNote": "本書 p.58（原本画像 IMG_9633.PNG）。原文照合 batch18 で照合済みの知識単位 gardenia-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9630",
+    "bookPage": 55,
+    "locationNote": "本書 p.55（原本画像 IMG_9630.PNG）。原文照合 batch17 で照合済みの知識単位 garlic-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9643",
+    "bookPage": 68,
+    "locationNote": "本書 p.68（原本画像 IMG_9643.PNG）。原文照合 batch21 で照合済みの知識単位 ginger-profile から生成"
+   }
+  ],
+  "id": "qmatch-part-fennel-profile",
+  "format": "matching",
+  "prompt": "次の名称と利用部位を組み合わせよ（対象: フェンネル・くちなし・ガーリック・しょうが）。",
+  "matchingPairs": [
+   {
+    "left": "フェンネル",
+    "right": "種子(植物学上は果実)、葉、茎"
+   },
+   {
+    "left": "くちなし",
+    "right": "果実"
+   },
+   {
+    "left": "ガーリック",
+    "right": "鱗茎"
+   },
+   {
+    "left": "しょうが",
+    "right": "根茎"
+   }
+  ],
+  "explanation": "フェンネル: 科名はセリ科。原産地は地中海沿岸。利用部位は種子(植物学上は果実)、葉、茎。別名は茴香(ういきょう)、小茴香(しょういきょう)。検定1・2級の対象。\nくちなし: 科名はアカネ科。原産地は中国、日本、台湾。利用部位は果実。別名は山梔子(さんしし)。検定1・2級の対象。\nガーリック: 科名はヒガンバナ科。原産地は中央アジア。利用部位は鱗茎。別名はにんにく、大蒜(おおひる)。検定1・2・3級の対象。\nしょうが: 科名はショウガ科。原産地は熱帯アジア。利用部位は根茎。別名はジンジャー、はじかみ。検定1・2・3級の対象。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch2",
+  "sectionId": "item-others",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "grainsofparadise-profile",
+   "horseradish-profile",
+   "juniper-profile",
+   "kaffirlime-profile"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9676",
+    "bookPage": 100,
+    "locationNote": "本書 p.100（原本画像 IMG_9676.PNG）。原文照合 batch8 で照合済みの知識単位 grainsofparadise-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9660",
+    "bookPage": 84,
+    "locationNote": "本書 p.84（原本画像 IMG_9660.PNG）。原文照合 batch4 で照合済みの知識単位 horseradish-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9678",
+    "bookPage": 102,
+    "locationNote": "本書 p.102（原本画像 IMG_9678.PNG）。原文照合 batch8 で照合済みの知識単位 juniper-profile から生成"
+   },
+   {
+    "manifestImageId": "IMG_9674",
+    "bookPage": 98,
+    "locationNote": "本書 p.98（原本画像 IMG_9674.PNG）。原文照合 batch7 で照合済みの知識単位 kaffirlime-profile から生成"
+   }
+  ],
+  "id": "qmatch-part-grainsofparadise-profile",
+  "format": "matching",
+  "prompt": "次の名称と利用部位を組み合わせよ（対象: グレインズオブパラダイス・ホースラディッシュ・ジュニパーベリー・カフェライム）。",
+  "matchingPairs": [
+   {
+    "left": "グレインズオブパラダイス",
+    "right": "種子"
+   },
+   {
+    "left": "ホースラディッシュ",
+    "right": "根"
+   },
+   {
+    "left": "ジュニパーベリー",
+    "right": "果実"
+   },
+   {
+    "left": "カフェライム",
+    "right": "葉、果皮"
+   }
+  ],
+  "explanation": "グレインズオブパラダイス: 科名はショウガ科。利用部位は種子。検定1級の対象。\nホースラディッシュ: 科名はアブラナ科。原産地は諸説あるが東ヨーロッパ説が有力。利用部位は根。別名は西洋わさび、わさび大根、レホール。検定1・2級の対象。\nジュニパーベリー: 科名はヒノキ科。利用部位は果実。別名は西洋ねず、杜松(としょう)。検定1級の対象。\nカフェライム: 科名はミカン科。利用部位は葉、果皮。別名はこぶみかん、マックルー、マクルットライム。検定1級の対象。"
+ }
+]

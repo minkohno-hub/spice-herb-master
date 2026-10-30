@@ -1,0 +1,481 @@
+[
+ {
+  "id": "w-paella",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "パエリアはスペイン・バレンシア地方発祥の米料理で、名前はバレンシア語で「フライパン」の意味。色づけにサフランを使う。",
+  "source": {
+   "page": 27,
+   "sourceUnitId": "w-paella",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "パエリアの色づけに使われるスパイスは?",
+   "a": "サフラン",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "スペインのパエリア（スペイン・バレンシア地方発祥の料理。バレンシア語で「フライパン」の意味。専用の鍋で炊き上げる、肉や魚介、野菜がたっぷり入った米料理。色づけにサフランが使われる。決め手=サフラン）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-paella-mean",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "misc",
+  "content": "「パエリア」はバレンシア語で「フライパン」を意味する。",
+  "source": {
+   "page": 27,
+   "sourceUnitId": "w-paella-mean",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「パエリア」はバレンシア語で何を意味する?",
+   "a": "フライパン",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "パエリアの説明文「バレンシア語で「フライパン」の意味」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-goulash",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "ハンガリアングラーシュは牛肉と野菜を煮込んだハンガリーのスープ料理で、パプリカを多く使う。",
+  "source": {
+   "page": 27,
+   "sourceUnitId": "w-goulash",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハンガリアングラーシュの決め手のスパイスは?",
+   "a": "パプリカ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "ハンガリーのハンガリアングラーシュ（牛肉と野菜をじっくり煮込んだスープ料理。ハンガリー特有のパプリカがふんだんに使われる。決め手=パプリカ）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-borscht",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "ボルシチはウクライナ発祥で、牛肉とビーツなどを煮込み、ディルの香りとサワークリームの酸味が特徴。",
+  "source": {
+   "page": 27,
+   "sourceUnitId": "w-borscht",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ボルシチの決め手のハーブは?",
+   "a": "ディル",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "ウクライナのボルシチ（ウクライナ発祥の料理で、ロシアをはじめ広く東ヨーロッパで食べられる。主に牛肉とビーツなどの野菜を煮込んだ料理。ディルの香りとサワークリームの酸味が特徴。決め手=ディル）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-borscht-origin",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "country",
+  "content": "ボルシチの発祥国はウクライナである。",
+  "source": {
+   "page": 27,
+   "sourceUnitId": "w-borscht-origin",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ボルシチ発祥の国は?",
+   "a": "ウクライナ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "ボルシチの国・地域欄「ウクライナ」および説明文「ウクライナ発祥の料理」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-asia",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "term",
+  "content": "東アジア・東南アジアではみそ・しょうゆ・魚醤などの発酵調味料が広く用いられ、スパイスやハーブの重要な産地でもある。",
+  "source": {
+   "page": 28,
+   "sourceUnitId": "w-asia",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "東アジア・東南アジアの味つけで広く使われる調味料の種類は?",
+   "a": "発酵調味料",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "[アジア・オセアニア] 導入文（味つけは東アジア、東南アジアにおいて大豆から作られるみそやしょうゆ、魚介が原料の魚醤など、発酵調味料が広く用いられているのが特徴。東南アジア、東アジアはスパイスやハーブの重要な産地であり、それらをふんだんに使った独自の食文化が発達している）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-dongpo",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "トンポーロウ(豚の角煮)は中国・浙江省の料理で、スターアニス(八角)が欠かせない。",
+  "source": {
+   "page": 28,
+   "sourceUnitId": "w-dongpo",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "トンポーロウの決め手のスパイスは?",
+   "a": "スターアニス",
+   "alt": [
+    "八角"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "中国のトンポーロウ（豚の角煮）（豚のかたまり肉をじっくりと煮込んだ中国・浙江省の料理。風味づけにスターアニスが欠かせない。決め手=スターアニス（八角））と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-dongpo-country",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "country",
+  "content": "トンポーロウは中国の料理である。",
+  "source": {
+   "page": 28,
+   "sourceUnitId": "w-dongpo-country",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "トンポーロウはどこの国の料理?",
+   "a": "中国",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "トンポーロウの国・地域欄「中国」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-tomyum",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "country",
+  "content": "タイのトムヤムクンは唐辛子・ライム・レモングラス・カフェライムリーフの香りが特徴のえび入りスープで、仕上げにパクチーを加える。",
+  "source": {
+   "page": 28,
+   "sourceUnitId": "w-tomyum",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "トムヤムクンはどこの国の料理?",
+   "a": "タイ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "タイのトムヤムクン（唐辛子の辛み、ライムの酸味、レモングラス、カフェライムリーフなどの爽やかな香りが特徴のスープ料理。具材にはえびが使われ、仕上げにはパクチーが加えられる）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-banhxeo",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "ベトナムのバインセオは、ターメリック入りの米粉の生地で具材をはさんだお好み焼き風料理。",
+  "source": {
+   "page": 28,
+   "sourceUnitId": "w-banhxeo",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ベトナムの料理「バインセオ」の決め手のスパイスは?",
+   "a": "ターメリック",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "ベトナムのバインセオ（ターメリックを混ぜ込んだ米粉の生地を薄く焼き、もやし、えび、豚肉などの具材をはさんだ、ベトナム風お好み焼きといわれる料理。決め手=ターメリック）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-america",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "term",
+  "content": "アメリカでは移民大国ならではのフュージョン料理と呼ぶべき食文化も生まれた。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "w-america",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "多様な食文化が混ざり合って生まれる料理を何と呼ぶ?",
+   "a": "フュージョン料理",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "[アメリカ] 導入文「また移民大国ならではの、フュージョン料理と呼ぶべき新たな食文化も生み出してきた」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-chiliconcarne",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "dish",
+  "content": "チリコンカンはテクス・メクス(テキサス生まれのメキシコ風アメリカ料理)の代表的な豆と肉の煮込みで、チリパウダー・クミン・オレガノが決め手。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "w-chiliconcarne",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "チリコンカンは何と呼ばれる料理ジャンルの代表的メニュー?",
+   "a": "テクス・メクス",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "アメリカのチリコンカン（テクス・メクス（テキサス生まれのメキシコ風アメリカ料理）の代表的なメニューのひとつ。スパイスやハーブをきかせた豆と肉の煮込み料理。決め手=チリパウダー、クミン、オレガノ）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "w-guacamole",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界の料理",
+  "category": "spice",
+  "content": "メキシコのワカモーレはアボカドのディップで、パクチーや唐辛子が決め手。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "w-guacamole",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "メキシコのアボカドディップ「ワカモーレ」の決め手のハーブは?",
+   "a": "パクチー",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "メキシコのワカモーレ（メキシコ特産のアボカドで作るディップで、パクチーなどのハーブの風味が特徴。決め手=パクチー、唐辛子）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "d-moroccan-tea",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "drink",
+  "content": "モロッコティー(モロカンティー)は、ガンパウダーと呼ばれる中国緑茶とミント、たっぷりの角砂糖で入れるお茶。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-moroccan-tea",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「ガンパウダー」と呼ばれる中国緑茶とミントで入れるお茶は?",
+   "a": "モロッコティー",
+   "alt": [
+    "モロカンティー"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "モロッコのモロッコティー（モロカンティー）（ガンパウダーと呼ばれる中国緑茶とミント、たっぷりの角砂糖をポットに入れ、熱湯を注いでいれるお茶。決め手=ミント）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "d-gahwa",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "spice",
+  "content": "サウジアラビアのガーワ(アラビアンコーヒー)は、カルダモンを詰めたポットから注ぐカルダモンコーヒー。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-gahwa",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ガーワ(アラビアンコーヒー)の決め手のスパイスは?",
+   "a": "カルダモン",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "サウジアラビアのガーワ（アラビアンコーヒー）（真鍮製のコーヒーポットの口に、割ったカルダモンを数粒詰めてコーヒーを注ぐ、カルダモンコーヒー。決め手=カルダモン）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "d-eggnog",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "spice",
+  "content": "アメリカのエッグノッグは牛乳と卵で作る冬の定番ドリンクで、ナツメッグなどで風味づけする。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-eggnog",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "エッグノッグに使われるスパイスは?",
+   "a": "ナツメッグ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "アメリカのエッグノッグ（牛乳と卵で作られる濃厚な冬の定番ドリンク。風味づけにナツメッグなどのスパイスが使われる。決め手=ナツメッグ）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "d-cafe-olla",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "spice",
+  "content": "メキシコのカフェ・デ・オーヤは鍋で煮出すコーヒーで、シナモンで風味づけする。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-cafe-olla",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "メキシコのカフェ・デ・オーヤに使われるスパイスは?",
+   "a": "シナモン",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "メキシコのカフェ・デ・オーヤ（鍋で煮出して作るコーヒーで、風味づけにシナモンが使われる。決め手=シナモン）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "d-mojito",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "person",
+  "content": "キューバのモヒートはラム酒にミントとライムで風味づけしたドリンクで、ヘミングウェイが愛したことで有名。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-mojito",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "モヒートを愛した作家として知られるのは?",
+   "a": "ヘミングウェイ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "キューバのモヒート（作家のヘミングウェイがこよなく愛したドリンクとして有名。ベースのラム酒にミントとライムで風味づけされる。決め手=ミント）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "d-mojito-herb",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "世界のドリンク",
+  "category": "spice",
+  "content": "モヒートの決め手のハーブはミントである。",
+  "source": {
+   "page": 29,
+   "sourceUnitId": "d-mojito-herb",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "モヒートの決め手のハーブは?",
+   "a": "ミント",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch27",
+   "reason": "モヒートの決め手欄「ミント」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ }
+]

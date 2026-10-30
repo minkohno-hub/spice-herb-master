@@ -1,0 +1,2516 @@
+[
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "u-pairing"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pairing から生成"
+   }
+  ],
+  "id": "q1-u-pairing",
+  "format": "one-answer",
+  "prompt": "スパイスの相性はメニューと素材のどちらとの相性で覚えるのがよい?",
+  "acceptedAnswers": [
+   "素材"
+  ],
+  "explanation": "相性は料理メニューとではなく、各素材との相性で覚えるのがポイント。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "u-pairing"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pairing から生成"
+   }
+  ],
+  "id": "q4-u-pairing",
+  "format": "single-choice",
+  "prompt": "スパイスの相性はメニューと素材のどちらとの相性で覚えるのがよい?",
+  "choices": [
+   "ステンレスやセラミック",
+   "必要",
+   "素材",
+   "少量ずつ味をみながら加える"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "相性は料理メニューとではなく、各素材との相性で覚えるのがポイント。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "u-pair-beef"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-beef から生成"
+   }
+  ],
+  "id": "q1-u-pair-beef",
+  "format": "one-answer",
+  "prompt": "ブーケガルニ・クローブ・オレガノなどと相性がよいとされる素材は?",
+  "acceptedAnswers": [
+   "牛肉"
+  ],
+  "explanation": "牛肉と相性のよい例:ブーケガルニ、クローブ、オレガノ、ブラックペッパー、ガーリックなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "u-pair-beef"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-beef から生成"
+   }
+  ],
+  "id": "q4-u-pair-beef",
+  "format": "single-choice",
+  "prompt": "ブーケガルニ・クローブ・オレガノなどと相性がよいとされる素材は?",
+  "choices": [
+   "豚肉",
+   "白身魚",
+   "赤身魚",
+   "牛肉"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "牛肉と相性のよい例:ブーケガルニ、クローブ、オレガノ、ブラックペッパー、ガーリックなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "u-pair-pork"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-pork から生成"
+   }
+  ],
+  "id": "q1-u-pair-pork",
+  "format": "one-answer",
+  "prompt": "ジンジャー・ナツメッグ・スターアニス・五香粉などと相性がよいとされる素材は?",
+  "acceptedAnswers": [
+   "豚肉"
+  ],
+  "explanation": "豚肉と相性のよい例:ジンジャー、ナツメッグ、スターアニス、山椒、五香粉など。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "u-pair-pork"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-pork から生成"
+   }
+  ],
+  "id": "q4-u-pair-pork",
+  "format": "single-choice",
+  "prompt": "ジンジャー・ナツメッグ・スターアニス・五香粉などと相性がよいとされる素材は?",
+  "choices": [
+   "牛肉",
+   "赤身魚",
+   "白身魚",
+   "豚肉"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "豚肉と相性のよい例:ジンジャー、ナツメッグ、スターアニス、山椒、五香粉など。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "u-pair-redfish"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-redfish から生成"
+   }
+  ],
+  "id": "q1-u-pair-redfish",
+  "format": "one-answer",
+  "prompt": "チリペッパー・ディル・ガーリックなどと相性がよいとされる魚は(赤身魚・白身魚)?",
+  "acceptedAnswers": [
+   "赤身魚"
+  ],
+  "explanation": "赤身魚と相性のよい例:ジンジャー、チリペッパー、タイム、フェンネル、ディル、ガーリックなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "u-pair-redfish"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-redfish から生成"
+   }
+  ],
+  "id": "q4-u-pair-redfish",
+  "format": "single-choice",
+  "prompt": "チリペッパー・ディル・ガーリックなどと相性がよいとされる魚は(赤身魚・白身魚)?",
+  "choices": [
+   "牛肉",
+   "赤身魚",
+   "白身魚",
+   "豚肉"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "赤身魚と相性のよい例:ジンジャー、チリペッパー、タイム、フェンネル、ディル、ガーリックなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "u-pair-whitefish"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-whitefish から生成"
+   }
+  ],
+  "id": "q1-u-pair-whitefish",
+  "format": "one-answer",
+  "prompt": "タラゴンやバジルなどと相性がよいとされる魚は(赤身魚・白身魚)?",
+  "acceptedAnswers": [
+   "白身魚"
+  ],
+  "explanation": "白身魚と相性のよい例:タイム、フェンネル、タラゴン、バジル、ディル、チリペッパー、ジンジャーなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-compat",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "u-pair-whitefish"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9598",
+    "bookPage": 23,
+    "locationNote": "本書 p.23（原本画像 IMG_9598.PNG）。原文照合 batch26 で照合済みの知識単位 u-pair-whitefish から生成"
+   }
+  ],
+  "id": "q4-u-pair-whitefish",
+  "format": "single-choice",
+  "prompt": "タラゴンやバジルなどと相性がよいとされる魚は(赤身魚・白身魚)?",
+  "choices": [
+   "牛肉",
+   "白身魚",
+   "赤身魚",
+   "豚肉"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "白身魚と相性のよい例:タイム、フェンネル、タラゴン、バジル、ディル、チリペッパー、ジンジャーなど。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-africa"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-africa から生成"
+   }
+  ],
+  "id": "q1-w-africa",
+  "format": "one-answer",
+  "prompt": "アフリカの料理でよく使われるスパイスを1つ挙げよ。",
+  "acceptedAnswers": [
+   "クミン",
+   "コリアンダー",
+   "唐辛子"
+  ],
+  "explanation": "アフリカでは先住民の食文化にヨーロッパやイスラム圏の影響が加わり、クミン・コリアンダー(シード)・唐辛子がよく使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-africa"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-africa から生成"
+   }
+  ],
+  "id": "q4-w-africa",
+  "format": "single-choice",
+  "prompt": "アフリカの料理でよく使われるスパイスを1つ挙げよ。",
+  "choices": [
+   "パセリ",
+   "クミン",
+   "バジル",
+   "ブラックペッパー"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "アフリカでは先住民の食文化にヨーロッパやイスラム圏の影響が加わり、クミン・コリアンダー(シード)・唐辛子がよく使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-couscous"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-couscous から生成"
+   }
+  ],
+  "id": "q1-w-couscous",
+  "format": "one-answer",
+  "prompt": "クスクスに添えられることが多い唐辛子ペーストの名は?",
+  "acceptedAnswers": [
+   "ハリッサ"
+  ],
+  "explanation": "北アフリカ(チュニジア、モロッコ)のクスクスは小粒のパスタに煮込みのスープをかける料理で、決め手はクミンなど。唐辛子ペーストのハリッサが添えられることが多い。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-couscous"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-couscous から生成"
+   }
+  ],
+  "id": "q4-w-couscous",
+  "format": "single-choice",
+  "prompt": "クスクスに添えられることが多い唐辛子ペーストの名は?",
+  "choices": [
+   "サブジ",
+   "デュカ",
+   "ハリッサ",
+   "テクス・メクス"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "北アフリカ(チュニジア、モロッコ)のクスクスは小粒のパスタに煮込みのスープをかける料理で、決め手はクミンなど。唐辛子ペーストのハリッサが添えられることが多い。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-middleeast"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-middleeast から生成"
+   }
+  ],
+  "id": "q1-w-middleeast",
+  "format": "one-answer",
+  "prompt": "中近東の料理でよく使われる肉は?",
+  "acceptedAnswers": [
+   "羊肉"
+  ],
+  "explanation": "中近東ではオリーブオイル・ヨーグルト・トマト・豆類・羊肉がよく使われ、唐辛子・クミン・コリアンダー・ミント・ごま油を使う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-middleeast"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-middleeast から生成"
+   }
+  ],
+  "id": "q4-w-middleeast",
+  "format": "single-choice",
+  "prompt": "中近東の料理でよく使われる肉は?",
+  "choices": [
+   "赤身魚",
+   "羊肉",
+   "松の実",
+   "ひよこ豆"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "中近東ではオリーブオイル・ヨーグルト・トマト・豆類・羊肉がよく使われ、唐辛子・クミン・コリアンダー・ミント・ごま油を使う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-tabbouleh"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-tabbouleh から生成"
+   }
+  ],
+  "id": "q1-w-tabbouleh",
+  "format": "one-answer",
+  "prompt": "レバノンのサラダ「タッブーレ」の決め手のハーブは?",
+  "acceptedAnswers": [
+   "パセリ"
+  ],
+  "explanation": "レバノンのタッブーレは刻んだパセリをオリーブオイルやレモン汁であえたサラダで、決め手はパセリ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-tabbouleh"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-tabbouleh から生成"
+   }
+  ],
+  "id": "q4-w-tabbouleh",
+  "format": "single-choice",
+  "prompt": "レバノンのサラダ「タッブーレ」の決め手のハーブは?",
+  "choices": [
+   "サフラン",
+   "パセリ",
+   "ディル",
+   "セージ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "レバノンのタッブーレは刻んだパセリをオリーブオイルやレモン汁であえたサラダで、決め手はパセリ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-dukkah"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-dukkah から生成"
+   }
+  ],
+  "id": "q1-w-dukkah",
+  "format": "one-answer",
+  "prompt": "ごま・スパイス・ナッツ類を合わせ、オリーブオイルにひたしたパンにつけて食べるシーズニングは?",
+  "acceptedAnswers": [
+   "デュカ",
+   "ダッカ"
+  ],
+  "explanation": "中東地域のデュカ(ダッカ)はごま・種子系スパイス・ナッツ類を合わせたシーズニングで、オリーブオイルにひたしたパンにつけて食べる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-africa",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-dukkah"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9600",
+    "bookPage": 25,
+    "locationNote": "本書 p.25（原本画像 IMG_9600.PNG）。原文照合 batch26 で照合済みの知識単位 w-dukkah から生成"
+   }
+  ],
+  "id": "q4-w-dukkah",
+  "format": "single-choice",
+  "prompt": "ごま・スパイス・ナッツ類を合わせ、オリーブオイルにひたしたパンにつけて食べるシーズニングは?",
+  "choices": [
+   "ハリッサ",
+   "デュカ",
+   "テクス・メクス",
+   "サブジ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "中東地域のデュカ(ダッカ)はごま・種子系スパイス・ナッツ類を合わせたシーズニングで、オリーブオイルにひたしたパンにつけて食べる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-europe"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-europe から生成"
+   }
+  ],
+  "id": "q1-w-europe",
+  "format": "one-answer",
+  "prompt": "地中海沿岸地域で魚と相性がよくよく使われるスパイスを1つ挙げよ。",
+  "acceptedAnswers": [
+   "サフラン",
+   "タイム",
+   "フェンネル"
+  ],
+  "explanation": "ヨーロッパ・ロシアでは肉類と加工品が中心で、ナツメッグ・オールスパイス・マスタード・ローズマリー・セージが多用される。地中海沿岸では魚と相性のよいサフラン・タイム・フェンネルが使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-europe"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-europe から生成"
+   }
+  ],
+  "id": "q4-w-europe",
+  "format": "single-choice",
+  "prompt": "地中海沿岸地域で魚と相性がよくよく使われるスパイスを1つ挙げよ。",
+  "choices": [
+   "パセリ",
+   "サフラン",
+   "ブラックペッパー",
+   "バジル"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ヨーロッパ・ロシアでは肉類と加工品が中心で、ナツメッグ・オールスパイス・マスタード・ローズマリー・セージが多用される。地中海沿岸では魚と相性のよいサフラン・タイム・フェンネルが使われる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-caprese"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-caprese から生成"
+   }
+  ],
+  "id": "q1-w-caprese",
+  "format": "one-answer",
+  "prompt": "カプレーゼの決め手のハーブは?",
+  "acceptedAnswers": [
+   "バジル"
+  ],
+  "explanation": "イタリア・カプリ島のカプレーゼは、トマト・バジル・チーズのサラダで決め手はバジル。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-caprese"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-caprese から生成"
+   }
+  ],
+  "id": "q4-w-caprese",
+  "format": "single-choice",
+  "prompt": "カプレーゼの決め手のハーブは?",
+  "choices": [
+   "ブラックペッパー",
+   "セージ",
+   "サフラン",
+   "バジル"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "イタリア・カプリ島のカプレーゼは、トマト・バジル・チーズのサラダで決め手はバジル。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-milanese"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-milanese から生成"
+   }
+  ],
+  "id": "q1-w-milanese",
+  "format": "one-answer",
+  "prompt": "ミラノ風リゾットの決め手のスパイスは?",
+  "acceptedAnswers": [
+   "サフラン"
+  ],
+  "explanation": "リゾット・アッラ・ミラネーゼ(ミラノ風リゾット)は黄金色のリゾットで決め手はサフラン。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-milanese"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-milanese から生成"
+   }
+  ],
+  "id": "q4-w-milanese",
+  "format": "single-choice",
+  "prompt": "ミラノ風リゾットの決め手のスパイスは?",
+  "choices": [
+   "セージ",
+   "ブラックペッパー",
+   "バジル",
+   "サフラン"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "リゾット・アッラ・ミラネーゼ(ミラノ風リゾット)は黄金色のリゾットで決め手はサフラン。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-saltimbocca"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-saltimbocca から生成"
+   }
+  ],
+  "id": "q1-w-saltimbocca",
+  "format": "one-answer",
+  "prompt": "サルティンボッカの決め手のハーブは?",
+  "acceptedAnswers": [
+   "セージ"
+  ],
+  "explanation": "イタリアのサルティンボッカは仔牛肉に生ハムとセージをのせてソテーした料理で、名前は「口に飛び込む」の意味。決め手はセージ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-saltimbocca"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-saltimbocca から生成"
+   }
+  ],
+  "id": "q4-w-saltimbocca",
+  "format": "single-choice",
+  "prompt": "サルティンボッカの決め手のハーブは?",
+  "choices": [
+   "バジル",
+   "ブラックペッパー",
+   "セージ",
+   "サフラン"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "イタリアのサルティンボッカは仔牛肉に生ハムとセージをのせてソテーした料理で、名前は「口に飛び込む」の意味。決め手はセージ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-saltimbocca-mean"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-saltimbocca-mean から生成"
+   }
+  ],
+  "id": "q1-w-saltimbocca-mean",
+  "format": "one-answer",
+  "prompt": "「サルティンボッカ」の意味は?",
+  "acceptedAnswers": [
+   "口に飛び込む"
+  ],
+  "explanation": "「サルティンボッカ」はイタリア語で「口に飛び込む」という意味である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-saltimbocca-mean"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-saltimbocca-mean から生成"
+   }
+  ],
+  "id": "q4-w-saltimbocca-mean",
+  "format": "single-choice",
+  "prompt": "「サルティンボッカ」の意味は?",
+  "choices": [
+   "香りの消失が早い",
+   "口に飛び込む",
+   "フライパン",
+   "少量ずつ味をみながら加える"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "「サルティンボッカ」はイタリア語で「口に飛び込む」という意味である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-genovese"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-genovese から生成"
+   }
+  ],
+  "id": "q1-w-genovese",
+  "format": "one-answer",
+  "prompt": "ジェノベーゼソースの決め手のハーブは?",
+  "acceptedAnswers": [
+   "バジル"
+  ],
+  "explanation": "ジェノベーゼはイタリア・ジェノバ地方のバジルを使ったペースト状ソースで、決め手はバジル。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-genovese"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-genovese から生成"
+   }
+  ],
+  "id": "q4-w-genovese",
+  "format": "single-choice",
+  "prompt": "ジェノベーゼソースの決め手のハーブは?",
+  "choices": [
+   "バジル",
+   "ブラックペッパー",
+   "サフラン",
+   "セージ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "ジェノベーゼはイタリア・ジェノバ地方のバジルを使ったペースト状ソースで、決め手はバジル。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-carbonara"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-carbonara から生成"
+   }
+  ],
+  "id": "q1-w-carbonara",
+  "format": "one-answer",
+  "prompt": "カルボナーラの仕上げに欠かせないスパイスは?",
+  "acceptedAnswers": [
+   "ブラックペッパー"
+  ],
+  "explanation": "ローマ発祥のカルボナーラは仕上げのブラックペッパーが欠かせない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-carbonara"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-carbonara から生成"
+   }
+  ],
+  "id": "q4-w-carbonara",
+  "format": "single-choice",
+  "prompt": "カルボナーラの仕上げに欠かせないスパイスは?",
+  "choices": [
+   "サフラン",
+   "ブラックペッパー",
+   "セージ",
+   "バジル"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ローマ発祥のカルボナーラは仕上げのブラックペッパーが欠かせない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-bouillabaisse"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-bouillabaisse から生成"
+   }
+  ],
+  "id": "q1-w-bouillabaisse",
+  "format": "one-answer",
+  "prompt": "サフランを使った魚介のスープ「ブイヤベース」はどこの国の料理?",
+  "acceptedAnswers": [
+   "フランス"
+  ],
+  "explanation": "ブイヤベースはフランスの郷土料理で、魚介をトマトやサフランで色と香りをつけて煮込んだスープ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-bouillabaisse"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9601",
+    "bookPage": 26,
+    "locationNote": "本書 p.26（原本画像 IMG_9601.PNG）。原文照合 batch26 で照合済みの知識単位 w-bouillabaisse から生成"
+   }
+  ],
+  "id": "q4-w-bouillabaisse",
+  "format": "single-choice",
+  "prompt": "サフランを使った魚介のスープ「ブイヤベース」はどこの国の料理?",
+  "choices": [
+   "フランス",
+   "ウクライナ",
+   "タイ",
+   "中国"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "ブイヤベースはフランスの郷土料理で、魚介をトマトやサフランで色と香りをつけて煮込んだスープ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-paella"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-paella から生成"
+   }
+  ],
+  "id": "q1-w-paella",
+  "format": "one-answer",
+  "prompt": "パエリアの色づけに使われるスパイスは?",
+  "acceptedAnswers": [
+   "サフラン"
+  ],
+  "explanation": "パエリアはスペイン・バレンシア地方発祥の米料理で、名前はバレンシア語で「フライパン」の意味。色づけにサフランを使う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-paella"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-paella から生成"
+   }
+  ],
+  "id": "q4-w-paella",
+  "format": "single-choice",
+  "prompt": "パエリアの色づけに使われるスパイスは?",
+  "choices": [
+   "パセリ",
+   "パクチー",
+   "ディル",
+   "サフラン"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "パエリアはスペイン・バレンシア地方発祥の米料理で、名前はバレンシア語で「フライパン」の意味。色づけにサフランを使う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-paella-mean"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-paella-mean から生成"
+   }
+  ],
+  "id": "q1-w-paella-mean",
+  "format": "one-answer",
+  "prompt": "「パエリア」はバレンシア語で何を意味する?",
+  "acceptedAnswers": [
+   "フライパン"
+  ],
+  "explanation": "「パエリア」はバレンシア語で「フライパン」を意味する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-paella-mean"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-paella-mean から生成"
+   }
+  ],
+  "id": "q4-w-paella-mean",
+  "format": "single-choice",
+  "prompt": "「パエリア」はバレンシア語で何を意味する?",
+  "choices": [
+   "必要",
+   "口に飛び込む",
+   "フライパン",
+   "ステンレスやセラミック"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "「パエリア」はバレンシア語で「フライパン」を意味する。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-goulash"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-goulash から生成"
+   }
+  ],
+  "id": "q1-w-goulash",
+  "format": "one-answer",
+  "prompt": "ハンガリアングラーシュの決め手のスパイスは?",
+  "acceptedAnswers": [
+   "パプリカ"
+  ],
+  "explanation": "ハンガリアングラーシュは牛肉と野菜を煮込んだハンガリーのスープ料理で、パプリカを多く使う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-goulash"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-goulash から生成"
+   }
+  ],
+  "id": "q4-w-goulash",
+  "format": "single-choice",
+  "prompt": "ハンガリアングラーシュの決め手のスパイスは?",
+  "choices": [
+   "ディル",
+   "サフラン",
+   "パプリカ",
+   "パクチー"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "ハンガリアングラーシュは牛肉と野菜を煮込んだハンガリーのスープ料理で、パプリカを多く使う。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-borscht"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-borscht から生成"
+   }
+  ],
+  "id": "q1-w-borscht",
+  "format": "one-answer",
+  "prompt": "ボルシチの決め手のハーブは?",
+  "acceptedAnswers": [
+   "ディル"
+  ],
+  "explanation": "ボルシチはウクライナ発祥で、牛肉とビーツなどを煮込み、ディルの香りとサワークリームの酸味が特徴。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-borscht"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-borscht から生成"
+   }
+  ],
+  "id": "q4-w-borscht",
+  "format": "single-choice",
+  "prompt": "ボルシチの決め手のハーブは?",
+  "choices": [
+   "セージ",
+   "パセリ",
+   "ブラックペッパー",
+   "ディル"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ボルシチはウクライナ発祥で、牛肉とビーツなどを煮込み、ディルの香りとサワークリームの酸味が特徴。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-borscht-origin"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-borscht-origin から生成"
+   }
+  ],
+  "id": "q1-w-borscht-origin",
+  "format": "one-answer",
+  "prompt": "ボルシチ発祥の国は?",
+  "acceptedAnswers": [
+   "ウクライナ"
+  ],
+  "explanation": "ボルシチの発祥国はウクライナである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-europe",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-borscht-origin"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9602",
+    "bookPage": 27,
+    "locationNote": "本書 p.27（原本画像 IMG_9602.PNG）。原文照合 batch27 で照合済みの知識単位 w-borscht-origin から生成"
+   }
+  ],
+  "id": "q4-w-borscht-origin",
+  "format": "single-choice",
+  "prompt": "ボルシチ発祥の国は?",
+  "choices": [
+   "中国",
+   "タイ",
+   "フランス",
+   "ウクライナ"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "ボルシチの発祥国はウクライナである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-asia"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-asia から生成"
+   }
+  ],
+  "id": "q1-w-asia",
+  "format": "one-answer",
+  "prompt": "東アジア・東南アジアの味つけで広く使われる調味料の種類は?",
+  "acceptedAnswers": [
+   "発酵調味料"
+  ],
+  "explanation": "東アジア・東南アジアではみそ・しょうゆ・魚醤などの発酵調味料が広く用いられ、スパイスやハーブの重要な産地でもある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-asia"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-asia から生成"
+   }
+  ],
+  "id": "q4-w-asia",
+  "format": "single-choice",
+  "prompt": "東アジア・東南アジアの味つけで広く使われる調味料の種類は?",
+  "choices": [
+   "香りづけ・辛みづけ・色づけ",
+   "発酵調味料",
+   "フュージョン料理",
+   "スタータースパイス"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "東アジア・東南アジアではみそ・しょうゆ・魚醤などの発酵調味料が広く用いられ、スパイスやハーブの重要な産地でもある。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-dongpo"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-dongpo から生成"
+   }
+  ],
+  "id": "q1-w-dongpo",
+  "format": "one-answer",
+  "prompt": "トンポーロウの決め手のスパイスは?",
+  "acceptedAnswers": [
+   "スターアニス",
+   "八角"
+  ],
+  "explanation": "トンポーロウ(豚の角煮)は中国・浙江省の料理で、スターアニス(八角)が欠かせない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-dongpo"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-dongpo から生成"
+   }
+  ],
+  "id": "q4-w-dongpo",
+  "format": "single-choice",
+  "prompt": "トンポーロウの決め手のスパイスは?",
+  "choices": [
+   "ディル",
+   "セージ",
+   "スターアニス",
+   "パクチー"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "トンポーロウ(豚の角煮)は中国・浙江省の料理で、スターアニス(八角)が欠かせない。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-dongpo-country"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-dongpo-country から生成"
+   }
+  ],
+  "id": "q1-w-dongpo-country",
+  "format": "one-answer",
+  "prompt": "トンポーロウはどこの国の料理?",
+  "acceptedAnswers": [
+   "中国"
+  ],
+  "explanation": "トンポーロウは中国の料理である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-dongpo-country"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-dongpo-country から生成"
+   }
+  ],
+  "id": "q4-w-dongpo-country",
+  "format": "single-choice",
+  "prompt": "トンポーロウはどこの国の料理?",
+  "choices": [
+   "フランス",
+   "中国",
+   "タイ",
+   "ウクライナ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "トンポーロウは中国の料理である。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-tomyum"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-tomyum から生成"
+   }
+  ],
+  "id": "q1-w-tomyum",
+  "format": "one-answer",
+  "prompt": "トムヤムクンはどこの国の料理?",
+  "acceptedAnswers": [
+   "タイ"
+  ],
+  "explanation": "タイのトムヤムクンは唐辛子・ライム・レモングラス・カフェライムリーフの香りが特徴のえび入りスープで、仕上げにパクチーを加える。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-tomyum"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-tomyum から生成"
+   }
+  ],
+  "id": "q4-w-tomyum",
+  "format": "single-choice",
+  "prompt": "トムヤムクンはどこの国の料理?",
+  "choices": [
+   "フランス",
+   "中国",
+   "タイ",
+   "ウクライナ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "タイのトムヤムクンは唐辛子・ライム・レモングラス・カフェライムリーフの香りが特徴のえび入りスープで、仕上げにパクチーを加える。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-banhxeo"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-banhxeo から生成"
+   }
+  ],
+  "id": "q1-w-banhxeo",
+  "format": "one-answer",
+  "prompt": "ベトナムの料理「バインセオ」の決め手のスパイスは?",
+  "acceptedAnswers": [
+   "ターメリック"
+  ],
+  "explanation": "ベトナムのバインセオは、ターメリック入りの米粉の生地で具材をはさんだお好み焼き風料理。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-asia",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-banhxeo"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9603",
+    "bookPage": 28,
+    "locationNote": "本書 p.28（原本画像 IMG_9603.PNG）。原文照合 batch27 で照合済みの知識単位 w-banhxeo から生成"
+   }
+  ],
+  "id": "q4-w-banhxeo",
+  "format": "single-choice",
+  "prompt": "ベトナムの料理「バインセオ」の決め手のスパイスは?",
+  "choices": [
+   "パセリ",
+   "ターメリック",
+   "ブラックペッパー",
+   "パクチー"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "ベトナムのバインセオは、ターメリック入りの米粉の生地で具材をはさんだお好み焼き風料理。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-america"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 w-america から生成"
+   }
+  ],
+  "id": "q1-w-america",
+  "format": "one-answer",
+  "prompt": "多様な食文化が混ざり合って生まれる料理を何と呼ぶ?",
+  "acceptedAnswers": [
+   "フュージョン料理"
+  ],
+  "explanation": "アメリカでは移民大国ならではのフュージョン料理と呼ぶべき食文化も生まれた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-america"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 w-america から生成"
+   }
+  ],
+  "id": "q4-w-america",
+  "format": "single-choice",
+  "prompt": "多様な食文化が混ざり合って生まれる料理を何と呼ぶ?",
+  "choices": [
+   "香りづけ・辛みづけ・色づけ",
+   "発酵調味料",
+   "パウダー",
+   "フュージョン料理"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "アメリカでは移民大国ならではのフュージョン料理と呼ぶべき食文化も生まれた。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-chiliconcarne"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 w-chiliconcarne から生成"
+   }
+  ],
+  "id": "q1-w-chiliconcarne",
+  "format": "one-answer",
+  "prompt": "チリコンカンは何と呼ばれる料理ジャンルの代表的メニュー?",
+  "acceptedAnswers": [
+   "テクス・メクス"
+  ],
+  "explanation": "チリコンカンはテクス・メクス(テキサス生まれのメキシコ風アメリカ料理)の代表的な豆と肉の煮込みで、チリパウダー・クミン・オレガノが決め手。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-chiliconcarne"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 w-chiliconcarne から生成"
+   }
+  ],
+  "id": "q4-w-chiliconcarne",
+  "format": "single-choice",
+  "prompt": "チリコンカンは何と呼ばれる料理ジャンルの代表的メニュー?",
+  "choices": [
+   "デュカ",
+   "ハリッサ",
+   "テクス・メクス",
+   "サブジ"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "チリコンカンはテクス・メクス(テキサス生まれのメキシコ風アメリカ料理)の代表的な豆と肉の煮込みで、チリパウダー・クミン・オレガノが決め手。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-guacamole"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 w-guacamole から生成"
+   }
+  ],
+  "id": "q1-w-guacamole",
+  "format": "one-answer",
+  "prompt": "メキシコのアボカドディップ「ワカモーレ」の決め手のハーブは?",
+  "acceptedAnswers": [
+   "パクチー"
+  ],
+  "explanation": "メキシコのワカモーレはアボカドのディップで、パクチーや唐辛子が決め手。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "w-guacamole"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 w-guacamole から生成"
+   }
+  ],
+  "id": "q4-w-guacamole",
+  "format": "single-choice",
+  "prompt": "メキシコのアボカドディップ「ワカモーレ」の決め手のハーブは?",
+  "choices": [
+   "カルダモン",
+   "パクチー",
+   "ミント",
+   "ナツメッグ"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "メキシコのワカモーレはアボカドのディップで、パクチーや唐辛子が決め手。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-moroccan-tea"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-moroccan-tea から生成"
+   }
+  ],
+  "id": "q1-d-moroccan-tea",
+  "format": "one-answer",
+  "prompt": "「ガンパウダー」と呼ばれる中国緑茶とミントで入れるお茶は?",
+  "acceptedAnswers": [
+   "モロッコティー",
+   "モロカンティー"
+  ],
+  "explanation": "モロッコティー(モロカンティー)は、ガンパウダーと呼ばれる中国緑茶とミント、たっぷりの角砂糖で入れるお茶。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-moroccan-tea"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-moroccan-tea から生成"
+   }
+  ],
+  "id": "q4-d-moroccan-tea",
+  "format": "single-choice",
+  "prompt": "「ガンパウダー」と呼ばれる中国緑茶とミントで入れるお茶は?",
+  "choices": [
+   "モロッコティー",
+   "ナツメッグ",
+   "シナモン",
+   "ヘミングウェイ"
+  ],
+  "correctChoiceIndexes": [
+   0
+  ],
+  "explanation": "モロッコティー(モロカンティー)は、ガンパウダーと呼ばれる中国緑茶とミント、たっぷりの角砂糖で入れるお茶。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-gahwa"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-gahwa から生成"
+   }
+  ],
+  "id": "q1-d-gahwa",
+  "format": "one-answer",
+  "prompt": "ガーワ(アラビアンコーヒー)の決め手のスパイスは?",
+  "acceptedAnswers": [
+   "カルダモン"
+  ],
+  "explanation": "サウジアラビアのガーワ(アラビアンコーヒー)は、カルダモンを詰めたポットから注ぐカルダモンコーヒー。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-gahwa"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-gahwa から生成"
+   }
+  ],
+  "id": "q4-d-gahwa",
+  "format": "single-choice",
+  "prompt": "ガーワ(アラビアンコーヒー)の決め手のスパイスは?",
+  "choices": [
+   "シナモン",
+   "ナツメッグ",
+   "ミント",
+   "カルダモン"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "サウジアラビアのガーワ(アラビアンコーヒー)は、カルダモンを詰めたポットから注ぐカルダモンコーヒー。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-eggnog"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-eggnog から生成"
+   }
+  ],
+  "id": "q1-d-eggnog",
+  "format": "one-answer",
+  "prompt": "エッグノッグに使われるスパイスは?",
+  "acceptedAnswers": [
+   "ナツメッグ"
+  ],
+  "explanation": "アメリカのエッグノッグは牛乳と卵で作る冬の定番ドリンクで、ナツメッグなどで風味づけする。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-eggnog"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-eggnog から生成"
+   }
+  ],
+  "id": "q4-d-eggnog",
+  "format": "single-choice",
+  "prompt": "エッグノッグに使われるスパイスは?",
+  "choices": [
+   "カルダモン",
+   "シナモン",
+   "ナツメッグ",
+   "ミント"
+  ],
+  "correctChoiceIndexes": [
+   2
+  ],
+  "explanation": "アメリカのエッグノッグは牛乳と卵で作る冬の定番ドリンクで、ナツメッグなどで風味づけする。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-cafe-olla"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-cafe-olla から生成"
+   }
+  ],
+  "id": "q1-d-cafe-olla",
+  "format": "one-answer",
+  "prompt": "メキシコのカフェ・デ・オーヤに使われるスパイスは?",
+  "acceptedAnswers": [
+   "シナモン"
+  ],
+  "explanation": "メキシコのカフェ・デ・オーヤは鍋で煮出すコーヒーで、シナモンで風味づけする。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-cafe-olla"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-cafe-olla から生成"
+   }
+  ],
+  "id": "q4-d-cafe-olla",
+  "format": "single-choice",
+  "prompt": "メキシコのカフェ・デ・オーヤに使われるスパイスは?",
+  "choices": [
+   "ミント",
+   "ナツメッグ",
+   "カルダモン",
+   "シナモン"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "メキシコのカフェ・デ・オーヤは鍋で煮出すコーヒーで、シナモンで風味づけする。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-mojito"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-mojito から生成"
+   }
+  ],
+  "id": "q1-d-mojito",
+  "format": "one-answer",
+  "prompt": "モヒートを愛した作家として知られるのは?",
+  "acceptedAnswers": [
+   "ヘミングウェイ"
+  ],
+  "explanation": "キューバのモヒートはラム酒にミントとライムで風味づけしたドリンクで、ヘミングウェイが愛したことで有名。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-mojito"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-mojito から生成"
+   }
+  ],
+  "id": "q4-d-mojito",
+  "format": "single-choice",
+  "prompt": "モヒートを愛した作家として知られるのは?",
+  "choices": [
+   "モロッコティー",
+   "カルダモン",
+   "シナモン",
+   "ヘミングウェイ"
+  ],
+  "correctChoiceIndexes": [
+   3
+  ],
+  "explanation": "キューバのモヒートはラム酒にミントとライムで風味づけしたドリンクで、ヘミングウェイが愛したことで有名。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-mojito-herb"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-mojito-herb から生成"
+   }
+  ],
+  "id": "q1-d-mojito-herb",
+  "format": "one-answer",
+  "prompt": "モヒートの決め手のハーブは?",
+  "acceptedAnswers": [
+   "ミント"
+  ],
+  "explanation": "モヒートの決め手のハーブはミントである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "world-drink",
+  "difficulty": 1,
+  "knowledgeUnitIds": [
+   "d-mojito-herb"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9604",
+    "bookPage": 29,
+    "locationNote": "本書 p.29（原本画像 IMG_9604.PNG）。原文照合 batch27 で照合済みの知識単位 d-mojito-herb から生成"
+   }
+  ],
+  "id": "q4-d-mojito-herb",
+  "format": "single-choice",
+  "prompt": "モヒートの決め手のハーブは?",
+  "choices": [
+   "カルダモン",
+   "ミント",
+   "ナツメッグ",
+   "シナモン"
+  ],
+  "correctChoiceIndexes": [
+   1
+  ],
+  "explanation": "モヒートの決め手のハーブはミントである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-curry",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-curry"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9606",
+    "bookPage": 31,
+    "locationNote": "本書 p.31（原本画像 IMG_9606.PNG）。原文照合 batch28 で照合済みの知識単位 r-curry について、転記本文 p.31 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 ターメリックライスを炊く。米は洗ってざるに上げ、炊飯器の内釜に入れる。2合の目盛りまで水を注ぎ、ターメリック、塩を入れて軽く混ぜ、バターをのせて炊く。チキンカレーを作る。鶏肉は一口大に切り、塩、ホワイトペッパー各少々を振る。玉ねぎは薄切りにし、にんにく、しょうがはみじん切りにする。トマトは1cm角に切る。 2 鍋にサラダ油を熱し、鶏肉の両面を焼き、焼き色がついたら取り出す。 3 鍋にちぎったローレル、種を取り除いた唐辛子を入れて弱火で炒め、玉ねぎを加えて茶色くなるまで中火で炒める。 4 Aを加え、香りが立つまで炒める。にんにく、しょうがを加えて炒め、ヨーグルト、トマトを加えてひと煮立ちさせる。 5 鶏肉を戻して混ぜ、水300mℓを加えてときどき混ぜながら弱火で20分ほど煮込む。塩小さじ1と1/3、ホワイトペッパー適量で味をととのえる。"
+   }
+  ],
+  "id": "qord-curry",
+  "format": "ordering",
+  "prompt": "「チキンカレー」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "ターメリックライスを炊く。米は洗ってざるに上げ、炊飯器の内釜に入れる。2合の目盛りまで水を注ぎ、ターメリック、塩を入れて軽く混ぜ、バターをのせて炊く。チキンカレーを作る。鶏肉は一口大に切り、塩、ホワイトペッパー各少々を振る。玉ねぎは薄切りにし、にんにく、しょうがはみじん切りにする。トマトは1cm角に切る。",
+   "鶏肉を戻して混ぜ、水300mℓを加えてときどき混ぜながら弱火で20分ほど煮込む。塩小さじ1と1/3、ホワイトペッパー適量で味をととのえる。",
+   "鍋にサラダ油を熱し、鶏肉の両面を焼き、焼き色がついたら取り出す。",
+   "鍋にちぎったローレル、種を取り除いた唐辛子を入れて弱火で炒め、玉ねぎを加えて茶色くなるまで中火で炒める。",
+   "Aを加え、香りが立つまで炒める。にんにく、しょうがを加えて炒め、ヨーグルト、トマトを加えてひと煮立ちさせる。"
+  ],
+  "correctOrder": [
+   "ターメリックライスを炊く。米は洗ってざるに上げ、炊飯器の内釜に入れる。2合の目盛りまで水を注ぎ、ターメリック、塩を入れて軽く混ぜ、バターをのせて炊く。チキンカレーを作る。鶏肉は一口大に切り、塩、ホワイトペッパー各少々を振る。玉ねぎは薄切りにし、にんにく、しょうがはみじん切りにする。トマトは1cm角に切る。",
+   "鍋にサラダ油を熱し、鶏肉の両面を焼き、焼き色がついたら取り出す。",
+   "鍋にちぎったローレル、種を取り除いた唐辛子を入れて弱火で炒め、玉ねぎを加えて茶色くなるまで中火で炒める。",
+   "Aを加え、香りが立つまで炒める。にんにく、しょうがを加えて炒め、ヨーグルト、トマトを加えてひと煮立ちさせる。",
+   "鶏肉を戻して混ぜ、水300mℓを加えてときどき混ぜながら弱火で20分ほど煮込む。塩小さじ1と1/3、ホワイトペッパー適量で味をととのえる。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.31 の転記本文に番号付きで示された手順どおり）。1 ターメリックライスを炊く。米は洗ってざるに上げ、炊飯器の内釜に入れる。2合の目盛りまで水を注ぎ、ターメリック、塩を入れて軽く混ぜ、バターをのせて炊く。チキンカレーを作る。鶏肉は一口大に切り、塩、ホワイトペッパー各少々を振る。玉ねぎは薄切りにし、にんにく、しょうがはみじん切りにする。トマトは1cm角に切る。 2 鍋にサラダ油を熱し、鶏肉の両面を焼き、焼き色がついたら取り出す。 3 鍋にちぎったローレル、種を取り除いた唐辛子を入れて弱火で炒め、玉ねぎを加えて茶色くなるまで中火で炒める。 4 Aを加え、香りが立つまで炒める。にんにく、しょうがを加えて炒め、ヨーグルト、トマトを加えてひと煮立ちさせる。 5 鶏肉を戻して混ぜ、水300mℓを加えてときどき混ぜながら弱火で20分ほど煮込む。塩小さじ1と1/3、ホワイトペッパー適量で味をととのえる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-genovese",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-genovese-sauce"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9608",
+    "bookPage": 33,
+    "locationNote": "本書 p.33（原本画像 IMG_9608.PNG）。原文照合 batch28 で照合済みの知識単位 r-genovese-sauce について、転記本文 p.33 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 ジェノベーゼソースを作る（作り方は下記参照）。じゃがいもは2cm角に切る。いんげんはへたを落とし、長さを半分に切る。 2 鍋に3ℓの湯を沸かし、塩30gを入れる。パスタをゆで、ゆで上がる5分前にじゃがいも、1分前にいんげんを加え、ゆで上がったらゆで汁を少し取り分けてからざるに上げる。 3 ボウルにジェノベーゼソースを入れ、3と粉チーズを加えて混ぜる。好みでゆで汁を少し足してゆるめ、塩、ブラックペッパーで味をととのえる。"
+   }
+  ],
+  "id": "qord-genovese",
+  "format": "ordering",
+  "prompt": "「パスタジェノベーゼ」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "鍋に3ℓの湯を沸かし、塩30gを入れる。パスタをゆで、ゆで上がる5分前にじゃがいも、1分前にいんげんを加え、ゆで上がったらゆで汁を少し取り分けてからざるに上げる。",
+   "ボウルにジェノベーゼソースを入れ、3と粉チーズを加えて混ぜる。好みでゆで汁を少し足してゆるめ、塩、ブラックペッパーで味をととのえる。",
+   "ジェノベーゼソースを作る（作り方は下記参照）。じゃがいもは2cm角に切る。いんげんはへたを落とし、長さを半分に切る。"
+  ],
+  "correctOrder": [
+   "ジェノベーゼソースを作る（作り方は下記参照）。じゃがいもは2cm角に切る。いんげんはへたを落とし、長さを半分に切る。",
+   "鍋に3ℓの湯を沸かし、塩30gを入れる。パスタをゆで、ゆで上がる5分前にじゃがいも、1分前にいんげんを加え、ゆで上がったらゆで汁を少し取り分けてからざるに上げる。",
+   "ボウルにジェノベーゼソースを入れ、3と粉チーズを加えて混ぜる。好みでゆで汁を少し足してゆるめ、塩、ブラックペッパーで味をととのえる。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.33 の転記本文に番号付きで示された手順どおり）。1 ジェノベーゼソースを作る（作り方は下記参照）。じゃがいもは2cm角に切る。いんげんはへたを落とし、長さを半分に切る。 2 鍋に3ℓの湯を沸かし、塩30gを入れる。パスタをゆで、ゆで上がる5分前にじゃがいも、1分前にいんげんを加え、ゆで上がったらゆで汁を少し取り分けてからざるに上げる。 3 ボウルにジェノベーゼソースを入れ、3と粉チーズを加えて混ぜる。好みでゆで汁を少し足してゆるめ、塩、ブラックペッパーで味をととのえる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-paella",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-paella"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9610",
+    "bookPage": 35,
+    "locationNote": "本書 p.35（原本画像 IMG_9610.PNG）。原文照合 batch28 で照合済みの知識単位 r-paella について、転記本文 p.35 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 Aを合わせ、20分ほどおいて色を出す。えびは竹串で背わたを除き、ひげがあれば切る。あさりとムール貝は殻をこすり合わせて流水で洗う。いかは胴の部分に指を入れてわたと軟骨を除き、胴と足に分け、胴は1cm厚さの輪切りにし、足は2〜3本ずつに切り分ける。鶏肉は一口大に切り、塩、ホワイトペッパーを振って、軽く下味をつける。玉ねぎ、にんにくはみじん切りにする。パプリカは細切りにする。 2 パエリアパンにオリーブオイル大さじ2、にんにくを入れて中火で熱し、香りが立ってきたら2を加えて炒める。白ワインを加えて蓋（またはアルミホイル）をし、貝の口が開くまで蒸し、取り出して具と煮汁に分ける。 3 パエリアパンにオリーブオイル大さじ2を中火で熱し、玉ねぎを入れて透き通るまで炒め、鶏肉を加えて両面に焼き色がつくまで焼く。米を加えて炒め、透き通ってきたら火を止める。1と4の煮汁、塩小さじ1/2、ホワイトペッパー少々を加えて軽く混ぜ、平らにならして上に4の具、パプリカをバランスよく並べる。 4 蓋（またはアルミホイル）をして弱火で15分ほど加熱し、汁けがなくなったら火を止めて10〜15分蒸らす。 5 みじん切りにしたイタリアンパセリを散らし、くし形切りにしたレモンを添える。"
+   }
+  ],
+  "id": "qord-paella",
+  "format": "ordering",
+  "prompt": "「パエリア」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "Aを合わせ、20分ほどおいて色を出す。えびは竹串で背わたを除き、ひげがあれば切る。あさりとムール貝は殻をこすり合わせて流水で洗う。いかは胴の部分に指を入れてわたと軟骨を除き、胴と足に分け、胴は1cm厚さの輪切りにし、足は2〜3本ずつに切り分ける。鶏肉は一口大に切り、塩、ホワイトペッパーを振って、軽く下味をつける。玉ねぎ、にんにくはみじん切りにする。パプリカは細切りにする。",
+   "みじん切りにしたイタリアンパセリを散らし、くし形切りにしたレモンを添える。",
+   "蓋（またはアルミホイル）をして弱火で15分ほど加熱し、汁けがなくなったら火を止めて10〜15分蒸らす。",
+   "パエリアパンにオリーブオイル大さじ2、にんにくを入れて中火で熱し、香りが立ってきたら2を加えて炒める。白ワインを加えて蓋（またはアルミホイル）をし、貝の口が開くまで蒸し、取り出して具と煮汁に分ける。",
+   "パエリアパンにオリーブオイル大さじ2を中火で熱し、玉ねぎを入れて透き通るまで炒め、鶏肉を加えて両面に焼き色がつくまで焼く。米を加えて炒め、透き通ってきたら火を止める。1と4の煮汁、塩小さじ1/2、ホワイトペッパー少々を加えて軽く混ぜ、平らにならして上に4の具、パプリカをバランスよく並べる。"
+  ],
+  "correctOrder": [
+   "Aを合わせ、20分ほどおいて色を出す。えびは竹串で背わたを除き、ひげがあれば切る。あさりとムール貝は殻をこすり合わせて流水で洗う。いかは胴の部分に指を入れてわたと軟骨を除き、胴と足に分け、胴は1cm厚さの輪切りにし、足は2〜3本ずつに切り分ける。鶏肉は一口大に切り、塩、ホワイトペッパーを振って、軽く下味をつける。玉ねぎ、にんにくはみじん切りにする。パプリカは細切りにする。",
+   "パエリアパンにオリーブオイル大さじ2、にんにくを入れて中火で熱し、香りが立ってきたら2を加えて炒める。白ワインを加えて蓋（またはアルミホイル）をし、貝の口が開くまで蒸し、取り出して具と煮汁に分ける。",
+   "パエリアパンにオリーブオイル大さじ2を中火で熱し、玉ねぎを入れて透き通るまで炒め、鶏肉を加えて両面に焼き色がつくまで焼く。米を加えて炒め、透き通ってきたら火を止める。1と4の煮汁、塩小さじ1/2、ホワイトペッパー少々を加えて軽く混ぜ、平らにならして上に4の具、パプリカをバランスよく並べる。",
+   "蓋（またはアルミホイル）をして弱火で15分ほど加熱し、汁けがなくなったら火を止めて10〜15分蒸らす。",
+   "みじん切りにしたイタリアンパセリを散らし、くし形切りにしたレモンを添える。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.35 の転記本文に番号付きで示された手順どおり）。1 Aを合わせ、20分ほどおいて色を出す。えびは竹串で背わたを除き、ひげがあれば切る。あさりとムール貝は殻をこすり合わせて流水で洗う。いかは胴の部分に指を入れてわたと軟骨を除き、胴と足に分け、胴は1cm厚さの輪切りにし、足は2〜3本ずつに切り分ける。鶏肉は一口大に切り、塩、ホワイトペッパーを振って、軽く下味をつける。玉ねぎ、にんにくはみじん切りにする。パプリカは細切りにする。 2 パエリアパンにオリーブオイル大さじ2、にんにくを入れて中火で熱し、香りが立ってきたら2を加えて炒める。白ワインを加えて蓋（またはアルミホイル）をし、貝の口が開くまで蒸し、取り出して具と煮汁に分ける。 3 パエリアパンにオリーブオイル大さじ2を中火で熱し、玉ねぎを入れて透き通るまで炒め、鶏肉を加えて両面に焼き色がつくまで焼く。米を加えて炒め、透き通ってきたら火を止める。1と4の煮汁、塩小さじ1/2、ホワイトペッパー少々を加えて軽く混ぜ、平らにならして上に4の具、パプリカをバランスよく並べる。 4 蓋（またはアルミホイル）をして弱火で15分ほど加熱し、汁けがなくなったら火を止めて10〜15分蒸らす。 5 みじん切りにしたイタリアンパセリを散らし、くし形切りにしたレモンを添える。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-chili",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-chili"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9611",
+    "bookPage": 36,
+    "locationNote": "本書 p.36（原本画像 IMG_9611.PNG）。原文照合 batch28 で照合済みの知識単位 r-chili について、転記本文 p.36 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 玉ねぎ、にんにくはみじん切りにする。 2 鍋にサラダ油を熱し、1を入れて透き通るまで炒め、ひき肉を加えてよく炒め合わせる。Aを加え、ときどき混ぜながら弱めの中火で20分ほど煮る。 3 レッドキドニービーンズを加えてさらに煮込み、汁けがほとんどなくなったら塩、ブラックペッパーで味をととのえる。"
+   }
+  ],
+  "id": "qord-chili",
+  "format": "ordering",
+  "prompt": "「チリコンカン」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "鍋にサラダ油を熱し、1を入れて透き通るまで炒め、ひき肉を加えてよく炒め合わせる。Aを加え、ときどき混ぜながら弱めの中火で20分ほど煮る。",
+   "玉ねぎ、にんにくはみじん切りにする。",
+   "レッドキドニービーンズを加えてさらに煮込み、汁けがほとんどなくなったら塩、ブラックペッパーで味をととのえる。"
+  ],
+  "correctOrder": [
+   "玉ねぎ、にんにくはみじん切りにする。",
+   "鍋にサラダ油を熱し、1を入れて透き通るまで炒め、ひき肉を加えてよく炒め合わせる。Aを加え、ときどき混ぜながら弱めの中火で20分ほど煮る。",
+   "レッドキドニービーンズを加えてさらに煮込み、汁けがほとんどなくなったら塩、ブラックペッパーで味をととのえる。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.36 の転記本文に番号付きで示された手順どおり）。1 玉ねぎ、にんにくはみじん切りにする。 2 鍋にサラダ油を熱し、1を入れて透き通るまで炒め、ひき肉を加えてよく炒め合わせる。Aを加え、ときどき混ぜながら弱めの中火で20分ほど煮る。 3 レッドキドニービーンズを加えてさらに煮込み、汁けがほとんどなくなったら塩、ブラックペッパーで味をととのえる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-kakuni",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-kakuni"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9612",
+    "bookPage": 37,
+    "locationNote": "本書 p.37（原本画像 IMG_9612.PNG）。原文照合 batch28 で照合済みの知識単位 r-kakuni について、転記本文 p.37 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 豚肉は4cm角に切り、塩、ホワイトペッパーを振る。シナモンスティックは半分に折る。 2 フライパンを熱し、豚肉を焼いて全体に焼き色をつけ、取り出す。 3 鍋に2、Aを入れて蓋をし、弱火で1時間ほど煮る。 4 浮いたアクや脂を除いて強火にし、煮汁を煮詰めて全体にからめる。"
+   }
+  ],
+  "id": "qord-kakuni",
+  "format": "ordering",
+  "prompt": "「豚の角煮」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "豚肉は4cm角に切り、塩、ホワイトペッパーを振る。シナモンスティックは半分に折る。",
+   "鍋に2、Aを入れて蓋をし、弱火で1時間ほど煮る。",
+   "浮いたアクや脂を除いて強火にし、煮汁を煮詰めて全体にからめる。",
+   "フライパンを熱し、豚肉を焼いて全体に焼き色をつけ、取り出す。"
+  ],
+  "correctOrder": [
+   "豚肉は4cm角に切り、塩、ホワイトペッパーを振る。シナモンスティックは半分に折る。",
+   "フライパンを熱し、豚肉を焼いて全体に焼き色をつけ、取り出す。",
+   "鍋に2、Aを入れて蓋をし、弱火で1時間ほど煮る。",
+   "浮いたアクや脂を除いて強火にし、煮汁を煮詰めて全体にからめる。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.37 の転記本文に番号付きで示された手順どおり）。1 豚肉は4cm角に切り、塩、ホワイトペッパーを振る。シナモンスティックは半分に折る。 2 フライパンを熱し、豚肉を焼いて全体に焼き色をつけ、取り出す。 3 鍋に2、Aを入れて蓋をし、弱火で1時間ほど煮る。 4 浮いたアクや脂を除いて強火にし、煮汁を煮詰めて全体にからめる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-hummus",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-hummus"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9614",
+    "bookPage": 39,
+    "locationNote": "本書 p.39（原本画像 IMG_9614.PNG）。原文照合 batch29 で照合済みの知識単位 r-hummus について、転記本文 p.39 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 ひよこ豆はさっと洗い、たっぷりの水に一晩（6時間以上）つける。 2 ざるに上げ、鍋に3倍量の水とともに入れて1時間ほどゆでる。やわらかくなったらゆで汁を100mℓほど取り分け、ざるに上げて水けをきる。 3 2の豆とAをミキサーにかける。なめらかになったらゆで汁を少しずつ加え、好みのやわらかさにする。 4 器に盛り、オリーブオイル、パプリカを振る。"
+   }
+  ],
+  "id": "qord-hummus",
+  "format": "ordering",
+  "prompt": "「フムス」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "2の豆とAをミキサーにかける。なめらかになったらゆで汁を少しずつ加え、好みのやわらかさにする。",
+   "器に盛り、オリーブオイル、パプリカを振る。",
+   "ざるに上げ、鍋に3倍量の水とともに入れて1時間ほどゆでる。やわらかくなったらゆで汁を100mℓほど取り分け、ざるに上げて水けをきる。",
+   "ひよこ豆はさっと洗い、たっぷりの水に一晩（6時間以上）つける。"
+  ],
+  "correctOrder": [
+   "ひよこ豆はさっと洗い、たっぷりの水に一晩（6時間以上）つける。",
+   "ざるに上げ、鍋に3倍量の水とともに入れて1時間ほどゆでる。やわらかくなったらゆで汁を100mℓほど取り分け、ざるに上げて水けをきる。",
+   "2の豆とAをミキサーにかける。なめらかになったらゆで汁を少しずつ加え、好みのやわらかさにする。",
+   "器に盛り、オリーブオイル、パプリカを振る。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.39 の転記本文に番号付きで示された手順どおり）。1 ひよこ豆はさっと洗い、たっぷりの水に一晩（6時間以上）つける。 2 ざるに上げ、鍋に3倍量の水とともに入れて1時間ほどゆでる。やわらかくなったらゆで汁を100mℓほど取り分け、ざるに上げて水けをきる。 3 2の豆とAをミキサーにかける。なめらかになったらゆで汁を少しずつ加え、好みのやわらかさにする。 4 器に盛り、オリーブオイル、パプリカを振る。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-lamb",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-couscous"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9616",
+    "bookPage": 41,
+    "locationNote": "本書 p.41（原本画像 IMG_9616.PNG）。原文照合 batch29 で照合済みの知識単位 r-couscous について、転記本文 p.41 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 クスクスを作る。クスクスはボウルに入れて熱湯をかけ、木べらなどでさっと混ぜてひとまとめにし、ラップをかけて10分蒸らす。塩、バターを加えて混ぜ、食べるまでラップをかけておく。ラムの煮込みを作る。ラム肉は塩小さじ1/2、ホワイトペッパーをもみ込む。玉ねぎ、かぼちゃは1cm厚さのくし形切り、にんじんは乱切り、じゃがいもは一口大、セロリは斜め薄切り、ズッキーニは1.5cm厚さの輪切りにする。 2 フライパンにオリーブオイルを熱し、玉ねぎを入れて炒める。しんなりしてきたら、ラム肉を加えて焼き色をつける。にんにく、Aを加えて炒め、にんじん、じゃがいも、セロリを加えて炒める。水800mℓ、つぶしたホールトマトを加え、煮立ったらズッキーニとかぼちゃを加えて弱火で20分ほど煮込む。 3 塩で味をととのえ、器に1とともに盛り、パクチーを添える。好みでハリッサ風ペースト（下記参照）をかけて食べる。"
+   }
+  ],
+  "id": "qord-lamb",
+  "format": "ordering",
+  "prompt": "「ラムの煮込みとクスクス」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "クスクスを作る。クスクスはボウルに入れて熱湯をかけ、木べらなどでさっと混ぜてひとまとめにし、ラップをかけて10分蒸らす。塩、バターを加えて混ぜ、食べるまでラップをかけておく。ラムの煮込みを作る。ラム肉は塩小さじ1/2、ホワイトペッパーをもみ込む。玉ねぎ、かぼちゃは1cm厚さのくし形切り、にんじんは乱切り、じゃがいもは一口大、セロリは斜め薄切り、ズッキーニは1.5cm厚さの輪切りにする。",
+   "塩で味をととのえ、器に1とともに盛り、パクチーを添える。好みでハリッサ風ペースト（下記参照）をかけて食べる。",
+   "フライパンにオリーブオイルを熱し、玉ねぎを入れて炒める。しんなりしてきたら、ラム肉を加えて焼き色をつける。にんにく、Aを加えて炒め、にんじん、じゃがいも、セロリを加えて炒める。水800mℓ、つぶしたホールトマトを加え、煮立ったらズッキーニとかぼちゃを加えて弱火で20分ほど煮込む。"
+  ],
+  "correctOrder": [
+   "クスクスを作る。クスクスはボウルに入れて熱湯をかけ、木べらなどでさっと混ぜてひとまとめにし、ラップをかけて10分蒸らす。塩、バターを加えて混ぜ、食べるまでラップをかけておく。ラムの煮込みを作る。ラム肉は塩小さじ1/2、ホワイトペッパーをもみ込む。玉ねぎ、かぼちゃは1cm厚さのくし形切り、にんじんは乱切り、じゃがいもは一口大、セロリは斜め薄切り、ズッキーニは1.5cm厚さの輪切りにする。",
+   "フライパンにオリーブオイルを熱し、玉ねぎを入れて炒める。しんなりしてきたら、ラム肉を加えて焼き色をつける。にんにく、Aを加えて炒め、にんじん、じゃがいも、セロリを加えて炒める。水800mℓ、つぶしたホールトマトを加え、煮立ったらズッキーニとかぼちゃを加えて弱火で20分ほど煮込む。",
+   "塩で味をととのえ、器に1とともに盛り、パクチーを添える。好みでハリッサ風ペースト（下記参照）をかけて食べる。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.41 の転記本文に番号付きで示された手順どおり）。1 クスクスを作る。クスクスはボウルに入れて熱湯をかけ、木べらなどでさっと混ぜてひとまとめにし、ラップをかけて10分蒸らす。塩、バターを加えて混ぜ、食べるまでラップをかけておく。ラムの煮込みを作る。ラム肉は塩小さじ1/2、ホワイトペッパーをもみ込む。玉ねぎ、かぼちゃは1cm厚さのくし形切り、にんじんは乱切り、じゃがいもは一口大、セロリは斜め薄切り、ズッキーニは1.5cm厚さの輪切りにする。 2 フライパンにオリーブオイルを熱し、玉ねぎを入れて炒める。しんなりしてきたら、ラム肉を加えて焼き色をつける。にんにく、Aを加えて炒め、にんじん、じゃがいも、セロリを加えて炒める。水800mℓ、つぶしたホールトマトを加え、煮立ったらズッキーニとかぼちゃを加えて弱火で20分ほど煮込む。 3 塩で味をととのえ、器に1とともに盛り、パクチーを添える。好みでハリッサ風ペースト（下記参照）をかけて食べる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-currywurst",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-currywurst"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9617",
+    "bookPage": 42,
+    "locationNote": "本書 p.42（原本画像 IMG_9617.PNG）。原文照合 batch29 で照合済みの知識単位 r-currywurst について、転記本文 p.42 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 玉ねぎはみじん切りにする。フライパンを熱し、フランクフルトを焼き色がつくまで焼いて取り出す。 2 フライパンにバターを溶かし、玉ねぎを入れて透き通るまで炒め、Aを加えて混ぜる。 3 器に2を盛り、3をかけてカレー粉を振る。フライドポテト、イタリアンパセリを添える。"
+   }
+  ],
+  "id": "qord-currywurst",
+  "format": "ordering",
+  "prompt": "「カリーヴルスト」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "フライパンにバターを溶かし、玉ねぎを入れて透き通るまで炒め、Aを加えて混ぜる。",
+   "器に2を盛り、3をかけてカレー粉を振る。フライドポテト、イタリアンパセリを添える。",
+   "玉ねぎはみじん切りにする。フライパンを熱し、フランクフルトを焼き色がつくまで焼いて取り出す。"
+  ],
+  "correctOrder": [
+   "玉ねぎはみじん切りにする。フライパンを熱し、フランクフルトを焼き色がつくまで焼いて取り出す。",
+   "フライパンにバターを溶かし、玉ねぎを入れて透き通るまで炒め、Aを加えて混ぜる。",
+   "器に2を盛り、3をかけてカレー粉を振る。フライドポテト、イタリアンパセリを添える。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.42 の転記本文に番号付きで示された手順どおり）。1 玉ねぎはみじん切りにする。フライパンを熱し、フランクフルトを焼き色がつくまで焼いて取り出す。 2 フライパンにバターを溶かし、玉ねぎを入れて透き通るまで炒め、Aを加えて混ぜる。 3 器に2を盛り、3をかけてカレー粉を振る。フライドポテト、イタリアンパセリを添える。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-cumin-potato",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-cumin-potato"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9618",
+    "bookPage": 43,
+    "locationNote": "本書 p.43（原本画像 IMG_9618.PNG）。原文照合 batch29 で照合済みの知識単位 r-cumin-potato について、転記本文 p.43 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 じゃがいもは一口大に切る。オクラはがくをむいて長さを半分に切る。にんにくはつぶす。 2 フライパンに油、クミンシード、にんにくを入れて弱火で炒め、香りが立ってきたらターメリック、じゃがいもを加えて混ぜ合わせる。 3 蓋をして2〜3分たったら具材の上下を返し、オクラを加えて火が通るまで弱火で4〜5分蒸し焼きにする。塩、ホワイトペッパーで味をととのえる。"
+   }
+  ],
+  "id": "qord-cumin-potato",
+  "format": "ordering",
+  "prompt": "「クミンポテト」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "じゃがいもは一口大に切る。オクラはがくをむいて長さを半分に切る。にんにくはつぶす。",
+   "蓋をして2〜3分たったら具材の上下を返し、オクラを加えて火が通るまで弱火で4〜5分蒸し焼きにする。塩、ホワイトペッパーで味をととのえる。",
+   "フライパンに油、クミンシード、にんにくを入れて弱火で炒め、香りが立ってきたらターメリック、じゃがいもを加えて混ぜ合わせる。"
+  ],
+  "correctOrder": [
+   "じゃがいもは一口大に切る。オクラはがくをむいて長さを半分に切る。にんにくはつぶす。",
+   "フライパンに油、クミンシード、にんにくを入れて弱火で炒め、香りが立ってきたらターメリック、じゃがいもを加えて混ぜ合わせる。",
+   "蓋をして2〜3分たったら具材の上下を返し、オクラを加えて火が通るまで弱火で4〜5分蒸し焼きにする。塩、ホワイトペッパーで味をととのえる。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.43 の転記本文に番号付きで示された手順どおり）。1 じゃがいもは一口大に切る。オクラはがくをむいて長さを半分に切る。にんにくはつぶす。 2 フライパンに油、クミンシード、にんにくを入れて弱火で炒め、香りが立ってきたらターメリック、じゃがいもを加えて混ぜ合わせる。 3 蓋をして2〜3分たったら具材の上下を返し、オクラを加えて火が通るまで弱火で4〜5分蒸し焼きにする。塩、ホワイトペッパーで味をととのえる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-chai",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-chai"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9619",
+    "bookPage": 44,
+    "locationNote": "本書 p.44（原本画像 IMG_9619.PNG）。原文照合 batch29 で照合済みの知識単位 r-chai について、転記本文 p.44 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 シナモンスティックは半分に折り、カルダモンはさやをつぶす。 2 鍋に1とクローブ、水400mℓを入れて火にかけ、煮立ったら弱火で3〜5分煮出す。 3 火を止め、茶葉を加えて2〜3分おく。 4 牛乳、砂糖を加えて火にかけ、沸騰直前まで温めて茶こしでこし、カップに注ぐ。"
+   }
+  ],
+  "id": "qord-chai",
+  "format": "ordering",
+  "prompt": "「チャイ」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "鍋に1とクローブ、水400mℓを入れて火にかけ、煮立ったら弱火で3〜5分煮出す。",
+   "シナモンスティックは半分に折り、カルダモンはさやをつぶす。",
+   "火を止め、茶葉を加えて2〜3分おく。",
+   "牛乳、砂糖を加えて火にかけ、沸騰直前まで温めて茶こしでこし、カップに注ぐ。"
+  ],
+  "correctOrder": [
+   "シナモンスティックは半分に折り、カルダモンはさやをつぶす。",
+   "鍋に1とクローブ、水400mℓを入れて火にかけ、煮立ったら弱火で3〜5分煮出す。",
+   "火を止め、茶葉を加えて2〜3分おく。",
+   "牛乳、砂糖を加えて火にかけ、沸騰直前まで温めて茶こしでこし、カップに注ぐ。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.44 の転記本文に番号付きで示された手順どおり）。1 シナモンスティックは半分に折り、カルダモンはさやをつぶす。 2 鍋に1とクローブ、水400mℓを入れて火にかけ、煮立ったら弱火で3〜5分煮出す。 3 火を止め、茶葉を加えて2〜3分おく。 4 牛乳、砂糖を加えて火にかけ、沸騰直前まで温めて茶こしでこし、カップに注ぐ。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "dish-apple",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "r-bakedapple"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9620",
+    "bookPage": 45,
+    "locationNote": "本書 p.45（原本画像 IMG_9620.PNG）。原文照合 batch29 で照合済みの知識単位 r-bakedapple について、転記本文 p.45 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 りんごはよく洗い、底を残して芯をくりぬく。バター、シナモン、グラニュー糖を各1/4量ずつ詰め、クローブを3粒ずつ刺す。 2 アルミホイルを二重にして広げ、1をのせ、閉じ口が上にくるように包む。 3 200度に熱したオーブンで竹串が通るまで30〜40分焼く。"
+   }
+  ],
+  "id": "qord-bakedapple",
+  "format": "ordering",
+  "prompt": "「焼きりんご」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "200度に熱したオーブンで竹串が通るまで30〜40分焼く。",
+   "アルミホイルを二重にして広げ、1をのせ、閉じ口が上にくるように包む。",
+   "りんごはよく洗い、底を残して芯をくりぬく。バター、シナモン、グラニュー糖を各1/4量ずつ詰め、クローブを3粒ずつ刺す。"
+  ],
+  "correctOrder": [
+   "りんごはよく洗い、底を残して芯をくりぬく。バター、シナモン、グラニュー糖を各1/4量ずつ詰め、クローブを3粒ずつ刺す。",
+   "アルミホイルを二重にして広げ、1をのせ、閉じ口が上にくるように包む。",
+   "200度に熱したオーブンで竹串が通るまで30〜40分焼く。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.45 の転記本文に番号付きで示された手順どおり）。1 りんごはよく洗い、底を残して芯をくりぬく。バター、シナモン、グラニュー糖を各1/4量ずつ詰め、クローブを3粒ずつ刺す。 2 アルミホイルを二重にして広げ、1をのせ、閉じ口が上にくるように包む。 3 200度に熱したオーブンで竹串が通るまで30〜40分焼く。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "season-paste",
+  "difficulty": 4,
+  "knowledgeUnitIds": [
+   "c-herb-paste"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9623",
+    "bookPage": 48,
+    "locationNote": "本書 p.48（原本画像 IMG_9623.PNG）。原文照合 batch30 で照合済みの知識単位 c-herb-paste について、転記本文 p.48 の番号付き手順に基づき人手作成（追加形式F2、DECISIONS #26）。手順: 1 フレッシュハーブは洗い、キッチンペーパーで水けを拭く。にんにくは薄切りにする。 2 1と松の実をミキサーやフードプロセッサーにかけ、ペースト状にする。 3 オリーブオイルを加えてかくはんし、塩で味をととのえる。"
+   }
+  ],
+  "id": "qord-herb-paste",
+  "format": "ordering",
+  "prompt": "「基本のハーブペースト」の作り方の手順を、正しい順序に並べ替えよ。",
+  "orderingItems": [
+   "オリーブオイルを加えてかくはんし、塩で味をととのえる。",
+   "1と松の実をミキサーやフードプロセッサーにかけ、ペースト状にする。",
+   "フレッシュハーブは洗い、キッチンペーパーで水けを拭く。にんにくは薄切りにする。"
+  ],
+  "correctOrder": [
+   "フレッシュハーブは洗い、キッチンペーパーで水けを拭く。にんにくは薄切りにする。",
+   "1と松の実をミキサーやフードプロセッサーにかけ、ペースト状にする。",
+   "オリーブオイルを加えてかくはんし、塩で味をととのえる。"
+  ],
+  "explanation": "正しい順序は次のとおり（本書 p.48 の転記本文に番号付きで示された手順どおり）。1 フレッシュハーブは洗い、キッチンペーパーで水けを拭く。にんにくは薄切りにする。 2 1と松の実をミキサーやフードプロセッサーにかけ、ペースト状にする。 3 オリーブオイルを加えてかくはんし、塩で味をととのえる。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-aroma",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "u-3roles"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9593",
+    "bookPage": 18,
+    "locationNote": "本書 p.18（原本画像 IMG_9593.PNG）。原文照合 batch24 で照合済みの知識単位 u-3roles について、転記本文 p.18 の支持文に基づき人手作成（追加形式F2、DECISIONS #26）。支持文: 料理に利用するとき、スパイスやハーブには3つの働きがあります。それは「香りづけ」「辛みづけ」「色づけ」ですが、なかでも「香りづけ」は、ほとんどのスパイスやハーブが持つ働きです。日本では長い間、スパイスとは辛いものと考えられがちでしたが、一番の特徴はこの香りであるということを理解するのが、スパイスやハーブを使いこなす第一歩です。"
+   }
+  ],
+  "id": "qse-three-roles",
+  "format": "short-essay",
+  "prompt": "料理に利用するときのスパイスやハーブの3つの働きを挙げて短く述べよ。",
+  "modelAnswer": "料理に利用するとき、スパイスやハーブには3つの働きがあります。それは「香りづけ」「辛みづけ」「色づけ」ですが、なかでも「香りづけ」は、ほとんどのスパイスやハーブが持つ働きです。日本では長い間、スパイスとは辛いものと考えられがちでしたが、一番の特徴はこの香りであるということを理解するのが、スパイスやハーブを使いこなす第一歩です。",
+  "rubric": [
+   {
+    "id": "aroma",
+    "label": "働き「香りづけ」を挙げる",
+    "keywords": [
+     "香りづけ"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "spicy",
+    "label": "働き「辛みづけ」を挙げる",
+    "keywords": [
+     "辛みづけ"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "color",
+    "label": "働き「色づけ」を挙げる",
+    "keywords": [
+     "色づけ"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "料理におけるスパイスやハーブの3つの働きは、香りづけ・辛みづけ・色づけである。"
+ },
+ {
+  "version": 1,
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionId": "basic-timing",
+  "difficulty": 2,
+  "knowledgeUnitIds": [
+   "u-fresh-3x",
+   "u-dry-third",
+   "u-rosemary-same"
+  ],
+  "sourceRefs": [
+   {
+    "manifestImageId": "IMG_9597",
+    "bookPage": 22,
+    "locationNote": "本書 p.22（原本画像 IMG_9597.PNG）。原文照合 batch25 で照合済みの知識単位 u-fresh-3x について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.22: なお、同じレシピであれば、フレッシュハーブの使用量はドライハーブの3倍が目安です。水分が抜けたことでかさが減ったドライハーブは、フレッシュハーブの体積量の3分の1程度で十分だからです。ただし乾燥によっても体積があまり変化しないハーブ（ローズマリーやタイムなど）は、ドライの場合とほぼ同量か、少し多いくらいの量でよいでしょう。"
+   },
+   {
+    "manifestImageId": "IMG_9597",
+    "bookPage": 22,
+    "locationNote": "本書 p.22（原本画像 IMG_9597.PNG）。原文照合 batch25 で照合済みの知識単位 u-dry-third について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.22: なお、同じレシピであれば、フレッシュハーブの使用量はドライハーブの3倍が目安です。水分が抜けたことでかさが減ったドライハーブは、フレッシュハーブの体積量の3分の1程度で十分だからです。ただし乾燥によっても体積があまり変化しないハーブ（ローズマリーやタイムなど）は、ドライの場合とほぼ同量か、少し多いくらいの量でよいでしょう。"
+   },
+   {
+    "manifestImageId": "IMG_9597",
+    "bookPage": 22,
+    "locationNote": "本書 p.22（原本画像 IMG_9597.PNG）。原文照合 batch25 で照合済みの知識単位 u-rosemary-same について、転記本文の支持文に基づき人手作成（追加形式F3、DECISIONS #27）。支持文: p.22: なお、同じレシピであれば、フレッシュハーブの使用量はドライハーブの3倍が目安です。水分が抜けたことでかさが減ったドライハーブは、フレッシュハーブの体積量の3分の1程度で十分だからです。ただし乾燥によっても体積があまり変化しないハーブ（ローズマリーやタイムなど）は、ドライの場合とほぼ同量か、少し多いくらいの量でよいでしょう。"
+   }
+  ],
+  "id": "qce-fresh-dry-amount",
+  "format": "compare-essay",
+  "prompt": "フレッシュハーブとドライハーブについて、同じレシピでの使用量の目安とその理由、例外を比較して述べよ。",
+  "modelAnswer": "なお、同じレシピであれば、フレッシュハーブの使用量はドライハーブの3倍が目安です。水分が抜けたことでかさが減ったドライハーブは、フレッシュハーブの体積量の3分の1程度で十分だからです。ただし乾燥によっても体積があまり変化しないハーブ（ローズマリーやタイムなど）は、ドライの場合とほぼ同量か、少し多いくらいの量でよいでしょう。",
+  "rubric": [
+   {
+    "id": "fresh-3x",
+    "label": "フレッシュハーブの使用量はドライハーブの3倍が目安であることに触れる",
+    "keywords": [
+     "ドライハーブの3倍が目安"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "dry-third",
+    "label": "ドライハーブはフレッシュハーブの体積量の3分の1程度で十分であることに触れる",
+    "keywords": [
+     "体積量の3分の1程度で十分"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "reason",
+    "label": "水分が抜けたことでかさが減ったことが理由であることに触れる",
+    "keywords": [
+     "水分が抜けたことでかさが減った"
+    ],
+    "required": true,
+    "points": 1
+   },
+   {
+    "id": "exception",
+    "label": "ローズマリーやタイムなどはドライの場合とほぼ同量か少し多いくらいでよいことに触れる",
+    "keywords": [
+     "ほぼ同量か、少し多いくらい"
+    ],
+    "required": true,
+    "points": 1
+   }
+  ],
+  "explanation": "同じレシピなら、フレッシュハーブの使用量はドライハーブの3倍が目安(ドライはフレッシュの体積の3分の1程度で十分)。\nフレッシュハーブをドライに置き換える場合、量はおよそ3分の1でよい。\nローズマリーやタイムなど乾燥でも体積があまり変わらないハーブは、ドライとほぼ同量か少し多いくらいでよい。"
+ }
+]

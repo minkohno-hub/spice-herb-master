@@ -1,0 +1,556 @@
+[
+ {
+  "id": "r-curry",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "spice",
+  "content": "本書のチキンカレーは、ターメリック・コリアンダー・クミン・ナツメッグ・シナモンのパウダーなどを組み合わせた本格インド風で、ターメリックライスを添える。",
+  "source": {
+   "page": 31,
+   "sourceUnitId": "r-curry",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "本書のチキンカレーに添えるライスを黄色く色づけるスパイスは?",
+   "a": "ターメリック",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch28",
+   "reason": "チキンカレーの見出し文「基本的なスパイスの組み合わせで本格インド風カレーが作れます。ターメリックの色が映える美しいライスを添えて」および材料A（ターメリック・コリアンダー・クミン各小さじ1、ナツメッグ・シナモン各小さじ1/2、すべてパウダー）と一致。q/a（ターメリックライスを黄色く色づけるスパイス=ターメリック）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-genovese-sauce",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "count",
+  "content": "ジェノベーゼソースはバジルの葉・にんにく・粉チーズ・松の実・オリーブオイルで作る。冷蔵で1週間が目安で、空気に触れると黒っぽく変色するため表面をオリーブオイルで覆う。冷凍で1〜2カ月保存できる。",
+  "source": {
+   "page": 33,
+   "sourceUnitId": "r-genovese-sauce",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ジェノベーゼソースの冷蔵保存の目安は?",
+   "a": "1週間",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch28",
+   "reason": "ジェノベーゼソースの材料（バジルの葉50g・にんにく1かけ・粉チーズ（パルメザン）大さじ3・松の実30g・オリーブオイル100ml）と「保存と活用」（冷蔵で1週間が目安。空気に触れると黒っぽく変色するため表面をオリーブオイルで覆う。冷凍すれば1〜2カ月保存できる）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-genovese-nut",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "food",
+  "content": "ジェノベーゼソースに使うナッツは松の実である。",
+  "source": {
+   "page": 33,
+   "sourceUnitId": "r-genovese-nut",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ジェノベーゼソースに使われるナッツは?",
+   "a": "松の実",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch28",
+   "reason": "ジェノベーゼソースの材料「松の実…30g」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-paella",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "method",
+  "content": "本書のパエリアは、サフランを水に合わせて20分ほどおいて色を出してから使う。仕上げにイタリアンパセリを散らす。",
+  "source": {
+   "page": 35,
+   "sourceUnitId": "r-paella",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "パエリアに使うサフランは、使う前にどうする?",
+   "a": "水に合わせておいて色を出す",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch28",
+   "reason": "パエリアの材料A（サフランひとつまみ（0.2g）・水400ml）と作り方1「Aを合わせ、20分ほどおいて色を出す」、作り方7「みじん切りにしたイタリアンパセリを散らす」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-chili",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "spice",
+  "content": "本書のチリコンカンはチリパウダー・クミン・ブラックペッパー・にんにく・ローレルを使う豆とひき肉の料理で、アメリカやメキシコの定番ファストフード。",
+  "source": {
+   "page": 36,
+   "sourceUnitId": "r-chili",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "チリコンカンで主役となるミックススパイスは?",
+   "a": "チリパウダー",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch28",
+   "reason": "チリコンカンの見出し文「豆とひき肉の料理。アメリカやメキシコで定番のファストフードです」および「使用したスパイス・ハーブ」欄（チリパウダー・クミン・ブラックペッパー・にんにく・ローレル）と一致。q/a（主役となるミックススパイス=チリパウダー）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-kakuni",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "spice",
+  "content": "本書の豚の角煮はスターアニスで風味をきかせた中国風で、しょうが・シナモンスティックも使う。",
+  "source": {
+   "page": 37,
+   "sourceUnitId": "r-kakuni",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "本書の中国風「豚の角煮」で風味の決め手となるスパイスは?",
+   "a": "スターアニス",
+   "alt": [
+    "八角"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch28",
+   "reason": "豚の角煮の見出し文「スターアニスの風味をきかせた中国風の角煮」および「使用したスパイス・ハーブ」欄・材料A（しょうが1かけ・スターアニス1個・シナモンスティック1本）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-ceviche",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "place",
+  "content": "セビーチェは南米風の魚介のマリネで、パクチー・ブラックペッパー・にんにくを使う。",
+  "source": {
+   "page": 38,
+   "sourceUnitId": "r-ceviche",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "セビーチェはどの地域風の魚介マリネ?",
+   "a": "南米",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch28",
+   "reason": "セビーチェの見出し文「南米風の魚介マリネ」および「使用したスパイス・ハーブ」欄（パクチー・ブラックペッパー・にんにく）と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-hummus",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "food",
+  "content": "フムスは中東で食べられるひよこ豆とごまのペーストで、クミン・パプリカ・にんにくを使う。",
+  "source": {
+   "page": 39,
+   "sourceUnitId": "r-hummus",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フムスの主材料の豆は?",
+   "a": "ひよこ豆",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch29",
+   "reason": "見出し文「中東の広い地域で食べられる、ひよこ豆とごまのペースト」および「使用したスパイス・ハーブ」欄（クミン（パウダー）／パプリカ（パウダー）／にんにく）と一致。q/a（フムスの主材料の豆=ひよこ豆。材料「ひよこ豆（乾燥）…200g」）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-couscous",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "food",
+  "content": "クスクスはセモリナ粉を粒状にした小さなパスタで、チュニジアやモロッコなど北アフリカの料理だがフランスでもポピュラー。",
+  "source": {
+   "page": 41,
+   "sourceUnitId": "r-couscous",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "クスクスは何の粉を粒状にしたパスタ?",
+   "a": "セモリナ粉",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch29",
+   "reason": "「クスクスって何？」の解説「セモリナ粉を粒状にした小さなパスタで、煮込み料理に添えたり、サラダに加えたりする。チュニジアやモロッコなどの北アフリカの料理だが、フランスでもポピュラー」と一致。q/a（クスクスは何の粉を粒状にしたパスタか=セモリナ粉）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-harissa",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "spice",
+  "content": "本書の手作りハリッサ風ペーストは唐辛子・にんにく・オリーブオイル・パプリカ・クミン・コリアンダー・キャラウェイシードをすりつぶして作り、冷蔵で1週間ほど保存できる。",
+  "source": {
+   "page": 41,
+   "sourceUnitId": "r-harissa",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "本書のハリッサ風ペーストに使われる種子系スパイスで、キャラウェイ以外のものは?",
+   "a": "クミン",
+   "alt": [
+    "コリアンダー"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch29",
+   "reason": "「手作りハリッサ風ペースト」の材料7種（唐辛子・にんにく・オリーブオイル・パプリカ（パウダー）・クミン（パウダー）・コリアンダー（パウダー）・キャラウェイシード）、作り方「すべての材料をすり鉢に入れて粗くすりつぶす」、「保存と活用」の「保存は密閉容器に入れて冷蔵室で1週間ほど」と一致。q/a（種子系スパイスでキャラウェイ以外のもの=クミン、alt コリアンダー。いずれも材料に小さじ1）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-currywurst",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "country",
+  "content": "カリーヴルストはドイツのファストフードで、ソーセージにケチャップソースとカレー粉をかける。",
+  "source": {
+   "page": 42,
+   "sourceUnitId": "r-currywurst",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "カリーヴルストはどこの国のファストフード?",
+   "a": "ドイツ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch29",
+   "reason": "見出し文「屋台などで人気のドイツのファストフード。ソーセージにたっぷりのケチャップソースとカレー粉をかけるだけの簡単なレシピです」と一致。q/a（カリーヴルストはどこの国のファストフードか=ドイツ）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-cumin-potato",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "dish",
+  "content": "クミンポテトはスタータースパイスのクミン(シード)を炒めて香りを出す、インドの家庭料理「サブジ」風の一品。",
+  "source": {
+   "page": 43,
+   "sourceUnitId": "r-cumin-potato",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "クミンポテトのもとになっているインドの家庭料理は?",
+   "a": "サブジ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch29",
+   "reason": "見出し文「スタータースパイス（p.19）の一つクミンを炒めてエスニックな香りを引き出したインドの家庭料理「サブジ」風の一品です」および材料（クミンシード…小さじ2）と一致。q/a（もとになっているインドの家庭料理=サブジ）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-chai",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "spice",
+  "content": "チャイはミルクとスパイスのインド風紅茶で、本書ではシナモンスティック・カルダモン・クローブを使う。カルダモンはさやをつぶして使う。",
+  "source": {
+   "page": 44,
+   "sourceUnitId": "r-chai",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "本書のチャイに使うスパイスを3つ挙げよ。",
+   "a": "シナモン・カルダモン・クローブ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch29",
+   "reason": "見出し文「たっぷりのミルクとスパイスが入ったインド風紅茶」および「使用したスパイス・ハーブ」欄（シナモンスティック／カルダモン／クローブ）、作り方1「カルダモンはさやをつぶす」と一致。q/a（本書のチャイに使うスパイス3つ=シナモン・カルダモン・クローブ）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "r-bakedapple",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "定番料理",
+  "category": "spice",
+  "content": "焼きりんごはクローブとシナモンで香りづけし、紅玉など酸味のあるりんごが向く。",
+  "source": {
+   "page": 45,
+   "sourceUnitId": "r-bakedapple",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "焼きりんごに使う2つのスパイスは?",
+   "a": "クローブとシナモン",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch29",
+   "reason": "見出し文「クローブとシナモンが甘く香るスイーツ。紅玉など酸味のあるりんごがおすすめです」および「使用したスパイス・ハーブ」欄（クローブ／シナモン（パウダー））と一致。q/a（焼きりんごに使う2つのスパイス=クローブとシナモン）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "c-flavor-oil",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "手作り調味料",
+  "category": "count",
+  "content": "フレーバーオイル・ビネガー・しょうゆは、保存びんにスパイスやハーブを入れて液体を注ぎ、冷暗所に1〜2週間おいてから取り出す(フレッシュハーブ以外はそのままでもよい)。",
+  "source": {
+   "page": 46,
+   "sourceUnitId": "c-flavor-oil",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フレーバーオイルは冷暗所に何週間ほどおく?",
+   "a": "1〜2週間",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch29",
+   "reason": "フレーバーオイル（p.46）の作り方「保存びんにスパイスやハーブを入れ、油を注いで蓋をする」「冷暗所に1〜2週間おき、漬け込んだスパイスやハーブを取り出す（フレッシュハーブ以外はそのままでもよい）」と一致。ビネガー・しょうゆ分は根拠ページ p.47（フレーバービネガー／フレーバーしょうゆの作り方）でも同一手順であることを確認（source.page は記事開始ページ46のまま。バッチ4・19の前例どおり根拠ページを明記）。q/a（フレーバーオイルは冷暗所に何週間ほどおくか=1〜2週間）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "c-bottle",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "手作り調味料",
+  "category": "method",
+  "content": "手作り調味料の保存びんは、あらかじめ煮沸消毒して乾かしたものを使う。フレッシュハーブは完全に液中に漬けて空気に触れないようにする。",
+  "source": {
+   "page": 46,
+   "sourceUnitId": "c-bottle",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "手作り調味料に使う保存びんは事前にどうしておく?",
+   "a": "煮沸消毒して乾かす",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch29",
+   "reason": "p.46 冒頭の注記「※保存びんはあらかじめ煮沸消毒して乾かしたものを使用してください」「※フレッシュハーブは…完全に液中に漬け、空気に触れないようにします」と一致。q/a（保存びんは事前にどうしておくか=煮沸消毒して乾かす）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "c-herb-paste",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "手作り調味料",
+  "category": "count",
+  "content": "基本のハーブペーストはフレッシュハーブ・にんにく・松の実・オリーブオイル・塩で作る。冷蔵で1週間、冷凍で1〜2カ月が目安。",
+  "source": {
+   "page": 48,
+   "sourceUnitId": "c-herb-paste",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ハーブペーストを冷凍した場合の保存の目安は?",
+   "a": "1〜2カ月",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch30",
+   "reason": "p.48「基本のハーブペースト」の材料（フレッシュハーブ（葉の部分）50g／にんにく1かけ／松の実 大さじ1／オリーブオイル50ml／塩 小さじ2/3）と保存（冷蔵室で1週間が目安、ジッパー付き袋に入れて密封し冷凍すれば1〜2カ月保存できる）と一致。q/a（冷凍した場合の保存の目安=1〜2カ月）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "c-paste-basil",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "手作り調味料",
+  "category": "spice",
+  "content": "バジルペーストは半量をイタリアンパセリにかえると、より鮮やかな緑色に仕上がる。",
+  "source": {
+   "page": 48,
+   "sourceUnitId": "c-paste-basil",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "バジルペーストの半量を何にかえると、より鮮やかな緑色になる?",
+   "a": "イタリアンパセリ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch30",
+   "reason": "p.48「ペーストにおすすめのハーブ」バジルの項「※半量をイタリアンパセリにかえると、より鮮やかな緑色の仕上がりになります」と一致。q/a（半量を何にかえるか=イタリアンパセリ）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "c-paste-rucola",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "手作り調味料",
+  "category": "food",
+  "content": "ルッコラのペーストは、アンチョビを加えると味わいが深くなる。",
+  "source": {
+   "page": 48,
+   "sourceUnitId": "c-paste-rucola",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ルッコラペーストに加えると味わいが深くなる食材は?",
+   "a": "アンチョビ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch30",
+   "reason": "p.48「ペーストにおすすめのハーブ」ルッコラの項「ペーストにする際にアンチョビー（大さじ1/2ほど）を加えると、味わい深くなります」と一致。q/a（加えると味わいが深くなる食材=アンチョビ）も照合済み。ページ表記は「アンチョビー」で、単位の「アンチョビ」は長音を省いた同一語の表記",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "c-dressing",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "手作り調味料",
+  "category": "count",
+  "content": "ドレッシングの基本はオイル・酢・塩で、油を少しずつ加えて乳化させる。冷蔵で2〜3日が目安。",
+  "source": {
+   "page": 49,
+   "sourceUnitId": "c-dressing",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "手作りドレッシングの冷蔵保存の目安は?",
+   "a": "2〜3日",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch30",
+   "reason": "p.49「基本のドレッシング」のベース（ドレッシングのベースであるオイルと酢と塩）、作り方「好みの油を少しずつ加えながら、そのつど乳化させるようにしっかり混ぜる」、保存「冷蔵室で2〜3日が目安」と一致。q/a（冷蔵保存の目安=2〜3日）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "c-fines-herbes",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "手作り調味料",
+  "category": "term",
+  "content": "フィーヌゼルブはフランス語で「細かく刻んだハーブ」の意味で、イタリアンパセリ・チャイブ・タラゴン・チャービルなどから3〜4種を合わせる。",
+  "source": {
+   "page": 49,
+   "sourceUnitId": "c-fines-herbes",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フランス語で「細かく刻んだハーブ」を意味する言葉は?",
+   "a": "フィーヌゼルブ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch30",
+   "reason": "p.49 洋風タイプの注記「「フィーヌゼルブ」は、フランス語で「細かく刻んだハーブ」のこと。イタリアンパセリ、チャイブ、タラゴン、チャービルなどから3〜4種類を合わせて作る」と一致。q/a（フランス語で「細かく刻んだハーブ」を意味する言葉=フィーヌゼルブ）も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "c-dress-ethnic",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch1",
+  "sectionTitle": "手作り調味料",
+  "category": "food",
+  "content": "エスニック風ドレッシングは、基本の塩の代わりにナンプラーを使う。",
+  "source": {
+   "page": 49,
+   "sourceUnitId": "c-dress-ethnic",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "エスニック風ドレッシングで塩の代わりに使う調味料は?",
+   "a": "ナンプラー",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch30",
+   "reason": "p.49「エスニック風タイプ」の「基本のレシピの塩の代わりにナンプラー大さじ1、砂糖小さじ1〜2…を加える」と一致。q/a（塩の代わりに使う調味料=ナンプラー）も照合済み",
+   "needsReview": false
+  }
+ }
+]

@@ -1,0 +1,955 @@
+[
+ {
+  "id": "b-def",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "定義",
+  "category": "term",
+  "content": "定義の一例として、スパイスとハーブは芳香性植物の一部で、料理・園芸・クラフトなど生活の分野で有益な役割を果たすものとされる。",
+  "source": {
+   "page": 12,
+   "sourceUnitId": "b-def",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイス&ハーブの定義の一例で、両者は何という植物の一部とされる?",
+   "a": "芳香性植物",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「1 スパイス＆ハーブの定義」=「そのひとつは『芳香性植物の一部で、料理、園芸、クラフトなど、人間の生活の中の何らかの分野で有益な役割を果たすものであり、スパイスとハーブに大別される』です」と一致。q/a（a「芳香性植物」）とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-def-split",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "定義",
+  "category": "term",
+  "content": "スパイスとハーブの区分は、利用する部位(種子・根・果実・葉・花など)で大別するのが一般的である。",
+  "source": {
+   "page": 12,
+   "sourceUnitId": "b-def-split",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイスとハーブを区分する一般的な基準は?",
+   "a": "利用する部位",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「利用する部位（種子、根、果実、葉、花など）によって大別するのが一般的です」と一致。q/a（a「利用する部位」）とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-fresh",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "フレッシュとは生で使うスパイスやハーブのことで、日本ではしその葉・木の芽などが古くから使われている。",
+  "source": {
+   "page": 13,
+   "sourceUnitId": "b-fresh",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "生で使用するスパイスやハーブの形態を何という?",
+   "a": "フレッシュ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「フレッシュ」=「生で使用するスパイスやハーブのこと。日本で古くから使われているものに、しその葉、木の芽（山椒の若葉）などがある」と一致。q/a とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-kinome",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "spice",
+  "content": "木の芽は山椒の若葉のことである。",
+  "source": {
+   "page": 13,
+   "sourceUnitId": "b-kinome",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "「木の芽」とは何の若葉?",
+   "a": "山椒",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「木の芽（山椒の若葉）」と一致。q/a（a「山椒」）とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-dry",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "ドライとは乾燥させたスパイスやハーブで保存がきき、粉砕の程度や混合の有無でさらに分類される。",
+  "source": {
+   "page": 13,
+   "sourceUnitId": "b-dry",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "乾燥させ、保存がきくスパイスやハーブの形態を何という?",
+   "a": "ドライ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「ドライ」=「乾燥させたスパイスやハーブで、保存がきくので手軽に使うことができる」、およびページ冒頭「ドライのものは、その粉砕の程度や混合の有無によりさらに詳細に分類されます」と一致。q/a とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-single",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "単品とは、ほかのスパイスや調味料と混合されていない1種類のスパイスまたはハーブで、粒度で分類できる。",
+  "source": {
+   "page": 13,
+   "sourceUnitId": "b-single",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "混合されていない1種類のスパイスまたはハーブを何という?",
+   "a": "単品",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「単品」=「ほかのスパイスや調味料などと混合されていない1種類のスパイスまたはハーブ。これらは粒度によって分類することができる」と一致。q/a とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-whole",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "ホールは果実・蕾・樹皮・葉などをほぼ原形のまま乾燥させたもので、粒が大きく香りがとびにくい。",
+  "source": {
+   "page": 13,
+   "sourceUnitId": "b-whole",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "原形のまま乾燥させた、香りがとびにくい形状を何という?",
+   "a": "ホール",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「ホール」=「果実や蕾、樹皮や葉の形をほぼ原形のままの状態で乾燥させたもの」、および粒度の図「粒が大きく香りがとびにくい」と一致。q/a とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-coarse",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "あらびきはホールを粗めに粉砕して粒子を整えたものである。",
+  "source": {
+   "page": 13,
+   "sourceUnitId": "b-coarse",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ホールを粗めに粉砕し粒子を整えた形状を何という?",
+   "a": "あらびき",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「あらびき」=「ホールを粗めに粉砕し、粒子を整えたもの」と一致。q/a とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-powder",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "パウダーはホールを細かく粉砕したもので、粒が細かく香りがとびやすい。",
+  "source": {
+   "page": 13,
+   "sourceUnitId": "b-powder",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ホール・あらびき・パウダーのうち、最も香りがとびやすいのは?",
+   "a": "パウダー",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「パウダー」=「ホールを細かく粉砕したもの」、および粒度の図「粒が細かく香りがとびやすい」と一致。q/a（a「パウダー」）とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-mix",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "ミックスは複数のスパイスやハーブを混ぜたもので、カレー粉・ガラムマサラ・エルブドプロバンスが代表的。",
+  "source": {
+   "page": 13,
+   "sourceUnitId": "b-mix",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "複数のスパイスやハーブを混ぜたものを何という?",
+   "a": "ミックス",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「ミックス」=「複数のスパイスやハーブをミックスしたもの。カレー粉、ガラムマサラ、エルブドプロバンスなどが代表的」と一致。q/a とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-synergy",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "ミックスにより香りの幅・厚み・深みが生まれることをシナジー効果という。",
+  "source": {
+   "page": 13,
+   "sourceUnitId": "b-synergy",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイスを混ぜて香りの幅・厚み・深みが生まれる効果を何という?",
+   "a": "シナジー効果",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "「※スパイスやハーブをミックスすることの利点」=「ミックスすることで、香りの幅、厚み、深みが生み出されたり（＝シナジー効果）」と一致。q/a（a「シナジー効果」）とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-masking",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "混ぜたスパイスが互いのとがった香りを消し合い、丸みのあるふくよかな香りになる効果をマスキング効果という。",
+  "source": {
+   "page": 13,
+   "sourceUnitId": "b-masking",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "混ぜたスパイスが互いのとがった香りを消し合い丸みのある香りになる効果を何という?",
+   "a": "マスキング効果",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch23",
+   "reason": "同項=「ミックスしたスパイスがお互いのとがった香りを消し合い、丸みのあるふくよかな香りとなったり（＝マスキング効果）する」と一致。q/a（a「マスキング効果」）とも一致",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-part-rare",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "part",
+  "content": "サフランは雌しべ、クローブは蕾を利用する珍しい例である。",
+  "source": {
+   "page": 14,
+   "sourceUnitId": "b-part-rare",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "サフランが利用する部位は?",
+   "a": "雌しべ",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "本文「サフランやクローブのように雌しべ、蕾を利用する珍しいものもあります」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-part-clove",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "part",
+  "content": "クローブは花の蕾を利用する。",
+  "source": {
+   "page": 14,
+   "sourceUnitId": "b-part-clove",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "クローブが利用する部位は?",
+   "a": "蕾",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「花」=「サフラン（雌しべ）、クローブ（蕾）など」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-part-coriander",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "spice",
+  "content": "コリアンダーは1つの植物で種子と葉の両方を使う例である。",
+  "source": {
+   "page": 14,
+   "sourceUnitId": "b-part-coriander",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "1つの植物で種子と葉の両方を使う例として挙げられるスパイスは?",
+   "a": "コリアンダー",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "本文「コリアンダーのようにひとつの植物で種子、葉を使うという例もあります」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-part-leaf",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "part",
+  "content": "葉を利用する例:タイム、ローレル、パクチー、セージ、バジルなど。",
+  "source": {
+   "page": 14,
+   "sourceUnitId": "b-part-leaf",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "利用部位「葉」に分類されるものはどれ? (例:タイム)",
+   "a": "葉",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「葉」=「タイム、ローレル、パクチー（コリアンダー）、セージ、バジルなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-part-seed",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "part",
+  "content": "種子を利用する例:コリアンダー、フェンネル、アニス、クミンなど。",
+  "source": {
+   "page": 14,
+   "sourceUnitId": "b-part-seed",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "コリアンダー、フェンネル、アニス、クミンが分類される利用部位は?",
+   "a": "種子",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「種子」=「コリアンダー、フェンネル、アニス、クミンなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-part-fruit",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "part",
+  "content": "果実を利用する例:こしょう、唐辛子、オールスパイスなど。",
+  "source": {
+   "page": 14,
+   "sourceUnitId": "b-part-fruit",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "こしょう、唐辛子、オールスパイスが分類される利用部位は?",
+   "a": "果実",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「果実」=「こしょう、唐辛子、オールスパイスなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-part-root",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "part",
+  "content": "根・根茎を利用する例:ジンジャー、ガーリック、わさび、ターメリックなど。",
+  "source": {
+   "page": 14,
+   "sourceUnitId": "b-part-root",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ジンジャー、わさび、ターメリックが分類される利用部位は?",
+   "a": "根・根茎",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「根・根茎」=「ジンジャー、ガーリック、わさび、ターメリックなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-part-bark",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "part",
+  "content": "樹皮を利用する例はシナモンなど。",
+  "source": {
+   "page": 14,
+   "sourceUnitId": "b-part-bark",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "シナモンが分類される利用部位は?",
+   "a": "樹皮",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "分類表「樹皮」=「シナモンなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-seed-fruit",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "part",
+  "content": "コリアンダー・フェンネル・クミンなどは外観から種子グループに入るが、植物学上は果実である。",
+  "source": {
+   "page": 14,
+   "sourceUnitId": "b-seed-fruit",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "種子グループに入るコリアンダーやクミンは、植物学上は何にあたる?",
+   "a": "果実",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "表下の注記「コリアンダー、フェンネル、クミンなどは外観から種子を利用するグループに入っているが、植物学上は果実」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-garlic-bulb",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "part",
+  "content": "ガーリックは根・根茎グループに入るが、実際は葉や茎が肥大した鱗茎という部分である。",
+  "source": {
+   "page": 14,
+   "sourceUnitId": "b-garlic-bulb",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ガーリックの利用部位は植物学的には何と呼ばれる?",
+   "a": "鱗茎",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "表下の注記「ガーリックは根・根茎のグループに入っているが、鱗茎と呼ばれる葉や茎が肥大した部分」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-taxonomy",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "植物学では大きい順に「界・門・綱・目・科・属・種」の単位で分類する。",
+  "source": {
+   "page": 15,
+   "sourceUnitId": "b-taxonomy",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "植物学の分類単位を大きい順に並べると「界・門・綱・目・?・属・種」の?に入るのは?",
+   "a": "科",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「大きな分類から順に「界、門、綱、目、科、属、種」という単位で詳細に分けられます」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-family-meaning",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "term",
+  "content": "科がわかればある程度の特徴が推測でき、属・種までわかれば種類を特定できる。",
+  "source": {
+   "page": 15,
+   "sourceUnitId": "b-family-meaning",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "スパイスの種類を特定できる分類単位は(科、属・種のどれ)?",
+   "a": "属・種",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「科がわかれば、ある程度の特徴が推測でき、属、種までわかればスパイスやハーブの種類を特定できます」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-lamiaceae",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "family",
+  "content": "シソ科(バジル、ミントなど)は葉が対生し、爽やかな香りのものが多い。収穫は新芽のすぐ上でカットする。",
+  "source": {
+   "page": 15,
+   "sourceUnitId": "b-lamiaceae",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "葉が対生し爽やかな香りを持つものが多く、バジルやミントが属する科は?",
+   "a": "シソ科",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "例表「シソ科」=「バジル、ミントなど。葉は対生し、爽やかな香りを持つものが多い。収穫するときは新芽の出ているすぐ上でカットする」と一致（単位の「新芽のすぐ上」は要約）。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-apiaceae",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "family",
+  "content": "セリ科(クミン、コリアンダーなど)は葉も種子も食用になるものが多く、移植を嫌うものが多い。収穫は外側の葉から。",
+  "source": {
+   "page": 15,
+   "sourceUnitId": "b-apiaceae",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "移植を嫌うものが多く、収穫は外側の葉からとされる科は?",
+   "a": "セリ科",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "例表「セリ科」=「クミン、コリアンダーなど。葉も種子も食用になるものが多い。移植を嫌うものが多い。収穫するときは外側の葉から」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-zingiberaceae",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "family",
+  "content": "ショウガ科(ジンジャー、ターメリックなど)はスーッとする香りのものが多い。",
+  "source": {
+   "page": 15,
+   "sourceUnitId": "b-zingiberaceae",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ジンジャーやターメリックが属し、スーッとする香りのものが多い科は?",
+   "a": "ショウガ科",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "例表「ショウガ科」=「ジンジャー、ターメリックなど。スーッとする香りを持つものが多い」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-brassicaceae",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "分類",
+  "category": "family",
+  "content": "アブラナ科(わさび、マスタードなど)は辛みを持つものが多い。",
+  "source": {
+   "page": 15,
+   "sourceUnitId": "b-brassicaceae",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "わさびやマスタードが属し、辛みを持つものが多い科は?",
+   "a": "アブラナ科",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "例表「アブラナ科」=「わさび、マスタードなど。辛みを持つものが多い」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-fresh-keep",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "保存",
+  "category": "place",
+  "content": "フレッシュハーブは野菜と同じ食品と考え、「低温」「適度な湿気」「傷めない」をポイントに、密封袋に入れて冷蔵庫の野菜室で保存する。",
+  "source": {
+   "page": 16,
+   "sourceUnitId": "b-fresh-keep",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フレッシュハーブを保存する場所として適しているのは?",
+   "a": "冷蔵庫の野菜室",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「フレッシュハーブは野菜と同じ食品と考えて保存します。「低温」「適度な湿気」「傷めない」をポイントに。密封できる袋に入れて冷蔵庫の野菜室で保存しましょう」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-fresh-points",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "保存",
+  "category": "term",
+  "content": "フレッシュハーブ保存の3つのポイントは低温・適度な湿気・傷めないことである。",
+  "source": {
+   "page": 16,
+   "sourceUnitId": "b-fresh-points",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フレッシュハーブ保存の3つのポイントは?",
+   "a": "低温・適度な湿気・傷めない",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "保存のポイント「低温」「適度な湿気」「傷めない」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-fresh-stand",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "保存",
+  "category": "misc",
+  "content": "茎の切り口に湿らせたペーパーを巻くとある程度もち、野菜室で立てて保存するのが理想。冷風を受けない位置に置く。",
+  "source": {
+   "page": 16,
+   "sourceUnitId": "b-fresh-stand",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "フレッシュハーブを野菜室で保存する理想的な置き方は?",
+   "a": "立てて保存する",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "※注記「茎の切り口に湿らせたペーパーを巻きつけるとある程度もつ。野菜室で立てて保存できると理想的。冷風を受けない位置に置く」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-basil-temp",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "保存",
+  "category": "temp",
+  "content": "バジルは低温で長く保存すると黒く変色するなど品質が落ちるため、冷蔵庫に入れず10〜15度くらいの涼しい場所で保存するのが望ましい。",
+  "source": {
+   "page": 16,
+   "sourceUnitId": "b-basil-temp",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "バジルの保存温度の目安は?",
+   "a": "10〜15度",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "※注意「バジルは低温で長期間保存すると品質が落ちる（黒く変色するなど）ので、冷蔵庫に入れず、10〜15度くらいの涼しい場所で保存するのが望ましい」および保存温度表「10〜15度＝バジル」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-temp-5-7",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "保存",
+  "category": "temp",
+  "content": "保存温度5〜7度の目安:オレガノ、スペアミント、ペパーミント、セージ、レモンバーム、チャービル、タラゴン、イタリアンパセリ、ルッコラ、ディル、パクチー、フェンネル、チャイブ、マーシュなど。",
+  "source": {
+   "page": 16,
+   "sourceUnitId": "b-temp-5-7",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "オレガノやディルなど多くのフレッシュハーブの保存温度の目安は?",
+   "a": "5〜7度",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "保存温度表「5〜7度」=「オレガノ、スペアミント、ペパーミント、セージ、レモンバーム、チャービル、タラゴン、イタリアンパセリ、ルッコラ、ディル、パクチー、フェンネル、チャイブ、マーシュなど」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-temp-7-10",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "保存",
+  "category": "temp",
+  "content": "保存温度7〜10度の目安:タイム、レモングラス、ローズマリー。",
+  "source": {
+   "page": 16,
+   "sourceUnitId": "b-temp-7-10",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "タイム、レモングラス、ローズマリーの保存温度の目安は?",
+   "a": "7〜10度",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "保存温度表「7〜10度」=「タイム、レモングラス、ローズマリー」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-dry-enemy",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "保存",
+  "category": "term",
+  "content": "ドライのスパイスやハーブの生命は香りと色で、大敵は「光」「熱」「湿気」。蓋をしっかり閉めて冷暗所で保存する。",
+  "source": {
+   "page": 16,
+   "sourceUnitId": "b-dry-enemy",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ドライスパイスの保存における3つの大敵は?",
+   "a": "光・熱・湿気",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「ドライのスパイスやハーブの生命は香りと色です。その大敵は「光」「熱」「湿気」。容器の蓋をしっかり閉めて冷暗所で保存」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-dry-life",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "保存",
+  "category": "term",
+  "content": "ドライのスパイスやハーブの生命は香りと色である。",
+  "source": {
+   "page": 16,
+   "sourceUnitId": "b-dry-life",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "ドライスパイスの「生命」とされる2つの要素は?",
+   "a": "香りと色",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "「ドライのスパイスやハーブの生命は香りと色です」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-condensation",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "保存",
+  "category": "term",
+  "content": "冷蔵・冷凍保管した容器は冷えているため、蓋を開けたままにすると内側に結露する恐れがあり、使ったらすぐ蓋を閉めて戻す。",
+  "source": {
+   "page": 16,
+   "sourceUnitId": "b-condensation",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "冷蔵室から出したスパイスびんの蓋を開けたままにすると起こる恐れがあることは?",
+   "a": "結露",
+   "alt": []
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "※注記「容器（びん）は冷えているため、蓋を開けたままにしておくと、びんの内側に水滴がつく（結露する）恐れがある。使ったあとはしっかり蓋を閉めて、すぐに冷蔵室、冷凍室に戻す」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ },
+ {
+  "id": "b-cooking-care",
+  "kind": "unit",
+  "status": "verified",
+  "chapterId": "ch0",
+  "sectionTitle": "保存",
+  "category": "misc",
+  "content": "調理中は火のそばに置かず、小皿に必要量を出して使い、鍋の上で直接振りかけない。",
+  "source": {
+   "page": 16,
+   "sourceUnitId": "b-cooking-care",
+   "origin": "claude/build-learning-app"
+  },
+  "draftQa": {
+   "q": "調理中、スパイスの容器から鍋の上で直接振りかけてよいか?",
+   "a": "しない",
+   "alt": [
+    "いけない",
+    "だめ"
+   ]
+  },
+  "spice": null,
+  "collation": {
+   "batch": "batch24",
+   "reason": "※注記「調理中の注意として、火のそばに置かず、容器の蓋を開けたら小皿に必要な量を振り出して使い、鍋などの上で直接振りかけることはしないこと」と一致。q/a も照合済み",
+   "needsReview": false
+  }
+ }
+]
