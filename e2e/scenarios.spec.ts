@@ -372,11 +372,12 @@ test.describe("横断検索の拡張フィルタ（S2）", () => {
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
     await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
 
-    // 転記状態（未処理）: UX4 以後は索引節の1件だけ（問題は索引節に属さないため0件）
-    await page.getByLabel("転記状態").selectOption("未処理");
-    await expect(page.getByRole("heading", { name: "教材（節） 1件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 0件" })).toBeVisible();
-    await expect(page.getByText(/検索結果 合計 1件/)).toBeVisible();
+    // 転記状態（転記済み）: T18 で全81節が転記済みになったため、選択肢は「転記済み」のみで
+    // 絞り込んでも全件のまま（未処理の節は存在しない）
+    await page.getByLabel("転記状態").selectOption("転記済み");
+    await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
+    await expect(page.getByText(/検索結果 合計 1902件/)).toBeVisible();
 
     // すべての条件を解除すると全件表示と入力初期値に復帰する
     await page.getByRole("button", { name: "すべての条件を解除" }).click();

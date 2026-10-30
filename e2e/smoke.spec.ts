@@ -164,11 +164,13 @@ test.describe("電子書籍リーダー", () => {
     await expect(page.locator("#reader-page")).not.toContainText("この節の本文はまだ転記されていません");
   });
 
-  test("索引節ではアプリ生成の索引からページへ移動できる（UX4）", async ({ page }) => {
+  test("索引節では本書の索引の転記と生成索引の併記から移動できる（UX4→T18）", async ({ page }) => {
     await page.goto("#/reader");
     await expect(page.getByRole("heading", { name: "電子書籍リーダー" })).toBeVisible();
     await page.getByRole("button", { name: "主なスパイス＆ハーブの索引（p.145）" }).click();
-    await expect(page.locator("#reader-page")).toContainText("原本画像が未収録のため転記できません");
+    // 本書の索引そのものの転記（T18）が見える
+    await expect(page.locator("#reader-page")).toContainText("麻の実");
+    await expect(page.locator("#reader-page")).toContainText("アプリ収録データからの索引（ページへ移動できます）");
     const anise = page.locator("#reader-page li", { hasText: "アニス" }).first();
     await anise.getByRole("button", { name: "p.52" }).click();
     await expect(page.locator("#reader-page h2")).toHaveText("アニス");

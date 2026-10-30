@@ -9,15 +9,16 @@ import { TRANSCRIPT_PAGES, imageIdForBookPage } from "../src/data/transcripts";
 const PUBLIC_DIR = join(process.cwd(), "public", "pages-b64");
 
 describe("ページ原画の目録（UX3）", () => {
-  it("原本画像139件すべてが目録にあり、本書 p.6〜140 の135ページに欠けがない", () => {
-    expect(PAGE_IMAGES.length).toBe(139);
+  it("原本画像146件すべてが目録にあり、本書 p.6〜147 の142ページに欠けがない", () => {
+    // 139件は Drive のスキャン、p.141〜147 の7件は 2026-10-30 にユーザーが提供した撮影画像（T18）
+    expect(PAGE_IMAGES.length).toBe(146);
     const pages = PAGE_IMAGES.filter((e) => e.bookPage != null).map((e) => e.bookPage as number).sort((a, b) => a - b);
-    expect(pages).toEqual(Array.from({ length: 135 }, (_, i) => i + 6));
+    expect(pages).toEqual(Array.from({ length: 142 }, (_, i) => i + 6));
     expect(FRONT_MATTER_IMAGES.map((e) => e.imageId)).toEqual(["IMG_9577", "IMG_9578", "IMG_9579", "IMG_9580"]);
   });
 
   it("ページ→画像IDが転記データ側の対応（imageIdForBookPage）と全ページで一致する", () => {
-    for (let p = 6; p <= 140; p++) {
+    for (let p = 6; p <= 147; p++) {
       expect(imageForBookPage(p)?.imageId).toBe(imageIdForBookPage(p));
     }
   });

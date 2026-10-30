@@ -52,8 +52,9 @@ function PageImage({ imageId, label, defaultOpen = false }: { imageId: string; l
 }
 
 // 索引節の代替表示（UX4、docs/DECISIONS.md #39）。本書の索引（p.145〜147）は
-// 原本画像が未収録で転記できないため、アプリに収録したスパイス＆ハーブの
-// 知識データ（原文照合済み）から生成した索引を表示する。本書の索引の転記ではない。
+// アプリに収録したスパイス＆ハーブの知識データ（原文照合済み）から生成した
+// 索引。本書の索引の転記（T18で収録済み）と併記し、ページ番号から該当する
+// 節へ移動するナビゲーションとして使う（DECISIONS #41）。
 function buildIndexEntries(): { name: string; pages: number[] }[] {
  const map = new Map<string, Set<number>>();
  for (const u of IMPORTED_KNOWLEDGE_UNITS) {
@@ -78,7 +79,7 @@ function GeneratedIndex({ onJump }: { onJump: (sectionId: string) => void }) {
   if (target) onJump(target.id);
  };
  return <div>
-  <p className="muted">本書の索引（p.145〜147）は原本画像が未収録のため転記できません。ここでは、アプリに収録したスパイス＆ハーブのデータ（原文照合済み）から作った索引を表示します。ページ番号を選ぶと、そのページを含む節へ移動します。</p>
+  <p className="muted">この索引は、アプリに収録したスパイス＆ハーブのデータ（原文照合済み）から生成したものです。上の本書の索引の転記とは別に、ページ番号から該当する節へ移動する用途で使えます。</p>
   <input aria-label="索引検索" placeholder="名前で絞り込み" value={q} onChange={(e) => setQ(e.target.value)} />
   <p>{shown.length}件（全{entries.length}種）</p>
   <ul>{shown.map((e) => <li key={e.name}><strong>{e.name}</strong> {e.pages.map((p) => <button key={p} className="ghost" onClick={() => jumpToPage(p)}>p.{p}</button>)}</li>)}</ul>
@@ -98,10 +99,10 @@ export default function Reader({store,update}:{store:StoreData;update:any}){
  const sec = ALL_SECTIONS.find(s=>s.id===sel) ?? ALL_SECTIONS[0]!;
  const secPages = transcriptPagesForSection(sec.id);
  // UX3: 転記がないページ（写真のみのページ・部分転記の欠け分）も原画で読めるよう、
- // この節のページ範囲（次の節の開始ページ-1 まで、上限 p.140）のうち
+ // この節のページ範囲（次の節の開始ページ-1 まで、上限 p.147）のうち
  // 転記レコードがないページの原画を別枠で出す。
  const secIndex = ALL_SECTIONS.findIndex(s=>s.id===sec.id);
- const spanEnd = Math.min((ALL_SECTIONS[secIndex+1]?.bookPage ?? 141) - 1, 140);
+ const spanEnd = Math.min((ALL_SECTIONS[secIndex+1]?.bookPage ?? 148) - 1, 147);
  const transcribedNums = new Set(secPages.map(p=>p.bookPage));
  const extraPageImages: PageImageEntry[] = [];
  for (let pg = sec.bookPage; pg <= spanEnd; pg++) {
@@ -119,9 +120,10 @@ export default function Reader({store,update}:{store:StoreData;update:any}){
  {CHAPTERS.map(c=><div key={c.id}><h3>{c.label} {c.title}</h3><ul>{c.sections.filter(s=>filteredIds.has(s.id)).map(s=><li key={s.id}><button className="ghost" onClick={()=>{setSel(s.id); update((d:StoreData)=>{d.reader.sectionId=s.id; return d;});}}>{s.title}（p.{s.bookPage}）</button></li>)}</ul></div>)}
  <div><h3>本書の表紙・目次（原画）</h3>{FRONT_MATTER_IMAGES.map(e=><PageImage key={e.imageId} imageId={e.imageId} label={e.imageId} />)}</div>
  </section>
- <section className="card" id="reader-page" ref={pageRef} style={{fontSize: store.reader.fontSize}}><h2>{sec.title}</h2><p className="muted">書籍 p.{sec.bookPage} ／ 転記状態: {sec.id==="index" ? "原本画像なし（下の索引はアプリ収録データから生成）" : sec.transcriptionStatus}</p>
- {secPages.length===0 ? (sec.id==="index" ? <GeneratedIndex onJump={(sid)=>{setSel(sid); update((d:StoreData)=>{d.reader.sectionId=sid; return d;});}} /> : <p>この節の本文はまだ転記されていません。原本画像を目視読解して転記したテキストのみがここに掲載されます。推測で本文を補うことはしません。</p>)
+ <section className="card" id="reader-page" ref={pageRef} style={{fontSize: store.reader.fontSize}}><h2>{sec.title}</h2><p className="muted">書籍 p.{sec.bookPage} ／ 転記状態: {sec.transcriptionStatus}</p>
+ {secPages.length===0 ? <p>この節の本文はまだ転記されていません。原本画像を目視読解して転記したテキストのみがここに掲載されます。推測で本文を補うことはしません。</p>
  : secPages.map((p,pi)=><div key={p.bookPage}><p className="muted">― 本書 p.{p.bookPage}（出典画像 {p.imageId}.PNG）―</p><PageImage imageId={p.imageId} label={`本書 p.${p.bookPage}`} defaultOpen={pi===0} />{p.blocks.map((b,i)=><TranscriptBlockView key={i} b={b}/>)}{p.unclear.length>0 && <p className="muted">不明瞭箇所: {p.unclear.map(u=>`${u.location}: ${u.note}`).join(" ／ ")}</p>}</div>)}
+ {sec.id==="index" && secPages.length>0 && <div><h3>アプリ収録データからの索引（ページへ移動できます）</h3><GeneratedIndex onJump={(sid)=>{setSel(sid); update((d:StoreData)=>{d.reader.sectionId=sid; return d;});}} /></div>}
  {extraPageImages.length>0 && <div><h3>{secPages.length===0 ? "この節の原画" : "この節の他のページの原画"}</h3>{extraPageImages.map(e=><PageImage key={e.imageId} imageId={e.imageId} label={`本書 p.${e.bookPage}`} />)}</div>}
  <p className="muted">表示設定: ダークモードは全画面共通（設定画面からも切り替えできます）。フォントサイズはこのリーダーの本文だけに適用されます。</p>
  <label>フォントサイズ<input type="range" min={14} max={22} value={store.reader.fontSize} onChange={e=>update((d:StoreData)=>{d.reader.fontSize=Number(e.target.value); return d;})}/></label>
