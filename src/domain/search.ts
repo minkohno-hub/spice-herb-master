@@ -8,8 +8,10 @@ import {
  * 横断検索の複合フィルタ（フェーズ7・バッチS1 = DECISIONS #31、
  * バッチS2で次元内複数選択と節・状態・転記状態を追加 = DECISIONS #33）。
  *
- * 後方互換: キーワードのマッチ仕様は従来どおりで、正規化はしない。
- * - 教材（節）: タイトルにキーワードを含むもの
+ * キーワードのマッチ仕様（正規化はしない）:
+ * - 教材（節）: タイトルまたは転記本文（監査C-15で本文を追加）に
+ *   キーワードを含むもの。本文は呼び出し側が bodyText として付与する
+ *   （付与がない節はタイトルだけで判定する）
  * - 問題: 問題文にキーワードを含むもの
  * - キーワードが空なら全件が対象になる
  * - 条件なし（DEFAULT_SEARCH_FILTERS）では従来どおり全件になる
@@ -88,6 +90,22 @@ export interface SearchableSection {
   title: string;
   chapterId: string;
   transcriptionStatus: string;
+  /** 転記本文の連結テキスト（キーワード検索用、監査C-15）。未転記の節は未付与でよい。 */
+  bodyText?: string;
+}
+
+/**
+ * キーワードが本文のどこに現れるかを示す抜粋（監査C-15）。
+ * 最初の出現位置の前後 radius 文字を返し、切り取った側に「…」を付ける。
+ * 見つからなければ null。
+ */
+export function keywordExcerpt(text: string, keyword: string, radius = 30): string | null {
+  if (!keyword) return null;
+  const idx = text.indexOf(keyword);
+  if (idx < 0) return null;
+  const start = Math.max(0, idx - radius);
+  const end = Math.min(text.length, idx + keyword.length + radius);
+  return `${start > 0 ? "…" : ""}${text.slice(start, end)}${end < text.length ? "…" : ""}`;
 }
 
 export interface SearchableQuestion {
@@ -111,7 +129,9 @@ export function filterSearchSections<T extends SearchableSection>(
   if (hasQuestionOnlyFilter(filters)) return [];
   return sections.filter(
     (s) =>
-      (!filters.keyword || s.title.includes(filters.keyword)) &&
+      (!filters.keyword ||
+        s.title.includes(filters.keyword) ||
+        (s.bodyText?.includes(filters.keyword) ?? false)) &&
       (filters.chapterIds.length === 0 ||
         filters.chapterIds.includes(s.chapterId)) &&
       (!filters.sectionId || s.id === filters.sectionId) &&

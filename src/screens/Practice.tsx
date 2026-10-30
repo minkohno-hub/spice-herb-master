@@ -1,23 +1,292 @@
 // 画面コンポーネント（バンドル分割バッチE1で src/App.tsx から分割。docs/DECISIONS.md #23）
-import { useState } from "react";
+// 修正バッチFIX1（DECISIONS #34）: 既定モードを正式問題（verified）に変更し、出題順
+// セレクト（シャッフル=既定／登録順）を追加した。
+// 監査修正バッチ2（C-01／C-02／D-04）: 絞り込み（章・節・難易度・形式）と学習フォーカス
+// （未回答・誤答・お気に入り・復習期限・記述式）を domain/practice.ts の純粋関数で
+// 演習プールに反映し、セッションは「問題数」で区切って終了時に結果を表示する。
+// セッション中のプールは開始時点のスナップショットで固定し、回答のたびに
+// 対象が入れ替わらないようにする（組み直しは条件変更・再開ボタンのときだけ）。
+import { useMemo, useState } from "react";
+import { useLocation, useNavigate } from "react-router";
 import { QUESTIONS, SAMPLE_QUESTIONS } from "../data/questions";
+import { CHAPTERS, ALL_SECTIONS } from "../data/structure";
 import QuestionRunner from "../components/QuestionRunner";
-import { FORMAT_LABELS, QUESTION_FORMATS } from "../domain/types";
+import { FORMAT_LABELS, type Question, type QuestionFormat } from "../domain/types";
 import type { StoreData } from "../domain/store";
 import { initSrs, reviewSrs, qualityFromResult } from "../domain/srs";
 import { selectForPractice } from "../domain/validate";
+import { seededShuffle } from "../domain/shuffle";
+import { availableSearchFormats } from "../domain/search";
+import {
+  buildPracticePool,
+  DEFAULT_PRACTICE_FILTERS,
+  FOCUS_LABELS,
+  PRACTICE_DIFFICULTIES,
+  type PracticeFilters,
+  type PracticeFocus,
+} from "../domain/practice";
 import type { GradeResult } from "../domain/grading";
 
-export default function Practice({store,update}:{store:StoreData;update:any}){
- const [mode,setMode]=useState("sample"); const [idx,setIdx]=useState(0); const [count,setCount]=useState(10);
- const pool = mode==="sample"? SAMPLE_QUESTIONS : selectForPractice(QUESTIONS);
- const q = pool[idx % Math.max(1,pool.length)];
- return <main><h1>演習</h1>
- <label>モード<select value={mode} onChange={e=>{setMode(e.target.value); setIdx(0);}}><option value="verified">通常演習（検証済みのみ）</option><option value="sample">エンジン検証用サンプル（通常出題対象外・明示表示）</option></select></label>
- <label>問題数（設定値）<input type="number" value={count} onChange={e=>setCount(Number(e.target.value)||10)}/></label>
- <p className="muted">章別・節別・分野別・難易度別・形式別・未回答・誤答・苦手・お気に入り・復習予定・記述集中・高速演習は、下の絞り込みとSRS/記録データで構成される設計です（フィルタ基盤は検索画面と共通）。形式一覧: {QUESTION_FORMATS.map(f=>FORMAT_LABELS[f]).join(" / ")}</p>
- {!q ? <p className="card">出題できる検証済み問題がありません。「問題が存在しない」ことを学習済みと誤認しないでください。</p> :
- <><QuestionRunner key={q.id} q={q} onGraded={(r:GradeResult,self)=>{ update((d:StoreData)=>{ d.records.push({questionId:q.id,answeredAt:new Date().toISOString(),correct:r.correct,scoreRatio:r.scoreRatio,autoScoreRatio:r.autoScoreRatio,selfScoreRatio:self,responseMs:null}); const cur=d.srs[q.id]??initSrs(q.id); d.srs[q.id]=reviewSrs(cur, qualityFromResult(r.correct,r.scoreRatio)); return d; }); }}/>
- <p><button className="ghost" onClick={()=>setIdx(idx+1)}>次の問題へ</button> <button className="ghost" onClick={()=>update((d:StoreData)=>({...d,favorites: d.favorites.includes(q.id)? d.favorites: [...d.favorites,q.id]}))}>お気に入りに追加</button></p></>}
- </main>;
+const FORMAT_OPTIONS = availableSearchFormats(QUESTIONS);
+const SECTION_BY_ID = new Map(ALL_SECTIONS.map((s) => [s.id, s]));
+
+interface PracticePreset {
+  focus?: PracticeFocus;
+  sectionId?: string;
+  chapterId?: string;
+  questionId?: string;
+}
+
+function buildSession(pool: Question[], orderMode: string, seed: string, count: number, firstId?: string): Question[] {
+  let ordered = orderMode === "shuffle" ? seededShuffle(pool, `practice|${seed}`) : [...pool];
+  if (firstId) {
+    const i = ordered.findIndex((q) => q.id === firstId);
+    if (i > 0) ordered = [ordered[i]!, ...ordered.slice(0, i), ...ordered.slice(i + 1)];
+  }
+  return ordered.slice(0, Math.max(1, count));
+}
+
+export default function Practice({ store, update }: { store: StoreData; update: any }) {
+  const location = useLocation();
+  const navigate = useNavigate();
+  const preset = (location.state ?? {}) as PracticePreset;
+  const presetQuestion = preset.questionId
+    ? [...QUESTIONS, ...SAMPLE_QUESTIONS].find((q) => q.id === preset.questionId)
+    : undefined;
+  const [mode, setMode] = useState(presetQuestion ? (presetQuestion.status === "sample" ? "sample" : "verified") : "verified");
+  const [filters, setFilters] = useState<PracticeFilters>({
+    ...DEFAULT_PRACTICE_FILTERS,
+    focus: preset.focus ?? "all",
+    sectionId: preset.sectionId ?? presetQuestion?.sectionId ?? null,
+    chapterIds: preset.chapterId ? [preset.chapterId] : [],
+  });
+  const [orderMode, setOrderMode] = useState("shuffle");
+  const [count, setCount] = useState(10);
+  const [idx, setIdx] = useState(0);
+  const [results, setResults] = useState<{ questionId: string; correct: boolean | null }[]>([]);
+  const [done, setDone] = useState(false);
+
+  const basePool = (m: string): Question[] => (m === "sample" ? [...SAMPLE_QUESTIONS] : selectForPractice(QUESTIONS));
+  const ctx = { records: store.records, srs: store.srs, favorites: store.favorites };
+  const poolCount = useMemo(
+    () => buildPracticePool(basePool(mode), filters, ctx).length,
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [mode, filters, store.records, store.srs, store.favorites],
+  );
+  const [sessionQs, setSessionQs] = useState<Question[]>(() =>
+    buildSession(buildPracticePool(basePool(mode), filters, ctx), "shuffle", String(Date.now()), 10, preset.questionId),
+  );
+
+  const restart = (next: { mode?: string; filters?: PracticeFilters; orderMode?: string; count?: number }) => {
+    const m = next.mode ?? mode;
+    const f = next.filters ?? filters;
+    const o = next.orderMode ?? orderMode;
+    const c = next.count ?? count;
+    setSessionQs(buildSession(buildPracticePool(basePool(m), f, ctx), o, String(Date.now()), c));
+    setIdx(0);
+    setResults([]);
+    setDone(false);
+  };
+  const applyFilters = (f: PracticeFilters) => { setFilters(f); restart({ filters: f }); };
+
+  const toggleChapter = (chapterId: string, checked: boolean) => {
+    const chapterIds = checked ? [...filters.chapterIds, chapterId] : filters.chapterIds.filter((c) => c !== chapterId);
+    const section = filters.sectionId ? SECTION_BY_ID.get(filters.sectionId) : undefined;
+    const sectionId = section && chapterIds.length > 0 && !chapterIds.includes(section.chapterId) ? null : filters.sectionId;
+    applyFilters({ ...filters, chapterIds, sectionId });
+  };
+  const sectionChapters = filters.chapterIds.length > 0 ? CHAPTERS.filter((c) => filters.chapterIds.includes(c.id)) : CHAPTERS;
+
+  const q = sessionQs[idx];
+  const isFav = q ? store.favorites.includes(q.id) : false;
+  const answeredInSession = results.length;
+  const correctInSession = results.filter((r) => r.correct === true).length;
+
+  return (
+    <main>
+      <h1>演習</h1>
+      <label>
+        モード
+        <select
+          value={mode}
+          onChange={(e) => { setMode(e.target.value); restart({ mode: e.target.value }); }}
+        >
+          <option value="verified">通常演習（検証済みのみ）</option>
+          <option value="sample">エンジン検証用サンプル（通常出題対象外・明示表示）</option>
+        </select>
+      </label>
+      <label>
+        出題順
+        <select
+          aria-label="出題順"
+          value={orderMode}
+          onChange={(e) => { setOrderMode(e.target.value); restart({ orderMode: e.target.value }); }}
+        >
+          <option value="shuffle">シャッフル</option>
+          <option value="sequence">登録順</option>
+        </select>
+      </label>
+      <label>
+        問題数（セッションの長さ）
+        <input
+          type="number"
+          min={1}
+          value={count}
+          onChange={(e) => setCount(Number(e.target.value) || 10)}
+          onBlur={() => restart({})}
+        />
+      </label>
+      <section className="card" aria-label="演習の絞り込み">
+        <h2>絞り込みと学習フォーカス</h2>
+        <label>
+          学習フォーカス
+          <select
+            aria-label="学習フォーカス"
+            value={filters.focus}
+            onChange={(e) => applyFilters({ ...filters, focus: e.target.value as PracticeFocus })}
+          >
+            {(Object.keys(FOCUS_LABELS) as PracticeFocus[]).map((f) => (
+              <option key={f} value={f}>{FOCUS_LABELS[f]}</option>
+            ))}
+          </select>
+        </label>
+        <label>
+          節
+          <select
+            aria-label="節"
+            value={filters.sectionId ?? ""}
+            onChange={(e) => applyFilters({ ...filters, sectionId: e.target.value || null })}
+          >
+            <option value="">すべて</option>
+            {sectionChapters.map((c) => (
+              <optgroup key={c.id} label={c.label}>
+                {c.sections.map((s) => (
+                  <option key={s.id} value={s.id}>{s.title}（p.{s.bookPage}）</option>
+                ))}
+              </optgroup>
+            ))}
+          </select>
+        </label>
+        <div style={{ marginTop: ".8rem" }}>
+          <span>章（複数選択可）</span>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: ".3rem 1rem" }}>
+            {CHAPTERS.map((c) => (
+              <label key={c.id}>
+                <input type="checkbox" checked={filters.chapterIds.includes(c.id)} onChange={(e) => toggleChapter(c.id, e.target.checked)} /> {c.label}
+              </label>
+            ))}
+          </div>
+        </div>
+        <div style={{ marginTop: ".8rem" }}>
+          <span>難易度（複数選択可）</span>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: ".3rem 1rem" }}>
+            {PRACTICE_DIFFICULTIES.map((d) => (
+              <label key={d}>
+                <input
+                  type="checkbox"
+                  checked={filters.difficulties.includes(d)}
+                  onChange={(e) =>
+                    applyFilters({
+                      ...filters,
+                      difficulties: e.target.checked ? [...filters.difficulties, d] : filters.difficulties.filter((x) => x !== d),
+                    })
+                  }
+                />{" "}
+                難易度{d}
+              </label>
+            ))}
+          </div>
+        </div>
+        <div style={{ marginTop: ".8rem" }}>
+          <span>問題形式（複数選択可）</span>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: ".3rem 1rem" }}>
+            {FORMAT_OPTIONS.map((f: QuestionFormat) => (
+              <label key={f}>
+                <input
+                  type="checkbox"
+                  checked={filters.formats.includes(f)}
+                  onChange={(e) =>
+                    applyFilters({
+                      ...filters,
+                      formats: e.target.checked ? [...filters.formats, f] : filters.formats.filter((x) => x !== f),
+                    })
+                  }
+                />{" "}
+                {FORMAT_LABELS[f]}
+              </label>
+            ))}
+          </div>
+        </div>
+        <p className="muted">
+          対象プール {poolCount} 問から、問題数ぶんを1セッションとして出題します。条件を変えるとセッションは組み直されます。
+        </p>
+      </section>
+      {done ? (
+        <section className="card" aria-label="セッション結果">
+          <h2>セッション完了</h2>
+          <p>
+            {answeredInSession} 問に回答し、正解 {correctInSession} 問（正答率{" "}
+            {answeredInSession ? Math.round((correctInSession / answeredInSession) * 100) : 0}%）でした。記録は学習分析に保存されています。
+          </p>
+          <p>
+            <button onClick={() => restart({})}>同じ条件でもう一度</button>{" "}
+            <button
+              className="ghost"
+              onClick={() => { setFilters(DEFAULT_PRACTICE_FILTERS); restart({ filters: DEFAULT_PRACTICE_FILTERS }); }}
+            >
+              条件をリセット
+            </button>
+          </p>
+        </section>
+      ) : !q ? (
+        <p className="card">
+          現在の条件に合う問題がありません。条件を緩めるか、学習フォーカスを「すべて」に戻してください。「問題が存在しない」ことを学習済みと誤認しないでください。
+        </p>
+      ) : (
+        <>
+          <p className="muted">セッション {Math.min(idx + 1, sessionQs.length)} / {sessionQs.length} 問</p>
+          <QuestionRunner
+            key={q.id}
+            q={q}
+            onGraded={(r: GradeResult, self, responseMs) => {
+              update((d: StoreData) => {
+                d.records.push({ questionId: q.id, answeredAt: new Date().toISOString(), correct: r.correct, scoreRatio: r.scoreRatio, autoScoreRatio: r.autoScoreRatio, selfScoreRatio: self, responseMs });
+                const cur = d.srs[q.id] ?? initSrs(q.id);
+                d.srs[q.id] = reviewSrs(cur, qualityFromResult(r.correct, r.scoreRatio));
+                return d;
+              });
+              setResults((rs) => [...rs, { questionId: q.id, correct: r.correct }]);
+            }}
+            onSelfScore={(self) => {
+              update((d: StoreData) => {
+                const i = d.records.map((x, j) => (x.questionId === q.id ? j : -1)).filter((j) => j >= 0).pop();
+                if (i !== undefined) { const rec = d.records[i]; if (rec) rec.selfScoreRatio = self; }
+                return d;
+              });
+            }}
+            onOpenSection={(sectionId) => {
+              update((d: StoreData) => { d.reader.sectionId = sectionId; return d; });
+              navigate("/reader");
+            }}
+          />
+          <p>
+            <button className="ghost" onClick={() => (idx + 1 >= sessionQs.length ? setDone(true) : setIdx(idx + 1))}>
+              {idx + 1 >= sessionQs.length ? "セッションを終了する" : "次の問題へ"}
+            </button>{" "}
+            <button
+              className="ghost"
+              onClick={() =>
+                update((d: StoreData) => ({
+                  ...d,
+                  favorites: isFav ? d.favorites.filter((x) => x !== q.id) : [...d.favorites, q.id],
+                }))
+              }
+            >
+              {isFav ? "お気に入りから外す" : "お気に入りに追加"}
+            </button>
+          </p>
+        </>
+      )}
+    </main>
+  );
 }
