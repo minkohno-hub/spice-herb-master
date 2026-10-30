@@ -1,0 +1,90 @@
+// 暗記モード（UX5、docs/DECISIONS.md #40）。
+// スパイス＆ハーブ全種類（正式カードの profile 種別 = 検定対象の全80種）の
+// プロフィールを「ひたすら」回す画面。名前を見てプロフィール（科名・原産地・
+// 利用部位・別名・対象級）を思い出し、タップで答え合わせをして自己評価する。
+// 自己評価は単語帳と共通の SRS（store.srs、キーはカードID）に反映する。
+// 一周したら、自己評価で「分かった」以外が付いたものを先に並べ替えて
+// 次の周を自動で始める（終わりのないドリル）。入口はホームのカードのみで、
+// 上部バー（ヘッダー）は変更しない（ユーザーの指示）。
+import { useMemo, useState } from "react";
+import { Link } from "react-router";
+import { CARDS } from "../data/questions";
+import type { StoreData } from "../domain/store";
+import { applyCardReview, type CardSelfEval } from "../domain/srs";
+import { seededShuffle } from "../domain/shuffle";
+
+const EVAL_OPTIONS: { key: CardSelfEval; label: string }[] = [
+ { key: "known", label: "覚えた" },
+ { key: "unsure", label: "あいまい" },
+ { key: "unknown", label: "まだ" },
+];
+
+function profileName(front: string): string {
+ return front.replace(/のプロフィールは？$/, "");
+}
+
+export default function Memorize({ store, update }: { store: StoreData; update: any }) {
+ const deck = useMemo(() => CARDS.filter((c) => c.kind === "profile"), []);
+ const [seed, setSeed] = useState(() => String(Date.now()));
+ const [order, setOrder] = useState<string[]>(() => seededShuffle(deck.map((c) => c.id), seed));
+ const [pos, setPos] = useState(0);
+ const [flip, setFlip] = useState(false);
+ const [round, setRound] = useState(1);
+ const [roundKnown, setRoundKnown] = useState(0);
+ // このセッションで最後に付けた自己評価（次周の並べ替えに使う）
+ const [lastEval, setLastEval] = useState<Record<string, CardSelfEval>>({});
+
+ const card = deck.find((c) => c.id === order[pos]);
+ const evaluatedKinds = deck.filter((c) => store.srs[c.id]).length;
+
+ const startNextRound = (evals: Record<string, CardSelfEval>) => {
+  const rest = deck.filter((c) => evals[c.id] && evals[c.id] !== "known").map((c) => c.id);
+  const known = deck.filter((c) => !evals[c.id] || evals[c.id] === "known").map((c) => c.id);
+  const nextSeed = String(Date.now());
+  setOrder([...seededShuffle(rest, nextSeed), ...seededShuffle(known, nextSeed + "k")]);
+  setPos(0);
+  setFlip(false);
+  setRound((r) => r + 1);
+  setRoundKnown(0);
+ };
+
+ const evaluate = (ev: CardSelfEval) => {
+  if (!card) return;
+  update((d: StoreData) => { d.srs[card.id] = applyCardReview(d.srs[card.id], card.id, ev); return d; });
+  const evals = { ...lastEval, [card.id]: ev };
+  setLastEval(evals);
+  if (ev === "known") setRoundKnown((n) => n + 1);
+  setFlip(false);
+  if (pos + 1 >= order.length) startNextRound(evals);
+  else setPos(pos + 1);
+ };
+
+ const restart = () => {
+  const nextSeed = String(Date.now());
+  setSeed(nextSeed);
+  setOrder(seededShuffle(deck.map((c) => c.id), nextSeed));
+  setPos(0);
+  setFlip(false);
+  setRound(1);
+  setRoundKnown(0);
+  setLastEval({});
+ };
+
+ if (!card) return <main><h1>暗記モード</h1><p>対象のカードがありません。</p></main>;
+ const page = card.sourceRefs[0]?.bookPage;
+
+ return <main>
+  <h1>暗記モード（全{deck.length}種）</h1>
+  <p className="muted">スパイス＆ハーブ全種類のプロフィールをひたすら回します。名前を見て、科名・原産地・利用部位・別名・対象級を思い出してから、タップで答え合わせをしてください。自己評価は単語帳と共通の復習記録（SRS）に反映されます。</p>
+  <p>{round}周目 ／ {pos + 1} / {order.length}種 ／ この周の「覚えた」: {roundKnown}種 ／ 自己評価済み（累計）: {evaluatedKinds} / {deck.length}種</p>
+  <section className="card">
+   <p className="muted">スパイス＆ハーブの種類{page ? `（本書 p.${page}）` : ""}</p>
+   <h2 style={{ fontSize: "2rem", margin: ".4rem 0" }}>{profileName(card.front)}</h2>
+   {flip
+    ? <p style={{ whiteSpace: "pre-wrap" }}>{card.back}</p>
+    : <p><button type="button" onClick={() => setFlip(true)}>プロフィールを表示（答え合わせ）</button></p>}
+   {flip && <p>{EVAL_OPTIONS.map((o) => <button key={o.key} type="button" onClick={() => evaluate(o.key)} style={{ marginRight: ".5rem" }}>{o.label}</button>)}</p>}
+  </section>
+  <p><button type="button" className="ghost" onClick={restart}>最初から回し直す</button> <Link className="btn" to="/cards">単語帳で復習する</Link></p>
+ </main>;
+}

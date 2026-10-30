@@ -402,25 +402,30 @@ describe("横断検索フィルタ: 節・状態・転記状態（S2）", () => 
     expect(availableTranscriptionStatuses(ALL_SECTIONS)).toEqual(["転記済み", "未処理"]);
   });
 
-  it("転記状態: 節には直接、問題には所属節の転記状態で適用される（転記済み=節78件・問題1804件、未処理=節3件・問題17件）", () => {
+  it("転記状態: 節には直接、問題には所属節の転記状態で適用される（転記済み=節80件・問題1821件、未処理=節1件・問題0件）", () => {
+    // UX4（DECISIONS #39）で world-drink・season-soy が転記済みになり、
+    // 未処理は索引節（index）だけになった。索引節には問題がないため未処理の問題は0件。
     const done = run(withFilters({ transcriptionStatus: "転記済み" }));
-    expect(done.sections).toHaveLength(78);
+    expect(done.sections).toHaveLength(80);
     expect(done.sections.every((s) => s.transcriptionStatus === "転記済み")).toBe(true);
-    expect(done.questions).toHaveLength(1804);
+    expect(done.questions).toHaveLength(1821);
     expect(
       done.questions.every((q) => q.sectionTranscriptionStatus === "転記済み"),
     ).toBe(true);
     const pending = run(withFilters({ transcriptionStatus: "未処理" }));
-    expect(pending.sections).toHaveLength(3);
-    expect(pending.questions).toHaveLength(17);
-    // 未処理の問題17件は全て world-drink 節（season-soy・index は問題0件）
-    expect(pending.questions.every((q) => q.sectionId === "world-drink")).toBe(true);
-    // 節との AND: 未処理＋world-drink はそのまま、未処理＋転記済みの節は0件
+    expect(pending.sections).toHaveLength(1);
+    expect(pending.sections[0]!.id).toBe("index");
+    expect(pending.questions).toHaveLength(0);
+    // 節との AND: 未処理＋index はその節だけ、未処理＋転記済みの節は0件
     const withSection = run(
-      withFilters({ transcriptionStatus: "未処理", sectionId: "world-drink" }),
+      withFilters({ transcriptionStatus: "未処理", sectionId: "index" }),
     );
     expect(withSection.sections).toHaveLength(1);
-    expect(withSection.questions).toHaveLength(17);
+    expect(withSection.questions).toHaveLength(0);
+    expect(
+      run(withFilters({ transcriptionStatus: "未処理", sectionId: "world-drink" }))
+        .total,
+    ).toBe(0);
     expect(
       run(withFilters({ transcriptionStatus: "未処理", sectionId: "item-pepper" }))
         .total,
@@ -428,13 +433,20 @@ describe("横断検索フィルタ: 節・状態・転記状態（S2）", () => 
   });
 
   it("転記状態と問題固有条件の組み合わせ: 形式を指定すると節は対象外のまま、問題は所属節の転記状態で絞られる", () => {
-    // 未処理＋一問一答: world-drink 節の一問一答9件だけが残る
+    // 未処理＋一問一答: 未処理の節（索引）には問題がないため0件になる
     const r = run(
       withFilters({ transcriptionStatus: "未処理", formats: ["one-answer"] }),
     );
     expect(r.sections).toHaveLength(0);
-    expect(r.questions).toHaveLength(9);
-    expect(r.questions.every((q) => q.sectionId === "world-drink")).toBe(true);
+    expect(r.questions).toHaveLength(0);
+    // 対照: 転記済み＋一問一答では、転記済み節の一問一答だけが残る
+    const done = run(
+      withFilters({ transcriptionStatus: "転記済み", formats: ["one-answer"] }),
+    );
+    expect(done.questions.length).toBeGreaterThan(0);
+    expect(
+      done.questions.every((q) => q.sectionTranscriptionStatus === "転記済み"),
+    ).toBe(true);
   });
 
   it("S2の各条件も有効な条件として数えられる（hasActiveSearchFilters）", () => {

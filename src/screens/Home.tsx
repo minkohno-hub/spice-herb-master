@@ -24,6 +24,7 @@ export default function Home({store,update}:{store:StoreData;update:any}){
   <div className="card"><h2>苦手克服</h2><p>誤答記録: {store.records.filter(r=>r.correct===false).length}件</p><Link className="btn" to="/practice" state={{ focus: "wrong" }}>誤答を復習する</Link> <Link to="/stats">学習分析へ</Link></div>
   <div className="card"><h2>模擬試験</h2><p>練習用（公式形式の再現とは断定しません）</p><Link className="btn" to="/exam">模試へ</Link></div>
   <div className="card"><h2>単語帳</h2><p>正式カード {APP_DATA_SUMMARY.formalCards}件／サンプル {APP_DATA_SUMMARY.sampleCards}件</p><Link className="btn" to="/cards">カードへ</Link></div>
+  <div className="card"><h2>全種類を覚える（暗記モード）</h2><p>スパイス＆ハーブ全80種のプロフィール（科名・原産地・利用部位・別名・対象級）を、ひたすら回して覚えるモードです。一周したら、覚えていないものを中心に次の周が自動で始まります。</p><Link className="btn" to="/memorize">暗記を始める</Link></div>
   <div className="card"><h2>学習進捗</h2><p>総解答 {stats.total} ／ 正答率 {stats.accuracy==null?"—":Math.round(stats.accuracy*100)+"%"}</p><Link className="btn" to="/stats">進捗を見る</Link></div>
   <div className="card"><h2>今日の目標</h2><label>1日の目標（問）<input type="number" min={1} value={store.goalPerDay} onChange={e=>update((d:StoreData)=>({...d,goalPerDay:Number(e.target.value)||10}))}/></label><p>達成: {todayCount}/{store.goalPerDay}</p></div>
  </section>

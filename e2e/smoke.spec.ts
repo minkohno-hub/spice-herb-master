@@ -155,6 +155,38 @@ test.describe("電子書籍リーダー", () => {
       .poll(() => page.locator("#reader-page img").nth(1).evaluate((el: HTMLImageElement) => el.naturalWidth))
       .toBe(1000);
   });
+
+  test("世界のドリンクは自節の転記本文が表示される（UX4）", async ({ page }) => {
+    await page.goto("#/reader");
+    await expect(page.getByRole("heading", { name: "電子書籍リーダー" })).toBeVisible();
+    await page.getByRole("button", { name: "世界のドリンク（p.29）" }).click();
+    await expect(page.locator("#reader-page")).toContainText("スパイスやハーブの香りが決め手の各国のドリンク");
+    await expect(page.locator("#reader-page")).not.toContainText("この節の本文はまだ転記されていません");
+  });
+
+  test("索引節ではアプリ生成の索引からページへ移動できる（UX4）", async ({ page }) => {
+    await page.goto("#/reader");
+    await expect(page.getByRole("heading", { name: "電子書籍リーダー" })).toBeVisible();
+    await page.getByRole("button", { name: "主なスパイス＆ハーブの索引（p.145）" }).click();
+    await expect(page.locator("#reader-page")).toContainText("原本画像が未収録のため転記できません");
+    const anise = page.locator("#reader-page li", { hasText: "アニス" }).first();
+    await anise.getByRole("button", { name: "p.52" }).click();
+    await expect(page.locator("#reader-page h2")).toHaveText("アニス");
+  });
+});
+
+test.describe("暗記モード（UX5）", () => {
+  test("ホームから入り、全80種を答え合わせと自己評価で回せる", async ({ page }) => {
+    await openHome(page);
+    await page.getByRole("link", { name: "暗記を始める" }).click();
+    await expect(page.getByRole("heading", { name: "暗記モード（全80種）" })).toBeVisible();
+    await expect(page.getByText("1 / 80種")).toBeVisible();
+    await page.getByRole("button", { name: "プロフィールを表示（答え合わせ）" }).click();
+    await expect(page.locator("main")).toContainText("科名は");
+    await page.getByRole("button", { name: "覚えた", exact: true }).click();
+    await expect(page.getByText("2 / 80種")).toBeVisible();
+    await expect(page.getByText(/この周の「覚えた」: 1種/)).toBeVisible();
+  });
 });
 
 test.describe("演習", () => {

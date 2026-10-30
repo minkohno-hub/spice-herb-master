@@ -95,14 +95,14 @@ export const CHAPTERS: Chapter[] = [
     "title": "世界の料理・アメリカ",
     "bookPage": 29,
     "transcriptionStatus": "転記済み",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9604.PNG（p.29）から全文転記済み（転記バッチT4、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）。同ページで始まる「世界のドリンク」の全文も本節のレコードに含む"
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9604.PNG（p.29）から全文転記済み（転記バッチT4、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）。同ページで始まる「世界のドリンク」とは、UX4（DECISIONS #39）でレコードを節ごとに分割済み"
    },
    {
     "id": "world-drink",
     "title": "世界のドリンク",
     "bookPage": 29,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は p.29 で始まり、同ページの world-america の転記レコード内に全文転記済み（転記バッチT4、転記データ src/data/transcripts/ch1.json）。転記データは1ページ1レコードのため自節のレコードを持たず、本ステータスは「未処理」のまま（リーダーでは world-america の p.29 に表示される。docs/TRANSCRIPTION.md に記録）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9604.PNG（p.29）から全文転記済み（転記バッチT4、転記データ src/data/transcripts/ch1.json）。同じページで始まる world-america と共有していたレコードを、UX4（DECISIONS #39）で節ごとに分割し、本節は自節のレコードを持つ"
    },
    {
     "id": "dish-curry",
@@ -200,14 +200,14 @@ export const CHAPTERS: Chapter[] = [
     "title": "フレーバービネガー",
     "bookPage": 47,
     "transcriptionStatus": "転記済み",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9622.PNG（p.47）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）。同ページで始まる「フレーバーしょうゆ」の全文も本節のレコードに含む"
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9622.PNG（p.47）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json、ルールと進捗は docs/TRANSCRIPTION.md）。同ページで始まる「フレーバーしょうゆ」とは、UX4（DECISIONS #39）でレコードを節ごとに分割済み"
    },
    {
     "id": "season-soy",
     "title": "フレーバーしょうゆ",
     "bookPage": 47,
-    "transcriptionStatus": "未処理",
-    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は p.47 で始まり、同ページの season-vinegar の転記レコード内に全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json）。転記データは1ページ1レコードのため自節のレコードを持たず、本ステータスは「未処理」のまま（リーダーでは season-vinegar の p.47 に表示される。docs/TRANSCRIPTION.md に記録）"
+    "transcriptionStatus": "転記済み",
+    "sourceNote": "目次ページ画像 IMG_9577.PNG〜IMG_9579.PNG で照合済み（タイトルと開始ページ）。本文は原本画像 IMG_9622.PNG（p.47）から全文転記済み（転記バッチT6、転記データ src/data/transcripts/ch1.json）。同じページで始まる season-vinegar と共有していたレコードを、UX4（DECISIONS #39）で節ごとに分割し、本節は自節のレコードを持つ"
    },
    {
     "id": "season-paste",

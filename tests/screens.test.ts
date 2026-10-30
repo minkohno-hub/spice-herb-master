@@ -13,6 +13,7 @@ import Stats from "../src/screens/Stats";
 import SearchPage from "../src/screens/SearchPage";
 import QaPage from "../src/screens/QaPage";
 import Settings from "../src/screens/Settings";
+import Memorize from "../src/screens/Memorize";
 
 // バンドル分割バッチE1（docs/DECISIONS.md #23）: 画面を src/screens/ へ分割し
 // React.lazy 化した後も、8画面すべてが従来どおり描画できることを固定する。
@@ -21,7 +22,7 @@ const store: StoreData = structuredClone(defaultStore);
 const update = () => {};
 const render = (el: React.ReactElement) => renderToString(createElement(MemoryRouter, null, el));
 
-describe("画面スモーク（E1: 分割後の画面。UX2で設定を追加し9画面）", () => {
+describe("画面スモーク（E1: 分割後の画面。UX2で設定、UX5で暗記モードを追加し10画面）", () => {
   it("ホーム: 件数表示が軽量サマリ経由で描画される", () => {
     const html = render(createElement(Home, { store, update }));
     expect(html).toContain("スパイス＆ハーブ検定1級 学習アプリ");
@@ -84,5 +85,34 @@ describe("画面スモーク（E1: 分割後の画面。UX2で設定を追加し
     expect(html).toContain("学習分析を開く");
     expect(html).toContain("品質管理を開く");
     expect(html).toContain("学習記録をリセット");
+  });
+  it("ホーム: 暗記モードへの入口が描画される（UX5）", () => {
+    const html = render(createElement(Home, { store, update }));
+    expect(html).toContain("全種類を覚える（暗記モード）");
+    expect(html).toContain("暗記を始める");
+  });
+  it("暗記モード: 全80種のデッキと答え合わせボタンが描画される（UX5）", () => {
+    const html = render(createElement(Memorize, { store, update }));
+    // SSR では数値の前後に React のコメントマーカーが挟まるため、静的文言と数値を分けて固定する
+    expect(html).toContain("暗記モード（全");
+    expect(html).toContain("80");
+    expect(html).toContain("プロフィールを表示（答え合わせ）");
+    expect(html).toContain("自己評価済み（累計）");
+    expect(html).toContain("最初から回し直す");
+  });
+  it("リーダー: 世界のドリンクは自節の転記本文が表示される（UX4）", () => {
+    const s2: StoreData = structuredClone(defaultStore);
+    s2.reader.sectionId = "world-drink";
+    const html = render(createElement(Reader, { store: s2, update }));
+    expect(html).toContain("スパイスやハーブの香りが決め手の各国のドリンク");
+    expect(html).not.toContain("この節の本文はまだ転記されていません");
+  });
+  it("リーダー: 索引節はアプリ生成の索引が表示され、未転記の行き止まりにならない（UX4）", () => {
+    const s3: StoreData = structuredClone(defaultStore);
+    s3.reader.sectionId = "index";
+    const html = render(createElement(Reader, { store: s3, update }));
+    expect(html).toContain("原本画像が未収録のため転記できません");
+    expect(html).toContain("アニス");
+    expect(html).not.toContain("この節の本文はまだ転記されていません");
   });
 });
