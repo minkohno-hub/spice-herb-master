@@ -1,0 +1,1 @@
+const e={formalQuestions:1804,formalCards:602,sampleCards:2,importedKnowledgeUnits:545,verifiedImportedKnowledgeUnits:545,unverifiedImportedKnowledgeUnits:0,knowledgeImportOrigin:"claude/build-learning-app",verifiedKnowledgeUnits:0,transcribedPages:133,presentImages:139,missingImages:1};export{e as A};
