@@ -313,20 +313,40 @@ test.describe("演習", () => {
     await expect(page.getByText(/総解答数 1 ／/)).toBeVisible();
   });
 
-  test("サンプル演習で選択肢を選んで回答すると採点結果が見える", async ({ page }) => {
+  test("演習で次の問題へ進んでから前の問題へ戻れる（#52）", async ({ page }) => {
     await page.goto("#/practice");
     await expect(page.getByRole("heading", { name: "演習" })).toBeVisible();
-    // サンプルは明示的に選んだ場合のみ出題される（FIX1で既定は検証済みに変更）。決定的な先頭問題を使う
-    await page.getByLabel("モード").selectOption("sample");
+    // 決定的な先頭問題（正式・一問一答）を使う。サンプルは全削除済み（#52）
     await page.getByLabel("出題順").selectOption("sequence");
     await expect(
       page.getByRole("heading", {
-        name: "[サンプル] このアプリで通常出題される正式問題の条件はどれか。",
+        name: "スパイス&ハーブの定義の一例で、両者は何という植物の一部とされる?",
       }),
     ).toBeVisible();
-    await page.getByText("出典が検証済みの問題", { exact: true }).click();
+    await page.getByLabel("回答入力").fill("芳香性植物");
     await page.getByRole("button", { name: "回答を確定する" }).click();
     await expect(page.getByText("正解（スコア 100%）")).toBeVisible();
+    // 先頭問題では「前の問題へ」は無効
+    await expect(page.getByRole("button", { name: "前の問題へ" })).toBeDisabled();
+    await page.getByRole("button", { name: "次の問題へ" }).click();
+    await expect(page.getByRole("button", { name: "前の問題へ" })).toBeEnabled();
+    await page.getByRole("button", { name: "前の問題へ" }).click();
+    await expect(
+      page.getByRole("heading", {
+        name: "スパイス&ハーブの定義の一例で、両者は何という植物の一部とされる?",
+      }),
+    ).toBeVisible();
+  });
+
+  test("単語帳で次のカードへ進んでから前のカードへ戻れる（#52）", async ({ page }) => {
+    await page.goto("#/cards");
+    await expect(page.getByRole("heading", { name: "単語帳" })).toBeVisible();
+    const card = page.getByLabel("カード反転");
+    const firstFront = await card.textContent();
+    await page.getByRole("button", { name: "次のカード" }).click();
+    await expect(card).not.toHaveText(firstFront ?? "");
+    await page.getByRole("button", { name: "前のカード" }).click();
+    await expect(card).toHaveText(firstFront ?? "");
   });
 });
 
@@ -425,7 +445,7 @@ test.describe("フラッシュカード", () => {
     ).toBeVisible();
     // FIX1（DECISIONS #34）: 既定は全種別シャッフル開始のため、先頭カードは決定的でない。
     // 表→裏→次へ、の遷移そのものを固定する（カード同定には依存しない）。
-    await expect(page.getByText(/対象カード 604 件（全 604 件）/)).toBeVisible();
+    await expect(page.getByText(/対象カード 602 件（全 602 件）/)).toBeVisible();
     const card = page.getByRole("button", { name: "カード反転" });
     const front = (await card.textContent())?.trim();
     expect(front).toBeTruthy();
@@ -522,9 +542,9 @@ test.describe("分析・検索・品質管理", () => {
   test("横断検索: 件数が見え、キーワードで絞り込める", async ({ page }) => {
     await page.goto("#/search");
     await expect(page.getByRole("heading", { name: "横断検索" })).toBeVisible();
-    // 初期状態は全件: 節 81 件・問題 1821 件（正式 1804＋サンプル 17）
+    // 初期状態は全件: 節 81 件・問題 1804 件（正式のみ。サンプルは全削除済み、#52）
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
     await page.getByLabel("キーワード").fill("歴史");
     await expect(page.getByRole("heading", { name: "教材（節） 6件" })).toBeVisible();
     await expect(page.getByText("世界における歴史（p.6・転記済み）")).toBeVisible();

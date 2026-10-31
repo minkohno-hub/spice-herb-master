@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { APP_DATA_SUMMARY as S } from "../src/data/summary";
-import { QUESTIONS, CARDS, SAMPLE_QUESTIONS, SAMPLE_CARDS, KNOWLEDGE_UNITS } from "../src/data/questions";
+import { QUESTIONS, CARDS, KNOWLEDGE_UNITS } from "../src/data/questions";
 import { IMPORTED_KNOWLEDGE_UNITS, KNOWLEDGE_IMPORT_META } from "../src/data/knowledge";
 import { TRANSCRIPT_BY_PAGE, TRANSCRIPT_PAGES } from "../src/data/transcripts";
 import manifest from "../src/data/source-manifest.json";
@@ -11,8 +11,6 @@ describe("軽量サマリ（E1: 初期表示の件数表示）", () => {
   it("問題・カード件数が実データと一致する", () => {
     expect(S.formalQuestions).toBe(QUESTIONS.length);
     expect(S.formalCards).toBe(CARDS.length);
-    expect(S.sampleQuestions).toBe(SAMPLE_QUESTIONS.length);
-    expect(S.sampleCards).toBe(SAMPLE_CARDS.length);
   });
   it("知識単位の件数・照合状態が実データと一致する", () => {
     expect(S.importedKnowledgeUnits).toBe(IMPORTED_KNOWLEDGE_UNITS.length);

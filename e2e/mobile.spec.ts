@@ -31,15 +31,14 @@ test.describe("モバイル viewport（390×844）", () => {
       .getByRole("link", { name: "演習", exact: true })
       .click();
     await expect(page.getByRole("heading", { name: "演習" })).toBeVisible();
-    // FIX1: サンプルは明示選択時のみ。出題順を登録順にして決定的な先頭問題を使う
-    await page.getByLabel("モード").selectOption("sample");
+    // 正式問題の先頭（一問一答）で回答する。出題順を登録順にして決定的にする（サンプルは全削除済み、#52）
     await page.getByLabel("出題順").selectOption("sequence");
     await expect(
       page.getByRole("heading", {
-        name: "[サンプル] このアプリで通常出題される正式問題の条件はどれか。",
+        name: "スパイス&ハーブの定義の一例で、両者は何という植物の一部とされる?",
       }),
     ).toBeVisible();
-    await page.getByText("出典が検証済みの問題", { exact: true }).click();
+    await page.getByLabel("回答入力").fill("芳香性植物");
     await page.getByRole("button", { name: "回答を確定する" }).click();
     await expect(page.getByText("正解（スコア 100%）")).toBeVisible();
   });

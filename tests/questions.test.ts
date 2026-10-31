@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { readFileSync, statSync } from "node:fs";
-import { QUESTIONS, CARDS, SAMPLE_QUESTIONS, SAMPLE_CARDS } from "../src/data/questions";
+import { QUESTIONS, CARDS } from "../src/data/questions";
 import { QUESTION_GENERATION_META as META } from "../src/data/formal-questions";
 import { IMPORTED_KNOWLEDGE_UNITS as U } from "../src/data/knowledge";
 import manifest from "../src/data/source-manifest.json";
@@ -218,10 +218,10 @@ describe("正式問題の生成（フェーズ4: scripts/generate-questions.mjs�
       expect(c.back, c.id).toBe(unit.content); // 裏はプロフィール単位の content そのもの
     }
   });
-  it("サンプルと混同しない（ID分離・[サンプル]表記なし・通常出題は正式問題のみ）", () => {
-    const sampleIds = new Set([...SAMPLE_QUESTIONS, ...SAMPLE_CARDS].map((x) => x.id));
-    for (const item of [...QUESTIONS, ...CARDS]) expect(sampleIds.has(item.id), item.id).toBe(false);
+  it("サンプルは存在しない（2026-10-31 全削除、DECISIONS #52）", () => {
+    for (const item of [...QUESTIONS, ...CARDS]) expect(item.status, item.id).toBe("verified");
     for (const q of QUESTIONS) expect(q.prompt, q.id).not.toContain("[サンプル]");
+    for (const c of CARDS) expect(c.front, c.id).not.toContain("[サンプル");
     expect(findDuplicateCandidates(QUESTIONS)).toEqual([]);
     expect(new Set([...QUESTIONS, ...CARDS].map((x) => x.id)).size).toBe(QUESTIONS.length + CARDS.length);
     expect(selectForPractice(QUESTIONS).length).toBe(QUESTIONS.length);

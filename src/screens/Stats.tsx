@@ -1,5 +1,5 @@
 // 画面コンポーネント（バンドル分割バッチE1で src/App.tsx から分割。docs/DECISIONS.md #23）
-import { QUESTIONS, SAMPLE_QUESTIONS, KNOWLEDGE_UNITS } from "../data/questions";
+import { QUESTIONS, KNOWLEDGE_UNITS } from "../data/questions";
 import { IMPORTED_KNOWLEDGE_UNITS, KNOWLEDGE_IMPORT_META } from "../data/knowledge";
 import { ALL_SECTIONS, CHAPTERS } from "../data/structure";
 import { FORMAT_LABELS, type QuestionFormat } from "../domain/types";
@@ -10,7 +10,7 @@ import { isDue } from "../domain/srs";
 import { dateKeyOfIso } from "../domain/dates";
 
 export default function Stats({store}:{store:StoreData}){
- const all=[...QUESTIONS,...SAMPLE_QUESTIONS]; const st=computeStats(store.records, all);
+ const all=[...QUESTIONS]; const st=computeStats(store.records, all);
  const cov=computeCoverage({presentImages:manifest.totalPresent, expectedImages:manifest.totalPresent+manifest.totalMissing, units:IMPORTED_KNOWLEDGE_UNITS, totalSections:ALL_SECTIONS.length, questions:QUESTIONS, records:store.records});
  const pct=(v:number|null)=> v==null? "未測定（算出不能）" : Math.round(v*100)+"%";
  const chapterLabel=(id:string)=>{ const c=CHAPTERS.find(x=>x.id===id); return c? `${c.label} ${c.title}` : id; };

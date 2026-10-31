@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { ALL_SECTIONS, CHAPTERS } from "../data/structure";
 import type { StoreData } from "../domain/store";
-import { QUESTIONS, SAMPLE_QUESTIONS } from "../data/questions";
+import { QUESTIONS } from "../data/questions";
 import { FORMAT_LABELS, type QuestionFormat, type QuestionStatus } from "../domain/types";
 import {
   DEFAULT_SEARCH_FILTERS,
@@ -30,15 +30,14 @@ const SEARCHABLE_SECTIONS = ALL_SECTIONS.map((s) => ({
 }));
 // 問題には所属する節の転記状態を付与する（転記状態フィルタの判定用、#33）。
 // 節 ID は全問題で実在することを単体テストで固定している。
-const ALL_QUESTIONS = [...QUESTIONS, ...SAMPLE_QUESTIONS].map((q) => ({
+const ALL_QUESTIONS = [...QUESTIONS].map((q) => ({
   ...q,
   sectionTranscriptionStatus: SECTION_BY_ID.get(q.sectionId)?.transcriptionStatus,
 }));
 // 形式の選択肢は正式問題に実在する15形式（docs/DECISIONS.md #31）。
-// サンプル限定の2形式（写真識別・フラッシュカード）は正式問題が存在しないため
-// 選択肢に出さないが、「すべて」のときは従来どおりサンプル問題も検索対象になる。
+// サンプル問題は 2026-10-31 に全て削除したため、検索対象は正式問題のみ（#52）。
 const FORMAT_OPTIONS = availableSearchFormats(QUESTIONS);
-// 状態の選択肢は検索プールに実在する状態のみ（正式・サンプル、#33）。
+// 状態の選択肢は検索プールに実在する状態のみ（#33）。
 const STATUS_OPTIONS = availableSearchStatuses(ALL_QUESTIONS);
 const STATUS_LABELS: Record<QuestionStatus, string> = {
   verified: "正式",

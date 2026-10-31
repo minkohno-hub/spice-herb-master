@@ -64,7 +64,7 @@ export const REVISION_AREAS = [
 
 export const REVISION_ENTRIES: RevisionEntry[] = [
   // 序章・世界の料理
-  { id: "rv-calicut", area: "序章・世界の料理", item: "カリカット（歴史）", change: "「カリカット（現在のコーチン）」→「カリカット（現・コーリーコード）」", bookPage: 8 },
+  { id: "rv-calicut", area: "序章・世界の料理", item: "カリカット（歴史）", change: "「カリカット（現在のコーチン）」→「カリカット（現・コーリコード）」", bookPage: 8 },
   { id: "rv-paella", area: "序章・世界の料理", item: "パエリアの説明", change: "「スペイン語で『フライパン』の意味」→「バレンシア語で『フライパン』の意味」", bookPage: 27 },
   { id: "rv-borscht", area: "序章・世界の料理", item: "ボルシチ", change: "国・地域が「ロシア」→「ウクライナ」に、決め手のスパイス・ハーブが「クローブ、ローレルなど」→「ディル」に", bookPage: 27 },
   { id: "rv-chiliconcarne", area: "序章・世界の料理", item: "チリコンカン", change: "決め手のスパイス・ハーブにクミンが追加され「チリパウダー、クミン、オレガノ」に", bookPage: 28 },

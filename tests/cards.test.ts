@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach } from "vitest";
 import { applyCardReview, qualityFromResult, qualityFromSelfEval, isDue } from "../src/domain/srs";
 import { defaultStore, loadStore, saveStore, type StoreData } from "../src/domain/store";
-import { CARDS, SAMPLE_CARDS, QUESTIONS, SAMPLE_QUESTIONS } from "../src/data/questions";
+import { CARDS, QUESTIONS } from "../src/data/questions";
 
 // フラッシュカード自己評価UI（バッチC1、docs/DECISIONS.md #32）の単体テスト。
 // 検証対象: (1) 自己評価→SM-2 quality の写像、(2) 評価の SRS 反映と累積、
@@ -65,8 +65,8 @@ describe("カード評価の SRS 反映（C1）", () => {
 
 describe("演習由来の状態との非干渉（C1）", () => {
   it("カードIDと問題IDの名前空間は実データで分離されている（全カードが card- 接頭辞）", () => {
-    const cardIds = [...CARDS, ...SAMPLE_CARDS].map((c) => c.id);
-    const questionIds = new Set([...QUESTIONS, ...SAMPLE_QUESTIONS].map((q) => q.id));
+    const cardIds = [...CARDS].map((c) => c.id);
+    const questionIds = new Set([...QUESTIONS].map((q) => q.id));
     expect(cardIds.length).toBeGreaterThan(0);
     for (const id of cardIds) {
       expect(id.startsWith("card-")).toBe(true);
@@ -147,7 +147,7 @@ describe("カードの種別・絞り込み・シャッフル（FIX1、DECISIONS
     expect(cardKindOf({ ...bare, id: "card-rev-x" } as never)).toBe("reverse");
     expect(cardKindOf({ ...bare, id: "card-profile-x" } as never)).toBe("profile");
     expect(cardKindOf({ ...bare, id: "card-x" } as never)).toBe("qa");
-    expect(cardKindOf(SAMPLE_CARDS[0]!)).toBe("qa"); // サンプルカード（kind未設定）は一問一答扱い
+    expect(cardKindOf({ ...bare, id: "card-sample-1" } as never)).toBe("qa"); // kind未設定は一問一答扱い
   });
 
   it("実データの種別別件数と、種別・章フィルタの結果が実測と一致する", async () => {

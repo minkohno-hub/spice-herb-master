@@ -22,7 +22,7 @@ export default function Home({store,update}:{store:StoreData;update:any}){
   <div className="card"><h2>ランダム演習</h2><p>正式問題 {APP_DATA_SUMMARY.formalQuestions}問</p><Link className="btn" to="/practice">演習設定へ</Link></div>
   <div className="card"><h2>苦手克服</h2><p>誤答記録: {store.records.filter(r=>r.correct===false).length}件</p><Link className="btn" to="/practice" state={{ focus: "wrong" }}>誤答を復習する</Link> <Link to="/stats">学習分析へ</Link></div>
   <div className="card"><h2>模擬試験</h2><p>練習用（公式形式の再現とは断定しません）</p><Link className="btn" to="/exam">模試へ</Link></div>
-  <div className="card"><h2>単語帳</h2><p>正式カード {APP_DATA_SUMMARY.formalCards}件／サンプル {APP_DATA_SUMMARY.sampleCards}件</p><Link className="btn" to="/cards">カードへ</Link></div>
+  <div className="card"><h2>単語帳</h2><p>正式カード {APP_DATA_SUMMARY.formalCards}件</p><Link className="btn" to="/cards">カードへ</Link></div>
   <div className="card"><h2>4訂版の改訂ポイント</h2><p>旧版から変わった点（1級対象の追加・削除、原産地・別名・語源などの改訂）を、財団の公式資料から抜粋してまとめました。2027年以降の検定は4訂版からのみ出題されます。</p><Link className="btn" to="/revision">改訂ポイントを見る</Link></div>
   <div className="card"><h2>全種類を覚える（暗記モード）</h2><p>スパイス＆ハーブ全80種のプロフィール（科名・原産地・利用部位・別名・対象級）を、ひたすら回して覚えるモードです。一周したら、覚えていないものを中心に次の周が自動で始まります。</p><Link className="btn" to="/memorize">暗記を始める</Link></div>
   <div className="card"><h2>学習進捗</h2><p>総解答 {stats.total} ／ 正答率 {stats.accuracy==null?"—":Math.round(stats.accuracy*100)+"%"}</p><Link className="btn" to="/stats">進捗を見る</Link></div>

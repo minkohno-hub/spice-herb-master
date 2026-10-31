@@ -8,7 +8,7 @@
 // 対象が入れ替わらないようにする（組み直しは条件変更・再開ボタンのときだけ）。
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
-import { QUESTIONS, SAMPLE_QUESTIONS } from "../data/questions";
+import { QUESTIONS } from "../data/questions";
 import { CHAPTERS, ALL_SECTIONS } from "../data/structure";
 import QuestionRunner from "../components/QuestionRunner";
 import { FORMAT_LABELS, type Question, type QuestionFormat } from "../domain/types";
@@ -54,9 +54,9 @@ export default function Practice({ store, update }: { store: StoreData; update: 
   const navigate = useNavigate();
   const preset = (location.state ?? {}) as PracticePreset;
   const presetQuestion = preset.questionId
-    ? [...QUESTIONS, ...SAMPLE_QUESTIONS].find((q) => q.id === preset.questionId)
+    ? QUESTIONS.find((q) => q.id === preset.questionId)
     : undefined;
-  const [mode, setMode] = useState(presetQuestion ? (presetQuestion.status === "sample" ? "sample" : "verified") : "verified");
+  const [mode, setMode] = useState("verified");
   const [filters, setFilters] = useState<PracticeFilters>({
     ...DEFAULT_PRACTICE_FILTERS,
     focus: preset.focus ?? "all",
@@ -70,7 +70,7 @@ export default function Practice({ store, update }: { store: StoreData; update: 
   const [results, setResults] = useState<{ questionId: string; correct: boolean | null }[]>([]);
   const [done, setDone] = useState(false);
 
-  const basePool = (m: string): Question[] => (m === "sample" ? [...SAMPLE_QUESTIONS] : selectForPractice(QUESTIONS));
+  const basePool = (m: string): Question[] => selectForPractice(QUESTIONS);
   const ctx = { records: store.records, srs: store.srs, favorites: store.favorites };
   const poolCount = useMemo(
     () => buildPracticePool(basePool(mode), filters, ctx).length,
@@ -186,6 +186,9 @@ export default function Practice({ store, update }: { store: StoreData; update: 
             }}
           />
           <p>
+            <button className="ghost" disabled={idx === 0} onClick={() => setIdx(idx - 1)}>
+              前の問題へ
+            </button>{" "}
             <button className="ghost" onClick={() => (idx + 1 >= sessionQs.length ? setDone(true) : setIdx(idx + 1))}>
               {idx + 1 >= sessionQs.length ? "セッションを終了する" : "次の問題へ"}
             </button>{" "}
@@ -213,7 +216,6 @@ export default function Practice({ store, update }: { store: StoreData; update: 
           onChange={(e) => { setMode(e.target.value); restart({ mode: e.target.value }); }}
         >
           <option value="verified">通常演習（検証済みのみ）</option>
-          <option value="sample">エンジン検証用サンプル（通常出題対象外・明示表示）</option>
         </select>
       </label>
       <label>

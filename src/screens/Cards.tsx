@@ -7,7 +7,7 @@
 // UX10（DECISIONS #46）: 自己評価と「次のカード」のボタンをカードの真下へ移し、
 // スクロールなしで操作できるようにした（状態表示はボタンの下へ）。
 import { useMemo, useState } from "react";
-import { CARDS, SAMPLE_CARDS } from "../data/questions";
+import { CARDS } from "../data/questions";
 import { CHAPTERS } from "../data/structure";
 import type { StoreData } from "../domain/store";
 import { applyCardReview, isDue, type CardSelfEval } from "../domain/srs";
@@ -23,7 +23,7 @@ const EVAL_OPTIONS: { key: CardSelfEval; label: string }[] = [
 const KIND_ORDER: FlashcardKind[] = ["qa", "profile", "term", "reverse"];
 
 export default function Cards({store, update}:{store:StoreData; update:any}){
- const all=useMemo(()=>[...CARDS, ...SAMPLE_CARDS], []);
+ const all=useMemo(()=>[...CARDS], []);
  const [kind,setKind]=useState<FlashcardKind|null>(null);
  const [chapterId,setChapterId]=useState<string|null>(null);
  const [shuffleOn,setShuffleOn]=useState(true);
@@ -34,6 +34,8 @@ export default function Cards({store, update}:{store:StoreData; update:any}){
  const kindCounts=useMemo(()=>countCardsByKind(all), [all]);
  const resetPosition=()=>{ setI(0); setFlip(false); };
  const c=ordered[i % Math.max(1,ordered.length)];
+ // 前のカードへ（ユーザー指示 2026-10-31）: 表示中インデックス基準で循環する
+ const prevCard=()=>{ if(ordered.length===0) return; const cur=((i % ordered.length)+ordered.length)%ordered.length; setFlip(false); setI((cur-1+ordered.length)%ordered.length); };
  const st=c? store.srs[c.id] : undefined;
  const evaluated=all.filter(x=>store.srs[x.id]).length;
  const evaluate=(ev:CardSelfEval)=>{ if(!c) return; update((d:StoreData)=>{ d.srs[c.id]=applyCardReview(d.srs[c.id], c.id, ev); return d; }); setFlip(false); setI(i+1); };
@@ -42,9 +44,9 @@ export default function Cards({store, update}:{store:StoreData; update:any}){
  <><div className="card flash" role="button" aria-label="カード反転" tabIndex={0} onClick={()=>setFlip(!flip)} onKeyDown={e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); setFlip(!flip); } }}>{flip? c.back : c.front}</div>
  {/* UX10: 操作ボタンはカードの真下に置く（スクロールなしで届くように） */}
  {flip
-  ? <p>自己評価: {EVAL_OPTIONS.map(o=><button key={o.key} onClick={()=>evaluate(o.key)}>{o.label}</button>)}{" "}<button type="button" className="ghost" onClick={()=>{setFlip(false); setI(i+1);}}>次のカード</button></p>
-  : <p><button type="button" onClick={()=>setFlip(true)}>裏面を表示</button>{" "}<button type="button" className="ghost" onClick={()=>{setFlip(false); setI(i+1);}}>次のカード</button> <span className="muted">裏面を表示すると自己評価を記録できます。</span></p>}
- <p className="muted">{c.status==="sample"?"サンプルカード":"正式カード"} ／ 種別: {CARD_KIND_LABELS[cardKindOf(c)]} ／ 章: {c.chapterId} ／ 節: {c.sectionId} ／ 対象カード {ordered.length} 件（全 {all.length} 件）</p>
+  ? <p>自己評価: {EVAL_OPTIONS.map(o=><button key={o.key} onClick={()=>evaluate(o.key)}>{o.label}</button>)}{" "}<button type="button" className="ghost" onClick={prevCard}>前のカード</button>{" "}<button type="button" className="ghost" onClick={()=>{setFlip(false); setI(i+1);}}>次のカード</button></p>
+  : <p><button type="button" onClick={()=>setFlip(true)}>裏面を表示</button>{" "}<button type="button" className="ghost" onClick={prevCard}>前のカード</button>{" "}<button type="button" className="ghost" onClick={()=>{setFlip(false); setI(i+1);}}>次のカード</button> <span className="muted">裏面を表示すると自己評価を記録できます。</span></p>}
+ <p className="muted">正式カード ／ 種別: {CARD_KIND_LABELS[cardKindOf(c)]} ／ 章: {c.chapterId} ／ 節: {c.sectionId} ／ 対象カード {ordered.length} 件（全 {all.length} 件）</p>
  <p className="muted">{st? <>このカードの状態: 評価済み（復習 {st.repetitions} 回 ・ 次回 {st.dueAt.slice(0,10)}{isDue(st)?" ・ 期限到来":""}）</> : "このカードの状態: 未評価"} ／ 評価済み {evaluated} / 全 {all.length} 件</p></>}
  <p><label>種別<select aria-label="種別" value={kind ?? ""} onChange={e=>{ setKind(e.target.value===""? null : e.target.value as FlashcardKind); resetPosition(); }}><option value="">すべて（{all.length}件）</option>{KIND_ORDER.map(k=><option key={k} value={k}>{CARD_KIND_LABELS[k]}（{kindCounts[k]}件）</option>)}</select></label>{" "}
  <label>章<select aria-label="章" value={chapterId ?? ""} onChange={e=>{ setChapterId(e.target.value===""? null : e.target.value); resetPosition(); }}><option value="">すべて</option>{CHAPTERS.map(ch=><option key={ch.id} value={ch.id}>{ch.label}</option>)}</select></label>{" "}

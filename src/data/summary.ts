@@ -16,10 +16,6 @@ export const APP_DATA_SUMMARY = {
   formalQuestions: 1804,
   /** 正式カード数（CARDS.length） */
   formalCards: 602,
-  /** エンジン検証用サンプル問題数（SAMPLE_QUESTIONS.length） */
-  sampleQuestions: 17,
-  /** サンプルカード数（SAMPLE_CARDS.length） */
-  sampleCards: 2,
   /** 取り込み済み知識単位数（IMPORTED_KNOWLEDGE_UNITS.length） */
   importedKnowledgeUnits: 545,
   /** うち原文照合済み（status="verified"） */

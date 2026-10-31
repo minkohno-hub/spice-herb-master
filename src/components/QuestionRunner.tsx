@@ -28,7 +28,7 @@ export default function QuestionRunner({ q, onGraded, onSelfScore, onOpenSection
   };
   const changeSelfRatio = (v: number|null) => { setSelfRatio(v); if (submitted) onSelfScore?.(v); };
   return <div className="card" aria-label="問題">
-    <p><span className="badge">{q.status==="sample"?"サンプル（通常出題対象外）":q.status}</span> <span className="muted">難易度 {q.difficulty}</span></p>
+    <p><span className="badge">{q.status}</span> <span className="muted">難易度 {q.difficulty}</span></p>
     <h2 style={{fontSize:"1.1rem"}}>{q.prompt}</h2>
     {q.imageAlt && <p className="muted" role="img" aria-label={q.imageAlt}>🖼 {q.imageRef? q.imageRef : "画像は未設定です（教科書画像は未取り込み）"}</p>}
     {q.table && <table><thead><tr>{q.table.headers.map(h=><th key={h}>{h}</th>)}</tr></thead><tbody>{q.table.rows.map((r,i)=><tr key={i}>{r.map((c,j)=><td key={j}>{c}</td>)}</tr>)}</tbody></table>}
@@ -50,7 +50,7 @@ export default function QuestionRunner({ q, onGraded, onSelfScore, onOpenSection
       <details className="result-details"><summary>解説・出典などの詳細を見る</summary>
       {q.rubric && <ul>{q.rubric.map(r=><li key={r.id}>{result.matchedPointIds.includes(r.id)?"✓":"−"} {r.label}{r.required?"（必須）":""}</li>)}</ul>}
       <p><strong>解説:</strong> {q.explanation}</p>
-      <p className="muted">出典: {q.sourceRefs.length? q.sourceRefs.map(s=>`${s.manifestImageId} p.${s.bookPage??"未確定"}`).join(", ") : "なし（サンプルのため正式問題ではありません）"} ／ 関連節: {SECTION_TITLE.get(q.sectionId) ?? q.sectionId}</p>
+      <p className="muted">出典: {q.sourceRefs.length? q.sourceRefs.map(s=>`${s.manifestImageId} p.${s.bookPage??"未確定"}`).join(", ") : "なし"} ／ 関連節: {SECTION_TITLE.get(q.sectionId) ?? q.sectionId}</p>
       {onOpenSection && <p><button type="button" className="ghost" onClick={()=>onOpenSection(q.sectionId)}>教科書の該当箇所を開く</button></p>}
       </details></div>}
   </div>;

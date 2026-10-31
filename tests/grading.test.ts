@@ -2,18 +2,28 @@
 import { describe, it, expect } from "vitest";
 import { gradeEssayRubric, gradeTextAnswer, gradeChoice, gradeTableFill } from "../src/domain/grading";
 import { normalizeText } from "../src/domain/normalize";
-import { SAMPLE_QUESTIONS, QUESTIONS } from "../src/data/questions";
-import type { RubricPoint } from "../src/domain/types";
-const q=(id:string)=>SAMPLE_QUESTIONS.find(x=>x.id===id)!;
+import { QUESTIONS } from "../src/data/questions";
+import type { Question, RubricPoint } from "../src/domain/types";
+// サンプル問題は 2026-10-31 にアプリから全削除したため、採点エンジンの単体テストは
+// ローカルのフィクスチャで完結させる（docs/DECISIONS.md #52）。
+const fixtureBase = { version: 1, status: "verified" as const, chapterId: "appendix", sectionId: "exam-about", difficulty: 1 as const, knowledgeUnitIds: [] as string[], sourceRefs: [] as Question["sourceRefs"], explanation: "" };
+const FIXTURES: Question[] = [
+ { ...fixtureBase, id: "fx-single", format: "single-choice", prompt: "単一選択の検証用問題", choices: ["正答", "誤答", "誤答2", "誤答3"], correctChoiceIndexes: [0] },
+ { ...fixtureBase, id: "fx-multi", format: "multiple-choice", prompt: "複数選択の検証用問題", choices: ["a", "b", "c", "d"], correctChoiceIndexes: [0, 1, 2] },
+ { ...fixtureBase, id: "fx-fill", format: "fill-blank", prompt: "穴埋めの検証用問題", acceptedAnswers: ["localStorage", "ローカルストレージ"] },
+ { ...fixtureBase, id: "fx-short", format: "short-essay", prompt: "記述の検証用問題", modelAnswer: "模範", rubric: [{ id: "r1", label: "要点チェックの目的", keywords: ["要点"], required: true, points: 1 }, { id: "r2", label: "自己採点との分離", keywords: ["自己採点", "自己評価"], required: true, points: 1 }] },
+ { ...fixtureBase, id: "fx-tablefill", format: "table-fill", prompt: "表の検証用問題", table: { headers: ["番号", "指標"], rows: [["1", "（空欄A）"]] }, blankCellAnswers: { A: "取り込み率" } },
+];
+const q=(id:string)=>FIXTURES.find(x=>x.id===id)!;
 describe("normalize",()=>{ it("NFKC・空白・句読点を吸収",()=>{ expect(normalizeText("ＳＭ－２ 。")).toContain("sm"); }); it("長音を吸収",()=>{ expect(normalizeText("ローカルストレージ")).toBe(normalizeText("ロカルストレージ".replace("ロカル","ローカル"))); }); });
-describe("choice grading",()=>{ it("完全正答",()=>{ expect(gradeChoice(q("sample-single"),[0]).correct).toBe(true); }); it("誤答",()=>{ expect(gradeChoice(q("sample-single"),[1]).correct).toBe(false); }); it("多択は順不同で一致",()=>{ expect(gradeChoice(q("sample-multi"),[2,0,1]).correct).toBe(true); }); });
-describe("text grading",()=>{ it("表記揺れ（localStorage）",()=>{ expect(gradeTextAnswer(q("sample-fill")," localStorage ").correct).toBe(true); }); it("空回答は不正解",()=>{ expect(gradeTextAnswer(q("sample-fill"),"").correct).toBe(false); }); });
-describe("essay rubric",()=>{ const rub=q("sample-short").rubric!; it("全要点で満点",()=>{ const r=gradeEssayRubric(rub,"要点を確認し、自己採点と分ける"); expect(r.scoreRatio).toBe(1); expect(r.missedRequiredIds).toEqual([]); }); it("一部要点のみ部分点",()=>{ const r=gradeEssayRubric(rub,"要点だけ書く"); expect(r.scoreRatio).toBe(0.5); expect(r.missedRequiredIds.length).toBe(1); }); it("空回答",()=>{ expect(gradeEssayRubric(rub,"").scoreRatio).toBe(0); }); it("特殊文字のみは0点側",()=>{ expect(gradeEssayRubric(rub,"!!!???").scoreRatio).toBe(0); }); it("基準なしは判定しない",()=>{ expect(gradeEssayRubric([],"何か").correct).toBeNull(); }); });
-describe("table fill",()=>{ it("セル部分点",()=>{ expect(gradeTableFill(q("sample-tablefill"),{A:"取り込み率"}).scoreRatio).toBe(1); expect(gradeTableFill(q("sample-tablefill"),{A:"天気"}).scoreRatio).toBe(0); }); });
+describe("choice grading",()=>{ it("完全正答",()=>{ expect(gradeChoice(q("fx-single"),[0]).correct).toBe(true); }); it("誤答",()=>{ expect(gradeChoice(q("fx-single"),[1]).correct).toBe(false); }); it("多択は順不同で一致",()=>{ expect(gradeChoice(q("fx-multi"),[2,0,1]).correct).toBe(true); }); });
+describe("text grading",()=>{ it("表記揺れ（localStorage）",()=>{ expect(gradeTextAnswer(q("fx-fill")," localStorage ").correct).toBe(true); }); it("空回答は不正解",()=>{ expect(gradeTextAnswer(q("fx-fill"),"").correct).toBe(false); }); });
+describe("essay rubric",()=>{ const rub=q("fx-short").rubric!; it("全要点で満点",()=>{ const r=gradeEssayRubric(rub,"要点を確認し、自己採点と分ける"); expect(r.scoreRatio).toBe(1); expect(r.missedRequiredIds).toEqual([]); }); it("一部要点のみ部分点",()=>{ const r=gradeEssayRubric(rub,"要点だけ書く"); expect(r.scoreRatio).toBe(0.5); expect(r.missedRequiredIds.length).toBe(1); }); it("空回答",()=>{ expect(gradeEssayRubric(rub,"").scoreRatio).toBe(0); }); it("特殊文字のみは0点側",()=>{ expect(gradeEssayRubric(rub,"!!!???").scoreRatio).toBe(0); }); it("基準なしは判定しない",()=>{ expect(gradeEssayRubric([],"何か").correct).toBeNull(); }); });
+describe("table fill",()=>{ it("セル部分点",()=>{ expect(gradeTableFill(q("fx-tablefill"),{A:"取り込み率"}).scoreRatio).toBe(1); expect(gradeTableFill(q("fx-tablefill"),{A:"天気"}).scoreRatio).toBe(0); }); });
 
 /* 監査B-05/B-06是正（AUDIT_DECISIONS AD-1）: 記述式の自動判定は「正解」を断定しない／かな畳み込み／長いキーワードの断片近接一致。 */
 describe("audit fixes: essay grading",()=>{
-  const rub=q("sample-short").rubric!;
+  const rub=q("fx-short").rubric!;
   it("全要点が揃っても自動判定は正解と断定しない（correct は null、比率は1）",()=>{ const r=gradeEssayRubric(rub,"要点を確認し、自己採点と分ける"); expect(r.scoreRatio).toBe(1); expect(r.correct).toBeNull(); });
   it("キーワード羅列も断定はされない（比率は立つが correct は null）",()=>{ const r=gradeEssayRubric(rub,"要点、自己採点"); expect(r.scoreRatio).toBe(1); expect(r.correct).toBeNull(); });
   it("要点皆無は従来どおり不正解（false）",()=>{ expect(gradeEssayRubric(rub,"無関係な文").correct).toBe(false); });

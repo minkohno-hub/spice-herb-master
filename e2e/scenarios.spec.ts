@@ -21,7 +21,7 @@ import { expect, test, type Page } from "@playwright/test";
  *   置き換え、追加分は「横断検索の拡張フィルタ（S2）」で検証する。
  * - 修正バッチFIX1（DECISIONS #34）で演習の既定モードが検証済みになり、出題順
  *   （シャッフル=既定／登録順）が加わった。決定的な先頭問題を使うテストは
- *   出題順=登録順を選んでから操作する。サンプルは明示選択時のみ出題される。
+ *   出題順=登録順を選んでから操作する。サンプル問題は 2026-10-31 に全削除済み（#52）。
  *   カード画面も既定が全種別シャッフル開始になったため、登録順の並びに依存する
  *   テストは並び=登録順へ切り替える。模試は実働化され、出題・一括採点・記録
  *   保存は e2e/smoke.spec.ts の模試テストで検証する。
@@ -201,7 +201,7 @@ test.describe("横断検索の絞り込み", () => {
     await page.goto("#/search");
     await expect(page.getByRole("heading", { name: "横断検索" })).toBeVisible();
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
 
     // 単独キーワード: 節と問題の両方が同時に絞られる（横断検索の実態）
     await page.getByLabel("キーワード").fill("歴史");
@@ -217,7 +217,7 @@ test.describe("横断検索の絞り込み", () => {
     // 条件を解除すると全件表示に戻る
     await page.getByLabel("キーワード").fill("");
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
   });
 
   test("該当しないキーワードでは節・問題とも0件の空状態になる", async ({ page }) => {
@@ -236,8 +236,8 @@ test.describe("横断検索の複合フィルタ（S1）", () => {
     await page.goto("#/search");
     await expect(page.getByRole("heading", { name: "横断検索" })).toBeVisible();
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
-    await expect(page.getByText(/検索結果 合計 1902件/)).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
+    await expect(page.getByText(/検索結果 合計 1885件/)).toBeVisible();
 
     // キーワード単独: 節6件（タイトル2＋本文4）・問題4件
     await page.getByLabel("キーワード").fill("歴史");
@@ -280,8 +280,8 @@ test.describe("横断検索の複合フィルタ（S1）", () => {
     // すべての条件を解除すると全件表示に復帰し、入力値も初期状態に戻る
     await page.getByRole("button", { name: "すべての条件を解除" }).click();
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
-    await expect(page.getByText(/検索結果 合計 1902件/)).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
+    await expect(page.getByText(/検索結果 合計 1885件/)).toBeVisible();
     await expect(page.getByLabel("キーワード")).toHaveValue("");
     await expect(page.getByLabel("序章", { exact: true })).not.toBeChecked();
     await expect(page.getByLabel("一問一答", { exact: true })).not.toBeChecked();
@@ -295,10 +295,10 @@ test.describe("横断検索の複合フィルタ（S1）", () => {
     await expect(page.getByRole("heading", { name: "問題 0件" })).toBeVisible();
     await page.getByLabel("検索対象").selectOption("questions");
     await expect(page.getByRole("heading", { name: "教材（節） 0件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
     await page.getByRole("button", { name: "対象: 問題のみ ×" }).click();
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
   });
 });
 
@@ -309,7 +309,7 @@ test.describe("横断検索の拡張フィルタ（S2）", () => {
     await page.goto("#/search");
     await expect(page.getByRole("heading", { name: "横断検索" })).toBeVisible();
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
 
     // 章を1つ選択: 序章だけに絞られる
     await page.getByLabel("序章", { exact: true }).check();
@@ -341,8 +341,8 @@ test.describe("横断検索の拡張フィルタ（S2）", () => {
     // 序章のチェックを外すと全件に復帰する
     await page.getByLabel("序章", { exact: true }).uncheck();
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
-    await expect(page.getByText(/検索結果 合計 1902件/)).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
+    await expect(page.getByText(/検索結果 合計 1885件/)).toBeVisible();
   });
 
   test("節・問題の状態・転記状態で絞り込め、解除で全件に戻る", async ({ page }) => {
@@ -360,30 +360,30 @@ test.describe("横断検索の拡張フィルタ（S2）", () => {
     // 節のチップで個別解除すると全件に戻る
     await page.getByRole("button", { name: "節: 世界における歴史 ×" }).click();
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
 
-    // 問題の状態（サンプル）: 問題固有の条件のため節は対象外になり、サンプル17件だけが残る
-    await page.getByLabel("問題の状態").selectOption("sample");
+    // 問題の状態（正式）: サンプル削除後は正式のみが選択肢にあり、問題固有の条件のため節は対象外になる
+    await page.getByLabel("問題の状態").selectOption("verified");
     await expect(page.getByRole("heading", { name: "教材（節） 0件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 17件" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
 
     // 状態のチップで個別解除すると全件に戻る
-    await page.getByRole("button", { name: "状態: サンプル ×" }).click();
+    await page.getByRole("button", { name: "状態: 正式 ×" }).click();
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
 
     // 転記状態（転記済み）: T18 で全81節が転記済みになったため、選択肢は「転記済み」のみで
     // 絞り込んでも全件のまま（未処理の節は存在しない）
     await page.getByLabel("転記状態").selectOption("転記済み");
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
-    await expect(page.getByText(/検索結果 合計 1902件/)).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
+    await expect(page.getByText(/検索結果 合計 1885件/)).toBeVisible();
 
     // すべての条件を解除すると全件表示と入力初期値に復帰する
     await page.getByRole("button", { name: "すべての条件を解除" }).click();
     await expect(page.getByRole("heading", { name: "教材（節） 81件" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: "問題 1821件" })).toBeVisible();
-    await expect(page.getByText(/検索結果 合計 1902件/)).toBeVisible();
+    await expect(page.getByRole("heading", { name: "問題 1804件" })).toBeVisible();
+    await expect(page.getByText(/検索結果 合計 1885件/)).toBeVisible();
     await expect(page.getByLabel("転記状態")).toHaveValue("");
   });
 });
@@ -407,14 +407,10 @@ test.describe("エラー・空状態（実装の実態どおり）", () => {
   test("選択式を未選択で確定すると不正解（スコア0%）として採点される", async ({ page }) => {
     await page.goto("#/practice");
     await expect(page.getByRole("heading", { name: "演習" })).toBeVisible();
-    // サンプルは明示選択時のみ（FIX1）。未選択のまま確定してもブロックされず 0% で採点される実態を固定する
-    await page.getByLabel("モード").selectOption("sample");
+    // 正式問題の四択だけに絞る（サンプルは全削除済み、#52）。未選択のまま確定してもブロックされず 0% で採点される実態を固定する
+    await page.getByRole("checkbox", { name: "四択" }).check();
     await page.getByLabel("出題順").selectOption("sequence");
-    await expect(
-      page.getByRole("heading", {
-        name: "[サンプル] このアプリで通常出題される正式問題の条件はどれか。",
-      }),
-    ).toBeVisible();
+    await expect(page.getByRole("group", { name: "選択肢" })).toBeVisible();
     await page.getByRole("button", { name: "回答を確定する" }).click();
     await expect(page.getByText("不正解（スコア 0%）")).toBeVisible();
     // UX12: 解説は詳細（details）の中。開いてから見える
@@ -495,7 +491,7 @@ test.describe("フラッシュカードの自己評価（C1）", () => {
         return `${Object.keys(s.srs).length}/${reps}`;
       })
       .toBe("2/0,1");
-    await expect(page.getByText(/評価済み 2 \/ 全 604 件/)).toBeVisible();
+    await expect(page.getByText(/評価済み 2 \/ 全 602 件/)).toBeVisible();
 
     // 再読み込み後、登録順の1枚目に戻ると保持された評価が状態表示に出る（1枚目は repetitions=0）
     await page.reload();

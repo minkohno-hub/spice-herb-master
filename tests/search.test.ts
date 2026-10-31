@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { ALL_SECTIONS } from "../src/data/structure";
 import { TRANSCRIPT_SECTION_TEXT } from "../src/data/transcripts";
-import { QUESTIONS, SAMPLE_QUESTIONS } from "../src/data/questions";
+import { QUESTIONS } from "../src/data/questions";
 import {
   DEFAULT_SEARCH_FILTERS,
   SEARCH_DIFFICULTIES,
@@ -16,11 +16,11 @@ import {
 
 // 横断検索の複合フィルタ（フェーズ7・バッチS1 = DECISIONS #31、
 // バッチS2で章・形式の複数選択と節・状態・転記状態を追加 = DECISIONS #33）。
-// 実測の固定値（2026-10-30）: 節81件（序章5・第一章26・第二章39・第三章6・検定情報5）、
-// 検索対象の問題は正式1,804問＋サンプル17問=1,821問。
+// 実測の固定値（2026-10-30、サンプル削除で 2026-10-31 更新）: 節81件（序章5・第一章26・第二章39・第三章6・検定情報5）、
+// 検索対象の問題は正式1,804問のみ（サンプル問題は全削除済み、DECISIONS #52）。
 // 問題には SearchPage と同じく所属節の転記状態を付与して検索プールにする。
 const SECTION_BY_ID = new Map(ALL_SECTIONS.map((s) => [s.id, s]));
-const POOL = [...QUESTIONS, ...SAMPLE_QUESTIONS].map((q) => ({
+const POOL = [...QUESTIONS].map((q) => ({
   ...q,
   sectionTranscriptionStatus: SECTION_BY_ID.get(q.sectionId)?.transcriptionStatus,
 }));
@@ -36,11 +36,11 @@ const withFilters = (patch: Partial<SearchFilters>): SearchFilters => ({
 });
 
 describe("横断検索フィルタ: 既定（後方互換）", () => {
-  it("条件なしでは従来どおり全件（節81件・問題1821件・合計1902件）", () => {
+  it("条件なしでは従来どおり全件（節81件・問題1804件・合計1885件）", () => {
     const r = run(DEFAULT_SEARCH_FILTERS);
     expect(r.sections).toHaveLength(81);
-    expect(r.questions).toHaveLength(1821);
-    expect(r.total).toBe(1902);
+    expect(r.questions).toHaveLength(1804);
+    expect(r.total).toBe(1885);
     expect(hasActiveSearchFilters(DEFAULT_SEARCH_FILTERS)).toBe(false);
   });
 
@@ -90,10 +90,10 @@ describe("横断検索フィルタ: 既定（後方互換）", () => {
       "table-fill",
       "composite",
     ]);
-    // サンプル込みのプールでは、サンプル限定の2形式も実在形式として返る
-    expect(availableSearchFormats(POOL)).toHaveLength(17);
-    expect(availableSearchFormats(POOL)).toContain("photo-id");
-    expect(availableSearchFormats(POOL)).toContain("flashcard");
+    // サンプル削除後はプール（=正式のみ）でも同じ15形式で、サンプル限定の2形式は返らない（#52）
+    expect(availableSearchFormats(POOL)).toHaveLength(15);
+    expect(availableSearchFormats(POOL)).not.toContain("photo-id");
+    expect(availableSearchFormats(POOL)).not.toContain("flashcard");
   });
 
   it("難易度の選択肢は実分布の1〜4のみで、各値に問題が実在し、5は存在しない", () => {
@@ -112,7 +112,7 @@ describe("横断検索フィルタ: 単独条件", () => {
     expect(secsOnly.questions).toHaveLength(0);
     const qsOnly = run(withFilters({ target: "questions" }));
     expect(qsOnly.sections).toHaveLength(0);
-    expect(qsOnly.questions).toHaveLength(1821);
+    expect(qsOnly.questions).toHaveLength(1804);
   });
 
   it("章（単一選択相当）: 節と問題の双方に適用される（序章=節5件・問題182件、第二章=節39件・問題1292件、検定情報=節5件・問題25件）", () => {
@@ -126,24 +126,24 @@ describe("横断検索フィルタ: 単独条件", () => {
     expect(ch2.sections).toHaveLength(39);
     expect(ch2.questions).toHaveLength(1292);
 
-    // 検定情報の問題25件 = 正式8問＋サンプル17問（サンプルは全て appendix）
+    // 検定情報の問題は正式8問のみ（サンプル17問は 2026-10-31 に全削除、#52）
     const appendix = run(withFilters({ chapterIds: ["appendix"] }));
     expect(appendix.sections).toHaveLength(5);
-    expect(appendix.questions).toHaveLength(25);
+    expect(appendix.questions).toHaveLength(8);
   });
 
-  it("問題形式（単一選択相当）: 指定すると節は対象外になり、問題はその形式だけになる（四択472件=正式471＋サンプル1）", () => {
+  it("問題形式（単一選択相当）: 指定すると節は対象外になり、問題はその形式だけになる（四択471件）", () => {
     const r = run(withFilters({ formats: ["single-choice"] }));
     expect(r.sections).toHaveLength(0);
-    expect(r.questions).toHaveLength(472);
+    expect(r.questions).toHaveLength(471);
     expect(r.questions.every((q) => q.format === "single-choice")).toBe(true);
     const one = run(withFilters({ formats: ["one-answer"] }));
-    expect(one.questions).toHaveLength(466);
+    expect(one.questions).toHaveLength(465);
   });
 
-  it("難易度: 指定すると節は対象外になり、実分布どおりに絞られる（1=759件・2=477件・3=415件・4=170件）", () => {
+  it("難易度: 指定すると節は対象外になり、実分布どおりに絞られる（1=742件・2=477件・3=415件・4=170件）", () => {
     const expected: Array<[1 | 2 | 3 | 4, number]> = [
-      [1, 759], // 正式742＋サンプル17（サンプルは全て難易度1）
+      [1, 742], // 正式のみ（サンプルは全削除済み、#52）
       [2, 477], // 較正済み469＋据え置き8を含む正式のみ
       [3, 415],
       [4, 170],
@@ -155,7 +155,7 @@ describe("横断検索フィルタ: 単独条件", () => {
       expect(r.questions.every((q) => q.difficulty === d)).toBe(true);
     }
     // 難易度別の合計が全問題数と一致する（取りこぼしがない）
-    expect(expected.reduce((a, [, c]) => a + c, 0)).toBe(1821);
+    expect(expected.reduce((a, [, c]) => a + c, 0)).toBe(1804);
   });
 });
 
@@ -174,8 +174,8 @@ describe("横断検索フィルタ: AND組み合わせと解除", () => {
       }),
     ];
     const totals = steps.map((f) => run(f).total);
-    // 実測: 全件1902 → キーワード10 → ＋序章4 → ＋一問一答1 → ＋難易度1は不変1
-    expect(totals).toEqual([1902, 10, 4, 1, 1]);
+    // 実測: 全件1885 → キーワード10 → ＋序章4 → ＋一問一答1 → ＋難易度1は不変1
+    expect(totals).toEqual([1885, 10, 4, 1, 1]);
     for (let i = 1; i < totals.length; i++) {
       expect(totals[i]!).toBeLessThanOrEqual(totals[i - 1]!);
     }
@@ -233,8 +233,8 @@ describe("横断検索フィルタ: AND組み合わせと解除", () => {
     expect(filtered.total).toBe(1);
     const cleared = run(DEFAULT_SEARCH_FILTERS);
     expect(cleared.sections).toHaveLength(81);
-    expect(cleared.questions).toHaveLength(1821);
-    expect(cleared.total).toBe(1902);
+    expect(cleared.questions).toHaveLength(1804);
+    expect(cleared.total).toBe(1885);
   });
 });
 
@@ -254,20 +254,20 @@ describe("横断検索フィルタ: 複数選択（次元内 OR、S2）", () => 
     ).toBe(true);
   });
 
-  it("章を全て選択すると条件なしと一致する（節81件・問題1836件）", () => {
+  it("章を全て選択すると条件なしと一致する（節81件・問題1804件）", () => {
     const all = run(
       withFilters({ chapterIds: ["preface", "ch1", "ch2", "ch3", "appendix"] }),
     );
     expect(all.sections).toHaveLength(81);
-    expect(all.questions).toHaveLength(1821);
-    expect(all.total).toBe(1902);
+    expect(all.questions).toHaveLength(1804);
+    expect(all.total).toBe(1885);
   });
 
-  it("形式の複数選択は OR で合算される（一問一答466＋四択472=938件）", () => {
+  it("形式の複数選択は OR で合算される（一問一答465＋四択471=936件）", () => {
     const one = run(withFilters({ formats: ["one-answer"] }));
     const both = run(withFilters({ formats: ["one-answer", "single-choice"] }));
     expect(both.sections).toHaveLength(0);
-    expect(both.questions).toHaveLength(938);
+    expect(both.questions).toHaveLength(936);
     const bothIds = new Set(both.questions.map((q) => q.id));
     expect(one.questions.every((q) => bothIds.has(q.id))).toBe(true);
     expect(
@@ -277,7 +277,7 @@ describe("横断検索フィルタ: 複数選択（次元内 OR、S2）", () => 
     ).toBe(true);
   });
 
-  it("正式15形式を全て選択すると、サンプル限定2形式の問題2件だけが外れる（1819件）", () => {
+  it("正式15形式を全て選択すると全問題が対象になる（1804件、サンプル限定形式は存在しない）", () => {
     const all15 = run(
       withFilters({
         formats: [
@@ -299,7 +299,7 @@ describe("横断検索フィルタ: 複数選択（次元内 OR、S2）", () => 
         ],
       }),
     );
-    expect(all15.questions).toHaveLength(1819);
+    expect(all15.questions).toHaveLength(1804);
     expect(all15.questions.some((q) => q.format === "photo-id")).toBe(false);
     expect(all15.questions.some((q) => q.format === "flashcard")).toBe(false);
   });
@@ -345,10 +345,10 @@ describe("横断検索フィルタ: 複数選択（次元内 OR、S2）", () => 
     expect(oneRemoved.questions).toHaveLength(182);
     const formats = withFilters({ formats: ["one-answer", "single-choice"] });
     const formatRemoved = run({ ...formats, formats: ["one-answer"] });
-    expect(formatRemoved.questions).toHaveLength(466);
+    expect(formatRemoved.questions).toHaveLength(465);
     // 空配列に戻せば無条件（全件）と一致する
-    expect(run({ ...both, chapterIds: [] }).total).toBe(1902);
-    expect(run({ ...formats, formats: [] }).total).toBe(1902);
+    expect(run({ ...both, chapterIds: [] }).total).toBe(1885);
+    expect(run({ ...formats, formats: [] }).total).toBe(1885);
   });
 });
 
@@ -378,22 +378,20 @@ describe("横断検索フィルタ: 節・状態・転記状態（S2）", () => 
     expect(r.total).toBe(0);
   });
 
-  it("状態の選択肢はプールに実在する正式・サンプルのみで、実在しない状態は出ない", () => {
-    expect(availableSearchStatuses(POOL)).toEqual(["verified", "sample"]);
+  it("状態の選択肢はプールに実在する正式のみで、実在しない状態は出ない", () => {
+    expect(availableSearchStatuses(POOL)).toEqual(["verified"]);
   });
 
-  it("状態: 指定すると節は対象外になり、問題はその状態だけになる（正式1804件・サンプル17件）", () => {
+  it("状態: 指定すると節は対象外になり、問題はその状態だけになる（正式1804件・サンプルは0件）", () => {
     const verified = run(withFilters({ status: "verified" }));
     expect(verified.sections).toHaveLength(0);
     expect(verified.questions).toHaveLength(1804);
     expect(verified.questions.every((q) => q.status === "verified")).toBe(true);
+    // サンプル問題は全削除済みのため、状態=サンプルでは0件になる（#52）
     const sample = run(withFilters({ status: "sample" }));
     expect(sample.sections).toHaveLength(0);
-    expect(sample.questions).toHaveLength(17);
-    expect(sample.questions.every((q) => q.status === "sample")).toBe(true);
-    // サンプルは全て検定情報（appendix）のため、第二章との AND は0件になる
-    expect(run(withFilters({ status: "sample", chapterIds: ["ch2"] })).total).toBe(0);
-    // 状態と難易度の AND: 正式の難易度1は742件（サンプル17件を含まない）
+    expect(sample.questions).toHaveLength(0);
+    // 状態と難易度の AND: 正式の難易度1は742件
     const v1 = run(withFilters({ status: "verified", difficulty: 1 }));
     expect(v1.questions).toHaveLength(742);
   });
@@ -402,13 +400,13 @@ describe("横断検索フィルタ: 節・状態・転記状態（S2）", () => 
     expect(availableTranscriptionStatuses(ALL_SECTIONS)).toEqual(["転記済み"]);
   });
 
-  it("転記状態: 節には直接、問題には所属節の転記状態で適用される（転記済み=節81件・問題1821件、未処理=節0件・問題0件）", () => {
+  it("転記状態: 節には直接、問題には所属節の転記状態で適用される（転記済み=節81件・問題1804件、未処理=節0件・問題0件）", () => {
     // UX4（DECISIONS #39）で world-drink・season-soy が転記済みになり、さらに T18 で
     // index が転記済みになったため、全81節が転記済みで未処理は0件になった。
     const done = run(withFilters({ transcriptionStatus: "転記済み" }));
     expect(done.sections).toHaveLength(81);
     expect(done.sections.every((s) => s.transcriptionStatus === "転記済み")).toBe(true);
-    expect(done.questions).toHaveLength(1821);
+    expect(done.questions).toHaveLength(1804);
     expect(
       done.questions.every((q) => q.sectionTranscriptionStatus === "転記済み"),
     ).toBe(true);

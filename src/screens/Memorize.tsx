@@ -114,7 +114,7 @@ export default function Memorize({ store, update }: { store: StoreData; update: 
    </>}
    {flip && <p>{EVAL_OPTIONS.map((o) => <button key={o.key} type="button" onClick={() => evaluate(o.key)} style={{ marginRight: ".5rem" }}>{o.label}</button>)}</p>}
   </section>
-  <p><button type="button" onClick={skip}>次へ</button></p>
+  <p><button type="button" disabled={pos === 0} onClick={() => { setFlip(false); setPos(pos - 1); }}>前へ</button>{" "}<button type="button" onClick={skip}>次へ</button></p>
   {/* 出題の向き（逆モード）の切替は下に置く（ユーザー指示 2026-10-31） */}
   <p role="group" aria-label="出題の向き">
    <button type="button" aria-pressed={!reverse} onClick={() => { setDirection("name-first"); setFlip(false); }}>名前 → プロフィール</button>{" "}

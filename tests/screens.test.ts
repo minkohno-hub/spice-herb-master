@@ -30,10 +30,12 @@ describe("画面スモーク（E1: 分割後の画面。UX2で設定、UX5で暗
     expect(html).toContain("545"); // 取り込み済み知識単位数
     expect(html).toContain("140"); // 転記済みページ数
   });
-  it("演習: サンプル問題が QuestionRunner で描画される", () => {
+  it("演習: 正式問題が QuestionRunner で描画され、前の問題ボタンがある（サンプルは全削除済み、#52）", () => {
     const html = render(createElement(Practice, { store, update }));
     expect(html).toContain("演習");
-    expect(html).toContain("サンプル");
+    expect(html).toContain("verified");
+    expect(html).toContain("前の問題へ");
+    expect(html).not.toContain("サンプル（通常出題対象外）");
   });
   it("リーダー: 目次と転記本文が描画される", () => {
     const html = render(createElement(Reader, { store, update }));
@@ -74,7 +76,7 @@ describe("画面スモーク（E1: 分割後の画面。UX2で設定、UX5で暗
     expect(html).toContain("検索対象");
     expect(html).toContain("検索結果 合計");
     // SSR では数値と「件」の間に React のコメントマーカーが挟まるため数値で固定する
-    expect(html).toContain("1902");
+    expect(html).toContain("1885");
   });
   it("品質管理: 検証集計が描画される", () => {
     const html = render(createElement(QaPage));
