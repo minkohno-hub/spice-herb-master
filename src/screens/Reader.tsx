@@ -1,6 +1,6 @@
 // 画面コンポーネント（バンドル分割バッチE1で src/App.tsx から分割。docs/DECISIONS.md #23）
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import { CHAPTERS, ALL_SECTIONS } from "../data/structure";
 import { QUESTIONS } from "../data/questions";
 import { IMPORTED_KNOWLEDGE_UNITS } from "../data/knowledge";
@@ -70,13 +70,13 @@ function buildIndexEntries(): { name: string; pages: number[] }[] {
   .sort((a, b) => a.name.localeCompare(b.name, "ja"));
 }
 
-function GeneratedIndex({ onJump }: { onJump: (sectionId: string) => void }) {
+function GeneratedIndex({ onJump }: { onJump: (sectionId: string, page: number) => void }) {
  const [q, setQ] = useState("");
  const entries = useMemo(buildIndexEntries, []);
  const shown = entries.filter((e) => !q || e.name.includes(q));
  const jumpToPage = (page: number) => {
   const target = [...ALL_SECTIONS].reverse().find((s) => s.bookPage <= page);
-  if (target) onJump(target.id);
+  if (target) onJump(target.id, page);
  };
  return <div>
   <p className="muted">この索引は、アプリに収録したスパイス＆ハーブのデータ（原文照合済み）から生成したものです。上の本書の索引の転記とは別に、ページ番号から該当する節へ移動する用途で使えます。</p>
@@ -88,6 +88,12 @@ function GeneratedIndex({ onJump }: { onJump: (sectionId: string) => void }) {
 
 export default function Reader({store,update}:{store:StoreData;update:any}){
  const [sel,setSel]=useState(store.reader.sectionId || ALL_SECTIONS[0]!.id); const [query,setQuery]=useState("");
+ const location = useLocation();
+ // FIX（DECISIONS #51）: ページ指定ジャンプ（改訂ポイント・索引）では、節の先頭では
+ // なく指定ページへ着地させる。遷移 state の targetPage を控え、節の描画後に
+ // そのページのアンカーへスクロールする（1回だけ消費する）。
+ const pendingTargetRef = useRef<number | null>(null);
+ useEffect(()=>{ const tp = (location.state as { targetPage?: number } | null)?.targetPage; if (typeof tp === "number") pendingTargetRef.current = tp; }, [location.key]);
  // 監査C-14是正: 問題画面・検索画面から reader.sectionId 経由で遷移してきた場合に追随する。
  useEffect(()=>{ if (store.reader.sectionId && store.reader.sectionId!==sel) setSel(store.reader.sectionId); }, [store.reader.sectionId]);
  // ユーザー要望対応（DECISIONS #35）: スマホでは目次が本文の上に積まれるため、
@@ -95,7 +101,15 @@ export default function Reader({store,update}:{store:StoreData;update:any}){
  // すぐ飛べるよう、本文の先頭へ自動でスクロールする。固定ヘッダーに本文が
  // 隠れないよう、本文側に scroll-margin-top（styles.css の #reader-page）を置く。
  const pageRef = useRef<HTMLElement | null>(null);
- useEffect(()=>{ pageRef.current?.scrollIntoView?.({ block: "start" }); }, [sel ]);
+ useEffect(()=>{
+  const tp = pendingTargetRef.current;
+  if (tp !== null) {
+   pendingTargetRef.current = null;
+   const el = document.getElementById(`reader-pg-${tp}`);
+   if (el) { el.scrollIntoView({ block: "start" }); return; }
+  }
+  pageRef.current?.scrollIntoView?.({ block: "start" });
+ }, [sel ]);
  const sec = ALL_SECTIONS.find(s=>s.id===sel) ?? ALL_SECTIONS[0]!;
  const secPages = transcriptPagesForSection(sec.id);
  // UX3: 転記がないページ（写真のみのページ・部分転記の欠け分）も原画で読めるよう、
@@ -117,14 +131,14 @@ export default function Reader({store,update}:{store:StoreData;update:any}){
  const filteredIds = new Set(filtered.map(s=>s.id));
  return <main data-dark={store.reader.dark}><h1>電子書籍リーダー</h1>
  <div className="split"><section className="card"><h2>目次（目次ページで照合済み）</h2><input aria-label="節検索" placeholder="語句検索" value={query} onChange={e=>setQuery(e.target.value)}/>
- {CHAPTERS.map(c=><div key={c.id}><h3>{c.label} {c.title}</h3><ul>{c.sections.filter(s=>filteredIds.has(s.id)).map(s=><li key={s.id}><button className="ghost" onClick={()=>{setSel(s.id); update((d:StoreData)=>{d.reader.sectionId=s.id; return d;});}}>{s.title}（p.{s.bookPage}）</button></li>)}</ul></div>)}
+ {CHAPTERS.map(c=><div key={c.id}><h3>{c.label} {c.title}</h3><ul>{c.sections.filter(s=>filteredIds.has(s.id)).map(s=><li key={s.id}><button className="ghost" onClick={()=>{pendingTargetRef.current=null; setSel(s.id); update((d:StoreData)=>{d.reader.sectionId=s.id; return d;});}}>{s.title}（p.{s.bookPage}）</button></li>)}</ul></div>)}
  <div><h3>本書の表紙・目次（原画）</h3>{FRONT_MATTER_IMAGES.map(e=><PageImage key={e.imageId} imageId={e.imageId} label={e.imageId} />)}</div>
  </section>
  <section className="card" id="reader-page" ref={pageRef} style={{fontSize: store.reader.fontSize}}><h2>{sec.title}</h2><p className="muted">書籍 p.{sec.bookPage} ／ 転記状態: {sec.transcriptionStatus}</p>
  {secPages.length===0 ? <p>この節の本文はまだ転記されていません。原本画像を目視読解して転記したテキストのみがここに掲載されます。推測で本文を補うことはしません。</p>
- : secPages.map((p,pi)=><div key={p.bookPage}><p className="muted">― 本書 p.{p.bookPage}（出典画像 {p.imageId}.PNG）―</p><PageImage imageId={p.imageId} label={`本書 p.${p.bookPage}`} defaultOpen={pi===0} />{p.blocks.map((b,i)=><TranscriptBlockView key={i} b={b}/>)}{p.unclear.length>0 && <p className="muted">不明瞭箇所: {p.unclear.map(u=>`${u.location}: ${u.note}`).join(" ／ ")}</p>}</div>)}
- {sec.id==="index" && secPages.length>0 && <div><h3>アプリ収録データからの索引（ページへ移動できます）</h3><GeneratedIndex onJump={(sid)=>{setSel(sid); update((d:StoreData)=>{d.reader.sectionId=sid; return d;});}} /></div>}
- {extraPageImages.length>0 && <div><h3>{secPages.length===0 ? "この節の原画" : "この節の他のページの原画"}</h3>{extraPageImages.map(e=><PageImage key={e.imageId} imageId={e.imageId} label={`本書 p.${e.bookPage}`} />)}</div>}
+ : secPages.map((p,pi)=><div key={p.bookPage} id={`reader-pg-${p.bookPage}`} className="reader-pg"><p className="muted">― 本書 p.{p.bookPage}（出典画像 {p.imageId}.PNG）―</p><PageImage imageId={p.imageId} label={`本書 p.${p.bookPage}`} defaultOpen={pi===0} />{p.blocks.map((b,i)=><TranscriptBlockView key={i} b={b}/>)}{p.unclear.length>0 && <p className="muted">不明瞭箇所: {p.unclear.map(u=>`${u.location}: ${u.note}`).join(" ／ ")}</p>}</div>)}
+ {sec.id==="index" && secPages.length>0 && <div><h3>アプリ収録データからの索引（ページへ移動できます）</h3><GeneratedIndex onJump={(sid,page)=>{pendingTargetRef.current=page; setSel(sid); update((d:StoreData)=>{d.reader.sectionId=sid; return d;});}} /></div>}
+ {extraPageImages.length>0 && <div><h3>{secPages.length===0 ? "この節の原画" : "この節の他のページの原画"}</h3>{extraPageImages.map(e=><div key={e.imageId} id={`reader-pg-${e.bookPage}`} className="reader-pg"><PageImage imageId={e.imageId} label={`本書 p.${e.bookPage}`} /></div>)}</div>}
  <p className="muted">表示設定: ダークモードは全画面共通（設定画面からも切り替えできます）。フォントサイズはこのリーダーの本文だけに適用されます。</p>
  <label>フォントサイズ<input type="range" min={14} max={22} value={store.reader.fontSize} onChange={e=>update((d:StoreData)=>{d.reader.fontSize=Number(e.target.value); return d;})}/></label>
  <p><button className="ghost" onClick={()=>update((d:StoreData)=>{d.reader.dark=!d.reader.dark; return d;})}>ダークモード切替</button> <button className="ghost" onClick={()=>update((d:StoreData)=>{ if(!d.reader.bookmarks.includes(sec.id)) d.reader.bookmarks.push(sec.id); return d;})}>しおり</button></p>

@@ -35,7 +35,8 @@ export default function Revision({ update }: { store: StoreData; update: any }) 
       d.reader.sectionId = sid;
       return d;
     });
-    navigate("/reader");
+    // FIX（DECISIONS #51）: 節の先頭ではなく、指定ページそのものへ着地させる
+    navigate("/reader", { state: { targetPage: page } });
   };
   const pageButton = (page: number) => (
     <button type="button" onClick={() => jump(page)}>
@@ -45,11 +46,6 @@ export default function Revision({ update }: { store: StoreData; update: any }) 
   return (
     <main>
       <h1>改訂ポイント（4訂版）</h1>
-      <p className="badge">
-        このアプリの教材である公式テキスト「4訂版」で、旧版（2020年発行「最新版」）から変わった点を、
-        {REVISION_SOURCE.publisher}の公式資料（{REVISION_SOURCE.date}）から抜粋してまとめました。
-        2027年以降の検定は4訂版からのみ出題されるため、旧版で学んだ人は特に確認してください。
-      </p>
 
       <section className="card">
         <h2>試験への対応</h2>
@@ -138,6 +134,13 @@ export default function Revision({ update }: { store: StoreData; update: any }) 
           </a>
         </p>
       </section>
+
+      {/* 黄色い説明ブロックは下に置く（ユーザー指示 2026-10-31、UX11） */}
+      <p className="badge">
+        このアプリの教材である公式テキスト「4訂版」で、旧版（2020年発行「最新版」）から変わった点を、
+        {REVISION_SOURCE.publisher}の公式資料（{REVISION_SOURCE.date}）から抜粋してまとめました。
+        2027年以降の検定は4訂版からのみ出題されるため、旧版で学んだ人は特に確認してください。
+      </p>
     </main>
   );
 }

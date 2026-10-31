@@ -25,3 +25,17 @@ table{border-collapse:collapse;width:100%;display:block;overflow-x:auto} th,td{b
 .split{display:grid;grid-template-columns:1fr 1fr;gap:1rem} @media(max-width:760px){.split{grid-template-columns:1fr}}
 #reader-page{scroll-margin-top:4rem} @media(max-width:760px){#reader-page{scroll-margin-top:7rem}}
 .flash{min-height:180px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:1.2rem;cursor:pointer}
+/* UX12（DECISIONS #49）: スクロールなしで気楽に遊べるよう、縦の余白を全体に詰める。
+   見出しと段落のマージン、カードの内側、メイン上部の余白を圧縮する（上部バーの寸法は不変）。
+   詳細・注釈は下に置く方針と合わせ、details の要約行は控えめに表示する。 */
+main{padding-top:.55rem}
+h1{font-size:1.55rem;line-height:1.3;margin:.25rem 0 .5rem}
+h2{font-size:1.3rem;line-height:1.35;margin:.55rem 0 .35rem}
+h3{font-size:1.12rem;line-height:1.4;margin:.5rem 0 .3rem}
+p{margin:.45rem 0}
+.card{padding:.85rem}
+.flash{min-height:140px}
+details.result-details{margin-top:.4rem}
+details.result-details>summary{cursor:pointer;color:var(--accent);min-height:44px;display:flex;align-items:center}
+/* ページ指定ジャンプの着地点（DECISIONS #51）: 固定ヘッダーに隠れないよう余白を取る */
+.reader-pg{scroll-margin-top:4rem} @media(max-width:760px){.reader-pg{scroll-margin-top:7rem}}

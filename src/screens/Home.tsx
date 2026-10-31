@@ -15,7 +15,6 @@ export default function Home({store,update}:{store:StoreData;update:any}){
  const stats = computeStats(store.records, []);
  const today = todayKey(); const todayCount = store.records.filter(r=>dateKeyOfIso(r.answeredAt)===today).length;
  return <main><h1>スパイス＆ハーブ検定1級 学習アプリ</h1>
- <p className="badge">正式問題は、原文照合済み（verified）の知識単位から生成し、出典・正答の検証を通ったものだけを登録しています。本文の全文転記は {APP_DATA_SUMMARY.transcribedPages}ページまで転記済みです（未転記の節はリーダーで明示します）。</p>
  <section className="grid" aria-label="主要機能">
   <div className="card"><h2>とりあえず5問</h2><p>設定なしで、正式問題からランダムに5問だけ出題します</p><Link className="btn" to="/practice" state={{ focus: "all", count: 5, quickStart: true }}>5問始める</Link></div>
   <div className="card"><h2>前回の続き</h2><p>{store.reader.sectionId? `読書位置: ${SECTION_TITLE.get(store.reader.sectionId) ?? store.reader.sectionId}` : "まだ読書位置がありません"}</p><Link className="btn" to="/reader">電子書籍を開く</Link></div>
@@ -30,5 +29,7 @@ export default function Home({store,update}:{store:StoreData;update:any}){
   <div className="card"><h2>今日の目標</h2><label>1日の目標（問）<input type="number" min={1} value={store.goalPerDay} onChange={e=>update((d:StoreData)=>({...d,goalPerDay:Number(e.target.value)||10}))}/></label><p>達成: {todayCount}/{store.goalPerDay}</p></div>
  </section>
  <section className="card"><h2>教材の状態（正直な表示）</h2><p>取り込み済み画像: {APP_DATA_SUMMARY.presentImages}件 ／ 欠落: {APP_DATA_SUMMARY.missingImages}件（IMG_9647.PNG）／ 全文転記: {APP_DATA_SUMMARY.transcribedPages}ページ転記済み（原本画像 {APP_DATA_SUMMARY.presentImages}件中。それ以外は未実施） ／ 取り込み済み知識単位: {APP_DATA_SUMMARY.importedKnowledgeUnits}件（原文照合済み {APP_DATA_SUMMARY.verifiedImportedKnowledgeUnits}件・未検証 {APP_DATA_SUMMARY.unverifiedImportedKnowledgeUnits}件・出典: {APP_DATA_SUMMARY.knowledgeImportOrigin}）／ 検証済み知識単位: {APP_DATA_SUMMARY.verifiedKnowledgeUnits}件 ／ 正式問題: {APP_DATA_SUMMARY.formalQuestions}問</p><p className="muted">「全文収録済み」ではありません。収録範囲は本文テキスト・表データと、各ページの原画（スキャンを圧縮した画像）です。原画は電子書籍リーダーの各ページで表示できます。取り込み済み知識単位は、原本画像との照合を終えたものだけを「原文照合済み」として区別表示します。詳細は docs/SOURCE_COVERAGE.md を参照。</p></section>
+ {/* 黄色い説明ブロックは下に置く（ユーザー指示 2026-10-31、UX11） */}
+ <p className="badge">正式問題は、原文照合済み（verified）の知識単位から生成し、出典・正答の検証を通ったものだけを登録しています。本文の全文転記は {APP_DATA_SUMMARY.transcribedPages}ページまで転記済みです（未転記の節はリーダーで明示します）。</p>
  </main>;
 }

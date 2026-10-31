@@ -102,8 +102,8 @@ describe("画面スモーク（E1: 分割後の画面。UX2で設定、UX5で暗
     expect(html).toContain("プロフィールを表示（答え合わせ）");
     expect(html).toContain("評価済み（累計）");
     expect(html).toContain("最初から回し直す");
-    // UX10: 答え合わせなしで進めるボタンと、逆モードの切替が出る
-    expect(html).toContain("次へ（答え合わせしない）");
+    // UX10: 答え合わせなしで進めるボタンと、逆モードの切替が出る（ラベルは「次へ」のみ、2026-10-31是正）
+    expect(html).toContain("次へ</button>");
     expect(html).toContain("プロフィール → 名前（逆）");
   });
   it("リーダー: 世界のドリンクは自節の転記本文が表示される（UX4）", () => {

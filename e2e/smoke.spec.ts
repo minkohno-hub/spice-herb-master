@@ -1,4 +1,4 @@
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test, type Locator, type Page } from "@playwright/test";
 
 /**
  * 主要フローのスモーク E2E（フェーズ7・バッチE2）。
@@ -248,7 +248,7 @@ test.describe("暗記モード（UX5）", () => {
     await page.getByRole("link", { name: "暗記を始める" }).click();
     await expect(page.getByText("1 / 80種")).toBeVisible();
     // 答え合わせも自己評価もしていない状態で「次へ」が使える
-    await page.getByRole("button", { name: "次へ（答え合わせしない）" }).click();
+    await page.getByRole("button", { name: "次へ", exact: true }).click();
     await expect(page.getByText("2 / 80種")).toBeVisible();
     await expect(page.getByText(/この周の「覚えた」: 0種/)).toBeVisible();
     await expect(page.getByText(/評価済み（累計）: 0 \/ 80種/)).toBeVisible();
@@ -284,6 +284,9 @@ test.describe("演習", () => {
     await page.getByLabel("回答入力").fill("芳香性植物");
     await page.getByRole("button", { name: "回答を確定する" }).click();
     await expect(page.getByText("正解（スコア 100%）")).toBeVisible();
+    // UX12: 解説は詳細（details）の中に畳まれている。開いてから見える
+    await expect(page.getByText(/解説:/)).toBeHidden();
+    await page.getByText("解説・出典などの詳細を見る").click();
     await expect(page.getByText(/解説:/)).toBeVisible();
   });
 
@@ -324,6 +327,93 @@ test.describe("演習", () => {
     await page.getByText("出典が検証済みの問題", { exact: true }).click();
     await page.getByRole("button", { name: "回答を確定する" }).click();
     await expect(page.getByText("正解（スコア 100%）")).toBeVisible();
+  });
+});
+
+test.describe("画面遷移とスクロール（UX11）", () => {
+  test("電子書籍で下まで読んでも、他タブへ移ると一番上に戻る", async ({ page }) => {
+    await page.goto("#/reader");
+    await expect(page.getByRole("heading", { name: "電子書籍リーダー" })).toBeVisible();
+    await page.evaluate(() => window.scrollTo(0, 1500));
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(400);
+    await page.getByRole("link", { name: "演習", exact: true }).click();
+    await expect(page.getByRole("heading", { name: "演習" })).toBeVisible();
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
+  });
+
+  test("黄色い説明ブロックはホームの末尾にある（UX11）", async ({ page }) => {
+    await openHome(page);
+    const badge = page.locator("main p.badge");
+    await expect(badge).toHaveCount(1);
+    // バッジは主要機能グリッドより後（=画面の下部）にある
+    const gridBox = await page.locator("main section.grid").boundingBox();
+    const badgeBox = await badge.boundingBox();
+    expect(gridBox).not.toBeNull();
+    expect(badgeBox).not.toBeNull();
+    expect(badgeBox!.y).toBeGreaterThan(gridBox!.y);
+  });
+});
+
+test.describe("改訂ポイントのページジャンプ（DECISIONS #51）", () => {
+  test("p.106 のボタンを押すと、節の先頭ではなく p.106 に着地する", async ({ page }) => {
+    await page.goto("#/revision");
+    await expect(page.getByRole("heading", { name: "改訂ポイント（4訂版）" })).toBeVisible();
+    await page.getByRole("button", { name: "4訂版 p.106 を読む" }).first().click();
+    await expect(page.getByRole("heading", { name: "電子書籍リーダー" })).toBeVisible();
+    const anchor = page.locator("#reader-pg-106");
+    await expect(anchor).toBeAttached();
+    // 着地: p.106 のマーカーがビューポート上部に来ている（節先頭 p.98 ではない）
+    await expect
+      .poll(async () => {
+        const box = await anchor.boundingBox();
+        return box ? Math.round(box.y) : 99999;
+      })
+      .toBeLessThan(500);
+    const box = await anchor.boundingBox();
+    expect(box!.y).toBeGreaterThan(-50);
+  });
+
+  test("p.71（タイム）のボタンは p.71 に着地する", async ({ page }) => {
+    await page.goto("#/revision");
+    await page.getByRole("button", { name: "4訂版 p.71 を読む" }).first().click();
+    await expect(page.getByRole("heading", { name: "電子書籍リーダー" })).toBeVisible();
+    const anchor = page.locator("#reader-pg-71");
+    await expect(anchor).toBeAttached();
+    await expect
+      .poll(async () => {
+        const box = await anchor.boundingBox();
+        return box ? Math.round(box.y) : 99999;
+      })
+      .toBeLessThan(500);
+  });
+});
+
+test.describe("プルダウンと絞り込みの配置（UX13）", () => {
+  const docTop = async (loc: Locator) =>
+    loc.evaluate((e) => (e as HTMLElement).getBoundingClientRect().top + window.scrollY);
+
+  test("単語帳: プルダウンはカードの下にある", async ({ page }) => {
+    await page.goto("#/cards");
+    await expect(page.getByRole("heading", { name: "フラッシュカード・単語帳" })).toBeVisible();
+    const cardTop = await docTop(page.getByRole("button", { name: "カード反転" }));
+    const selTop = await docTop(page.getByLabel("種別"));
+    expect(selTop).toBeGreaterThan(cardTop);
+  });
+
+  test("演習: 設定と絞り込みは問題の下にある", async ({ page }) => {
+    await page.goto("#/practice");
+    await expect(page.getByRole("heading", { name: "演習" })).toBeVisible();
+    const qTop = await docTop(page.locator('[aria-label="問題"]'));
+    const modeTop = await docTop(page.getByLabel("モード"));
+    expect(modeTop).toBeGreaterThan(qTop);
+  });
+
+  test("検索: 絞り込み条件は検索結果の下にある", async ({ page }) => {
+    await page.goto("#/search");
+    await expect(page.getByRole("heading", { name: "絞り込み条件" })).toBeAttached();
+    const resultTop = await docTop(page.getByRole("heading", { name: /問題 \d+件/ }));
+    const filterTop = await docTop(page.getByRole("heading", { name: "絞り込み条件" }));
+    expect(filterTop).toBeGreaterThan(resultTop);
   });
 });
 

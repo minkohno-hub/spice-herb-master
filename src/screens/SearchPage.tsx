@@ -154,6 +154,58 @@ export default function SearchPage({ update }: { update?: (fn: (d: StoreData) =>
         value={filters.keyword}
         onChange={(e) => set({ keyword: e.target.value })}
       />
+      <section className="card">
+        <h2>教材（節） {secs.length}件</h2>
+        {secs.length === 0 ? (
+          <p className="muted">該当する教材（節）はありません。</p>
+        ) : (
+          <ul>
+            {secs.slice(0, 30).map((s) => {
+              // タイトルに一致せず本文にだけ一致した節は、一致箇所の抜粋を示す（監査C-15）
+              const excerpt =
+                filters.keyword && !s.title.includes(filters.keyword)
+                  ? keywordExcerpt(s.bodyText ?? "", filters.keyword)
+                  : null;
+              return (
+                <li key={s.id}>
+                  {s.title}（p.{s.bookPage}・{s.transcriptionStatus}）{" "}
+                  <button
+                    type="button"
+                    className="ghost"
+                    onClick={() => {
+                      update?.((d: StoreData) => { d.reader.sectionId = s.id; return d; });
+                      navigate("/reader");
+                    }}
+                  >
+                    リーダーで開く
+                  </button>
+                  {excerpt && (
+                    <>
+                      <br />
+                      <span className="muted">{excerpt}</span>
+                    </>
+                  )}
+                </li>
+              );
+            })}
+          </ul>
+        )}
+      </section>
+      <section className="card">
+        <h2>問題 {qs.length}件</h2>
+        {qs.length === 0 ? (
+          <p className="muted">該当する問題はありません。</p>
+        ) : (
+          <ul>
+            {qs.map((x) => (
+              <li key={x.id}>
+                [{FORMAT_LABELS[x.format]}/{x.status}] {x.prompt.slice(0, 80)}{" "}
+                <Link to="/practice" state={{ questionId: x.id }}>演習で開く</Link>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
       <section className="card" aria-label="検索条件">
         <h2>絞り込み条件</h2>
         <div
@@ -303,58 +355,6 @@ export default function SearchPage({ update }: { update?: (fn: (d: StoreData) =>
           条件はキーワードと組み合わされます。章・問題形式は複数選択でき、同じ条件の中ではいずれかに一致すれば対象になります（OR）。異なる条件の間は
           AND です。問題形式・難易度・問題の状態は問題固有の条件のため、指定した場合は教材（節）は対象外になります。転記状態は、問題については所属する節の転記状態で判定します。
         </p>
-      </section>
-      <section className="card">
-        <h2>教材（節） {secs.length}件</h2>
-        {secs.length === 0 ? (
-          <p className="muted">該当する教材（節）はありません。</p>
-        ) : (
-          <ul>
-            {secs.slice(0, 30).map((s) => {
-              // タイトルに一致せず本文にだけ一致した節は、一致箇所の抜粋を示す（監査C-15）
-              const excerpt =
-                filters.keyword && !s.title.includes(filters.keyword)
-                  ? keywordExcerpt(s.bodyText ?? "", filters.keyword)
-                  : null;
-              return (
-                <li key={s.id}>
-                  {s.title}（p.{s.bookPage}・{s.transcriptionStatus}）{" "}
-                  <button
-                    type="button"
-                    className="ghost"
-                    onClick={() => {
-                      update?.((d: StoreData) => { d.reader.sectionId = s.id; return d; });
-                      navigate("/reader");
-                    }}
-                  >
-                    リーダーで開く
-                  </button>
-                  {excerpt && (
-                    <>
-                      <br />
-                      <span className="muted">{excerpt}</span>
-                    </>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        )}
-      </section>
-      <section className="card">
-        <h2>問題 {qs.length}件</h2>
-        {qs.length === 0 ? (
-          <p className="muted">該当する問題はありません。</p>
-        ) : (
-          <ul>
-            {qs.map((x) => (
-              <li key={x.id}>
-                [{FORMAT_LABELS[x.format]}/{x.status}] {x.prompt.slice(0, 80)}{" "}
-                <Link to="/practice" state={{ questionId: x.id }}>演習で開く</Link>
-              </li>
-            ))}
-          </ul>
-        )}
       </section>
     </main>
   );

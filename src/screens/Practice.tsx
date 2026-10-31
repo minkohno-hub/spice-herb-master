@@ -132,6 +132,78 @@ export default function Practice({ store, update }: { store: StoreData; update: 
   return (
     <main>
       <h1>演習</h1>
+      {done ? (
+        <section className="card" aria-label="セッション結果">
+          <h2>セッション完了</h2>
+          <p>
+            {answeredInSession} 問に回答し、正解 {correctInSession} 問（正答率{" "}
+            {answeredInSession ? Math.round((correctInSession / answeredInSession) * 100) : 0}%）でした。記録は学習分析に保存されています。
+          </p>
+          <p>
+            <button onClick={() => restart({})}>同じ条件でもう一度</button>
+            {!quickStart && (
+              <>
+                {" "}
+                <button
+                  className="ghost"
+                  onClick={() => { setFilters(DEFAULT_PRACTICE_FILTERS); restart({ filters: DEFAULT_PRACTICE_FILTERS }); }}
+                >
+                  条件をリセット
+                </button>
+              </>
+            )}
+          </p>
+        </section>
+      ) : !q ? (
+        <p className="card">
+          現在の条件に合う問題がありません。条件を緩めるか、学習フォーカスを「すべて」に戻してください。「問題が存在しない」ことを学習済みと誤認しないでください。
+        </p>
+      ) : (
+        <>
+          <p className="muted">セッション {Math.min(idx + 1, sessionQs.length)} / {sessionQs.length} 問</p>
+          <QuestionRunner
+            key={q.id}
+            q={q}
+            onGraded={(r: GradeResult, self, responseMs) => {
+              update((d: StoreData) => {
+                d.records.push({ questionId: q.id, answeredAt: new Date().toISOString(), correct: r.correct, scoreRatio: r.scoreRatio, autoScoreRatio: r.autoScoreRatio, selfScoreRatio: self, responseMs });
+                const cur = d.srs[q.id] ?? initSrs(q.id);
+                d.srs[q.id] = reviewSrs(cur, qualityFromResult(r.correct, r.scoreRatio));
+                return d;
+              });
+              setResults((rs) => [...rs, { questionId: q.id, correct: r.correct }]);
+            }}
+            onSelfScore={(self) => {
+              update((d: StoreData) => {
+                const i = d.records.map((x, j) => (x.questionId === q.id ? j : -1)).filter((j) => j >= 0).pop();
+                if (i !== undefined) { const rec = d.records[i]; if (rec) rec.selfScoreRatio = self; }
+                return d;
+              });
+            }}
+            onOpenSection={(sectionId) => {
+              update((d: StoreData) => { d.reader.sectionId = sectionId; return d; });
+              navigate("/reader");
+            }}
+          />
+          <p>
+            <button className="ghost" onClick={() => (idx + 1 >= sessionQs.length ? setDone(true) : setIdx(idx + 1))}>
+              {idx + 1 >= sessionQs.length ? "セッションを終了する" : "次の問題へ"}
+            </button>{" "}
+            <button
+              className="ghost"
+              onClick={() =>
+                update((d: StoreData) => ({
+                  ...d,
+                  favorites: isFav ? d.favorites.filter((x) => x !== q.id) : [...d.favorites, q.id],
+                }))
+              }
+            >
+              {isFav ? "ブックマークから外す" : "ブックマークに追加"}
+            </button>
+          </p>
+        </>
+      )}
+      {/* UX13: 設定と絞り込みは問題の下に置く（ユーザー指示） */}
       {!quickStart && (
         <>
       <label>
@@ -250,77 +322,6 @@ export default function Practice({ store, update }: { store: StoreData; update: 
           対象プール {poolCount} 問から、問題数ぶんを1セッションとして出題します。条件を変えるとセッションは組み直されます。
         </p>
       </section>
-        </>
-      )}
-      {done ? (
-        <section className="card" aria-label="セッション結果">
-          <h2>セッション完了</h2>
-          <p>
-            {answeredInSession} 問に回答し、正解 {correctInSession} 問（正答率{" "}
-            {answeredInSession ? Math.round((correctInSession / answeredInSession) * 100) : 0}%）でした。記録は学習分析に保存されています。
-          </p>
-          <p>
-            <button onClick={() => restart({})}>同じ条件でもう一度</button>
-            {!quickStart && (
-              <>
-                {" "}
-                <button
-                  className="ghost"
-                  onClick={() => { setFilters(DEFAULT_PRACTICE_FILTERS); restart({ filters: DEFAULT_PRACTICE_FILTERS }); }}
-                >
-                  条件をリセット
-                </button>
-              </>
-            )}
-          </p>
-        </section>
-      ) : !q ? (
-        <p className="card">
-          現在の条件に合う問題がありません。条件を緩めるか、学習フォーカスを「すべて」に戻してください。「問題が存在しない」ことを学習済みと誤認しないでください。
-        </p>
-      ) : (
-        <>
-          <p className="muted">セッション {Math.min(idx + 1, sessionQs.length)} / {sessionQs.length} 問</p>
-          <QuestionRunner
-            key={q.id}
-            q={q}
-            onGraded={(r: GradeResult, self, responseMs) => {
-              update((d: StoreData) => {
-                d.records.push({ questionId: q.id, answeredAt: new Date().toISOString(), correct: r.correct, scoreRatio: r.scoreRatio, autoScoreRatio: r.autoScoreRatio, selfScoreRatio: self, responseMs });
-                const cur = d.srs[q.id] ?? initSrs(q.id);
-                d.srs[q.id] = reviewSrs(cur, qualityFromResult(r.correct, r.scoreRatio));
-                return d;
-              });
-              setResults((rs) => [...rs, { questionId: q.id, correct: r.correct }]);
-            }}
-            onSelfScore={(self) => {
-              update((d: StoreData) => {
-                const i = d.records.map((x, j) => (x.questionId === q.id ? j : -1)).filter((j) => j >= 0).pop();
-                if (i !== undefined) { const rec = d.records[i]; if (rec) rec.selfScoreRatio = self; }
-                return d;
-              });
-            }}
-            onOpenSection={(sectionId) => {
-              update((d: StoreData) => { d.reader.sectionId = sectionId; return d; });
-              navigate("/reader");
-            }}
-          />
-          <p>
-            <button className="ghost" onClick={() => (idx + 1 >= sessionQs.length ? setDone(true) : setIdx(idx + 1))}>
-              {idx + 1 >= sessionQs.length ? "セッションを終了する" : "次の問題へ"}
-            </button>{" "}
-            <button
-              className="ghost"
-              onClick={() =>
-                update((d: StoreData) => ({
-                  ...d,
-                  favorites: isFav ? d.favorites.filter((x) => x !== q.id) : [...d.favorites, q.id],
-                }))
-              }
-            >
-              {isFav ? "ブックマークから外す" : "ブックマークに追加"}
-            </button>
-          </p>
         </>
       )}
     </main>

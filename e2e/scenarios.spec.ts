@@ -417,6 +417,8 @@ test.describe("エラー・空状態（実装の実態どおり）", () => {
     ).toBeVisible();
     await page.getByRole("button", { name: "回答を確定する" }).click();
     await expect(page.getByText("不正解（スコア 0%）")).toBeVisible();
+    // UX12: 解説は詳細（details）の中。開いてから見える
+    await page.getByText("解説・出典などの詳細を見る").click();
     await expect(page.getByText(/解説:/)).toBeVisible();
   });
 });
